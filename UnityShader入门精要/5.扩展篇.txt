@@ -1,4 +1,4 @@
-Unity的表面着色器探秘
+17. Unity的表面着色器探秘
 	
 	#pragma surface surfaceFunction lightModel [optional params]
 	
@@ -62,7 +62,7 @@ Unity的表面着色器探秘
 				6. 其他对颜色的修改，如逐顶点光照		//光照图vs逐顶点光照
 				7. 最后的颜色修改函数 [可选]
 	
-基于物理的渲染
+18. 基于物理的渲染
 		光 	吸收 + 反射(高光反射) + 折射(吸收 + 次表面散射)  菲涅尔描述了发射和折射比率
 		双向反射分布函数 BRDF  f(l*v)  l为入射方向，v为观察方向，直观的理解：当一束光线沿着入射方向l到达表面某点时，f(l*v)表示有多少部分能量被反射到了观察方向v上
 		漫反射项
@@ -80,13 +80,13 @@ Unity的表面着色器探秘
 		
 		UnityPBSLighting.cginc				定义表面着色器使用的相关结构体 LightingStandardSpecular，SurfaceOutputStandardSpecular结构体
 		UnityStandardCore.cginc			定义Standard Shader的顶点片元着色器相关 vertForwardBase, fragForwardBase
-		UnityStandardBRDF.cginc
-		UnityStandardInput.cginc
-		UnityStandardUtils.cginc
-		UnityStandardConfig.cginc
-		UnityStandardMeta.cginc
-		UnityStandardShadow.cginc
-		UnityGlobalIllumination.cginc
+		UnityStandardBRDF.cginc			实现了 BRDF1_Unity_PBS, BRDF2_Unity_PBS, BRDF3_Unity_PBS
+		UnityStandardInput.cginc			声明了Standard Shader使用的输入，如VertexInput，并定义了辅助函数TexCoords, Albedo, Occlusion, SpecularGloss
+		UnityStandardUtils.cginc			辅助函数
+		UnityStandardConfig.cginc		Standard Shader的配置
+		UnityStandardMeta.cginc			定义了LightMode为Meta的pass，用于提取光照图纹理和全局光照信息
+		UnityStandardShadow.cginc		定义了LightMode为ShadowCaster的pass
+		UnityGlobalIllumination.cginc	定义了全局光照相关函数，如UnityGlobalIllumination函数
 		
 		vertForwardBase
 		fragForwardBase
