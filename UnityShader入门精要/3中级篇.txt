@@ -16,10 +16,34 @@
 		逐顶点不支持阴影，法线映射，高精度高光反射等
 		ShadeVertexLights 和 ShadeVertexLightsFull 计算聚光灯和点光源的光照结果
 	延迟渲染
+		主要包含两个Pass		1. 用深度缓冲技术判断哪些片元是可见的，如果可见就把相关信息存储到GBuffer中
+		2.	利用GBuffer中的各个片元信息，如表面法线，视角方向，漫反射系数等进行光照计算
+		缺点: 1. 不支持真正的抗锯齿	2. 不能处理半透明物体	3. 显卡必须支持 MRT, 深度纹理，双面模板缓冲
+		默认的GBuffer包括: 
+			RT0: ARGB32 存储漫反射颜色
+			RT1: ARGB32 存储高光反射颜色
+			RT2: ARGB2101010 RGB用于存储法线
+			RT3: ARGB32或ARGBHalf 存储自发光 + lightmap + 反射探针
+
+	光源类型: 	平行光，点光源，聚光灯，面光源	常用属性: 位置，方向，颜色，强度，衰减
 		
+	阴影
+		shadowmap技术，把摄像机位置放在与光源重合的位置上，那么光源的阴影区域就是摄像机看不到的地方
+		正常渲染中，把顶点位置变换到光源空间，使用xy分量对阴影映射纹理进行采样，得到在位置的深度信息，如果深度值小于该顶点的深度值(z分量)，说明该点位于阴影中
+		LightMode为ShadowCaster的  pass，目标是深度纹理
+	屏幕空间阴影				//和光源空间相比，多一个摄像机的深度纹理
+		先用ShadowCaster Pass得到光源的阴影映射纹理和摄像机的深度纹理，然后得到屏幕空间的阴影图
+		如果摄像机的深度图中表面深度大于转换到阴影映射纹理中的深度值，说明表面是可见的，但处在光源的阴影中
+		阴影图包含了屏幕空间的阴影区域，如果物体接受阴影，只需要对阴影图进行采样
 
 10. 高级纹理
+		Skybox立方体纹理， Unity的Camera.RenderToCubemap可以把场景图像存储到6张图像中
+		反射  reflect函数计算反射方向，texCUBE(_Cubemap, i.worldRefl)
+		折射  refract函数计算折射方向，texCUBE(_Cubemap, i.worldRefr)
+		菲涅尔反射 计算反射占入射光的比率  F(v,n) v是视角方向，n是表面法线
 
+		RenderTexture 和 GrabPass的使用
 
 11. 让画面动起来
+		Unity内置变量 _Time(自场景加载开始经过的时间)，_SinTime，_CosTime，unity_DeltaTime
 

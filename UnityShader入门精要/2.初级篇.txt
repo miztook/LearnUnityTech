@@ -1,0 +1,17 @@
+5. 开始Unity Shader学习之旅
+
+
+
+6. Unity中的基础光照
+
+
+
+7. 基础纹理
+	Type, Alpha from Grayscale, Wrap Mode, Filter Mode, Aniso Level
+	切线空间 tangent-space 	z轴是顶点的法线方向，x轴是切线方向，y轴为副法线	  其实是相对法线信息，存储了在各自切线空间中的法线扰动方向
+		和模型空间的区别： 自由度高不依赖于网格，可以UV动画，可重用法线纹理，可压缩
+	法线纹理  	压缩，法线纹理只有两个通道上必不可少的 DXT5nm格式
+	渐变纹理	控制漫反射的效果 	tex2D(_RampTex, fixed2(halfLambert, halfLambert)).rgb * _Color.rgb
+	遮罩纹理	采样遮罩纹理的纹素值，使用其中几个通道的值与表面属性相乘
+
+8. 透明效果
