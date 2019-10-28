@@ -1,0 +1,25 @@
+9. 更复杂的光照
+	LightMode	
+		Always		总是被渲染，但不计算任何光照
+		ForwardBase	前向渲染	会计算环境光 + 最重要的平行光 + 逐顶点/SH光源 和 lightmaps
+		ForwardAdd		前向渲染	计算额外的逐像素光源，每个pass对应一个光源
+		Deferred		延迟渲染 	会渲染G缓冲
+		ShadowCaster		把物体的深度信息渲染到 shadowmap 或 一张深度纹理中
+
+	前向渲染
+		Unity对光源处理方式: 平行光按逐像素处理，Not Important按逐顶点或SH处理，Important按逐像素处理
+		BasePass:		计算一个逐像素的平行光以及所有逐顶点和SH光源
+							LightMap，环境光，自发光，阴影
+		AddtionalPass: 		其他影响该物体的逐像素光源 每个光源执行一次pass
+							Blend One One 和其他光照结果进行混合
+	顶点照明渲染
+		逐顶点不支持阴影，法线映射，高精度高光反射等
+		ShadeVertexLights 和 ShadeVertexLightsFull 计算聚光灯和点光源的光照结果
+	延迟渲染
+		
+
+10. 高级纹理
+
+
+11. 让画面动起来
+
