@@ -1,0 +1,71 @@
+2. 渲染流水线
+	顶点着色器			把顶点从模型空间转换到齐次裁剪空间  	硬件做透视除法得到归一化设备坐标NDC
+	裁剪				视野内的三角形裁剪
+	屏幕映射
+	三角形设置 (开始光栅化)
+	三角形遍历 (扫描变换)		片元不是像素，而是包含了很多状态的集合
+	片元着色器			片元的输入是上阶段对顶点信息插值的结果，纹理采样(插值的纹理坐标)
+	逐片元操作 (Output Merger)
+			决定片元的可见性   (深度测试，模板测试)
+			如果通过测试，则把片元的颜色值和已经存储在颜色缓冲区的颜色值进行混合
+
+3. Unity Shader基础
+	Properties属性				//材质和shader的桥梁
+		Int, Float, Range, Color, Vector, 2D, Cube, 3D
+	Pass		
+		标签		LightMode: 	Always, ForwardBase, ForwardAdd, Deferred
+		RenderState设置		
+			Cull		Back|Front|Off
+			ZTest		Less|Greater|LEqual|GEqual|Equal|NotEqual|Always
+			ZWrite		On|Off
+			Offset		OffsetFactor, OffsetUtils
+			Blend		sourceBlendMode, destBlendMode,
+			BlendOp		colorOp, alphaOp
+			AlphaToMask 		On|Off
+			ColorMask		RGB|A|0
+	SubShader
+		标签
+			Queue		Background, Geometry, AlphaTest, Transparent, Overlay
+			RenderType		用于shader替换技术用在产生深度贴图中
+			DisableBatching
+			ForceNoShadowCasting
+			IgnoreProjector				//不会受Projector影响，通常用于半透明物体
+			CanUseSpriteAtlas
+			PreviewType
+	UsePass 			使用其他Unity Shader中的pass
+	GrabPass			负责抓取屏幕并将结果存储在一张纹理中
+			
+4. Shader的数学基础
+		Unity中，把矢量放在矩阵右侧，把矢量当成列矩阵来计算，即右乘
+		变换		先缩放，再旋转，最后平移
+		在给出(x,y,z)这样的旋转角度时，unity的旋转顺序是zxy
+				绕坐标系E下的z轴旋转z，绕坐标系E下的y轴旋转y，绕坐标系E下的x轴旋转x，即进行一次旋转时不一起旋转当前坐标系
+		顶点的坐标变换过程
+			模型空间
+			世界空间
+			观察空间 (摄像机空间)
+			裁剪空间 		裁剪矩阵或投影矩阵
+				透视投影
+				正交投影
+			屏幕空间 	NDC 归一化设备坐标
+		法线变换
+			如果只包括旋转变换，那这个矩阵就是正交矩阵
+			如果只包括旋转和统一缩放，那缩放的1/k * 逆转置矩阵就是变换矩阵
+			
+		_WorldSpaceCameraPos		摄像机在世界空间的位置
+		_ProjectionParams		y=Near, z=Far, w=1.0+1.0/Far
+		_ScreenParams			x=width, y=height	分别是摄像机render target的像素宽度和高度
+		_ZBufferParams		x=1-Far/Near, y=Far/Near, z=x/Far, w=y/Far	用于线性化Z缓存中的深度值
+		unity_CameraProjection
+		unity_CameraInvProjection
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

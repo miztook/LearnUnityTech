@@ -1,10 +1,29 @@
 5. 开始Unity Shader学习之旅
-
-
+	app-vs语义		POSITION		NORMAL 		TANGENT		TEXCOORDn		COLOR
+	vs-ps语义		SV_POSITION(裁剪空间)	COLOR0 	COLOR1	TEXCOORD0-TEXCOORD7
+	ps输出语义	SV_Target
 
 6. Unity中的基础光照
+	BRDF光照模型	当给定入射光线的方向和辐射度后，BRDF可以给出在某个出射方向上的光照能量分布
+	标准光照模型
+		自发光	emissive
+		高光反射	specular
+			phong		c * specular * max(0, v * r) ^ gloss			//反射方向r = 2(n*l)n-l
+			blinn-phong 	c * specular * max(0, n * h) ^ gloss	//
+		漫反射	diffuse		
+			lambert定律，反射光线的强度与表面法线和光源之间夹角的余弦值成正比	c * diffuse * max(0, n * l)
+			half-lambert  c * diffuse * (0.5 (n * l) + 0.5)
+		环境光	ambient
 
-
+	WorldSpaceViewDir(float4 v) 			输入模型空间的顶点位置，返回世界空间中从该点到摄像机的观察方向
+	UnityWorldSpaceViewDir(float v) 		输入世界空间的顶点位置，返回世界空间中从该点到摄像机的观察方向
+	ObjSpaceViewDir(float4 v) 			输入模型空间的顶点位置，返回模型空间中从该点到摄像机的观察方向
+	WorldSpaceLightDir(float4 v) 		输入模型空间的顶点位置，返回世界空间中从该点到光源的光照方向
+	UnityWorldSpaceLightDir(float4 v) 	输入世界空间的顶点位置，返回世界空间中从该点到光源的光照方向
+	ObjSpaceLightDir(float4 v) 			输入模型空间的顶点位置，返回模型空间中从该点到光源的光照方向
+	UnityObjectToWorldNormal(float3 norm)			把法线方向从模型空间转换到世界空间
+	UnityObjectToWorldDir(float3 dir)			把方向矢量从模型空间变换到世界空间
+	UnityWorldToObjectDir(float3 dir) 		把方向矢量从世界空间变换到模型空间
 
 7. 基础纹理
 	Type, Alpha from Grayscale, Wrap Mode, Filter Mode, Aniso Level
@@ -15,3 +34,6 @@
 	遮罩纹理	采样遮罩纹理的纹素值，使用其中几个通道的值与表面属性相乘
 
 8. 透明效果
+	AlphaTest				clip
+	AlphaBlend			ZWrite Off	Blend SrcAlpha OneMinusSrcAlpha
+	避免错误的交叉半透明效果，可以开启深度写入，第一个pass开启深度写入，但不输出颜色，第二个pass进行正常的透明度混合
