@@ -1,0 +1,27 @@
+11.1 标准着色器中的各项材质属性
+
+11.2 Standard.shader中的属性变量
+
+11.3 第一个SubShader的前向通路
+
+11.4 第一个SubShader的FORWARD_DELTA通路
+
+11.5 第一个SubShader的ShadowCaster通路
+
+11.6 第一个SubShader的延迟通路
+
+11.7 第一个SubShader的元渲染通路
+
+11.8 UnityStandardInput.cginc 的结构体，着色器变量，宏和函数
+
+11.9 UniytStandardUtils.cginc 的结构体，着色器变量，宏和函数
+
+11.10 UnityImageBasedLighting.cginc 的结构体，着色器变量，宏和函数
+
+11.11 UnityGlobalIllumination.cginc 的结构体，着色器变量，宏和函数
+
+11.12 UnityStandardBRDF.cginc 的结构体，着色器变量，宏和函数
+
+11.13 UnityGBuffer.cginc 的结构体，着色器变量，宏和函数
+
+11.14 UnityMetaPass.cginc 的结构体，着色器变量，宏和函数
