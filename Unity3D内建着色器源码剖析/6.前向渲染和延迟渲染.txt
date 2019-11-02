@@ -1,0 +1,18 @@
+前向渲染
+	n个光源都需要在着色器进行计算			//运算量大，深度复杂性
+延迟渲染
+	第一个通路	几何处理通路，将场景渲染一次，获取到待渲染对象的各种几何信息，存储到GBuffer中，由于有深度测试，片元必定要光照计算
+	第二个通路	光照处理通路，遍历GBuffer中的每一个纹素，计算光照信息
+	
+ForwardBase ForwardAdd
+
+_LightColor
+_WorldSpaceLightPos0
+unity_WorldToLight					世界空间到光源空间的变换矩阵
+unity_4LightPosX0, unity_4LightPosY0, unity_4LightPosZ0		4个非重要点光源在世界空间的位置
+unity_4LightAtten0				4个非重要点光源的衰减系数
+unity_LightColor					8个光源颜色
+UnityWorldSpaceLightDir
+ObjSpaceLightDir
+Shade4PointLights
+
