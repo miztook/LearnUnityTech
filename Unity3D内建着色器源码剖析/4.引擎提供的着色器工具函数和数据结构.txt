@@ -1,11 +1,63 @@
 UnityShaderVariables.cginc文件中的着色器常量和函数
 	变换操作矩阵
+		UNITY_MATRIX_P
+		UNITY_MATRIX_V
+		UNITY_MATRIX_I_V
+		UNITY_MATRIX_VP
+		UNITY_MATRIX_M
+		UNITY_MATRIX_MVP
+		UNITY_MATRIX_MV
+		UNITY_MATRIX_T_MV
+		UNITY_MATRIX_IT_MV
+		UntiyPerFrame
+			unity_ObjectToWorld
+			unity_WorldToObject
+			unity_MatrixVP
+			unity_MatrixV
+			unity_MatrixInvV
+			glstate_matrix_projection
 	摄像机相关
+		UnityPerCamera
+			_Time
+			_SinTime
+			_CostTime
+			unity_DeltaTime
+			WorldSpaceCameraPos
+			_ProjectionParams
+			_ScreenParams
+			_ZBufferParams
+			unity_OrthoParams
+		UnityPerCameraRare
+			unity_CameraWorldClipPlanes
+			unity_CameraProjection
+			unity_CameraInvProjection
+			unity_WorldToCamera
+			unity_CameraToWorld
 	光照相关
+		_WorldSpaceLightPos0		//方向或位置坐标
+		4个非重要点光源的位置，衰减值，照射范围		//仅用在前向渲染的base pass中
+		8个光源的颜色，位置，衰减值，照射方向
+		球谐光照使用的参数 unity_SHA, unity_SHB，unity_SHC
 	阴影相关
+		UnityShadows
+			unity_ShadowSplitSpheres			//CSM
+			unity_ShadowSplitSqRadii			//CSM
+			unity_LightShadowBias
+			_LightSplitsNear, _LightSplitsFar			//CSM4个视截体的z值
+			unity_WorldToShadow				//世界空间到阴影贴图空间的变换坐标
 	逐帧绘制调用相关
+		UnityPerDraw
 	雾效果相关
+		UntiyFog
+			unity_FogColor
+			unity_FogParams
 	光照贴图相关
+		两个贴图 unity_Lightmap, unity_LightmapInd
+		贴图 unity_ShadowMask
+		UnityLightmaps
+			unity_LightmapST		//tiling和offset操作
+			unity_DynamicLightmapST
+		UnityReflectionProbes
 
 UnityCG.cginc文件中的工具函数和宏 
 	数学常数

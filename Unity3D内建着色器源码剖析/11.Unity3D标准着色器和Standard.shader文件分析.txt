@@ -1,4 +1,14 @@
 11.1 标准着色器中的各项材质属性
+	Rendering Mode
+	Albedo		材料本身的颜色
+	Metal		金属度，表示对能量反射的强弱	金属的高光颜色和漫反射相关
+	Smoothness		光滑度(粗糙度)
+	Normal Map
+	Height Map		Parallax Map 视差贴图
+	Occlusion 		某些区域接受的间接照明要强烈些，某些区域暗淡些
+	Emission	Global Illumination是否参与全局照明
+	Secondary Map		Detail Albedo 和 Normal Map 细节纹理
+	Detail Mask		Mask图
 
 11.2 Standard.shader中的属性变量
 
@@ -11,6 +21,9 @@
 11.6 第一个SubShader的延迟通路
 
 11.7 第一个SubShader的元渲染通路
+	Enlighten使用辐射度算法，主要针对漫反射部分，对镜面反射部分在烘培时，难以计算其对间接照明部分的影响
+	Unity3D使用meta pass的方式对这部分间接照明进行补偿
+	Enlighten需要Unity3D提供物体表面材质的反照率贴图和自发光贴图
 
 11.8 UnityStandardInput.cginc 的结构体，着色器变量，宏和函数
 
