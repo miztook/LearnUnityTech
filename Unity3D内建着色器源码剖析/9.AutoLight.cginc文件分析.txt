@@ -1,0 +1,13 @@
+有向平行光
+
+屏幕空间阴影
+	从局部坐标系变换到世界坐标系，再转换到阴影空间中
+	
+UnityComputeForwardShadows		//计算片元的阴影值		实时 + 烘培
+
+UNITY_SHADOW_COORDS
+UNITY_TRANSFER_SHADOW
+UNITY_SHADOW_ATTENUATION
+	
+UNITY_LIGHT_ATTENUATION		光源的衰减	
+	

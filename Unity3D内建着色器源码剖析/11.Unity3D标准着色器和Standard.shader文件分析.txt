@@ -6,14 +6,47 @@
 	Normal Map
 	Height Map		Parallax Map 视差贴图
 	Occlusion 		某些区域接受的间接照明要强烈些，某些区域暗淡些
-	Emission	Global Illumination是否参与全局照明
+	Emission		Global Illumination是否参与全局照明
 	Secondary Map		Detail Albedo 和 Normal Map 细节纹理
 	Detail Mask		Mask图
 
 11.2 Standard.shader中的属性变量
 
 11.3 第一个SubShader的前向通路
-
+	简化版
+		VertexOutputBaseSimple	vertForwardBaseSimple(VertexInput v)
+			给frag传递 eyeVec, ambientOrLightmapUV, ShadowCoords, FogCoords, normalWorld, tangentSpaceLightDir, tangentSpaceEyeVec
+			TangentSpaceLightingInput计算切线空间下的 lightDir, EyeVec
+			VertexGIForward	要么得到光照贴图的uv坐标，要么得到球谐函数作用在物体上的光线RGB值(ambient)
+		
+		VertexOutputForwardAddSimple	vertForwardAddSimple(VertexInput v)
+			
+		
+		half4	fragForwardBaseSimpleInternal(VertexOutputBaseSimple i)
+			填充FragmentCommonData		//diffuseColor, specColor, oneMinusReflectivity, smoothness, normalWorld, eyeVec, posWorld, alpha
+			UNITY_SETUP_BRDF_INPUT
+			MetallicSetup		
+				MetallicGloss 获取 metallic, smoothness
+				DiffuseAndSpecularFromMetallic 获取 diffColor, specColor, oneMinusReflectivity 
+				PreMultiplyAlpha 计算diffuseColor, alpha
+				其他 normalWorld, eyeVec, posWorld
+			MainLightSimple 	设置主光源
+			如果用normalmap，在切线空间计算 ndotl
+			计算阴影的衰减值  实时 + 烘培
+			Occlusion 计算遮蔽项系数
+			FragmentGI				//获取物体的直接照明和间接照明的信息
+				先填充UnityGIInput		//light, worldPos, worldViewDir, atten, ambient, lightmapUV
+				UnityGlobalIllumination
+				BRDF_Indirect计算间接部分照明的颜色值
+				BRDF_DirectSimple计算直接照明部分的颜色值
+				叠加Emission, UNITY_APPLY_FOG, alpha设置
+			
+		half4	fragForwardAddSimpleInternal(VertexInputForwardAddSimple i)
+	标准版
+		VertexOutputBaseSimple	vertForwardBase(VertexInput v)
+		VertexOutputForwardAddSimple	vertForwardAdd(VertexInput v)
+		half4	fragForwardBaseInternal(VertexOutputBaseSimple i)
+		half4	fragForwardAddInternal(VertexInputForwardAddSimple i)
 11.4 第一个SubShader的FORWARD_DELTA通路
 
 11.5 第一个SubShader的ShadowCaster通路
