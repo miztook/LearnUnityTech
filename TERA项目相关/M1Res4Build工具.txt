@@ -8,6 +8,51 @@
 	1) 打包规则
 	2) 更新规则
 	
+	打包系统
+		BuildScript.cs	ForceBuildBasicBundle方法
+		重打包:		目录Export\AssetBundles\<平台名>
+				ExportEquipInfos				
+						1. 从Characters/Outward 导出到 Outputs/Characters/Outward
+						2. src目录下所有的prefab, 创建新的prefab到对应的dest目录下
+						3. 对新创建的prefab，添加OutwardInfo，设置OutwardInfo的mesh和bones，和其他属性(来自material)
+				重建输出目录
+				ReadMD5File
+				ReadBundleInfo
+				ReadResBlackList
+				从Ouputs目录下搜集目录列表，作为assetbundle名，生成AssetbundleNameArray 
+				InitOutwardList
+				InitCharactersSplitList
+				读取 Export\BlocksDenpendencies.txt 准备打成bundle commonres
+				准备搜集资源列表	AssetBundleNameArray中的每项+commonRes 调用CollectBasicBuildInfo 生成 AssetBundleBuild列表
+						CollectBasicBuildInfo
+								1. 对Outputs下的每个ab目录，遍历生成总的一个 AssetBundleBuild 列表
+								2. 如果是Character
+										如果是构造的是outward，原始路径做md5
+										把Outputs/Characters下的 Monsters, Outward, Fashion, Weapons, wing目录分拆成各自的bundle
+										目录下的每个prefab，获取AnimationInfo，得到每个anim的实际路径，打包到animations
+										如果是更新，计算每个animation的md5变化，做为更新资源，用guid做为assetbundle名
+										
+								3. 如果不是Chracter，遍历 toBuildList
+										如果是CommonAltas，获取meta文件的md5，否则获取文件的md5
+										把CGAnimator目录变成cg, 把Scenes按每个prefab分拆成 BlocksNew 和 地图
+										如果是更新, 文件的md5和buildrecord中的不同，则做为更新资源，用guid做为assetbundle名
+				BuildPipeline.BuildAssetBundles 	在目录下创建bundle
+				GenMD5File		生成BuildRecord.dat
+				GenPathIDFile
+				生成 Basic_bundle_name_file.dat
+				写svn版本 
+		更新:
+				ReadMD5File
+				ReadBundleInfo
+				ReadResBlackList
+				从Ouputs目录下搜集目录列表，作为assetbundle名，生成AssetbundleNameArray 
+				InitOutwardList
+				InitCharactersSplitList
+				处理outward的更新, 白名单添加进bundleList
+				GenPathIDFile
+				把更新的文件拷贝到 Update目录
+				写svn版本 
+	
 3. 地形分块系统
 
 4. FBX处理
