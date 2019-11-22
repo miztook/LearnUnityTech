@@ -1,10 +1,34 @@
 1.  Outputs目录下资源分析
 	1) 资源结构		//UI，模型，场景，特效
+		UI
+			Interfaces 各个界面prefab			//依赖项分析
+		Characters			//fbx，骨骼，贴图分析
+			Boss
+			Etc
+			Fashion
+			ImageModel
+			mine
+			Monsters
+			NPCs
+			Outward
+			Pets
+			Players
+			Ride
+			UIScene
+			Weapons
+			wing
+		Scenes
+			LightMaps			//光照图，exr如何变成asset
+			SkySphere			//天空球
+		各个场景的blockNew		//场景prefab和block的prefab中都有哪些东西
+		Sfx
+			各个特效的种类，做法，依赖
+		
 	2) 所有material统计
 	3) 所有texture统计，压缩格式，大小
 	
 	
-2. 打包系统，更新系统
+2. 打包系统，更新系统			Assets/Tools/ABSystem
 	1) 打包规则
 	2) 更新规则
 	
@@ -52,11 +76,32 @@
 				GenPathIDFile
 				把更新的文件拷贝到 Update目录
 				写svn版本 
-	
-3. 地形分块系统
 
-4. FBX处理
+3. 动画编辑				Assets/Tools/AnimatorEditor
+	从FBX中提取动画
+	
+4. 地形分块系统			Assets/Tools/BlockSystem
+	编辑SceneConfig
+	检查光照图
+
+5. CG编辑器				Assets/Tools/CGEditor
+	了解CG的结构
+	
+6. 特殊的UI编辑器		Assets/Tools/GNewUITools
+	DialogEditor		//对话编辑器
+	NewCamEditor		//近摄像机编辑器
+	UEPreview
+	UISceneEditor		//公会工资，公会铁匠铺
+
+4. FBX处理				Assets/Tools/FbxPostProcess
 
 5. 场景编辑器
-
-6. 
+	LevelEditor
+	MapsEditor
+	
+6. 杂项
+	ModelEditor
+	ParticleEffectProfiler
+	PlayerEditor
+	UIEditor						UI辅助
+	WeatherXmlTools					天气编辑器
