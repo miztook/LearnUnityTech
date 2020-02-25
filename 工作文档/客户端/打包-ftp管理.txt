@@ -1,0 +1,18 @@
+打包机打包地址 http://10.35.51.30/build_history
+打包成功后，生成的文件会上传到 10.35.49.163 上
+		推荐使用 FileZilla 工具进行ftp管理，打开FileZilla，建立站点
+			主机: 10.35.49.163
+			用户名: meteorite
+			密码: meteorite_321
+		打开站点 /meteorite 下面是对应打包机上的tag，即每个包对应能访问的cdn更新资源和地址，结构如下
+			Android				//CDN资源， jup是更新内容，version.txt是版本描述
+			clientserver
+				Android			//服务器配置，客户端一开始就从这里获取中心服地址，服务器列表及其他配置
+				iOS					//服务器配置
+				Windows			//服务器配置
+			iOS						//CDN资源
+			Windows				//CDN资源
+			
+		站点 /meteorite 对外被映射成url: http://10.35.49.163/meteorite/meteorite/Tera/
+		客户端对应的下载地址配置在文件 UpdateConfig.xml 中		
+		注： PC包默认不从clientserver中获取服务器配置，而是直接读本地的 ServerConfig.xml ServerList.xml
