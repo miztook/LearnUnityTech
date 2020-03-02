@@ -1,0 +1,39 @@
+BuildScript.cs	
+		BuildBasicAssetBundleByPlatform
+			BuildBasicBundle
+				ForceBuildBasicBundle
+					1. 设置目录 基础包: Export\AssetBundles\<平台名>  更新包: Export\AssetBundles\<平台名>\Update
+					2. ReadMD5File 读取 BuildRecord.dat 中记录的md5
+					3. ReadBundleInfo 读取 PATHIDBACKUP.dat 中的信息
+					4. ReadResBlackList 读取资源黑名单，这些资源不打包
+					5. 获取 /Outputs 下的目录列表，目录规则， 准备ab列表 AssetbundleNameArray
+					6. 获取 /Outputs/Characters 下的目录列表
+					7. 如果重新打包，读取 Export/BlocksDenpendencies.txt，其中的asset打包到 commonres
+					8. 对于每个 AssetbundleNameArray，调用 CollectBasicBuildInfo，获取打包列表 bundleList
+					9. commonres 添加到 bundleList
+					10.  BuildPipeline.BuildAssetBundle 打包 bundleList，输出到 Export\AssetBundles\<平台名>
+					11. 如果重新打包，生成Md5文件 BuildRecord.dat
+					12. 生成PathID文件 	注意白名单 PathIDWhiteList.txt
+					13. 如果重新打包，生成 Basic_bundle_name_file 文件 (添加animations, commonres等)，供更新使用
+					
+			导出换装资源:
+					ExportEquipInfos
+						1. 搜集.prefab文件 Characters/Outward	导出到 Outputs/Characters/Outward	
+						2. 对新创建的prefab，添加OutwardInfo，设置OutwardInfo的mesh和bones，和其他属性(来自material)
+						
+			获取每个目录的打包信息
+						CollectBasicBuildInfo			
+							1）如果是Characters目录
+								如果是Outward，获取Asset/Outward目录下原文件的md5 (Outputs下每次都重新生成)
+								分离 monsters, outward, fashion, weapons, wing, characters目录的assetbundle
+								每个GameObject获取 AnimationInfo 组件，取出每个animationPath，打包进animations bundleList
+							2）如果不是Characters目录
+								遍历 toBuildList
+										如果是CommonAltas，获取meta文件的md5，否则获取文件的md5
+										如果是重新build
+											把CGAnimator目录变成cg,
+											把Scenes中的 Outputs/Scenes 的每个prefab，创建场景prefab
+										如果是更新
+											shader添加build文件的md5和buildrecord中的不同，则做为更新资源，用guid做为assetbundle名
+											若asset的md5和 BuildRecord.dat 中的不同，或者asset不在 BuildRecord.dat 中，则做为更新资源，用guid做为assetbundle名
+											若md5相同，则assetBundle名为 PATHID 中的记录名 (不在产生增量更新)
