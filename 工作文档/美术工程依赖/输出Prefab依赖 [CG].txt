@@ -1,0 +1,980 @@
+﻿Assets/Outputs/CG/CGMask.prefab:
+
+	Assets/Outputs/CG/CGMask.prefab
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+
+Assets/Outputs/CG/City01/BlackScreen.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Outputs/CG/City01/BlackScreen.prefab
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/CG_CommonVideo.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Outputs/CG/City01/CG_CommonVideo.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/CG_shenzhishijie.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/Outputs/CG/City01/CG_shenzhishijie.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/CG_shenzhishijie2.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/Outputs/CG/City01/CG_shenzhishijie2.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/City01_mitela01.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/NPCs/mitela/Animation/greet_c.anim
+	Assets/Characters/NPCs/mitela/Animation/stand_c.anim
+	Assets/Characters/NPCs/mitela/Animation/walk_c.anim
+	Assets/Outputs/CG/City01/City01_mitela01.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/City01_mitela02.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/NPCs/mitela/Animation/idle02_c.anim
+	Assets/Characters/NPCs/mitela/Animation/st_talking_c.anim
+	Assets/Characters/NPCs/mitela/Animation/stand_c.anim
+	Assets/Outputs/CG/City01/City01_mitela02.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/City01_mitela03.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextDegenerationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextGenerationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/diguojiandoushi/Animation/stand_c.anim
+	Assets/Characters/Monsters/shanghuibaobiao/Animation/stand_c.anim
+	Assets/Characters/NPCs/mitela/Animation/idle02_c.anim
+	Assets/Characters/NPCs/mitela/Animation/st_talking_c.anim
+	Assets/Outputs/CG/City01/City01_mitela03.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/City01/Ct01_Honored_Hum.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetSkipEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/MultiActorTrackGroup.cs
+	Assets/Characters/NPCs/guanyuan/Animation/run_c.anim
+	Assets/Characters/NPCs/guanyuan/Animation/stand_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/stand_c.anim
+	Assets/Outputs/CG/City01/Ct01_Honored_Hum.prefab
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/CreatCharacter_1/Creat_Job1_show.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGhum@idle_BG_Hum.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGhum@show_BG_Hum.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Materials/BG_hum_Buildings01.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/BG_Hum_far_Buildings.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/BG_Hum_far_sky.mat
+	Assets/Characters/CreateCharacter/new/BG/Texture/BG_hum_Buildings01.tga
+	Assets/Characters/CreateCharacter/new/Humwarrior_m/Animation/create_stand.anim
+	Assets/Characters/CreateCharacter/new/Humwarrior_m/Animation/show.anim
+	Assets/Characters/CreateCharacter/new/Humwarrior_m/Animation/show_cammove.anim
+	Assets/Outputs/CG/CreatCharacter_1/Creat_Job1_show.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Scripts/Sun_char.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/CreatCharacter_2/Creat_Job2_show.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CreateCharacter/new/Alipriest_f/Animation/create_stand.anim
+	Assets/Characters/CreateCharacter/new/Alipriest_f/Animation/show.anim
+	Assets/Characters/CreateCharacter/new/Alipriest_f/Animation/show_cammove2.anim
+	Assets/Characters/CreateCharacter/new/Animation/idle_BG_ali.anim
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGAli_@showt1.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Materials/Ali_BG_plants01.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/Ali_BG_plants02.mat
+	Assets/Characters/CreateCharacter/new/BG/Texture/Ali_BG_plants01.tga
+	Assets/Characters/CreateCharacter/new/BG/Texture/Ali_BG_plants02.tga
+	Assets/Outputs/CG/CreatCharacter_2/Creat_Job2_show.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Scripts/Sun_char.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/CreatCharacter_3/Creat_Job3_show.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGcas@idle_BG_cas.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGcas@show_BG_cas.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Materials/BG_Cas_far_BG.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/BG_Cas_far_sky.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/BG_Hum_cas_sky.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/Cas_BG_mid.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/Cas_BG_mid_stay1.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/Cas_BG_stay15.mat
+	Assets/Characters/CreateCharacter/new/Castanic_m/Animation/create_stand.anim
+	Assets/Characters/CreateCharacter/new/Castanic_m/Animation/show.anim
+	Assets/Characters/CreateCharacter/new/Castanic_m/Animation/show_cammove.anim
+	Assets/Outputs/CG/CreatCharacter_3/Creat_Job3_show.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Scripts/Sun_char.cs
+	Assets/Shader/BuildInShadersOverride/Standard.shader
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/CreatCharacter_4/Creat_Job4_show.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CreateCharacter/new/Animation/sprarcher_f_create@spa_cameraclosestay.FBX
+	Assets/Characters/CreateCharacter/new/Animation/sprarcher_f_create_animator@show_cammove.FBX
+	Assets/Characters/CreateCharacter/new/Sprarcher_f/Animation/create_stand.anim
+	Assets/Characters/CreateCharacter/new/Sprarcher_f/Animation/show.anim
+	Assets/Outputs/CG/CreatCharacter_4/Creat_Job4_show.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/CreatCharacter_5/Creat_Job5_show.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CreateCharacter/new/Alilancer_f/Animation/create_stand.anim
+	Assets/Characters/CreateCharacter/new/Alilancer_f/Animation/show.anim
+	Assets/Characters/CreateCharacter/new/Alilancer_f/Animation/show_cammove.anim
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGAli_@idle.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Login_Creat_BGAli_@showL.FBX
+	Assets/Characters/CreateCharacter/new/Animation/Materials/Login_Ali_BG_02.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/login_ali_BG01.mat
+	Assets/Characters/CreateCharacter/new/Animation/Materials/ntl_shuteng_06.mat
+	Assets/Outputs/CG/CreatCharacter_5/Creat_Job5_show.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Scripts/Sun_char.cs
+	Assets/Shader/BuildInShadersOverride/Standard.shader
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn00_EmpireRelicPrologue/Dn00_test.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Outputs/CG/Dungn00_EmpireRelicPrologue/Dn00_test.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn01_Rins01/CG_69010671.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/kuweishujing/Animations/stand_battle_c.anim
+	Assets/Outputs/CG/Dungn01_Rins01/CG_69010671.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn01_Rins01/dungn01_01_qiao.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/SetParent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Envirentment/Res/Dungns/Dungn01_Ruins01/Mesh/Dn01_brdg_active.anim
+	Assets/Envirentment/Res/Dungns/Dungn01_Ruins01/Mesh/Materials/Trk_Dn01_Trigger01.mat
+	Assets/Envirentment/Res/Dungns/Dungn01_Ruins01/Mesh/Trk_Dn01_Trigger01.FBX
+	Assets/Envirentment/Res/Dungns/Dungn01_Ruins01/Texture/Trk_Dn01_Trigger01.tga
+	Assets/Envirentment/Res/Dungns/Dungn01_Ruins01/Texture/Trk_Dn01_Trigger01_nr.tga
+	Assets/Outputs/CG/Dungn01_Rins01/dungn01_01_qiao.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/Shader/Environment/MobileDiffuseBumpDir.shader
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn01_Rins01/dungn01_02_bossborn.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextDegenerationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextGenerationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/xuejishi/Animations/born_c.anim
+	Assets/Outputs/CG/Dungn01_Rins01/dungn01_02_bossborn.prefab
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GGradient.cs
+	Assets/Scripts/UIExtension/Component/GTextGraphicBoard.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn01_Rins01/Dungn01_op.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/StopParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/xuezhishi/Animations/run_battle_c.anim
+	Assets/Characters/Monsters/xuezhishi/Animations/skill02_a_c.anim
+	Assets/Outputs/CG/Dungn01_Rins01/Dungn01_op.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn02_Cave01/Dn02_disappear.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/StopParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CGAnimator/Animations/Dn02_disap.anim
+	Assets/Characters/NPCs/balakaxuezhedelinghun/Animation/st_casting_a_c.anim
+	Assets/Characters/NPCs/balakaxuezhedelinghun/Animation/st_casting_b_c.anim
+	Assets/Characters/NPCs/balakaxuezhedelinghun/Animation/st_casting_c_c.anim
+	Assets/Characters/NPCs/balakaxuezhedelinghun/Animation/stand_c.anim
+	Assets/Outputs/CG/Dungn02_Cave01/Dn02_disappear.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn02_Cave01/Dn02_DoorBreak.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Envirentment/Res/Dungns/Dungn02_Cave01/Mesh/Fake_Dn02_tiemen_animator.FBX
+	Assets/Envirentment/Res/Dungns/Dungn02_Cave01/Mesh/Materials/No Name.mat
+	Assets/Outputs/CG/Dungn02_Cave01/Dn02_DoorBreak.prefab
+	Assets/Shader/BuildInShadersOverride/Standard.shader
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn02_Cave01/Dn02_DoorOpen.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/SetParent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/SetPositionEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CGAnimator/Animations/Camshake_dn02dopen.anim
+	Assets/Characters/CGAnimator/Animations/Camshake_dn02trgeon.anim
+	Assets/Envirentment/Res/Dungns/Dungn02_Cave01/Mesh/Trk_Dn02_Trigger01_Animator.FBX
+	Assets/Outputs/CG/Dungn02_Cave01/Dn02_DoorOpen.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn02_Cave01/Dn02_TowerDown.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Envirentment/Res/Dungns/Dungn02_Cave01/Mesh/Dn02_jianta_dst1.anim
+	Assets/Envirentment/Res/Dungns/Dungn02_Cave01/Mesh/Dn02_jianta_dst2.anim
+	Assets/Envirentment/Res/Dungns/Dungn02_Cave01/Mesh/Dn02_jianta_dst3.anim
+	Assets/Outputs/CG/Dungn02_Cave01/Dn02_TowerDown.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn05_ElfArch/Dn05_DoorOpen.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CGAnimator/Animations/Trigger_Dn05@Dn05_Gateopen.FBX
+	Assets/Outputs/CG/Dungn05_ElfArch/Dn05_DoorOpen.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn06_EmpireRelic/Dn06_Barricadeopen.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CGAnimator/Animations/Trigger_Dn06@Dn06_barricadedown.FBX
+	Assets/Outputs/CG/Dungn06_EmpireRelic/Dn06_Barricadeopen.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn06_EmpireRelic/Dn06_Boxopen.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/CGAnimator/Animations/Trigger_Dn06@Dn06_Boxopen.FBX
+	Assets/Outputs/CG/Dungn06_EmpireRelic/Dn06_Boxopen.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Dungn06_EmpireRelic/Dn06_kumosborn.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Outputs/CG/Dungn06_EmpireRelic/Dn06_kumosborn.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/Wd01_glz_mayor.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/NPCs/guanyuan/Animation/run_c.anim
+	Assets/Outputs/CG/Wd01_glz_mayor.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/CG_59294347.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/Characters/Monsters/diguozhenchabing/Animation/die_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/stand_battle_c.anim
+	Assets/Outputs/CG/World01/CG_59294347.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/CG_59294348.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/MultiActorTrackGroup.cs
+	Assets/Characters/Monsters/diguozhenchabing/Animation/die_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/stand_battle_c.anim
+	Assets/Outputs/CG/World01/CG_59294348.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/CG_59294349.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/MultiActorTrackGroup.cs
+	Assets/Characters/Monsters/diguozhenchabing/Animation/die_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/stand_battle_c.anim
+	Assets/Outputs/CG/World01/CG_59294349.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_bhl_tulake.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/StopParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextName.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/defatushazhe/Animation/st_charge_c.anim
+	Assets/Characters/Monsters/defatushazhe/Animation/st_chargebreak_c.anim
+	Assets/Characters/Monsters/xuejishi/Animations/run_battle_c.anim
+	Assets/Characters/Monsters/xuejishi/Animations/skill01_b_c.anim
+	Assets/Characters/Monsters/xuezhishi/Animations/skill02_b_c.anim
+	Assets/Characters/Monsters/xuezhishi/Animations/skill02_c_c.anim
+	Assets/Characters/NPCs/tanikenanminzhandou/Animations/die_c.anim
+	Assets/Characters/NPCs/tanikenanminzhandou/Animations/stun_c.anim
+	Assets/Outputs/CG/World01/Wd01_bhl_tulake.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GGradient.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Scripts/UIExtension/Component/GTextGraphicBoard.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_daerjia.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetSkipEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/heiyawushi/Animations/skill01_c.anim
+	Assets/Characters/Monsters/heiyawushi/Animations/skill02_c.anim
+	Assets/Characters/Monsters/nuliyongshi/Animations/skill01_c.anim
+	Assets/Characters/Monsters/toushiche/Animation/stand_battle_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_daerjia.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_diguoqiangqishi.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetSkipEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextDegenerationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextGenerationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/diguoqiangqishi/Animation/run_c.anim
+	Assets/Characters/Monsters/diguoqiangqishi/Animation/st_kill_c.anim
+	Assets/Characters/Monsters/diguoqiangqishi/Animation/st_turn_back_c.anim
+	Assets/Characters/Monsters/diguoqiangqishi/Animation/stand_battle_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_kill_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_roll_c.anim
+	Assets/Characters/NPCs/shoubeijunduizhang/Animations/st_callcharge_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_diguoqiangqishi.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_horse.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/NPCs/shoubeijun/Animation/greet_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/stand_c.anim
+	Assets/Characters/Ride/ZongSeJunMa/Animations/born_c.anim
+	Assets/Characters/Ride/ZongSeJunMa/Animations/idle_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_horse.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_op.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/NPCs/shoubeijun/Animation/st_cleaning01_a_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_cleaning01_a_walk_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_cleaning01_b_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_cleaning01_b_walk_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_op.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_siege.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetSkipEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/defazhanshi/Animations/attack01_c.anim
+	Assets/Characters/Monsters/defazhanshi/Animations/die_c.anim
+	Assets/Characters/Monsters/defazhanshi/Animations/run_battle_c.anim
+	Assets/Characters/Monsters/defazhanshi/Animations/skill01_c.anim
+	Assets/Characters/Monsters/defazhanshi/Animations/st_blocking01_c.anim
+	Assets/Characters/Monsters/defazhanshi/Animations/st_blocking02_c.anim
+	Assets/Characters/Monsters/defazhanshi/Animations/stand_battle_c.anim
+	Assets/Characters/Monsters/diguojiandoushi/Animation/attack01_c.anim
+	Assets/Characters/Monsters/diguojiandoushi/Animation/attack02_c.anim
+	Assets/Characters/Monsters/diguojiandoushi/Animation/run_battle_c.anim
+	Assets/Characters/Monsters/diguojiandoushi/Animation/st_callcharge_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/attack01_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/attack02_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/die_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/hurt_front_c.anim
+	Assets/Characters/Monsters/diguozhenchabing/Animation/run_battle_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/attack01_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/attack02_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/die_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/hurt_fell_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/run_battle_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/run_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_blocking01_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/st_blocking02_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/stand_battle_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_siege.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_spy.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetSkipEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextBubble.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextBubbleEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/diguozhenchabing/Animation/stand_c.anim
+	Assets/Characters/NPCs/guanyuan/Animation/greet_c.anim
+	Assets/Characters/NPCs/guanyuan/Animation/stand_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_spy.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_glz_traitor.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetSkipEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetStopEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/Characters/Monsters/diguozhenchabing/Animation/stand_battle_c.anim
+	Assets/Characters/NPCs/qiaonasen2/Animation/stand_battle_c.anim
+	Assets/Characters/NPCs/shoubeijun/Animation/stand_battle_c.anim
+	Assets/Outputs/CG/World01/Wd01_glz_traitor.prefab
+	Assets/Outputs/CommonAtlas/Atlas/CBT_Atlas_Integration_Translucent.png
+	Assets/Outputs/CommonAtlas/Fonts/Fzzh2.ttf
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GButtonColorElastic.cs
+	Assets/Scripts/UIExtension/Component/GRayCastRect.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_shamoer_op.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Time/SetTimeScaleEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/MultiActorTrackGroup.cs
+	Assets/Characters/Boss/shamoer/Animation/st_chuchang_c.anim
+	Assets/Characters/NPCs/guanyuan/Animation/stand_c.anim
+	Assets/Characters/NPCs/nuli/Animation/st_cheers_c.anim
+	Assets/Characters/NPCs/nuli/Animation/st_handclap_c.anim
+	Assets/Characters/NPCs/nuli/Animation/stand_c.anim
+	Assets/Characters/NPCs/tiejiang/Animation/st_cheers_c.anim
+	Assets/Characters/NPCs/tiejiang/Animation/st_handclap_c.anim
+	Assets/Outputs/CG/World01/Wd01_shamoer_op.prefab
+	Assets/Outputs/CommonAtlas/Fonts/RIXGOB.TTF
+	Assets/Scripts/UIExtension/Component/GGradient.cs
+	Assets/Scripts/UIExtension/Component/GTextGraphicBoard.cs
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
+Assets/Outputs/CG/World01/Wd01_zhou.prefab:
+
+	Assets/3rd/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs
+	Assets/3rd/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs
+	Assets/Outputs/CG/World01/Wd01_zhou.prefab
+	Assets/Tools/CGEditor/CGEntity.cs
+	Assets/Tools/CGEditor/CGGlobal.cs
+
