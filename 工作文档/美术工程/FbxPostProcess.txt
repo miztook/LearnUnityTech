@@ -1,0 +1,28 @@
+AnimationImportTools
+	CreateAnimator	在包含动画的fbx导入Postprocess时调用
+		1. 复制每个AnimationClip (CurveData浮点精度精简，过滤不需要curveData的clip)
+		2. 设置复制的clip的Loop属性
+		3. 将复制的AnimationClip创建asset，_c.anim，拷贝到GameObject同一目录下
+		
+	要点:优化精简clip的curveData
+	
+Mine
+	Preprocess:
+		meshCompression	Off
+		isReadable	true		?是否需要readable
+		导入normal，计算tangent
+		是否导入动画，
+		animationComression reduceKey
+		
+	Postprocess:
+		关闭投射和接收阴影
+		处理动画 _c.anim
+		保存原文件到7z
+		
+Equip
+Normals
+NPC
+Player
+PlayerNew
+Sfx
+Wings	
