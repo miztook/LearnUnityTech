@@ -1,0 +1,7 @@
+此组件与GLayout提供的功能完全相同，不同的是他会在4个地方，自动进行布局。而GLayout是手动布局:程序调用LayoutChange或者编辑时点击预览按钮
+
+1.一个组件被显示出来的时候。OnEnable
+2.一个组件被隐藏的时候。OnDisable
+3.组件尺寸变化的时候。OnRectTransformDimensionsChange
+4.子集有变化的时候。增加或删除孩子。OnTransformChildrenChanged
+
