@@ -8,5 +8,10 @@ https://github.com/Unity-Technologies/Timeline-Cinemachine-Test-Suite
 		Timeline和Cinemachine的测试包
 https://github.com/Unity-Technologies/UnityAndroidNotchSupport
 		Unity的刘海屏支持，在刘海外渲染
+https://github.com/yaukeywang/ObjectLightmapViewer
+		可以看mesh在光照图中的uv
+https://zhuanlan.zhihu.com/p/113366420
+		unity贴图格式
+		
 
 
