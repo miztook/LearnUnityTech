@@ -1,0 +1,60 @@
+UGUI基础			
+	http://arkaistudio.com/blog/190/unity/unity-ugui-%E5%8E%9F%E7%90%86%E7%AF%87-%E4%B8%80%EF%BC%9Acanvas
+	1. Canvas渲染模式
+	2. Canvas Scaler缩放核心
+	3. Rect Transform
+	4. Event System Manager事件与触发
+	5. Auto Layout自动布局
+	
+项目中的UGUI扩展	
+	Assets\Scripts\UIExtension
+		1. 给lua暴露的UI控件  Assets\LuaBinding\LuaInterfaces\Base\AutoLuaBinder.cs
+			DG.Tweening.DOTweenAnimation
+			DG.Tweening.DOTweenPlayer
+			GBase
+			GBlood
+			GButton
+			GDragablePageView
+			GNewGridBase
+			GNewIOSToggle
+			GNewLayoutTable
+			GNewListBase
+			GNewListLoop
+			GNewList
+			GNewTableBase
+			GNewTabList
+			GNewUIBase
+			GNewUI.GUIScene
+			GScaleScroll
+			GText
+			RectTransform
+			UIEventListener
+			UITemplate
+			UnityEngine.EventSystems.UIBehaviour
+			UnityEngine.UI.Button
+			UnityEngine.UI.GraphicRaycaster
+			UnityEngine.UI.Image
+			UnityEngine.UI.InputField
+			UnityEngine.UI.Scrollbar
+			UnityEngine.UI.Selectable
+			UnityEngine.UI.Slider
+			UnityEngine.UI.Text
+			UnityEngine.UI.Toggle
+		2. 其他控件 Assets\LuaBinding\LuaInterfaces\Base\ManualLuaBinder.cs
+			GUI	各种方法
+			GImageModel
+			GWebView
+		3. UI控件中使用的脚本  作用，使用
+			GUILinkHolder
+			DOTweenAnimation
+			DOTweenPlayer
+			InteractableUIHolder
+		4. 伤害字 Assets\Scripts\Manager\HudTextMan.cs		Assets\Scripts\Main\HUDText.cs
+			头顶字 Lua\GUI\CPates
+		5. 美术工程下的UI文档 	M1Res4Build\Docs\UI 看下这几个文档
+			UGUI培训.pptx
+			[必须看]新UI制作规范.docx
+			[必须看]新UI层级管理的说明.docx
+			[必须看]UI组件使用指南.docx
+			[必须看]UI通用组件.docx
+			[必须看]UI图片资源管理.docx
