@@ -13,5 +13,7 @@ https://github.com/yaukeywang/ObjectLightmapViewer
 https://zhuanlan.zhihu.com/p/113366420
 		unity贴图格式
 		
-
-
+https://github.com/satoren/kaguya
+		lua和c++的binding
+https://github.com/SteveKChiu/lua-intf
+		lua和c++的binding
