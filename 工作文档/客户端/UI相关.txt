@@ -1,10 +1,27 @@
 UGUI基础			
 	http://arkaistudio.com/blog/190/unity/unity-ugui-%E5%8E%9F%E7%90%86%E7%AF%87-%E4%B8%80%EF%BC%9Acanvas
 	1. Canvas渲染模式
+			Screen Space - Camera 模型
+					Plane Distance
+					Sorting Layer		排序层
+					Order in Layer		排序层下的顺序
 	2. Canvas Scaler缩放核心
+					理解UI Scale Mode
 	3. Rect Transform
+					Anchor, 相对于parent的比例对齐缩放 相对于UI左下角
+					Pivot  自身的支点
+					蓝图模式， 原始编辑模式
 	4. Event System Manager事件与触发
+					Event System Manager
+					Standalone Input Module
+					Touch Input Module
+					Graphic Raycaster
+					Physics Raycaster
 	5. Auto Layout自动布局
+					Auto Layout System分为 Layout Controllers 和 Layout Elements两部分
+					Layout Elements 包括 Min, Preferred, Flexible
+					Layout Controllers 包括 Horizontal, Vertical, Grid group
+					Layout Fitter 控制 Layout Controllers自身大小， Content Size Fitter, Aspect Ratio Fitter
 	
 项目中的UGUI扩展	
 	Assets\Scripts\UIExtension
