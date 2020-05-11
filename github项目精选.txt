@@ -1,4 +1,4 @@
-https://upr.unity.cn/
+﻿https://upr.unity.cn/
 		Unity官方资源检查工具
 https://github.com/Unity-Technologies/Graphics
 		Unity可编程渲染管线，可视化shader
@@ -20,4 +20,7 @@ https://github.com/SteveKChiu/lua-intf
 		
 https://github.com/KhronosGroup/Vulkan-Ecosystem
 		vulkan学习相关
+
+https://zhuanlan.zhihu.com/p/35096536
+		unity光照图解码的问题
 		
