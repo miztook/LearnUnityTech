@@ -23,4 +23,7 @@ https://github.com/KhronosGroup/Vulkan-Ecosystem
 
 https://zhuanlan.zhihu.com/p/35096536
 		unity光照图解码的问题
+
+https://www.gameres.com/811214.html
+		gamma和线性空间
 		
