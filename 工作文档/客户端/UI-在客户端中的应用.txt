@@ -1,0 +1,27 @@
+GUILinkHolder
+		GetPanelUIObjectByID方法供lua使用，通过id得到gameobject, 在PanelBase和PateBase中使用
+		
+InteractableUIHolder
+		1. 设置SortLayer, Order
+		2.  UI的适配，配合UISizeAdapter
+		3. 控件的消息响应
+
+		收集到了PanelInfo列表，包含子gameobject中的panel信息，通过SetupUISorting设置UI的layer，PanelInfo设置order
+		
+		UIEventListener里处理控件的消息响应
+			GButton
+			GImageModel
+			Button
+			Toggle
+			ScrollBar
+			InputField
+			Dropdown
+			GNewListBase
+			GNewTabList
+			GNewlayoutTable
+			DOTweenAnimation
+			GScrollWatcher
+			GSlideButton
+			GWebView
+			GDragablePageView
+		
