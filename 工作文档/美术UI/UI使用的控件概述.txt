@@ -1,0 +1,44 @@
+GBlood							血条控件, 用sprite,image,tween构造
+GButton						扩展的Button IsProfessionModel 实现其他的细节消息
+GButtonColor				变换颜色的button，使用Graphic
+GButtonColorElastic		弹性button, 用DOTween控制scale
+GCircleProgress			进度控件 用图片旋转
+GGradient					继承自BaseMeshEffect 渐变颜色
+GImage						继承自Image OnPopulateMesh填充顶点
+GImageGroup				从一个GAltas中选取一个sprite，设置到image上
+GImageGroupPlayer		实现多个sprite的切换动画
+GImageModel				模型图片, 继承自RawImage，设置texture为rt
+GInExtremis					image的过渡颜色
+GLayoutAuto				自动GLayout所有子控件，慎用
+GListItem						一个列表项，事件触发
+GPopup						scale改变
+GRayCastPoly				多边形和摄像机的射线检测
+GRayCastRect				继承自Graphic实现射线目标
+GResizer						扩大targetRect
+GScrollWatcher				用ScrollRect实现滚动视图 RTContent
+GSlideButton				拖动slide
+GText							富文本，添加一个GTextGraphicBoard显示表情
+									GTextEmotionModel单个表情
+									GTextLinkModel单个文字链接，只有rect来处理点击事件
+GTextGraphicBoard		继承自MaskableGraphic
+									获取GTextEmotionModel的GEmotionAsset获取GTextEmotionModel的GEmotionAsset(每个表情)
+									获取每个emotion的uv，添加顶点
+GUISound					播放UI声音
+
+GDragablePageView		用scrollview实现的可拖动pageview，管理GDragablePateItem
+GNewBtnExpress
+GNewDropDown
+GNewIOSToggle
+GNewLayoutTable
+GNewList
+GNewListLoop
+GNewTabList
+GScrollViewButton
+GWebView
+UIImgMover
+UITemplate
+
+DOTweenAnimation
+DOTweenPlayer
+
+为了方便构造控件 在菜单 UI/UI菜单 中 (UIComponentCreator.cs)

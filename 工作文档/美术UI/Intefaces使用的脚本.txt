@@ -2,7 +2,7 @@
 Assets/3rd/DOTween/DOTweenPro/DOTweenPlayer.cs
 Assets/3rd/UniWebView/Script/UniWebView.cs
 Assets/Guide/UIGuideMaskTrsSet.cs
-Assets/Scripts/Artcode/SetSortingOrder.cs
+Assets/Scripts/Artcode/SetSortingOrder.cs											
 Assets/Scripts/FxDuration.cs
 Assets/Scripts/GUILinkHolder.cs
 Assets/Scripts/InteractableUIHolder.cs
