@@ -39,4 +39,12 @@ Assets/Scripts/Joystick.cs
 																						移除GCommonUI
 																						设置Layer为UI
 																						将改变的prefab保存到对应的目录
+					
+Assets/Prefabs下UI制作时，使用的脚本比Assets/Outputs/Interfaces下多3个，分别是
+			Assets/Scripts/UIExtension/Component/GCommonUI.cs							
+					方便使用通用的Prefabs/UITemplates下的UITemplate，主要用来辅助添加做好的通用组件的UITemplate到prefab上，在生成时清除
+			Assets/Scripts/UIExtension/Component/NewUI/GUIPanel.cs				
+					对UI下的每个子节点panel，设置orderOffset, IPX适配，全屏适配，阻挡raycast等，生成时保存在InteractableUIHolder中
+			Assets/Scripts/UIExtension/PanelSetting.cs			
+					对应整个UI根节点，设置closeType, destroyOnHide，是否有背景图，生成时根据背景图添加Image, closeType,destroyOnHide生成lua
 			
