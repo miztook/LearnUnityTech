@@ -4,10 +4,14 @@
 	从局部坐标系变换到世界坐标系，再转换到阴影空间中
 	
 UnityComputeForwardShadows		//计算片元的阴影值		实时 + 烘培
-
+		UnityComputeShadowFadeDistance
+		UnityComputeShadowFade				//实时光和烘培光的混合系数
+		UnitySampleBakedOcclusion			//获得shadow_mask的阴影强度
+		UnityMixRealtimeAndBakedShadows		//混合
+		
 UNITY_SHADOW_COORDS
-UNITY_TRANSFER_SHADOW
-UNITY_SHADOW_ATTENUATION
+UNITY_TRANSFER_SHADOW		//shadow coords 经过光照图纹理变换
+UNITY_SHADOW_ATTENUATION		//计算阴影
 	
-UNITY_LIGHT_ATTENUATION		光源的衰减	
+UNITY_LIGHT_ATTENUATION		光源强度
 	

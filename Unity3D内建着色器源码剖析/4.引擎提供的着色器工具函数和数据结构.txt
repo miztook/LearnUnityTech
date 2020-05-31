@@ -47,6 +47,7 @@ UnityShaderVariables.cginc文件中的着色器常量和函数
 			unity_WorldToShadow				//世界空间到阴影贴图空间的变换坐标
 	逐帧绘制调用相关
 		UnityPerDraw
+		UnityPerFrame
 	雾效果相关
 		UntiyFog
 			unity_FogColor
@@ -59,24 +60,27 @@ UnityShaderVariables.cginc文件中的着色器常量和函数
 			unity_DynamicLightmapST
 		UnityReflectionProbes
 
+UnityShaderUtilities.cginc文件中的函数
+	UnityObjectToClipPos				//世界空间到clip空间
+
 UnityCG.cginc文件中的工具函数和宏 
 	数学常数
-	颜色空间相关
-		IsGammaSpace
+	颜色空间相关				//Gamma和Linear的转换
+		IsGammaSpace					//宏UNITY_COLORSPACE_GAMMA
 		GammaToLinearSpaceExact
 		GammaToLinearSpace
 		LinearToGammaSpaceExact
 		LinearToGammaSpace
 	顶点布局格式的结构体
-		appdata_base
-		appdata_tan
-		appdata_full
+		appdata_base			//position, normal, texcoord0
+		appdata_tan				//position, tangent, normal, texcoord0
+		appdata_full			//position, tangent, normal, texcoord0, texcoord1, texcoord2, texcoord3, color
 	空间变换
 		UnityWorldToClipPos
 		UnityViewToClipPos
 		UnityObjectToViewPos
 		UnityWorldToViewPos
-		UnityObjectToWorldDir
+		UnityObjectToWorldDir				//dir是float3x3操作
 		UnityWorldToObjectDir
 		UnityObjectToWorldNormal			//左乘unity_WorldToObject，等同于右乘unity_ObjectToWorld的逆转置矩阵
 		UnityWorldSpaceLightDir
@@ -87,10 +91,11 @@ UnityCG.cginc文件中的工具函数和宏
 		Shade4PointLights			//计算4个点光源的lambert漫反射效果叠加
 		ShadeVertexLightsFull			//计算顶点光，光源和法线在View空间计算
 		ShadeVertexLights
+		ShadeSH9					//球谐光照计算 与normal相关，unity_SH参数
 		TRANSFORM_TEX, TRANSFORM_UV
-		VertexLight
-		ParallaxOffset
-		Luminance
+		VertexLight					//用贴图采样控制diffuse, specular, 得出最终颜色
+		ParallaxOffset				//计算uv offset
+		Luminance					//灰度
 		LinearRgbToLuminance
 	HDR及光照贴图颜色编解码相关
 		RGBM			//扩大范围的rgb编码	M范围 0-5
@@ -117,18 +122,18 @@ UnityCG.cginc文件中的工具函数和宏
 		UnpackNormalmapRGorAG
 		UnpackNormalDXT5nm
 	线性化深度值
-		Linear01Depth
-		LinearEyeDepth
+		Linear01Depth					//深度到linear 01
+		LinearEyeDepth					//深度到linear
 	实现图像效果的函数和结构体
-		appdata_img
+		appdata_img			//position, texcoord0
 		v2f_img
 		MultiplyUV		//uv空间变换
-		vert_img
+		vert_img		//object变换到clipPos
 	计算屏幕坐标
 		ComputeNonStereoScreenPos					//clip空间齐次坐标，结果还是裁剪空间
 		从ScreenPos得到真正的视口坐标值				//vPP = sPos.xy/sPos.w*vPWH
 		ComputeScreenPos
-		ComputeGrabScreenPos
+		ComputeGrabScreenPos		//变换到grab screen位置
 		UnityPixelSnap				//视口坐标转换成屏幕像素坐标
 		TransformViewToProjection
 	阴影处理相关
@@ -139,6 +144,6 @@ UnityCG.cginc文件中的工具函数和宏
 	雾效果相关
 		UNITY_CALC_FOG_FACTOR_RAW			//计算雾化因子
 		UNITY_CALC_FOG_FACTOR 和 UNITY_FOG_COORDS_PACKED
-		UNITY_TRANSFER_FOG		//计算雾效
+		UNITY_TRANSFER_FOG		//计算雾效 根据深度计算
 		UNITY_FOG_LERP_COLOR
-		UNITY_APPLY_FOG_COLOR
+		UNITY_APPLY_FOG_COLOR 		//颜色和雾颜色插值
