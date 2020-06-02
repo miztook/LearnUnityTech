@@ -1,0 +1,13 @@
+地编：1 加载地图的prefab以及NPC、Moster、Bezier等等数据prefab，2 添加、编辑prefab文件，3 保存prefab文件，4 导出lua和data文件。
+    地编流程-打开文件，编辑prefab，保存lua、data文件
+        1 打开地编，加载 - FileLoadEditor
+        2 编辑，添加 - CreateEditor
+        3 保存prefab - SaveMap
+        4 导出data文件和lua文件 - MapInfo
+主要文件分类
+        1 Batch 批处理脚本
+        2 Inspector 所有EditorInspector面板扩展
+        3 Listener 编辑器监听
+        4 Window 所有EditorWindow面板
+        5 LevelEditor - Prefab 所有Inspecgtor需要的数据结构
+        6 LevelEditor 需要的工具类
