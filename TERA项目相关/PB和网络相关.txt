@@ -1,0 +1,28 @@
+protobuf的使用
+	协议和数据模板使用了protobuf，来做客户端和服务器之间的lua和C#的交互
+	M1Client\Tools\ProtocolBuffers\protos 下是 net 和 Template的proto定义，一般由服务器人员修改
+	proto文件变化后，需要客户端生成使用的lua文件。客户端安装 python-2.7，用于生成proto的lua文件
+	安装python-2.7后，把python的执行路径添加到环境变量的PATH中，然后在 M1Client\Tools\ProtocolBuffers\protobuf-2.5.0\python 下打开readme.txt
+	打开cmd命令行，执行 cd /d <路径>\M1Client\Tools\ProtocolBuffers\protobuf-2.5.0\python
+			python setup.py build
+			python setup.py test
+			python setup.py install  安装完毕
+	回到 M1Client\Tools\ProtocolBuffers 下，点击 gen_client.bat 看是否成功运行，如果proto有更改 GameRes 下的 net.lua data.lua template.lua C#下的 Template.cs会有变化
+			Template.cs是C#文件，游戏逻辑不使用，供客户端本地化工具使用
+			
+客户端C#
+	Assets\Scripts\Net 下定义的网络通信相关代码
+		Socket就是一个 ip + port 的集合，定义一个网络收发点，可以向目标socket发送和接收数据包，同时会收到网络消息ConnectEventArgs
+		Network里定义了socket，目标点，收发的消息队列，事件处理等
+	Assets\Scripts\Main\Network 下定义游戏协议收发逻辑
+		CGameSession.cs Tick函数里 做连接检查，保持live，检查网络event，发送协议，收取协议
+		发送协议: lua 调用 GameUtil.SendProtocol -> CGameSession.SendProtocol
+		收取协议: CGameSession.ProcessProtocol 调用lua的 _G.ProcessProtocol
+				  CGameSession.ProcessBufferedProtocol 调用lua的 _G.ProcessBufferedProtocol
+	
+lua
+	Lua\Network下 PBHelper.lua 
+		将net.lua中定义的每一个协议，如果在ProtoList.lua中定义，则注册到PBHelper中，存储了协议的相关信息
+		提供协议的发送 PBHelper.Send
+		收到协议后处理函数的注册 OnReceiveProtocolData 后找到这个协议的handler，并调用
+		

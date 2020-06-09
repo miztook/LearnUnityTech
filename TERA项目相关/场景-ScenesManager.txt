@@ -1,0 +1,37 @@
+场景管理涉及:
+		SceneRegionManager
+		DynamicEffectManager
+		TerrainManager
+		ScenesBlocksManager
+		ScenesColliderManager
+
+
+SceneConfig 结构 每个场景一个，在初始化时用到
+		LightmapsConfig  光照图配置
+			LightmapsMode
+			RendererLightmapInfo[]  建筑模型的光照图
+				Renderer, Name, LightmapIndex, LightmapScaleOffset
+			TerrainLightmapInfo[]	地形的光照图
+				Terrain, Name, LightmapIndex, LightmapScaleOffset
+				
+		List<CPositionSetting>	
+			分块列表，每个分块在加载后依赖 SceneBlocks 组件实现每个物体的lightmap index的设置
+				
+		TexCount   光照图数量
+		_BoxColliders, _CapsuleColliders, _ColliderInfos 碰撞信息，在ColliderManager里分块加载
+		
+SceneBlocksManager 初始化
+		Init
+			LoadAssetWithPlayerLight  //加载 lightmapAsset，包括场景里所有的光照图，设置到LightmapSettings
+									//设置 预加载的地形和建筑的光照图信息 index，scaleOffset
+			Preload 	根据角色位置，加载周围的分块，光照图信息在 SceneBlocks 组件中设置
+			
+			Tick		根据角色位置，加载周围的分块，卸载不需要的分块，光照图信息在 SceneBlocks 组件中设置
+			
+TerrainManager 初始化
+		Init
+			获取场景中所有地形的信息，保存为地形信息列表
+		Update
+			根据摄像机和地形块的距离远近，设置地形块的参数，实现地形的可见和精度调整
+			
+ScenesColliderManager 
