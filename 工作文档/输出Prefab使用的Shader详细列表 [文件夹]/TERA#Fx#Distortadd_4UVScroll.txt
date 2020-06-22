@@ -1,0 +1,24 @@
+﻿TERA/Fx/Distortadd_4UVScroll
+		Ct01_fx_Waterflow_hall/Fx_ct01_waterflow02
+		Ct01_fx_Waterflow_hall/Fx_ct01_waterflow03
+		Ct01_fx_Waterflow_hall/Fx_ct01_waterflow04
+		Ct01_fx_Waterflow_hall/Gnl_Fx_water_fontain01
+		Ct01_Prop_Penquan/Waterflow_penquan/etc_zhucheng_shuimian/Gnl_Fx_water_fontain01
+		Ct01_Prop_Penquan/Waterflow_penquan/Waterflow01/Fx_ct01_waterflow03
+		Ct02_fx_Waterfall01/city02_water_01-alpha/city02_water_01-ADD (1)
+		Ct02_fx_Waterfall01/city02_water_02/city02_water_02 (1)
+		Dungn02_Cave01/SFX/sence_Dungn02_Cave01_pubu01/Fx_hellBoss_Water02
+		Dungn02_Cave01/SFX/sence_Dungn02_Cave01_shuiliu/water02 (1)/waterfall01 (1)
+		Dungn02_Cave01/SFX/sence_Dungn02_Cave01_shuiliu/Water03 (1)/Waterfall02 (1)
+		Dungn02_Cave01/SFX/sence_Dungn02_Cave01_xiaopubu/Water04 (1)/Water04 (2)
+		Dungn02_Cave01/SFX/sence_Dungn02_Cave01_xiaopubu/water05 (1)/water05 (1)
+		Wd01_Fx_glzdetails/scene_world01_penquan/shui/water01/shuiliu01 (2)
+		Wd01_Fx_glzdetails/scene_world01_penquan/shui/water01/shuimian03 (1)
+		Wd01_Fx_glzdetails/scene_world01_penquan/shui/water01/shuimian03 (2)
+		Wd01_Fx_waterfall_nt/scene_wd01_pubu01/pubu/T_wenli_shui_012_02_add
+		Wd01_Fx_waterfall_zc/scene_wd01_pubu02/pubu/T_wenli_shui_012_05_add
+		Wd01_Fx_waterfall_zc/scene_wd01_pubu02/pubu/T_wenli_shui_012_06_add
+		Wd02_Fx_jlzqpool/T_wenli_shui_001_018_alpha
+		Wd02_Fx_river03/T_wenli_shui_001_012_alpha
+		Wd03_fx_river01fx/wd03p1_water1_01/wd03p1_water1_01 (1)
+		Wd03_fx_river01fx/wd03p1_water4_02/wd03p1_water4_02 (1)

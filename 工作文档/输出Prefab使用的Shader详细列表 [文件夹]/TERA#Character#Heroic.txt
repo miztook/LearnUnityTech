@@ -1,0 +1,79 @@
+﻿TERA/Character/Heroic
+		alilancer_fbody
+		alilancer_fbody_dw
+		alipriest_fbody
+		alipriest_fbody_dw
+		casassassin_mbody
+		diyuquan/ride_diyuquan
+		fangzhoujingjiezhe/pet_fangzhoujingjiezhe
+		general_head_bangqiumao
+		general_head_mianbufadai
+		general_head_xingxingfadai
+		general_head_zhayanmaomi
+		humwarrior_mbody
+		jinglingzahuoshang/jinglingzahuoshang
+		KuLouLongAn/KuLouLongBai
+		KuLouLongBai/KuLouLongBai
+		KuLouLongBing/KuLouLongBing
+		KuLouLongHe/KuLouLongBai
+		Lunyi/LunYi
+		MoTuoChe/Motuoche
+		PengKeYaZiBai/PengKeYaZi
+		PengKeYaZiHei/PengKeYaZi
+		pet_baige/pet_baige
+		pet_fuerpeilun/Object006
+		pet_gangtietuoniao/kangtietuoniao
+		pet_jiaqiaojijuxie/pet_jiaqiaojijuxie
+		pet_leilongbaobao/body
+		pet_liulangshangrenaila/pet_liulangshangrenaila000
+		pet_luximao/pet_luximao001
+		pet_nainiuxiaozhu/pet_nainiuxiaozhu
+		pet_niutou/pet_niutou
+		pet_nushi/pet_nushi
+		pet_penqichaiquan/pet_penqichaiquan
+		pet_sishenakusi/sishenakusi
+		pet_tilaniya/pet_tilaniya
+		pet_wangzhuayouhun/pet_wangzhuayouhun
+		pet_xiangrikuisali/pet_xiangrikuisali
+		pet_xiaobailang/pet_xiaobailang
+		pet_xiaoemo/pet_xiaoemo
+		pet_xueshizhe/pet_xueshizhe01
+		scene_zudang_boss 1 1/scene_zudang_boss 1 1/KULOU /kulou
+		scene_zudang_boss 1 1/scene_zudang_boss 1 1/KULOU /kulou_xiahe
+		scene_zudang_boss 1/scene_zudang_boss 1/KULOU /kulou
+		scene_zudang_boss 1/scene_zudang_boss 1/KULOU /kulou_xiahe
+		scene_zudang_boss/scene_zudang_boss/KULOU /kulou
+		scene_zudang_boss/scene_zudang_boss/KULOU /kulou_xiahe
+		scene_zudang_boss_1/scene_zudang_boss 1/KULOU /kulou
+		scene_zudang_boss_1/scene_zudang_boss 1/KULOU /kulou_xiahe
+		scene_zudang_boss_1_1/scene_zudang_boss 1 1/KULOU /kulou
+		scene_zudang_boss_1_1/scene_zudang_boss 1 1/KULOU /kulou_xiahe
+		scene_zudang_zhuzi_l/zudang_zhuzi_l
+		scene_zudang_zhuzi_l_purple/zudang_zhuzi_l
+		scene_zudang_zhuzi_r/zudang_zhuzi_r
+		scene_zudang_zhuzi_r_purple/zudang_zhuzi_r
+		ShiZiWangBai/Shiziwang
+		ShiZiWangHei/Shiziwang
+		ShiZiWangHeiJin/ShiZiWangHeiJin
+		sprarcher_fbody
+		TestPendant01/maozi
+		TestPendant02/quanbao_xiongtou
+		TieJiaMaHong/TieJiaMa
+		TieJiaMaHong/TieJiaMa001
+		TieJiaMaLan/TieJiaMa
+		TieJiaMaLan/TieJiaMa001
+		TieJiaMaYin/TieJiaMa
+		TieJiaMaYin/TieJiaMa001
+		UIScene_Blacksmith/BG/Objects/Build_Ui_blacksmith_front/Prop_tiezhan_01
+		UIScene_Blacksmith/BG/Objects/Build_Ui_blacksmith_front/Prop_Ui_baijian01
+		UIScene_Blacksmith/BG/Objects/Build_Ui_blacksmith_front/prop_xsc_wuqi_03
+		UIScene_Blacksmith/BG/Objects/Prop_Barricade_table_01
+		wanwuzhicaiji/wanwuzhicaiji
+		XingGuangDuJiaoShou/ride_xingguangdujiaoshou
+		xingkonglong/ride_xingkonglong
+		xiongshidoushi/body
+		YouLingLangFen/YouLingLang
+		YouLingLangHei/YouLingLang
+		ZhuDaoCao/ZhuDaoCao
+		ZhuHaLei/ZhuHaLei
+		ZhuHaLei/ZhuHaLei_weiba

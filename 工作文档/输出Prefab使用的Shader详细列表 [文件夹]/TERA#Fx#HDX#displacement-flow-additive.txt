@@ -1,0 +1,174 @@
+﻿TERA/Fx/HDX/displacement-flow-additive
+		alekunpozhenzhe_hit_tongyong/glow/shanguang2 (3)
+		alekunpozhenzhe_skill02_baozha/glow/shanguang2 (3)
+		alekunpozhenzhe_skill02_cast_L/glow/xishou02
+		alekunpozhenzhe_skill02_cast_R/glow/xishou02
+		alekunpozhenzhe_skill03_cast_body/juqi/xishou02
+		alekunpozhenzhe_skill04_cast_body/juqi/xishou02
+		alekunshifazhe_hit_tongyong/shanguang/shanguang2 (3)
+		bafengte_attack01_c_putonggongji/1/chongji03
+		beizuzhoudechuniang_skill01_b_c_daoguang/GameObject/zadi/dilie01/dilie01 (1)
+		Dwennisha_skill02_b1_c_qilang/zadi/dadiliebian/kuosan/dilie (1)/GameObject/dilie-1 (3)
+		fangzhoushouhuzhe_skill01_c_zadi/fangzhoushouhuzhe_skill01_c_zadi_L0/zadi/ring01
+		fangzhoushouhuzhe_skill01_c_zadi/fangzhoushouhuzhe_skill01_c_zadi_L1/zadi/ring01
+		fangzhoushouhuzhe_skill01_c_zadi/fangzhoushouhuzhe_skill01_c_zadi_L3/zadi/ring01
+		fangzhoushouhuzhe_skill01_c_zadi_L0/fangzhoushouhuzhe_skill01_c_zadi_L0/zadi/ring01
+		fangzhoushouhuzhe_skill01_c_zadi_L1/fangzhoushouhuzhe_skill01_c_zadi_L1/zadi/ring01
+		fangzhoushouhuzhe_skill01_c_zadi_L3/fangzhoushouhuzhe_skill01_c_zadi_L3/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi1/fangzhoushouhuzhe_skill03_c_zadi1_L0/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi1/fangzhoushouhuzhe_skill03_c_zadi1_L0/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi1/fangzhoushouhuzhe_skill03_c_zadi1_L1/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi1/fangzhoushouhuzhe_skill03_c_zadi1_L1/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi1/fangzhoushouhuzhe_skill03_c_zadi1_L3/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi1/fangzhoushouhuzhe_skill03_c_zadi1_L3/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi1_L0/fangzhoushouhuzhe_skill03_c_zadi1_L0/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi1_L0/fangzhoushouhuzhe_skill03_c_zadi1_L0/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi1_L1/fangzhoushouhuzhe_skill03_c_zadi1_L1/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi1_L1/fangzhoushouhuzhe_skill03_c_zadi1_L1/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi1_L3/fangzhoushouhuzhe_skill03_c_zadi1_L3/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi1_L3/fangzhoushouhuzhe_skill03_c_zadi1_L3/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi2/fangzhoushouhuzhe_skill03_c_zadi1_L0/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi2/fangzhoushouhuzhe_skill03_c_zadi1_L0/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi2/fangzhoushouhuzhe_skill03_c_zadi1_L1/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi2/fangzhoushouhuzhe_skill03_c_zadi1_L1/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi2/fangzhoushouhuzhe_skill03_c_zadi1_L3/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi2/fangzhoushouhuzhe_skill03_c_zadi1_L3/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi2_L0/fangzhoushouhuzhe_skill03_c_zadi1_L0/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi2_L0/fangzhoushouhuzhe_skill03_c_zadi1_L0/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi2_L1/fangzhoushouhuzhe_skill03_c_zadi1_L1/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi2_L1/fangzhoushouhuzhe_skill03_c_zadi1_L1/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi2_L3/fangzhoushouhuzhe_skill03_c_zadi1_L3/dilie/dilie (5)
+		fangzhoushouhuzhe_skill03_c_zadi2_L3/fangzhoushouhuzhe_skill03_c_zadi1_L3/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi3/fangzhoushouhuzhe_skill03_c_zadi3_L0/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi3/fangzhoushouhuzhe_skill03_c_zadi3_L1/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi3/fangzhoushouhuzhe_skill03_c_zadi3_L3/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi3_L0/fangzhoushouhuzhe_skill03_c_zadi3_L0/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi3_L1/fangzhoushouhuzhe_skill03_c_zadi3_L1/zadi/ring01
+		fangzhoushouhuzhe_skill03_c_zadi3_L3/fangzhoushouhuzhe_skill03_c_zadi3_L3/zadi/ring01
+		fennudenanmin_attack02_daoguang/GameObject/zadi/dilie01/dilie01 (1)
+		gelumoshilianzhe_skill01_dici/rock01/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock02/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock03/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock04/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock05/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock06/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock07/zadi/ring01
+		gelumoshilianzhe_skill01_dici/rock08/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock01/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock03/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock04/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock05/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock06/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock07/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/L/rock08/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock02/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock03/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock04/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock05/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock06/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock07/zadi/ring01
+		gelumoshilianzhe_skill01_dici_fanwei/R/rock08/zadi/ring01
+		gelumoshilianzhe_skill04_dici/rock05/zadi/ring01
+		gudaiyijijushou_attack01_zadi/kuosan/shanguang02
+		gudaiyijijushou_attack01_zadi/zadi/ring01
+		gulong_skill09_c_jiangluo/kuosan/baozha/zadi/ring01
+		haiguzhiwang_attack02_zadi/zadi/ring01
+		haiguzhiwang_skill01_zadi/position/zadi/ring01
+		heiyawushi_xuanfeng/xuanfeng/splash (1)
+		humwarrior_m_skill05_c_suidipo1_feng/humwarrior_m_skill05_c_suidipo1_feng_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_feng/humwarrior_m_skill05_c_suidipo1_feng_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_feng_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_feng_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_guang/humwarrior_m_skill05_c_suidipo1_guang_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_guang/humwarrior_m_skill05_c_suidipo1_guang_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_guang_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_guang_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_huo/humwarrior_m_skill05_c_suidipo1_huo_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_huo/humwarrior_m_skill05_c_suidipo1_huo_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_huo_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_huo_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_normal/humwarrior_m_skill05_c_suidipo1_normal_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_normal/humwarrior_m_skill05_c_suidipo1_normal_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_normal_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo1_normal_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_feng/humwarrior_m_skill05_c_suidipo2_feng_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_feng/humwarrior_m_skill05_c_suidipo2_feng_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_feng_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_feng_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_guang/humwarrior_m_skill05_c_suidipo2_guang_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_guang/humwarrior_m_skill05_c_suidipo2_guang_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_guang_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_guang_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_huo/humwarrior_m_skill05_c_suidipo2_huo_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_huo/humwarrior_m_skill05_c_suidipo2_huo_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_huo_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_huo_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_normal/humwarrior_m_skill05_c_suidipo2_normal_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_normal/humwarrior_m_skill05_c_suidipo2_normal_L1/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_normal_L0/Particle System 1/putongdilie
+		humwarrior_m_skill05_c_suidipo2_normal_L1/Particle System 1/putongdilie
+		jurenkumosi_skill02_caidi/jurenkumosi_skill02_caidi_L0/zadi/ring01
+		jurenkumosi_skill02_caidi/jurenkumosi_skill02_caidi_L1/zadi/ring01
+		jurenkumosi_skill02_caidi/jurenkumosi_skill02_caidi_L3/zadi/ring01
+		jurenkumosi_skill02_caidi_L0/zadi/ring01
+		jurenkumosi_skill02_caidi_L1/zadi/ring01
+		jurenkumosi_skill02_caidi_L3/zadi/ring01
+		kalasishilian_attack02_zadi/zadi/ring01
+		kalasishilian_show_zadi_L/position/zadi/ring01
+		kalasishilian_show_zadi_R/position/zadi/ring01
+		kemolaxia_attack02_shitu/zadi/ring01
+		laiangkeneixiaojie_skill01_b_c_daoguang/GameObject/zadi/dilie01/dilie01 (1)
+		luxinghuimiezhe_zibaodanwei_baozha/zadi/ring01
+		maligousi_attack02_zadi/skill01_zadi_l/zadi/ring01
+		maligousi_attack02_zadi/skill01_zadi_r/zadi/ring01
+		maligousi_skill01_zadi/maligousi_skill01_zadi_L0/skill01_zadi/dilie/dilie01
+		maligousi_skill01_zadi/maligousi_skill01_zadi_L0/skill01_zadi/dilie/dilie02
+		maligousi_skill01_zadi/maligousi_skill01_zadi_L0/skill01_zadi/zadi/ring01
+		maligousi_skill01_zadi/maligousi_skill01_zadi_L3/skill01_zadi/zadi/ring01
+		maligousi_skill01_zadi_L0/skill01_zadi/dilie/dilie01
+		maligousi_skill01_zadi_L0/skill01_zadi/dilie/dilie02
+		maligousi_skill01_zadi_L0/skill01_zadi/zadi/ring01
+		maligousi_skill01_zadi_L3/skill01_zadi/zadi/ring01
+		maligousi_skill04_zadi/maligousi_skill04_zadi_L0/zadi/skill01_zadi/zadi/ring01
+		maligousi_skill04_zadi/maligousi_skill04_zadi_L1/zadi/skill01_zadi/zadi/ring01
+		maligousi_skill04_zadi/maligousi_skill04_zadi_L3/zadi/skill01_zadi/zadi/ring01
+		maligousi_skill04_zadi_L0/maligousi_skill04_zadi_L0/zadi/skill01_zadi/zadi/ring01
+		maligousi_skill04_zadi_L1/maligousi_skill04_zadi_L1/zadi/skill01_zadi/zadi/ring01
+		maligousi_skill04_zadi_L3/maligousi_skill04_zadi_L3/zadi/skill01_zadi/zadi/ring01
+		passive_huo_chixuranshao/humwarrior_m_skill05_c_suidipo1_huo (1)/dilie/putongdilie
+		passive_huo_runshibaozha/humwarrior_m_skill05_c_suidipo1_huo/dilie/putongdilie
+		sanlian_skill08_b_c_qilang/sanlian_skill08_b_c_qilang_L0/fashe/ring_fast
+		sanlian_skill08_b_c_qilang/sanlian_skill08_b_c_qilang_L3/fashe/ring_fast
+		sanlian_skill08_b_c_qilang_L0/fashe/ring_fast
+		sanlian_skill08_b_c_qilang_L3/fashe/ring_fast
+		scene_jitan_fangyu/position/ray
+		scene_jitan_gongji/position/ray
+		scene_jitan_zhiliao/position/ray
+		state_chongwu_buff_cheng/buff/glow01
+		state_chongwu_buff_lan/buff/glow01
+		state_chongwu_buff_zi/buff/glow01
+		UI_gonghuizhanchang_gaojijitan_hong/Particle System (2)
+		UI_gonghuizhanchang_gaojijitan_lan/Particle System (2)
+		ui_niudan_baozha/scale/explode/ray
+		yihuagudaiyijijushou_attack01_zadi/kuosan/shanguang02
+		yihuagudaiyijijushou_attack01_zadi/zadi/ring01
+		yisilianshilianzhe_attack_01_pugong/skill01_zadi_r/zadi/ring01
+		yisilianshilianzhe_show_attack01/zadi01/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L0/skill02_c_zadi_02/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L0/skill02_c_zadi_03/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L1/skill02_c_zadi_02/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L1/skill02_c_zadi_03/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L3/skill02_c_zadi_02/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L3/skill02_c_zadi_03/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji_L0/skill02_c_zadi_02/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji_L0/skill02_c_zadi_03/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji_L1/skill02_c_zadi_02/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji_L1/skill02_c_zadi_03/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji_L3/skill02_c_zadi_02/zadi/ring01
+		yisilianshilianzhe_skill02_c_xieezhongji_L3/skill02_c_zadi_03/zadi/ring01
+		zhizhengguan_hit_tongyong/glow/shanguang2 (3)
+		zhizhengguan_skill02_baozha/glow/shanguang2 (3)
+		zhizhengguan_skill02_cast_L/glow/xishou02
+		zhizhengguan_skill02_cast_R/glow/xishou02
+		zhizhengguan_skill03_cast_body/juqi/xishou02
+		zhizhengguan_skill04_cast_body/juqi/xishou02

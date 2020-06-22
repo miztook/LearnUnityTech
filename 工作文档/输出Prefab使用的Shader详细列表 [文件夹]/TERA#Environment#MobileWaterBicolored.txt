@@ -1,0 +1,44 @@
+﻿TERA/Environment/MobileWaterBicolored
+		Ct01_Fx_Sea/Fx_ct01_waterplane_sea
+		Ct01_LF_Grokcs_Port/Fx_ct01_waterplane_cave
+		Ct02_fx_waterbase/AQUASWater (4)
+		Dn_pvp01_Guildbase/Fx_Water/Fx_GuildbaseWater01
+		Dungn00_Throne01/dungn00_throne01_scenes_01_water
+		Dungn00_Throne01/dungn00_throne01_scenes_01_water03
+		Dungn03_QXGJ01/water_plane/Dn03_waterplane
+		Wd01_fx_river01/Fx_Wd01_Waterplane_river
+		Wd01_fx_sd01/Fx_Wd01_Waterplane_sea02
+		Wd01_fx_sea01/Fx_Wd01_Waterplane_sea01
+		Wd01_fx_zc/Fx_Wd01_Waterplane_zc
+		Wd02_Fx_jlzqpool/AQUASWater
+		Wd02_Fx_river01/AQUASWater (1)
+		Wd02_Fx_sdpool/AQUASWater (2)
+		Wd02_Fx_xbslpool/AQUASWater
+		Wd03_fx_river01/Fx_Wd03_Waterplane_river
+		Wd03_fx_river02/Fx_Wd03_Waterplane_river2
+		Wd03_fx_river03/Fx_Wd03_Waterplane_pool
+		Wd03_fx_sea/Fx_Wd03_Waterplane_sea
+		Wd032_fx_sea/Water_Wd03_Sea01
+		Wd032_fx_water01/Water_Wd03_pool01
+		Wd032_fx_water02/Water_Wd03_pool02
+		Wd032_fx_water03/Water_Wd03_pool03
+		Wd032_fx_water04/Water_Wd03_Sea01
+		Wd041_fx_pool_desert/Water_Wd041_Pool01
+		Wd041_fx_river01/Water_Wd041_River01
+		Wd041_fx_river02/Water_Wd041_River03
+		Wd041_fx_river03/Water_Wd041_River02
+		Wd041_fx_sea/Water_Wd041_Sea01
+		Wd042_fx_river01/Water_Wd042_river01
+		Wd042_fx_river02/Water_Wd042_river02
+		Wd042_fx_river03/Water_Wd042_river03
+		Wd042_fx_river04/Water_Wd042_river04
+		Wd042_fx_sea/Water_Wd042_Sea01
+		Wd042_fx_sea2/Water_Wd042_Sea05
+		Wd042_Prop_jlys09/world04p2_water2_05 (1)
+		Wd05_fx_river01/Water_Wd05_River01
+		Wd05_fx_river01/Water_Wd05_River02
+		Wd05_fx_river02/Water_Wd05_River03
+		Wd05_fx_river03/Water_Wd05_River04
+		Wd05_fx_river04/world05_water06
+		Wd05_fx_sea/Water_Wd05_Sea01
+		wd06_build_yyxk_01/Plane

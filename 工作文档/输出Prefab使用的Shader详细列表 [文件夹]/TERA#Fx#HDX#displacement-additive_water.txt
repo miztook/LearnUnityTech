@@ -1,0 +1,120 @@
+﻿TERA/Fx/HDX/displacement-additive_water
+		Dungn07_Mansion01/Fx/scene_wd06p1_penquan/GameObject (4)/Cylinder002 (1)
+		fanbeierbojue_attack01_c/fanbeierbojue_attack01_c (1)/fanbeierbojue_attack01_c/dao/dao1 (4)
+		fanbeierbojue_attack01_c/fanbeierbojue_attack01_c (1)/fanbeierbojue_attack01_c/dao/dao1 (5)
+		fanbeierbojue_attack01_c/fanbeierbojue_attack01_c/fanbeierbojue_attack01_c/dao/dao1 (4)
+		fanbeierbojue_attack01_c/fanbeierbojue_attack01_c/fanbeierbojue_attack01_c/dao/dao1 (5)
+		fanbeierbojue_attack02_c/fanbeierbojue_attack02_c (1)/fanbeierbojue_attack02_c/dao/dao1 (4)
+		fanbeierbojue_attack02_c/fanbeierbojue_attack02_c (1)/fanbeierbojue_attack02_c/dao/dao1 (5)
+		fanbeierbojue_attack02_c/fanbeierbojue_attack02_c/fanbeierbojue_attack02_c/dao/dao1 (4)
+		fanbeierbojue_attack02_c/fanbeierbojue_attack02_c/fanbeierbojue_attack02_c/dao/dao1 (5)
+		fanbeierbojue_skill01_c/fanbeierbojue_skill01_c_ci/fanbeierbojue_skill01_c_ci/ci/dao1 (12)
+		fanbeierbojue_skill01_c/fanbeierbojue_skill01_c_dao/fanbeierbojue_attack02_c/dao/dao1 (4)
+		fanbeierbojue_skill01_c/fanbeierbojue_skill01_c_dao/fanbeierbojue_attack02_c/dao/dao1 (5)
+		fanbeierbojue_skill02_c/fanbeierbojue_attack02_c (1)/fanbeierbojue_attack02_c/dao/dao1 (4)
+		fanbeierbojue_skill02_c/fanbeierbojue_attack02_c (1)/fanbeierbojue_attack02_c/dao/dao1 (5)
+		fanbeierbojue_skill02_c/fanbeierbojue_attack02_c (2)/fanbeierbojue_attack02_c/dao/dao1 (4)
+		fanbeierbojue_skill02_c/fanbeierbojue_attack02_c (2)/fanbeierbojue_attack02_c/dao/dao1 (5)
+		fanbeierbojue_skill02_c/fanbeierbojue_attack02_c/fanbeierbojue_attack02_c/dao/dao1 (4)
+		fanbeierbojue_skill02_c/fanbeierbojue_attack02_c/fanbeierbojue_attack02_c/dao/dao1 (5)
+		fanbeierbojuefuren_attack01_c/fanbeierbojuefuren_attack01_c/alipriest_f1_attack01_c_dao/dao1 (4)
+		fanbeierbojuefuren_attack01_c/fanbeierbojuefuren_attack01_c/alipriest_f1_attack01_c_dao/dao1 (5)
+		fanbeierbojuefuren_attack02_c_shifa/fanbeierbojuefuren_attack02_c_shifa/xishou/xishou (4)
+		fanbeierbojuefuren_attack02_c_shouji/fanbeierbojuefuren_attack02_c_shouji/ci3 (1)
+		fanbeierbojuefuren_attack02_c_zidan/fanbeierbojuefuren_attack02_c_zidan/sicaidai
+		fanbeierbojuefuren_skill01_c/fanbeierbojuefuren_skill01_c/xishou/shanxing (11)
+		fanbeierbojuefuren_skill01_c/fanbeierbojuefuren_skill01_c/xishou/shanxing (3)
+		fanbeierbojuefuren_skill01_c/fanbeierbojuefuren_skill01_c/xishou/shanxing (4)
+		fanbeierpucong_skill01_c_trail/add02
+		hetijibianguai_attack01_c/hetijibianguai_attack01_c (1)/dao/dao1 (8)
+		hetijibianguai_attack02_c/hetijibianguai_attack02_c/dao/dao1 (8)
+		hetijibianguai_skill01_c_pen/hetijibianguai_skill01_c_pen/GameObject (1)/yan (11)
+		hetijibianguai_skill02_c_jiguang/hetijibianguai_skill02_c_jiguang/GameObject (1)/jiguang (1)
+		hetijibianguai_skill02_c_jiguang/hetijibianguai_skill02_c_jiguang/GameObject (1)/jiguang (112)
+		hetijibianguai_skill02_c_jiguang/hetijibianguai_skill02_c_jiguang/GameObject/jiguang (2)
+		hetijibianguai_skill04_c_zidan/hetijibianguai_skill04_c_zidan/GameObject/sicaidai
+		humwarrior_m_lv06_adv_R_weapon_AlekunSP/humwarrior_m_lv06_adv_R_weapon_AlekunSP/glow (1)
+		scene_chuansongmenda/chuansongmen/biankuang
+		scene_chuansongmenda/chuansongmen/guanshu
+		scene_chuansongmenda/chuansongmen/guanshu (2)
+		scene_chuansongmenda/chuansongmen/kuosa
+		scene_chuansongmenda/chuansongmen/kuosan_01
+		scene_chuansongmenda/chuansongmen/kuosan_02
+		scene_chuansongmenda/chuansongmen/limianzuiliang
+		scene_chuansongmenda/chuansongmen/piaoda (11)
+		scene_chuansongmenda/chuansongmen/piaoda (3)
+		scene_chuansongmenda/chuansongmen/piaoda (5)
+		scene_chuansongmenda/chuansongmen/piaoda (6)
+		scene_chuansongmenda/chuansongmen/piaoda (9)
+		scene_chuansongmenda/chuansongmen/xisou/xishou
+		scene_chuansongmenda/chuansongmen/xisou/xishou (3)
+		sence_chuansongmenda/chuansongmen/biankuang
+		sence_chuansongmenda/chuansongmen/guanshu
+		sence_chuansongmenda/chuansongmen/guanshu (2)
+		sence_chuansongmenda/chuansongmen/kuosa
+		sence_chuansongmenda/chuansongmen/kuosan_01
+		sence_chuansongmenda/chuansongmen/kuosan_02
+		sence_chuansongmenda/chuansongmen/limianzuiliang
+		sence_chuansongmenda/chuansongmen/piaoda (11)
+		sence_chuansongmenda/chuansongmen/piaoda (3)
+		sence_chuansongmenda/chuansongmen/piaoda (5)
+		sence_chuansongmenda/chuansongmen/piaoda (6)
+		sence_chuansongmenda/chuansongmen/piaoda (9)
+		sence_chuansongmenda/chuansongmen/xisou/xishou
+		sence_chuansongmenda/chuansongmen/xisou/xishou (3)
+		shushitongling_attack01_c_zidan/qiu/Sphere3-003 (3)
+		shushitongling_attack02_c_fazhen/chongqiguangzhuzong/chongqiguangzhu/guangzhu/gungzhu/canliu
+		shushitongling_attack02_c_fazhen/chongqiguangzhuzong/chongqiguangzhu/guangzhu/sanjiaocanliukehuan (1)
+		shushitongling_attack02_c_fazhen/chongqiguangzhuzong/chongqiguangzhu/guangzhu/sanjiaocanliukehuan (2)
+		shushitongling_attack02_c_fazhen/fazhen/qiu/sanjiao (2)_kehuan (5)
+		shushitongling_attack02_c_fazhen/fazhen/qiu/Sphere3-003 (3)
+		shushitongling_attack02_c_fazhen/fazhen/qiu/yuanzhu/canliu (5)
+		shushitongling_attack02_shifa/shouji/bowen_kuokai1kehuan (1)
+		shushitongling_skill01_c/baofa_zong/baofa/fazhen/sanjiao (2)_kehuan (1)
+		shushitongling_skill01_c/baofa_zong/baofa/fazhen/Sphere3-003 (5)
+		shushitongling_skill01_c/shifa_zong/shifa/qiu/qiutiaodong/Sphere3-003 (3)
+		shushitongling_skill01_c/shifa_zong/shifa/xishou/fazanquan/Sphere3-003 (8)
+		sikala_attack01_c_fly/zidan/zidan02
+		sikala_attack01_c_shifa/glow_bland/wind01
+		sikala_skill01_c_fly/Trail/qiu/Sphere3-003 (3)
+		sikala_skill02_c_sheji/zidan/qiu02
+		sikala_skill03_c_shifa02/glow_bland/wind01
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/cibianyuan
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/GameObject (1)/dian
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/GameObject (1)/feng (16)
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/sprarcher_f_lv06_adv_L_weapon_Alekun (1)
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/sprarcher_f_lv06_adv_L_weapon_Alekun (5)
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/tengwan (1)
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/tengwan (4)
+		sprarcher_f_lv06_adv_L_weapon_AlekunSP/sprarcher_f_lv06_adv_L_weapon_Alekunsp/yanjing (2)
+		ui_shizhuanghecheng_glow/L/chixu/glow02
+		ui_shizhuanghecheng_glow/R/chixu/glow02
+		Wd042_fx_river02/world04p2_water2_01
+		zuzhoujuntuangaojieshushi_attack01_c_shouji/zuzhoujuntuangaojieshushi_attack01_c_shouji/ci3 (1)
+		zuzhoujuntuangaojieshushi_attack01_c_zidan/zuzhoujuntuangaojieshushi_attack01_c_zidan/sicaidai
+		zuzhoujuntuangaojieshushi_attack02_c_shifa/zuzhoujuntuangaojieshushi_attack02_c_shifa/xishou/xishou (6)
+		zuzhoujuntuangaojieshushi_attack02_c_shouji/zuzhoujuntuangaojieshushi_attack02_c_shouji/ci3 (1)
+		zuzhoujuntuangaojieshushi_attack02_c_zidan/zuzhoujuntuangaojieshushi_attack02_c_zidan/sicaidai
+		zuzhoujuntuangaojieshushi_skill01_c_baofa/baofa/baoci (1)
+		zuzhoujuntuangaojieshushi_skill01_c_baofa/baofa/dao2 (2)
+		zuzhoujuntuangaojieshushi_skill01_c_shifa/kaipao (1)/xishou/xishou (4)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/baofa/baoci (4)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/baofa/ci (1)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/baofa/ci3 (3)
+		zuzhoujuntuanjiangjun_attack01/zuzhoujuntuankuangzhanshi_attack01_c/dilie (3)
+		zuzhoujuntuanjiangjun_skill01_c/dao3/GameObject/humwarrior_m_skill01_b_chongfeng_feng_bao (1)/dilie (1)
+		zuzhoujuntuanjiangjun_skill01_c/dao3/GameObject/humwarrior_m_skill01_b_chongfeng_feng_bao (1)/yanmoxing (7)
+		zuzhoujuntuankuangzhanshi_attack01/zuzhoujuntuankuangzhanshi_attack01_c/dilie (3)
+		zuzhoujuntuankuangzhanshi_skill01_c/dao3/GameObject/humwarrior_m_skill01_b_chongfeng_feng_bao (1)/dilie (1)
+		zuzhoujuntuankuangzhanshi_skill01_c/dao3/GameObject/humwarrior_m_skill01_b_chongfeng_feng_bao (1)/yanmoxing (7)
+		zuzhoujuntuanshifazhe_attack01_c_shouji/zuzhoujuntuanshifazhe_attack01_c_shouji/ci3 (1)
+		zuzhoujuntuanshifazhe_attack01_c_zidan/zuzhoujuntuanshifazhe_attack01_c_zidan/sicaidai
+		zuzhoujuntuanshifazhe_attack02_c_shifa/zuzhoujuntuanshifazhe_attack02_c_shifa/xishou/xishou (6)
+		zuzhoujuntuanshifazhe_attack02_c_shouji/zuzhoujuntuanshifazhe_attack02_c_shouji/ci3 (1)
+		zuzhoujuntuanshifazhe_attack02_c_zidan/zuzhoujuntuanshifazhe_attack02_c_zidan/sicaidai
+		zuzhoujuntuanshifazhe_skill01_c_baofa/baofa/baoci (1)
+		zuzhoujuntuanshifazhe_skill01_c_baofa/baofa/dao2 (2)
+		zuzhoujuntuanshifazhe_skill01_c_shifa/kaipao (1)/xishou/xishou (6)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/baofa/baoci (4)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/baofa/ci (1)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/baofa/ci3 (3)

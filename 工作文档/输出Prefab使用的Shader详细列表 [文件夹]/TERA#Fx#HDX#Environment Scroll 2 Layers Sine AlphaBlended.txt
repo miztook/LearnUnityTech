@@ -1,0 +1,68 @@
+﻿TERA/Fx/HDX/Environment Scroll 2 Layers Sine AlphaBlended
+		alekunshifazhe_attack01_c_Xdaoren/daoren/L/liuti
+		alekunshifazhe_attack01_c_Xdaoren/daoren/L/liuti (1)
+		alekunshifazhe_attack01_c_Xdaoren/daoren/R/liuti
+		alekunshifazhe_attack01_c_Xdaoren/daoren/R/liuti (1)
+		casassassin_m_skill04_cisha_daoguang_an/casassassin_m_skill04_position/casassassin_m_skill06_slash01/slash01/casassassin_m_skill04_slash01/liuti (1)
+		casassassin_m_skill04_cisha_daoguang_an/casassassin_m_skill04_position/casassassin_m_skill06_slash01/slash01/casassassin_m_skill04_slash01/liuti (2)
+		Ct01_fx_living/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
+		Dqiaonasen_attack02_zhongquan/slash01/daoguang03_lan
+		dshamoer_skill01_slash/01/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill01_slash/02/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill01_slash/03/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill01_slash/04/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill01_slash/05/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill01_slash/06/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill01_slash/07/slash01/dshamoer_skill01_slash01/daoguang04
+		dshamoer_skill02_daobo/daobo/slash01/dshamoer_skill02_scale/dshamoer_skill02_daobo/daoguang04
+		duoluozhihun_attack01_pugong01/slash01/duoluozhihun_attack01/daoguang04
+		duoluozhihun_attack01_pugong02/slash01/duoluozhihun_attack01/daoguang04
+		duoluozhihun_skill02_zuzhou/zhaozi
+		Dwennisha_skill01_c_c _fengren/GameObject/sprarcher_f_attack04_shanshe/guang/fashi_tuowei (3)
+		fengzhijinglingshouling_skill01_01/slash01/fengzhijinglingshouling_skill01/daoguang04
+		fengzhijinglingshouling_skill01_02/slash01/fengzhijinglingshouling_skill01/daoguang04
+		kuishizhiyan_attack01_c_baozizidan/qiu (1)
+		sanlian_skill08_b_c_fazhen/fazhen/fazhen02
+		state_casassassin_m_liuxie/Particle System
+		ui_state_ranshao/PingMian_alpha (1)
+		Wd01_Fx_border_Ct01cave/scene_ditu_bianjie_20m (4)/GameObject (1)/PingMian_alpha (1)
+		Wd01_Fx_border_ct01gates/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
+		Wd01_Fx_border_ct01gates/scene_ditu_bianjie_20m (1)/GameObject (1)/PingMian_alpha (1)
+		Wd01_Fx_border_Dn01/scene_ditu_bianjie_20m (2)/GameObject (1)/PingMian_alpha (1)
+		Wd01_Fx_border_Dn01/scene_ditu_bianjie_20m (3)/GameObject (1)/PingMian_alpha (1)
+		Wd01_Fx_border_Wd02/scene_ditu_bianjie_20m/GameObject (1)/PingMian_alpha (1)
+		Wd02_Fx_border01/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
+		Wd02_Fx_border02/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
+		Wd031_Prop_hjcl01/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
+		Wd041_Ntl_Trees_sand/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
+		Wd041_Ntl_Trees_sand/scene_ditu_bianjie_20m (1)/GameObject (1)/PingMian_alpha (1)
+		Wd041_Ntl_Trees_sand/scene_ditu_bianjie_20m/GameObject (1)/PingMian_alpha (1)
+		wennisha_attack01_c_daoguang/buchong/daoguang03
+		wennisha_attack01_c_daoguang/buchong/daoguang03 (1)
+		wennisha_attack01_c_daoguang/buchong/daoguang03 (2)
+		wennisha_attack02_c_daoguang/daoguang/buchong/daoguang03 (1)
+		xuejizhe_skill01_xuelang/GameObject/shuilang
+		xuejizhe_skill01_xuelang/GameObject/shuilang (1)
+		xuejizhe_skill01_xuelang/GameObject/shuilang (2)
+		xuejizhe_skill01_xuelang/GameObject/shuilang (3)
+		xuejizhe_skill01_xuelang/GameObject/shuilang (4)
+		xuejizhe_skill01_xuelang/GameObject/shuilang (5)
+		xuejizhe_skill01_xuelang/GameObject/shuilang (6)
+		xuejizhe_skill01_xuelang/GameObject/shuilang (7)
+		xuesebaojun_attack01_c_guangbo/slash01/guangbo/liuti
+		xuesebaojun_attack01_c_guangbo/slash02/guangbo/liuti
+		xuesebaojun_attack02_c_guangbo/wujianlianyu/daoguang02/daoguang03
+		xuesebaojun_attack02_c_guangbo/wujianlianyu/liuti (1)
+		xuesebaojun_skill05_c_shoubifaguang/shoubi/shoubi02 (1)
+		zhulasishilianzhe_attack01_c/zhulasishilianzhe_attack01_c_L0/slash01/daoguang03
+		zhulasishilianzhe_attack01_c/zhulasishilianzhe_attack01_c_L3/slash01/daoguang03
+		zhulasishilianzhe_attack01_c_L0/slash01/daoguang03
+		zhulasishilianzhe_attack01_c_L3/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_01/zhulasishilianzhe_attack02_c_01_L0/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_01/zhulasishilianzhe_attack02_c_01_L3/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_01_L0/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_01_L3/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_02/zhulasishilianzhe_attack02_c_02_L0/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_02/zhulasishilianzhe_attack02_c_02_L3/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_02_L0/slash01/daoguang03
+		zhulasishilianzhe_attack02_c_02_L3/slash01/daoguang03

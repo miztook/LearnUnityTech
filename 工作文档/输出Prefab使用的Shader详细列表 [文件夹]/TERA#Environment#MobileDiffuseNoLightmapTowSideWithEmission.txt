@@ -1,0 +1,27 @@
+﻿TERA/Environment/MobileDiffuseNoLightmapTowSideWithEmission
+		Wd031_Ntl_Grass_wild01/Grass_wild101_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild01/Grass_wild101_xsc_cao04
+		Wd031_Ntl_Grass_wild01/Grass_wild101_xsc_cao05
+		Wd031_Ntl_Grass_wild02/Grass_wild102_xsc_cao04
+		Wd031_Ntl_Grass_wild03/Grass_wild103_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild03/Grass_wild103_xsc_cao04
+		Wd031_Ntl_Grass_wild04/Grass_wild104_Ntl_Gnl_gy01
+		Wd031_Ntl_Grass_wild04/Grass_wild104_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild04/Grass_wild104_xsc_cao04
+		Wd031_Ntl_Grass_wild05/Grass_wild105_Ntl_Gnl_gy01
+		Wd031_Ntl_Grass_wild05/Grass_wild105_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild05/Grass_wild105_xsc_cao04
+		Wd031_Ntl_Grass_wild06/Grass_wild106_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild07/Grass_wild107_xsc_cao04
+		Wd031_Ntl_Grass_wild08/Grass_wild108_xsc_cao04
+		Wd031_Ntl_Grass_wild09/Grass_wild109_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild09/Grass_wild109_xsc_cao04
+		Wd031_Ntl_Grass_wild10/Grass_wild110_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild10/Grass_wild110_xsc_cao04
+		Wd031_Ntl_Grass_wild11/Grass_wild111_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild11/Grass_wild111_xsc_cao04
+		Wd031_Ntl_Grass_wild12/Grass_wild112_Ntl_Gnl_gy01
+		Wd031_Ntl_Grass_wild12/Grass_wild112_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild12/Grass_wild112_xsc_cao04
+		Wd031_Ntl_Grass_wild13/Grass_wild113_ntl_xiaocao_02
+		Wd031_Ntl_Grass_wild13/Grass_wild113_xsc_cao05

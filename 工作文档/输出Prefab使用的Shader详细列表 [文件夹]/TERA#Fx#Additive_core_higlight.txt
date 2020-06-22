@@ -1,0 +1,39 @@
+﻿TERA/Fx/Additive_core_higlight
+		fx04 (1)/scene_wd01_baiyan01 (1)/chuiyan/yan01
+		fx04 (1)/scene_wd01_baiyan01 (2)/chuiyan/yan01
+		fx04 (1)/scene_wd01_baiyan01 (3)/chuiyan/yan01
+		fx04 (1)/scene_wd01_baiyan01/chuiyan/yan01
+		fx04 (2)/scene_wd01_baiyan01 (4)/chuiyan/yan01
+		fx04 (2)/scene_wd01_baiyan01 (5)/chuiyan/yan01
+		fx04 (4)/yan01
+		fx04 (7)/scene_world01_chuiyan/chuiyan (6)/yan01
+		fx04 (7)/scene_world01_chuiyan/chuiyan (7)/yan01
+		fx04 (7)/scene_world01_chuiyan/chuiyan -nonglie/yan01
+		fx04 (7)/scene_world01_chuiyan/chuiyan- nonglie/yan01
+		huweiduizhang_attack02_shixuechongji/chongji/baozha/suipian
+		huweiduizhang_attack02_shixuechongji/chongji/baozha/suipian (1)
+		huweiduizhang_attack02_shixuechongji/chongji/xishou/jingpian
+		huweiduizhang_skill01_dafengche/fengche/shikuai (1)
+		mohe_born_c_chuxian/smoke_add1/Particle System (3)
+		Wd01_Fx_glzdetails/scene_world01_chuiyan/chuiyan (6)/yan01
+		Wd01_Fx_glzdetails/scene_world01_chuiyan/chuiyan (7)/yan01
+		Wd01_Fx_glzdetails/scene_world01_chuiyan/chuiyan -nonglie/yan01
+		Wd01_Fx_glzdetails/scene_world01_chuiyan/chuiyan- nonglie/yan01
+		Wd02_Prop_fmz02_fx/scene_world02_chuiyan/chuiyan (6)/yan01
+		Wd02_Prop_fmz02_fx/scene_world02_chuiyan/chuiyan (7)/yan01
+		Wd032_Fx_town01/scene_wd01_baiyan01 (1)/chuiyan/yan01
+		Wd032_Fx_town01/scene_wd01_baiyan01/chuiyan/yan01
+		Wd032_Fx_town02/scene_wd01_baiyan01 (4)/chuiyan/yan01
+		Wd032_Fx_town02/scene_wd01_baiyan01 (5)/chuiyan/yan01
+		Wd032_Fx_town02/scene_wd01_baiyan01 (6)/chuiyan/yan01
+		Wd032_Fx_town03/scene_wd01_baiyan01 (4)/chuiyan/yan01
+		Wd032_Fx_town03/scene_wd01_baiyan01 (5)/chuiyan/yan01
+		Wd032_Fx_town03/scene_wd01_baiyan01 (6)/chuiyan/yan01
+		Wd032_Fx_town03/scene_wd01_baiyan01/chuiyan/yan01
+		Wd032_Fx_town03/scene_wd01_baiyan02/chuiyan/yan01
+		Wd05_fx06/scene_wd01_baiyan02/chuiyan/yan01
+		Wd05_fx12/scene_wd01_baiyan02 (1)/chuiyan/yan01
+		Wd05_fx12/scene_wd01_baiyan02 (2)/chuiyan/yan01
+		Wd05_fx12/scene_wd01_baiyan02 (3)/chuiyan/yan01
+		Wd05_fx12/scene_wd01_baiyan02/chuiyan/yan01
+		zhulasishilianzhe_skill01_b_c_cilixuanfeng/Particle System (1)/Particle System (2)

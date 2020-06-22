@@ -1,0 +1,19 @@
+﻿Legacy Shaders/Particles/Additive (Soft)
+		CreatCharacter_2/Job2/MainAnimator/BGAnimator/BGAnimation_ali/Login_BG_ali_close2
+		CreatCharacter_2/Job2/MainAnimator/BGAnimator/BGAnimation_ali/Login_BG_ali_close3
+		CreatCharacter_5/Job5/MainAnimator/BGAnimator/BGAnimation_aliL/Login_BG_ali_close2
+		CreatCharacter_5/Job5/MainAnimator/BGAnimator/BGAnimation_aliL/Login_BG_ali_close3
+		Dungn02_Cave01/SFX/smoke_06
+		Dungn02_Cave01/SFX/smoke_06 (1)
+		Dungn02_Cave01/SFX/smoke_06 (2)
+		Dungn02_Cave01/SFX/smoke_06 (3)
+		Dungn02_Cave01/SFX/smoke_06 (4)
+		Dungn02_Cave01/SFX/smoke_06 (5)
+		Dungn05_ElfArch/Preload/Fx/Fx_Water/smoke_07
+		Dungn05_ElfArch/Preload/Fx/Fx_Water/smoke_08
+		Dungn05_ElfArch/Preload/Fx/Fx_Water/smoke_08 (1)
+		Dungn05_ElfArch/Preload/Fx/Fx_Water/smoke_08 (2)
+		Dungn05_ElfArch/Preload/Fx/Fx_Water/smoke_08 (3)
+		Dungn05_ElfArch/Preload/Fx/Fx_Water/smoke_08 (4)
+		Wd01_Fx_glzfire/scene_tongyong_hongyan2_2
+		Wd05_fx11/scene_tongyong_hongyan2_2

@@ -1,0 +1,180 @@
+﻿TERA/Fx/HDX/Rim_particle
+		alekunshifazhe_attack01_c_hudunchongneng/dun01
+		alekunshifazhe_attack02_c_hudunchongneng/dun01
+		alekunshifazhe_skill01_c_xuanzhuandaoren/dun01
+		alilancer_f_skill04_a_c_kaidun_bing/alilancer_f_skill04_a_c_kaidun_bing_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_bing/alilancer_f_skill04_a_c_kaidun_bing_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_bing_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_bing_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_guang/alilancer_f_skill04_a_c_kaidun_guang_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_guang/alilancer_f_skill04_a_c_kaidun_guang_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_guang_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_guang_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_lei/alilancer_f_skill04_a_c_kaidun_lei_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_lei/alilancer_f_skill04_a_c_kaidun_lei_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_lei_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_lei_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_normal/alilancer_f_skill04_a_c_kaidun_normal_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_normal/alilancer_f_skill04_a_c_kaidun_normal_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_normal_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		alilancer_f_skill04_a_c_kaidun_normal_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian01 (1)
+		bahaleshilianzhe_skill02_c_fenshen/Particle System
+		bahaleshilianzhe_skill02_c_fenshen/Particle System/Particle System (1)
+		beizuzhoudechuniang_attack01_ci/rim
+		beizuzhoudechuniang_attack02_fly/GameObject/tougu
+		busiqishi_skill02_ma/busiqishi (1)/busiqishi001
+		busiqishi_skill02_ma/busiqishi (2)/busiqishi001
+		busiqishi_skill02_ma/busiqishi/busiqishi001
+		casassassin_m_lv05_nor_R_weapon_03/position/bianyuan
+		casassassin_m_lv07_adv_L_weapon_03/position/bianyuan
+		casassassin_m_lv07_adv_R_weapon_03/position/bianyuan
+		casassassin_m_lv07_sup_L_weapon_03/position/bianyuan
+		casassassin_m_lv07_sup_R_weapon_03/position/bianyuan
+		diguoqiangqishi_fangyudashi/dunzong/dun/fangyudashi_dun/fangyudashi_dun
+		diguoqiangqishi_skill04_c_daoguang/wujianlianyu/daoguang01 (1)
+		etc_linghunshengtian/etc_linghunshengtian/shoubeijun/body
+		fanbeierbojuefuren_attack02_c_shifa/fanbeierbojuefuren_attack02_c_shifa/xishou/qiu/Particle System (4)
+		fanbeierbojuefuren_attack02_c_zidan/fanbeierbojuefuren_attack02_c_zidan/Particle System (7)
+		fangzhoushouhuzhe_skill04_zhaozi_blue/fangzhoushouhuzhe_skill04_zhaozi_blue_L0/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_blue/fangzhoushouhuzhe_skill04_zhaozi_blue_L1/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_blue/fangzhoushouhuzhe_skill04_zhaozi_blue_L3/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_blue_L0/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_blue_L1/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_blue_L3/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_red/fangzhoushouhuzhe_skill04_zhaozi_red_L0/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_red/fangzhoushouhuzhe_skill04_zhaozi_red_L1/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_red/fangzhoushouhuzhe_skill04_zhaozi_red_L3/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_red_L0/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_red_L1/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		fangzhoushouhuzhe_skill04_zhaozi_red_L3/GameObject/alipriest_f_ultskill_ball (1)/sphere02 (1)
+		hetijibianguai_skill04_c_zidan/hetijibianguai_skill04_c_zidan/GameObject/Particle System (4)
+		humwarrior_m_lv07_adv_R_weapon_03/middle/jianshen (1)
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_feng/humwarrior_m_ultskill01_c_yuanguzhanhun2_feng_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_feng/humwarrior_m_ultskill01_c_yuanguzhanhun2_feng_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_feng/humwarrior_m_ultskill01_c_yuanguzhanhun2_feng_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_feng_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_feng_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_feng_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_guang/humwarrior_m_ultskill01_c_yuanguzhanhun2_guang_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_guang/humwarrior_m_ultskill01_c_yuanguzhanhun2_guang_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_guang/humwarrior_m_ultskill01_c_yuanguzhanhun2_guang_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_guang_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_guang_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_guang_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_huo/humwarrior_m_ultskill01_c_yuanguzhanhun2_huo_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_huo/humwarrior_m_ultskill01_c_yuanguzhanhun2_huo_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_huo/humwarrior_m_ultskill01_c_yuanguzhanhun2_huo_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_huo_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_huo_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_huo_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal/humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal/humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal/humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L3/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L0/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L1/humwarrior_m_ultimate
+		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L3/humwarrior_m_ultimate
+		jinglingfurennv_skill03_bigiceball/atk01/shpere_edge
+		jinglingfurennv_skill03_smalliceball/atk01/shpere_edge
+		kalasishouhuzhe_attack_tongyong_faqiu/kalasishouhuzhe_attack_tongyong_faqiu/rim
+		kalasishouhuzhe_skill01_sanshefaqiu/GameObject (2)/GameObject/1/faqiu (1)/rim
+		kalasishouhuzhe_skill01_sanshefaqiu/GameObject (2)/GameObject/2/faqiu (2)/rim
+		kalasishouhuzhe_skill01_sanshefaqiu/GameObject (2)/GameObject/3/faqiu (3)/rim
+		kalasishouhuzhe_skill01_sanshefaqiu/GameObject (2)/GameObject/4/faqiu (4)/rim
+		kalasishouhuzhe_skill01_sanshefaqiu/GameObject (2)/GameObject/5/faqiu (5)/rim
+		kamayiqiuzhang_skill01_c_jianyu/Particle System (6)/bishou_hong
+		kamayiqiuzhang_skill01_c_jianyu/Particle System (6)/bishou_zi/bishou_zi
+		kamayiqiuzhang_skill01_c_jianyu/Particle System (6)/bishou_zi/bishou_zi_luo
+		laiangkeneixiaojie_attack01_ci/rim
+		laiangkeneixiaojie_attack02_fly/pingguo (1)
+		laiangkeneixiaojie_skill02_pingguo/PINGGUO/pingguo/pingguo (1)
+		lirenkuilei_attack01_xuli_01/Particle System
+		lirenkuilei_attack02_feipan/GameObject/Particle System (1)
+		longxuexiyidan_skill01_c_yujing/shan
+		luokezhiqiang/luokezhiqiang
+		nigulasi_show_bianshenlong_bianyuanguang/test_longbianshen_yansebianhua/gulong
+		passive_luokezhiqiang_born_c_zadi_AlekunSP_01/luokezhiqiang
+		passive_luokezhiqiang_born_c_zadi_AlekunSP_02/luokezhiqiang
+		qiangbingtongling_skill02_ma/qiangbingtongling (3)/qiangbingtongling001
+		qiangbingtongling_skill02_ma/qiangbingtongling (4)/qiangbingtongling001
+		qiangbingtongling_skill02_ma/qiangbingtongling (5)/qiangbingtongling001
+		qiliandepucong_skill05_c_huanying/huanying/huanying01/qiliandepucong_skill05_c_huanying
+		qiliandepucong_skill05_c_huanying/huanying/huanying02/qiliandepucong_skill05_c_huanying
+		qiliandepucong_skill05_c_huanying/huanying/huanying03/qiliandepucong_skill05_c_huanying
+		qiliandepucong_skill05_c_huanying/huanying/huanying04/qiliandepucong_skill05_c_huanying
+		qiliandepucong_skill05_c_huanying/huanying/huanying05/qiliandepucong_skill05_c_huanying
+		qiliandepucong_skill05_c_huanying/huanying/huanying06/qiliandepucong_skill05_c_huanying
+		sanlian_skill13_b_c_xuli/sanlian_skill13_b_c_xuli_L0/xuli/xuli/tongkong/shpere_small01
+		sanlian_skill13_b_c_xuli/sanlian_skill13_b_c_xuli_L3/xuli/xuli/tongkong/shpere_small01
+		sanlian_skill13_b_c_xuli_L0/xuli/xuli/tongkong/shpere_small01
+		sanlian_skill13_b_c_xuli_L3/xuli/xuli/tongkong/shpere_small01
+		scene_taotaishilian_fuwei01/scale/guangqiu/bianyuan
+		scene_taotaishilian_guangshu/scale/guangqiu/bianyuan
+		shixueshaluzhe_show_body/shixueshaluzhe/shixueshaluzhe
+		shixueshaluzhe_show_huanying/huanying/shenti01
+		shixueshaluzhe_skill04_c_huanying/shixueshaluzhe/shixueshaluzhe
+		shixueshaluzhe_skill05_a_c_dun/sphere03 (1)
+		shixueshaluzhe_skill05_c_c_dunbaozha/dunbaozha/sphere03 (4)
+		shixueshaluzhe_skill05_c_c_dunbaozha/dunbaozha/sphere03 (4)/mofashi_attack_xiaofashe/shanguang 1
+		shushitongling_attack01_c_zidan/qiu/Sphere3-003
+		sikala_attack01_c_fly/zidan/zidan03
+		sprarcher_f_attack_target_arrow_bing/Arrow/Arrow
+		sprarcher_f_attack_target_arrow_feng/Arrow/Arrow
+		sprarcher_f_attack_target_arrow_huo/Arrow/Arrow
+		sprarcher_f_attack_target_arrow_normal/Arrow/Arrow
+		sprarcher_f_attack01_jian_bing/Arrow/Arrow3
+		sprarcher_f_attack01_jian_feng/Arrow/Arrow3
+		sprarcher_f_attack01_jian_huo/Arrow/Arrow3
+		sprarcher_f_attack01_jian_normal/Arrow/Arrow3
+		sprarcher_f_skill02+_c_jian_bing/Arrow/Arrow3
+		sprarcher_f_skill02+_c_jian_feng/Arrow/Arrow3
+		sprarcher_f_skill02+_c_jian_huo/Arrow/Arrow3
+		sprarcher_f_skill02+_c_jian_normal/Arrow/Arrow3
+		sprarcher_f_skill05+_c_jian_bing/Arrow/Arrow3
+		sprarcher_f_skill05+_c_jian_feng/Arrow/Arrow3
+		sprarcher_f_skill05+_c_jian_huo/Arrow/Arrow3
+		sprarcher_f_skill05+_c_jian_normal/Arrow/Arrow3
+		Teleporter_ct01/Teleporter_ct01_base/Teleporter_ct01_01/scene_chengneichuansong02_sphere/shpere_big
+		Teleporter_ct01/Teleporter_ct01_base/Teleporter_ct01_02/scene_chengneichuansong03_sphere/shpere_small01
+		Teleporter_ct02/Teleporter_ct02_base/Teleporter_ct02_01/scene_chengneichuansong02_sphere/shpere_big
+		Teleporter_ct02/Teleporter_ct02_base/Teleporter_ct02_02/scene_chengneichuansong02_spheresmall/shpere_small01
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L0/yanjing/shpere_big
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L0/yanjing/tongkong/shpere_small01
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L0/yanjing/tongkong/shpere_small01 (1)
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L3/yanjing/shpere_big
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L3/yanjing/tongkong/shpere_small01
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L3/yanjing/tongkong/shpere_small01 (1)
+		yisilianshilianzhe_emozhiyan_L0/yisilianshilianzhe_emozhiyan_L0/yanjing/shpere_big
+		yisilianshilianzhe_emozhiyan_L0/yisilianshilianzhe_emozhiyan_L0/yanjing/tongkong/shpere_small01
+		yisilianshilianzhe_emozhiyan_L0/yisilianshilianzhe_emozhiyan_L0/yanjing/tongkong/shpere_small01 (1)
+		yisilianshilianzhe_emozhiyan_L3/yisilianshilianzhe_emozhiyan_L3/yanjing/shpere_big
+		yisilianshilianzhe_emozhiyan_L3/yisilianshilianzhe_emozhiyan_L3/yanjing/tongkong/shpere_small01
+		yisilianshilianzhe_emozhiyan_L3/yisilianshilianzhe_emozhiyan_L3/yanjing/tongkong/shpere_small01 (1)
+		zuzhoujuntuangaojieshushi_attack01_c_zidan/zuzhoujuntuangaojieshushi_attack01_c_zidan/Particle System (4)
+		zuzhoujuntuangaojieshushi_attack02_c_shifa/zuzhoujuntuangaojieshushi_attack02_c_shifa/xishou/qiu/Particle System (4)
+		zuzhoujuntuangaojieshushi_attack02_c_shouji/zuzhoujuntuangaojieshushi_attack02_c_shouji/qiurongjie2 (2)
+		zuzhoujuntuangaojieshushi_attack02_c_zidan/zuzhoujuntuangaojieshushi_attack02_c_zidan/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill01_c_baofa/youling/qiu1 (1)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill01_c_baofa/youling/qiu1 (2)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill01_c_baofa/youling/qiu1/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill01_c_shifa/kaipao (1)/xishou/qiu/Particle System (4)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/baofa/qiurongjie2 (5)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/youling/qiu1 (1)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/youling/qiu1 (2)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/youling/qiu1 (3)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/youling/qiu1 (4)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/youling/qiu1 (5)/qiu/Particle System (7)
+		zuzhoujuntuangaojieshushi_skill02_c_baofa/youling/qiu1/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_attack01_c_zidan/zuzhoujuntuanshifazhe_attack01_c_zidan/Particle System (4)
+		zuzhoujuntuanshifazhe_attack02_c_shifa/zuzhoujuntuanshifazhe_attack02_c_shifa/xishou/qiu/Particle System (4)
+		zuzhoujuntuanshifazhe_attack02_c_shouji/zuzhoujuntuanshifazhe_attack02_c_shouji/qiurongjie2 (2)
+		zuzhoujuntuanshifazhe_attack02_c_zidan/zuzhoujuntuanshifazhe_attack02_c_zidan/Particle System (7)
+		zuzhoujuntuanshifazhe_skill01_c_baofa/youling/qiu1 (1)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill01_c_baofa/youling/qiu1 (2)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill01_c_baofa/youling/qiu1/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill01_c_shifa/kaipao (1)/xishou/qiu/Particle System (4)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/youling/qiu1 (1)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/youling/qiu1 (2)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/youling/qiu1 (3)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/youling/qiu1 (4)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/youling/qiu1 (5)/qiu/Particle System (7)
+		zuzhoujuntuanshifazhe_skill02_c_baofa/youling/qiu1/qiu/Particle System (7)

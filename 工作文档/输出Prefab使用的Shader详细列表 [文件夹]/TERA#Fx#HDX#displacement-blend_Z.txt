@@ -1,0 +1,24 @@
+﻿TERA/Fx/HDX/displacement-blend_Z
+		alilancer_f_lv02_adv_B_weapon_shield_02/liuguang (1)/glow (4)
+		alilancer_f_lv02_adv_L_weapon_shield_02/liuguang/glow (4)
+		bahaleshilianzhe_skill02_c_dimian/dimianlie
+		Ct02_fx_Center05/scene_city02_C2_luhuo/luhuo02
+		kannongmasha_skill04_c_zibao/baokai/huan/huan01
+		kasitanikejiefei_skill01_c_fly/feiren/bishou_0000
+		kemolaxia_luoyan/baozha/baozha/dimian/shanguang 1/shikuai
+		liexishuijing_stand/liexishuijing/crystal/Particle System (9)
+		passive_huo_chixuranshao/shitou
+		passive_huo_rongyanchi/passive_huo_rongyanchi/M_dilie1
+		passive_huo_runshibaozha/shitou
+		scene_taotaishilian_fuwei01/fuwen_blend
+		scene_taotaishilian_fuwei01_high/fuwen
+		scene_taotaishilian_fuwei02_high/fuwen
+		scene_taotaishilian_fuwei03_high/fuwen
+		scene_taotaishilian_guangshu/fuwen_blend
+		ui_3v3siwang/pian1-16
+		Wd02_Fx_river01/wd02_water_05 (1)/wd02_water_05 (2)
+		xuesebaojun_skill04_c_dizhenqilang/qilang/huan/alipriest_f_skill06_sghx
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L0/jiguang/jiguangzhuti/shizipian1-5 (1)
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L3/jiguang/jiguangzhuti/shizipian1-5 (1)
+		yisilianshilianzhe_emozhiyan_L0/yisilianshilianzhe_emozhiyan_L0/jiguang/jiguangzhuti/shizipian1-5 (1)
+		yisilianshilianzhe_emozhiyan_L3/yisilianshilianzhe_emozhiyan_L3/jiguang/jiguangzhuti/shizipian1-5 (1)

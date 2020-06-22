@@ -1,0 +1,5 @@
+﻿Standard
+		Dn_pvp02_Arena01/Sky_Sphere/Circulationsphere
+		Dn_pvp02_Arena01/Sky_Sphere/Stratosphere
+		Test123456
+		TestScene

@@ -1,0 +1,4 @@
+﻿Legacy Shaders/Particles/Additive
+		Dqiaonasen_skill02_c_shifa_02/huan/ring/ring01
+		qiliandepucong_skill03_c_fengren_qilang/chentu_1/chentu/xftmesh wind02
+		sanlian_skill12_c_c_fashe/huan/ring/ring01

@@ -1,0 +1,7 @@
+﻿TERA/Fx/HDX/displacement-blend3layer
+		sprarcher_f_wing_longjing_fire_L2/wing_longjing_effect
+		sprarcher_f_wing_longjing_fire_L3/wing_longjing_effect
+		sprarcher_f_wing_longjing_ice_L2/wing_longjing_effect
+		sprarcher_f_wing_longjing_ice_L3/wing_longjing_effect
+		sprarcher_f_wing_longjing_poison_L2/wing_longjing_effect
+		sprarcher_f_wing_longjing_poison_L3/wing_longjing_effect
