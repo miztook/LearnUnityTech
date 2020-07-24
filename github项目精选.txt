@@ -26,4 +26,7 @@ https://zhuanlan.zhihu.com/p/35096536
 
 https://www.gameres.com/811214.html
 		gamma和线性空间
+
+https://zhuanlan.zhihu.com/p/126370177
+		写给美术看的Unity全局光照详解(参数篇)
 		
