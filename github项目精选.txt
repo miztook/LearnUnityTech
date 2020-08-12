@@ -30,3 +30,6 @@ https://www.gameres.com/811214.html
 https://zhuanlan.zhihu.com/p/126370177
 		写给美术看的Unity全局光照详解(参数篇)
 		
+https://github.com/Unity-Technologies/MeasuredMaterialLibraryURP
+		材质库 Unity2019.3.0之后的URP (Universal Render Pipeline)
+		
