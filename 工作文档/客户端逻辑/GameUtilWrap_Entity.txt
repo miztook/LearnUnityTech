@@ -7,6 +7,7 @@ RotateByAngle	绕Y轴旋转一定角度
 RefreshObjectEffect		把EntityEffectComponent组件的属性从一个gameobject拷贝到另一个
 AddObjectEffect		给entity添加EntityEffectComponent组件，设置相应的效果
 EnableHostPosSyncWhenMove	设置ObjectBehaviour的同步位置属性
+EnablePhysicsCollision 		开启武器碰撞 BoxCollider
 
 AddMoveBehavior				behavior的添加和删除	
 SetMoveBehaviorSpeed
@@ -19,10 +20,18 @@ AddAdsorbEffect, RemoveAdsorbEffect
 
 ChangeOutward				调用OutwardComponent组件的ChangeOutward，某个部位替换asset换装
 ChangeHairColor				调用OutwardComponent组件的ChangeHairColor, 发色
-ChangeSkinColor
-ChangeDressColor
-ChangeDressEmbroidery
+ChangeSkinColor				调用OutwardComponent组件的ChangeSkinColor, 肤色
+ChangeDressColor			调用OutwardComponent组件的ChangeDressColor, 时装染色
+ChangeDressEmbroidery		调用OutwardComponent组件的ChangeArmorEmbroidery, 刺绣
 
+EnableGroundNormal			运用地面法向，坐骑使用
+SetGameObjectYOffset		设置离地面高度，飞行宠物使用
+OnEntityModelChanged		模型发生改变，通知EntityEffectComponent更新RenderInfoMap
+EnableLockWingYZRotation	锁定绕y轴旋转，翅膀使用	
+EnableAnimationBulletTime	根据速度播放动画，用于跑步速度变化引起的动作加快
+SetEntityColliderRadius
+EnableDressUnderSfx
+EnableOutwardPart	
 	
 用到的组件:
 	CPhysicsEventTransfer
@@ -52,7 +61,12 @@ ChangeDressEmbroidery
 		ChangeMaterials 根据效果切换材质球，除了冰冻效果外，material只需复制原有的material，只有参数不同
 						注意效果之间的先后顺序
 		
+	CBulletTimeAnimation
+		获取AnimationUnit的AnimationState, 通过改变AnimationState的time再Sample，实现变速动画 
+	
 	OutwardComponent
+	
+	AnimationUnit
 	
 	
 Behavior种类
