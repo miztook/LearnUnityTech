@@ -29,9 +29,9 @@ SetGameObjectYOffset		设置离地面高度，飞行宠物使用
 OnEntityModelChanged		模型发生改变，通知EntityEffectComponent更新RenderInfoMap
 EnableLockWingYZRotation	锁定绕y轴旋转，翅膀使用	
 EnableAnimationBulletTime	根据速度播放动画，用于跑步速度变化引起的动作加快
-SetEntityColliderRadius
-EnableDressUnderSfx
-EnableOutwardPart	
+SetEntityColliderRadius		设置Entity的CapsuleCollider的碰撞半径
+EnableDressUnderSfx			开启或关闭时装上的根特效(不在挂点上的特效)
+EnableOutwardPart			对时装部位进行显隐
 	
 用到的组件:
 	CPhysicsEventTransfer
