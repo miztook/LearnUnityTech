@@ -1,0 +1,80 @@
+AddObjectComponent  	给Entity添加 ObjectBehaviour 和 CPhysicsEventTransfer 组件
+ChangeAttach	把HangPointHolder中指定的挂点 src 的第一个child 挂到 dst挂点上
+ChangePartMesh	设置BodyPartCollector组件的renderer开关	
+GetHangPoint	获取HangPointHolder中指定的挂点
+ResizeCollider, DisableCollider		把BoxCollider进行Resize
+RotateByAngle	绕Y轴旋转一定角度
+RefreshObjectEffect		把EntityEffectComponent组件的属性从一个gameobject拷贝到另一个
+AddObjectEffect		给entity添加EntityEffectComponent组件，设置相应的效果
+EnableHostPosSyncWhenMove	设置ObjectBehaviour的同步位置属性
+
+AddMoveBehavior				behavior的添加和删除	
+SetMoveBehaviorSpeed
+AddFollowBehavior
+AddTurnBehavior
+AddDashBehavior
+RemoveBehavior
+HasBehavior					是否有某个behavior
+AddAdsorbEffect, RemoveAdsorbEffect
+
+ChangeOutward				调用OutwardComponent组件的ChangeOutward，某个部位替换asset换装
+ChangeHairColor				调用OutwardComponent组件的ChangeHairColor, 发色
+ChangeSkinColor
+ChangeDressColor
+ChangeDressEmbroidery
+
+	
+用到的组件:
+	CPhysicsEventTransfer
+		和其他武器发生碰撞时，触发碰撞事件，在lua回调函数中播放受伤动作
+		击飞效果，用Rigidbody.AddExplosionForce方法，模拟刚体爆炸击飞效果
+		
+	ObjectBehaviour
+		Entity管理中一个重要的组件
+		1. 管理 Behavior 列表
+		2. 更新和 player, npc, blockable的碰撞，OnCollideWithOther
+		3. 维护entity身上的timer
+		
+	HangPointHolder
+		存储挂点 根据类型获取 玩家，坐骑，NPC对话挂点
+		
+	BodyPartCollector
+		存储多个renderer，可以设置每个renderer的enable开关
+		
+	DynamicBone
+		一个第三方插件，原理是根据粒子的阻尼，拉伸，硬度等模拟transform， 一般用在时装上
+		
+	EntityEffectComponent
+		entity的效果组件，renderer的材质替换，Rim边缘效果的维护显示
+		_RendererInfoMap 维护一个Renderer列表，注意不需要ParticleSystemRenderer，特效不需要效果
+		OnModelChanged 在模型发生变化时，更新_RendererInfoMap 释放其中的material
+		OnMaterialChanged 当renderer的材质球发生变化时，回收当前使用的material,恢复最初的material
+		ChangeMaterials 根据效果切换材质球，除了冰冻效果外，material只需复制原有的material，只有参数不同
+						注意效果之间的先后顺序
+		
+	OutwardComponent
+	
+	
+Behavior种类
+	AdsorbBehavior			吸附效果
+	DashBehavior			冲锋效果，位置计算，碰撞和navmesh处理，主要和其他collider的碰撞回调
+	FollowBehavior			跟随效果，位置计算，碰撞和navmesh处理
+	JoyStickBehavior		摇杆控制移动，位置方向计算，一定间隔同步移动协议
+	JumpBehavior
+	MoveBehavior			移动，沿navmesh寻路，和block碰撞，和npc碰撞继续寻路，发送移动协议
+	TurnBehavior			转向 逐步旋转
+
+
+BaseEffect种类
+	DissolveDeath			死亡溶解效果
+	FadeInOut 				淡入淡出效果		alpha随时间变化
+	Frozen					冰冻效果		FrozenEffect.mat材质，停止动画
+
+EntityRimEffect种类
+	EliteBornColor			直接设置shader的边缘色和强度变量
+	HitFlawsColor			直接设置shader的边缘色和强度变量
+	HitTwinkleWhite			随时间设置shader的边缘色和强度变量
+	
+	
+		
+		
