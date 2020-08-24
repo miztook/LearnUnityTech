@@ -5,12 +5,32 @@ UnloadBundle		卸载bundle
 UnloadBundleOfAsset		卸载asset所属的bundle
 ClearAssetBundleCache	清理同步加载的asset cache
 
-RequestFx			请求获得一个fxone特效实例 实际的特效gameobject挂在fxone下面
+RequestFx			请求获得一个fxone特效实例 实际的特效gameobject挂在fxone下面，可以对CFxOne特效实例进行操作
 PreloadFxAsset		提前加载CFxCache中的prefab
+SetEntityModelCacheCount
+ClearFxManCache		清理特效资源缓存
+FxCacheManCleanup	彻底清理特效，播放中的特效+缓存
+SetFxScale			调用CFxOne.SetScale
+SetMineObjectScale	处理 Projector 和 RFX4_ScaleCurves的缩放
+BluntAttachedFxs	顿帧中停止特效然后重新播放
+RequestUncachedFx	请求非缓存特效(常驻特效)
+RequestArcFx		请求连线特效 ArcReactor 的两端gameobject
+LoadSceneBlocks		在某个位置点时加载场景
 
+FetchResFromCache	
+AddResToCache
+GetEntityBaseRes
+RecycleEntityBaseRes
+ClearEntityModelCache
 
+PlayEarlyWarninGfx		CFxOne设置EaryWarningInfo，然后Play
+StopGfx					CFxOne.Stop
+ChangeGfxPlaySpeed		CFxOne.ChangePlaySpeed
 
-
+GetEmojiCount		每个Emoji是一个sprite
+SetEmojiSprite		将image的sprite设置为Emoji Sprite
+InputEmoji			在InputField中输入Emoji编码
+ClearAllEmoji
 
 
 涉及的类:
@@ -32,6 +52,7 @@ PreloadFxAsset		提前加载CFxCache中的prefab
 	
 	CFxOne		表示一个特效播放的请求，下面挂一个特效gameobject，等特效gameobject创建后，才可以播放
 		DoRealPlay			//FxProxy切换LOD，改变播放速度，播放ArcReactor, EarlyWarning, RadialBlurBoot(特殊处理)
+		Stop 		//重置ArcReactor, EarlyWarning, RadialBlurBoot， FxProxy.Deactive
 	
 	CFxProxy	管理特效的组件信息
 		由CFxOne设置在特效的gameObject上，对于Fx美术资源中使用的组件做统一管理，用来做特效gameObject的复用
