@@ -74,7 +74,7 @@ ClearAllEmoji
 	FxComponentInfo 
 		管理特效的LOD 存储3个LOD的ComponentInfo[]组件信息
 		
-		FxComponentInfo如何生成?
+		FxComponentInfo如何生成?	美术特效制作时 FxComponentsInfoEditor 负责收集LOD级别中的组件信息
 		
 	ResCacheMan		//ResourceCache下
 		GameObject的资源缓存，回收时其中的组件 IRecyclable 调用 OnRecyle, BodyPartCollector.Revert
