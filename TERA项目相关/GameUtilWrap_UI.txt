@@ -1,0 +1,30 @@
+ShakeUIScreen			使用PanelRoot的CameraShader组件，PanelRoot发生振动
+
+DoSlider			滑动
+DoKillSlider		停止滑动
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+使用的类
+	DoTweenComponent	封装了transform的dotween效果
+			DoMove
+			DoLocalMove
+			DoScale
+			DoAlpha			设置image, text, material的color的DoFade
+			DoLoopRotate
+			DoSlider		针对Slider组件的效果
+			DoKillSlider
