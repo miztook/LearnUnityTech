@@ -1,4 +1,13 @@
 ﻿TERA/Fx/HDX/FX_AlphaBlend
+		ailinushilianzhe_attack01_paidi/position01/huichen01
+		ailinushilianzhe_attack02_paidi/position01/huichen01
+		ailinushilianzhe_show_zhendi/position/yanwu01 (4)
+		ailinushilianzhe_skill01_dici/rock05/yanwu01
+		ailinushilianzhe_skill04_zhendi/position/yanwu01
+		ailinushilianzhe_skill04_zhendi/position/yanwu01 (1)
+		ailinushilianzhe_skill04_zhendi/position/yanwu01 (2)
+		ailinushilianzhe_skill04_zhendi/position/yanwu01 (3)
+		ailinushilianzhe_skill04_zhendi/position/yanwu01 (4)
 		alilancer_f_ultskill01_b_c_zadi_bing/alilancer_f_ultskill01_b_c_zadi_bing_L1/kuosanyan/yanwu01
 		alilancer_f_ultskill01_b_c_zadi_bing/alilancer_f_ultskill01_b_c_zadi_bing_L3/kuosanyan/yanwu01
 		alilancer_f_ultskill01_b_c_zadi_bing_L1/kuosanyan/yanwu01
@@ -41,6 +50,32 @@
 		Ct02_fx_Waterfall01/city02_water_02 (1)/city02_water_010
 		Ct02_fx_Waterfall01/city02_water_02 (1)/city02_water_02 (3)
 		Ct02_fx_Waterfall01/city02_water_02 (1)/Plane004 (1)
+		Ct02_fx_Waterfall02/shui1 (5)
+		Ct02_fx_Waterfall02/shui1 (6)
+		Ct02_fx_Waterfall02/shui1 (7)
+		Ct02_fx_Waterfall02/shui1 (8)
+		Ct02_fx_Waterfall02/shui1 (9)
+		Ct02_fx_Waterfall03/shui1
+		Ct02_fx_Waterfall03/shui1 (1)
+		Ct02_fx_Waterfall03/shui1 (2)
+		Ct02_fx_Waterfall03/shui1 (3)
+		Ct02_fx_Waterfall03/shui1 (4)
+		dulenusi_attack01_ci/position01/huichen01
+		dulenusi_attack01_ci/position02/huichen01
+		dulenusi_attack02_ci/position01/huichen01
+		dulenusi_attack02_ci/position02/huichen01
+		dulenusi_attack02_ci/position03/huichen01
+		dulenusi_attack02_ci/position04/huichen01
+		dulenusi_attack02_ci/position05/huichen01
+		dulenusi_attack02_ci/position06/huichen01
+		dulenusi_attack02_ci/position07/huichen01
+		dulenusi_skill01_saodi/position/huichen01
+		dulenusi_skill01_saodi/position/huichen02
+		dulenusi_zuanchu/position/huichen002
+		dulenusi_zuanchu/position/huichen01
+		dulenusi_zuanchu/position/huichen02
+		dulenusi_zuanru/position/huichen01
+		dulenusi_zuanru/position/huichen02
 		Dwennisha_skill02_b1_c_qilang/zadi/yan/shanguang 1/yanwu01
 		fanbeierbojuefuren_attack02_c_shifa/fanbeierbojuefuren_attack02_c_shifa/xishou/qiu/Particle System (3)
 		fanbeierbojuefuren_attack02_c_zidan/fanbeierbojuefuren_attack02_c_zidan/Particle System (6)
@@ -119,6 +154,10 @@
 		haiguzhiwang_skill01_zadi/position/smoke/yanwu01
 		haiguzhiwang_skill02_yanchen/position/yanwu01
 		hetijibianguai_skill04_c_zidan/hetijibianguai_skill04_c_zidan/GameObject/Particle System (1)
+		jumo_attack01_zadi/smoke01
+		jumo_attack02_zadi/smoke01
+		jumo_skill02_caidi/yanwu01
+		jumo_skill02_caidi/zadi/yanwu01
 		kalasishilian_show_qitiao/kuosan02/yanwu01
 		kalasishilian_show_smoke/kuosan/yanwu01
 		kalasishilian_show_smoke_kuosan/kuosan/yanwu01
@@ -131,6 +170,8 @@
 		kulashouling_show_cloud02/kulashouling_show_cloud02/yanwu01
 		kulashouling_show_star/kulashouling_show_star/yanwu01
 		KuLouLongHe/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Particle System
+		luokejisizhang_attack01_c_zidan/luokejisizhang_attack01_c_zidan/qiu_01
+		luokejisizhang_attack02_c_zidan/luokejisizhang_attack02_c_zidan/qiu_01
 		luokezhiqiang_born_c_zadi/skill02_zadi/kuosan02/yanwu01
 		maligousi_skill02_zadi/maligousi_skill02_zadi_L0/kuosan02/yanwu01
 		maligousi_skill02_zadi/maligousi_skill02_zadi_L1/kuosan02/yanwu01
@@ -157,6 +198,9 @@
 		mine_mutongbaozha/baozha/huo1/huo2
 		mine_xianxiejitan_end/scale/smoke04
 		mofata_shifa_yan/add/alpha (1)
+		monvxueyuanjiaoyuan_attack01_c_zidan/monvxueyuanjiaoyuan_attack01_c_zidan/qiu_01
+		monvxueyuanjiaoyuan_attack02_c_zidan/monvxueyuanjiaoyuan_attack02_c_zidan/qiu_01
+		nanguamoou_attack02_c_zadi/zadi/smoke01
 		scene_ziyan_liceng_quyu4/scene_ziyan (10)/add/alpha (1)
 		scene_ziyan_liceng_quyu4/scene_ziyan (11)/add/alpha (1)
 		scene_ziyan_liceng_quyu4/scene_ziyan (8)/add/alpha (1)

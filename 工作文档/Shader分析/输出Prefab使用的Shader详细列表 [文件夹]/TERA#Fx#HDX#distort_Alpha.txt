@@ -26,6 +26,8 @@
 		casassassin_m_skill06_wushuangzhan_xuli_normal/xuli/glow01_3 (6)
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian/Particle System (2)
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian_small/ground
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian/Particle System (2)
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian_small/ground
 		Ct02_fx_Sky01/city02_water_09
 		Ct02_Prop_Gate01/city02_build_shuita_01 (2)/scene_city02_build_shuita_Water_02
 		Ct02_Prop_Gate01/city02_build_shuita_01 (2)/scene_city02_build_shuita_Water_02/city02_build_shuita_Water_02 (2)
@@ -101,6 +103,7 @@
 		humwarrior_m_skill06_c_xishou_huo_L0/xishou/ring05
 		humwarrior_m_skill06_c_xishou_huo_L1/xishou/ring05
 		humwarrior_m_skill06_c_xishou_huo_L3/xishou/ring05
+		huzhizhudenupu_attack02_c/huzhizhudenupu_attack02_c_baofa/huzhizhudenupu_attack02_c_baofa/yao (2)
 		kalasishilian_attack01_pugong_hong/attack01_pugong/slash01/kalasishilian_attack01_slash01_red/daoguang03
 		kalasishilian_attack01_pugong_hong/attack01_pugong/slash02_down/kalasishilian_attack01_slash02_red/daoguang03
 		kalasishilian_attack01_pugong_hong/attack01_pugong/slash02_up/kalasishilian_attack01_slash02_red/daoguang03
@@ -127,6 +130,8 @@
 		Kuweishujing_skill02_zhendi/Kuweishujing_skill02_zhendi_L3/zadi/Spark 2 (1)
 		Kuweishujing_skill02_zhendi_L3/Kuweishujing_skill02_zhendi_L3/zadi/Spark 2 (1)
 		longxuexiyidan_skill01_c_baozha/baozha/dilie (5)
+		luokejisizhang_attack02_c_kaipao/luokejisizhang_attack02_c_kaipao/yao
+		luokejisizhang_attack02_c_shouji/luokejisizhang_attack02_c_shouji/yao
 		lvlong_skill02_c_zhenji/lvlong_skill02_c_zhenji_L0/Particle System 1/kuosan (1)/andi
 		lvlong_skill02_c_zhenji/lvlong_skill02_c_zhenji_L1/Particle System 1/kuosan (1)/andi
 		lvlong_skill02_c_zhenji/lvlong_skill02_c_zhenji_L3/Particle System 1/kuosan (1)/andi
@@ -184,6 +189,9 @@
 		sence_Dungn00_zhuiluoyunshi_baozha_02/sence_Dungn00_zhuiluoyunshi_baozha/glow-add
 		shaxingzheshouling_skill01_c_dusha/dusha/dimianxiaoguo/xie_wenli2
 		shaxingzheshouling_skill01_c_shifa/dimian/dimian (1)
+		shijiuchoujue_attack02_c_quanfeng/Particle System (2)
+		shijiuchoujue_skill01_c_suduxian/GameObject (2)/Particle System (2)
+		shijiuchoujue_skill01_c_suduxian/GameObject (2)/Particle System (5)
 		shixueshaluzhe_attack02_c_daoguang/zadi (1)/shanguang/shanguang_alpha
 		shixueshaluzhe_attack02_c_daoguang/zadi/shanguang/shanguang_alpha
 		shixueshaluzhe_fuhuoqinghua/kuosna/Particle System (2)
@@ -203,6 +211,8 @@
 		shixueshaluzhe_skill04_c_shifa/shixueshaluzhe_born_c_guang/xuejishichusheng/xie_wenli01
 		shixueshaluzhe_skill05_a_c_chongsheng/kuosna/Particle System (2)
 		shixueshaluzhe_skill05_a_c_dun/sphere02/sphere02 (1)
+		shumiaochengnian_attack02_c_tengman/dimian/blend01
+		shumiaochengnian_skill01_c_fanhualuoye/dimian (1)/blend01
 		sikala_skill01_c_fly/Trail/leixi_hudun/glow_blend
 		sprarcher_f_skill02+_c_huixuan_bing/sprarcher_f_skill02+_c_huixuan_bing_L3/baodian/Particle System 2/Spark 2 (1)
 		sprarcher_f_skill02+_c_huixuan_bing_L3/baodian/Particle System 2/Spark 2 (1)

@@ -62,11 +62,13 @@
 		Dn_pvp04_Palace01/Plant/ntl_shu_05 (4)/ntl_shu_055
 		Dn_pvp04_Palace01/Plant/ntl_shu_05 (5)/ntl_shu_055
 		Dn_pvp04_Palace01/Plant/ntl_shu_05/ntl_shu_055
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_gy_lvcao_05
 		Dungn00_Throne01/dungn00_throne01_scenes_04/scenes_04_ntl_guaishu_04
 		Dungn00_Throne01/dungn00_throne01_scenes_07/scenes_07_ntl_guaishu_04
 		juwangzhehexin/juwangzhehexin
 		juwangzhezhishi/juwangzhezhishi
 		linghunjiejing
+		mine_city01_gaoshipai
 		mine_jsfb_qita_hongshuijing
 		mine_jsfb_qita_huangshuijing
 		mine_jsfb_qita_lvshuijing
@@ -80,7 +82,6 @@
 		mine_wwzc_qita_furou
 		mine_wwzc_qita_shengmingzhiluan
 		mine_wwzc_qita_shuijingshi
-		mine_wwzc_qita_shuijingshi 1
 		mine_wwzc_qita_wuranfuhuachi
 		mine_wwzc_wuqi_jianzhi
 		mine_wwzc_zawu_fengzhijinglingqizhi/mine_wwzc_zawu_fengzhijinglingqizhi
@@ -120,15 +121,6 @@
 		shaxingzheshizhu
 		shengwujiancezhuangzhi
 		shujia
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_asny_mumen01_01
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_asny_mumen01_01 (1)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_asny_muqiang (1)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/pxxg_luzhang_01
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/pxxg_luzhang_01 (1)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/pxxg_luzhang_01 (2)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/pxxg_luzhang_01 (3)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_Prop_01/prop_jdc_tieliao_03 (1)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_Prop_01/prop_jdc_tieliao_03 (3)
 		walidui
 		Wd02_Build_sd04/sdB04_hjasd_hama_01
 		Wd02_Fx_jlzqpool/underwater_wd02
@@ -214,5 +206,19 @@
 		Wd05_Ntl_Tree_13/ntl_xinsongshu_04 (2)/ntl_xinsongshu_04_02
 		Wd05_Ntl_Tree_14/ntl_xinsongshu_02 (4)/ntl_xinsongshu_02_02
 		Wd05_Ntl_Tree_15/ntl_xinsongshu_02 (5)/ntl_xinsongshu_02_02
+		wd06_02_yzh_bwcx04/yzh_bwcx04_gy_lvcao_05
+		wd06_02_yzh_bwsl05/yzh_bwsl05_gy_lvcao_05
+		wd06_02_yzh_bwsl07/yzh_bwsl07_gy_lvcao_05
+		wd06_02_yzh_bwsl11/yzh_bwsl11_gy_lvcao_05
+		wd06_02_yzh_bwsl12/yzh_bwsl12_gy_lvcao_05
+		wd06_02_yzh_bwsl14/yzh_bwsl14_gy_lvcao_05
+		wd06_02_yzh_bwsl15/yzh_bwsl15_gy_lvcao_05
+		wd06_02_yzh_yglssl12/yzh_yglssl12_gy_lvcao_05
+		wd06_02_yzh_yglssl13/yzh_yglssl13_gy_lvcao_05
+		wd06_02_yzh_yglssl20/yzh_yglssl20_gy_lvcao_05
+		wd06_02_yzh_yglssl26/yzh_yglssl26_gy_lvcao_05
+		wd06_02_yzh_yglssl28/yzh_yglssl28_gy_lvcao_05
+		wd06_02_yzh_yxsl22/yzh_yxsl22_gy_lvcao_05
+		wd06_02_yzh_yxsl24/yzh_yxsl24_gy_lvcao_05
 		wd06_ntl_trees_01/ntl_kushu_01_03
 		wd06_ntl_trees05/ntl_kushu_01_02 

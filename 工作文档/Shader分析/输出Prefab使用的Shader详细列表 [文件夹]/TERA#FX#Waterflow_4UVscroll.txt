@@ -23,6 +23,10 @@
 		Dn_evn03_Killerparty/Sky (1)
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/Sky02/GeoSphere001
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/Sky02/GeoSphere001 (1)
+		Dungn00_EmpireRelicPrologue_02/GeoSphere_CycleCloud
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/Sky/GeoSphere_CycleCloud
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/Sky/GeoSphere_Inside
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/Sky/GeoSphere_Outside
 		Dungn01_Rins01/BG_Fx/sence_Dungn01_Ruins01_yanjiangliutang/yanjiang-liudong/Fx_Lava01 (2)
 		Dungn05_ElfArch/Preload/Fx/Fx_Water/Fx_WaterPlane02 (14)
 		Dungn05_ElfArch/Preload/Fx/Fx_Water/Ruins_Fx_Water_001 (17)

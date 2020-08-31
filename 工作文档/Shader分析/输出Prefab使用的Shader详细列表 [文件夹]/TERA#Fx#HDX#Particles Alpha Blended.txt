@@ -4,6 +4,46 @@
 		ailien_skill01_c_sanlianzhan/slash01 (1)/attack01/glow01
 		ailien_skill01_c_sanlianzhan/slash01 (2)/attack01/glow01
 		ailien_skill01_c_sanlianzhan/slash01/attack01/glow01
+		ailinushilianzhe_attack01_paidi/position01/dilie_alpha
+		ailinushilianzhe_attack01_paidi/position01/fire_up01
+		ailinushilianzhe_attack01_paidi/position01/glow_blend
+		ailinushilianzhe_attack01_paidi/position01/smoke_up01
+		ailinushilianzhe_attack02_paidi/position01/dilie_alpha
+		ailinushilianzhe_attack02_paidi/position01/fire_up01
+		ailinushilianzhe_attack02_paidi/position01/glow_blend
+		ailinushilianzhe_attack02_paidi/position01/smoke_up01
+		ailinushilianzhe_show_zhendi/position/dilie01 (4)
+		ailinushilianzhe_show_zhendi/position/yanwu02 (4)
+		ailinushilianzhe_show_zhendi/position/yanwu03 (4)
+		ailinushilianzhe_show_zhendi/position/yanwu04 (4)
+		ailinushilianzhe_skill01_dici/rock05/yanwu02
+		ailinushilianzhe_skill01_dici/rock05/zadi/dilie_alpha02
+		ailinushilianzhe_skill01_dici/rock05/zadi/glow01_blend
+		ailinushilianzhe_skill01_dici/rock05/zadi/smoke
+		ailinushilianzhe_skill01_dici/rock05/zadi/smoke01
+		ailinushilianzhe_skill01_dici/rock05/zadi/yanwu02
+		ailinushilianzhe_skill03_suanyu/position/ring01
+		ailinushilianzhe_skill04_zhendi/position/dilie01
+		ailinushilianzhe_skill04_zhendi/position/dilie01 (1)
+		ailinushilianzhe_skill04_zhendi/position/dilie01 (2)
+		ailinushilianzhe_skill04_zhendi/position/dilie01 (3)
+		ailinushilianzhe_skill04_zhendi/position/dilie01 (4)
+		ailinushilianzhe_skill04_zhendi/position/glow01
+		ailinushilianzhe_skill04_zhendi/position/yanwu02
+		ailinushilianzhe_skill04_zhendi/position/yanwu02 (1)
+		ailinushilianzhe_skill04_zhendi/position/yanwu02 (2)
+		ailinushilianzhe_skill04_zhendi/position/yanwu02 (3)
+		ailinushilianzhe_skill04_zhendi/position/yanwu02 (4)
+		ailinushilianzhe_skill04_zhendi/position/yanwu03
+		ailinushilianzhe_skill04_zhendi/position/yanwu03 (1)
+		ailinushilianzhe_skill04_zhendi/position/yanwu03 (2)
+		ailinushilianzhe_skill04_zhendi/position/yanwu03 (3)
+		ailinushilianzhe_skill04_zhendi/position/yanwu03 (4)
+		ailinushilianzhe_skill04_zhendi/position/yanwu04 (4)
+		ailinushilianzhe_skill05_cast/position/glow_blend
+		ailinushilianzhe_skill05_chongjibo/cjb/glow alpha
+		ailinushilianzhe_skill05_chongjibo/cjb/shuye01
+		ailinushilianzhe_skill05_chongjibo/cjb/smoke01
 		ailisha_attack01_c_jian/mofashi_attack03_bingci (3)/fashi_tuowei (2)
 		ailisha_attack01_c_jian/Particle System (2)/Particle System (4)
 		ailisha_skill01_c_jian/mofashi_attack03_bingci (3)/fashi_tuowei (2)
@@ -16,6 +56,9 @@
 		ailisha_skill02_c_jianyu_L3/ailisha_skill02_c_jianyu_L3/T_xulie_shikuai_001_01_alpha
 		ailisha_skill02_c_jianyu_L3/ailisha_skill02_c_jianyu_L3/T_yan_019_05_alpha
 		ailisha_skill02_c_jiaodiguang/sprarcher_f_skill04_c_fashe/smoke 1 (1)/Particle System 1
+		airenkuanggong_attack01_daoguang/slash01/Nanzhanshi_attack01_daoguang/glow01_blend
+		airenkuanggong_skill01_c_daoguang/slash01/Nanzhanshi_attack01_daoguang/glow01_blend
+		airenkuanggong_skill01_c_daoguang/slash02/Nanzhanshi_attack01_daoguang/glow01_blend
 		alekunpozhenzhe_attack01_pugong/zhao01/glow_blend
 		alekunpozhenzhe_attack02_pugong/zhao01/glow_blend
 		alekunpozhenzhe_hit_tongyong/glow/shanguang_alpha (1)
@@ -65,6 +108,10 @@
 		alilancer_f_hit_guang/glow_blend
 		alilancer_f_hit_lei/glow_blend
 		alilancer_f_hit_normal/glow_blend
+		alilancer_f_L_weapon_shield_tongkuzhiji_red_effect/alilancer_f_B_weapon_shield_tongkuzhiji_red/alilancer_f_B_weapon_shield_tongkuzhiji_red/shandian (2)/glow/guangyun_blend
+		alilancer_f_L_weapon_shield_tongkuzhiji_red_effect/alilancer_f_B_weapon_shield_tongkuzhiji_red/alilancer_f_B_weapon_shield_tongkuzhiji_red/shandian (2)/glow/guangyun_blend (1)
+		alilancer_f_L_weapon_shield_tongkuzhiji_red_effect/alilancer_f_L_weapon_shield_tongkuzhiji_red/shandian (3)/glow/guangyun_blend
+		alilancer_f_L_weapon_shield_tongkuzhiji_red_effect/alilancer_f_L_weapon_shield_tongkuzhiji_red/shandian (3)/glow/guangyun_blend (1)
 		alilancer_f_lv02_adv_B_weapon_lance_01/outside/glow_blend (1)
 		alilancer_f_lv02_adv_B_weapon_lance_02/outside/glow_blend (1)
 		alilancer_f_lv02_adv_B_weapon_shield_01/outside/glow_blend (1)
@@ -136,6 +183,24 @@
 		alilancer_f_lv07_adv_L_weapon_shield_03/effect/glow01
 		alilancer_f_lv07_adv_R_weapon_lance_01/shizipian_blend
 		alilancer_f_lv07_adv_R_weapon_lance_02/shizipian_blend
+		alilancer_f_lv07_H_nor_B_weapon_lance_01/glow blend (3)
+		alilancer_f_lv07_H_nor_B_weapon_lance_02/glow blend (2)
+		alilancer_f_lv07_H_nor_B_weapon_shield_01/glow_alpha_01 (1)
+		alilancer_f_lv07_H_nor_B_weapon_shield_02/glow_alpha_01 (1)
+		alilancer_f_lv07_H_nor_L_weapon_shield_01/glow_alpha_01 (1)
+		alilancer_f_lv07_H_nor_L_weapon_shield_02/glow_alpha_01 (1)
+		alilancer_f_lv07_H_nor_R_weapon_lance_01/glow blend (3)
+		alilancer_f_lv07_H_nor_R_weapon_lance_02/glow blend (2)
+		alilancer_f_lv07_L_nor_L_weapon_shield_01/lv06_nor_L_weapon_shield_effect_01/glow_blend (2)
+		alilancer_f_lv07_L_nor_L_weapon_shield_02/lv06_nor_L_weapon_shield_effect_02/glow_blend (2)
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_B_weapon_lance_tongkuzhiji_red/shandian (1)/glow (2)/guangyun_blend
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_B_weapon_lance_tongkuzhiji_red/shandian (1)/glow (2)/guangyun_blend (1)
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_B_weapon_lance_tongkuzhiji_red/shandian (1)/glow (3)/guangyun_blend
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_B_weapon_lance_tongkuzhiji_red/shandian (1)/glow (3)/guangyun_blend (1)
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_R_weapon_lance_tongkuzhiji_red/shandian (2)/glow (1)/guangyun_blend
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_R_weapon_lance_tongkuzhiji_red/shandian (2)/glow (1)/guangyun_blend (1)
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_R_weapon_lance_tongkuzhiji_red/shandian (2)/glow/guangyun_blend
+		alilancer_f_R_weapon_lance_tongkuzhiji_red_effect/alilancer_f_R_weapon_lance_tongkuzhiji_red/shandian (2)/glow/guangyun_blend (1)
 		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1/dilie_alpha
 		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1/smoke
 		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1_1/dilie_alpha
@@ -1637,6 +1702,12 @@
 		alipreist_f_lv07_adv_R_weapon_03/outside/glow_blend (1)
 		alipreist_f_lv07_adv_R_weapon_03/outside/yan_blend
 		alipreist_f_lv07_adv_R_weapon_03/outside/yan_blend (1)
+		alipreist_f_lv07_H_nor_R_weapon_01/glow_alpha_01
+		alipreist_f_lv07_H_nor_R_weapon_02/glow_alpha
+		alipreist_f_lv07_H_nor_R_weapon_02/glow_alpha_01
+		alipreist_f_lv07_L_nor_R_weapon_01/outside/glow_blend (1)
+		alipreist_f_lv07_L_nor_R_weapon_02/outside/glow_blend (1)
+		alipreist_f_lv07_L_nor_R_weapon_02/Top/yan_blend
 		alipreist_f_lv07_nor_R_weapon_01/outside/glow_blend (1)
 		alipreist_f_lv07_nor_R_weapon_02/outside/glow_blend (1)
 		alipreist_f_lv07_nor_R_weapon_02/outside/yan_blend
@@ -1648,6 +1719,8 @@
 		alipreist_f_lv07_sup_R_weapon_02/Top/yan_blend
 		alipreist_f_lv07_sup_R_weapon_03/outside/glow_blend (1)
 		alipreist_f_lv07_sup_R_weapon_03/outside/Top/yan_blend
+		alipreist_f_R_weapon_tongkuzhiji_red_effect/shandian (3)/glow/guangyun_blend
+		alipreist_f_R_weapon_tongkuzhiji_red_effect/shandian (3)/glow/guangyun_blend (1)
 		alipreist_f_weapon_fuwen/alipreist_f_R_weapon_fuwen_texiao1
 		alipriest_attack01_guangqiu_an/atk01/Particle System02/smoke
 		alipriest_attack01_guangqiu_an/atk01/Particle System02/smoke_word
@@ -2439,6 +2512,34 @@
 		beizuzhoudechuniang_skill02_baozha/bao/kuosan
 		beizuzhoudechuniang_skill02_baozha/bao/quan_black
 		beizuzhoudechuniang_skill02_baozha/bao/smoke (1)
+		bianyinangua_attack01_c_zadi/GameObject/GameObject (1)/glo alpha
+		bianyinangua_attack01_c_zadi/GameObject/GameObject (1)/Particle System (1)
+		bianyinangua_attack01_c_zadi/GameObject/GameObject/luoxuanxian_04 (4)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject (1)/glo alpha
+		bianyinangua_attack02_c_zadi/GameObject/GameObject (1)/Particle System (1)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject/luoxuanxian_04 (4)
+		bianyinangua_attack02_c_zhuanquan/Particle System (1)
+		bianyinangua_attack02_c_zhuanquan/sixian01 (4)
+		bianyinangua_skill01_juqi/bianyinangua_skill01_juqi/Particle System (6)
+		bianyinangua_skill01_juqi/bianyinangua_skill01_juqi/shanguang2_blend
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/glo alpha
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/Particle System (1)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/Particle System (3)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject/luoxuanxian_04 (4)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/glo alpha
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/Particle System (1)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/Particle System (4)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject/luoxuanxian_04 (4)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/glo alpha
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/Particle System (1)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/Particle System (3)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject/luoxuanxian_04 (4)
+		boboliqishituan_attack01_c_chuanci/ci/jiantou alpha (1)
+		boboliqishituan_attack02_c_chongfeng/glow alpha
+		boboliqishituan_attack02_c_chongfeng/lizi
+		boboliqishituan_attack02_c_chongfeng/Particle System 1
+		boboliqishituan_attack02_c_ci/ci/jiantou alpha (1)
+		boboliqishituan_attack02_c_ci/ci/ring02alpha (1)
 		busiqishi_attact01_ci/fengzhijinglingshouling_ci/glow
 		busiqishi_skill01_ci/fengzhijinglingshouling_ci/glow
 		busiqishi_skill01_qichang/houti
@@ -2496,6 +2597,8 @@
 		casassassin_m_attack04_slash_normal/slash01/Nanzhanshi_attack01_daoguang/glow01_blend
 		casassassin_m_clothes_ansha_yumao/Particle System
 		casassassin_m_clothes_ansha_yumao/yumao_trial
+		casassassin_m_L_weapon_tongkuzhiji_red_effect/shandian/glow/guangyun_blend
+		casassassin_m_L_weapon_tongkuzhiji_red_effect/shandian/glow/guangyun_blend (1)
 		casassassin_m_lv02_adv_L_weapon_01/outside/glow_blend (1)
 		casassassin_m_lv02_adv_L_weapon_02/outside/glow_blend (1)
 		casassassin_m_lv02_adv_R_weapon_01/outside/glow_blend (1)
@@ -2534,6 +2637,9 @@
 		casassassin_m_lv07_adv_R_weapon_01/position/glow_blend
 		casassassin_m_lv07_adv_R_weapon_02/position/glow_blend
 		casassassin_m_lv07_adv_R_weapon_03/position/glow_blend
+		casassassin_m_lv07_H_nor_R_weapon_02/liang (1)
+		casassassin_m_lv07_L_nor_R_weapon_01/position/glow_blend
+		casassassin_m_lv07_L_nor_R_weapon_02/position/glow_blend
 		casassassin_m_lv07_nor_L_weapon_01/position/glow_blend
 		casassassin_m_lv07_nor_L_weapon_02/position/glow_blend
 		casassassin_m_lv07_nor_L_weapon_03/position/glow_blend
@@ -2548,6 +2654,8 @@
 		casassassin_m_lv07_sup_R_weapon_02/position/glow_blend
 		casassassin_m_lv07_sup_R_weapon_03/position/glow_blend
 		casassassin_m_lv07_sup_R_weapon_03/position/glow_blend02
+		casassassin_m_R_weapon_tongkuzhiji_red_effect/shandian/glow/guangyun_blend
+		casassassin_m_R_weapon_tongkuzhiji_red_effect/shandian/glow/guangyun_blend (1)
 		casassassin_m_skill01_shanji_an/yan
 		casassassin_m_skill01_shanji_an/yan (1)
 		casassassin_m_skill01_shanji_huo/yan
@@ -3187,6 +3295,17 @@
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/create_alilancer_dunji/dun/guang/smoke01
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/create_alilancer_dunji/dun/guang/smoke02
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/create_alilancer_qichang/xuli/yan_blend
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject (1)/scene_casassassin_CG_liuxing/Particle System01/Particle System (1)
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject (1)/scene_casassassin_CG_liuxing/Particle System02/smoke
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject/scene_casassassin_CG_liuxing/Particle System01/Particle System (1)
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject/scene_casassassin_CG_liuxing/Particle System02/smoke
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/create_casassassin_CG_scene_effect/scene_yanchen/yan
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian/smoke
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian_small/smoke
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/glow01_blend
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/Particle System (7)
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/glow01_blend
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Particle System (5)
 		Ct01_fx_living/scene_chuansongzhen_zhucheng/chuansongzhen/glow_up
 		Ct01_fx_living/scene_chuansongzhen_zhucheng/chuansongzhen/shanguang_alpha (6)
 		Ct01_fx_living/scene_ditu_bianjie_10m/GameObject (1)/PingMian_add
@@ -3197,11 +3316,39 @@
 		Ct02_fx_Center08/scene_city02_dimian_liuguang_01/center03_build_elmxy_dimian03_texiao01
 		Ct02_fx_Center08/scene_city02_dimian_liuguang_02/ground_elmxy_city02_013_teixiao01
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/glow_blend
+		Ct02_fx_Waterfall02/yan (2)
+		Ct02_fx_Waterfall02/yan (3)
+		Ct02_fx_Waterfall03/yan
+		Ct02_fx_Waterfall03/yan (1)
 		Ct02_Prop_Animataed07/city02_Build_zhuanshi_01 (1)/Point003/Point002/Teleporter_effect (1)/in
 		Ct02_Prop_Center01/Teleporter_ct02/Teleporter_ct02/Teleporter_effect/in
 		Ct02_Prop_Inside08/city02_build_elmxy_01/Dummy001/Cylinder (1)
 		Ct02_Prop_Inside08/city02_build_elmxy_01/Dummy001/Cylinder (2)
 		Ct02_Prop_Inside08/city02_build_elmxy_01/Dummy001/Cylinder (3)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang/andi (1)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang/glow01_blend
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang/andi (1)
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang/glow01_blend
+		dadijing_skill01_c_xuanfengzhan/Particle System (1)/Particle System (2)
+		dadijing_skill01_c_xuanfengzhan/Particle System (1)/Particle System (4)
+		dadijing_skill01_c_xuanfengzhan/xuanfengzhan_chentu/Particle System (2)
+		dadijing_skill01_c_xuanfengzhan/xuanfengzhan_chentu/smoke 1 (1)/Particle System 1
+		dadijing_skill01_c_xuanfengzhan/xuanfengzhan_chentu/smoke 1 (1)/Particle System 1 (1)
+		dadijing_skill01_c_xuanfengzhan/xuanfengzhan_chentu/smoke 1 (1)/Particle System 1 (2)
+		dadijing_skill02_chongci/chongci/glow alpha
+		dadijing_skill02_chongci/chongci/Particle System 1
+		dadijing_skill02_chongci/smoke
+		dadijing_skill03_zhuaji/smoke
+		dadijing_skill03_zhuaji/zhuahen (3)/zhuahen(zhong)/glow02
+		dadijing_skill03_zhuaji/zhuahen (4)/zhuahen(zhong)/glow02
+		dadijing_skill03_zhuaji/zhuahen/zhuahen(zhong)/glow02
+		damonvyifulin_attack01_c_hand/huoqiu/bland
+		damonvyifulin_huoqiu_tongyong/huoqiu/bland
+		damonvyifulin_huoqiu_tongyong/huoqiu/zhao03
+		damonvyifulin_huoyanchongji_tongyong/huozhu/glow_blend01
+		damonvyifulin_huoyanchongji_tongyong/huozhu/smoke02
+		damonvyifulin_skill01_c_wuqi/shanguang/bland
+		damonvyifulin_skill02_c_wuqi/shanguang/bland
 		defaanshazhe_attack01_c_daoguang/slash01/defaanshazhe_attack01_c_daoguang/glow01
 		defaanshazhe_attack02_c_daoguang01/slash01/defaanshazhe_attack01_c_daoguang/glow01
 		defaanshazhe_attack02_c_daoguang02/slash01/defaanshazhe_attack01_c_daoguang/glow01
@@ -3288,6 +3435,26 @@
 		diguoqiangqishi_skill04_c_juqi/juqi/Particle System (1)/penghuoxing/xian01
 		diguoqiangqishi_skill04_c_juqi/juqi/Particle System (1)/penghuoxing/xian02
 		diguoqiangqishi_skill04_c_juqi/juqi/Particle System (1)/penghuoxing/yan01
+		dijing_attack01_c_daoguang/GameObject/GameObject/luoxuanxian_04 (4)
+		dijing_skill01_c_daoguang/GameObject/GameObject/luoxuanxian_04 (4)
+		dijing_skill02_c_chongci/glow alpha
+		dijing_skill02_c_chongci/lizi
+		dijing_skill02_c_chongci/Particle System 1
+		dijing_skill02_c_ci/jiantou alpha (1)
+		dijing_skill02_c_ci/ring02alpha (1)
+		dijingdawanggeluomo_skill01_c_xuanfengzhan/Particle System (1)/Particle System (2)
+		dijingdawanggeluomo_skill01_c_xuanfengzhan/Particle System (1)/Particle System (4)
+		dijingdawanggeluomo_skill01_c_xuanfengzhan/xuanfengzhan_chentu/Particle System (2)
+		dijingdawanggeluomo_skill01_c_xuanfengzhan/xuanfengzhan_chentu/smoke 1 (1)/Particle System 1
+		dijingdawanggeluomo_skill01_c_xuanfengzhan/xuanfengzhan_chentu/smoke 1 (1)/Particle System 1 (1)
+		dijingdawanggeluomo_skill01_c_xuanfengzhan/xuanfengzhan_chentu/smoke 1 (1)/Particle System 1 (2)
+		dijingdawanggeluomo_skill02_chongci/chongci/glow alpha
+		dijingdawanggeluomo_skill02_chongci/chongci/Particle System 1
+		dijingdawanggeluomo_skill02_chongci/smoke
+		dijingdawanggeluomo_skill03_zhuaji/smoke
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen (3)/zhuahen(zhong)/glow02
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen (4)/zhuahen(zhong)/glow02
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen/zhuahen(zhong)/glow02
 		diyuquan/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L HorseLink/Bip001 L Foot/zhuazi_L2/huo1/smoke
 		diyuquan/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R HorseLink/Bip001 R Foot/zhuazi_R2/huo1/smoke
 		diyuquan/Bip001/Bip001 Pelvis/Bip001 Tail/Bip001 Tail1/Bip001 Tail2/Bip001 Tail3/Bip001 Tail4/weiba/smoke (1)
@@ -3434,6 +3601,64 @@
 		dshamoer_skill02_slash02/slash01/dshamoer_attack01_slash/glow01_blend (1)
 		dshamoer_skill02_weapon_cast/xuli/Particle System (3)
 		dshamoer_skill02_weapon_cast/xuli/tuowei
+		dulenusi_attack01_ci/position01/dilie_alpha
+		dulenusi_attack01_ci/position01/fire_up01
+		dulenusi_attack01_ci/position01/glow_blend
+		dulenusi_attack01_ci/position01/smoke_up01
+		dulenusi_attack01_ci/position02/dilie_alpha
+		dulenusi_attack01_ci/position02/fire_up01
+		dulenusi_attack01_ci/position02/glow_blend
+		dulenusi_attack01_ci/position02/smoke_up01
+		dulenusi_attack02_ci/position01/dilie_alpha
+		dulenusi_attack02_ci/position01/fire_up01
+		dulenusi_attack02_ci/position01/glow_blend
+		dulenusi_attack02_ci/position01/smoke_up01
+		dulenusi_attack02_ci/position02/dilie_alpha
+		dulenusi_attack02_ci/position02/fire_up01
+		dulenusi_attack02_ci/position02/glow_blend
+		dulenusi_attack02_ci/position02/smoke_up01
+		dulenusi_attack02_ci/position03/dilie_alpha
+		dulenusi_attack02_ci/position03/fire_up01
+		dulenusi_attack02_ci/position03/glow_blend
+		dulenusi_attack02_ci/position03/smoke_up01
+		dulenusi_attack02_ci/position04/dilie_alpha
+		dulenusi_attack02_ci/position04/fire_up01
+		dulenusi_attack02_ci/position04/glow_blend
+		dulenusi_attack02_ci/position04/smoke_up01
+		dulenusi_attack02_ci/position05/dilie_alpha
+		dulenusi_attack02_ci/position05/fire_up01
+		dulenusi_attack02_ci/position05/glow_blend
+		dulenusi_attack02_ci/position05/smoke_up01
+		dulenusi_attack02_ci/position06/dilie_alpha
+		dulenusi_attack02_ci/position06/fire_up01
+		dulenusi_attack02_ci/position06/glow_blend
+		dulenusi_attack02_ci/position06/smoke_up01
+		dulenusi_attack02_ci/position07/dilie_alpha
+		dulenusi_attack02_ci/position07/fire_up01
+		dulenusi_attack02_ci/position07/glow_blend
+		dulenusi_attack02_ci/position07/smoke_up01
+		dulenusi_skill01_saodi/position/dilie
+		dulenusi_skill01_saodi/position/fire_up (1)
+		dulenusi_skill01_saodi/position/glow_blend
+		dulenusi_skill01_saodi/position/smoke_up01 (1)
+		dulenusi_skill01_saodi/position/smoke_up02 (1)
+		dulenusi_skill02_dimian_shuihua/shuihua (2)
+		dulenusi_skill02_shuizhu/position/glow_blend
+		dulenusi_skill02_shuizhu/position/shui04
+		dulenusi_skill03_chongjibo/cjb/glow alpha
+		dulenusi_skill03_chongjibo/cjb/smoke01
+		dulenusi_skill03_chongjibo/cjb/smoke02
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua01
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua01 (1)
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua01 (2)
+		dulenusi_zuanchu/position/glow_blend
+		dulenusi_zuanchu/position/glow_blend_01
+		dulenusi_zuanchu/position/glow_blend0000000000
+		dulenusi_zuanchu/position/smoke_up
+		dulenusi_zuanchu/position/smoke_up01
+		dulenusi_zuanru/position/glow_blend
+		dulenusi_zuanru/position/glow_blend_01
+		dulenusi_zuanru/position/smoke_up
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_dungn00_top/dungn00/glow_up
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_dungn00_top/dungn00/par (2)
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_dungn00_top/dungn00/stone (2)
@@ -3442,6 +3667,15 @@
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_liefeng_guangzhu/line_in_alpha_top
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_liefeng_guangzhu/line_in_alpha_top (1)
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_liefeng_guangzhu/xie_star_dark
+		Dungn00_EmpireRelicPrologue_02/scene_dungn00_EmpireRelicPrologue_part01/Build_xsfb_djz_fx_05 (4)
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_dungn00_top/dungn00/glow_up
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_dungn00_top/dungn00/par (2)
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_dungn00_top/dungn00/stone (2)
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_liefeng_guangzhu/line_blend
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_liefeng_guangzhu/line_in_alpha_front
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_liefeng_guangzhu/line_in_alpha_top
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_liefeng_guangzhu/line_in_alpha_top (1)
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_liefeng_guangzhu/xie_star_dark
 		Dungn00_Throne01/fx/scene_Dungn00_Throne01_water_shuilian/scene_Dungn00_Throne01_water_shuilian/shui
 		Dungn00_Throne01/fx/scene_Dungn00_Throne01_water_shuilian/scene_Dungn00_Throne01_water_shuilian/shui (3)
 		Dungn00_Throne01/fx/scene_Dungn00_Throne01_water_shuilian/scene_Dungn00_Throne01_water_shuilian/yan
@@ -3611,6 +3845,130 @@
 		Dungn07_Mansion01/Fx/scene_world02_huoba01 (98)/Particle System (6)
 		Dungn07_Mansion01/Fx/scene_world02_huoba01 (99)/Particle System (6)
 		Dungn07_Mansion01/Fx/scene_world02_huoba01/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world01_tongyong_chenai
+		Dungn08_Sorceres01/fx/scene_world01_tongyong_chenai (1)
+		Dungn08_Sorceres01/fx/scene_world01_tongyong_chenai (2)
+		Dungn08_Sorceres01/fx/scene_world01_tongyong_chenai (3)
+		Dungn08_Sorceres01/fx/scene_world01_tongyong_hudie
+		Dungn08_Sorceres01/fx/scene_world01_tongyong_hudie (3)
+		Dungn08_Sorceres01/fx/scene_world02_huo (1)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huo/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (1)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (10)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (100)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (101)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (102)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (103)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (104)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (105)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (106)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (107)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (108)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (109)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (11)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (110)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (111)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (112)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (113)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (114)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (115)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (12)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (13)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (14)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (15)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (16)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (17)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (18)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (19)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (2)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (20)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (21)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (22)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (23)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (24)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (25)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (26)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (27)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (28)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (29)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (3)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (30)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (31)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (32)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (33)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (34)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (35)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (36)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (37)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (38)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (39)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (4)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (40)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (41)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (42)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (43)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (44)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (45)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (46)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (47)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (48)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (49)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (5)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (50)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (51)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (52)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (53)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (54)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (55)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (56)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (57)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (58)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (59)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (6)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (60)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (61)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (62)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (63)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (64)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (65)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (66)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (67)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (68)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (69)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (7)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (70)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (71)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (72)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (73)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (74)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (75)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (76)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (77)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (78)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (79)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (8)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (80)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (81)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (82)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (83)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (84)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (85)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (86)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (87)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (88)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (89)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (9)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (90)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (91)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (92)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (93)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (94)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (95)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (96)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (97)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (98)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01 (99)/Particle System (6)
+		Dungn08_Sorceres01/fx/scene_world02_huoba01/Particle System (6)
 		duoluozhihun_attack01_pugong01/slash01/duoluozhihun_attack01/glow02
 		duoluozhihun_attack01_pugong02/slash01/duoluozhihun_attack01/glow02
 		duoluozhihun_attack02_cast/duoluozhihun_attack02_cast_L0/duoluozhihun_attack02_position (1)/ring03
@@ -4088,6 +4446,21 @@
 		fangzhouxunchazhe_skill02_huoyanpenshe/penhuo/local/glow01
 		fangzhouxunchazhe_skill02_huoyanpenshe/penhuo/world/fog_blend
 		fangzhouxunchazhe_skill02_huoyanpenshe/penhuo/world/yan
+		feihongxueyuanmonv_attack01_c/DG/Ground_dust/glo-ab (1)
+		feihongxueyuanmonv_attack01_c/DG/Ground_dust/smoke01_blend
+		feihongxueyuanmonv_attack01_c/DG/Ground_dust/yan_blend (1)
+		feihongxueyuanmonv_attack02_c_fly/alpha
+		feihongxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/quan_side (5)
+		feihongxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/shanguang2_blend
+		feihongxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/sixian01 (2)
+		feihongxueyuanmonv_attack02_c_shifa2/glow/guangyun_blend
+		feihongxueyuanmonv_hit_tongyong/jiansheguang (3)
+		feihongxueyuanmonv_hit_tongyong/smoke (1)
+		feihongxueyuanmonv_skill01_c_fly/ball/GLOW ALPHA
+		feihongxueyuanmonv_skill01_c_fly/ball/trail/yan (1)
+		feihongxueyuanmonv_skill01_c_shifa1/juqi_ground/juqi_ground/glow
+		feihongxueyuanmonv_skill01_c_shifa1/juqi_ground/juqi_ground/shanguang2_blend
+		feihongxueyuanmonv_skill01_c_shifa1/juqi_ground/juqi_ground/sixian01 (2)
 		fengzhijinglingshouling_attack_hit/shanguang/shanguang_alpha
 		fengzhijinglingshouling_attack02_cast/glow_blend
 		fengzhijinglingshouling_attack02_cast/smoke (1)
@@ -4957,6 +5330,21 @@
 		haiguzhiwang_skill04_daoguang01/slash02/daoguang/glow01_blend
 		haiguzhiwang_skill04_daoguang02/GameObject/slash01/daoguang/glow01_blend
 		haiguzhiwang_skill04_daoguang02/GameObject/slash02/daoguang/glow01_blend
+		hailate_attack02_c_siyao/hit/glow (1)
+		hailate_skill01_chongjibo/cjb/glow alpha
+		hailate_skill01_chongjibo/cjb/smoke01
+		hailate_skill01_chongjibo/cjb/smoke02
+		hailate_skill01_weiba/hailate_weiba/Dummy001/Bone027/Bone028/Bone029/Bone030/Bone031/hailate_weiba_bone036/tail/lizi
+		hailate_skill01_weiba/hailate_weiba/Dummy001/Bone027/Bone028/Bone029/hailate_weiba_bone034/tail (2)/lizi
+		hailate_skill01_weiba/hailate_weiba/Dummy001/Bone027/hailate_weiba_bone032/tail (1)/lizi
+		hailate_skill01_weiba/hailate_weiba/Dummy001/Bone032/Bone033/Bone034/Bone035/Bone036/hailate_weiba_bone036/tail/lizi
+		hailate_skill01_weiba/hailate_weiba/Dummy001/Bone032/Bone033/Bone034/hailate_weiba_bone034/tail (2)/lizi
+		hailate_skill01_weiba/hailate_weiba/Dummy001/Bone032/hailate_weiba_bone032/tail (1)/lizi
+		hailate_weiba_Bip001Tail/tail (1)/lizi
+		hailate_weiba_Bip001Tail2/tail (2)/lizi
+		hailate_weiba_Bip001Tail4/tail/lizi
+		hailaterenxing_attack02_c_ciji/ciji/jiantou alpha
+		hailaterenxing_attack02_c_ciji/ciji/ring02alpha
 		heiquan/alipriest_f_ultskill_cast/glow01_blend
 		heiyawushi_attack_baodian/mofashi_attack_xiaofashe/shanguang 1
 		heiyawushi_attack_faqiu/UI_CD_huifu/mofashi_bisha_shanguang1 (1)/mofashi_attack03_bingci (1)
@@ -5387,12 +5775,17 @@
 		humwarrior_m_lv07_adv_R_weapon_01/glow_blend
 		humwarrior_m_lv07_adv_R_weapon_02/glow_blend
 		humwarrior_m_lv07_adv_R_weapon_03/glow_blend
+		humwarrior_m_lv07_H_nor_R_weapon_02/hei
+		humwarrior_m_lv07_L_nor_R_weapon_01/glow_blend
+		humwarrior_m_lv07_L_nor_R_weapon_02/glow_blend
 		humwarrior_m_lv07_nor_R_weapon_01/glow_blend
 		humwarrior_m_lv07_nor_R_weapon_02/glow_blend
 		humwarrior_m_lv07_nor_R_weapon_03/glow_blend
 		humwarrior_m_lv07_sup_R_weapon_01/glow_blend
 		humwarrior_m_lv07_sup_R_weapon_02/glow_blend
 		humwarrior_m_lv07_sup_R_weapon_03/glow_blend
+		humwarrior_m_R_weapon_tongkuzhiji_red_effect/shandian/glow/guangyun_blend
+		humwarrior_m_R_weapon_tongkuzhiji_red_effect/shandian/glow/guangyun_blend (1)
 		humwarrior_m_skill01_a_chentu_feng/chentu_1/Particle System/Particle System 1
 		humwarrior_m_skill01_a_chentu_guang/chentu_1/Particle System/Particle System 1
 		humwarrior_m_skill01_a_chentu_huo/chentu_1/Particle System/Particle System 1
@@ -6774,6 +7167,9 @@
 		huojiasiqinwang_skill02_c_zhendi_qilang02/kuosan (1)
 		huojiasiqinwang_skill02_c_zhendi_qilang02/kuosan (1)/baozha/dimian
 		huojiasiqinwang_skill02_c_zhendi_qilang02/kuosan (1)/baozha/dimian/shanguang 1/smoke
+		huoyan/huo/bland
+		huoyan/huo/glow
+		huoyan/huo/yan
 		huweiduizhang_attack01_hengpi/daoguang/daoguang_bland
 		huweiduizhang_attack02_shixuechongji/chongji/baozha/bland
 		huweiduizhang_attack02_shixuechongji/chongji/baozha/guangshu
@@ -6784,6 +7180,26 @@
 		huweiduizhang_skill01_dafengche/fengche/daoguang_bland
 		huweiduizhang_skill01_dafengche/fengche/shikuai
 		huweiduizhang_skill01_dafengche/fengche/yan
+		huzhizhudenupu_attack02_c/huzhizhudenupu_attack02_c_baofa/huzhizhudenupu_attack02_c_baofa/yao (4)
+		huzhizhudenupu_attack02_c/huzhizhudenupu_attack02_c_baofa/huzhizhudenupu_attack02_c_baofa/yao (7)
+		huzhizhudenupu_attack02_c/huzhizhudenupu_attack02_c_shifa/huzhizhudenupu_attack02_c_shifa/GameObject/yao (8)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_01/huzhizhudenupu_skill01_c_01/yao (12)/yao (12)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_02/huzhizhudenupu_skill01_c_01/yao (13)/yao (12)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_03/huzhizhudenupu_skill01_c_01/yao (14)/yao (12)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_04/huzhizhudenupu_skill01_c_01/yao (15)/yao (12)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_05/huzhizhudenupu_skill01_c_01/yao (16)/yao (12)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_06/huzhizhudenupu_skill01_c_01/yao (17)/yao (12)
+		huzhizhudenupu_skill02_c/huzhizhudenupu_skill02_c/guangzhu/baodian_hei
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/bowen_04
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/bowen_05
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/dimian
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/dimian (1)
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/yan_01
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/yan_02 (3)
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/yao_05 (2)
+		huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/dimian (5)
+		huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/yao_05 (7)
+		jianjiaoshuling_attack02_jiao/ci/glow01_alpha
 		jinglingfurennv_skill01_baozha/jinglingfurennv_skill01_baozha_L0/explsion/shanguang2 (3)
 		jinglingfurennv_skill01_baozha/jinglingfurennv_skill01_baozha_L3/explsion/shanguang2 (3)
 		jinglingfurennv_skill01_baozha_L0/explsion/shanguang2 (3)
@@ -6838,6 +7254,29 @@
 		jingshijuren_skill03_xiandi/zadi (5)/GameObject/zadi/smoke
 		jingshijuren_skill03_xiandi/zadi (5)/GameObject/zadi/smoke01
 		jingshijuren_skill03_xiandi/zadi (5)/GameObject/zadi/smoke02
+		jumo_attack01_zadi/dilie_L
+		jumo_attack01_zadi/dilie_R
+		jumo_attack01_zadi/smoke02
+		jumo_attack01_zadi/trail02
+		jumo_attack02_zadi/dilie
+		jumo_attack02_zadi/smoke02
+		jumo_attack02_zadi/trail02
+		jumo_skill02_caidi/guang/smoke01
+		jumo_skill02_caidi/kuosan
+		jumo_skill02_caidi/yanwu02
+		jumo_skill02_caidi/zadi/dilie
+		jumo_skill02_caidi/zadi/guang/glow01_blend
+		jumo_skill02_caidi/zadi/guang/smoke
+		jumo_skill02_caidi/zadi/guang/smoke01
+		jumo_skill02_caidi/zadi/kuosan
+		jumo_skill02_caidi/zadi/kuosan/dimian
+		jumo_skill03_nuhou/cjb/glow alpha
+		jumo_skill03_nuhou/cjb/smoke01
+		jumo_skill03_nuhou/cjb/smoke02
+		jumochoujue_skill03_nuhou/cjb/glow alpha
+		jumochoujue_skill03_nuhou/cjb/quan (2)
+		jumochoujue_skill03_nuhou/cjb/smoke01
+		jumochoujue_skill03_nuhou/cjb/smoke02
 		jurenkumosi_attack01_pugong/attack01/star
 		jurenkumosi_attack02_pugong/attack01/star
 		jurenkumosi_born_chusheng/jurenkumosi_born_chusheng_L3/glow01_blend
@@ -6874,6 +7313,22 @@
 		jurenkumosi_skill02_caidi_L3/zadi/glow01_blend
 		jurenkumosi_skill02_caidi_L3/zadi/smoke01
 		jurenkumosi_skill02_caidi_L3/zadi/smoke02
+		juzhuangshuyao_attack01_c/dl (1)
+		juzhuangshuyao_attack01_c/shitou
+		juzhuangshuyao_attack01_c/SHUYE
+		juzhuangshuyao_attack01_c/yan ab
+		juzhuangshuyao_attack02_c_fly/ball/GLOW ALPHA
+		juzhuangshuyao_attack02_c_fly/ball/TRAIL (1)/Particle System
+		juzhuangshuyao_attack02_c_hand/ball/GLOW ALPHA
+		juzhuangshuyao_skill01_c/Particle System (2)
+		juzhuangshuyao_skill01_c/shitou (1)
+		juzhuangshuyao_skill01_c/Spark (1)
+		juzhuangshuyao_skill01_c/yan ab
+		juzhuangshuyao_skill02_c/GameObject (1)/daoguang007 (2)
+		juzhuangshuyao_skill02_c/GameObject (2)/daoguang007 (2)
+		juzhuangshuyao_skill02_c/GameObject (3)/Particle System
+		juzhuangshuyao_skill02_c/GameObject (3)/Particle System (1)
+		juzhuangshuyao_skill02_c/GameObject/daoguang007 (2)
 		kalantujidui_attack01_daoguang/daoguang/attack1/T_guangyun_072_03_alpha
 		kalantujidui_attack01_daoguang/daoguang/attack1/T_guiji_050_01_alpha
 		kalantujidui_attack01_daoguang/daoguang/attack2/T_guangyun_072_03_alpha
@@ -7170,6 +7625,10 @@
 		kemolaxia_skill04_zadi/zadi03/zadi/zadi/smoke01
 		kemolaxia_skill04_zadi/zadi03/zadi/zadi/smoke02
 		kemolaxia_skill04_zhanchui/position/glow
+		kuangnuleiji_skill01_ci/bland02
+		kuangnuleiji_skill01_ci/lizi01
+		kuangnuleiji_skill01_ci/smoke (1)
+		kuangnuleiji_skill01_ci/xulie3
 		kuishizhiyan_attack01_c_baozibaozha/lizi01
 		kuishizhiyan_attack01_c_baozibaozha/smoke (1)
 		kuishizhiyan_attack01_c_baozibaozha/xulie3
@@ -7349,6 +7808,12 @@
 		laiangkeneixiaojie_skill02_baozha/bao/kuosan (2)
 		laiangkeneixiaojie_skill02_baozha/bao/quan_black
 		laiangkeneixiaojie_skill02_baozha/bao/smoke (1)
+		lang_attack01_c_siyao/yao/bao (2)
+		lang_attack01_c_siyao/yao/lizi03 (3)
+		lang_attack01_c_siyao/yao/xulie3
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(you)/zhuahen (2)/glow02
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(zhong)/glow02
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(zuo)/zhuahen/glow02
 		liexishuijing_die/liexishuijing_die_L0/liexishuijing_explsion_effect/liexishuijing_explsion/smoke (3)
 		liexishuijing_die/liexishuijing_die_L3/liexishuijing_explsion_effect/liexishuijing_explsion/smoke (3)
 		liexishuijing_die_L0/liexishuijing_explsion_effect/liexishuijing_explsion/smoke (3)
@@ -7402,6 +7867,31 @@
 		Lunyi/Dummy015/Lunyi_effect/smoke01 (1)/smoke02 (2)
 		Lunyi/Dummy015/Lunyi_effect/smoke01 (1)/smoke02 (3)
 		Lunyi/Dummy015/Lunyi_effect/smoke01 (1)/smoke02 (4)
+		luokejisizhang_attack01_c_shouji/luokejisizhang_attack01_c_shouji/hei
+		luokejisizhang_attack02_c_shifa/luokejisizhang_attack02_c_shifa/hei
+		luokejisizhang_attack02_c_shouji/luokejisizhang_attack02_c_shouji/hei
+		luokejisizhang_skill01_c_penfa/luokejisizhang_skill01_c_penfa/guangzhu/baodian_hei
+		luokejisizhang_skill02_c_fazhen/luokejisizhang_skill02_c_baofa/luokejisizhang_skill02_c_baofa/GameObject/yuanzhu/penfa/hei_01
+		luokejisizhang_skill02_c_fazhen/luokejisizhang_skill02_c_baofa/luokejisizhang_skill02_c_baofa/GameObject/yuanzhu/penfa/hei_02
+		luokejisizhang_skill02_c_fazhen/luokejisizhang_skill02_c_fazhen/fazhen/hei
+		luokejisizhang_skill02_c_fazhen/luokejisizhang_skill02_c_fazhen/fazhen/sanjiao
+		luokejisizhang_skill02_c_shifa/luokejisizhang_skill02_c_shifa/shifa/hei_01
+		luokejisizhang_skill02_c_shifa_01/luokejisizhang_skill02_c_shifa_01/lizi_02
+		luokexunjiaojun_attack_ci/jiantou (3)
+		luokexunjiaojun_attack_ci/lizi (3)
+		luokexunjiaojun_attack_ci/ring02alpha (1)
+		luokexunjiaojun_attack_ci/zhaozi (1)
+		luokexunjiaojun_skill01_paoxiao/paoxiao/glow alpha
+		luokexunjiaojun_skill01_paoxiao/paoxiao/lizi
+		luokexunjiaojun_skill01_paoxiao/paoxiao/quan (2)
+		luokexunjiaojun_skill01_xuli/xuli/andi
+		luokexunjiaojun_skill01_xuli/xuli/chanrao01
+		luokexunjiaojun_skill01_xuli/xuli/guangquan (1)
+		luokexunjiaojun_skill01_xuli/xuli/line
+		luokexunjiaojun_skill01_xuli/xuli/star01 (2)
+		luokexunjiaojun_skill02_chongci/glow alpha
+		luokexunjiaojun_skill02_chongci/lizi
+		luokexunjiaojun_skill02_chongci/Particle System 1
 		luokezhiqiang_born_c_zadi/skill02_zadi/dilie/dilie03
 		luokezhiqiang_born_c_zadi/skill02_zadi/huoyan/huomiao
 		luokezhiqiang_born_c_zadi/skill02_zadi/kuosan/yanwu02 (1)
@@ -7984,9 +8474,153 @@
 		mohe_born_c_chuxian/smoke_alpha1/Particle System (2)
 		mohe_born_c_luodi/smoke01
 		mohe_born_c_luodi/smoke02
+		mohuayifulin_attack01_c_daoguang/daoguang/daoguang/m_longjuanfeng (3)
+		mohuayifulin_attack02_c_daoguang/daoguang/daoguang/m_longjuanfeng (3)
+		mohuayifulin_show_hair/huoyan/huoyan_bland (1)
+		mohuayifulin_show_hair/huoyan/huoyan_bland_start
+		mohuayifulin_show_nangua/huoyan_bland (1)
+		mohuayifulin_show_nangua/huoyan_bland (2)
+		mohuayifulin_show_qifei/position/qichang
+		mohuayifulin_show_qifei/position/qifei/penfa (1)/penfa/hei_01
+		mohuayifulin_show_wuqi/trail/Trail (1)/Trail_smoke
+		mohuayifulin_skill01_c_wuqi/Trail (1)/Trail_smoke
+		mohuayifulin_skill02_c_baozha/1/glow_alpha02
+		mohuayifulin_skill02_c_baozha/1/glow03 (2)
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/glow alpha
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/glow_alpha01
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/nangua alpha
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/smoke (2)
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/xiaosan (1)
+		mohuayifulin_skill02_c_nangua/mohuayifulin_skill02_c_nangua/nangua/nangua/haiguzhiwang_skill03_c_trail/Trail/Trail_smoke
+		mohuayifulin_skill02_c_shifa01/fazhen/FireBorderFront (2)
+		mohuayifulin_skill02_c_shifa01/fazhen/hei
+		mohuayifulin_skill02_c_shifa01/penfa/penfa/hei_01
+		mohuayifulin_skill02_c_shifa01/penfa/penfa/hei_02
+		mohuayifulin_skill02_c_shifa03/fashe/glow_blend (1)
+		mohuayifulin_skill02_c_shifa03/fashe/glow_blend (2)
+		mohuayifulin_skill02_c_shifa03/fashe/smoke (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (1)/1/Explosion (5)
+		mohuayifulin_skill03_c_baozha/baozha01 (1)/1/glow alpha
+		mohuayifulin_skill03_c_baozha/baozha01 (1)/1/glow_alpha01
+		mohuayifulin_skill03_c_baozha/baozha01 (1)/1/glow_alpha02
+		mohuayifulin_skill03_c_baozha/baozha01 (2)/1/Explosion (5)
+		mohuayifulin_skill03_c_baozha/baozha01 (2)/1/glow alpha
+		mohuayifulin_skill03_c_baozha/baozha01 (2)/1/glow_alpha01
+		mohuayifulin_skill03_c_baozha/baozha01 (2)/1/glow_alpha02
+		mohuayifulin_skill03_c_baozha/baozha01 (3)/1/Explosion (5)
+		mohuayifulin_skill03_c_baozha/baozha01 (3)/1/glow alpha
+		mohuayifulin_skill03_c_baozha/baozha01 (3)/1/glow_alpha01
+		mohuayifulin_skill03_c_baozha/baozha01 (3)/1/glow_alpha02
+		mohuayifulin_skill03_c_baozha/baozha01 (4)/1/Explosion (5)
+		mohuayifulin_skill03_c_baozha/baozha01 (4)/1/glow alpha
+		mohuayifulin_skill03_c_baozha/baozha01 (4)/1/glow_alpha01
+		mohuayifulin_skill03_c_baozha/baozha01 (4)/1/glow_alpha02
+		mohuayifulin_skill03_c_baozha/baozha01/1/Explosion (5)
+		mohuayifulin_skill03_c_baozha/baozha01/1/glow alpha
+		mohuayifulin_skill03_c_baozha/baozha01/1/glow_alpha01
+		mohuayifulin_skill03_c_baozha/baozha01/1/glow_alpha02
+		mohuayifulin_skill03_c_nangua/nangua01/nangua/nangua (2)/Trail/Trail_smoke
+		mohuayifulin_skill03_c_nangua/nangua02/nangua (1)/nangua (2)/Trail (1)/Trail_smoke
+		mohuayifulin_skill03_c_nangua/nangua03/nangua (2)/nangua (2)/Trail (2)/Trail_smoke
+		mohuayifulin_skill03_c_nangua/nangua04/nangua (3)/nangua (2)/Trail (3)/Trail_smoke
+		mohuayifulin_skill03_c_nangua/nangua05/nangua (4)/nangua (2)/Trail (4)/Trail_smoke
+		mohuayifulin_skill03_c_shifa01/fazhen/FireBorderFront (2)
+		mohuayifulin_skill03_c_shifa01/fazhen/hei
+		mohuayifulin_skill03_c_shifa01/fazhen/huo (5)
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (1)/GLOW ALPHA (1)
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (1)/Particle System
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (2)/GLOW ALPHA (1)
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (2)/Particle System
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (3)/GLOW ALPHA (1)
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (3)/Particle System
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (4)/GLOW ALPHA (1)
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian (4)/Particle System
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian/GLOW ALPHA (1)
+		mohuayifulin_skill03_c_shifa01/qiu/qiuchuxian/Particle System
+		mohuayifulin_skill03_c_shifa03/fashe (1)/glow_blend (1)
+		mohuayifulin_skill03_c_shifa03/fashe (1)/glow_blend (2)
+		mohuayifulin_skill03_c_shifa03/fashe (1)/smoke (1)
+		mohuayifulin_skill03_c_shifa03/fashe (2)/glow_blend (1)
+		mohuayifulin_skill03_c_shifa03/fashe (2)/glow_blend (2)
+		mohuayifulin_skill03_c_shifa03/fashe (2)/smoke (1)
+		mohuayifulin_skill03_c_shifa03/fashe (3)/glow_blend (1)
+		mohuayifulin_skill03_c_shifa03/fashe (3)/glow_blend (2)
+		mohuayifulin_skill03_c_shifa03/fashe (3)/smoke (1)
+		mohuayifulin_skill03_c_shifa03/fashe (4)/glow_blend (1)
+		mohuayifulin_skill03_c_shifa03/fashe (4)/glow_blend (2)
+		mohuayifulin_skill03_c_shifa03/fashe (4)/smoke (1)
+		mohuayifulin_skill03_c_shifa03/fashe/glow_blend (1)
+		mohuayifulin_skill03_c_shifa03/fashe/glow_blend (2)
+		mohuayifulin_skill03_c_shifa03/fashe/smoke (1)
+		mohuayifulin_skill04_c_baozha/baozha01/1/Explosion (5)
+		mohuayifulin_skill04_c_baozha/baozha01/1/glow alpha
+		mohuayifulin_skill04_c_baozha/baozha01/1/glow_alpha01
+		mohuayifulin_skill04_c_baozha/baozha01/1/glow_alpha02
+		mohuayifulin_skill04_c_nangua/nangua03/nangua (2)/nangua (2)/Trail (2)/Trail_smoke
+		mohuayifulin_skill04_shifa/xuli/penfa (1)/penfa/hei_01
+		mohuayifulin_skill04_shifa/xuli/smoke01
+		mohuayifulin_skill04_wuqi/trail/Trail (1)/Trail_smoke
+		monvxueyuanjiaoyuan_attack01_c_kaipao/luokejisizhang_attack01_c_kaipao/lizi (14)
+		monvxueyuanjiaoyuan_attack01_c_shifa/huo (2)
+		monvxueyuanjiaoyuan_attack01_c_shouji/monvxueyuanjiaoyuan_attack01_c_shouji/hei
+		monvxueyuanjiaoyuan_attack01_c_shouji/monvxueyuanjiaoyuan_attack01_c_shouji/huo
+		monvxueyuanjiaoyuan_attack02_c_shifa/hei (1)
+		monvxueyuanjiaoyuan_attack02_c_shouji/monvxueyuanjiaoyuan_attack02_c_shouji/hei (2)
+		monvxueyuanjiaoyuan_skill01_c_penfa/monvxueyuanjiaoyuan_skill01_c_penfa/guangzhu/baodian_hei
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_baofa/monvxueyuanjiaoyuan_skill02_c_baofa/GameObject/yuanzhu/penfa/hei_01
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_baofa/monvxueyuanjiaoyuan_skill02_c_baofa/GameObject/yuanzhu/penfa/hei_02
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_fazhen/fazhen/hei
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_fazhen/fazhen/hei (1)
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_fazhen/fazhen/huo (5)
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_fazhen/fazhen/sanjiao (3)
+		monvxueyuanjiaoyuan_skill02_c_shifa/monvxueyuanjiaoyuan_skill02_c_shifa/shifa/hei
+		monvxueyuanjiaoyuan_skill02_c_shifa/monvxueyuanjiaoyuan_skill02_c_shifa/shifa/hei_01
+		monvxueyuanjiaoyuan_skill02_c_shifa/monvxueyuanjiaoyuan_skill02_c_shifa/shifa/huo (3)
+		monvxueyuanjiaoyuan_skill02_c_shifa/monvxueyuanjiaoyuan_skill02_c_shifa/shifa/huo (4)
+		monvxueyuanjiaoyuan_skill02_c_shifa_01/luokejisizhang_skill02_c_shifa_01/hei (1)
+		monvxueyuanjiaoyuan_skill02_c_shifa_01/luokejisizhang_skill02_c_shifa_01/lizi (12)
 		MoTuoChe/Bone012/MoTuoChe_effect/smoke01/shukuai
 		MoTuoChe/Bone012/MoTuoChe_effect/smoke01/smoke02
 		MoTuoChe/Bone012/MoTuoChe_effect/smoke01/smoke03
+		nangua/dimian (2)
+		nangua/dimian (2)/smoke (2)
+		nangua/glow ab
+		nangua/nangua ab
+		nangua/sixian01 (5)
+		nangua/xiaosan (1)
+		nanguamoou_attack01_c_trail/yan/yan01
+		nanguamoou_attack01_c_xuli/shanguang/bland
+		nanguamoou_attack02_c_trail/yan/yan01
+		nanguamoou_attack02_c_xuli/shanguang/bland
+		nanguamoou_attack02_c_zadi/zadi/dilie_L
+		nanguamoou_attack02_c_zadi/zadi/smoke02
+		nanguamoou_attack02_c_zadi/zadi/trail02
+		nanguamoou_show_body/gun/Trail/Trail_smoke
+		nanguamoou_show_body/zhaohuo/fog (1)
+		nanguamoou_show_cap/trail/Trail (1)/Trail_smoke
+		nanguamoou_skill01_c_baozha/baozha/shanguang_alpha
+		nanguamoou_skill01_c_baozha/baozha/yan (9)
+		nanguamoou_skill01_c_fly_huoqiu/huoqiu/bland
+		nanguamoou_skill01_c_fly_huoqiu/huoqiu/bland (1)
+		nanguamoou_skill01_c_shifa_01/huoqiu/bland
+		nanguamoou_skill01_c_shifa_02/weiyi/nanguamoou_skill01_huoqiu/huoqiu/bland
+		nanguamoou_skill02_c_xuli/shanguang/bland
+		nanguamoou_skill02_c_xuli/shanguang/huoqiu/bland
+		nanguamoou_skill03_a_c_shifa02/dimian (2)/glow alpha
+		nanguamoou_skill03_a_c_shifa02/dimian (2)/glow_alpha01
+		nanguamoou_skill03_a_c_shifa02/dimian (2)/smoke (2)
+		nanguamoou_skill03_b_c_body/gun/dimian (5)
+		nanguamoou_skill03_b_c_body/gun/yao_05 (7)
+		nanguamoou_skill03_c_c_baozha/huozhu/glow_blend01
+		nanguamoou_skill03_c_c_baozha/huozhu/smoke02
+		nanguamoou_skill03_c_c_baozha/huozhu/yan (9)
+		nanguamoou_skill04_c_eye/eye/guang/fire01
+		nanguamoou_skill04_c_eye/eye/guang/fire02
+		nanguamoou_skill04_c_penhuo/huoyan/penchuhuo01 (1)
+		nanguamoou_skill04_c_penhuo/huoyan/yan
+		nanguamoou_skill04_c_penhuo/huoyan/yan01
+		nanguamoou_skill04_c_penhuo/huoyan/yanquan_r
+		nanguamoou_skill04_c_penhuo/huoyan/yanquan_r (1)
 		nanmintongchuzhe_attack01_jianci/par/di
 		nanmintongchuzhe_attack01_jianci/par/glow_alpha
 		nanmintongchuzhe_attack01_jianci/par/glow_blend
@@ -8507,12 +9141,40 @@
 		Panel_Guide/Step_7/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
 		Panel_Guide/Step_7/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
 		Panel_Guide/Step_7/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_1/2/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
+		Panel_GuideTrigger/Step_1/2/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
+		Panel_GuideTrigger/Step_1/2/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
 		Panel_GuideTrigger/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
 		Panel_GuideTrigger/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
 		Panel_GuideTrigger/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
 		Panel_GuideTrigger/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
 		Panel_GuideTrigger/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
 		Panel_GuideTrigger/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_16/1/Effect/ui_gaoliang_yuan/ui_gaoliang_yuan/PingMian
+		Panel_GuideTrigger/Step_16/1/Effect/ui_gaoliang_yuan/ui_gaoliang_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_16/2/Effect/ui_gaoliang_yuan/ui_gaoliang_yuan/PingMian
+		Panel_GuideTrigger/Step_16/2/Effect/ui_gaoliang_yuan/ui_gaoliang_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_17/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
+		Panel_GuideTrigger/Step_17/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
+		Panel_GuideTrigger/Step_17/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_20/2/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
+		Panel_GuideTrigger/Step_20/2/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
+		Panel_GuideTrigger/Step_20/2/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_20/3/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
+		Panel_GuideTrigger/Step_20/3/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
+		Panel_GuideTrigger/Step_20/3/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_20/4/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
+		Panel_GuideTrigger/Step_20/4/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
+		Panel_GuideTrigger/Step_20/4/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
+		Panel_GuideTrigger/Step_20/5/Effect/ui_xinshou_juxing/ui_xinshou_juxing/PingMian
+		Panel_GuideTrigger/Step_20/5/Effect/ui_xinshou_juxing/ui_xinshou_juxing/PingMian (1)
+		Panel_GuideTrigger/Step_20/5/Effect/ui_xinshou_juxing/ui_xinshou_juxing/PingMian (2)
+		Panel_GuideTrigger/Step_20/6/Effect/ui_xinshou_juxing/ui_xinshou_juxing/PingMian
+		Panel_GuideTrigger/Step_20/6/Effect/ui_xinshou_juxing/ui_xinshou_juxing/PingMian (1)
+		Panel_GuideTrigger/Step_20/6/Effect/ui_xinshou_juxing/ui_xinshou_juxing/PingMian (2)
+		Panel_GuideTrigger115/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian
+		Panel_GuideTrigger115/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (1)
+		Panel_GuideTrigger115/Step_115/1/Effect/ui_xinshou_yuan/ui_xinshou_yuan/PingMian (2)
 		passive_an_anyinglingyu/alipriest_f_skill02_caijuezhiyan_an/glow_hei
 		passive_an_anyinglingyu/alipriest_f_skill02_caijuezhiyan_an/glow_hei_inside
 		passive_an_anyinglingyu/alipriest_f_skill02_caijuezhiyan_an/glow_hei02
@@ -8563,6 +9225,7 @@
 		passive_luokezhiqiang_born_c_zadi_AlekunSP_02/luokezhiqiang_born_c_zadi/skill02_zadi/kuosan/yanwu02 (1)
 		passive_luokezhiqiang_born_c_zadi_AlekunSP_02/luokezhiqiang_born_c_zadi/skill02_zadi/zadi/smoke01
 		passive_luokezhiqiang_born_c_zadi_AlekunSP_02/luokezhiqiang_born_c_zadi/skill02_zadi/zadi/smoke02
+		pet_tanchilong/state_chongwu_buff_cheng/buff/glow04
 		pet_xiangrikuisali_taiyangguang/GameObject (2)/GameObject (1)/Particle System (1)/Particle System (5)
 		player_tongyong_shouji_hit/shanguang/shanguang_alpha (1)
 		player_tongyong_shouji_hit/shanguang/xue
@@ -9172,6 +9835,27 @@
 		qiliandepucong_skill05_c_huanying/suduxian01/suduxian02_01
 		qiliandepucong_skill05_c_huanying/suduxian01/suduxian03
 		qiliandepucong_skill05_c_shifa/shifa/dimian/ground_blend
+		qinglanxueyuanmonv_attack01_c/DG/Around/lizi
+		qinglanxueyuanmonv_attack01_c/DG/Ground_dust/glo-ab (1)
+		qinglanxueyuanmonv_attack01_c/DG/Ground_dust/smoke01_blend
+		qinglanxueyuanmonv_attack01_c/DG/Ground_dust/yan_blend (1)
+		qinglanxueyuanmonv_attack01_c_prop/Particle System (1)
+		qinglanxueyuanmonv_attack02_c_fly/alpha
+		qinglanxueyuanmonv_attack02_c_fly/TRAIL/Particle System
+		qinglanxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/quan_side (5)
+		qinglanxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/shanguang2_blend
+		qinglanxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/sixian01 (2)
+		qinglanxueyuanmonv_attack02_c_shifa2/glow/guangyun (1)
+		qinglanxueyuanmonv_attack02_c_shifa2/glow/guangyun_blend
+		qinglanxueyuanmonv_hit_tongyong/guangyun (3)
+		qinglanxueyuanmonv_hit_tongyong/jiansheguang (3)
+		qinglanxueyuanmonv_hit_tongyong/smoke (1)
+		qinglanxueyuanmonv_skill01_c_fly/ball/GLOW ALPHA
+		qinglanxueyuanmonv_skill01_c_fly/ball/trail/yan (1)
+		qinglanxueyuanmonv_skill01_c_prop/Particle System (1)
+		qinglanxueyuanmonv_skill01_c_shifa1/juqi_ground/juqi_ground/glow
+		qinglanxueyuanmonv_skill01_c_shifa1/juqi_ground/juqi_ground/shanguang2_blend
+		qinglanxueyuanmonv_skill01_c_shifa1/juqi_ground/juqi_ground/sixian01 (2)
 		saibolusi_attack01_c_siyao/glow alpha
 		saibolusi_attack01_c_siyao/lizi
 		saibolusi_attack01_c_siyao/Particle System 1
@@ -9385,11 +10069,11 @@
 		scene_chuansong_chuanzou01/yan
 		scene_chuansong_chuanzou02/glow_blend
 		scene_chuansongmen03/position/xuanwo02
-		scene_chuansongmenda/chuansongmen/andi
 		scene_jitan_fangyu/position/logo_blend
 		scene_jitan_gongji/position/logo_blend
 		scene_jitan_guangshu/guang/shexian02
 		scene_jitan_zhiliao/position/logo_blend
+		scene_jitan_zhiliao_new/position/logo_blend
 		scene_liefeng_guangzhu/line_blend
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/chongjibo/kuosan/yanwu02 (1)
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/chongjibo/kuosan02/yanwu01
@@ -9496,8 +10180,6 @@
 		scene_ziyan_xiaosan_waiceng_quyu4/scene_ziyan_xiaosan (13)/add/alpha (2)
 		scene_ziyan_xiaosan_waiceng_quyu4/scene_ziyan_xiaosan (14)/add/alpha (2)
 		scene_ziyan_xiaosan_waiceng_quyu4/scene_ziyan_xiaosan (15)/add/alpha (2)
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/SMOKE
-		scene_zudang_boss 1/scene_zudang_boss 1/SMOKE
 		scene_zudang_boss/scene_zudang_boss/SMOKE
 		scene_zudang_boss_1/scene_zudang_boss 1/SMOKE
 		scene_zudang_boss_1_1/scene_zudang_boss 1 1/SMOKE
@@ -9611,6 +10293,27 @@
 		shaxingzheshouling_skill02_c_chongci/zhao01 (1)/zhao01 (3)
 		shaxingzheshouling_skill02_c_daoguang01/slash01/defaanshazhe_attack01_c_daoguang/glow01
 		shaxingzheshouling_skill02_c_daoguang02/slash01/defaanshazhe_attack01_c_daoguang/glow01
+		shijiuchoujue_attack01_c_daoguang/GameObject/daoguang00 (3)
+		shijiuchoujue_attack02_c_quanfeng/GameObject/glo
+		shijiuchoujue_skill01_c_suduxian/GameObject (1)/GameObject (2)/glo
+		shijiuchoujue_skill01_c_suduxian/GameObject/GameObject (1)/glo
+		shijiuchoujue_skill01_c_yanchen/Particle System
+		shijiuchoujue_skill02_c_daoguang/GameObject (1)/GameObject/daoguang00 (3)
+		shijiuchoujue_skill02_c_daoguang/GameObject (2)/GameObject/daoguang00 (3)
+		shijiuchoujue_skill03_c_daoguang/GameObject/daoguang00 (3)
+		shijiuchoujue_skill03_c_shifa/Particle System (1)
+		shijiuchoujue_skill03_c_shifa/Particle System (10)
+		shijiuchoujue_skill03_c_shifa/Particle System (2)
+		shijiuchoujue_skill04_c_baozha/BOX (1)
+		shijiuchoujue_skill04_c_baozha/dimian (2)
+		shijiuchoujue_skill04_c_baozha/dimian (2)/smoke (2)
+		shijiuchoujue_skill04_c_baozha/glow ab
+		shijiuchoujue_skill04_c_baozha/sixian01 (5)
+		shijiuchoujue_skill04_c_baozha/smoke02 (1)
+		shijiuchoujue_skill04_c_baozha/tanhuang AB 
+		shijiuchoujue_skill04_c_baozha/xiaochou ab
+		shijiuchoujue_skill04_c_fly/Particle System (1)
+		shijiuchoujue_skill04_c_hand/Particle System (1)
 		shixueshaluzhe_attack01_c_daoguang01/daoguang/qiliandepucong_attack02_c/glow01_blend
 		shixueshaluzhe_attack01_c_daoguang01/daoguang/qiliandepucong_attack02_c/Particle System (6)
 		shixueshaluzhe_attack01_c_daoguang02/daoguang/qiliandepucong_attack02_c/glow01_blend
@@ -9729,6 +10432,23 @@
 		shixueshaluzhe_skill05_a_c_chongsheng/Particle System (4)/Particle System (1)
 		shixueshaluzhe_skill05_a_c_chongsheng/Particle System/Particle System (1)
 		shixueshaluzhe_skill05_a_c_dun/star01
+		shumiaochengnian_attack01_c_guangqiu/qiu/lizi (1)
+		shumiaochengnian_attack01_c_guangqiu/qiu/lizi (2)
+		shumiaochengnian_attack01_c_guangqiu/qiu/smoke
+		shumiaochengnian_attack01_c_guangqiu/qiu/smoke_word
+		shumiaochengnian_attack01_c_hit/bao/lizi
+		shumiaochengnian_attack01_c_hit/bao/smoke (1)
+		shumiaochengnian_attack02_c_tengman/dimian/blend02
+		shumiaochengnian_attack02_c_tengman/dimian/glow_bland
+		shumiaochengnian_attack02_c_tengman/dimian/lizi02 (1)
+		shumiaochengnian_attack02_c_tengman/dimian/smoke01
+		shumiaochengnian_skill01_c_fanhualuoye/dimian (1)/blend02
+		shumiaochengnian_skill01_c_fanhualuoye/dimian (1)/glow_bland
+		shumiaochengnian_skill01_c_fanhualuoye/dimian (1)/lizi02 (1)
+		shumiaochengnian_skill01_c_fanhualuoye/dimian (1)/smoke01
+		shumiaoqingshaonian_attack02_c_zhuoshao/huo1/xuewu (1)
+		shumiaoqingshaonian_tongyong_hand/hand/bland
+		shumiaoqingshaonian_tongyong_hit/glow_bland
 		shushitongling_attack01_c_hit/shoujizong/shouji/yan (7)
 		shushitongling_attack01_c_shifa/shouji/yan (7)
 		shushitongling_attack01_c_zidan/qiu/Sphere3-003 (1)
@@ -9807,6 +10527,8 @@
 		sprarcher_f_attack04_fashe_normal/attack4_fashe_bing/smoke (1)
 		sprarcher_f_clothes_ansha_yumao/Particle System
 		sprarcher_f_clothes_ansha_yumao/yumao_trial
+		sprarcher_f_L_weapon_tongkuzhiji_red_effect/shandian (1)/glow/guangyun_blend
+		sprarcher_f_L_weapon_tongkuzhiji_red_effect/shandian (1)/glow/guangyun_blend (1)
 		sprarcher_f_lv02_adv_L_weapon_01/glow_blend
 		sprarcher_f_lv02_adv_L_weapon_02/glow_blend
 		sprarcher_f_lv02_nor_L_weapon_01/glow_blend
@@ -9832,6 +10554,8 @@
 		sprarcher_f_lv07_adv_L_weapon_03/glow/star
 		sprarcher_f_lv07_adv_L_weapon_03/left/yan_blend
 		sprarcher_f_lv07_adv_L_weapon_03/right/yan_blend
+		sprarcher_f_lv07_H_nor_L_weapon_02/hei
+		sprarcher_f_lv07_H_nor_L_weapon_02/hei (1)
 		sprarcher_f_lv07_nor_L_weapon_01/glow_blend
 		sprarcher_f_lv07_nor_L_weapon_02/glow/glow_blend
 		sprarcher_f_lv07_nor_L_weapon_03/glow/glow_blend
@@ -11736,6 +12460,8 @@
 		tkjjchexin_red_die_c/explsion/shanguang2 (3)
 		tkjjchexin_red_die_c/Particle System (1)
 		tkjjchexin_red_die_c/xishou/Particle System (3)
+		tongkuzhiji_red_wuqi_effect/lei/glow_blend
+		tongkuzhiji_red_wuqi_effect/lei/shandian
 		ui_3V3miaozhun/Particle System
 		ui_3V3miaozhun/Particle System (1)
 		ui_baoshi_changzhu_blue/blue
@@ -11800,8 +12526,6 @@
 		ui_zhandou_shengli_shuzhi_bj/shuzhi_bj/glow_alpha
 		ui_zhandou_shibai_shuzhi_bj/shuzhi_bj/glow_alpha
 		UIScene_Blacksmith/BG/Objects/uiscene_huolu/huolu/xingxing3
-		Wd01_Build_camp01/scene_chuansongzhen_zhucheng/chuansongzhen/glow_up
-		Wd01_Build_camp01/scene_chuansongzhen_zhucheng/chuansongzhen/shanguang_alpha (6)
 		Wd01_Build_glz03/Build_Wd01_Ring01/scene_wd01_qiu01/qiu/guangquan02
 		Wd01_Build_glz07/Build_Wd01_Ring01/scene_wd01_qiu01/qiu/guangquan02
 		Wd01_Build_Ruins01/etc_dachuansongmen/Particle System
@@ -12236,6 +12960,37 @@
 		Wd05_fx20/scene_world02_huo (8)/Particle System (6)
 		Wd05_fx20/scene_world02_huo (9)/Particle System (6)
 		Wd05_fx20/scene_world02_huo/Particle System (6)
+		wd06_02_bwcx_build01/scene_jitan_guangshu (2)/guang/shexian02 (1)
+		wd06_02_bwsl_build02/scene_jitan_guangshu (3)/guang/shexian02 (1)
+		wd06_02_bwsl_build02/scene_jitan_guangshu (4)/guang/shexian02 (1)
+		wd06_02_bwsl_rock06/scene_tongyong_luoye
+		wd06_02_prop_yzh_bwsl01/scene_tongyong_gouhuo (10)/Particle System (6)
+		wd06_02_prop_yzh_bwsl01/scene_tongyong_gouhuo (8)/Particle System (6)
+		wd06_02_prop_yzh_bwsl01/scene_tongyong_gouhuo (9)/Particle System (6)
+		wd06_02_prop_yzh_bwsl02/scene_tongyong_gouhuo (11)/Particle System (6)
+		wd06_02_prop_yzh_yglssl01/scene_jitan_guangshu (10)/guang/shexian02 (1)
+		wd06_02_prop_yzh_yglssl01/scene_tongyong_gouhuo (5)/Particle System (6)
+		wd06_02_prop_yzh_yglssl01/scene_tongyong_gouhuo (6)/Particle System (6)
+		wd06_02_prop_yzh_yglssl01/scene_wd01_heiyan01_xiao/heiyan/yan01
+		wd06_02_prop_yzh_yglssl01/scene_wd01_heiyan01_xiao/heiyan/yan02
+		wd06_02_prop_yzh_yglssl02/scene_ditu_bianjie_20m/GameObject (1)/PingMian_add
+		wd06_02_prop_yzh_yglssl02/scene_ditu_bianjie_20m/GameObject (1)/PingMian_alpha
+		wd06_02_prop_yzh_yglssl02/scene_jitan_guangshu (14)/guang/shexian02 (1)
+		wd06_02_prop_yzh_yglssl03/scene_tongyong_gouhuo (4)/Particle System (6)
+		wd06_02_prop_yzh_yglssl03/scene_tongyong_gouhuo (7)/Particle System (6)
+		wd06_02_prop_yzh_yglssl03/scene_world01_tongyong_hudie
+		wd06_02_prop_yzh_yysl01/scene_world01_tongyong_chenai
+		wd06_02_prop_yzh_yysl02/scene_tongyong_gouhuo (12)/Particle System (6)
+		wd06_02_ygsl_rock04/scene_jitan_guangshu (15)/guang/shexian02 (1)
+		wd06_02_yqlssl_build03/scene_jitan_guangshu (8)/guang/shexian02 (1)
+		wd06_02_yqlssl_rock01/scene_jitan_guangshu (9)/guang/shexian02 (1)
+		wd06_02_yqlssl_rock05/scene_tongyong_luoye (1)
+		wd06_02_yysl_build01/scene_world01_tongyong_chenai (1)
+		wd06_02_yzh_gm_bwcx01/scene_jitan_guangshu (1)/guang/shexian02 (1)
+		wd06_02_yzh_gm_bwcx01/scene_jitan_guangshu/guang/shexian02 (1)
+		wd06_02_yzh_gm_bwsl01/scene_jitan_guangshu (5)/guang/shexian02 (1)
+		wd06_02_yzh_gm_yglssl04/scene_jitan_guangshu (6)/guang/shexian02 (1)
+		wd06_02_yzh_gm_yglssl05/scene_jitan_guangshu (11)/guang/shexian02 (1)
 		weather_tongyong_huijin/huichen
 		weather_tongyong_huijin/smoke
 		weather_tongyong_ranshao/huichen
@@ -12384,9 +13139,32 @@
 		wennishadehaiguzhiqiang_die_c/kuosan/yan (1)
 		wuqi_penhua/Particle System
 		wuqi_penhua/Particle System/Particle System (1)
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/huoyan (1)/bland01
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/huoyan (1)/bland02
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/huoyan (1)/yan
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/huoyan (2)/bland01
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/huoyan (2)/bland02
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/huoyan (2)/yan
+		wuweizhanchang_huoyan/huoqiang/huoqiang02/huoyan (1)/bland01
+		wuweizhanchang_huoyan/huoqiang/huoqiang02/huoyan (1)/bland02
+		wuweizhanchang_huoyan/huoqiang/huoqiang02/huoyan (1)/yan
+		wuweizhanchang_huoyan/huoqiang/huoqiang02/huoyan (2)/bland01
+		wuweizhanchang_huoyan/huoqiang/huoqiang02/huoyan (2)/bland02
+		wuweizhanchang_huoyan/huoqiang/huoqiang02/huoyan (2)/yan
 		xianji/xuezhishi_skill02_b_c_jixian_end/end/bg
 		xianji/xuezhishi_skill02_b_c_jixian_end/end/glow01_3
 		xianji/xuezhishi_skill02_b_c_jixian_end/end/star
+		xiannvjiaomu_attack02_c_ciji/ciji/fengzhijinglingshouling_ci/glow
+		xiannvjiaomu_skill01_c_huawu/di/glow_alpha
+		xiannvjiaomu_skill01_c_huawu/qichang/feng
+		xiannvjiaomu_skill01_c_wuqi/Particle System02/smoke
+		xiannvjiaomu_skill01_c_wuqi/Particle System02/smoke_word
+		xiannvjiaomu_skill02_c_wuqi/Particle System02/smoke
+		xiannvjiaomu_skill02_c_wuqi/Particle System02/smoke_word
+		xiannvjiaomu_skill02_c_xuanfeng/fei (1)/xuanfeng01/ground_alpha
+		xiannvjiaomu_skill02_c_xuanfeng/fei (1)/xuanfeng01/smoke01
+		xiannvjiaomu_skill02_c_xuanfeng/fei/xuanfeng01/ground_alpha
+		xiannvjiaomu_skill02_c_xuanfeng/fei/xuanfeng01/smoke01
 		xiaojingling_attack01_ci/chuanci (1)/glow01 (1)
 		xiaojingling_attack02_daobo/attack01_slash/slash01/chuizihuokacuncunzhanglulukajin_attack01/glow01
 		xiaojingling_attack02_daobo/attack01_slash/slash01/chuizihuokacuncunzhanglulukajin_attack01/yan01
@@ -12777,6 +13555,9 @@
 		yihuagudaiyijijushou_attack01_zadi/zadi/smoke
 		yihuagudaiyijijushou_attack01_zadi/zadi/smoke01
 		yihuagudaiyijijushou_attack01_zadi/zadi/smoke02
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash01/yihuagudaiyijijushou_attack02_slash01/glow01
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_down/yihuagudaiyijijushou_attack02_slash02/glow01
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_up/yihuagudaiyijijushou_attack02_slash02/glow01
 		yihuagudaiyijijushou_eye/L/fire02
 		yihuagudaiyijijushou_eye/L01/fire02
 		yihuagudaiyijijushou_eye/R/L/fire02
@@ -13170,6 +13951,8 @@
 		yuansufudiao_stand_c_yuansuqiu/yuansuqiu_huo/rotation (2)/yuansufudiao_guangqiu_huo/atk01/Particle System02/smoke_word
 		yuansufudiao_stand_c_yuansuqiu/yuansuqiu_lei/rotation/yuansufudiao_guangqiu_lei/atk01/Particle System02/smoke
 		yuansufudiao_stand_c_yuansuqiu/yuansuqiu_lei/rotation/yuansufudiao_guangqiu_lei/atk01/Particle System02/smoke_word (1)
+		zhadanjumo_baozha/position/explsion/shanguang2 (3)
+		zhadanjumo_baozha/position/fire01
 		zhiye_tanhao/chibang01_yellow
 		zhiye_tanhao/chibang01_yellow/chibang02
 		zhiye_tanhao/chibang02_yellow

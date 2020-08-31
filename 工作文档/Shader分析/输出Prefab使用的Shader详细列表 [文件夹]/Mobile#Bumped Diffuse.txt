@@ -1,5 +1,3 @@
 ﻿Mobile/Bumped Diffuse
 		Dungn00_Throne01/fx/scenes_16_zc_chunsong_02/scenes_16_zc_chunsong_02
 		mine_wd01_door_zhenzidamen/mine_wd01_door_zhenzidamen
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_Prop_01/prop_jdc_tieliao_03 (5)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_Prop_01/prop_xsc_wuqi_03

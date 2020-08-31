@@ -1,2 +1,0 @@
-﻿Unlit/Transparent
-		Char_Shadow

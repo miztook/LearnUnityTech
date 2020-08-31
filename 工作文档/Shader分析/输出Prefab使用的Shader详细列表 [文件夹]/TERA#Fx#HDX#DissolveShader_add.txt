@@ -3,6 +3,18 @@
 		ailien_attack02_c_daoguang/slash01/attack01/daoguang02
 		ailisha_attack03_c_daoguang/slash01/casassassin_m_attack01_slash_normal/daoguang02
 		ailisha_attack03_c_daoguang/slash01/casassassin_m_attack01_slash_normal/daoguang03
+		airenkuanggong_attack01_daoguang/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (1)
+		airenkuanggong_attack01_daoguang/slash01/Nanzhanshi_attack01_daoguang/dg01
+		airenkuanggong_attack01_daoguang/slash01/Nanzhanshi_attack01_daoguang/Sphere001
+		airenkuanggong_attack01_daoguang/slash01/Nanzhanshi_attack01_daoguang/Sphere001 (1)
+		airenkuanggong_skill01_c_daoguang/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (1)
+		airenkuanggong_skill01_c_daoguang/slash01/Nanzhanshi_attack01_daoguang/dg01
+		airenkuanggong_skill01_c_daoguang/slash01/Nanzhanshi_attack01_daoguang/Sphere001
+		airenkuanggong_skill01_c_daoguang/slash01/Nanzhanshi_attack01_daoguang/Sphere001 (1)
+		airenkuanggong_skill01_c_daoguang/slash02/Nanzhanshi_attack01_daoguang/Dao Guang (1)
+		airenkuanggong_skill01_c_daoguang/slash02/Nanzhanshi_attack01_daoguang/dg01
+		airenkuanggong_skill01_c_daoguang/slash02/Nanzhanshi_attack01_daoguang/Sphere001
+		airenkuanggong_skill01_c_daoguang/slash02/Nanzhanshi_attack01_daoguang/Sphere001 (1)
 		alilancer_f_skill04_a_c_kaidun_bing/alilancer_f_skill04_a_c_kaidun_bing_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian02
 		alilancer_f_skill04_a_c_kaidun_bing/alilancer_f_skill04_a_c_kaidun_bing_L3/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian02
 		alilancer_f_skill04_a_c_kaidun_bing_L0/front/kaidun/alilancer_f_skill04_dun/alilancer_f_skill04_dunmian02
@@ -313,6 +325,26 @@
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/dg01
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Sphere001
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Sphere001 (1)
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/Dao Guang
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/Dao Guang (1)
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/dg01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/Sphere001
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang1/slash01/jiandoushi_zhanshi_daoguang1/Sphere001 (1)
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Dao Guang
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Dao Guang (1)
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/dg01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Sphere001
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/jiandoushi_zhanshi_daoguang2/slash02/jiandoushi_zhanshi_daoguang2/Sphere001 (1)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang/daofeng (1)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang/dg01
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang/daofeng (1)
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang/dg01
+		dadijing_skill03_zhuaji/zhuahen (3)/zhuahen(zhong)/daoguang02
+		dadijing_skill03_zhuaji/zhuahen (3)/zhuahen(zhong)/daoguang03
+		dadijing_skill03_zhuaji/zhuahen (4)/zhuahen(zhong)/daoguang02
+		dadijing_skill03_zhuaji/zhuahen (4)/zhuahen(zhong)/daoguang03
+		dadijing_skill03_zhuaji/zhuahen/zhuahen(zhong)/daoguang02
+		dadijing_skill03_zhuaji/zhuahen/zhuahen(zhong)/daoguang03
 		defaanshazhe_attack01_c_daoguang/slash01/defaanshazhe_attack01_c_daoguang/daoguang01
 		defaanshazhe_attack01_c_daoguang/slash01/defaanshazhe_attack01_c_daoguang/daoguang02
 		defaanshazhe_attack01_c_daoguang/slash01/defaanshazhe_attack01_c_daoguang/daoguang03
@@ -393,6 +425,12 @@
 		dibo_skill01_c_lianzhan/lianzhan06/slash/slash01/dibo_skill01_c_03/Sphere001 (1)
 		diguoqiangqishi_skill02_c_dunji/dunji/dunji/dun02
 		diguoqiangqishi_skill04_c_daoguang/wujianlianyu/daoguang02
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen (3)/zhuahen(zhong)/daoguang02
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen (3)/zhuahen(zhong)/daoguang03
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen (4)/zhuahen(zhong)/daoguang02
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen (4)/zhuahen(zhong)/daoguang03
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen/zhuahen(zhong)/daoguang02
+		dijingdawanggeluomo_skill03_zhuaji/zhuahen/zhuahen(zhong)/daoguang03
 		dshamoer_attack02_slash/slash01/dshamoer_attack01_slash/Dao Guang
 		dshamoer_attack02_slash/slash01/dshamoer_attack01_slash/Dao Guang (1)
 		dshamoer_attack02_slash/slash01/dshamoer_attack01_slash/dg01
@@ -533,6 +571,8 @@
 		haiguzhiwang_skill04_daoguang02/GameObject/slash01/daoguang/Sphere001 (1)
 		haiguzhiwang_skill04_daoguang02/GameObject/slash02/daoguang/Sphere001
 		haiguzhiwang_skill04_daoguang02/GameObject/slash02/daoguang/Sphere001 (1)
+		hailaterenxing_attack01_c_daoguang/daoguang/attack01/dao_cuxiantiao (1)
+		hailaterenxing_attack01_c_daoguang/daoguang/attack01/dao_da (1)
 		hetijibianguai_attack01_c/hetijibianguai_attack01_c/hetijibianguai_attack01_c/dimian (5)
 		humwarrior_m_attack01_daoguang_feng/humwarrior_m_attack01_daoguang_feng_L0/slash01/Nanzhanshi_attack01_daoguang/Dao Guang
 		humwarrior_m_attack01_daoguang_feng/humwarrior_m_attack01_daoguang_feng_L0/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (1)
@@ -849,6 +889,15 @@
 		humwarrior_m_skill03_c_daoguang_normal/slash02/Nanzhanshi_attack01_daoguang/dg01
 		humwarrior_m_skill03_c_daoguang_normal/slash02/Nanzhanshi_attack01_daoguang/Sphere001
 		humwarrior_m_skill03_c_daoguang_normal/slash02/Nanzhanshi_attack01_daoguang/Sphere001 (1)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_01/huzhizhudenupu_skill01_c_01/yao (12)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_02/huzhizhudenupu_skill01_c_01/yao (13)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_03/huzhizhudenupu_skill01_c_01/yao (14)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_04/huzhizhudenupu_skill01_c_01/yao (15)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_05/huzhizhudenupu_skill01_c_01/yao (16)
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c_06/huzhizhudenupu_skill01_c_01/yao (17)
+		juzhuangshuyao_skill02_c/GameObject (1)/daoguang007 (4)
+		juzhuangshuyao_skill02_c/GameObject (2)/daoguang007 (4)
+		juzhuangshuyao_skill02_c/GameObject/daoguang007 (4)
 		kalasishilian_attack01_pugong/attack01_pugong/slash01/kalasishilian_attack01_slash01/daoguang01
 		kalasishilian_attack01_pugong/attack01_pugong/slash01/kalasishilian_attack01_slash01/daoguang02
 		kalasishilian_attack01_pugong/attack01_pugong/slash01/kalasishilian_attack01_slash01/daoguang03
@@ -915,8 +964,17 @@
 		kusa_attack02_pugong/02/slash01/kusa_attack01_pugong/daoguang02
 		laiangkeneixiaojie_skill01_b_c_daoguang/GameObject/daoguang/qiliandepucong_attack02_c/dg01
 		laiangkeneixiaojie_skill01_b_c_daoguang/GameObject/daoguang/qiliandepucong_attack02_c/Sphere001 (1)
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(you)/zhuahen (2)/daoguang02
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(you)/zhuahen (2)/daoguang03
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(zhong)/daoguang02
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(zhong)/daoguang03
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(zuo)/zhuahen/daoguang02
+		lang_attack02_c_zhuaji/zhuahen/zhuahen(zuo)/zhuahen/daoguang03
 		lirenkuilei_attack01_daoguang/daoguang/qiliandepucong_attack02_c/dg01
 		lirenkuilei_attack01_daoguang/daoguang/qiliandepucong_attack02_c/Sphere001 (1)
+		luokejisizhang_attack01_c_shouji/luokejisizhang_attack01_c_shouji/ci
+		luokejisizhang_attack02_c_shouji/luokejisizhang_attack02_c_shouji/ci
+		luokejisizhang_skill02_c_fazhen/luokejisizhang_skill02_c_baofa/luokejisizhang_skill02_c_baofa/GameObject/yuanzhu/penfa/guangshu_03
 		maligousi_attack01_slash_pugong/attack01_pugong/slash01/maligousi_attack01_slash/daoguang01
 		maligousi_attack01_slash_pugong/attack01_pugong/slash01/maligousi_attack01_slash/daoguang02
 		maligousi_attack01_slash_pugong/attack01_pugong/slash01/maligousi_attack01_slash/daoguang03
@@ -938,6 +996,33 @@
 		mine_Dnsl_texiao_chuansongmen/sence_chuansongmen_big/Particle System (2)
 		mine_huoyanyumao/fire01
 		mine_Ttsl_texiao_chuansongmen/sence_chuansongmen_big/Particle System (2)
+		mohuayifulin_attack01_c_daoguang/daoguang/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_attack01_c_daoguang/daoguang/daoguang/dao_da (1)
+		mohuayifulin_attack02_c_daoguang/daoguang/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_attack02_c_daoguang/daoguang/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (1)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (1)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (2)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (2)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (3)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (3)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (4)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (4)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (5)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (5)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (6)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (6)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (7)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (7)/daoguang/dao_da (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (8)/daoguang/dao_cuxiantiao (1)
+		mohuayifulin_skill01_c_daoguang/copy_daoguang/daoguang (8)/daoguang/dao_da (1)
+		monvxueyuanjiaoyuan_attack01_c_shouji/monvxueyuanjiaoyuan_attack01_c_shouji/ci
+		monvxueyuanjiaoyuan_attack02_c_kaipao/monvxueyuanjiaoyuan_attack02_c_kaipao/xian
+		monvxueyuanjiaoyuan_attack02_c_shouji/monvxueyuanjiaoyuan_attack02_c_shouji/qiurongjie2 (9)
+		monvxueyuanjiaoyuan_attack02_c_shouji/monvxueyuanjiaoyuan_attack02_c_shouji/xian_01_liang
+		monvxueyuanjiaoyuan_attack02_c_shouji/monvxueyuanjiaoyuan_attack02_c_shouji/xian_liang
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_baofa/monvxueyuanjiaoyuan_skill02_c_baofa/GameObject/yuanzhu/penfa/guangshu_03
+		monvxueyuanjiaoyuan_skill02_c_fazhen/monvxueyuanjiaoyuan_skill02_c_baofa/monvxueyuanjiaoyuan_skill02_c_baofa/GameObject/yuanzhu/qiu_01 (2)
 		nanmintongchuzhe_attack02_xuanzhuan/scale02/daoguang/Dao Guang (1)
 		nanmintongchuzhe_attack02_xuanzhuan/scale02/daoguang/dg01
 		nanmintongchuzhe_attack02_xuanzhuan/scale02/daoguang/Sphere001
@@ -1226,6 +1311,15 @@
 		yeying_attack02_pugong/slash02/yeying_attack02_slash02/daoguang01
 		yeying_attack02_pugong/slash02/yeying_attack02_slash02/daoguang02
 		yeying_attack02_pugong/slash02/yeying_attack02_slash02/daoguang03
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash01/yihuagudaiyijijushou_attack02_slash01/daoguang01
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash01/yihuagudaiyijijushou_attack02_slash01/daoguang02
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash01/yihuagudaiyijijushou_attack02_slash01/daoguang03
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_down/yihuagudaiyijijushou_attack02_slash02/daoguang01
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_down/yihuagudaiyijijushou_attack02_slash02/daoguang02
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_down/yihuagudaiyijijushou_attack02_slash02/daoguang03
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_up/yihuagudaiyijijushou_attack02_slash02/daoguang01
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_up/yihuagudaiyijijushou_attack02_slash02/daoguang02
+		yihuagudaiyijijushou_attack02_pugong/attack01_pugong/slash02_up/yihuagudaiyijijushou_attack02_slash02/daoguang03
 		zhulasishilianzhe_skill02_b_c_xuli/leixi_hudun/shandian01
 		zuzhoujuntuangaojieshushi_attack01_c_shouji/zuzhoujuntuangaojieshushi_attack01_c_shouji/ci
 		zuzhoujuntuangaojieshushi_attack02_c_shouji/zuzhoujuntuangaojieshushi_attack02_c_shouji/qiurongjie2 (3)

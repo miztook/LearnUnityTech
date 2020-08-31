@@ -1,97 +1,104 @@
-﻿Hidden/InternalErrorShader,2
-Legacy Shaders/Particles/Additive,3
-Legacy Shaders/Particles/Additive (Soft),18
+﻿Autodesk Interactive,13
+Hidden/InternalErrorShader,1
+Legacy Shaders/Bumped Diffuse,1
 Legacy Shaders/Particles/Alpha Blended,2
 Legacy Shaders/Particles/Alpha Blended Premultiply,22
-Mobile/Bumped Diffuse,4
-Mobile/Diffuse,90
-Nature/Tree Creator Leaves Fast,1
-Standard,4
+Mobile/Bumped Diffuse,2
+Mobile/Diffuse,79
+Nature/Terrain/Standard2,2
+Particles/Alpha Blended,29
+Particles/Standard Unlit,5
+Standard,7
+TERA/Character/EtcMarkers,33
 TERA/Character/GhostEffect,29
 TERA/Character/Godeye,3
 TERA/Character/Heroic,78
-TERA/Character/Heroic_Create,44
+TERA/Character/Heroic_Create,54
 TERA/Character/Heroic_Face,7
-TERA/Character/Heroic_Face_Create,10
-TERA/Character/Heroic_Fashion,144
+TERA/Character/Heroic_Face_Create,12
+TERA/Character/Heroic_Fashion,150
+TERA/Character/Heroic_Fashion_Effect,10
 TERA/Character/Heroic_Fashion_RainbowFx,6
 TERA/Character/Heroic_Fashion_RainbowFx_Transparent,9
-TERA/Character/Heroic_Fashion_Transparent,30
-TERA/Character/Heroic_Hair,33
+TERA/Character/Heroic_Fashion_Transparent,36
+TERA/Character/Heroic_Hair,34
 TERA/Character/Heroic_Hair_Creat,2
-TERA/Character/Heroic_WeaponWing,876
+TERA/Character/Heroic_WeaponWing,935
 TERA/Character/Heroic_withFX,2
-TERA/Character/NPC,155
-TERA/Character/NPC_VIP,175
-TERA/Character/NPC_VVIP,74
-TERA/Environment/BuildingDecal,121
-TERA/Environment/Dstveiw_TransparentCutout,33
-TERA/Environment/MobileDiffuse,217
-TERA/Environment/MobileDiffuseBump,5521
-TERA/Environment/MobileDiffuseBumpEnvMap,27
-TERA/Environment/MobileDiffuseBumpEnvMapTwoSide,86
+TERA/Character/NPC,156
+TERA/Character/NPC_VIP,195
+TERA/Character/NPC_VVIP,100
+TERA/Environment/BuildingDecal,135
+TERA/Environment/Dstveiw_TransparentCutout,40
+TERA/Environment/FadeoutWithRim,7
+TERA/Environment/glasstest,1
+TERA/Environment/MobileDiffuse,223
+TERA/Environment/MobileDiffuseBump,5995
+TERA/Environment/MobileDiffuseBumpEnvMap,61
+TERA/Environment/MobileDiffuseBumpEnvMapTwoSide,120
+TERA/Environment/MobileDiffuseBumpGlassy,1
 TERA/Environment/MobileDiffuseBumpreflection,4
-TERA/Environment/MobileDiffuseBumpTwoSide,778
-TERA/Environment/MobileDiffuseBumpWithEmission,222
-TERA/Environment/MobileDiffuseNoLightmapTowSide,362
-TERA/Environment/MobileDiffuseNoLightmapTowSideWithEmission,26
-TERA/Environment/MobileDiffuseTwoSide,3014
+TERA/Environment/MobileDiffuseBumpTwoSide,868
+TERA/Environment/MobileDiffuseBumpWithEmission,263
+TERA/Environment/MobileDiffuseBumpWithEmissionTwoSide,18
+TERA/Environment/MobileDiffuseNoLightmapTowSide,877
+TERA/Environment/MobileDiffuseNoLightmapTowSideWithEmission,78
+TERA/Environment/MobileDiffuseTwoSide,3264
 TERA/Environment/MobileDiffuseTwoSideVertexAnim,180
-TERA/Environment/MobileDiffuseTwoSideWithEmission,337
+TERA/Environment/MobileDiffuseTwoSideWithEmission,569
 TERA/Environment/MobileSimpleFx,96
 TERA/Environment/MobileTransparentObject,3
-TERA/Environment/MobileWaterBicolored,43
-TERA/Environment/SkySphere,11
-TERA/Environment/SkySphereWithStars,6
-TERA/Fx/Additive_core_higlight,38
-TERA/Fx/AlphaBlend-Diffuse-Z,249
+TERA/Environment/MobileWaterBicolored,46
+TERA/Environment/SkySphere,15
+TERA/Environment/SkySphereWithStars,8
+TERA/Fx/Additive_core_higlight,74
+TERA/Fx/AlphaBlend-Diffuse-Z,254
 TERA/Fx/Decl/Scroll 2 Layers Sine Add,1
-TERA/Fx/Distortadd_4UVScroll,23
+TERA/Fx/Distortadd_4UVScroll,47
 TERA/Fx/DistortAddFrozen,1
 TERA/Fx/HDX/Displacement_Wave,11
-TERA/Fx/HDX/displacement-additive,5328
-TERA/Fx/HDX/displacement-additive_water,119
-TERA/Fx/HDX/displacement-additive3layer,219
-TERA/Fx/HDX/displacement-blend,1971
-TERA/Fx/HDX/displacement-blend_alpha,32
-TERA/Fx/HDX/displacement-blend_water,266
-TERA/Fx/HDX/displacement-blend_Z,23
-TERA/Fx/HDX/displacement-blend3layer,6
-TERA/Fx/HDX/displacement-dissolve-additive,807
-TERA/Fx/HDX/displacement-flow-additive,173
-TERA/Fx/HDX/displacement-screen,38
-TERA/Fx/HDX/DissolveShader_add,1254
-TERA/Fx/HDX/DissolveShader_AlphaBlend,877
-TERA/Fx/HDX/distort_add,719
-TERA/Fx/HDX/distort_Alpha,365
-TERA/Fx/HDX/Environment Scroll 2 Layers Sine AlphaBlended,67
+TERA/Fx/HDX/displacement-additive,5618
+TERA/Fx/HDX/displacement-additive_ui2,33
+TERA/Fx/HDX/displacement-additive_water,217
+TERA/Fx/HDX/displacement-additive3layer,234
+TERA/Fx/HDX/displacement-blend,2133
+TERA/Fx/HDX/displacement-blend_alpha,96
+TERA/Fx/HDX/displacement-blend_water,422
+TERA/Fx/HDX/displacement-blend_Z,28
+TERA/Fx/HDX/displacement-blend3layer,16
+TERA/Fx/HDX/displacement-dissolve-additive,833
+TERA/Fx/HDX/displacement-flow-additive,177
+TERA/Fx/HDX/displacement-screen,39
+TERA/Fx/HDX/DissolveShader_add,1348
+TERA/Fx/HDX/DissolveShader_AlphaBlend,955
+TERA/Fx/HDX/distort_add,734
+TERA/Fx/HDX/distort_Alpha,375
+TERA/Fx/HDX/Environment Scroll 2 Layers Sine AlphaBlended,70
 TERA/Fx/HDX/FX_Additive,132
-TERA/Fx/HDX/FX_AlphaBlend,224
+TERA/Fx/HDX/FX_AlphaBlend,268
 TERA/Fx/HDX/FX_AlphaBlend_Z,12
-TERA/Fx/HDX/mask-additive,489
-TERA/Fx/HDX/ParticleOffset3,259
-TERA/Fx/HDX/ParticleOffset4,616
-TERA/Fx/HDX/Particles Alpha Blended,13258
-TERA/Fx/HDX/ParticlesAdditive,29247
-TERA/Fx/HDX/ParticlesAdditive_ui2,310
-TERA/Fx/HDX/Rim_particle,179
+TERA/Fx/HDX/mask-additive,491
+TERA/Fx/HDX/ParticleOffset3,285
+TERA/Fx/HDX/ParticleOffset4,630
+TERA/Fx/HDX/Particles Alpha Blended,14041
+TERA/Fx/HDX/ParticlesAdditive,30905
+TERA/Fx/HDX/ParticlesAdditive_ui2,465
+TERA/Fx/HDX/Rim_particle,230
 TERA/Fx/HDX/Ring_indicator,1
-TERA/Fx/HDX/Scroll 2 Layers Sine Add,411
-TERA/Fx/RFX4/CutoutBorder,1300
+TERA/Fx/HDX/Scroll 2 Layers Sine Add,428
+TERA/Fx/HDX/shining-additive,28
+TERA/Fx/HDX/shining-displacement-additive-sin,10
+TERA/Fx/RFX4/CutoutBorder,1341
 TERA/Fx/RFX4/Decal-DistortMask,1
-TERA/Fx/RFX4/DistortionParticles,61
-TERA/Fx/RFX4/DistortionParticlesAdditive,210
+TERA/Fx/RFX4/DistortionParticles,62
+TERA/Fx/RFX4/DistortionParticlesAdditive,211
 TERA/Fx/RFX4/Ice,1
-TERA/Fx/RFX4/Lightning,65
-TERA/Fx/RFX4/Particle,3373
-TERA/FX/Waterflow_4UVscroll,79
+TERA/Fx/RFX4/Lightning,66
+TERA/Fx/RFX4/Particle,3627
+TERA/FX/Waterflow_4UVscroll,83
 TERA/FX/Waterflow_4UVscrollQueue,1
 TERA/UI/SimpleCamReflectionbyAUQASCamera,1
 TEST_Only/DissolveShader_add,2
 TEST_Only/DissolveShader_AlphaBlend,2
-TEST_Only/Environment Scroll 2 Layers Sine Add,15
-TEST_Only/Environment/Env_fadeoutrim,7
-TEST_Only/UI/Etc_Markers,33
-UI/ImgMdShadow,1
+TEST_Only/KriptoFX/RFX4/Decal/DistortMaskMobile,4
 Unlit/Texture,6
-Unlit/Transparent,1

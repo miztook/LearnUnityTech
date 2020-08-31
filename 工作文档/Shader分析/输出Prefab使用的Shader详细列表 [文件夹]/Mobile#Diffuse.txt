@@ -74,17 +74,6 @@
 		toushiche/Box001
 		UI_Welfare/Frame_Center/Frame_Content/Frame_Dice/Dice_Hook/shaizi_donghua/Bone001/shaizi_moxing
 		UI_Welfare/Frame_Center/Frame_Content/Frame_Dice/Dice_Hook/shaizi_donghua/Bone001/shaizi_moxing
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (1)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (10)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (2)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (3)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (4)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (5)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (6)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (7)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (8)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_chengqiang_03 (9)
-		UIScene_Blacksmith_old/BG/Objects/Temp/UI_build_01/build_bdlpy_guandao_04 (5)
 		wenhao01/Bone001/Line001
 		wenhao02/Bone001/Line001
 		xsc_mutong04 1_geye

@@ -2,6 +2,7 @@
 		alekunshifazhe_attack02_c_nengliangpaodan/guangqiu/xian
 		alekunshifazhe_skill01_c_xuanzhuandaoren/xishou/lianjie01
 		Dungn00_EmpireRelicPrologue/Preload/scene_dungn01_fixedCloud/scene_dungn01/scene_dungn00_top/dungn00/GeoSphere001 (2)
+		Dungn00_EmpireRelicPrologue_02/scene_dungn01_fixedCloud_NewEdition/scene_dungn01/scene_dungn00_top/dungn00/GeoSphere001 (2)
 		Dwennisha_skill03_b_c_chibang/jianzhuti/jianshen (3)
 		Dwennisha_skill04_c_nengliangbo/xian/zhuti01
 		hetijibianguai_skill01_c_shifa/hetijibianguai_skill01_c_shifa/dimian (12)

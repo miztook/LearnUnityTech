@@ -1,14 +1,48 @@
 ﻿TERA/Environment/MobileDiffuseBumpEnvMapTwoSide
+		Dungn00_EmpireRelicPrologue_02/dungn00_jianzhu_03/dungn00_jianzhu_03_Build_xsfb_djz_29
+		Dungn00_EmpireRelicPrologue_02/dungn00_jianzhu_04/dungn00_jianzhu_04_Build_xsfb_djz_29
+		Dungn00_EmpireRelicPrologue_02/dungn00_jianzhu_05/dungn00_jianzhu_05_Build_xsfb_djz_29
+		Dungn00_EmpireRelicPrologue_02/dungn00_jianzhu_06/dungn00_jianzhu_06 _Build_xsfb_djz_29
 		Dungn00_Throne01/dungn00_throne01_scenes_08/scenes_08_ntl_xiaocao_01
 		Dungn00_Throne01/dungn00_throne01_scenes_16/scenes_16_build_yzh_huafangzid_03
 		Dungn07_Mansion01/dungn01_mansion01_scene_03/build_dn01_door_02
 		Dungn07_Mansion01/dungn01_mansion01_scene_03/build_dn01_door_04
+		Dungn07_Mansion01/dungn01_mansion01_scene_03/build_dn01_jianzhu_01
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shikuai (2)
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_001
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_002
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_003
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_004
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_005
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_006
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_007
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_008
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_009
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_010
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_011
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_012
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_013
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_014
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_015
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_016
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_017
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_018
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_019
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou (1)/Box001_frag_020
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/shitou_01
 		Wd01_Build_glz01/glz01_Build_xsc_xjianzhu_06
 		Wd01_Build_glz03/Build_glz03_Build_xsc_xjianzhu_06
 		Wd01_Build_glz041/glz04_Build_xsc_xjianzhu_06
 		Wd01_Build_glz05/Build_glz05_Build_xsc_xjianzhu_06
 		Wd01_Build_glz06/Build_glz06_Build_xsc_xjianzhu_06
 		Wd01_Build_nt02/Build_nt02_Build_xsc_xjianzhu_06
+		wd06_02_yzh_bwsl11/yzh_bwsl11_Ntl_Gnl_gy03
+		wd06_02_yzh_bwsl12/yzh_bwsl12_Ntl_Gnl_gy03
+		wd06_02_yzh_yglssl04/yzh_yglssl04_Ntl_Gnl_gy03
+		wd06_02_yzh_yglssl25/yzh_yglssl25_Ntl_Gnl_gy03
+		wd06_02_yzh_yxsl20/yzh_yxsl20_Ntl_Gnl_gy03
+		wd06_02_yzh_yxsl22/yzh_yxsl22_Ntl_Gnl_gy01
 		wd06_ntl_bblw_grass19/bblw_grass19_ntl_ylz_shugan_06
 		wd06_ntl_dbcz_grass01/dbcz_grass01_Ntl_Gnl_gy03
 		wd06_ntl_dbcz_grass01/dbcz_grass01_ntl_ylz_shugan_06

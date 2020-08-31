@@ -1,0 +1,11 @@
+﻿TERA/Fx/HDX/shining-displacement-additive-sin
+		alilancer_f_clothes_rongyaojijia_red_effect
+		alilancer_f_clothes_rongyaojijia_red_effect/body2(Clone)
+		alipriest_f_clothes_rongyaojijia_red_effect
+		alipriest_f_clothes_rongyaojijia_red_effect/body2(Clone)
+		casassassin_m_clothes_rongyaojijia_red_effect
+		casassassin_m_clothes_rongyaojijia_red_effect/body2(Clone)
+		humwarrior_m_clothes_rongyaojijia_red_effect
+		humwarrior_m_clothes_rongyaojijia_red_effect/body2(Clone)
+		sprarcher_f_clothes_rongyaojijia_red_effect
+		sprarcher_f_clothes_rongyaojijia_red_effect/body2(Clone)

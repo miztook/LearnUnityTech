@@ -1,2 +1,0 @@
-﻿UI/ImgMdShadow
-		CreatCharacter_2/Job2/MainAnimator/Character/Shadow

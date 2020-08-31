@@ -1,0 +1,6 @@
+﻿Particles/Standard Unlit
+		airenkuanggong_attack01_daoguang/slash01/guiji
+		airenkuanggong_skill01_c_daoguang/slash01/guiji
+		airenkuanggong_skill01_c_daoguang/slash02/guiji
+		xiannvjiaomu_skill01_c_wuqi/Particle System02/trail
+		xiannvjiaomu_skill02_c_wuqi/Particle System02/trail

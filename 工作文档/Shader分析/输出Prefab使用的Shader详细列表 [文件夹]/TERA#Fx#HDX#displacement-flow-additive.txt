@@ -1,4 +1,5 @@
 ﻿TERA/Fx/HDX/displacement-flow-additive
+		ailinushilianzhe_skill01_dici/rock05/zadi/ring01
 		alekunpozhenzhe_hit_tongyong/glow/shanguang2 (3)
 		alekunpozhenzhe_skill02_baozha/glow/shanguang2 (3)
 		alekunpozhenzhe_skill02_cast_L/glow/xishou02
@@ -8,6 +9,7 @@
 		alekunshifazhe_hit_tongyong/shanguang/shanguang2 (3)
 		bafengte_attack01_c_putonggongji/1/chongji03
 		beizuzhoudechuniang_skill01_b_c_daoguang/GameObject/zadi/dilie01/dilie01 (1)
+		dulenusi_skill03_cast/position/ring
 		Dwennisha_skill02_b1_c_qilang/zadi/dadiliebian/kuosan/dilie (1)/GameObject/dilie-1 (3)
 		fangzhoushouhuzhe_skill01_c_zadi/fangzhoushouhuzhe_skill01_c_zadi_L0/zadi/ring01
 		fangzhoushouhuzhe_skill01_c_zadi/fangzhoushouhuzhe_skill01_c_zadi_L1/zadi/ring01
@@ -137,6 +139,7 @@
 		maligousi_skill04_zadi_L3/maligousi_skill04_zadi_L3/zadi/skill01_zadi/zadi/ring01
 		passive_huo_chixuranshao/humwarrior_m_skill05_c_suidipo1_huo (1)/dilie/putongdilie
 		passive_huo_runshibaozha/humwarrior_m_skill05_c_suidipo1_huo/dilie/putongdilie
+		pet_tanchilong/state_chongwu_buff_cheng/buff/glow01
 		sanlian_skill08_b_c_qilang/sanlian_skill08_b_c_qilang_L0/fashe/ring_fast
 		sanlian_skill08_b_c_qilang/sanlian_skill08_b_c_qilang_L3/fashe/ring_fast
 		sanlian_skill08_b_c_qilang_L0/fashe/ring_fast
@@ -144,6 +147,7 @@
 		scene_jitan_fangyu/position/ray
 		scene_jitan_gongji/position/ray
 		scene_jitan_zhiliao/position/ray
+		scene_jitan_zhiliao_new/position/ray
 		state_chongwu_buff_cheng/buff/glow01
 		state_chongwu_buff_lan/buff/glow01
 		state_chongwu_buff_zi/buff/glow01

@@ -28,6 +28,14 @@
 		bafengte_skill01_c_huixuanzhan/daoguang_01/around/juqi_line_blend
 		bafengte_skill01_c_huixuanzhan/daoguang_01/around/juqi_line_blend (1)
 		bafengte_skill01_c_huixuanzhan/daoguang_01/around/juqi_line_blend (2)
+		bianyinangua_attack01_c_zadi/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/chongjibo ab (1)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/chongjibo ab (1)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/chongjibo ab (1)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/chongjibo ad (1)
 		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L0/juqi/juqi/juqi_line_blend (3)
 		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L1/juqi/juqi/juqi_line_blend (3)
 		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L3/juqi/juqi/juqi_line_blend (3)
@@ -56,13 +64,24 @@
 		chihoutongling_skill01_faqiubaozha/juqi/guiji/guiji01
 		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/show_archer_helix_luoxuanxian/juqi (1)/juqi_line_blend
 		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/show_archer_helix_luoxuanxian/juqi/juqi_line_blend
+		damonvyifulin_huoqiu_tongyong/huoqiu/luoxuanxian_bland
+		damonvyifulin_skill02_c_juqi/juqi/juqi_line_blend
+		feihongxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/Particle System
 		gelumoshilianzhe_skill05_cast/juqi/juqi_line_blend
 		haiguzhiwang_attack02_ci/juqi/juqi_line_blend
 		jinglingfurennv_skill01_cast/juqi/juqi_line_blend (1)
 		jinglingfurennv_skill03_fire_cast02/juqi/juqi_line_blend (1)
 		jinglingfurennv_skill03_ice_cast02/juqi/juqi_line_blend (1)
+		juzhuangshuyao_attack01_c/chongjibo ab
+		juzhuangshuyao_attack01_c/chongjibo ad
+		juzhuangshuyao_skill01_c/chongjibo ab (1)
+		juzhuangshuyao_skill01_c/chongjibo ad (1)
+		luokexunjiaojun_skill01_xuli/xuli/xiantiao (1)
 		mofata_blue_fly_jiguang/jiguang/juqi_line_blend
 		mofata_red_fly_jiguang/jiguang/juqi_line_blend
+		nanguamoou_skill01_c_baozha/baozha/waiquan2 (6)
+		nanguamoou_skill03_c_c_baozha/huozhu/waiquan2 (6)
+		qinglanxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/Particle System
 		saibolusi_attack01_c_siyao/quan_side (2)
 		scene_liefeng_guangzhu/trail03
 		scene_liefeng_guangzhu/trail04
@@ -70,6 +89,13 @@
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail02
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail03
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail04
+		shijiuchoujue_skill01_c_yanchen/Particle System (5)
+		shijiuchoujue_skill01_c_yanchen/Particle System (6)
+		shijiuchoujue_skill03_c_shifa/juqi_line_blend
+		shijiuchoujue_skill03_c_shifa/Particle System (3)
+		shijiuchoujue_skill03_c_shifa/Particle System (7)
+		shijiuchoujue_skill03_c_shifa/Particle System (8)
+		shijiuchoujue_skill04_c_baozha/Particle System (2)
 		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L0/juqi/juqi_line_blend (1)
 		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L1/juqi/juqi_line_blend (1)
 		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L3/juqi/juqi_line_blend (1)

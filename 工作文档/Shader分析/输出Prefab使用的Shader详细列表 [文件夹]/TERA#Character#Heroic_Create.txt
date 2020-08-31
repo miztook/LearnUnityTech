@@ -42,4 +42,14 @@
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/Popori_F_H19_Body
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/Popori_F_H19_Hand
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/Popori_F_H19_Leg
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bone003/casassassin_m_create_weapon_01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bone004/casassassin_m_create_weapon_02
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/Castanic_M_L21_Body
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/Castanic_M_L21_Hand
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/Castanic_M_L21_Leg
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bone003/etc_zhanshi_wuqichuxian/chuxian/casassassin_m_create_weapon_01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bone004/etc_zhanshi_wuqichuxian (1)/chuxian/casassassin_m_create_weapon_01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Castanic_M_L21_Body
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Castanic_M_L21_Hand
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Castanic_M_L21_Leg
 		tiejiangpunvtiejiang/nvtiejiang_chuizi

@@ -24,6 +24,13 @@
 		CreatCharacter_5/Job5/MainAnimator/BGAnimator/BGAnimation_aliL/Login_BG_ali_mid03
 		CreatCharacter_5/Job5/MainAnimator/BGAnimator/Login_BG_ali_sky
 		CreatCharacter_5/Job5/MainAnimator/BGAnimator/Login_BG_ali_sky1
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BGAnimation_cas/BG_creat_Cas_01
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BGAnimation_cas/BG_creat_Cas_02
+		CreatCharacter_6/Job6/MainAnimator/CameraAnimator/Camera/BG_creat_Cas_03
+		Dn_pvp03_Castel03/Dn_pvp03_dist1_01
+		Dn_pvp03_Castel04/Dn_pvp03_dist2_01
+		Dn_pvp03_Castel05/Dn_pvp03_dist1_02
+		Dn_pvp03_Castel06/Dn_pvp03_dist2_02
 		Dn_pvp03_Castle03/Dn_pvp03_dist1_01
 		Dn_pvp03_Castle04/Dn_pvp03_dist2_01
 		Dn_pvp03_Castle05/Dn_pvp03_dist1_02

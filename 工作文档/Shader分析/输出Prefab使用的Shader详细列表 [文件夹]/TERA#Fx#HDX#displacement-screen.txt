@@ -14,6 +14,7 @@
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/Particle System/niuqu
 		CreatCharacter_4/Job4/MainAnimator/ArrowAnimator/show_archer_bow/fashi_tuowei/jian/niuqu
 		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/sprarcher_f_create_CGchar/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/show_archer_hand_fxhand01_cast01/sprarcher_f_skill01_c_xiantiao/niuqu01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/Particle System/niuqu
 		etc_jingtou_xiangweitexiao/Noise
 		etc_jingtou_xiangweitexiao/Noise/Noise1
 		humwarrior_m_attack01_daoguang_feng/humwarrior_m_attack01_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)

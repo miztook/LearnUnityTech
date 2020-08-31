@@ -105,7 +105,22 @@
 		Ct01_fx_living/scene_ditu_bianjie_10m/GameObject (1)/PingMian_add (2)
 		Ct02_fx_Center05/scene_city02_C2_luhuo/luhuo03
 		Ct02_fx_Center05/scene_city02_C2_luhuo/luhuo04
+		Ct02_fx_Center06/MeetingRoom_Flare/Fx_Light01 1
+		Ct02_fx_Center06/MeetingRoom_Flare/Fx_Light01 1 (1)
+		Ct02_fx_Center06/MeetingRoom_Flare/Fx_Light01 1 (2)
+		Ct02_fx_Center06/MeetingRoom_Flare/Fx_Light01 1 (3)
+		Ct02_fx_Center06/MeetingRoom_Flare/Fx_Light01 1 (4)
+		Ct02_fx_Center06/MeetingRoom_Flare/Fx_Light01 1 (5)
 		Ct02_fx_Center07/scene_city02_liuguang/Particle System/M_scene_city02_liuguang01
+		Ct02_fx_Inside01/Gym_Flare/Fx_Light01 1 (10)
+		Ct02_fx_Inside01/Gym_Flare/Fx_Light01 1 (11)
+		Ct02_fx_Inside01/Gym_Flare/Fx_Light01 1 (12)
+		Ct02_fx_Inside01/Gym_Flare/Fx_Light01 1 (13)
+		Ct02_fx_Inside01/Gym_Flare/Fx_Light01 1 (14)
+		Ct02_fx_Inside01/Gym_Flare/Fx_Light01 1 (9)
+		Ct02_fx_Side01/Lab_Flare/Fx_Light01 1 (6)
+		Ct02_fx_Side01/Lab_Flare/Fx_Light01 1 (7)
+		Ct02_fx_Side01/Lab_Flare/Fx_Light01 1 (8)
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/xingkong/lz02
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/xingkong/lz03
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/xingkong/lz04
@@ -162,6 +177,7 @@
 		fangzhoushouhuzhe_skill04_zhaozi_red_L3/alipriest_f_ultskill_ball/sphere003
 		fangzhoushouhuzhe_skill04_zhaozi_red_L3/alipriest_f_ultskill_ball/sphere003 (1)
 		fangzhoushouhuzhe_skill04_zhaozi_red_L3/GameObject/alipriest_f_ultskill_ball (1)/sphere003
+		feihongxueyuanmonv_attack02_c_fly/ball
 		fengzhijinglingshouling_skill01_01/slash01/fengzhijinglingshouling_skill01/liuti
 		fengzhijinglingshouling_skill01_02/slash01/fengzhijinglingshouling_skill01/liuti
 		fengzhijinglingshouling_skill02_ci/chuanci/banqiu
@@ -380,6 +396,7 @@
 		Wd05_fx12/scene_world05_zhengqi/scene_world05_zhengqi/huolu/Prop_kst01_build_bdlpy_jianzhu_04 (1)
 		Wd05_fx16/scene_world05_zhengqi (1)/scene_world05_zhengqi/huolu/Prop_kst01_build_bdlpy_jianzhu_04 (1)
 		Wd05_fx16/scene_world05_zhengqi/scene_world05_zhengqi/huolu/Prop_kst01_build_bdlpy_jianzhu_04 (1)
+		wd06_02_prop_yzh_yglssl02/scene_ditu_bianjie_20m/GameObject (1)/PingMian_add (2)
 		weierailin_skill04_b_c_cast_ground/juqi_ground/cone01 (1)
 		yamijiduodun_skill01_c_nuhou/kuosan/quan01
 		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L0/jiguang/jiguangzhuti/shizipian1-5

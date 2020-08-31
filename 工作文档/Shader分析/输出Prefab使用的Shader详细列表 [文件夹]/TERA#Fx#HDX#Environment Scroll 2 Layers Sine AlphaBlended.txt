@@ -22,6 +22,8 @@
 		fengzhijinglingshouling_skill01_01/slash01/fengzhijinglingshouling_skill01/daoguang04
 		fengzhijinglingshouling_skill01_02/slash01/fengzhijinglingshouling_skill01/daoguang04
 		kuishizhiyan_attack01_c_baozizidan/qiu (1)
+		nanguamoou_skill01_c_fly_huoqiu/huoqiu/huoyan
+		nanguamoou_skill04_c_penhuo/huoyan/huoyanzhuti
 		sanlian_skill08_b_c_fazhen/fazhen/fazhen02
 		state_casassassin_m_liuxie/Particle System
 		ui_state_ranshao/PingMian_alpha (1)
@@ -37,6 +39,7 @@
 		Wd041_Ntl_Trees_sand/scene_ditu_bianjie_10m/GameObject (1)/PingMian_alpha (1)
 		Wd041_Ntl_Trees_sand/scene_ditu_bianjie_20m (1)/GameObject (1)/PingMian_alpha (1)
 		Wd041_Ntl_Trees_sand/scene_ditu_bianjie_20m/GameObject (1)/PingMian_alpha (1)
+		wd06_02_prop_yzh_yglssl02/scene_ditu_bianjie_20m/GameObject (1)/PingMian_alpha (1)
 		wennisha_attack01_c_daoguang/buchong/daoguang03
 		wennisha_attack01_c_daoguang/buchong/daoguang03 (1)
 		wennisha_attack01_c_daoguang/buchong/daoguang03 (2)

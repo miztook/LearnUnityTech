@@ -169,6 +169,7 @@
 		bafengte_skill01_c_huixuanzhan/daoguang_01/kuosan/juqi_line_add (11)
 		bafengte_skill01_c_huixuanzhan/daoguang_01/kuosan/juqi_line_add (12)
 		beifuhuadeboboli_attack02_guiji/GUIJI/juqi_line_add (3)
+		bianyinangua_skill01_juqi/bianyinangua_skill01_juqi/juqi_line_add (1)
 		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L0/juqi/juqi/juqi_line_add (6)
 		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L0/juqi/juqi/juqi_line_add (7)
 		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L1/juqi/juqi/juqi_line_add (6)
@@ -225,6 +226,16 @@
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/create_alilancer_qiangzadi/juqi/juqi_line_add
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/create_alilancer_qiangzadi/juqi/juqi_line_add (1)
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/create_alilancer_qichang/xuli/qixuan01
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang_01/around/juqi_line_add (4)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang_01/around/juqi_line_add (6)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/daoguang_01/around/juqi_line_add (8)
+		dadijing_attack01_c_daoguang/2 (1)/DG02/juqi_line_add (7)
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang_01/around/juqi_line_add (4)
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang_01/around/juqi_line_add (6)
+		dadijing_attack02_c_daoguang/2 (1)/DG02/daoguang_01/around/juqi_line_add (8)
+		dadijing_attack02_c_daoguang/2 (1)/DG02/juqi_line_add (7)
+		damonvyifulin_skill02_c_juqi/juqi/juqi_line_add
+		damonvyifulin_skill02_c_juqi/juqi/juqi_line_add (1)
 		duoluozhihun_skill02_zuzhou/Particle System
 		etc_Levelup/shenghua/helix (1)
 		etc_Levelup/shenghua/helix (2)
@@ -247,10 +258,13 @@
 		mofata_blue_fly_jiguang/jiguang/juqi_line_add (2)
 		mofata_red_fly_jiguang/jiguang/juqi_line_add
 		mofata_red_fly_jiguang/jiguang/juqi_line_add (2)
+		mohuayifulin_skill04_shifa/xuli/xuli_add01
 		nigulasi_show_jiaodi/jiaodi01/qixuan01
 		nigulasi_show_xishou/sphere_effect/juqi/qixuan01
 		NPC_guaiwu_born_tongyong/GameObject (2)/trail_blue
 		qiangbingtongling_skill_chongfeng/position/trail
+		shijiuchoujue_skill03_c_shifa/juqi_line_add
+		shijiuchoujue_skill03_c_shifa/Particle System
 		sikala_skill02_c_sheji/xuli/xuli01
 		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L0/juqi/juqi_line_add (7)
 		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L1/juqi/juqi_line_add (7)

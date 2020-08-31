@@ -1,4 +1,4 @@
-﻿TEST_Only/UI/Etc_Markers
+﻿TERA/Character/EtcMarkers
 		huodong_tanhao/QMarker01_dot
 		huodong_tanhao/QMarker01_line
 		huodong_wenhao/Object003

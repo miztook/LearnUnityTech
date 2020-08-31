@@ -1,4 +1,29 @@
 ﻿TERA/Fx/RFX4/CutoutBorder
+		ailinushilianzhe_attack01_paidi/position01/rock01
+		ailinushilianzhe_attack02_paidi/position01/rock01
+		ailinushilianzhe_show_zhendi/position/rock (4)
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_002
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_003
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_004
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_005
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_007
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_008
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_009
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_010
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_011
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_012
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_013
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_014
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_015
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/Cylinder001_Dml__frag_016
+		ailinushilianzhe_skill01_dici/rock05/position/gelumoshilianzhe_chongchu/shitou02
+		ailinushilianzhe_skill01_dici/rock05/zadi/rock
+		ailinushilianzhe_skill01_dici/skill01/dici05
+		ailinushilianzhe_skill04_zhendi/position/rock
+		ailinushilianzhe_skill04_zhendi/position/rock (1)
+		ailinushilianzhe_skill04_zhendi/position/rock (2)
+		ailinushilianzhe_skill04_zhendi/position/rock (3)
+		ailinushilianzhe_skill04_zhendi/position/rock (4)
 		bafengte_skill01_c_ciguang/bafengte_skill01_c_ciguang/ciguang/baodian/Particle System 2/rock (1)
 		bahaleshilianzhe_skill02_c_dimian/zadi01/shikuai (1)chixu
 		casassassin_m_skill05_siwangjianci_an/casassassin_m_skill05_siwangjianci_an_L0/siwangjianci/siwangjianci001/008
@@ -321,6 +346,20 @@
 		casassassin_m_utlskill_zadi_normal_L0/zadi/Explsion/rock
 		casassassin_m_utlskill_zadi_normal_L1/zadi/Explsion/rock
 		casassassin_m_utlskill_zadi_normal_L3/zadi/Explsion/rock
+		dulenusi_attack01_ci/position01/rock01
+		dulenusi_attack01_ci/position02/rock01
+		dulenusi_attack02_ci/position01/rock01
+		dulenusi_attack02_ci/position02/rock01
+		dulenusi_attack02_ci/position03/rock01
+		dulenusi_attack02_ci/position04/rock01
+		dulenusi_attack02_ci/position05/rock01
+		dulenusi_attack02_ci/position06/rock01
+		dulenusi_attack02_ci/position07/rock01
+		dulenusi_skill01_saodi/position/rock
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/rock01 (1)
+		dulenusi_zuanchu/position/rock
+		dulenusi_zuanchu/position/rock01
+		dulenusi_zuanru/position/rock
 		fanbeierpucong_skill02_c_changqiangzadi/zadi/shikuai
 		fangzhoushouhuzhe_attack01_daoguang/zadi (3)/rock (1)
 		fangzhoushouhuzhe_attack02_daoguang1/zadi (4)/rock (1)
@@ -781,6 +820,7 @@
 		jingshijuren_skill03_xiandi/posui/posui/Box001_frag_019
 		jingshijuren_skill03_xiandi/posui/posui/Box001_frag_022
 		jingshijuren_skill03_xiandi/zadi (5)/GameObject/rock (1)
+		jumo_skill02_caidi/zadi/kuosan/rock
 		kalantujidui_attack01_daoguang/daoguang/attack1/T_wenli_035_05_add
 		kalantujidui_attack01_daoguang/daoguang/attack1/T_wenli_092_01_add
 		kalantujidui_attack01_daoguang/daoguang/attack2/T_wenli_035_05_add
@@ -1117,6 +1157,7 @@
 		sence_Dungn00_zhuiluoyunshi_baozha_02/sence_Dungn00_zhuiluoyunshi_baozha/kuosan (1)/posui/Box001_frag_014
 		sence_Dungn00_zhuiluoyunshi_baozha_02/sence_Dungn00_zhuiluoyunshi_baozha/kuosan (1)/posui/Box001_frag_019
 		sence_Dungn00_zhuiluoyunshi_baozha_02/sence_Dungn00_zhuiluoyunshi_baozha/kuosan (1)/posui/Box001_frag_022
+		shumiaochengnian_skill01_c_fanhualuoye/dimian (1)/shuzhi
 		sprarcher_f_skill06+_c_baozha_bing/sprarcher_f_skill06+_c_baozha_bing_L0/sprarcher_f_skill06_c_baozha/Explsion /rock (1)
 		sprarcher_f_skill06+_c_baozha_bing/sprarcher_f_skill06+_c_baozha_bing_L1/sprarcher_f_skill06_c_baozha/Explsion /rock (1)
 		sprarcher_f_skill06+_c_baozha_bing/sprarcher_f_skill06+_c_baozha_bing_L3/sprarcher_f_skill06_c_baozha/Explsion /rock (1)

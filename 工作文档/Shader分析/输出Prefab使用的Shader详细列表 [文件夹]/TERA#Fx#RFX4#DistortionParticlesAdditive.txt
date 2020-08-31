@@ -164,13 +164,13 @@
 		sanlian_skill13_b_c_xuli/sanlian_skill13_b_c_xuli_L3/xuli/xuli/Trails/sprarcher_f_skill01_c_xiantiao1/sprarcher_f_skill01_c_xiantiao1
 		sanlian_skill13_b_c_xuli_L3/xuli/xuli/tongkong/niuqu01
 		sanlian_skill13_b_c_xuli_L3/xuli/xuli/Trails/sprarcher_f_skill01_c_xiantiao1/sprarcher_f_skill01_c_xiantiao1
-		scene_chuansongmenda/chuansongmen/xisou/niuqu
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/chongjibo/DistortExplosion
 		scene_liefeng_guangzhu_xiangshang/juqi/huo (4)/DistortExplosion
 		scene_mijing_chuansongmen/chuansongmen /glow_ring
 		sence_chuansongmenda/chuansongmen/xisou/niuqu
 		sence_tkjjc_chuansongmen_hongse/sence_tkjjc_chuansongmen_hongse/glow_ring
 		sence_tkjjc_chuansongmen_lanse/sence_tkjjc_chuansongmen_lanse/glow_ring
+		shumiaochengnian_attack01_c_guangqiu/qiu/qiu01_niuqu (1)
 		sprarcher_f_skill06+_c_jian_bing/sprarcher_f_skill06+_c_jian_bing_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Distort
 		sprarcher_f_skill06+_c_jian_bing_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Distort
 		sprarcher_f_skill06+_c_jian_huo/sprarcher_f_skill06+_c_jian_huo_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Distort
@@ -185,6 +185,7 @@
 		sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Distort
 		sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Distort
 		sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Distort
+		tongkuzhiji_red_wuqi_effect/lei/zhuti (3)_niuqu
 		wennisha_skill02_a_c_heidong_in/wennisha_skill02_a_c_heidong_in_L3/dimian/DistortionDisk (1)
 		wennisha_skill02_a_c_heidong_in/wennisha_skill02_a_c_heidong_in_L3/xishou/DistortExplosion (3)
 		wennisha_skill02_a_c_heidong_in_L3/dimian/DistortionDisk (1)

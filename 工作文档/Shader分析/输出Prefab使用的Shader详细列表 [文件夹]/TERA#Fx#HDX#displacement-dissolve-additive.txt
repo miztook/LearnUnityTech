@@ -1,4 +1,5 @@
 ﻿TERA/Fx/HDX/displacement-dissolve-additive
+		ailinushilianzhe_skill03_suanyu/position/rain01
 		ailisha_skill02_c_jianyu/ailisha_skill02_c_jianyu_L3/di
 		ailisha_skill02_c_jianyu_L3/ailisha_skill02_c_jianyu_L3/di
 		alekunshifazhe_hit_tongyong/shanguang/Particle System
@@ -244,6 +245,7 @@
 		alilancer_f_ultskill01_b_c_zadi_lei_L0/dilie/dilie_add (3)
 		alilancer_f_ultskill01_b_c_zadi_normal/alilancer_f_ultskill01_b_c_zadi_normal_L0/dilie/dilie_add
 		alilancer_f_ultskill01_b_c_zadi_normal_L0/dilie/dilie_add
+		alipreist_f_lv07_H_nor_R_weapon_02/nengliang_01
 		alipriest_attack01_guangqiu_an/atk01/Particle System02/fume
 		alipriest_attack01_guangqiu_guang/atk01/Particle System02/fume
 		alipriest_attack01_guangqiu_lei/atk01/Particle System02/fume
@@ -349,6 +351,11 @@
 		balakayouling_attack01_iceball/atk01/Particle System02/fume
 		balakayouling_attack01_iceball/atk01/Particle System02/fume_world
 		balakayouling_skill01_bingci/cloud01 (2)
+		bianyinangua_attack01_c_zadi/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/glo add. (2)
 		canbaojiancizhizhu_skill02_c_pendu/pendu/local/bao (1)
 		casassassin_m_skill05_siwangjianci_an/casassassin_m_skill05_siwangjianci_an_L1/ground/dilie/ring01 (1)
 		casassassin_m_skill05_siwangjianci_an_L1/ground/dilie/ring01 (1)
@@ -380,6 +387,10 @@
 		CreatCharacter_4/Job4/MainAnimator/CameraAnimator/dafazhen/power_lei (1)/fz005
 		CreatCharacter_4/Job4/MainAnimator/CameraAnimator/dafazhen/power_lei (1)/fz03
 		CreatCharacter_4/Job4/MainAnimator/CameraAnimator/dafazhen/power_lei (1)/smoke
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject (1)/scene_casassassin_CG_liuxing/Particle System02/fume
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject/scene_casassassin_CG_liuxing/Particle System02/fume
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bone001/casassassin_m_create_weapon_01/casassassin_m_create_weapon_01 (2)/Particle System
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/casassassin_m_create_weapon_01 (1)/casassassin_m_create_weapon_01 (3)/Particle System
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/fz005
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/fz03
 		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/somke
@@ -387,6 +398,8 @@
 		Dn_pvp02_Arena02/Wd01_Prop_jjc01/sence_chuansongmen_small (1)/fume
 		Dn_pvp02_Arena02/Wd01_Prop_jjc01/sence_chuansongmen_small/fume
 		Dn06_nupao_attack02_c_jian/ziwuti (1)/qizhao (3)
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua_dimian
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua02
 		Dungn00_Throne01/fx/scene_world01_shuiqiu/qiu/Sphere3-1
 		duoluozhihun_attack02_hit/bao (1)
 		Dwennisha_attack02_c _hengsao/daoguang (1)/qichang01
@@ -425,6 +438,7 @@
 		fangzhoushouhuzhe_wuqi_daoguang_red_L1/atk01/Particle System02/fume
 		fangzhoushouhuzhe_wuqi_daoguang_red_L3/atk01/Particle System02/fume
 		fangzhouxunchazhe_skill02_huoyanpenshe/penhuo/local/bao (1)
+		feihongxueyuanmonv_attack01_c/DG/Ground_dust/Spark 3 (2)
 		fengzhijisi_skill01_c_xuanfeng/xuanfeng (1)/splash02
 		fengzhijisi_skill01_c_xuanfeng/xuanfeng (1)/wind01
 		fx04 (5)/scene_world01_shuiqiu/qiu/Sphere3-1
@@ -476,6 +490,7 @@
 		haiguzhiwang_skill02_nianye_dimian/dimian01
 		haiguzhiwang_skill03_c_trail/Trail/fume
 		haiguzhiwang_skill04_nianye_dimian/dimian01
+		hailaterenxing_attack02_c_ciji/ciji/jiantou add
 		heiquan/alipriest_f_ultskill_cast/fume
 		heiyawushi_xuanfeng/xuanfeng/splash
 		honglong_skill05_c_zhuangjidimian/honglong_skill05_c_zhuangjidimian_L3/dadiliebian/kuosan/guang/ring01
@@ -514,6 +529,7 @@
 		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L3/jiaodi/wenli
 		huojiasiqinwang_skill02_c_zhendi_qilang02/huan/dilie/xftmesh T_yan_010_01_add
 		huweiduizhang_attack02_shixuechongji/chongji/baozha/guangshu (1)
+		jianjiaoshuling_attack02_jiao/ci/quxian (1)
 		jinglingfurennv_skill03_bigfireball/atk01/fume
 		jinglingfurennv_skill03_smallfireball/atk01/fume
 		jurenkumosi_born_chusheng/jurenkumosi_born_chusheng_L3/fume
@@ -536,6 +552,7 @@
 		kemolaxia_attack02_weapon/Particle System02/fume
 		kemolaxia_skill01_luoshiyu/zadi/dilie_add
 		kemolaxia_skill01_weapon/Particle System02/fume
+		kuangnuleiji_skill01_ci/bland03
 		kuishizhiyan_attack01_c_baozibaozha/bland03
 		kuishizhiyan_attack01_c_baozizidan/fume
 		kulashouling_skill01_c_daoguang/zadi/shanguang
@@ -564,6 +581,15 @@
 		mine_Dn02_Book_effect/Mine_Dn02_Book/Mine_Dn02_Book/Dn02_Book_base/Book_base/book_effect (1)/fuwen/fume01 (1)
 		mine_Dn02_Book_effect/Mine_Dn02_Book/Mine_Dn02_Book/Dn02_Book_base/Book_base/book_effect (1)/trail/fume01
 		mine_wanwuzhicaiji_die_c/fuwen/fume01 (1)
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (1)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (2)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (3)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (4)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01/1/Spark 3 (1)
+		mohuayifulin_skill04_c_baozha/baozha01/1/Spark 3 (1)
+		nangua/Spark 3 (1)
+		nanguamoou_skill01_c_baozha/baozha/Particle System
 		nigulasi_skill01_cast/qichang/dilie_add
 		nigulasi_skill01_star/atk01/Particle System02/fume
 		nigulasi_skill01_star/atk01/Particle System02/fume (1)
@@ -631,6 +657,7 @@
 		qiliandepucong_skill05_c_baozha_L3/baozha01 (5)/shanguang2 (3)/bao (1)
 		qiliandepucong_skill05_c_baozha_L3/baozha01/shanguang2 (3)/bao (1)
 		qiliandepucong_skill05_c_shifa/shifa/dimian/dimian01
+		qinglanxueyuanmonv_attack01_c/DG/Ground_dust/Spark 3 (2)
 		sailien_skill01_c_jingji_01/dimian/baozha/smoke (1)
 		sailien_skill01_c_jingji_02/dimian (1)/baozha/smoke (1)
 		sailien_skill01_c_jingji_02/dimian (1)/di/dimianguang01 (1)
@@ -650,14 +677,6 @@
 		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/cylinder_glow01
 		scene_mijing_jidifengbao/dimian/di/bland02
 		scene_mijing_jidifengbao_waihuan/huan/glow_huan_bland
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/line/line
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/line/line02
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/line/line02 (1)
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/LIUDONG
-		scene_zudang_boss 1/scene_zudang_boss 1/line (1)/line
-		scene_zudang_boss 1/scene_zudang_boss 1/line (1)/line02
-		scene_zudang_boss 1/scene_zudang_boss 1/line (1)/line02 (1)
-		scene_zudang_boss 1/scene_zudang_boss 1/LIUDONG
 		scene_zudang_boss/scene_zudang_boss/line/line
 		scene_zudang_boss/scene_zudang_boss/line/line02
 		scene_zudang_boss/scene_zudang_boss/line/line02 (1)
@@ -685,6 +704,7 @@
 		sence_Dungn00_zhuiluoyunshi_yunshi/atk01/Particle System02/fume
 		sence_Dungn00_zhuiluoyunshi_yunshi_02/atk01/Particle System02/fume
 		shaxingzheshouling_skill01_c_pendu/skill02/pendu/local/bao (1)
+		shijiuchoujue_skill04_c_baozha/Spark 3 (1)
 		shixueshaluzhe_show_end/zadi/zadi/zadi/dilie
 		sikala_skill01_c_baozha/chongjibo/fume
 		sprarcher_f_attack_dabaodian_bing/shanguang/Particle System
@@ -746,6 +766,12 @@
 		wennisha_skill02_b_c_heidong_out/wennisha_skill02_b_c_heidong_out_L3/dimian/dimian01
 		wennisha_skill02_b_c_heidong_out_L0/dimian/dimian01
 		wennisha_skill02_b_c_heidong_out_L3/dimian/dimian01
+		xiannvjiaomu_skill01_c_wuqi/Particle System02/fume
+		xiannvjiaomu_skill02_c_wuqi/Particle System02/fume
+		xiannvjiaomu_skill02_c_xuanfeng/fei (1)/xuanfeng01/splash02
+		xiannvjiaomu_skill02_c_xuanfeng/fei (1)/xuanfeng01/wind01
+		xiannvjiaomu_skill02_c_xuanfeng/fei/xuanfeng01/splash02
+		xiannvjiaomu_skill02_c_xuanfeng/fei/xuanfeng01/wind01
 		xikandazhujiao_skill01_juqi/ring01
 		xikandazhujiao_skill02_c_baozha/shifa/dimian/dimian01
 		xikandazhujiao_skill02_c_juqi/liudong

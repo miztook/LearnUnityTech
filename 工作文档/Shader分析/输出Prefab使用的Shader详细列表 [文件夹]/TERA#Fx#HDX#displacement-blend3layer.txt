@@ -1,4 +1,14 @@
 ﻿TERA/Fx/HDX/displacement-blend3layer
+		casassassin_m_lv07_H_nor_R_weapon_01/baoshi (9)
+		casassassin_m_lv07_H_nor_R_weapon_02/baoshi (9)
+		humwarrior_m_lv07_H_nor_R_weapon_01/bianyuanhei
+		humwarrior_m_lv07_H_nor_R_weapon_01/liuguanghei (1)
+		humwarrior_m_lv07_H_nor_R_weapon_02/bianyuanhei
+		humwarrior_m_lv07_H_nor_R_weapon_02/liuguanghei (3)
+		sprarcher_f_lv07_H_nor_L_weapon_01/waifaguang (11)
+		sprarcher_f_lv07_H_nor_L_weapon_01/waifaguang (3)
+		sprarcher_f_lv07_H_nor_L_weapon_02/waifaguang (11)
+		sprarcher_f_lv07_H_nor_L_weapon_02/waifaguang (3)
 		sprarcher_f_wing_longjing_fire_L2/wing_longjing_effect
 		sprarcher_f_wing_longjing_fire_L3/wing_longjing_effect
 		sprarcher_f_wing_longjing_ice_L2/wing_longjing_effect

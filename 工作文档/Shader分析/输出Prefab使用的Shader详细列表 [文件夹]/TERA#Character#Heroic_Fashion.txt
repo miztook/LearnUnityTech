@@ -14,6 +14,7 @@
 		alilancer_f_clothes_junzhuang
 		alilancer_f_clothes_neiyi
 		alilancer_f_clothes_niuzai
+		alilancer_f_clothes_rongyaojijia
 		alilancer_f_clothes_shengdanzhuang
 		alilancer_f_clothes_xiaoyuan
 		alilancer_f_clothes_xinniantaozhuang01
@@ -48,6 +49,7 @@
 		alipreist_f_clothes_yongzhuang
 		alipreist_f_clothes_yundong
 		alipreist_f_head_ansha
+		alipriest_f_clothes_rongyaojijia
 		casassassin_m_clothes_ailisi
 		casassassin_m_clothes_ansha
 		casassassin_m_clothes_baiyang
@@ -63,6 +65,7 @@
 		casassassin_m_clothes_jiake
 		casassassin_m_clothes_junzhuang
 		casassassin_m_clothes_neiyi
+		casassassin_m_clothes_rongyaojijia
 		casassassin_m_clothes_shengdanzhuang
 		casassassin_m_clothes_shuaijiao
 		casassassin_m_clothes_xiaoyuan
@@ -88,6 +91,7 @@
 		general_head_mofafagu
 		general_head_nangua
 		general_head_shengdanlingdang
+		general_head_twxinnian
 		general_head_wennuanerzhao
 		general_head_yangmaomao
 		general_head_yanjing
@@ -107,6 +111,7 @@
 		humwarrior_m_clothes_junzhuang
 		humwarrior_m_clothes_lifu
 		humwarrior_m_clothes_neiyi
+		humwarrior_m_clothes_rongyaojijia
 		humwarrior_m_clothes_shengdanzhuang
 		humwarrior_m_clothes_shenyuanemo
 		humwarrior_m_clothes_shuaijiao
@@ -133,6 +138,7 @@
 		sprarcher_f_clothes_meihuoemo
 		sprarcher_f_clothes_neiyi
 		sprarcher_f_clothes_niuzai
+		sprarcher_f_clothes_rongyaojijia
 		sprarcher_f_clothes_shengdanzhuang
 		sprarcher_f_clothes_xiaoyuan
 		sprarcher_f_clothes_xinniantaozhuang_01

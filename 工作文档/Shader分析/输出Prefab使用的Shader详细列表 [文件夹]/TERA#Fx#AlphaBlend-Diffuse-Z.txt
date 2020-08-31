@@ -6,6 +6,8 @@
 		beizuzhoudechuniang_skill02_baozha/bao/dimian/shanguang 1/shikuai
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian/shitou
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian_small/shitou
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian/shitou
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/dimian_small/shitou
 		diguoqiangqishi_skill03_c_dimianfeishiyanwu/Particle System 1/baozha/dimian/shanguang 1/shikuai
 		Dwennisha_skill02_b1_c_qilang/zadi/yan/shanguang 1/shikuai
 		etc_baozhaxianjing/baozha/huo1/Particle System 2/baozha/dimian/shanguang 1/shikuai
@@ -116,6 +118,8 @@
 		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L0/Particle System 1/dimian/shanguang 1/shikuai
 		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L1/Particle System 1/dimian/shanguang 1/shikuai
 		humwarrior_m_ultskill01_c_yuanguzhanhun2_normal_L3/Particle System 1/dimian/shanguang 1/shikuai
+		jumo_attack01_zadi/rock
+		jumo_attack02_zadi/rock
 		kalasishilian_skill02_jiasuo/kalasishilian_skill02_suolian/suolian1
 		kalasishilian_skill02_jiasuo/kalasishilian_skill02_suolian/suolian2
 		kalasishilian_skill02_jiasuo/kalasishilian_skill02_suolian/suolian3
@@ -144,6 +148,7 @@
 		lvlong_skill05_c_zhuangjidimian_L1/honglong_skill02_c_zhenji (1)/Particle System 1/baozha/dimian/shanguang 1/shikuai
 		lvlong_skill05_c_zhuangjidimian_L3/honglong_skill02_c_zhenji (1)/Particle System 1/baozha/dimian/shanguang 1/shikuai
 		mine_mutongbaozha/baozha/huo1/Particle System 2/baozha/dimian/shanguang 1/shikuai
+		nanguamoou_attack02_c_zadi/zadi/rock
 		qiliandepucong_skill04_c_huozhu/qiliandepucong_skill04_c_huozhu_L1/kuosan/dimian/shanguang 1/shikuai
 		qiliandepucong_skill04_c_huozhu/qiliandepucong_skill04_c_huozhu_L3/kuosan/dimian/shanguang 1/shikuai
 		qiliandepucong_skill04_c_huozhu_L1/kuosan/dimian/shanguang 1/shikuai

@@ -9,3 +9,5 @@
 		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/sprarcher_f_create_CGchar/HighElf_F_Face00
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create/face
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/alilancer_f_face00
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/face
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Castanic_M_Face00

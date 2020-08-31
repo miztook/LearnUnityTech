@@ -1,4 +1,6 @@
 ﻿TERA/Environment/MobileDiffuseTwoSide
+		Build_qdjjc_xuanfujianzhu_01/Build_qdjjc_xuanfujianzhu_02_13
+		Build_qdjjc_xuanfujianzhu_01/Build_qdjjc_xuanfujianzhu_02_14
 		Build_qdjjc_xuanfujianzhu_02 (1)/Build_qdjjc_xuanfujianzhu_02_13
 		Build_qdjjc_xuanfujianzhu_02 (1)/Build_qdjjc_xuanfujianzhu_02_14
 		Build_qdjjc_xuanfujianzhu_02/Build_qdjjc_xuanfujianzhu_02_13
@@ -66,6 +68,11 @@
 		DN_pvp03_Skyarena/Preload/Origin/Build_qdjjc_zhenghe_03/qdjjc_zhenghe_03_Ntl_Gnl_gy03
 		DN_pvp03_Skyarena/Preload/Origin/Build_qdjjc_zhenghe_04/qdjjc_zhenghe_04_Ntl_Gnl_gy03
 		DN_pvp03_Skyarena/Preload/Origin/Build_qdjjc_zhenghe_04/qdjjc_zhenghe_04_ntl_world_zhiwu_01_snow
+		Dn_pvp03_Start01/Build_qdjjc_csd_01 (1)/Build_qdjjc_csd_07
+		Dn_pvp03_Start02/Build_qdjjc_csd_01/Build_qdjjc_csd_07
+		Dn_pvp03_Start03/Build_qdjjc_zhenghe_03/qdjjc_zhenghe_03_Ntl_Gnl_gy03
+		Dn_pvp03_Start03/Build_qdjjc_zhenghe_04/qdjjc_zhenghe_04_Ntl_Gnl_gy03
+		Dn_pvp03_Start03/Build_qdjjc_zhenghe_04/qdjjc_zhenghe_04_ntl_world_zhiwu_01_snow
 		Dn_pvp04_Palace01/Plant/ntl_shu_02 (1)/ntl_shu_02
 		Dn_pvp04_Palace01/Plant/ntl_shu_02 (2)/ntl_shu_02
 		Dn_pvp04_Palace01/Plant/ntl_shu_02 (3)/ntl_shu_02
@@ -95,6 +102,20 @@
 		Dn_pvp04_Palace01/Plant/zc_tengye_01_01 (1)
 		Dn_pvp04_Palace01/Plant/zc_tengye_01_01 (2)
 		Dn_pvp04_Palace01/Plant/zc_tengye_01_01 (3)
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_gm_Ntl_Gnl_gy04
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_gm_ntl_yuanjingshu
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_gm_Ntl_zz_huaduo01
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_gm_xsc_cao04
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_Ntl_Gnl_gy04
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_ntl_lvteng_01
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_ntl_plant_guanmu_03
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_ntl_shu_05
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_ntl_shuteng_03
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_ntl_world_caodui01
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_ntl_xiaocao_01
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_Ntl_zz_plant01
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_xsc_cao01_00
+		dungn00_irene01/Objects/dungn00_irene01/dungn00_grass_xsc_cao04
 		Dungn00_Throne01/dungn00_throne01_scenes_02/scenes_02_zc_tengye_003
 		Dungn00_Throne01/dungn00_throne01_scenes_02/scenes_02_zc_tengye_004
 		Dungn00_Throne01/dungn00_throne01_scenes_02/scenes_02_zc_tengye_005
@@ -191,6 +212,56 @@
 		Dungn06_EmpireRelic/Dungn06_EmpireRelic_02/Build_Dn06_BackgroundP01
 		Dungn06_EmpireRelic/Dungn06_EmpireRelic_02/Build_Dn06_BackgroundP02
 		Dungn07_Mansion01/dungn01_mansion01_scene_03/gs_zhizhuwang
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_build_dn01_door_02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_build_dn01_widget_04
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_nti_zhiwu_08
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_gnl_gy03
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_gnl_gy04
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_hongteng_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_lvteng_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_lvzhi_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_plant_guanmu_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_plant_guanmu_02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_plant_guanmu_03
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_plant_mogu_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shu_04
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shu_05
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shugan_02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shugan_09
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shugan_11
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shugan_12
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shugan_16
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shugan_17
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_shuteng_03
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_wd04_zhishu_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_wd04_zhishu_02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_world_xiaocao02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_xiaocao_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_xiaocao_01_glow
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_eslenflower_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_flower_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_flowerlight_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_hongye_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_huangyeteng_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_lanyehua_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_shuicao_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_shuicao_02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_shuteng_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_shuzhi_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_tengman_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_ylz_xgrass_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_ntl_zz_huaduo01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_Prop_Ui_baijian_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_prop_xsc_trasprent01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_wz_taixian01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_wz_taixian02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_wz_taixian03
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_xsc_cao01_00
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_xsc_cao04
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_xsc_cao05_01
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_xsc_cao05_02
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_zc_tengye_006
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_zc_tengye_007
 		lieyanhua
 		Mine_Dn02_Book/Dn02_Book
 		mine_Dn02_Book_effect/Mine_Dn02_Book/Mine_Dn02_Book/Dn02_Book
@@ -221,216 +292,77 @@
 		Wd01_Build_shudong/build_tlxg_shudong_01_04
 		Wd01_Build_shudong/build_tlxg_shudong_01_05
 		Wd01_Ntl_Grass01/Wd01_Ntl_Grass01
-		Wd01_Ntl_Grass01/Wd01_Ntl_Grass101
 		Wd01_Ntl_Grass02/Ntl_Grass02_xsc_cao01_00
-		Wd01_Ntl_Grass02/Wd01_Ntl_Grass102/Ntl_Grass102_xsc_cao04
-		Wd01_Ntl_Grass02/Wd01_Ntl_Grass102/Ntl_Grass102_xsc_huacao_03_1
 		Wd01_Ntl_Grass03/Ntl_Grass03_xsc_cao01_00
-		Wd01_Ntl_Grass03/Wd01_Ntl_Grass103/Ntl_Grass103_ntl_xiaocao_01
-		Wd01_Ntl_Grass03/Wd01_Ntl_Grass103/Ntl_Grass103_Ntl_xsc_grass01
-		Wd01_Ntl_Grass03/Wd01_Ntl_Grass103/Ntl_Grass103_xsc_cao01_00
-		Wd01_Ntl_Grass03/Wd01_Ntl_Grass103/Ntl_Grass103_xsc_cao04
-		Wd01_Ntl_Grass03/Wd01_Ntl_Grass103/Ntl_Grass103_xsc_huacao_03_1
 		Wd01_Ntl_Grass04/Ntl_Grass04_xsc_cao01_00
-		Wd01_Ntl_Grass04/Wd01_Ntl_Grass104/Ntl_Grass104_ntl_xiaocao_01
-		Wd01_Ntl_Grass04/Wd01_Ntl_Grass104/Ntl_Grass104_xsc_cao01_00
-		Wd01_Ntl_Grass04/Wd01_Ntl_Grass104/Ntl_Grass104_xsc_cao04
-		Wd01_Ntl_Grass04/Wd01_Ntl_Grass104/Ntl_Grass104_xsc_huacao_03_1
 		Wd01_Ntl_Grass05/Ntl_Grass05_xsc_cao01_00
-		Wd01_Ntl_Grass05/Wd01_Ntl_Grass105/Ntl_Grass105_Ntl_xsc_grass01
-		Wd01_Ntl_Grass05/Wd01_Ntl_Grass105/Ntl_Grass105_xsc_cao01_00
-		Wd01_Ntl_Grass05/Wd01_Ntl_Grass105/Ntl_Grass105_xsc_cao04
-		Wd01_Ntl_Grass05/Wd01_Ntl_Grass105/Ntl_Grass105_xsc_huacao_03_1
 		Wd01_Ntl_Grass06/Ntl_Grass06_xsc_cao01_00
-		Wd01_Ntl_Grass06/Wd01_Ntl_Grass106/Ntl_Grass106_xsc_cao04
-		Wd01_Ntl_Grass06/Wd01_Ntl_Grass106/Ntl_Grass106_xsc_huacao_03
-		Wd01_Ntl_Grass06/Wd01_Ntl_Grass106/Ntl_Grass106_xsc_huacao_03_1
 		Wd01_Ntl_Grass07/Wd01_Ntl_Grass07
 		Wd01_Ntl_Grass08/Ntl_Grass08_xsc_cao01_00
-		Wd01_Ntl_Grass08/Wd01_Ntl_Grass108/Ntl_Grass108_xsc_cao04
-		Wd01_Ntl_Grass08/Wd01_Ntl_Grass108/Ntl_Grass108_xsc_huacao_03_1
 		Wd01_Ntl_Grass09/Ntl_Grass09_xsc_cao01_00
-		Wd01_Ntl_Grass09/Wd01_Ntl_Grass109/Ntl_Grass109_Ntl_xsc_grass01
-		Wd01_Ntl_Grass09/Wd01_Ntl_Grass109/Ntl_Grass109_xsc_cao01_00
-		Wd01_Ntl_Grass09/Wd01_Ntl_Grass109/Ntl_Grass109_xsc_cao04
-		Wd01_Ntl_Grass09/Wd01_Ntl_Grass109/Ntl_Grass109_xsc_huacao_03_1
 		Wd01_Ntl_Grass10/Ntl_Grass10_xsc_cao01_00
-		Wd01_Ntl_Grass10/Wd01_Ntl_Grass110/Ntl_Grass110_xsc_cao01_00
-		Wd01_Ntl_Grass10/Wd01_Ntl_Grass110/Ntl_Grass110_xsc_cao04
-		Wd01_Ntl_Grass10/Wd01_Ntl_Grass110/Ntl_Grass110_xsc_huacao_03_1
 		Wd01_Ntl_Grass11/Ntl_Grass11_xsc_cao01_00
 		Wd01_Ntl_Grass12/Ntl_Grass12_xsc_cao01_00
-		Wd01_Ntl_Grass12/Wd01_Ntl_Grass112
 		Wd01_Ntl_Grass13/Ntl_Grass13_xsc_cao01_00
-		Wd01_Ntl_Grass13/Wd01_Ntl_Grass113
 		Wd01_Ntl_Grass14/Ntl_Grass14_xsc_cao01_00
-		Wd01_Ntl_Grass14/Wd01_Ntl_Grass114/Ntl_Grass114_Ntl_xsc_grass01
-		Wd01_Ntl_Grass14/Wd01_Ntl_Grass114/Ntl_Grass114_xsc_cao04
 		Wd01_Ntl_Grass15/Ntl_Grass15_xsc_cao01_00
-		Wd01_Ntl_Grass15/Wd01_Ntl_Grass115
 		Wd01_Ntl_Grass16/Ntl_Grass16_xsc_cao01_00
-		Wd01_Ntl_Grass16/Wd01_Ntl_Grass116/Ntl_Grass116_xsc_cao01_00
-		Wd01_Ntl_Grass16/Wd01_Ntl_Grass116/Ntl_Grass116_xsc_cao04
 		Wd01_Ntl_Grass17/Ntl_Grass17_xsc_cao01_00
-		Wd01_Ntl_Grass17/Wd01_Ntl_Grass117/Ntl_Grass117_xsc_huacao_03
-		Wd01_Ntl_Grass17/Wd01_Ntl_Grass117/Ntl_Grass117_xsc_huacao_03_1
 		Wd01_Ntl_Grass18/Wd01_Ntl_Grass18
 		Wd01_Ntl_Grass19/Ntl_Grass19_xsc_cao01_00
-		Wd01_Ntl_Grass19/Wd01_Ntl_Grass119
 		Wd01_Ntl_Grass20/Ntl_Grass20_xsc_cao01_00
-		Wd01_Ntl_Grass20/Wd01_Ntl_Grass120/Ntl_Grass120_xsc_cao04
-		Wd01_Ntl_Grass20/Wd01_Ntl_Grass120/Ntl_Grass120_xsc_huacao_03_1
 		Wd01_Ntl_Grass21/Ntl_Grass21_xsc_cao01_00
-		Wd01_Ntl_Grass21/Wd01_Ntl_Grass121/Ntl_Grass121_xsc_cao04
-		Wd01_Ntl_Grass21/Wd01_Ntl_Grass121/Ntl_Grass121_xsc_huacao_03_1
 		Wd01_Ntl_Grass22/Ntl_Grass22_xsc_cao01_00
-		Wd01_Ntl_Grass22/Wd01_Ntl_Grass122/Ntl_Grass122_xsc_cao04
-		Wd01_Ntl_Grass22/Wd01_Ntl_Grass122/Ntl_Grass122_xsc_huacao_03_1
 		Wd01_Ntl_Grass23/Ntl_Grass23_xsc_cao01_00
-		Wd01_Ntl_Grass23/Wd01_Ntl_Grass123/Ntl_Grass123_xsc_cao04
-		Wd01_Ntl_Grass23/Wd01_Ntl_Grass123/Ntl_Grass123_xsc_huacao_03_1
 		Wd01_Ntl_Grass24/Ntl_Grass24_xsc_cao01_00
 		Wd01_Ntl_Grass25/Ntl_Grass25_xsc_cao01_00
 		Wd01_Ntl_Grass26/Ntl_Grass26_xsc_cao01_00
-		Wd01_Ntl_Grass26/Wd01_Ntl_Grass126/Ntl_Grass126_xsc_cao04
-		Wd01_Ntl_Grass26/Wd01_Ntl_Grass126/Ntl_Grass126_xsc_huacao_03_1
 		Wd01_Ntl_Grass27/Ntl_Grass27_xsc_cao01_00
-		Wd01_Ntl_Grass27/Wd01_Ntl_Grass127/Ntl_Grass127_Ntl_xsc_grass01
-		Wd01_Ntl_Grass27/Wd01_Ntl_Grass127/Ntl_Grass127_xsc_cao04
 		Wd01_Ntl_Grass28/Ntl_Grass28_xsc_cao01_00
-		Wd01_Ntl_Grass28/Wd01_Ntl_Grass128/Ntl_Grass128_Ntl_xsc_grass01
-		Wd01_Ntl_Grass28/Wd01_Ntl_Grass128/Ntl_Grass128_xsc_cao01_00
-		Wd01_Ntl_Grass28/Wd01_Ntl_Grass128/Ntl_Grass128_xsc_cao04
-		Wd01_Ntl_Grass28/Wd01_Ntl_Grass128/Ntl_Grass128_xsc_huacao_03_1
 		Wd01_Ntl_Grass29/Ntl_Grass29_xsc_cao01_00
-		Wd01_Ntl_Grass29/Wd01_Ntl_Grass129
 		Wd01_Ntl_Grass30/Ntl_Grass30_xsc_cao01_00
-		Wd01_Ntl_Grass30/Wd01_Ntl_Grass130/Ntl_Grass130_Ntl_xsc_grass01
-		Wd01_Ntl_Grass30/Wd01_Ntl_Grass130/Ntl_Grass130_xsc_cao01_00
-		Wd01_Ntl_Grass30/Wd01_Ntl_Grass130/Ntl_Grass130_xsc_huacao_03_1
 		Wd01_Ntl_Grass31/Ntl_Grass31_xsc_cao01_00
-		Wd01_Ntl_Grass31/Wd01_Ntl_Grass131
 		Wd01_Ntl_Grass32/Ntl_Grass32_xsc_cao01_00
-		Wd01_Ntl_Grass32/Wd01_Ntl_Grass132/Ntl_Grass132_ntl_xiaocao_01
-		Wd01_Ntl_Grass32/Wd01_Ntl_Grass132/Ntl_Grass132_xsc_cao04
-		Wd01_Ntl_Grass32/Wd01_Ntl_Grass132/Ntl_Grass132_xsc_huacao_03_1
 		Wd01_Ntl_Grass33/Ntl_Grass33_xsc_cao01_00
 		Wd01_Ntl_Grass34/Ntl_Grass34_xsc_cao01_00
-		Wd01_Ntl_Grass34/Wd01_Ntl_Grass134
 		Wd01_Ntl_Grass35/Ntl_Grass35_xsc_cao01_00
 		Wd01_Ntl_Grass36/Ntl_Grass36_xsc_cao01_00
-		Wd01_Ntl_Grass36/Wd01_Ntl_Grass136/Ntl_Grass136_xsc_cao04
-		Wd01_Ntl_Grass36/Wd01_Ntl_Grass136/Ntl_Grass136_xsc_huacao_03_1
 		Wd01_Ntl_Grass37/Ntl_Grass37_xsc_cao01_00
-		Wd01_Ntl_Grass37/Wd01_Ntl_Grass137/Ntl_Grass137_Ntl_xsc_grass01
-		Wd01_Ntl_Grass37/Wd01_Ntl_Grass137/Ntl_Grass137_xsc_cao01_00
-		Wd01_Ntl_Grass37/Wd01_Ntl_Grass137/Ntl_Grass137_xsc_cao04
-		Wd01_Ntl_Grass37/Wd01_Ntl_Grass137/Ntl_Grass137_xsc_huacao_03
 		Wd01_Ntl_Grass38/Ntl_Grass38_xsc_cao01_00
 		Wd01_Ntl_Grass39/Wd01_Ntl_Grass39
 		Wd01_Ntl_Grass40/Ntl_Grass40_xsc_cao01_00
-		Wd01_Ntl_Grass40/Wd01_Ntl_Grass140
 		Wd01_Ntl_Grass41/Ntl_Grass41_xsc_cao01_00
 		Wd01_Ntl_Grass42/Ntl_Grass42_xsc_cao01_00
-		Wd01_Ntl_Grass42/Wd01_Ntl_Grass142
 		Wd01_Ntl_Grass43/Ntl_Grass43_xsc_cao01_00
-		Wd01_Ntl_Grass43/Wd01_Ntl_Grass143
 		Wd01_Ntl_Grass44/Ntl_Grass44_xsc_cao01_00
 		Wd01_Ntl_Grass45/Ntl_Grass45_xsc_cao01_00
-		Wd01_Ntl_Grass45/Wd01_Ntl_Grass145/Ntl_Grass145_Ntl_xsc_grass01
-		Wd01_Ntl_Grass45/Wd01_Ntl_Grass145/Ntl_Grass145_xsc_cao01_00
-		Wd01_Ntl_Grass45/Wd01_Ntl_Grass145/Ntl_Grass145_xsc_cao04
 		Wd01_Ntl_Grass46/Ntl_Grass46_xsc_cao01_00
-		Wd01_Ntl_Grass46/Wd01_Ntl_Grass146/Ntl_Grass146_xsc_cao04
-		Wd01_Ntl_Grass46/Wd01_Ntl_Grass146/Ntl_Grass146_xsc_huacao_03
-		Wd01_Ntl_Grass46/Wd01_Ntl_Grass146/Ntl_Grass146_xsc_huacao_03_1
 		Wd01_Ntl_Grass47/Ntl_Grass47_xsc_cao01_00
-		Wd01_Ntl_Grass47/Wd01_Ntl_Grass147/Ntl_Grass147_xsc_cao04
-		Wd01_Ntl_Grass47/Wd01_Ntl_Grass147/Ntl_Grass147_xsc_huacao_03_1
 		Wd01_Ntl_Grass48/Ntl_Grass48_xsc_cao01_00
-		Wd01_Ntl_Grass48/Wd01_Ntl_Grass148
-		Wd01_Ntl_Grass49/Wd01_Ntl_Grass149
 		Wd01_Ntl_Grass49/Wd01_Ntl_Grass49
 		Wd01_Ntl_Grass50/Ntl_Grass50_xsc_cao01_00
-		Wd01_Ntl_Grass50/Wd01_Ntl_Grass150/Ntl_Grass150_xsc_cao04
-		Wd01_Ntl_Grass50/Wd01_Ntl_Grass150/Ntl_Grass150_xsc_huacao_03_1
 		Wd01_Ntl_Grass51/Ntl_Grass51_xsc_cao01_00
-		Wd01_Ntl_Grass51/Wd01_Ntl_Grass151/Ntl_Grass151_xsc_cao04
-		Wd01_Ntl_Grass51/Wd01_Ntl_Grass151/Ntl_Grass151_xsc_huacao_03
-		Wd01_Ntl_Grass51/Wd01_Ntl_Grass151/Ntl_Grass151_xsc_huacao_03_3
 		Wd01_Ntl_Grass52/Ntl_Grass52_xsc_cao01_00
-		Wd01_Ntl_Grass52/Wd01_Ntl_Grass152/Ntl_Grass152_xsc_cao01_00
-		Wd01_Ntl_Grass52/Wd01_Ntl_Grass152/Ntl_Grass152_xsc_huacao_03
-		Wd01_Ntl_Grass52/Wd01_Ntl_Grass152/Ntl_Grass152_xsc_huacao_03_3
 		Wd01_Ntl_Grass53/Ntl_Grass53_xsc_cao01_00
-		Wd01_Ntl_Grass53/Wd01_Ntl_Grass153/Ntl_Grass153_xsc_huacao_03
-		Wd01_Ntl_Grass53/Wd01_Ntl_Grass153/Ntl_Grass153_xsc_huacao_03_1
 		Wd01_Ntl_Grass54/Ntl_Grass54_xsc_cao01_00
-		Wd01_Ntl_Grass54/Wd01_Ntl_Grass154/Ntl_Grass154_xsc_cao04
-		Wd01_Ntl_Grass54/Wd01_Ntl_Grass154/Ntl_Grass154_xsc_huacao_03
-		Wd01_Ntl_Grass54/Wd01_Ntl_Grass154/Ntl_Grass154_xsc_huacao_03_1
 		Wd01_Ntl_Grass55/Ntl_Grass55_xsc_cao01_00
-		Wd01_Ntl_Grass55/Wd01_Ntl_Grass155/Ntl_Grass155_xsc_cao04
-		Wd01_Ntl_Grass55/Wd01_Ntl_Grass155/Ntl_Grass155_xsc_huacao_03_1
 		Wd01_Ntl_Grass56/Ntl_Grass56_xsc_cao01_00
-		Wd01_Ntl_Grass56/Wd01_Ntl_Grass156/Ntl_Grass156_xsc_cao04
-		Wd01_Ntl_Grass56/Wd01_Ntl_Grass156/Ntl_Grass156_xsc_huacao_03_1
 		Wd01_Ntl_Grass57/Ntl_Grass57_xsc_cao01_00
-		Wd01_Ntl_Grass57/Wd01_Ntl_Grass157/Ntl_Grass157_Ntl_xsc_grass01
-		Wd01_Ntl_Grass57/Wd01_Ntl_Grass157/Ntl_Grass157_xsc_cao01_00
-		Wd01_Ntl_Grass57/Wd01_Ntl_Grass157/Ntl_Grass157_xsc_cao04
-		Wd01_Ntl_Grass57/Wd01_Ntl_Grass157/Ntl_Grass157_xsc_huacao_03_1
 		Wd01_Ntl_Grass58/Ntl_Grass58_xsc_cao01_00
-		Wd01_Ntl_Grass58/Wd01_Ntl_Grass158/Ntl_Grass158_xsc_cao04
-		Wd01_Ntl_Grass58/Wd01_Ntl_Grass158/Ntl_Grass158_xsc_huacao_03_1
 		Wd01_Ntl_Grass59/Ntl_Grass59_xsc_cao01_00
-		Wd01_Ntl_Grass59/Wd01_Ntl_Grass159/Ntl_Grass159_xsc_cao04
-		Wd01_Ntl_Grass59/Wd01_Ntl_Grass159/Ntl_Grass159_xsc_huacao_03_1
 		Wd01_Ntl_Grass60/Ntl_Grass60_xsc_cao01_00
-		Wd01_Ntl_Grass60/Wd01_Ntl_Grass160/Ntl_Grass160_xsc_cao04
-		Wd01_Ntl_Grass60/Wd01_Ntl_Grass160/Ntl_Grass160_xsc_huacao_03
-		Wd01_Ntl_Grass60/Wd01_Ntl_Grass160/Ntl_Grass160_xsc_huacao_03_1
-		Wd01_Ntl_Grass61/Wd01_Ntl_Grass161/Ntl_Grass161_xsc_cao04
-		Wd01_Ntl_Grass61/Wd01_Ntl_Grass161/Ntl_Grass161_xsc_huacao_03
-		Wd01_Ntl_Grass61/Wd01_Ntl_Grass161/Ntl_Grass161_xsc_huacao_03_1
 		Wd01_Ntl_Grass61/Wd01_Ntl_Grass61
 		Wd01_Ntl_Grass62/Ntl_Grass62_xsc_cao01_00
-		Wd01_Ntl_Grass62/Wd01_Ntl_Grass162/Ntl_Grass162_xsc_cao01_00
-		Wd01_Ntl_Grass62/Wd01_Ntl_Grass162/Ntl_Grass162_xsc_cao04
-		Wd01_Ntl_Grass62/Wd01_Ntl_Grass162/Ntl_Grass162_xsc_huacao_03
-		Wd01_Ntl_Grass62/Wd01_Ntl_Grass162/Ntl_Grass162_xsc_huacao_03_1
 		Wd01_Ntl_Grass63/Ntl_Grass63_xsc_cao01_00
-		Wd01_Ntl_Grass63/Wd01_Ntl_Grass163/Ntl_Grass163_Ntl_xsc_grass01
-		Wd01_Ntl_Grass63/Wd01_Ntl_Grass163/Ntl_Grass163_xsc_cao04
-		Wd01_Ntl_Grass63/Wd01_Ntl_Grass163/Ntl_Grass163_xsc_huacao_03_1
 		Wd01_Ntl_Grass64/Ntl_Grass64_xsc_cao01_00
-		Wd01_Ntl_Grass64/Wd01_Ntl_Grass164/Ntl_Grass164_ntl_xiaocao_01
-		Wd01_Ntl_Grass64/Wd01_Ntl_Grass164/Ntl_Grass164_xsc_cao04
-		Wd01_Ntl_Grass64/Wd01_Ntl_Grass164/Ntl_Grass164_xsc_huacao_03
-		Wd01_Ntl_Grass65/Wd01_Ntl_Grass165/Ntl_Grass165_xsc_cao04
-		Wd01_Ntl_Grass65/Wd01_Ntl_Grass165/Ntl_Grass165_xsc_huacao_03
 		Wd01_Ntl_Grass65/Wd01_Ntl_Grass65
 		Wd01_Ntl_Grass66/Ntl_Grass66_xsc_cao01_00
-		Wd01_Ntl_Grass66/Wd01_Ntl_Grass166/Ntl_Grass166_xsc_huacao_03
-		Wd01_Ntl_Grass66/Wd01_Ntl_Grass166/Ntl_Grass166_xsc_huacao_03_1
 		Wd01_Ntl_Grass67/Ntl_Grass67_xsc_cao01_00
-		Wd01_Ntl_Grass67/Wd01_Ntl_Grass167/Ntl_Grass167_xsc_huacao_03
 		Wd01_Ntl_Grass68/Ntl_Grass68_xsc_cao01_00
-		Wd01_Ntl_Grass68/Wd01_Ntl_Grass168/Ntl_Grass168_xsc_cao04
-		Wd01_Ntl_Grass68/Wd01_Ntl_Grass168/Ntl_Grass168_xsc_huacao_03
-		Wd01_Ntl_Grass68/Wd01_Ntl_Grass168/Ntl_Grass168_xsc_huacao_03_1
 		Wd01_Ntl_Grass69/Ntl_Grass69_xsc_cao01_00
-		Wd01_Ntl_Grass69/Wd01_Ntl_Grass169/Ntl_Grass169_xsc_cao01_00
-		Wd01_Ntl_Grass69/Wd01_Ntl_Grass169/Ntl_Grass169_xsc_huacao_03_1
 		Wd01_Ntl_Grass70/Ntl_Grass70_xsc_cao01_00
 		Wd01_Ntl_Grass71/Ntl_Grass71_xsc_cao01_00
-		Wd01_Ntl_Grass71/Wd01_Ntl_Grass171/Ntl_Grass171_xsc_cao04
-		Wd01_Ntl_Grass71/Wd01_Ntl_Grass171/Ntl_Grass171_xsc_huacao_03
-		Wd01_Ntl_Grass71/Wd01_Ntl_Grass171/Ntl_Grass171_xsc_huacao_03_1
 		Wd01_Ntl_Grass72/Ntl_Grass72_xsc_cao01_00
-		Wd01_Ntl_Grass72/Wd01_Ntl_Grass172/Ntl_Grass172_xsc_cao04
-		Wd01_Ntl_Grass72/Wd01_Ntl_Grass172/Ntl_Grass172_xsc_huacao_03
-		Wd01_Ntl_Grass72/Wd01_Ntl_Grass172/Ntl_Grass172_xsc_huacao_03_1
 		Wd01_Ntl_Grass73/Wd01_Ntl_Grass73
 		Wd01_Ntl_Trees01/pxxg_shu_02 (1)/pxxg_shu_021
 		Wd01_Ntl_Trees01/pxxg_shu_02 (2)/pxxg_shu_021
@@ -1622,7 +1554,6 @@
 		Wd041_Ntl_Grass_Green10/Grass_Green10_ntl_xiaocao_01
 		Wd041_Ntl_Grass_Green10/Grass_Green10_ntl_xiaocao_02
 		Wd041_Ntl_Grass_Green10/Grass_Green10_xsc_cao01_003
-		Wd041_Ntl_Grass_Green11/Ntl_Grass_Green11_ntl_shugan_10
 		Wd041_Ntl_Grass_Green11/Ntl_Grass_Green11_ntl_xiaocao_01
 		Wd041_Ntl_Grass_Green11/Ntl_Grass_Green11_Ntl_xsc_grass01
 		Wd041_Ntl_Grass_Green11/Ntl_Grass_Green11_Ntl_zz_huaduo01
@@ -1700,13 +1631,11 @@
 		Wd041_Ntl_Grass_Green27/Ntl_Grass_Green27_ntl_shu_05
 		Wd041_Ntl_Grass_Green27/Ntl_Grass_Green27_ntl_shugan_03
 		Wd041_Ntl_Grass_Green27/Ntl_Grass_Green27_ntl_shugan_05
-		Wd041_Ntl_Grass_Green27/Ntl_Grass_Green27_Ntl_xsc_grass01
 		Wd041_Ntl_Grass_Green27/Ntl_Grass_Green27_xsc_cao01_003
 		Wd041_Ntl_Grass_Green27/Ntl_Grass_Green27_xsc_huacao_03
 		Wd041_Ntl_Grass_Green28/Ntl_Grass_Green28_ntl_hongteng_01_01
 		Wd041_Ntl_Grass_Green28/Ntl_Grass_Green28_ntl_huangcao_01
 		Wd041_Ntl_Grass_Green28/Ntl_Grass_Green28_ntl_shugan_04
-		Wd041_Ntl_Grass_Green28/Ntl_Grass_Green28_Ntl_xsc_grass01
 		Wd041_Ntl_Grass_Green28/Ntl_Grass_Green28_xsc_cao01_003
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_ntl_hongteng_01_01
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_ntl_huangcao_01
@@ -1715,7 +1644,6 @@
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_ntl_shugan_04
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_ntl_shugan_05
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_Ntl_xsc_grass01
-		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_Ntl_xsc_grass01_03
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_xsc_cao01_003
 		Wd041_Ntl_Grass_Green29/Ntl_Grass_Green29_xsc_huacao_03
 		Wd041_Ntl_Grass_Green30/Ntl_Grass_Green30_ntl_hongteng_01_01
@@ -1724,9 +1652,7 @@
 		Wd041_Ntl_Grass_Green30/Ntl_Grass_Green30_ntl_shugan_16
 		Wd041_Ntl_Grass_Green30/Ntl_Grass_Green30_ntl_shugan_16_1
 		Wd041_Ntl_Grass_Green30/Ntl_Grass_Green30_ntl_shugan_17
-		Wd041_Ntl_Grass_Green30/Ntl_Grass_Green30_Ntl_xsc_grass01_03
 		Wd041_Ntl_Grass_Green30/Ntl_Grass_Green30_xsc_cao01_003
-		Wd041_Ntl_Grass_Green31/Ntl_Grass_Green31_Ntl_xsc_grass01
 		Wd041_Ntl_Grass_Green31/Ntl_Grass_Green31_xsc_cao01_003
 		Wd041_Ntl_Grass_Oasis01/Grass_Oasis01_ntl_world_xiaocao02
 		Wd041_Ntl_Grass_Oasis01/Grass_Oasis01_ntl_xiaocao_02
@@ -2135,26 +2061,11 @@
 		Wd042_Ntl_Plants02/Ntl_Plants02_Ntl_Gnl_gy04
 		Wd042_Ntl_Plants02/Ntl_Plants02_ntl_lvshu_01
 		Wd042_Ntl_Plants02/Ntl_Plants02_ntl_shuteng_03
-		Wd042_Ntl_Trees01/ntl_guaishu_06 (5)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees01/ntl_guaishu_06 (6)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees01/ntl_guaishu_07 (1)/ntl_guaishu_07_02
-		Wd042_Ntl_Trees01/ntl_guaishu_07 (3)/ntl_guaishu_07_02
-		Wd042_Ntl_Trees01/ntl_guaishu_09 (2)/ntl_guaishu_09_02
-		Wd042_Ntl_Trees01/ntl_guaishu_09/ntl_guaishu_09_02
 		Wd042_Ntl_Trees01/ntl_plant_shugan03/ntl_plant_shugan03
 		Wd042_Ntl_Trees01/ntl_shu_19_05 (6)/ntl_shu_19_05_02
 		Wd042_Ntl_Trees01/ntl_shu_19_05 (7)/ntl_shu_19_05_02
 		Wd042_Ntl_Trees01/zz_shu_03_02 (1)/zz_shu_03_023
 		Wd042_Ntl_Trees01/zz_shu_03_02/zz_shu_03_023
-		Wd042_Ntl_Trees02/ntl_guaishu_06 (10)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees02/ntl_guaishu_06 (11)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees02/ntl_guaishu_06 (7)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees02/ntl_guaishu_06 (8)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees02/ntl_guaishu_06 (9)/ntl_guaishu_06_02
-		Wd042_Ntl_Trees02/ntl_guaishu_07 (4)/ntl_guaishu_07_02
-		Wd042_Ntl_Trees02/ntl_guaishu_08 (1)/ntl_guaishu_08_02
-		Wd042_Ntl_Trees02/ntl_guaishu_08 (2)/ntl_guaishu_08_02
-		Wd042_Ntl_Trees02/ntl_guaishu_09 (3)/ntl_guaishu_09_02
 		Wd042_Ntl_Trees02/ntl_shu_19_04 (1)/ntl_shu_19_04_02
 		Wd042_Ntl_Trees02/ntl_shu_19_04 (2)/ntl_shu_19_04_02
 		Wd042_Ntl_Trees02/ntl_shu_19_04 (3)/ntl_shu_19_04_02
@@ -2557,6 +2468,345 @@
 		Wd05_Ntl_Tree_19/ntl_yuanjingshu_01 (13)
 		Wd05_Ntl_Tree_19/ntl_yuanjingshu_02 (6)
 		Wd05_Ntl_Tree_19/ntl_yuanjingshu_02 (8)
+		wd06_02_bwsl_rock01/bwsl_rock01_ntl_shuteng_03
+		wd06_02_bwsl_rock02/bwsl_rock02_ntl_shuteng_03
+		wd06_02_bwsl_rock05/bwsl_rock05_ntl_shuteng_03
+		wd06_02_bwsl_rock06/bwsl_rock06_ntl_shuteng_03
+		wd06_02_mnzc_rock02/mnzc_rock02_ntl_shuteng_03
+		wd06_02_prop_yzh_yysl03/prop_yzh_yysl03_ntl_shugan_17
+		wd06_02_ygsl_rock01/ygsl_rock01_ntl_shuteng_03
+		wd06_02_ygsl_rock02/ygsl_rock02_ntl_shuteng_03
+		wd06_02_ygsl_rock03/ygsl_rock03_ntl_shuteng_03
+		wd06_02_ygsl_rock04/ygsl_rock04_ntl_shuteng_03
+		wd06_02_yqlssl_rock01/yqlssl_rock01_ntl_shuteng_03
+		wd06_02_yqlssl_rock04/yqlssl_rock04_ntl_shuteng_03
+		wd06_02_yqlssl_rock05/yqlssl_rock05_ntl_shuteng_03
+		wd06_02_yqlssl_rock07/yqlssl_rock07_ntl_shuteng_03
+		wd06_02_yzh_bwcx01/yzh_bwcx01_Ntl_Gnl_gy04
+		wd06_02_yzh_bwcx01/yzh_bwcx01_ntl_world_zhiwu_01
+		wd06_02_yzh_bwcx01/yzh_bwcx01_xsc_huacao_03
+		wd06_02_yzh_bwcx02/yzh_bwcx02_Ntl_Gnl_gy04
+		wd06_02_yzh_bwcx02/yzh_bwcx02_ntl_world_zhiwu_01
+		wd06_02_yzh_bwcx02/yzh_bwcx02_Ntl_zz_huaduo01
+		wd06_02_yzh_bwcx03/yzh_bwcx03_Ntl_Gnl_gy04
+		wd06_02_yzh_bwcx03/yzh_bwcx03_ntl_plant_guanmu_05
+		wd06_02_yzh_bwcx03/yzh_bwcx03_ntl_world_zhiwu_01
+		wd06_02_yzh_bwcx03/yzh_bwcx03_xsc_huacao_03
+		wd06_02_yzh_bwcx04/yzh_bwcx04_Ntl_Gnl_gy04
+		wd06_02_yzh_bwcx04/yzh_bwcx04_Ntl_Gnl_gy07
+		wd06_02_yzh_bwcx04/yzh_bwcx04_ntl_plant_guanmu_05
+		wd06_02_yzh_bwcx04/yzh_bwcx04_ntl_shu_08
+		wd06_02_yzh_bwcx04/yzh_bwcx04_ntl_shugan_05
+		wd06_02_yzh_bwcx04/yzh_bwcx04_ntl_xiaocao_01
+		wd06_02_yzh_bwcx04/yzh_bwcx04_Ntl_zz_huaduo04
+		wd06_02_yzh_bwcx04/yzh_bwcx04_zc_tengye_007
+		wd06_02_yzh_bwcx05/yzh_bwcx05_Ntl_Gnl_gy07
+		wd06_02_yzh_bwcx05/yzh_bwcx05_ntl_plant_guanmu_05
+		wd06_02_yzh_bwcx05/yzh_bwcx05_ntl_shu_08
+		wd06_02_yzh_bwcx05/yzh_bwcx05_ntl_shugan_05
+		wd06_02_yzh_bwcx05/yzh_bwcx05_Ntl_zz_huaduo04
+		wd06_02_yzh_bwcx05/yzh_bwcx05_zc_tengye_007
+		wd06_02_yzh_bwcx06/yzh_bwcx06_Ntl_Gnl_gy07
+		wd06_02_yzh_bwcx06/yzh_bwcx06_ntl_plant_guanmu_05
+		wd06_02_yzh_bwcx06/yzh_bwcx06_ntl_shu_08
+		wd06_02_yzh_bwcx06/yzh_bwcx06_ntl_shugan_05
+		wd06_02_yzh_bwcx06/yzh_bwcx06_xsc_huacao_03
+		wd06_02_yzh_bwcx06/yzh_bwcx06_zc_tengye_007
+		wd06_02_yzh_bwsl01/yzh_bwsl01_Ntl_Gnl_gy04
+		wd06_02_yzh_bwsl01/yzh_bwsl01_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl02/yzh_bwsl02_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl03/yzh_bwsl03_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl04/yzh_bwsl04_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl04/yzh_bwsl04_ntl_shu_08
+		wd06_02_yzh_bwsl04/yzh_bwsl04_ntl_shugan_05
+		wd06_02_yzh_bwsl04/yzh_bwsl04_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl04/yzh_bwsl04_xsc_huacao_03
+		wd06_02_yzh_bwsl04/yzh_bwsl04_zc_tengye_007
+		wd06_02_yzh_bwsl05/yzh_bwsl05_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl05/yzh_bwsl05_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl07/yzh_bwsl07_Ntl_Gnl_gy04
+		wd06_02_yzh_bwsl07/yzh_bwsl07_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl07/yzh_bwsl07_ntl_shu_08
+		wd06_02_yzh_bwsl07/yzh_bwsl07_ntl_shugan_05
+		wd06_02_yzh_bwsl07/yzh_bwsl07_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl07/yzh_bwsl07_xsc_huacao_03
+		wd06_02_yzh_bwsl07/yzh_bwsl07_zc_tengye_007
+		wd06_02_yzh_bwsl08/yzh_bwsl08_ntl_shu_08
+		wd06_02_yzh_bwsl08/yzh_bwsl08_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl08/yzh_bwsl08_xsc_huacao_03
+		wd06_02_yzh_bwsl08/yzh_bwsl08_zc_tengye_007
+		wd06_02_yzh_bwsl09/yzh_bwsl09_ntl_shugan_05
+		wd06_02_yzh_bwsl09/yzh_bwsl09_ntl_world_zhiwu_01
+		wd06_02_yzh_bwsl10/yzh_bwsl10_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl10/yzh_bwsl10_ntl_shugan_05
+		wd06_02_yzh_bwsl10/yzh_bwsl10_xsc_huacao_03
+		wd06_02_yzh_bwsl11/yzh_bwsl11_ntl_shu_05
+		wd06_02_yzh_bwsl11/yzh_bwsl11_ntl_shu_08
+		wd06_02_yzh_bwsl11/yzh_bwsl11_ntl_shugan_05
+		wd06_02_yzh_bwsl11/yzh_bwsl11_ntl_xiaocao_01
+		wd06_02_yzh_bwsl11/yzh_bwsl11_Ntl_zz_huaduo04
+		wd06_02_yzh_bwsl11/yzh_bwsl11_zc_tengye_007
+		wd06_02_yzh_bwsl12/yzh_bwsl12_Ntl_Gnl_gy04
+		wd06_02_yzh_bwsl12/yzh_bwsl12_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl12/yzh_bwsl12_ntl_shu_08
+		wd06_02_yzh_bwsl12/yzh_bwsl12_ntl_shugan_05
+		wd06_02_yzh_bwsl12/yzh_bwsl12_Ntl_zz_huaduo04
+		wd06_02_yzh_bwsl12/yzh_bwsl12_zc_tengye_007
+		wd06_02_yzh_bwsl13/yzh_bwsl13_Ntl_Gnl_gy04
+		wd06_02_yzh_bwsl13/yzh_bwsl13_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl13/yzh_bwsl13_ntl_shu_08
+		wd06_02_yzh_bwsl13/yzh_bwsl13_ntl_shugan_05
+		wd06_02_yzh_bwsl13/yzh_bwsl13_ntl_shugan_12
+		wd06_02_yzh_bwsl13/yzh_bwsl13_ntl_xiaocao_01
+		wd06_02_yzh_bwsl13/yzh_bwsl13_Ntl_zz_huaduo04
+		wd06_02_yzh_bwsl13/yzh_bwsl13_zc_tengye_007
+		wd06_02_yzh_bwsl14/yzh_bwsl14_Ntl_Gnl_gy04
+		wd06_02_yzh_bwsl14/yzh_bwsl14_ntl_shu_08
+		wd06_02_yzh_bwsl14/yzh_bwsl14_ntl_shugan_05
+		wd06_02_yzh_bwsl14/yzh_bwsl14_Ntl_zz_huaduo04
+		wd06_02_yzh_bwsl14/yzh_bwsl14_zc_tengye_007
+		wd06_02_yzh_bwsl15/yzh_bwsl15_Ntl_Gnl_gy07
+		wd06_02_yzh_bwsl15/yzh_bwsl15_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl15/yzh_bwsl15_ntl_shu_08
+		wd06_02_yzh_bwsl15/yzh_bwsl15_ntl_shugan_05
+		wd06_02_yzh_bwsl15/yzh_bwsl15_zc_tengye_007
+		wd06_02_yzh_bwsl16/yzh_bwsl16_ntl_plant_guanmu_05
+		wd06_02_yzh_bwsl16/yzh_bwsl16_ntl_shu_08
+		wd06_02_yzh_bwsl16/yzh_bwsl16_ntl_shugan_05
+		wd06_02_yzh_bwsl16/yzh_bwsl16_Ntl_zz_huaduo04
+		wd06_02_yzh_bwsl16/yzh_bwsl16_zc_tengye_007
+		wd06_02_yzh_gm_bwcx01/yzh_gm_bwcx01_ntl_yuanjingshu
+		wd06_02_yzh_gm_bwcx02/yzh_gm_bwcx02_ntl_yuanjingshu
+		wd06_02_yzh_gm_bwsl01/yzh_gm_bwsl01_ntl_yuanjingshu
+		wd06_02_yzh_gm_bwsl02/yzh_gm_bwsl02_ntl_yuanjingshu
+		wd06_02_yzh_gm_mnzc01/yzh_gm_mnzc01_ntl_ylz_shuzhi_01
+		wd06_02_yzh_gm_mnzc02/yzh_gm_mnzc02_ntl_ylz_shuzhi_01
+		wd06_02_yzh_gm_xysl02/yzh_gm_xysl02_ntl_yuanjingshu
+		wd06_02_yzh_gm_xysl03/yzh_gm_xysl03_ntl_yuanjingshu
+		wd06_02_yzh_gm_xysl04/yzh_gm_xysl04_ntl_ylz_shuzhi_01
+		wd06_02_yzh_gm_xysl04/yzh_gm_xysl04_ntl_yuanjingshu
+		wd06_02_yzh_gm_yglssl01/yzh_gm_yglssl01_ntl_yuanjingshu
+		wd06_02_yzh_gm_yglssl03/yzh_gm_yglssl03_ntl_yuanjingshu
+		wd06_02_yzh_gm_yglssl04/yzh_gm_yglssl04_ntl_yuanjingshu
+		wd06_02_yzh_gm_yglssl05/yzh_gm_yglssl05_ntl_yuanjingshu
+		wd06_02_yzh_gm_yglssl06/yzh_gm_yglssl06_ntl_yuanjingshu
+		wd06_02_yzh_mnzc01/yzh_mnzc01_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc01/yzh_mnzc01_ntl_world_zhiwu_01
+		wd06_02_yzh_mnzc01/yzh_mnzc01_xsc_cao01_00
+		wd06_02_yzh_mnzc02/yzh_mnzc02_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc02/yzh_mnzc02_xsc_cao01_00
+		wd06_02_yzh_mnzc03/yzh_mnzc03_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc03/yzh_mnzc03_xsc_cao01_00
+		wd06_02_yzh_mnzc04/yzh_mnzc04_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc04/yzh_mnzc04_xsc_cao01_00
+		wd06_02_yzh_mnzc05/yzh_mnzc05_ntl_gnl_gy04
+		wd06_02_yzh_mnzc05/yzh_mnzc05_ntl_shu_04
+		wd06_02_yzh_mnzc05/yzh_mnzc05_ntl_shugan_02
+		wd06_02_yzh_mnzc05/yzh_mnzc05_ntl_shugan_03
+		wd06_02_yzh_mnzc05/yzh_mnzc05_ntl_ylz_xgrass_01
+		wd06_02_yzh_mnzc05/yzh_mnzc05_ntl_zz_huaduo01
+		wd06_02_yzh_mnzc05/yzh_mnzc05_xsc_cao01_00
+		wd06_02_yzh_mnzc05/yzh_mnzc05_zc_tengye_001
+		wd06_02_yzh_mnzc06/yzh_mnzc06_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc06/yzh_mnzc06_ntl_shugan_05
+		wd06_02_yzh_mnzc06/yzh_mnzc06_xsc_cao01_00
+		wd06_02_yzh_mnzc07/yzh_mnzc07_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc07/yzh_mnzc07_xsc_cao01_00
+		wd06_02_yzh_mnzc08/yzh_mnzc08_Ntl_Gnl_gy04
+		wd06_02_yzh_mnzc08/yzh_mnzc08_xsc_cao01_00
+		wd06_02_yzh_yglssl01/yzh_yglssl01_Ntl_Gnl_gy06
+		wd06_02_yzh_yglssl01/yzh_yglssl01_ntl_hongteng_01
+		wd06_02_yzh_yglssl01/yzh_yglssl01_ntl_shu_05
+		wd06_02_yzh_yglssl01/yzh_yglssl01_ntl_shu_08
+		wd06_02_yzh_yglssl01/yzh_yglssl01_ntl_shugan_05
+		wd06_02_yzh_yglssl01/yzh_yglssl01_zc_tengye_007
+		wd06_02_yzh_yglssl02/yzh_yglssl02_Ntl_Gnl_gy06
+		wd06_02_yzh_yglssl02/yzh_yglssl02_ntl_hongteng_01
+		wd06_02_yzh_yglssl02/yzh_yglssl02_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl02/yzh_yglssl02_ntl_shu_08
+		wd06_02_yzh_yglssl02/yzh_yglssl02_ntl_shugan_05
+		wd06_02_yzh_yglssl04/yzh_yglssl04_ntl_shu_08
+		wd06_02_yzh_yglssl04/yzh_yglssl04_ntl_shugan_05
+		wd06_02_yzh_yglssl04/yzh_yglssl04_ntl_xiaocao_01
+		wd06_02_yzh_yglssl05/yzh_yglssl05_ntl_shu_08
+		wd06_02_yzh_yglssl05/yzh_yglssl05_ntl_shugan_05
+		wd06_02_yzh_yglssl06/yzh_yglssl06_Ntl_Gnl_gy02
+		wd06_02_yzh_yglssl06/yzh_yglssl06_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl07/yzh_yglssl07_Ntl_Gnl_gy02
+		wd06_02_yzh_yglssl07/yzh_yglssl07_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl07/yzh_yglssl07_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl08/yzh_yglssl08_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl08/yzh_yglssl08_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl09/yzh_yglssl09_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl10/yzh_yglssl10_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl10/yzh_yglssl10_ntl_shu_08
+		wd06_02_yzh_yglssl10/yzh_yglssl10_ntl_shugan_05
+		wd06_02_yzh_yglssl10/yzh_yglssl10_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl10/yzh_yglssl10_zc_tengye_007
+		wd06_02_yzh_yglssl11/yzh_yglssl11_ntl_shu_08
+		wd06_02_yzh_yglssl11/yzh_yglssl11_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl11/yzh_yglssl11_zc_tengye_007
+		wd06_02_yzh_yglssl12/yzh_yglssl12_Ntl_Gnl_gy02
+		wd06_02_yzh_yglssl12/yzh_yglssl12_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl12/yzh_yglssl12_ntl_shugan_05
+		wd06_02_yzh_yglssl12/yzh_yglssl12_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl13/yzh_yglssl13_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl13/yzh_yglssl13_ntl_shu_08
+		wd06_02_yzh_yglssl13/yzh_yglssl13_ntl_shugan_05
+		wd06_02_yzh_yglssl13/yzh_yglssl13_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl13/yzh_yglssl13_zc_tengye_007
+		wd06_02_yzh_yglssl14/yzh_yglssl14_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl15/yzh_yglssl15_Ntl_Gnl_gy02
+		wd06_02_yzh_yglssl15/yzh_yglssl15_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl15/yzh_yglssl15_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl16/yzh_yglssl16_ntl_shu_08
+		wd06_02_yzh_yglssl16/yzh_yglssl16_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl16/yzh_yglssl16_zc_tengye_007
+		wd06_02_yzh_yglssl17/yzh_yglssl17_ntl_shu_04
+		wd06_02_yzh_yglssl17/yzh_yglssl17_ntl_shugan_03
+		wd06_02_yzh_yglssl17/yzh_yglssl17_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl17/yzh_yglssl17_ntl_ylz_xgrass_01
+		wd06_02_yzh_yglssl17/yzh_yglssl17_ntl_zz_huaduo01
+		wd06_02_yzh_yglssl17/yzh_yglssl17_zc_tengye_001
+		wd06_02_yzh_yglssl18/yzh_yglssl18_Ntl_Gnl_gy02
+		wd06_02_yzh_yglssl18/yzh_yglssl18_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl19/yzh_yglssl19_Ntl_Gnl_gy02
+		wd06_02_yzh_yglssl19/yzh_yglssl19_ntl_shu_08
+		wd06_02_yzh_yglssl19/yzh_yglssl19_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl20/yzh_yglssl20_ntl_plant_guanmu_05
+		wd06_02_yzh_yglssl20/yzh_yglssl20_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl21/yzh_yglssl21_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl22/yzh_yglssl22_Ntl_Gnl_gy04
+		wd06_02_yzh_yglssl22/yzh_yglssl22_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl23/yzh_yglssl23_Ntl_Gnl_gy04
+		wd06_02_yzh_yglssl23/yzh_yglssl23_Ntl_Gnl_gy06
+		wd06_02_yzh_yglssl23/yzh_yglssl23_ntl_lvzhi_01
+		wd06_02_yzh_yglssl23/yzh_yglssl23_ntl_shugan_05
+		wd06_02_yzh_yglssl23/yzh_yglssl23_ntl_world_zhiwu_01
+		wd06_02_yzh_yglssl24/yzh_yglssl24_Ntl_Gnl_gy04
+		wd06_02_yzh_yglssl24/yzh_yglssl24_ntl_shugan_05
+		wd06_02_yzh_yglssl25/yzh_yglssl25_ntl_shu_08
+		wd06_02_yzh_yglssl25/yzh_yglssl25_ntl_shugan_05
+		wd06_02_yzh_yglssl25/yzh_yglssl25_zc_tengye_007
+		wd06_02_yzh_yglssl26/yzh_yglssl26_ntl_shu_08
+		wd06_02_yzh_yglssl26/yzh_yglssl26_ntl_shugan_05
+		wd06_02_yzh_yglssl26/yzh_yglssl26_zc_tengye_007
+		wd06_02_yzh_yglssl27/yzh_yglssl27_Ntl_Gnl_gy04
+		wd06_02_yzh_yglssl27/yzh_yglssl27_Ntl_Gnl_gy05_FixKd
+		wd06_02_yzh_yglssl27/yzh_yglssl27_ntl_shu_05
+		wd06_02_yzh_yglssl27/yzh_yglssl27_ntl_shu_08
+		wd06_02_yzh_yglssl27/yzh_yglssl27_ntl_xiaocao_01
+		wd06_02_yzh_yglssl27/yzh_yglssl27_Ntl_zz_huaduo04
+		wd06_02_yzh_yglssl27/yzh_yglssl27_zc_tengye_007
+		wd06_02_yzh_yglssl28/yzh_yglssl28_Ntl_Gnl_gy04
+		wd06_02_yzh_yglssl28/yzh_yglssl28_ntl_shu_08
+		wd06_02_yzh_yglssl28/yzh_yglssl28_ntl_shugan_05
+		wd06_02_yzh_yglssl28/yzh_yglssl28_Ntl_zz_huaduo04
+		wd06_02_yzh_yglssl28/yzh_yglssl28_zc_tengye_007
+		wd06_02_yzh_yxsl01/yzh_yxsl01_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl02/yzh_yxsl02_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl02/yzh_yxsl02_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl02/yzh_yxsl02_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl03/yzh_yxsl03_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl03/yzh_yxsl03_ntl_shu_08
+		wd06_02_yzh_yxsl03/yzh_yxsl03_ntl_shugan_05
+		wd06_02_yzh_yxsl03/yzh_yxsl03_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl03/yzh_yxsl03_zc_tengye_007
+		wd06_02_yzh_yxsl05/yzh_yxsl05_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl05/yzh_yxsl05_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl06/yzh_yxsl06_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl06/yzh_yxsl06_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl06/yzh_yxsl06_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl06/yzh_yxsl06_ntl_shu_08
+		wd06_02_yzh_yxsl06/yzh_yxsl06_ntl_shugan_05
+		wd06_02_yzh_yxsl06/yzh_yxsl06_zc_tengye_007
+		wd06_02_yzh_yxsl07/yzh_yxsl07_ntl_plant_shuyeheji
+		wd06_02_yzh_yxsl07/yzh_yxsl07_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl07/yzh_yxsl07_Ntl_zz_huaduo01
+		wd06_02_yzh_yxsl08/yzh_yxsl08_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl09/yzh_yxsl09_ntl_shugan_05
+		wd06_02_yzh_yxsl10/yzh_yxsl10_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl10/yzh_yxsl10_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl11/yzh_yxsl11_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl11/yzh_yxsl11_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl11/yzh_yxsl11_ntl_shu_08
+		wd06_02_yzh_yxsl11/yzh_yxsl11_ntl_shugan_05
+		wd06_02_yzh_yxsl11/yzh_yxsl11_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl11/yzh_yxsl11_zc_tengye_007
+		wd06_02_yzh_yxsl12/yzh_yxsl12_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl12/yzh_yxsl12_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl13/yzh_yxsl13_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl13/yzh_yxsl13_ntl_shu_08
+		wd06_02_yzh_yxsl13/yzh_yxsl13_ntl_shugan_05
+		wd06_02_yzh_yxsl13/yzh_yxsl13_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl13/yzh_yxsl13_zc_tengye_007
+		wd06_02_yzh_yxsl14/yzh_yxsl14_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl14/yzh_yxsl14_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl14/yzh_yxsl14_ntl_shu_08
+		wd06_02_yzh_yxsl14/yzh_yxsl14_ntl_shugan_05
+		wd06_02_yzh_yxsl14/yzh_yxsl14_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl14/yzh_yxsl14_Ntl_zz_huaduo01
+		wd06_02_yzh_yxsl14/yzh_yxsl14_zc_tengye_007
+		wd06_02_yzh_yxsl15/yzh_yxsl15_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl15/yzh_yxsl15_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl16/yzh_yxsl16_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl16/yzh_yxsl16_ntl_shu_08
+		wd06_02_yzh_yxsl16/yzh_yxsl16_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl16/yzh_yxsl16_Ntl_zz_huaduo01
+		wd06_02_yzh_yxsl16/yzh_yxsl16_zc_tengye_007
+		wd06_02_yzh_yxsl17/yzh_yxsl17_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl17/yzh_yxsl17_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl17/yzh_yxsl17_ntl_shu_08
+		wd06_02_yzh_yxsl17/yzh_yxsl17_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl17/yzh_yxsl17_Ntl_zz_huaduo01
+		wd06_02_yzh_yxsl17/yzh_yxsl17_zc_tengye_007
+		wd06_02_yzh_yxsl18/yzh_yxsl18_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl18/yzh_yxsl18_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl18/yzh_yxsl18_ntl_shu_08
+		wd06_02_yzh_yxsl18/yzh_yxsl18_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl18/yzh_yxsl18_zc_tengye_007
+		wd06_02_yzh_yxsl19/yzh_yxsl19_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl19/yzh_yxsl19_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl19/yzh_yxsl19_ntl_shu_08
+		wd06_02_yzh_yxsl19/yzh_yxsl19_ntl_shugan_05
+		wd06_02_yzh_yxsl19/yzh_yxsl19_zc_tengye_007
+		wd06_02_yzh_yxsl20/yzh_yxsl20_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl20/yzh_yxsl20_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl20/yzh_yxsl20_ntl_shu_08
+		wd06_02_yzh_yxsl20/yzh_yxsl20_ntl_shugan_05
+		wd06_02_yzh_yxsl20/yzh_yxsl20_zc_tengye_007
+		wd06_02_yzh_yxsl21/yzh_yxsl21_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl21/yzh_yxsl21_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl21/yzh_yxsl21_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl21/yzh_yxsl21_ntl_shu_08
+		wd06_02_yzh_yxsl21/yzh_yxsl21_ntl_shugan_05
+		wd06_02_yzh_yxsl21/yzh_yxsl21_zc_tengye_007
+		wd06_02_yzh_yxsl22/yzh_yxsl22_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl22/yzh_yxsl22_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl22/yzh_yxsl22_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl22/yzh_yxsl22_ntl_shu_08
+		wd06_02_yzh_yxsl22/yzh_yxsl22_ntl_shugan_05
+		wd06_02_yzh_yxsl22/yzh_yxsl22_zc_tengye_007
+		wd06_02_yzh_yxsl23/yzh_yxsl23_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl23/yzh_yxsl23_Ntl_Gnl_gy07
+		wd06_02_yzh_yxsl23/yzh_yxsl23_ntl_shu_08
+		wd06_02_yzh_yxsl23/yzh_yxsl23_ntl_shugan_05
+		wd06_02_yzh_yxsl23/yzh_yxsl23_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl23/yzh_yxsl23_zc_tengye_007
+		wd06_02_yzh_yxsl24/yzh_yxsl24_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl24/yzh_yxsl24_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl24/yzh_yxsl24_ntl_shugan_05
+		wd06_02_yzh_yxsl24/yzh_yxsl24_ntl_world_zhiwu_01
+		wd06_02_yzh_yxsl25/yzh_yxsl25_Ntl_Gnl_gy04
+		wd06_02_yzh_yxsl25/yzh_yxsl25_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl25/yzh_yxsl25_ntl_shu_08
+		wd06_02_yzh_yxsl25/yzh_yxsl25_ntl_shugan_05
+		wd06_02_yzh_yxsl25/yzh_yxsl25_ntl_xiaocao_01
+		wd06_02_yzh_yxsl25/yzh_yxsl25_Ntl_zz_huaduo04
+		wd06_02_yzh_yxsl25/yzh_yxsl25_zc_tengye_007
+		wd06_02_yzh_yxsl26/yzh_yxsl26_ntl_plant_guanmu_05
+		wd06_02_yzh_yxsl26/yzh_yxsl26_ntl_shu_08
+		wd06_02_yzh_yxsl26/yzh_yxsl26_zc_tengye_007
 		wd06_ntl_bblw_grass01/bblw_grass01_ntl_world_zhiwu_01
 		wd06_ntl_bblw_grass01/bblw_grass01_ntl_xiaocao_02
 		wd06_ntl_bblw_grass01/bblw_grass01_xsc_cao01_00

@@ -7,6 +7,9 @@
 		kasitanikejiefei_skill01_c_fly/feiren/bishou_0000
 		kemolaxia_luoyan/baozha/baozha/dimian/shanguang 1/shikuai
 		liexishuijing_stand/liexishuijing/crystal/Particle System (9)
+		nanguamoou_skill03_b_c_body/gun/Particle System
+		nanguamoou_skill03_b_c_body/gun/Particle System (1)
+		nanguamoou_skill03_b_c_body/gun/Particle System (2)
 		passive_huo_chixuranshao/shitou
 		passive_huo_rongyanchi/passive_huo_rongyanchi/M_dilie1
 		passive_huo_runshibaozha/shitou
@@ -14,9 +17,11 @@
 		scene_taotaishilian_fuwei01_high/fuwen
 		scene_taotaishilian_fuwei02_high/fuwen
 		scene_taotaishilian_fuwei03_high/fuwen
+		scene_taotaishilian_fuwei03_high_new/fuwen
 		scene_taotaishilian_guangshu/fuwen_blend
 		ui_3v3siwang/pian1-16
 		Wd02_Fx_river01/wd02_water_05 (1)/wd02_water_05 (2)
+		wuweizhanchang_huoyan/huoqiang/huoqiang01/banyuan_alpha_bian
 		xuesebaojun_skill04_c_dizhenqilang/qilang/huan/alipriest_f_skill06_sghx
 		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L0/jiguang/jiguangzhuti/shizipian1-5 (1)
 		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L3/jiguang/jiguangzhuti/shizipian1-5 (1)

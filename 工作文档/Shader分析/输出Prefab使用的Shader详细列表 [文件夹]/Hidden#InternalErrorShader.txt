@@ -1,3 +1,2 @@
 ﻿Hidden/InternalErrorShader
-		Dungn00_EmpireRelicPrologue_01/Dungn00_EmpireRelicPrologue_01/empireeelicprologue_01_dn06_empirerelic_terrain
-		wuya/wuya
+		Cube

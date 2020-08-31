@@ -23,6 +23,8 @@
 		pet_baige/pet_baige
 		pet_fuerpeilun/Object006
 		pet_gangtietuoniao/kangtietuoniao
+		pet_huanlinglong/huanlinglong
+		pet_huanlinglong_3/pet_huanlinglong_3
 		pet_jiaqiaojijuxie/pet_jiaqiaojijuxie
 		pet_leilongbaobao/body
 		pet_liulangshangrenaila/pet_liulangshangrenaila000
@@ -32,16 +34,14 @@
 		pet_nushi/pet_nushi
 		pet_penqichaiquan/pet_penqichaiquan
 		pet_sishenakusi/sishenakusi
+		pet_tanchilong/pet_tanchilong
 		pet_tilaniya/pet_tilaniya
 		pet_wangzhuayouhun/pet_wangzhuayouhun
 		pet_xiangrikuisali/pet_xiangrikuisali
 		pet_xiaobailang/pet_xiaobailang
 		pet_xiaoemo/pet_xiaoemo
+		pet_xibumaozai/pet_xibumaozai
 		pet_xueshizhe/pet_xueshizhe01
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/KULOU /kulou
-		scene_zudang_boss 1 1/scene_zudang_boss 1 1/KULOU /kulou_xiahe
-		scene_zudang_boss 1/scene_zudang_boss 1/KULOU /kulou
-		scene_zudang_boss 1/scene_zudang_boss 1/KULOU /kulou_xiahe
 		scene_zudang_boss/scene_zudang_boss/KULOU /kulou
 		scene_zudang_boss/scene_zudang_boss/KULOU /kulou_xiahe
 		scene_zudang_boss_1/scene_zudang_boss 1/KULOU /kulou

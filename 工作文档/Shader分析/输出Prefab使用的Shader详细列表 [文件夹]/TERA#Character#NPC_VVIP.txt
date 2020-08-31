@@ -1,10 +1,13 @@
 ﻿TERA/Character/NPC_VVIP
 		ailinnvwang/ailinnvwang
+		ailinushilianzhe/ailinushilianzhe
 		ailisha/ailisha
 		alekunpozhenzhe/alekunpozhenzhe
 		alekunsuitiezhe/alekunsuitiezhe
+		alingongzhu/ailingongzhu
 		beizuzhoudechuniang/beizuzhoudechuniang
 		bobolihaitong1/bobolihaitong1
+		boboliqishituan/boboliqishituan
 		bobolishangren/bobolishangren
 		bobolishoubeijun/bobolishoubeijun
 		bobolizhenmin1/bobolizhenmin1
@@ -12,20 +15,33 @@
 		chuizihuokacuncunzhanglulukajin/chuizihuokacuncunzhanglulukajin
 		chuizihuokacuncunzhanglulukajin2/chuizihuokacuncunzhanglulukajin
 		chuizihuokacuncunzhanglulukajin3/chuizihuokacuncunzhanglulukajin
+		dashumiao/juzhuangshuyao
+		dijingdawanggeluomo/dijingdawanggeluomo
 		fanbeierbojuefuren/fanbeierbojuefuren
 		fanbeiernvjue/fanbeierbojuefuren
 		fengzhijisishouling/fengzhijisi
 		gelumoshilianzhe/gelumoshilianzhe
 		gonghuiguanliyuan/gonghuiguanliyuan
 		haiguzhiwang/haiguzhiwang
+		hailate/hailate
+		hailaterenxing/hailaterenxing
 		hetijibianguai/hetijibianguai
+		huajibobolishoubeijun/bobolishoubeijun
+		huzhizhudenupu/huzhizhudenupu
 		jianshitongling/jianshitongling
 		jingshijuren/jingshijuren
+		jumo/jumo
+		jumochoujue/jumochoujue
+		jumuguaixing/zhongshumiao
+		juzhuangshuyao/juzhuangshuyao
 		kakalong/kakalong
 		kalantujidui/kalantujidui
 		kalasishouhuzhe/kalasishouhuzhe
 		laiangkeneixiaojie/laiangkeneixiaojie
+		lang/lang
+		litagongzhu/litagongzhu
 		lunaailin/lunaailin
+		luokejisizhang/luokejisizhang
 		luxinghuimiezhe_zibaodanwei_baozha/zibaodanwei_posui/zibaodanwei_frag_001_frag_001
 		luxinghuimiezhe_zibaodanwei_baozha/zibaodanwei_posui/zibaodanwei_frag_001_frag_002
 		luxinghuimiezhe_zibaodanwei_baozha/zibaodanwei_posui/zibaodanwei_frag_001_frag_003
@@ -57,9 +73,14 @@
 		luxinghuimiezhe_zibaodanwei_baozha/zibaodanwei_posui/zibaodanwei_frag_017
 		luxinghuimiezhe_zibaodanwei_baozha/zibaodanwei_posui/zibaodanwei_frag_018
 		luxinghuimiezhe_zibaodanwei_baozha/zibaodanwei_posui/zibaodanwei_frag_019
+		monvxueyuanjiaoyuan/monvxueyuanjiaoyuan
+		nanguadead
+		nanguamoou/nanguamoou_weapons
+		nanguamoou/Object002
 		qiangbingtongling/qiangbingtongling001
 		qiaonasen/qiaonasen
 		saibolusi/saibolusi
+		shijiuchoujue/shijiuchoujue
 		shinv/shinv
 		shushitongling/shushitongling
 		sikala/sikala
@@ -67,9 +88,14 @@
 		talannanjue2/talannanjue
 		wendigesaman/wendigesaman
 		wennisha/wennisha
+		xiannvjiaomu/xiannvjiaomu
 		xinbulaien/bulaien
 		xinbulaien_run/bulaien
 		xueshouaidiang/xueshouaidiang
 		yamijiduodun/yamijiduodun
 		yihuagudaiyijijushou/gudaiyijijushou
+		zhadanjumo/zhadanjumo
+		zhadanjumo_new/zhadanjumo
+		zhadanjumo_zhadan/jumo_zhadan
 		zhizhengguan/zhizhengguan
+		zhongshumiao/zhongshumiao

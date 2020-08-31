@@ -3,6 +3,7 @@
 		Ct01_LF_Grokcs_Port/Fx_ct01_waterplane_cave
 		Ct02_fx_waterbase/AQUASWater (4)
 		Dn_pvp01_Guildbase/Fx_Water/Fx_GuildbaseWater01
+		dungn00_irene01/Objects/dungn00_Irene02_water
 		Dungn00_Throne01/dungn00_throne01_scenes_01_water
 		Dungn00_Throne01/dungn00_throne01_scenes_01_water03
 		Dungn03_QXGJ01/water_plane/Dn03_waterplane
@@ -42,3 +43,5 @@
 		Wd05_fx_river04/world05_water06
 		Wd05_fx_sea/Water_Wd05_Sea01
 		wd06_build_yyxk_01/Plane
+		world06_water/world06_water_01
+		world06_water/world06_water_02

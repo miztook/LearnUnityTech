@@ -26,7 +26,7 @@
 		Dn_pvp02_Arena01/Dn_pvp02_Decalbase
 		Dn_pvp04_Palace01/Dn_pvp04_Palace_decalbase
 		Dungn00_EmpireRelicPrologue/Preload/dungn00_decalbase01
-		Dungn00_EmpireRelicPrologue_01/Dn00_decalbase
+		dungn00_irene01/Objects/Dungn00_Irene01_decalbase
 		Dungn01_Rins01/Dn01_Decalbase
 		Dungn02_Cave01/3DObjects_Du02/Dn02_Decalbase
 		Dungn03_QXGJ01/Dn03_Decalbase
@@ -38,6 +38,19 @@
 		Dungn07_Mansion01/Fx/Dungn07_decalbase/Dungn07_decalbase03
 		Dungn07_Mansion01/Fx/Dungn07_decalbase/Dungn07_decalbase04
 		Dungn07_Mansion01/Fx/Dungn07_decalbase/Dungn07_decalbase05
+		Dungn08_Sorceres01/Objects/dungn08_sorceres_decalbase
+		fx04 (1)/wd06_decalbase_06
+		fx04 (10)/wd06_decalbase_04
+		fx04 (2)/wd06_decalbase_05
+		fx04 (3)/wd06_decalbase_01
+		fx04 (4)/wd06_decalbase_03
+		fx04 (5)/wd06_decalbase_07
+		fx04 (5)/wd06_decalbase_08
+		fx04 (5)/wd06_decalbase_09
+		fx04 (6)/wd06_decalbase_10
+		fx04 (7)/wd06_decalbase_11
+		fx04 (7)/wd06_decalbase_12
+		fx04 (7)/wd06_decalbase_13
 		Wd01_Build_glz03/World01_DecalBase3
 		Wd01_Build_glz04/World01_DecalBase4
 		Wd01_Build_glz05/World01_DecalBase1
@@ -120,3 +133,4 @@
 		Wd05_fx08/World05_Decalbase09
 		Wd05_fx09/World05_Decalbase11
 		Wd05_fx10/World05_Decalbase13
+		wd06_build_dbcz_01/wd06_decalbase_02

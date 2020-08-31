@@ -1,0 +1,2 @@
+﻿TERA/Environment/glasstest
+		Dungn08_Sorceres01/Objects/build_dn08_sorceres01/dn08_sorceres01_boli01

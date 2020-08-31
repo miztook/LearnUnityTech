@@ -133,6 +133,7 @@
 		wennishadehaiguzhiqiang/wennishadehaiguzhiqiang
 		wumubaoshi/anyingshibao
 		wuranzhe/wuranzhe
+		wuya/wuya
 		xiaojingling/xiaojingling
 		xiaojingling2/xiaojingling
 		xikanjisi/xikanjisi

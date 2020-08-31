@@ -60,3 +60,4 @@
 		yisilianshilianzhe_skill03_c_c_shexian/yisilianshilianzhe_skill03_c_c_shexian_L3/DistortExplosion
 		yisilianshilianzhe_skill03_c_c_shexian_L3/yisilianshilianzhe_skill03_c_c_shexian_L3/DistortExplosion
 		yuansufudiao_die_c_baozha/baozha/DistortExplosion
+		zhadanjumo_baozha/position/explsion/DistortExplosion

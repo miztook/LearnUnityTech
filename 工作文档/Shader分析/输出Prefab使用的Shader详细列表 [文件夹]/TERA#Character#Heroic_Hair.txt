@@ -21,6 +21,8 @@
 		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Castanic_M_Hair00
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create/hair
 		CreatCharacter_5/Job5/MainAnimator/Character/CharacterRoot/alilancer_f_create_CG/alilancer_f_hair00
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create/hair
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Castanic_M_Hair00
 		humwarrior_m_head_baolishetuan
 		humwarrior_m_head_baolishetuan_red
 		humwarrior_m_head_shengdanmao
@@ -31,4 +33,3 @@
 		sprarcher_fhair
 		tiejiangpunvtiejiang/nvtiejiang
 		UIScene_Blacksmith/Scene/tiejiangpunvtiejiang/nvtiejiang
-		UIScene_Blacksmith_old/Character/nvtiejiang/nvtiejiang

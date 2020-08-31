@@ -76,6 +76,7 @@
 		alipreist_f_lv06_adv_R_weapon_AlekunSP/alipreist_f_lv06_adv_R_weapon_AlekunSP/alipreist_f_lv06_adv_R_weapon_AlekunSP_effect
 		alipreist_f_lv06_nor_R_weapon_02/outside/liuguang_01 (1)
 		alipreist_f_lv07_adv_R_weapon_02/outside/liuguang_01 (1)
+		alipreist_f_lv07_L_nor_R_weapon_02/outside/liuguang_01 (1)
 		alipreist_f_lv07_nor_R_weapon_02/outside/liuguang_01 (1)
 		alipreist_f_lv07_nor_R_weapon_03/outside/liuguang_01
 		alipreist_f_lv07_sup_R_weapon_02/outside/liuguang_01 (1)
@@ -150,6 +151,9 @@
 		casassassin_m_lv07_adv_L_weapon_03/position/middle
 		casassassin_m_lv07_adv_R_weapon_02/position/middle
 		casassassin_m_lv07_adv_R_weapon_03/position/middle
+		casassassin_m_lv07_H_nor_R_weapon_01/baoshi (8)
+		casassassin_m_lv07_H_nor_R_weapon_02/baoshi (8)
+		casassassin_m_lv07_L_nor_R_weapon_02/position/middle
 		casassassin_m_lv07_nor_L_weapon_02/position/middle
 		casassassin_m_lv07_nor_L_weapon_03/position/middle
 		casassassin_m_lv07_nor_R_weapon_02/position/middle
@@ -181,6 +185,11 @@
 		humwarrior_m_lv06_nor_R_weapon_02/middle
 		humwarrior_m_lv07_adv_R_weapon_02/middle
 		humwarrior_m_lv07_adv_R_weapon_03/middle
+		humwarrior_m_lv07_H_nor_R_weapon_01/bianyuanliang
+		humwarrior_m_lv07_H_nor_R_weapon_01/liuguanghei (2)
+		humwarrior_m_lv07_H_nor_R_weapon_02/bianyuanliang
+		humwarrior_m_lv07_H_nor_R_weapon_02/liuguanghei (4)
+		humwarrior_m_lv07_L_nor_R_weapon_02/middle
 		humwarrior_m_lv07_nor_R_weapon_02/middle
 		humwarrior_m_lv07_nor_R_weapon_03/middle
 		humwarrior_m_lv07_sup_R_weapon_02/middle
@@ -201,6 +210,12 @@
 		sprarcher_f_lv06_nor_L_weapon_02/liuguang/T_sprarcher_f_lv05_adv_L_weapon_02_add_hdx
 		sprarcher_f_lv07_adv_L_weapon_02/liuguang/middle (1)
 		sprarcher_f_lv07_adv_L_weapon_03/liuguang/middle (1)
+		sprarcher_f_lv07_H_nor_L_weapon_01/waifaguang (1)
+		sprarcher_f_lv07_H_nor_L_weapon_01/waifaguang (10)
+		sprarcher_f_lv07_H_nor_L_weapon_02/waifaguang (1)
+		sprarcher_f_lv07_H_nor_L_weapon_02/waifaguang (10)
+		sprarcher_f_lv07_L_nor_L_weapon_01/liuguang/sprarcher_f_lv07_L_nor_L_weapon_02_add_hdx
+		sprarcher_f_lv07_L_nor_L_weapon_02/liuguang/T_sprarcher_f_lv05_adv_L_weapon_02_add_hdx
 		sprarcher_f_lv07_nor_L_weapon_02/liuguang (1)
 		sprarcher_f_lv07_nor_L_weapon_03/liuguang
 		sprarcher_f_lv07_sup_L_weapon_01/outside/liuguang_01 (1)

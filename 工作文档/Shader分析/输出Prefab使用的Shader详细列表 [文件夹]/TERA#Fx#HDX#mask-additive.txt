@@ -442,6 +442,7 @@
 		CreatCharacter_5/Job5/MainAnimator/BGAnimator/creat_alipriest_cg_scene_window/window01
 		CreatCharacter_5/Job5/MainAnimator/BGAnimator/creat_alipriest_cg_scene_window/window02
 		CreatCharacter_5/Job5/MainAnimator/BGAnimator/creat_alipriest_cg_scene_window/window03
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/create_casassassin_CG_scene_effect/liuguang/Login_Creat_BGcas_fx (1)
 		Dwennisha_skill04_c_nengliangbo/jiaodi/guangquan
 		Dwennisha_skill04_c_nengliangbo/jiaodi/guangquan (1)
 		etc_shenzhishijie_jinru_test/lizi/glow (2)
@@ -460,6 +461,7 @@
 		mine_qita_fanbeierfazhen_xiaoshi/rotation01/ring01
 		mine_qita_fanbeierfazhen_xiaoshi/rotation02/ring01
 		mine_qita_fanbeierfazhen_xiaoshi/rotation03/ring01
+		pet_tanchilong/state_chongwu_buff_cheng/shifa/glow (1)
 		sanlian_skill02_b_c_xuli/sanlian_skill02_b_c_xuli_L3/GameObject (1)/guangqiu_L4/qiu01_shandian
 		sanlian_skill02_b_c_xuli_L3/GameObject (1)/guangqiu_L4/qiu01_shandian
 		sanlian_skill02_c_c_zhuizongqiu/sanlian_skill02_c_c_zhuizongqiu_L0/guangqiu/qiu01_shandian

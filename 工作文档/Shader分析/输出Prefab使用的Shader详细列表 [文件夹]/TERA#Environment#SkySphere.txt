@@ -7,6 +7,10 @@
 		DN_pvp03_Skyarena/Preload/Dn06_Sky01/Sky02
 		Dn_pvp04_Palace01/Circulationsphere (1)
 		Dungn00_EmpireRelicPrologue/Preload/Circulationsphere
+		Dungn00_EmpireRelicPrologue_02/Circulationsphere/Sky01
+		Dungn00_EmpireRelicPrologue_02/Circulationsphere/Sky02
 		Dungn01_Rins01/Circulationsphere
 		Dungn03_QXGJ01/Circulationsphere
 		Dungn06_EmpireRelic/Circulationsphere
+		Dungn08_Sorceres01/Objects/Sky01/Sky01
+		Dungn08_Sorceres01/Objects/Sky01/Sky02

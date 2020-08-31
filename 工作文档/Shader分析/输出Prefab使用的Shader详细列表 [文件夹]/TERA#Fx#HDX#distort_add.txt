@@ -1,4 +1,8 @@
 ﻿TERA/Fx/HDX/distort_add
+		ailinushilianzhe_show_hand/Particle System (2)
+		ailinushilianzhe_skill01_cast01/Particle System (2)
+		ailinushilianzhe_skill01_cast02/Particle System (2)
+		ailinushilianzhe_skill05_chongjibo/cjb/suduxian01
 		alilancer_f_attack01_c_ci_bing/ci/ring02 (10)
 		alilancer_f_attack01_c_ci_bing/ci/ring02 (11)
 		alilancer_f_attack01_c_ci_bing/ci/ring02 (9)
@@ -344,6 +348,9 @@
 		Ct02_fx_Sky01/scene_city02_nengliangzhu/MainMagicG (2)/yuanhuan
 		Ct02_fx_Sky01/scene_city02_nengliangzhu/MainMagicG (2)/yuanhuan (2)
 		diguoqiangqishi_skill02_c_dunji/dunji/dunji/dun03
+		dulenusi_skill03_chongjibo/cjb/suduxian01
+		dulenusi_skill03_chongjibo/cjb/suduxian03
+		Dungn00_EmpireRelicPrologue_02/scene_dungn00_EmpireRelicPrologue_part01/Build_xsfb_djz_fx_05
 		Dwennisha_show_effect/show_liexi/liexi/liexi_heidong/liexi/trail_down
 		Dwennisha_show_effect/show_liexi/liexi/liexi_heidong/liexi/trail_up
 		etc_jingyantuowei/etc_jingyantuowei/etc_jingyanhuode (3)/guangyun2
@@ -442,6 +449,8 @@
 		gulong_skill12_c_c_huo_blue/penhuo/huo/xishouda (4)
 		gulong_skill12_c_c_huo_blue/penhuo/huo/xishouyan
 		haiguzhiwang_attack01_c_zhuaji/zhuaji/Particle System
+		hailate_skill01_chongjibo/cjb/suduxian01
+		hailate_skill01_chongjibo/cjb/suduxian03
 		heiquan/alipriest_f_ultskill_ball/sphere01
 		heiquan/alipriest_f_ultskill_ball/sphere02
 		humwarrior_m_attack01_daoguang_feng/humwarrior_m_attack01_daoguang_feng_L0/slash01/Nanzhanshi_attack01_daoguang/Particle System (3)
@@ -496,6 +505,12 @@
 		humwarrior_m_skill04_c_danke_guang/gangtiezhiqu/sphere02
 		humwarrior_m_skill06_c_chentushikuai_feng/chentushikuai/Particle System (1)/Particle System (2)
 		humwarrior_m_skill06_c_chentushikuai_huo/chentushikuai/Particle System (1)/Particle System (2)
+		jianjiaoshuling_attack02_jiao/ci/ring02 (10)
+		jianjiaoshuling_attack02_jiao/ci/ring02 (9)
+		jumo_skill03_nuhou/cjb/suduxian01
+		jumo_skill03_nuhou/cjb/suduxian03
+		jumochoujue_skill03_nuhou/cjb/suduxian01
+		jumochoujue_skill03_nuhou/cjb/suduxian03
 		kalasishilian_skill01_biaoji/rotation_follow/yanbai
 		kamayiqiuzhang_skill02_c_xuanfeng/xuanfeng (2)/ground
 		kulashouling_skill01_c_daoguang/zadi/shanguang (1)

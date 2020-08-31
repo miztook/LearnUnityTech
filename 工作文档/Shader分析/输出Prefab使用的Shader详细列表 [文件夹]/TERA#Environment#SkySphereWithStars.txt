@@ -1,6 +1,8 @@
 ﻿TERA/Environment/SkySphereWithStars
 		Dn_env02_MagePlatform_02/Dn_env02_MagePlatform_sky/Sky01
 		Dn_env02_MagePlatform_02/Dn_env02_MagePlatform_sky/Sky02
+		dungn00_irene01/Objects/Dn04_Sky/Sky01
+		dungn00_irene01/Objects/Dn04_Sky/Sky02
 		Dungn00_Throne01/Dn04_Sky/Sky01
 		Dungn00_Throne01/Dn04_Sky/Sky02
 		Dungn04_Zuras01/Dn04_Sky/Sky01
