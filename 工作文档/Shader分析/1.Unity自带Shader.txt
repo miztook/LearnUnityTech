@@ -1,0 +1,10 @@
+Legacy Shaders/Bumped Diffuse
+Legacy Shaders/Particles/Alpha Blended
+Legacy Shaders/Particles/Alpha Blended Premultiply
+Mobile/Bumped Diffuse
+Mobile/Diffuse
+Nature/Terrain/Standard2
+Particles/Alpha Blended
+Particles/Standard Unlit
+Standard
+Unlit/Texture
