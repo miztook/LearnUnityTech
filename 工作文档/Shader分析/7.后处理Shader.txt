@@ -1,0 +1,36 @@
+Hidden/PostProcessing/BloomHD
+	计算全部在线性空间下
+	fiter   	过滤高亮度得到 filter_texture
+	downsample		向下缩小混合四周像素
+	upsample		向上扩大四个像素，形成原图大小的bloom_texture
+	blend		bloom_texture乘以强度，得到blend_texture
+	final		原图颜色和bloom_texture颜色相加
+
+Hidden/PostProcessing/BrightnessContrastGamma
+	增加颜色对比度
+
+Hidden/PostProcessing/DepthOfField
+	计算bokeh_texture, blur_texture
+	然后在src， blur_texture间用 bokeh_texture采样参数混合
+
+Hidden/PostProcessing/Fog
+	在frag中，计算wpos，wpos的高度算出fog混合比例，根据深度计算density
+
+Hidden/PostProcessing/HSV
+	RGB转化为HSV，调整HSV亮度，再转化为RGB
+	增加对比度计算
+
+Hidden/PostProcessing/MotionBlur
+	在指定时间内，先渲染一帧，accumulate，然后每一帧都和之前的dest做alpha混合 
+
+Hidden/PostProcessing/ShadowsMidtonesHighlights
+	增强阴影的对比度 先减去 shadows 变暗，然后乘以 hilights
+
+Hidden/PostProcessing/SimpleRadialBlur
+	和周围像素颜色进行均值blur，周围采样点用scale
+
+
+Hidden/PostProcessing/SpecialVision
+	frag里，用原有贴图采样 * uv距离中心点值的指数 越是边缘越暗
+	float l = pow(length(i.uv - float2(0.5, 0.5)) * 2, _AddFactor.x);
+	final_color = color * (1 - l).xxxx;
