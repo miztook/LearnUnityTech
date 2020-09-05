@@ -1,1 +1,2 @@
 UI/Default
+	vs的color和ps的贴图采样混合, 加CLIP_RECT, ALPHA_CLIP
