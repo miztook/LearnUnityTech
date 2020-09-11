@@ -11,3 +11,53 @@
         4 Window 所有EditorWindow面板
         5 LevelEditor - Prefab 所有Inspecgtor需要的数据结构
         6 LevelEditor 需要的工具类
+		
+菜单SceneEditor
+		清除SVN数据锁定
+		测试接口输出
+		创建
+		添加对象
+				怪物生成器
+				Npc生成器
+				障碍物生成器
+				矿物生成器
+				添加贝塞尔
+				添加区域
+				添加目标点				MapDungeonEnd.lua中副本结算点添加目标点的位置
+				添加传送区域
+				添加出生点
+				添加复活点
+		加载
+		使用说明
+		批量处理
+		数据处理
+		保存
+			保存并且导出区域文件
+			保存但是不导出区域文件
+			所有prefab重新生成data
+			配置文件
+				导出CSV配置文件
+				导出Lua配置文件
+				导出Lua副本配置文件
+				导出Lua传送配置文件
+				导出Lua冒险指南配置文件
+				导出怪物胶囊体半径
+				导出区域和碰撞文件(服务器)
+		程序
+			锁定
+			位置合法性校验
+			调试
+		策划
+			重命名
+				显示名称
+				全部内容
+			删除or复制
+				全部
+				特殊
+			修改关联场景
+			
+			
+CsvBasic.csv需要策划手动编辑，导出MapBasicInfo
+			IsDoor
+			IconType
+			
