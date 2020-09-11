@@ -30,10 +30,10 @@
 		加载
 		使用说明
 		批量处理
-		数据处理
+		数据处理				
 		保存
-			保存并且导出区域文件
-			保存但是不导出区域文件
+			保存并且导出区域文件			保存prefab, Scene.data, RegionSet, ObstacleSet
+			保存但是不导出区域文件			保存prefab, Scene.data
 			所有prefab重新生成data
 			配置文件
 				导出CSV配置文件
@@ -51,7 +51,7 @@
 			重命名
 				显示名称
 				全部内容
-			删除or复制
+			删除or复制				复制现有的一个场景，重命名，其实是复制EditMaps下的编辑内容
 				全部
 				特殊
 			修改关联场景
@@ -60,4 +60,10 @@
 CsvBasic.csv需要策划手动编辑，导出MapBasicInfo
 			IsDoor
 			IconType
+			
+数据处理面板 (关卡编辑器如何保存?)
+			1. 选择游戏目录 GameRes/Configs
+			2. 导出CsvBasic.csv文件 M1Data\MapInfo\MapBasicInfo文件夹 MapLinkInfo.lua等
+			3. 提交svn， 游戏目录MapBasicInfo目录， M1Data目录 CsvBasic.csv MapLinkInfo.lua文件
+			4. 提交Prefab文件夹和data文件夹内容		提交到 TERAMobile\Assets\EditorMaps下的编辑内容
 			
