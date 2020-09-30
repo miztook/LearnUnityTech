@@ -8,3 +8,108 @@ Particles/Alpha Blended
 Particles/Standard Unlit
 Standard
 Unlit/Texture
+
+表面着色器
+		顶点着色器: v2f_surf vert_surf(appdata_full v) 
+				1. 可选的顶点修改函数 [可选]
+				2. 根据Input的需要计算变量，存储到v2f_surf结构体中
+		片元着色器: fixed4 frag_surf(v2f_surf IN)
+				3. 使用v2f_surf中的结构填充Input结构体
+				4. 表面函数								//填充SurfaceOutput
+				5. 光照函数								//输出颜色值
+				6. 其他对颜色的修改，如逐顶点光照		//光照图vs逐顶点光照
+				7. 最后的颜色修改函数 [可选]
+
+软粒子
+		需要计算深度图 LinearEyeDepth 从深度图采样取场景深度值
+		通过计算屏幕控制的位置的 partZ 值，两者相差做为一个soft的计算值
+
+
+Legacy Shaders/Transparent/Bumped Diffuse			//surf 通过采样bumpMap,得到o.Normal Lambert	alpha:fade
+Legacy Shaders/Transparent/Bumped Specular			//surf 通过采样bumpMap,得到o.Normal BlinnPhong alpha:fade
+Legacy Shaders/Transparent/Diffuse					//alpha:fade 输出颜色的alpha
+Legacy Shaders/Transparent/Specular					//surf 填充albedo, gloss, specular, alpha BlinnPhong计算 alpha:fade
+Legacy Shaders/Transparent/Parallax Diffuse
+Legacy Shaders/Transparent/Parallax Specular
+Legacy Shaders/Transparent/VertexLit
+Legacy Shaders/Transparent/Cutout/Bumped Diffuse
+Legacy Shaders/Transparent/Cutout/Bumped Specular
+Legacy Shaders/Transparent/Cutout/Diffuse
+Legacy Shaders/Transparent/Cutout/Specular
+Legacy Shaders/Transparent/Cutout/Soft Edge Unlit
+Legacy Shaders/Transparent/Cutout/VertexLit
+Legacy Shaders/Decal
+Legacy Shaders/Self-Illumin/Bumped Diffuse
+Legacy Shaders/Self-Illumin/Bumped Specular
+Legacy Shaders/Self-Illumin/Diffuse
+Legacy Shaders/Self-Illumin/Specular
+Legacy Shaders/Self-Illumin/Parallax Diffuse
+Legacy Shaders/Self-Illumin/Parallax Specular
+Legacy Shaders/Self-Illumin/VertexLit
+Legacy Shaders/Lightmapped/Bumped Diffuse
+Legacy Shaders/Lightmapped/Bumped Specular
+Legacy Shaders/Lightmapped/Diffuse
+Legacy Shaders/Lightmapped/Specular
+Legacy Shaders/Lightmapped/VertexLit
+Legacy Shaders/Bumped Diffuse					//surf 通过采样bumpMap,得到o.Normal参与光照计算 Lambert
+Legacy Shaders/Bumped Specular					
+Legacy Shaders/Diffuse							//surf 贴图采样 X 颜色	Lambert光照计算		
+Legacy Shaders/Diffuse Detail
+Legacy Shaders/Diffuse Fast
+Legacy Shaders/Specular							//surf 填充albedo, gloss, specular, alpha BlinnPhong计算
+Legacy Shaders/Parallax Diffuse					//surf 视差贴图采样计算 ParallaxOffset，然后对uv坐标进行偏移，计算albedo和normal Lambert
+Legacy Shaders/Parallax Specular				//surf 视差贴图采样计算 ParallaxOffset，然后对uv坐标进行偏移，计算albedo normal, specular, gloss  BlinnPhong
+Legacy Shaders/VertexLit						//Vertex模式，VertexLM模式，光照图采样 * 颜色 * 主贴图采样
+Legacy Shaders/Particles/Additive				//Blend SrcAlpha One
+Legacy Shaders/Particles/~Additive-Multiply
+Legacy Shaders/Particles/Additive (Soft)
+Legacy Shaders/Particles/Alpha Blended			//Blend SrcAlpha OneMinusSrcAlpha
+Legacy Shaders/Particles/Anim Alpha Blended
+Legacy Shaders/Particles/Blend					//Blend DstColor One
+Legacy Shaders/Particles/Multiply				//Blend Zero SrcColor
+Legacy Shaders/Particles/Multiply (Double)				//Blend DstColor SrcColor
+Legacy Shaders/Particles/Alpha Blended Premultiply		//Blend One OneMinusSrcAlpha
+Legacy Shaders/Particles/VertexLit Blended			//Blend SrcAlpha OneMinusSrcAlpha
+Legacy Shaders/Reflective/Bumped Diffuse
+Legacy Shaders/Reflective/Bumped Unlit
+Legacy Shaders/Reflective/Bumped Specular
+Legacy Shaders/Reflective/Bumped VertexLit
+Legacy Shaders/Reflective/Diffuse
+Legacy Shaders/Reflective/Specular
+Legacy Shaders/Reflective/Parallax Diffuse
+Legacy Shaders/Reflective/Parallax Specular
+Legacy Shaders/Reflective/VertexLit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
