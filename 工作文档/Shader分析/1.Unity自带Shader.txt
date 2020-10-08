@@ -22,7 +22,8 @@ Unlit/Texture
 
 软粒子
 		需要计算深度图 LinearEyeDepth 从深度图采样取场景深度值
-		通过计算屏幕控制的位置的 partZ 值，两者相差做为一个soft的计算值
+		通过计算屏幕控制的位置的 partZ 值，两者相差做为一个soft的计算值 fade
+		i.color *= fade 参与最终的颜色计算
 
 
 Legacy Shaders/Transparent/Bumped Diffuse			//surf 通过采样bumpMap,得到o.Normal Lambert	alpha:fade
@@ -61,16 +62,16 @@ Legacy Shaders/Parallax Diffuse					//surf 视差贴图采样计算 ParallaxOffs
 Legacy Shaders/Parallax Specular				//surf 视差贴图采样计算 ParallaxOffset，然后对uv坐标进行偏移，计算albedo normal, specular, gloss  BlinnPhong
 Legacy Shaders/VertexLit						//Vertex模式，VertexLM模式，光照图采样 * 颜色 * 主贴图采样
 Legacy Shaders/Particles/Additive				//Blend SrcAlpha One
-Legacy Shaders/Particles/~Additive-Multiply
-Legacy Shaders/Particles/Additive (Soft)
+Legacy Shaders/Particles/~Additive-Multiply		//Blend One OneMinusSrcAlpha
+Legacy Shaders/Particles/Additive (Soft)		//Blend One OneMinusSrcColor		color.rgb *= col.a
 Legacy Shaders/Particles/Alpha Blended			//Blend SrcAlpha OneMinusSrcAlpha
-Legacy Shaders/Particles/Anim Alpha Blended
+Legacy Shaders/Particles/Anim Alpha Blended		//Blend SrcAlpha OneMinusSrcAlpha	两组uv坐标 colA, colB 用blend获取颜色
 Legacy Shaders/Particles/Blend					//Blend DstColor One
 Legacy Shaders/Particles/Multiply				//Blend Zero SrcColor
 Legacy Shaders/Particles/Multiply (Double)				//Blend DstColor SrcColor
 Legacy Shaders/Particles/Alpha Blended Premultiply		//Blend One OneMinusSrcAlpha
-Legacy Shaders/Particles/VertexLit Blended			//Blend SrcAlpha OneMinusSrcAlpha
-Legacy Shaders/Reflective/Bumped Diffuse
+Legacy Shaders/Particles/VertexLit Blended			//Blend SrcAlpha OneMinusSrcAlpha	LightMode=Vertex
+Legacy Shaders/Reflective/Bumped Diffuse		//surf中用 WorldReflectionVector 通过normal得出refl 用cube图采样, 填充emission
 Legacy Shaders/Reflective/Bumped Unlit
 Legacy Shaders/Reflective/Bumped Specular
 Legacy Shaders/Reflective/Bumped VertexLit
