@@ -1,8 +1,8 @@
-Legacy Shaders/Bumped Diffuse
-Legacy Shaders/Particles/Alpha Blended
-Legacy Shaders/Particles/Alpha Blended Premultiply
-Mobile/Bumped Diffuse
-Mobile/Diffuse
+Legacy Shaders/Bumped Diffuse						//surf 通过采样bumpMap,得到o.Normal Lambert
+Legacy Shaders/Particles/Alpha Blended				//Blend SrcAlpha OneMinusSrcAlpha
+Legacy Shaders/Particles/Alpha Blended Premultiply			//Blend One OneMinusSrcAlpha color * color.a
+Mobile/Bumped Diffuse					//surf 通过采样bumpMap,得到o.Normal Lambert noforwadadd
+Mobile/Diffuse							//surf 采样贴图得到 Albedo, Alpha
 Nature/Terrain/Standard2
 Particles/Alpha Blended
 Particles/Standard Unlit
