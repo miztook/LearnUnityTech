@@ -25,6 +25,7 @@ Unlit/Texture
 		通过计算屏幕控制的位置的 partZ 值，两者相差做为一个soft的计算值 fade
 		i.color *= fade 参与最终的颜色计算
 
+COMPUTE_EYEDEPTH		-(UnityObjectToViewPos(v.vertex)).z
 
 Legacy Shaders/Transparent/Bumped Diffuse			//surf 通过采样bumpMap,得到o.Normal Lambert	alpha:fade
 Legacy Shaders/Transparent/Bumped Specular			//surf 通过采样bumpMap,得到o.Normal BlinnPhong alpha:fade
