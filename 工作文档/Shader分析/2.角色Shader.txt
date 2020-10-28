@@ -17,3 +17,74 @@ TERA/Character/Heroic_withFX
 TERA/Character/NPC
 TERA/Character/NPC_VIP
 TERA/Character/NPC_VVIP
+
+TERA/Character/Heroic 一个角色4张贴图:
+	BaseRGBA
+	NormalMap
+	SpecularMapRGBA
+	Mask   R:Skin G: Emissive
+	
+	CHARACTERFORWARDPBR		高效
+		计算normalDir, viewReflection, lightDir, halfVDir, 水平光lightHDir, halfHDir
+		
+		计算阴影 attenuation
+		Textures: 
+			matMask.r 皮肤   1.0 - matMask.r 装备(非皮肤)
+		Gloss: 
+			glossq(非皮肤), glossk(皮肤)
+		SkinColor: 			//对baseRGBA贴图做皮肤颜色的强化，增强皮肤的对比度
+			skincolor		ColorCstmGamma
+			skinspcolor		SpecularmapRGBA对SkinColor插值
+		Lightness:
+			AttenColor		阴影颜色
+			SH 			考虑点光源因素
+			IBL 		ImageBasedLighting 对EnvMap采样，考虑relfectionIntensity, (attentuation  + NdotV * gloss)
+			zis			Frsn 菲涅尔项
+			Rim 		边缘光计算
+		Specular:
+			SpecularGGXWithHeadLight		
+			SpecularSkin
+			CalculateSpecular			ggx直接, IBL间接高光
+		Diffuse:
+			Scattering		次表面散射 + ambient		间接diffuse
+			SkinLighting1				直接diffuse
+			CalculateDiffuseAddonf		
+		FinalColor:
+			diffuse + specular + rim + frsn
+		
+	CHARACTERFORWARDGGX		中效	
+		和高效相比, 
+		Lightness：去掉了 AttenColor, IBL, zis;
+		Specular: 只用SpecularGGX, 去掉了IBL间接高光 + frsn菲涅尔计算
+		FinalColor: diffuse + specular + rim
+		
+	CHARACTERFORWARDBASE	低效
+		与高效相比，
+		SkinColor: 去掉了skinspcolor计算
+		Specular: 去掉HeadLight计算，只用SpecularGGX, 去掉了IBL间接高光 + frsn菲涅尔计算
+		Diffuse: 去掉scatter, 简化SkinLight计算
+		FinalColor: diffuse + specular + rim
+		
+TERA/Character/Heroic_Hair	一个角色4张贴图:
+	BaseRGBA
+	NormalMap
+	SpecularMapRGBA
+	Mask   R:Skin G: Emissive
+	
+	和角色不同的是 AnisoDir, AnisoOffset 各项异性specular计算，表现头发效果(经验公式)
+	两个pass，前面，背面
+	前面
+		高效: SpecAniso计算高光 + SpecularGGX， Diffuse计算HairDiffuse, Scattering散射
+		中效：SpecAniso计算高光， Diffuse计算HairDiffuse, Scattering散射
+		低效: 去掉高光, Diffuse计算HairDiffuse
+		
+	背面：	补充diffuse光照
+		
+TERA/Character/Heroic_Fashion		一个角色4张贴图:
+	BaseRGBA
+	NormalMap
+	SpecularMapRGBA
+	Mask   R:Skin G: Emissive B: Flake1 A: Flake2
+	
+	
+	

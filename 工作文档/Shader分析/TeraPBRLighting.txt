@@ -2,3 +2,38 @@
 	pos, normal, tangent, tex0, tex1
 	
 HSV和RGB的转换
+
+Scattering		次表面散射		
+Transmission
+
+gloss roughness 转换 (光泽度，粗糙度)
+
+Frsn		菲涅尔反射
+
+Rim 	边缘光
+
+
+SpecularAniso, SpecularGGX 光泽度计算高光
+SpecularGGSSimple, SpecularSkin
+LightingbyBRDFmap
+
+AmbietnOcclusion	AO值
+
+CalculateSpecular		直接: GGX  光泽度   间接: IBL
+CalculateDiffuse		直接: NdLs, NdLq  间接: SH，scattering
+
+FinalColor			diffuse + specular + rim + frsn
+
+ImageBasedLighting 			texCUBE(_EnvMap
+
+DisneyDiffuse
+HairGGXTerm
+SmithJointGGXVisTerm
+SmithJointGGXVisTermMobile
+
+CalculateHairDiffuse1			
+	DiffuseTerm: 	DisneyDiffuse
+	SpecularTerm: 	V: SmithJointGGXVisTermMobile D: HairGGSTerm
+	
+	
+
