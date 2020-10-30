@@ -32,19 +32,19 @@ TERA/Character/Heroic 一个角色4张贴图:
 			matMask.r 皮肤   1.0 - matMask.r 装备(非皮肤)
 		Gloss: 
 			glossq(非皮肤), glossk(皮肤)
-		SkinColor: 			//对baseRGBA贴图做皮肤颜色的强化，增强皮肤的对比度
+		SkinColor: 			//由于自定义肤色, 对baseRGBA贴图做皮肤颜色的强化(线性变指数)，过渡到指定的肤色
 			skincolor		ColorCstmGamma
 			skinspcolor		SpecularmapRGBA对SkinColor插值
 		Lightness:
 			AttenColor		阴影颜色
 			sh 			考虑环境光
 			IBL 		ImageBasedLighting 对EnvMap采样，考虑relfectionIntensity, sh, (attentuation  + NdotV * gloss)
-			zis			Frsn 菲涅尔项
+			zis			Frsn 菲涅尔项, 装备
 			Rim 		边缘光计算
 		Specular:
-			SpecularGGXWithHeadLight		
+			SpecularGGXWithHeadLight	计算直接高光(皮肤+非皮肤) 	
 			SpecularSkin
-			CalculateSpecular			ggx直接, IBL间接高光
+			CalculateSpecular			ggx直接(皮肤部分) + IBL间接高光(非皮肤部分)
 		Diffuse:
 			Scattering		次表面散射 + ambient		间接diffuse
 			SkinLighting1				直接diffuse
@@ -97,3 +97,35 @@ TERA/Character/Heroic_Face			一个角色4张贴图:
 	和角色相比，增加了眼睛部分的颜色(增强眼睛的Rim光), 去掉IBL, sh保留
 	FinalColor: diffuse + specular + eye + _Rim
 	
+TERA/Character/NPC
+
+	高效：皮肤: scatter + SkinDiffuse, 非皮肤: EquipDiffuse，Specular(非ggx, 无IBL，无frsn) + Rim
+	低效: diffuse贴图采样 + Specular(BlinnPhong) + Rim
+	另加一个死亡效果
+	
+TERA/Character/NPC_VIP
+	mask图区分 skin, equip, hair, eye, emissive
+	
+	Gloss: 
+			glossq(非皮肤), glossk(皮肤)
+	SkinColor:
+			贴图采样计算 skinColor, skinSpColor, hairColor, hairSpColor
+			
+	Lightness:
+		AttenColor		阴影颜色
+		sh 			考虑环境光
+		IBL 		ImageBasedLighting 对EnvMap采样，考虑relfectionIntensity, sh, (attentuation  + NdotV * gloss)
+		zis			Frsn 菲涅尔项
+		Rim 		边缘光计算
+	Specular:
+		CalculateSpecular	
+			非头发部分: ggx直接(皮肤+非皮肤), IBL间接(非皮肤)
+			头发部分： 各项异性  SpecAniso2
+		CalculateDiffusevvip
+			皮肤: LightingForSkin 直接diffuse + scatter间接diffuse
+			非皮肤: 简单diffuse 
+			眼睛颜色: 强化眼睛颜色 + 边缘光 emission
+		FinalColor = diffuse + specular + Rim + Zis(菲涅尔项)
+		
+		
+			
