@@ -97,13 +97,13 @@ TERA/Character/Heroic_Face			一个角色4张贴图:
 	和角色相比，增加了眼睛部分的颜色(增强眼睛的Rim光), 去掉IBL, sh保留
 	FinalColor: diffuse + specular + eye + _Rim
 	
-TERA/Character/NPC
+TERA/Character/NPC		非人形
 
 	高效：皮肤: scatter + SkinDiffuse, 非皮肤: EquipDiffuse，Specular(非ggx, 无IBL，无frsn) + Rim
 	低效: diffuse贴图采样 + Specular(BlinnPhong) + Rim
 	另加一个死亡效果
 	
-TERA/Character/NPC_VIP
+TERA/Character/NPC_VIP  (人形)
 	mask图区分 skin, equip, hair, eye, emissive
 	
 	Gloss: 
@@ -125,7 +125,7 @@ TERA/Character/NPC_VIP
 			皮肤: LightingForSkin 直接diffuse + scatter间接diffuse
 			非皮肤: 简单diffuse 
 			眼睛颜色: 强化眼睛颜色 + 边缘光 emission
-		FinalColor = diffuse + specular + Rim + Zis(菲涅尔项)
+	FinalColor = diffuse + specular + Rim + Zis(菲涅尔项)
 		
 		
 			

@@ -22,7 +22,7 @@ Unlit/Texture
 
 软粒子
 		需要计算深度图 LinearEyeDepth 从深度图采样取场景深度值
-		通过计算屏幕控制的位置的 partZ 值，两者相差做为一个soft的计算值 fade
+		通过计算屏幕控制的位置的 partZ 值(object pos to view space)，两者相差做为一个soft的计算值 fade
 		i.color *= fade 参与最终的颜色计算
 
 COMPUTE_EYEDEPTH		-(UnityObjectToViewPos(v.vertex)).z
