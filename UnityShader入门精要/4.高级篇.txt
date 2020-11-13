@@ -8,8 +8,16 @@
 	5) 运动模糊		//利用Accumulation混合多张图像，取平均值
 
 13. 使用深度和法线纹理
-	 获取深度法线纹理		LinearEyeDepth视角空间下深度 		Linear01Depth线性深度值0-1内		深度纹理存储的是非线性深度值, 需要调用一下 Linear01Depth
-		DecodeDepthNormal获取的是0-1线性深度值和视角空间下的法线方向
+	 获取深度法线纹理	NDC阶段 齐次裁剪空间 0-1之间 深度纹理存储的是非线性深度值, 需要调用一下 Linear01Depth
+	 
+	 LinearEyeDepth视角空间下深度
+		1.0 / (_ZBufferParams.z * z + _ZBufferParams.w);				//x=1-Far/Near, y=Far/Near, z=x/Far, w=y/Far
+
+	 Linear01Depth线性深度值0-1内
+		1.0 / (_ZBufferParams.x * z + _ZBufferParams.y);
+	 
+	 DecodeDepthNormal获取的是0-1线性深度值和视角空间下的法线方向		//法线RG 深度BA(注意：线性)
+	 
 	 1) 运动模糊		不用混合多张图像，而用速度映射图，存储了每个像素的速度，使用速度来决定模糊的方向和大小
 		利用深度纹理在片元着色器中的深度值计算其在世界空间下的位置，使用当前的视角*投影矩阵的逆矩阵对NDC下的顶点坐标进行变换得到 (缺点需要两次矩阵乘法)
 	 2) 全局雾效		Unity内置雾效是基于距离的线性或指数雾效  	可以实现基于高度的雾效

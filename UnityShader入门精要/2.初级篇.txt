@@ -9,7 +9,7 @@
 		自发光	emissive
 		高光反射	specular
 			phong		c * specular * max(0, v * r) ^ gloss			//反射方向r = 2(n*l)n-l
-			blinn-phong 	c * specular * max(0, n * h) ^ gloss	//
+			blinn-phong 	c * specular * max(0, n * h) ^ gloss	// 各向同性 各项异性(头发)
 		漫反射	diffuse		
 			lambert定律，反射光线的强度与表面法线和光源之间夹角的余弦值成正比	c * diffuse * max(0, n * l)
 			half-lambert  c * diffuse * (0.5 (n * l) + 0.5)
