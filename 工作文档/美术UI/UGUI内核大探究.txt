@@ -1,0 +1,111 @@
+https://blog.csdn.net/ecidevilin/article/details/52782501
+
+1. Event System
+	维护一个 BaseInputModule 列表, StandaloneInputModule和TouchuInputModule继承自它
+	currentInputModule.Process处理当前选中的GameObject 作为 m_CurrentSelected（出发OnSelect, OnDeselect）
+	RaycastAll 射线照射UI 得到第一个GameObject
+	IsPointerOverGameObject 鼠标是否在UI上
+	
+2. 执行事件
+	ExecuteEvents 遍历IEventHandler继承组件, 然后调用Execute
+
+3. 输入模块
+	执行XXHandler，鼠标，拖放，滚动，选中
+
+4. Selectable与Button
+	Selectable是核心组件，是Button,ScrollBar,Dropdown,Slider,Toggle的基类
+	获取Graphic组件的TargetGraphic，实现Selectable的状态变化
+	Button相对于Selectable添加了点击和确认事件的接口,开放 onClick 事件
+
+5. Toggle与ToggleGroup
+	Toggle也继承自Selectable, OnEnable/OnDisable时注册/移除到ToggleGroup
+	m_IsOn表示是否被勾选, 设置是发送事件
+	ToggleGroup保证管理的toggle中只有一个被选中
+
+6. CanvasUpdateRegistry
+	单例，继承了ICanvasElement的组件都可以注册到它，监听了Canvas即将渲染的事件，
+	并调用以注册组件的Rebuild方法
+	ICanvasElement的三个方法 Rebuild, LayoutComplete, GraphicUpdateComplete
+	维护两个更新队列 LayoutReguildQueue和GraphicRebuildQueue
+
+7. Graphic
+	负责显示图像 是MaskableGraphic的基类
+	继承自 UIBehaviour 和 ICanvasElement
+	注册到 GraphicRegistry：可以获取指定Canvas包含的Graphic
+	Dirty脏标记: Layout, Vertices, Material
+	根据Transform和Parent变化时SetAllDirty
+	继承自ICanvasElement的方法: Rebuild 在Canvas渲染前调用
+		UpdateGeometry
+			DoMeshGeneration
+				OnPopulateMesh 填充顶点和三角形信息到VertexHelper
+				FillMesh后 canvasRenderer.SetMesh 设置好mesh
+		UpdateMaterial
+	Raycast方法 筛选出被涉嫌照射到的Graphic
+
+8. MaskableGraphic
+	继承自Graphic，派生类有RawImage Image Text
+	结构大小改变时 ShouldRecalculateStencil重新计算模板
+	UpdateClipParent 
+	继承IClippable 实现裁剪
+		RecalculateClipping	 找到RectMask2D的所有子对象的IClippable组件
+		Cull
+		SetClipRect
+	继承IMaskable
+		RecalculateMasking 找到Mask的所有子对象的Maskable接口 SetMaterialDirty模板
+	RectMask2D类 维护IClippable的列表 调用SetClipRect 和 Cull
+	Mask类 获取层级的depth，设置Stencil值实现mask
+
+9. Image与RawImage
+	RawImage的 OnPopulateMesh，SetNativeSize
+	Image考虑 Type 生成Simple,Sliced,Tiled的sprite 顶点和UV
+
+10. Layout与Fitter
+	三种布局组 Horizontal, Vertical, Grid
+	LayoutRebuilder 找到父对象最上层的ILayoutGroup
+	继承自ICanvasElement接口，Rebuild方法: 计算垂直，排列垂直，计算水平，排列水平
+	在 m_ToRebuild也就是 layoutRoot递归调用 计算 和 排列
+	ILayoutSelfController	(自身layout)
+		ContentSizeFitter
+		AspectRatioFitter
+	LayoutGroup 分别计算Children的layout坐标
+
+11. ScrollRect与ScrollBar
+	ScrollRect包含一个Viewport内容和ScrollBar, 控制Viewport下Content的位置
+	ScrollBar继承自Selectable 拖放时改变value
+	ScrollRect继承了 ICanvasElement, ILayoutElement, ILayoutGroup接口
+	ILayoutGroup中设置layout计算viewRect的m_ViewBounds和m_ContentBounds
+	
+12. Slider
+	继承自Selectable
+	FillRect, HandleRect
+	重写 Selectable的 事件处理和 OnMOve, FindSelectableXXX方法
+
+13. Dropdown
+	多种组件组合 Text,Image,ScrollRect,Toggle,ScrollBar,Button, 在实例化一个Dropdownlist
+	Show
+		SetupTemplate设置模板 Dropdownitem 添加Canvas组件 显示选项表
+		CreateDropdownList 每个Item的toggle选中，索引设置为Dropdown
+		根据Item数量设置Content尺寸，ScrollRect
+		Alpha渐变
+		CreateBlocker全透明的一个Button 阻挡其他组件的事件触发
+
+14. Text
+	重写OnPopulateMesh方法设置 顶点 三角形 UV
+	FontUpdateTracker维护字体和Text的Dictionary，在Font的textureRebuilt时
+	调用每个Text的FontTextureChanged方法
+
+15. Shadow与Outline
+		BaseMeshEffect -> Shadow -> Outline
+		阴影实现: 顶点加偏移设置颜色  顶点数X2
+		Outline: 顶点数X5
+
+16. InputField
+	UpdateGeometry 计算TextGenrator 计算光标
+	点击鼠标时 设为自己OnSelect成为 EventSystem的选中对象，设置光标
+
+17. 其他
+	IndexedSet	有序set
+	ObjectPool
+	ListPool	回收被释放的List
+	CoroutineTween	实现颜色和透明度的渐变效果
+	
