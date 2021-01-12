@@ -1,0 +1,70 @@
+https://zhuanlan.zhihu.com/p/103457229
+
+RenderPipeline
+	Forward Rendering
+		Depth Texture						//ShadowCaster的pass执行, 绘制场景的深度
+		DepthNormals Texture
+		Opaque Objects
+		Opaque Image Effects				//不透明物体的后处理
+		Skybox
+		Transparencies
+		Image Effects						//透明物体的后处理
+	
+结构
+		Runtime					//URP相关代码
+		ShaderLibrary			//URP相关Shader
+		Shaders
+		
+Runtime/UniversalRenderPipeline.Render 函数
+		BeginFrameRendering
+		SetupPerFrameShaderConstants
+		SortCameras
+			对于每个摄像机 RenderSingleCamera
+		EndFrameRendering
+	
+RenderSingleCamera 函数
+		camera.TryGetCullingParameters			//裁剪
+		InitializeCameraData			//摄像机参数
+		SetupPerCameraShaderConstants		//设置摄像机相关shader变量
+		获取Camera的ScriptableRenderer
+				renderer.SetupCullingParameters		
+		context.Cull 		//裁剪
+		renderer.Setup		//设置
+		renderer.Execute
+		通过context.ExecuteCommandBuffer来执行管线
+		
+ScriptableRenderer.Setup 函数
+		设置多个渲染队列 ScriptableRenderPass
+			rendererFeatures			//自定义的pass
+			mainLightShadowCaster			//主光源阴影
+			AdditionalLightsShadowCaster	//额外光源阴影
+			DepthPrepass					//深度prepass
+			ScreenSpaceShadowResolve		//屏幕空间阴影解析
+			PostProcess					//后处理 ColorGradientLut
+			不透明物体队列
+			Skybox	
+			CopyDepth					//使用深度图
+			CopyColor					//使用OpaqueTexture 可以downsample
+			透明物体队列					
+			最后的PostProcess			//Blit到Camera的CameraTarget上
+			
+ScriptableRenderer.Execute 函数
+			填充RenderPassBlock			带事件的RenderBlock
+			SetupLights					//设置光照
+			SetShaderTimeValues			//设置shader时间参数
+			ExecuteBlock				//执行
+			
+ExecuteBlock		
+		遍历每个RenderPass   Execute
+		
+RenderPass的Execute
+		在CullResults里找到符合条件的renderer
+		排序renderer
+		context.DrawRenderers		//绘制是通过CommandBuffer执行的
+		执行CommandBuffer
+		
+		
+
+
+
+	
