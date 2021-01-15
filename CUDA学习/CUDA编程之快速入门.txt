@@ -1,0 +1,65 @@
+https://www.cnblogs.com/skyfsm/p/9673960.html
+
+1. GPU架构特点
+	CPU：擅长流程控制和逻辑处理，不规则数据结构，不可预测存储结构，单线程程序，分支密集型算法
+	GPU：擅长数据并行计算，规则数据结构，可预测存储模式
+
+	CPU负责总体的程序流程，而GPU负责具体的计算任务，当GPU各个线程完成计算任务后，我们就将GPU那边计算得到的结果拷贝到CPU端，完成一次计算任务。
+
+2. CUDA线程模型
+	Host Kernel -> 
+		Grid				//一组线程块 kernel函数运行在某个Grid上
+			Thread Block		//线程块，互相合作的线程组 1. 允许彼此同步 2. 可以通过共享内存交换数据
+				Thread			//线程，并行的基本单位
+				
+	kernel调用时也必须通过执行配置<<<grid, block>>>来指定kernel所使用的网格维度和线程块维度			
+
+	SP：最基本的处理单元，streaming processor，也称为CUDA core		//GPU进行并行计算，也就是很多个SP同时做处理 (线程执行的硬件单位)
+	SM：多个SP加上其他的一些资源组成一个streaming multiprocessor。也叫GPU大核		//
+
+	Thread (软件) <-> SP (硬件)
+	Thread Block (软件) <-> SM (硬件)
+	Grid (软件) <-> GPU (硬件)
+
+3. CUDA内存模型
+	每个线程有自己的 register 和 local memory(局部内存)
+	每个线程块有自己的 shared memory(共享内存) 线程共享
+	每个grid有自己的 global memory (全局内存) constant memory(常量内存) texture memory(纹理内存) 线程块共享
+
+4. CUDA编程模型
+	术语
+		Device = GPU
+		Host = CPU
+		Kernel = 运行在device上的函数
+		
+	函数定义
+		__device__ float DeviceFunc() 		运行: device 调用: device
+		__global__ void KernelFunc() 		运行: device 调用: host
+		__host__ float HostFunc()			运行: host 调用: host
+	
+	数据传输
+		cudaMalloc(): 在设备端分配global memory
+		cudaFree(): 释放存储空间
+		
+		cudaMemcpy(void *dst, void *src, size_t nbytes, enum cudaMemcpyKind direction)
+		拷贝方向:
+			cudaMemcpyHostToDevice（CPU到GPU）
+			cudaMemcpyDeviceToHost（GPU到CPU）
+			cudaMemcpyDeviceToDevice（GPU到GPU）
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
