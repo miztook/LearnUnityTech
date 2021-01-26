@@ -40,7 +40,7 @@ https://blog.csdn.net/ecidevilin/article/details/52782501
 				OnPopulateMesh 填充顶点和三角形信息到VertexHelper
 				FillMesh后 canvasRenderer.SetMesh 设置好mesh
 		UpdateMaterial
-	Raycast方法 筛选出被涉嫌照射到的Graphic
+	Raycast方法 筛选出被射线照射到的Graphic
 
 8. MaskableGraphic
 	继承自Graphic，派生类有RawImage Image Text
