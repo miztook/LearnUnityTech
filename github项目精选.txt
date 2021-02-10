@@ -33,3 +33,6 @@ https://zhuanlan.zhihu.com/p/126370177
 https://github.com/Unity-Technologies/MeasuredMaterialLibraryURP
 		材质库 Unity2019.3.0之后的URP (Universal Render Pipeline)
 		
+https://github.com/MaxwellGengYF/Unity-Volumetric-Light
+		Unity体积光
+		
