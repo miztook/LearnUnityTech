@@ -2,7 +2,7 @@
 
 导出Lua配置文件
 	功能: 	把Scene.data的数据导出成每个场景id命名的lua
-			导出LinkToScene.lua			//导出每个场景包括的monster, npc, mine的id配置
+			导出LinkToScene.lua			//导出每个场景包括的monster, npc, mine的id配置 他们属于哪个场景
 
 导出Lua副本配置文件
 	功能： 	导出副本结算的位置到 MapDungeonEnd.lua		//读取EditMaps下的场景prefab的LevelTargetPointPrefab组件
@@ -11,10 +11,18 @@
 	功能： 导出地图连接配置文件 MapLinkInfo.lua //判断地图之间是否可直达，如果不可直达找到提供传送服务的npc 
 
 导出Lua冒险指南配置文件
-	功能： 导出活动配置文件 ActivityBasicInfo.lua
-
+	功能： 导出活动配置文件 ActivityBasicInfo.lua			//弃用	
+	
 导出怪物胶囊体半径
 	功能： 给Monster.data添加胶囊体半径字段，数值取怪物模型的CapsuleCollider.radius值
 
 导出区域和碰撞文件(服务器)
 	功能: 导出每个地图的区域和阻挡的文件(服务器使用) .regionset 和 .obstacleset
+	
+	
+客户端中生成的lua文件 
+	执行M1Client下的 生成GameRes下Data辅助的Lua表.bat 在 GameRes\Configs 下生成
+	AdventureGuideBasicInfo.lua			//冒险指南配置文件
+	WingLevelUpData.lua					//翅膀升级配置文件
+	
+	
