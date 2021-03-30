@@ -26,7 +26,7 @@ https://blog.csdn.net/ecidevilin/article/details/52782501
 	单例，继承了ICanvasElement的组件都可以注册到它，监听了Canvas即将渲染的事件，
 	并调用以注册组件的Rebuild方法
 	ICanvasElement的三个方法 Rebuild, LayoutComplete, GraphicUpdateComplete
-	维护两个更新队列 LayoutReguildQueue和GraphicRebuildQueue
+	维护两个更新队列 LayoutRebuildQueue和GraphicRebuildQueue
 
 7. Graphic
 	负责显示图像 是MaskableGraphic的基类
