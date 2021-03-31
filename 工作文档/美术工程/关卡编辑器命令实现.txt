@@ -44,16 +44,16 @@
 	
 LevelController概述	场景编辑器的核心组件
 		包括子节点
-			Monster							//LevelMosnterGenerator
-			Npc								//LevelNpcGenerator
-			Obstacle						//LevelObstacleGenerator
-			Mine							//LevelMineGenerator
-			BezierCurve						//LevelBezierCurvePrefab
-											//LevelBezieerNodePrefab
-			Region							//LevelRegionPrefab
-			Position
-			TargetPoint
-			PortalRegion					//LevelPortalRegionPrefab
-			PhaseMove
+			Monster							//创建 LevelMonsterPrefab 和 LevelMosnterGenerator
+			Npc								//创建 LevelNpcPrefab 和 LevelNpcGenerator
+			Obstacle						//创建 LevelObstaclePrefab 和 LevelObstacleGenerator
+			Mine							//创建 LevelMinePrefab 和 LevelMineGenerator
+			BezierCurve						//创建 LevelBezierCurvePrefab 和 LevelBezieerNodePrefab
+			Region							//设置 LevelRegionPrefab的region prefab位置
+			Position						//创建 LevelPositionPrefab 设置出生点和复活点
+			TargetPoint						//创建 LevelTargetPointPrefab
+			PortalRegion					//创建 LevelPortalRegionPrefab
+			PhaseMove						//创建 LevelPhaseMoveGenerator边长生成器，然后生成区域Region
 			Point
+			
 	
