@@ -1,5 +1,5 @@
 菜单SceneEditor
-		加载
+		加载			//FileLoadEditor
 			读取EditorMaps目录下的xml, 表示每个编辑的场景 branchTid表示是否有分支场景
 			当选取其中一个场景后，调用CopyTargetSceneAndOpenCopy
 				打开固定的场景EditorMaps.unity 删除所有gameobject
@@ -7,14 +7,35 @@
 				加载编辑数据的Prefab (EditMaps同xml下的prefab目录)		启用LevelController
 				加载场景所有的分块prefab
 		
-		创建
-		
-		添加对象
-		
+		创建			//FileNameEditor
+			首先取一个场景名，然后从Assets/Output/Scenes下选一个地图资源
+			打开CGEditorScene.unity场景
+			加载Assets/Outputs/Scenes下的场景文件prefab
+			创建3个灯光prefab，创建摄像机
+			加载场景所有的分块prefab
+			创建编辑数据GameObject，添加LevelController组件
+			
+		添加对象		//CreateEditor
+			是给场景的LevelController添加对象
+				怪物生成器				//MonsterGenerator
+				Npc生成器				//NpcGenerator
+				障碍物生成器			//ObstacleGenerator
+				矿物生成器				//MineGenerator
+				添加贝塞尔				//BezierCurve
+				添加区域				//创建LevelRegionPrefab
+				添加目标点				//TargetPoint
+				添加传送区域			//创建LevelPortalRegionPrefab
+				添加出生点				//BirthPosition
+				添加复活点				//ResurrectionPosition
+				添加相位区域移动范围	//PhaseMoveGenerator
 
 		保存
 			配置文件
 				导出CSV配置文件
+					功能：导出场景的monster, npc, region
+					monster来自于entityGenerator的怪类型
+					npc来自于entityGenerator的npc类型
+					region来自于region中的找到匹配bezierCurveId的贝塞尔曲线
 
 				导出Lua配置文件
 					功能: 	把Scene.data的数据导出成每个场景id命名的lua
@@ -36,10 +57,24 @@
 					功能: 导出每个地图的区域和阻挡的文件(服务器使用) .regionset 和 .obstacleset
 					
 					
-				客户端中生成的lua文件 
+				另外, 客户端中生成的lua文件 
 					执行M1Client下的 生成GameRes下Data辅助的Lua表.bat 在 GameRes\Configs 下生成
 					AdventureGuideBasicInfo.lua			//冒险指南配置文件
 					WingLevelUpData.lua					//翅膀升级配置文件
+					
+			保存并且导出区域文件			保存prefab, Scene.data, RegionSet, ObstacleSet
+			
+			保存但是不导出区域文件			保存prefab, Scene.data
+			
+			所有prefab重新生成data			//LevelPb.Save
+				将每个编辑的prefab数据，导出到对应的SceneData下的<id>.data
+					InitMapInfo
+						Scene的一些通用信息来自于 LevelMap组件 (出生点，复活点)
+						Scene的ScenePositions来自于 LevelPositionPrefab组件
+						Scene的BezierCurves来自于 LevelBezierCurvePrefab组件 (完成Node连接，中心点计算)
+						Scene的Regions来自于 LevelRegionPrefab组件 (保留大多数在模板编辑器里的信息，主要设置区域范围)
+						Scene的TargetPoints来自于 LevelTargetPointPrefab组件
+						Scene的PortalRegions来自于 LevelPortalRegionPrefab组件 (传送到的worldId和位置朝向)
 	
 	
 LevelController概述	场景编辑器的核心组件
