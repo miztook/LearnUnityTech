@@ -1,0 +1,103 @@
+Skill		//技能 0主角 1怪物 
+		多个Perform结构  技能段
+			多个ExecutionUnit
+			ExecutionUnit结构，技能执行单元	
+		
+Actor		//演算体 0主角 1怪物	
+			可以是特效或子物体
+			ExecutionUnit结构，技能执行单元
+			
+State		//buff系统
+			对应ActorId	状态特效
+			ExecutionUnit结构，技能执行单元
+			
+Rune		//纹章
+			关联技能id
+			ExecutionUnit结构，技能执行单元
+		
+RuneLevelUp		//纹章升级
+			关联技能id
+			技能等级数据
+
+Talent		//被动技能 天赋技能 如宠物
+			ExecutionUnit结构，技能执行单元
+
+TalentLevelUp		//被动技能升级
+			关联技能id
+			技能等级数据
+
+SkillLearnCondition			//技能学习
+			对应技能id
+			通过等级还是任务学习
+
+SkillLevelUpCondition		//技能升级前提
+			对应技能id 需要角色等级 金钱
+
+ExecutionUnit
+			ExecutionUnitTrigger列表	//触发时机 时间段
+			ExecutionUnitEvent列表		//技能事件
+					EventGenerateActor	生成演算体
+					EventAnimation	播放动画
+					EventAudio	播放音效
+					EventJudgement	判定
+					EventSkip	跳转(到其他的perform)
+					EventStopSkill		技能终止
+					EventSkillMove		技能移动
+					EventStopMove		停止移动
+					EventCameraShake		相机震动
+					EventMotionBlur		动态模糊
+					EventCameraTransform	相机变换
+					EventAfterImage		残影
+					EventScreenEffect	屏幕效果
+					EventCloak		隐身
+					EventDispel		驱散(驱散buff)
+					EffectAddAttachedProperty		添加附加属性
+					EffectAccumulativeFightPropertyChange	可积累战斗属性变化
+					EffectAddFightSpeciality	增加战斗特性(增加某个特性一定时间)
+					EventAddState		增加状态
+					EventAdsorbOrRepel		吸附或排斥效果
+					EventModifySkillInfo	技能数据改变
+					EventSummoner		召唤
+					EventJumpState		状态跳转
+					EventRemoveState		移除状态
+					EventChangeSkillIcon	改变技能图标
+					EventSkillIndicator		技能释放指示器
+					EventAttachedProperty		技能附加属性
+					EventChangeSkillCoolDown		改变技能冷却时间
+					EventDeleteSkillExecutionUnit		删除技能执行单元
+					EventAddSkillExecutionUnit		新增技能执行单元
+					EventHalo			光环
+					EventTransform		变身
+					EventSetSkillTargets		设置技能目标
+					EventJumpSubObject		固定子物体弹跳
+					EventRandomGenerateSubObject	随机生成子物体
+					EventMirages		幻影
+					EventModelChangeColor		模型变色
+					EventImmuneState		免疫状态
+					EventReflect		反弹
+					EventModifyFightPower		修改玩家属性(平均战力)
+					EventGenerateKnifeLight		生成刀光
+					EventHideBodyPart		隐藏部位
+					EventResetTargetPosition	重设目标位置
+					EventPopSkillName		弹出技能文字
+					EventContinuedTurn		持续转向
+					EventCameraEffect		相机特效
+					EventSuckBlood			攻击吸血
+					EventPostureSwitch		姿态切换
+					EventInstallRunes		技能安装纹章
+					EventModifySkillLevel		修改技能等级
+					EventBulletTime			子弹时间
+					EventModifyRoleProperty		修改角色属性
+					EventCameraHeightOffset		视点高度调整 客户端buff用
+					EventPopSkillTips			技能提示
+					EventKillMonsterAddition		服务器经验加成
+					EventGather				技能采集
+					EventMapTrans			地图传送
+					
+			ExecutionUnitConditionList列表		//技能条件 满足环境变量，目标，朝向，buff等要求
+			
+SkillMastery			//技能专精
+
+SkillMasteryAddition			//技能专精共鸣
+
+
