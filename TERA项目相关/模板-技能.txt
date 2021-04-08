@@ -97,7 +97,10 @@ ExecutionUnit
 			ExecutionUnitConditionList列表		//技能条件 满足环境变量，目标，朝向，buff等要求
 			
 SkillMastery			//技能专精
+			消耗货币 物品等配置
 
 SkillMasteryAddition			//技能专精共鸣
 
+RuneElement			//元素之灵
+			对应一个被动技能id
 
