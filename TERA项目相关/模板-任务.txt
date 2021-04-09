@@ -1,0 +1,39 @@
+Quest
+
+Quest0			//主线
+Quest1			//支线
+Quest2			//赏金
+Quest3			//其他
+Quest4			//封印
+Quest5			//公会
+Quest6			//声望
+Quest7			//扫荡任务
+Quest8			//挂机任务
+Quest209		//CN历练任务
+Quest200		//CN主线
+Quest201		//CN支线
+
+
+QuestGroup
+
+QuestChapter
+
+CyclicQuest
+
+CyclicQuestReward
+
+Hearsay
+
+DailyTask
+
+TaskLuck
+
+QuestGroupReward
+
+DailyTaskBox
+
+QuestForHelp
+
+RingQuestConfig			//环任务配置
+
+RingQuestBox		//诗人宝箱

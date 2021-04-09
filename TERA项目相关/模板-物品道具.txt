@@ -59,35 +59,48 @@ WingGradeUp		//飞翼进阶
 		进阶增加天赋点 消耗物品
 
 WingTalent		//飞翼天赋
+		职业 天赋技能页
 
 WingTalentPage		//飞翼天赋页
+		模型ID，天赋技能组
 
 WingTalentLevel		//飞翼天赋等级
+		天赋等级 前置条件解锁等
 
 Dress			//时装模板
+		部位 品质 通道染色颜色 强化等级
 
 DyeAndEmbroidery		//染色刺绣配置
+		消耗道具 刺绣资源
 
 ColorConfig			//颜色配置
-
+		
 DressScore			//时装评分
+		所需评分 附加属性
 
 DressMachining			//时装合成
+		消耗道具 前置时装 生成时装概率
 
 Enchant			//附魔
+		附魔等级 部位 属性值
 
 CharmField			//神符卡槽
+		神符大小 颜色 解锁等级
 
 CharmItem			//神符道具
+		神符等级 升级
 
 CharmPage			//神符页签
+		神符卡槽 共鸣所需槽位
 
 CharmUpgrade			//神符升级
+		消耗神符 道具 成功率
 
 CharmResanance				//神符共鸣
+		加成属性
 
 CharmTransform				//神符转换
-
+		消耗物品货币 转换神符颜色
 
 
 
