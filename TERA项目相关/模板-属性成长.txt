@@ -1,0 +1,44 @@
+Profession			//职业
+		职业属性
+		模型路径
+		武器id
+
+LevelUpExp		//升级经验
+		等级所需经验
+
+PetLevel		//宠物经验
+		等级所需经验
+	
+MetaFightPropertyConfig			//基元战斗属性
+		上限下限
+
+AttachedProperty			//附加属性
+		调整属性 调整技能等级 战斗力系数增加多少等
+
+AttachedPropertyGenerator		//装备附加属性
+		战力 
+		星级设置 最大最小值
+
+AttachedPropertyGroupGenerator			//装备附加属性组
+		附加属性列表
+		生成数量列表
+
+LegendaryPropertyUpgrade		//传奇属性升级
+		升级条件
+
+LegendaryGroup			//传奇属性组
+		天赋id等级权重 列表
+
+FightProperty			//角色裸体属性
+		各种影响战力的属性计算
+
+MonsterProperty			//怪物属性
+		怪物的战斗力属性
+
+MonsterAffix			//怪物词缀
+		对怪物战力的影响(被动技能)
+
+TalentGroup			//怪物词缀库
+		词缀列表
+
+MonsterPosition			//怪物定位
