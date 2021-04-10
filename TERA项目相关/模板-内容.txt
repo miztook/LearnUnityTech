@@ -1,0 +1,33 @@
+Scene 			//场景
+
+Map			//地图
+
+Instance			//地牢
+
+DungeonIntroductionPopup			//副本介绍弹窗
+
+TowerDungeon			//试炼
+
+WorldBossConfig			//狩猎配置
+
+Fortress			//要塞配置
+
+Expedition			//远征
+
+Dialogue		//对话
+
+Letter			//书札
+
+Achievement			//成就
+
+Designation			//称号
+
+ManualAnecdote		 	//万物志模板
+
+ManualEntrie			//万物志条目
+
+ManualEntrieStarUp			//万物志条目升星
+
+Hawkeye				//神之视界
+
+MonsterAttenuation				//副本怪物衰减
