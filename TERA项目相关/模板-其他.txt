@@ -1,0 +1,189 @@
+Text			//文本
+
+SystemNotify		//系统通知
+
+SensitiveWord			//敏感词
+
+Asset			//资源
+
+User			//用户
+
+EquipEngraving			//刻印模板
+
+EquipRefine			//装备精炼
+
+PlayerStrongCell			//我要变强cell
+
+PlayerStrong			//我要变强
+
+PlayerStrongValue		//我要变强value
+
+ItemApproach		//物品获取途径
+
+Designation			//称号
+
+GloryLevel			//荣耀升级
+
+GuildDefend			//公会防守
+
+StoreTag			//商城页签
+
+Store			//商城小分类
+
+Goods			//商品
+
+MonthlyCard			//月卡
+
+Fund			//基金
+
+AmicabilitySetting		//亲密度等级设置
+
+SocialSendGift			//送礼给好友
+
+ProvinceAndCity			//省份和城市
+
+EquipQuench			//装备催贷
+
+EquipSurmount		//装备突破
+
+EquipInherit		//装备继承
+
+SpeicialSign		//特殊签到
+
+HotTimeConfigure		//HotTime增益配置
+
+QuickStore			//快速购买
+
+InforceDecompose			//强化分解
+
+OnlineReward			//在线奖励
+
+ReviveRule			//复活配置
+
+ExpFind				//经验获取途径
+
+HangQuest			//挂机任务
+
+GrowthGuidance			//成长引导
+
+QuestLib			//任务库
+
+EliteBossConfig			//肃清威胁之精英boss配置
+
+ManualTotalReward			//万物志累计激活奖励
+
+FestivalActivity			//节日活动-材料兑换配置
+
+Banner				//广告banner
+
+Dice			//骰子活动配置
+
+ActivityStore			//活动商城
+
+ActivityPage			//福利活动页签
+
+HotActivity				//热点活动
+
+FrontLine			//前线表
+
+EquipInforeAddition			//装备强化加成
+
+ParagonLevelAttr		//巅峰等级属性表
+
+ParagonLevelExp			//巅峰等级经验表
+
+WorldQuest			//阿勒坤事件(世界任务)
+
+SingleTower			//单人爬塔
+
+SingleTowerConfig		//单人爬塔配置 晶石
+
+TWOperationActivity			//TW运营活动
+
+EveryDayQuest		//每日任务
+
+PetDropActivity			//宠物扭蛋活动模板
+
+CalendarButton			//限时按钮
+
+TurnTable			//幸运转盘
+
+MapPreload			//地图预加载
+
+FunUnlock			//功能即将开放表
+
+RewardUnlock			//奖励即将开放表
+
+SingleDamageReward			//单人伤害副本奖励
+
+OnceBossChallenge			//一次性boss挑战
+
+OnceBossChallengeConfig			//一次性boss挑战配置
+
+BossIntroduction			//首领介绍弹窗
+
+RandomWildBoss			//野外boss(入侵boss)
+
+OfflineReward			//离线奖励
+
+SingleClimbTowerConfig		//单人爬塔配置表
+
+SingleClimbTowerPeak			//单人爬塔巅峰表
+
+RetrieveReward			//奖励找回
+
+PrizeQuizActivity			//答题活动
+
+PrizeQuizBank				//题库
+
+PrizeQuizRankReward			//答题排行奖励
+
+Fairyland			//秘境
+
+FairylandLayer			//秘境层级
+
+FairylandStage			//秘境阶
+
+FairylandNode			//秘境阶节点
+
+FairylandRoom			//秘境房间
+
+FairylandRandomGroup		//秘境随即库
+
+ServerLevel			//服务器等级
+
+MagicalAccident			//奇遇配置
+
+BonusFightTarget		//战力目标
+
+RegularReward			//定时奖励
+
+OptionalGiftBagReward			//可选礼包表
+
+CustomizeInfo			//定制
+
+NpcDialogue					//NPC连续对话
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

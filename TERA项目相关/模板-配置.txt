@@ -1,0 +1,37 @@
+Faction				//势力
+
+FactionRelationship			//势力关系
+
+Reputation			//声望
+
+SpecialId			//特殊ID
+
+Cooldown			//冷却配置
+
+CountGroup			//次数组
+
+NavigationData			//寻路配置
+
+Trans			//传送
+
+NpcShop			//Npc商店
+
+NpcSale			//Npc售卖
+
+FightPropertyConfig			//属性文本配置
+
+Email			//邮件配置
+
+Fun				//教学功能
+
+Rank			//排行榜配置
+
+PVP3v3			//角斗场3v3
+
+TeamRoomConfig		//组队配置
+
+AIExteriorRandom		//副本镜像外观随机配置
+
+Market		//交易所
+
+MarketItem			//交易所物品

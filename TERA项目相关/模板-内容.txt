@@ -1,6 +1,15 @@
 Scene 			//场景
+		名称 长宽  出生点复活点
+		SceneBezierCurveRoot			//贝塞尔曲线
+		SceneRegionRoot				//区域	(索引贝塞尔曲线)
+		SceneTargetPointRoot		//目标点
+		ScenePortalRegionRoot		//传送区域
+		SceneEntityGeneratorRoot		//生成器 (刷怪)
+		ScenePositionRoot			//场景出生复活点
 
 Map			//地图
+		关联的场景id
+		主要是数据编辑器中的一些属性
 
 Instance			//地牢
 
