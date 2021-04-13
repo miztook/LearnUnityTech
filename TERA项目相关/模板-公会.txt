@@ -1,0 +1,45 @@
+GuildLevel				//公会
+
+GuildBuildLevel			//公会建筑等级
+
+GuildPermission			//公会管理权限
+
+GuildDonate			//公会捐献配置 
+
+GuildShop			//公会商店
+	
+GuildSmithy			//公会铁匠铺
+
+GuildRewardPoints		//公会积分
+
+GuildSalary			//公会工资
+
+GuildSalaryNew			//公会工资(新)
+
+GuildEnchant		//公会附魔
+
+GuildIcon		//公会旗帜
+
+GuildSkill			//公会技能
+
+GuildBuff			//公会buff
+
+GuildPrayPool			//公会月光庭院
+
+GuildPrayItem			//公会月光庭院道具
+
+GuildExpedition			//异界之门
+
+GuildConvoy				//军资押送
+
+GuildDefend			//公会防守
+
+GuildBattle			//公会战场
+
+GuildBusinessConfig			//公会商业任务表
+
+LotusTemple				//赛莲圣殿
+
+GuildExchangePower			//公会传功表
+
+GuildBattleNew			//公会战场新版

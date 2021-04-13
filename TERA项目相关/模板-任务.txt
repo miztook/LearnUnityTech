@@ -1,39 +1,123 @@
 Quest
+	任务类型
+		主线
+		分支
+		活动
+		赏金
+		历练
+		讨伐
+		声望
+		公会护送
+		引导
+		扫荡
+		挂机
+		前线
+		巅峰等级
+		世界
+		公会商业
+		奇遇条件
+		奇遇
+	QuestProvideRelated			//任务发放
+		ProvideReputationLimit			//声望限制
+		QuestProvideMode		//任务发放模式  通过npc 物品 自动发放
+		PredecessorQuestList		//前置任务列表
+		
+	QuestObjectiveRelated		//目标相关
+		QuestObjective			//任务目标
+			ObjectiveConversation			//NPC交谈
+			ObjectiveKillMonster			//杀怪
+			ObjectiveGather					//采集
+			ObjectiveArriveRegion			//抵达区域
+			ObjectiveFinishDungeon			//通关副本
+			ObjectiveUseItem				//使用道具
+			ObjectiveHoldItem				//持有道具	(一定数量 完成后删除)
+			ObjectiveEnterDungeon			//进入副本
+			ObjectiveArriveLevel			//达到某个等级
+			ObjectiveWaitTime				//在某个区域等待一段时间
+			ObjectiveConvoy					//护送
+			ObjectiveKillGenerator			//击杀生成器
+			ObjectiveGuide					//引导任务
+			ObjectiveAchievement			//达成成就
+			ObjectiveWorldQuest				//完成世界任务
+			ObjectiveFinishQuest			//完成某个任务
+			ObjectiveFinishDungeonType		//完成某个类型副本
+			ObjectiveSubmitItem				//提交道具 给npc
+			ObjectiveEmojiPlayer			//动作表情交互 玩家
+			ObjectiveEmojiNPC				//动作表情交互 npc
+			ObjectiveGuildBusiness						//公会任务计数
+			ObjectiveWaitServerDay					//等待至开服第几天
+			
+	QuestDeliverRelated			//交付相关
+			DeliverAuto			//自动
+			DeliverViaNpc		//通过npc
+			DeliverManual		//手动
+			后置任务
+			
+	QuestSubQuestRelated		//子任务相关
+			子任务列表
+			
+	QuestEventRelated			//任务事件 发放 交付 达成目标时触发事件
+			EventMapTrans			//地图传送
+			EventRefreshMonster			//即刻刷怪
+			EventRegionRefreshMonster		//区域刷怪
+			EventRegionTriggerPhsase		//抵达区域触发相位事件
+			EventTriggerPhase			//触发相位事件
+			EventLeavePhase				//离开相位
+			EventCreateAssistNpc		//生成协战Npc
+			EventPlayCG				//播放CG
+			EventRegionAddBuff			//抵达区域添加buf
+			EventRegionDelBuff			//抵达区域删除buf
+			EventAddBuff				//添加buf
+			EventDelBuff				//删除buf
+			EventChatBubble			//聊天气泡
+			EventGetItem				//获得道具
+			EventProvideSkill			//发放技能
+			EventDelItem				//移除道具
+			EventChangeAction			//改变单位动作
+			EventNpcDialogue			//Npc对话事件
+			EventProvideQuest			//发放任务事件
+			EventCamera				//镜头事件
+			
+	QuestNpcAppearHideRelated
+			Npc发放和交付后显示或隐藏的npc列表
 
-Quest0			//主线
-Quest1			//支线
-Quest2			//赏金
-Quest3			//其他
-Quest4			//封印
-Quest5			//公会
-Quest6			//声望
-Quest7			//扫荡任务
-Quest8			//挂机任务
-Quest209		//CN历练任务
-Quest200		//CN主线
-Quest201		//CN支线
+	QuestTimeLimitedRelated			//限时相关 接取任务开始计时 采集开始计时
+	
+	QuestChoosens			//任务多选择相关
+			任务选项		根据数值选择后续任务id
 
+QuestGroup				//任务组表
+			多个任务组合		需求 次数 前置条件
 
-QuestGroup
+QuestChapter		//任务章节
+			第几章  任务组  地图id 奖励id
 
-QuestChapter
+CyclicQuest		//跑环任务
+		任务id列表
 
-CyclicQuest
-
-CyclicQuestReward
+CyclicQuestReward			//跑环任务奖励
+		多个任务奖励	 	奖励id 环尾id
 
 Hearsay
 
-DailyTask
+DailyTask		//每日任务
+		目标需求数量	自动完成	活动id 
 
-TaskLuck
+TaskLuck		//每日运势
+		任务评级
 
-QuestGroupReward
+QuestGroupReward		 //任务组奖励
+		等级段奖励 任务组id
+	
+DailyTaskBox		//每日宝箱
+		宝箱类型 	奖励
 
-DailyTaskBox
-
-QuestForHelp
+QuestForHelp		任务帮助
+		帮助信息 	任务奖励	冷却时长	
 
 RingQuestConfig			//环任务配置
-
+		任务组	多个奖励系数
+		
 RingQuestBox		//诗人宝箱
+		物品数量 等级
+
