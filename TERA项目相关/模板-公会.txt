@@ -1,45 +1,67 @@
 GuildLevel				//公会
+	等级	成员数量 资源经验 升级等 场景资源
 
 GuildBuildLevel			//公会建筑等级
+	建筑类型 	等级	消耗
 
 GuildPermission			//公会管理权限
+	会长 精英 元老等
 
 GuildDonate			//公会捐献配置 
+	消耗 资源 经验 积分
 
 GuildShop			//公会商店
+	商店物品列表
 	
 GuildSmithy			//公会铁匠铺
+	加工物品列表 加工id
 
 GuildRewardPoints		//公会积分
+	所需积分 宝箱ID
 
 GuildSalary			//公会工资
+	积分 奖励ID
 
 GuildSalaryNew			//公会工资(新)
+	活跃度	积分 系数
 
 GuildEnchant		//公会附魔
+	等级 物品id
 
 GuildIcon		//公会旗帜
+	图标路径	解锁条件
 
 GuildSkill			//公会技能
+	公会技能升级	被动技能id
 
 GuildBuff			//公会buff
+	公会buff升级	 buffid
 
 GuildPrayPool			//公会月光庭院
+	所需建筑等级
 
 GuildPrayItem			//公会月光庭院道具
+	奖励物品id 道具id
 
 GuildExpedition			//异界之门
+	公会副本列表 bossID
 
 GuildConvoy				//军资押送
+	线路任务	攻击方奖励	防守方奖励
 
 GuildDefend			//公会防守
+	奖励 推荐战力
 
 GuildBattle			//公会战场
+	人数	胜利失败奖励
 
 GuildBusinessConfig			//公会商业任务表
+	任务收集
 
 LotusTemple				//赛莲圣殿
+	buff  升级解锁
 
 GuildExchangePower			//公会传功表
-
+	
 GuildBattleNew			//公会战场新版
+	匹配 胜负奖励规则

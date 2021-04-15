@@ -55,5 +55,7 @@ ManualEntrieStarUp			//万物志条目升星
 		条目升星变化后的属性值列表
 
 Hawkeye				//神之视界
+		所属场景 区域 刷新数量 类型(单人多人热点)
 
 MonsterAttenuation				//副本怪物衰减
+		副本怪物 指定天数 属性降低
