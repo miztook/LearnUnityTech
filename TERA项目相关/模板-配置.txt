@@ -1,20 +1,29 @@
 Faction				//势力
+	显示名称
 
 FactionRelationship			//势力关系
+	阵营之间关系列表
 
 Reputation			//声望
+	声望等级	关联npcid 	升级消耗货币	地图id
 
 SpecialId			//特殊ID
+	id对应值
 
 Cooldown			//冷却配置
+	冷却间隔	累计值
 
 CountGroup			//次数组
-
+	初始购买次数 	消耗货币	重置时间	最大次数
+	
 NavigationData			//寻路配置
+	寻路类型: 目标点，怪物，Npc，可采集单位，可破坏单位，区域
 
 Trans			//传送
+	地图id	传送到指定位置+朝向
 
 NpcShop			//Npc商店
+	物品+价格 列表
 
 NpcSale			//Npc售卖
 
