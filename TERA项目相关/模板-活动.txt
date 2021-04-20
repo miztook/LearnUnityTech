@@ -1,21 +1,31 @@
 AdventureGuide			//冒险指南
+	冒险指南模板		客户端和服务器使用的event
 
 ScriptConfig			//脚本配置
 
 ScriptCalendar			//脚本日历
+	系统类型	福利系统类型		开启时间 结束时间
 
 EliminateMatch			//无畏战场匹配
+	积分区间
 
 EliminateReward			//无畏战场排名奖励
+	奖励id	赛季积分
 
 EliminateCard				//无畏战场卡片
+	颜色	技能	增益
 
-EliminateRandomGroup			//无畏战场随即组
+EliminateRandomGroup			//无畏战场随机组
+	卡片或随机组
 
-EliminateCardResonance			//无畏战车卡片共鸣
+EliminateCardResonance			//无畏战场卡片共鸣
+	卡牌数量共鸣
 
-EliminateGradeStage			//无畏战场卡片共鸣
+EliminateGradeStage			//无畏战场段位配置
+	段位级别	奖励	积分偏差
 
 EliminateWeeklyReward		//无畏战场周奖励规则
+	周积分	达成奖励
 
 WeeklyCalendar				//周历配置
+	脚本Id

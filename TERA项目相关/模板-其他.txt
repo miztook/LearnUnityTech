@@ -1,4 +1,5 @@
 Text			//文本
+	频道
 
 SystemNotify		//系统通知
 
