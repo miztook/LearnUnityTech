@@ -1,170 +1,261 @@
 Text			//文本
-	频道
+	频道	内容
 
 SystemNotify		//系统通知
+	显示类型	同步频道	标题 	内容
 
 SensitiveWord			//敏感词
 
 Asset			//资源
 
 User			//用户
+	角色信息
 
 EquipEngraving			//刻印模板
 
 EquipRefine			//装备精炼
+	精炼数据列表 	花费金币物品 提升属性
 
 PlayerStrongCell			//我要变强cell
+	推荐值	开启prefab
 
 PlayerStrong			//我要变强
+	推荐值	小类Cell id
 
 PlayerStrongValue		//我要变强value
+	id value列表
 
 ItemApproach		//物品获取途径
+	点击类型	获取方式	关联的解锁id
 
 Designation			//称号
+	图标	特效	来源	属性
 
 GloryLevel			//荣耀升级
-
-GuildDefend			//公会防守
+	战力	升级消耗道具	功能解锁
 
 StoreTag			//商城页签
+	开关	显示优先级		商城数据
 
 Store			//商城小分类
+	分类: 
+		通用
+		新手礼包
+		神秘商店
+		基金
+		月卡
+		WebView
+		精灵献礼
+		宠物扭蛋
+		随机礼包
+		推荐
+	推荐的商品列表: id 图标	
 
 Goods			//商品
+	商品类型: 
+		代币
+		物品
+		月卡
+		基金
+	消耗：
+		代币
+		现金
+	限购，商品显示，商品隐藏
 
 MonthlyCard			//月卡
+	持续天数，奖励货币，奖励物品
 
 Fund			//基金
+	奖励系列列表	奖励货币
 
 AmicabilitySetting		//亲密度等级设置
+	品质	杀怪经验增益
 
 SocialSendGift			//送礼给好友
+	物品Id 	增加亲密度爱慕值	商城id 	商品id
 
 ProvinceAndCity			//省份和城市
 
-EquipQuench			//装备催贷
+EquipQuench			//装备淬火
+	消耗道具货币 	提升百分比
 
 EquipSurmount		//装备突破
+	消耗道具货币	提升百分比
 
 EquipInherit		//装备继承
+	无损继承后消耗货币 	强化等级
 
 SpeicialSign		//特殊签到
 
 HotTimeConfigure		//HotTime增益配置
+	一个特定玩法期间持续增益
 
 QuickStore			//快速购买
-
+	商品类型	id 	数量	花费
+	
 InforceDecompose			//强化分解
+	强化物品	强化等级列表
 
 OnlineReward			//在线奖励
+	所需分钟	奖励id
 
 ReviveRule			//复活配置
+	复活时间
 
 ExpFind				//经验获取途径
+	额外的获取经验方式
+		悬赏事务	公会建设	支线任务	声望任务	每日任务 
 
 HangQuest			//挂机任务
+	任务id	地图	区域 	等级限制
 
 GrowthGuidance			//成长引导
+	类型: 	经验	装备	金币	材料	 宠物
 
 QuestLib			//任务库
+	任务id数据做随机
 
 EliteBossConfig			//肃清威胁之精英boss配置
+	场景	区域	生成器		预览奖励	推荐战力人数
 
 ManualTotalReward			//万物志累计激活奖励
+	累计数量	奖励
 
 FestivalActivity			//节日活动-材料兑换配置
+	活动id物品数量 	奖励
 
 Banner				//广告banner
+	开始结束时间	展示时间
 
 Dice			//骰子活动配置
+	消耗	事件	奖励
 
 ActivityStore			//活动商城
+	开始结束时间	商品ID		页签
 
 ActivityPage			//福利活动页签
+	活动ID 		活动类型 	排序
 
 HotActivity				//热点活动
+	
 
 FrontLine			//前线表
+	副本ID 	任务组ID 	活动ID
 
 EquipInforeAddition			//装备强化加成
 
 ParagonLevelAttr		//巅峰等级属性表
+	天赋升级等级	巅峰等级	 角色等级
 
 ParagonLevelExp			//巅峰等级经验表
+	需要任务ID 		所需经验	点数
 
 WorldQuest			//阿勒坤事件(世界任务)
+	boss描述	持续天数 	任务ID
 
 SingleTower			//单人爬塔
+	副本ID 	门票消耗	通关倍率	层数
 
 SingleTowerConfig		//单人爬塔配置 晶石
+	怪物生成器 		副本ID	层数 	奖励
 
 TWOperationActivity			//TW运营活动
 
 EveryDayQuest		//每日任务
+	成就ID	总结成就
 
 PetDropActivity			//宠物扭蛋活动模板
+	dropRuleID彩票	跳转ID	
 
 CalendarButton			//限时按钮
+	跳转ID		功能解锁	关联脚本日历ID
 
 TurnTable			//幸运转盘
+	消耗物品	累计转动次数	
 
 MapPreload			//地图预加载
+	地图	任务ID		奖励ID
 
 FunUnlock			//功能即将开放表
+	解锁描述	解锁ID
 
 RewardUnlock			//奖励即将开放表
+	奖励模型	解锁参数	物品获取途径
 
 SingleDamageReward			//单人伤害副本奖励
+	关联排行榜		阶段伤害奖励
 
 OnceBossChallenge			//一次性boss挑战
+	宝箱预览	宝箱奖励	等级限制
 
 OnceBossChallengeConfig			//一次性boss挑战配置
+	怪物生成器列表		副本id		怪物ID	奖励预览
 
 BossIntroduction			//首领介绍弹窗
+	boss技能描述
 
 RandomWildBoss			//野外boss(入侵boss)
+	奖励ID	区域位置列表
 
 OfflineReward			//离线奖励
+	等级对应掉落	月卡id	
 
 SingleClimbTowerConfig		//单人爬塔配置表
+	怪物信息	战力压制	首次通关/扫荡奖励
 
 SingleClimbTowerPeak			//单人爬塔巅峰表
+	奖励id	等级限制	可领取层数
 
 RetrieveReward			//奖励找回
+	奖励适配类型	副本ID	任务ID	消耗货币数量 	
 
 PrizeQuizActivity			//答题活动
+	世界/公会答题	时间	答对答错奖励
 
 PrizeQuizBank				//题库
+	问题类型	选项
 
 PrizeQuizRankReward			//答题排行奖励
+	答题奖励排行/宝箱
 
 Fairyland			//秘境
+	难度	推荐	门票	 奖励	关联副本ID
 
 FairylandLayer			//秘境层级
+	战力	奖励预览  	掉落id
 
 FairylandStage			//秘境阶
+	阶段预览
 
 FairylandNode			//秘境阶节点
+	后续连接的节点		阶段
 
 FairylandRoom			//秘境房间
+	怪物生成器集合		房间掉落	战力区间
 
-FairylandRandomGroup		//秘境随即库
+FairylandRandomGroup		//秘境随机库
+	类型: 被动技能+房间
 
 ServerLevel			//服务器等级
 
 MagicalAccident			//奇遇配置
-
+	条件任务列表:	完成概率，任务id
+	奖励	奇遇任务id
+	
 BonusFightTarget		//战力目标
+	成就ID		模型类型
 
 RegularReward			//定时奖励
+	奖励内容 	日期
 
 OptionalGiftBagReward			//可选礼包表
+	奖励货币 物品
 
 CustomizeInfo			//定制
+	大类型 	小类型	道具
 
 NpcDialogue					//NPC连续对话
-
+	地图	生成器		对话文本列表
 
 
 
