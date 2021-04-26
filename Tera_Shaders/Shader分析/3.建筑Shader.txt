@@ -21,3 +21,11 @@ TERA/Environment/MobileTransparentObject
 TERA/Environment/MobileWaterBicolored
 TERA/Environment/SkySphere
 TERA/Environment/SkySphereWithStars
+
+TERA/Environment/MobileDiffuse
+	diffuse: 	直接 maintex采样 
+				间接 SH环境光和lightmap乘以nl光照角度(halfLambert)，按夜晚参数进行插值
+	specular: 	用blin_phong进行高光计算
+	
+	简化版本： 去掉specular计算
+	
