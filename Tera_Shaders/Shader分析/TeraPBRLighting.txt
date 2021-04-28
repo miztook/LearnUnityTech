@@ -8,12 +8,13 @@ Transmission
 
 gloss roughness 转换 (光泽度，粗糙度)
 
-Frsn		菲涅尔反射
+Frsn		菲涅尔反射		叠加ibl 金属度 gloss
 
-Rim 	边缘光
+Rim 	边缘光			nv越是边缘部分越大
 
 
-SpecularAniso, SpecularGGX 光泽度计算高光
+SpecularAniso		各向异性高光 anisoDir viewDir 计算normal * (anisoDir + viewDir) * 0.5, 然后sin得到aniso项，指数gloss
+SpecularGGX 光泽度计算高光
 SpecularGGSSimple, SpecularSkin
 LightingbyBRDFmap
 
@@ -24,12 +25,12 @@ CalculateDiffuse		直接: NdLs, NdLq  间接: SH，scattering
 
 FinalColor			diffuse + specular + rim + frsn
 
-ImageBasedLighting 			texCUBE(_EnvMap
+ImageBasedLighting 			texCUBE(_EnvMap		和gloss	viewDir相关
 
-DisneyDiffuse
-HairGGXTerm
-SmithJointGGXVisTerm
-SmithJointGGXVisTermMobile
+DisneyDiffuse			粗糙度，lightScatter * viewScatter
+HairGGXTerm				粗糙度, nh
+SmithJointGGXVisTerm			nl, nv, 粗糙度
+SmithJointGGXVisTermMobile		nl, nv, 粗糙度，去掉平方根计算
 
 CalculateHairDiffuse1			
 	DiffuseTerm: 	DisneyDiffuse
