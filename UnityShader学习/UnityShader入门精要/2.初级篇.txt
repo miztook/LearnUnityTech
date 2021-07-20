@@ -21,7 +21,7 @@
 	WorldSpaceLightDir(float4 v) 		输入模型空间的顶点位置，返回世界空间中从该点到光源的光照方向
 	UnityWorldSpaceLightDir(float4 v) 	输入世界空间的顶点位置，返回世界空间中从该点到光源的光照方向
 	ObjSpaceLightDir(float4 v) 			输入模型空间的顶点位置，返回模型空间中从该点到光源的光照方向
-	UnityObjectToWorldNormal(float3 norm)			把法线方向从模型空间转换到世界空间
+	UnityObjectToWorldNormal(float3 norm)			把法线方向从模型空间转换到世界空间		float3x3
 	UnityObjectToWorldDir(float3 dir)			把方向矢量从模型空间变换到世界空间
 	UnityWorldToObjectDir(float3 dir) 		把方向矢量从世界空间变换到模型空间
 
@@ -29,6 +29,9 @@
 	Type, Alpha from Grayscale, Wrap Mode, Filter Mode, Aniso Level
 	切线空间 tangent-space 	z轴是顶点的法线方向，x轴是切线方向，y轴为副法线	  其实是相对法线信息，存储了在各自切线空间中的法线扰动方向
 		和模型空间的区别： 自由度高不依赖于网格，可以UV动画，可重用法线纹理，可压缩
+		
+		rotation = float3x3(tangent, binormal, normal)
+		
 	法线纹理  	压缩，法线纹理只有两个通道上必不可少的 DXT5nm格式
 	渐变纹理	控制漫反射的效果 	tex2D(_RampTex, fixed2(halfLambert, halfLambert)).rgb * _Color.rgb
 	遮罩纹理	采样遮罩纹理的纹素值，使用其中几个通道的值与表面属性相乘
