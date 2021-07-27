@@ -14,7 +14,7 @@
 							Blend One One 和其他光照结果进行混合
 	顶点照明渲染
 		逐顶点不支持阴影，法线映射，高精度高光反射等
-		ShadeVertexLights 和 ShadeVertexLightsFull 计算聚光灯和点光源的光照结果
+		ShadeVertexLights 和 ShadeVertexLightsFull 计算聚光灯和点光源的光照结果 	光源颜色 * dot(n,v) * 衰减
 	延迟渲染
 		主要包含两个Pass		1. 用深度缓冲技术判断哪些片元是可见的，如果可见就把相关信息存储到GBuffer中
 		2.	利用GBuffer中的各个片元信息，如表面法线，视角方向，漫反射系数等进行光照计算
@@ -38,7 +38,9 @@
 		如果摄像机的深度图中表面深度大于转换到阴影映射纹理中的深度值，说明表面是可见的，但处在光源的阴影中
 		阴影图包含了屏幕空间的阴影区域，如果物体接受阴影，只需要对阴影图进行采样
 		
-		阴影三剑客： SHADOW_COORDS, TRANSFER_SHADOW, SHADOW_ATTENUATION
+		阴影三剑客： 	SHADOW_COORDS		使用Texcoord寄存器
+						TRANSFER_SHADOW	shadowCoords=顶点转为光源空间/屏幕空间
+						SHADOW_ATTENUATION		对深度缓存/深度图采样，计算光照衰减
 		UNITY_LIGHT_ATTENUATION 统一管理光照衰减和阴影
 
 10. 高级纹理
