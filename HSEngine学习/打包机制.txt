@@ -1,0 +1,44 @@
+1. 资源目录
+	Assets/SubAssets/Raw/			//原始资源(非prefab)
+		Sprite						//图集资源
+		Animation					//Animation, Controller
+		Character/FaceShaping			//捏脸
+		Permanent					//常驻资源			
+		Shader
+		Scene					//场景资源
+			ToGame					//分块场景 .unity
+			Final					//光照图资源 LightingData.asset
+	
+	Assets/SubAssets/Res/
+		Prefabs						//prefab目录
+		Atlas						//新图集 .spriteatlas
+		Font						//字体
+		RecastInfo					//导航信息
+		SimpleMeshes				//角色低模
+		
+2. 首包资源
+	Assets/SubAssets/Res/Character
+	Assets/SubAssets/Raw/Character/FaceShaping
+	Assets/SubAssets/Res/SimpleMeshes
+	其他由乐变统计的大资源列表
+		
+3. 打包规则
+		1)	收集Res下的 Prefabs, Atlas, Font, RecastInfo中的prefab列表
+			在 Raw/Scene/ToGame 下收集分块.unity场景
+			在 Raw/Scene/Final 下收集光照图
+		2)  对1)中的每个资源每个资源(.prefab .unity)建立assetbundle
+		3)	统计1)中资源(.prefab .unity)的所有依赖项
+			对所有被依赖的资源，如果被依赖大于1，则每个资源打成assetbundle
+		4)	场景每个.unity生成一个bundle
+		5)  每个 Raw/Sprite 下的sprite打成一个assetbundle
+		6)  捏脸 Raw/Character/FaceShaping 下的贴图和mat打成一个assetbundle
+		7)  Raw/Shader 下的资源打成shader assetbundle
+			Raw/Permanent 下的资源打成 permanent assetbundle
+		8)	Raw/Animation 下的Controller文件 打成一个assetbundle (Animator打包)
+		9) 	Raw/Animation 下的anim文件 打成一个assetbundle (Animation打包)
+		10) Res/Atlas 下的spriteatlas文件 打成一个assetbundle
+		11) PostProcess资源打成 assetbundle
+		12) SimpleMeshes 打成一个 assetbundle
+		
+	
+
