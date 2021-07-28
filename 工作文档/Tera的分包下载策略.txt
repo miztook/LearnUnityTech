@@ -1,0 +1,6 @@
+Tera分美术工程和客户端工程，美术工程产出assetbundle供客户端使用
+
+美术工程目录结构
+	3rd
+	Blocks
+	
