@@ -9,6 +9,10 @@ Blinn-Phong光照模型
 
 基于物理的光照模型的概念
 	BRDF	双向反射分布函数
-	D	法线分布函数	微表面法线恰好是h的微表面比例，和粗糙度有关
-	G	遮挡项		微表面之间互相遮挡，和粗糙度有关
-	F	菲涅尔方程 		反射比例
+	D	法线分布函数	微表面法线恰好是h的微表面比例，和粗糙度有关		(GGX法线分布)
+	G	遮挡项		微表面之间互相遮挡，和粗糙度有关		(GGXVisibilityTerm)
+	F	菲涅尔方程 		反射比例	(菲涅尔反射率)
+	
+Cook-Torrance BRDF模型	
+	DisneyDiffuse		diffuse项
+	DGF		Specular项

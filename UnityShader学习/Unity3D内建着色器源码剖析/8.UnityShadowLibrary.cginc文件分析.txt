@@ -3,8 +3,8 @@
 	_ShadowMapTexture
 	_ShadowOffset[4]			//软阴影，偏移算平均值
 
-	UNITY_DECLARE_SHADOWMAP
-	UNITY_SAMPLE_SHADOW
+	UNITY_DECLARE_SHADOWMAP			//声明shadowmap寄存器
+	UNITY_SAMPLE_SHADOW				//采样
 	UnitySampleShadowMap	函数
 		SHADOWS_NATIVE			阴影坐标除以w，转化到NDC坐标上操作
 		SHADER_API_MOBILE		使用tex2d 	加_ShadowOffsets软阴影

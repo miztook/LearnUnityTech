@@ -98,6 +98,12 @@ UnityCG.cginc文件中的工具函数和宏
 		Luminance					//灰度
 		LinearRgbToLuminance
 	HDR及光照贴图颜色编解码相关
+		HDR技术就是把尽可能大的亮度值范围编码到尽可能小的存储空间中(不能直接乘以系数)
+		1. 在每个颜色通道是16位或者32位的浮点纹理上渲染场景
+		2. 使用RGBM, LogLuv等编码方式来节省所需带宽
+		3. 通过降采样(downsample)计算场景亮度
+		4. 根据场景亮度对场景做一个色调映射(tone mapping) 最终颜色值输出到一个每通道8位的RGB格式的渲染目标上
+	
 		RGBM			//扩大范围的rgb编码	M范围 0-5
 		UnityEncodeRGBM
 		DecodeHDR
@@ -105,7 +111,7 @@ UnityCG.cginc文件中的工具函数和宏
 		DecodeLightmapRGBM
 		DecodeLightmapDoubleLDR
 		DecodeLightmap				//光照图两种编码? RGBM dLDR
-		DecodeDirectionalLightmap
+		DecodeDirectionalLightmap		//在采样点处把所处的半球空间的辐射入射度进行采集保存, 与该辐射入射度相关的法线信息
 		DecodeRealtimeLightmap
 	高精度数据编码到低精度缓冲区
 		EncodeFloatRGBA			//把一个0-1内的浮点数编码成一个float4类型的RGBA值
@@ -121,7 +127,7 @@ UnityCG.cginc文件中的工具函数和宏
 		UnpackNormal				//dxt5, RGorAG, 普通压缩
 		UnpackNormalmapRGorAG
 		UnpackNormalDXT5nm
-	线性化深度值
+	线性化深度值			深度贴图中的深度值(非线性非01)
 		Linear01Depth					//深度到linear 01
 		LinearEyeDepth					//深度到linear
 	实现图像效果的函数和结构体
