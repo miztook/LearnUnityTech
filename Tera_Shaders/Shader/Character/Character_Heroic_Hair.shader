@@ -165,7 +165,7 @@ Shader "TERA/Character/Heroic_Hair" {
                       directSpecular += dsmask*2*(1-directSpecular+CCsatfix);
                       directSpecular *= specularColor * attenColor * i.pl * (NdotA * 0.6 + 0.4);
                       directSpecular *= lerp(1,0.35,CCvalue);
-                      directSpecular += SpecularGGX(3.1415926535897, gloss, 1, Ndoth, NdotV, NdotL) * nohair * spcolor.rgb;
+//                      directSpecular += SpecularGGX(3.1415926535897, gloss, 1, Ndoth, NdotV, NdotL) * nohair * spcolor.rgb;
                 half3 specular = directSpecular * _SpecularInt;
 /////// Diffuse:                       
                 half3 diffuse = CalculateHairDiffuse(NdotL,Ndotl,_NdotL,Ndotv,_HairColorCustom.rgb,attenColor,_haircolor,_MatMask_var.r,CCparam.y,CCvalue);

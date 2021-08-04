@@ -105,15 +105,15 @@
 	ShadeSHPerVertex
 	ShadeSHPerPixel
 
-11.10 UnityImageBasedLighting.cginc 的结构体，着色器变量，宏和函数
-	Unity_GlossyEnvironmentData 结构	roughness, reflUVW
+11.10 UnityImageBasedLighting.cginc 的结构体，着色器变量，宏和函数 (间接光照的specular部分)
+	Unity_GlossyEnvironmentData 结构	roughness, reflUVW 
 	Unity_GlossyEnvironmentSetup		//reflect函数
-	Unity_GlossyEnvironment
+	Unity_GlossyEnvironment				//通过感性粗糙度计算mipmap层级，反射向量对应cubemap中的纹素
 
 11.11 UnityGlobalIllumination.cginc 的结构体，着色器变量，宏和函数
 	ResetUnityLight
-	SubtractMainLightWithRealtimeAttenuationFromLightmap
-	UnityGI_Base			//混合shadow, 设置gi.light.color衰减 	计算球谐光照设置 gi.indirect.diffuse, 或者从lightmap中取得 gi.indirect.diffuse
+	SubtractMainLightWithRealtimeAttenuationFromLightmap			//光照贴图减去实时光源在运行期得到的颜色值
+	UnityGI_Base			//(间接光照的diffuse部分) 混合shadow, 设置gi.light.color衰减  计算球谐光照设置 gi.indirect.diffuse, 或者从lightmap中取得 gi.indirect.diffuse
 	UnityGI_IndirectSpecular		//直接设置 或者 从glossymap中根据光照探针的值计算
 			物体之间的间接光照效果，就是物体材质对周围内容的发射
 			
@@ -133,7 +133,7 @@
 	BRDF3_Unity_PBS			//BRDF3_Direct * lightcolor * nl (衰减)+ BRDF3_Indirect 
 	BRDF2_Unity_PBS			//直接光照的 specular 用GGX计算specularTerm
 	BRDF1_Unity_PBS			//直接光照漫反射的 diffuseTerm 用DisneyDiffuse，高光反射的 specularTerm (V*D*PI)和 FresnelTerm 求得
-										//间接光照的高光用根据roughness计算的折射部分扣除
+							//间接光照的高光用根据roughness计算的折射部分扣除
 
 11.13 UnityGBuffer.cginc 的结构体，着色器变量，宏和函数
 

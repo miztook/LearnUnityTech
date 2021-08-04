@@ -1,6 +1,5 @@
 Shader "TERA/Character/ShadowCaster" {
     Properties {
-    _BaseRGBA ("Base(RGBA)", 2D) = "white" {}
     }
     SubShader {
         

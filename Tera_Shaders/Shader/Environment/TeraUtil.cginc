@@ -16,11 +16,11 @@
 half3 decodelightmap( fixed4 color )
 {
 #if defined(UNITY_NO_RGBM)
-	return DecodeLightmapDoubleLDR( color );
+	half4 hdr = half4(2.0, 1.0, 0, 0);
+	return DecodeLightmapDoubleLDR(color, hdr);
 #else
-	half4 hdr = half4(1, 0.01, 0, 0);
-	hdr = half4(5, 1, 0, 0);
-	return DecodeLightmapRGBM( color, hdr );
+	half4 hdr = half4(5.0, 1.0, 0, 0);
+	return DecodeLightmapRGBM(color, hdr);
 #endif
 }
 
