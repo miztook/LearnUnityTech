@@ -1,0 +1,17 @@
+//复制一个组件
+UnityEditorInternal.ComponentUtility.CopyComponent
+
+//粘贴数值到另一个同样的组件
+UnityEditorInternal.ComponentUtility.PasteComponentValues
+
+//新建场景
+UnityEditor.EditorSceneManager.NewScene
+
+//打开场景
+UnityEditor.EditorSceneManager.OpenScene
+
+//获取活跃场景
+UnityEditor.EditorSceneManager.GetActiveScene
+
+//编辑器工程拷贝
+AssetDatabase.CopyAsset
