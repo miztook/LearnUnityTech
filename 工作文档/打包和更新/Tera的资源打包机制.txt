@@ -12,3 +12,31 @@ Tera分美术工程和客户端工程，美术工程产出assetbundle供客户�
 	Plugins
 	Prefabs
 	Scenes
+	Scripts
+	Sfx
+	SfxPrefabs
+	Shader
+	Standard Assets
+	StreamingAssets					//音频资源
+	Timeline
+	Tools
+	Wwise
+	
+	Outputs							//最终用来使用的美术prefab
+		7DaysGift
+		CG
+		CGAnimator
+		Characters
+		CommonAtlas					//图集，图片,字体
+		Interfaces					//UI界面
+		Others
+		Scenes						//每个场景的prefab (地形 collider 建筑 光照图)
+			LightMaps
+			SkySphere				
+		Sfx
+		Shader
+		Timeline
+		XXXBlocksNew				//场景分块文件
+		
+打包过程
+	

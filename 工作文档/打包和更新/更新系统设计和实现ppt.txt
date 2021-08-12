@@ -1,0 +1,143 @@
+更新系统
+
+定义
+	游戏app版本不变的情况下, 实现游戏资源的下载，更新，版本管理等 (区分app版本和资源版本)
+	游戏资源分为基础资源(包含在ipa,apk中的资源，不可改动)和更新资源(下载到设备上供游戏使用)
+	实现客户端资源和CDN服务器资源的一致 
+	客户端查找资源时，先找更新目录下的文件，再去基础资源中找
+
+什么是CDN
+	CDN的全称是Content Delivery Network，即内容分发网络。
+	CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，
+	通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。
+	CDN的关键技术主要有内容存储和分发技术
+
+简单描述：
+	服务器： (基础资源 +) 更新资源1
+	客户端：找到更新的内容，下载，版本1
+	本地：基础资源(apk，ipa) + 更新资源1 (更新目录)
+
+	服务器：(基础资源 +) 更新资源2
+	客户端：找到更新的内容，下载，版本2
+	本地：基础资源(apk，ipa) + 更新资源2 (更新目录)
+
+更新的几个问题
+	1. 哪些文件需要下载
+	2. 下载内容的容器(下载文件数量不可过多，每个版本下载总量不可过大)
+	3. 下载库的实现
+	4. 保证文件下载的速度和正确性
+	5. 服务器要放那些文件
+	6. 更新的连续性(随时打断仍要保证下次更新不出错，可以断点续传)
+	7. 更新过程的错误提示，进度提示(每个阶段都可能出错，给出正确的提示)
+	8. 更新工具的制作(由新的资源文件，产生要更新的内容包)
+
+解决方案
+	1. 	GameRes下
+		美术资源 AssetBundles
+		数据资源
+			Configs,Data,Lua,Maps
+			Audio
+			Video
+	
+	2.  pck文件系统 
+		可以实现直接从一个pck文件中读取所需要的文件 (保持目录结构)
+		简单来说一个pck文件包括 文件列表 + 每个文件内容
+		文件列表附带每个文件的md5
+	
+	3.  libcurl + openssl (对http协议的控制 + https的支持)
+		C#封装 SeasideResearch.LibCurlNet库
+		FileDownloadMan, FileDownloaderEx 
+			单线程下载，MD5比较，下载进度结束通知，临时文件保存
+	
+	4. 	保证文件下载的速度: 文件数量不能太多
+		保证文件下载的正确性: 下载后对文件进行Md5校验
+	
+	5. 	多个pck文件, 表示版本之间的更新内容
+		version.txt, 表示版本信息 pck的更新顺序，md5码
+
+	6. 	严格保证更新顺序, 每个更新的pck 下载 + 写入更新目录 + 更新本地版本
+		如果中间出错，本地版本号为上次正确更新的版本
+		
+	7. 定义UpdateRetCode
+		foreach (var item in Patcher.UpdateCoroutinePhase1())
+		{
+			if (item is UpdateRetCode)
+               {
+                   retCode = (UpdateRetCode)item;
+                   break;
+               }
+		}
+	   下载进度: 所有已下载文件大小/所有文件的总大小
+
+	8. 资源对比差异，找出差异列表，生成文件列表，产生pck
+	   HobaPackToolsCommand.exe
+	   Windows 1.0.0.0 1.0.0.0 1.0.0.1 "../M1Update/UpdateResource/LastVersion" "../M1Update/UpdateResource/NextVersion" "../M1Update/JupGenerate" 0
+	   exe工具通过命令行访问，便于自动打包系统使用
+		
+再看更新系统
+	服务器：(基础资源 +) 更新资源1 (1.0.0.0-1.0.0.1.pck, version.txt)
+	客户端：运行更新系统，下载version.txt， 下载pck，解压到更新目录
+	本地：基础资源(apk，ipa) + 更新资源1 (更新目录)
+
+	服务器：(基础资源 +) 更新资源2 (1.0.0.0-1.0.0.1.pck, 1.0.0.1-1.0.0.2.pck, version.txt)
+	客户端：运行更新系统，下载version.txt， 下载pck，解压到更新目录
+	本地：基础资源(apk，ipa) + 更新资源2 (更新目录)
+
+更新系统组成
+	更新入口		GameUpdateMan
+	文件下载		FileDownloaderEx	FileDownloaderMan
+	更新过程		Patcher	Patcher2 Patcher3 Patcher4
+	更新错误提示	UpdateLog	UpdateInfo
+	版本		VersionMan
+
+更新的几个目录
+	UnityProject\Library\Caches\updateres
+		AssetBundles
+		package
+		patcher
+			config
+			temp
+
+更新流程
+	GameUpdateMan.UpdateRoutine
+		目录设置，基础版本设置
+	UpdateCoroutinePhase1 第一阶段更新
+		取得本地版本和服务器版本，下载服务器版本信息
+	UpdateCoroutinePhase2 第二阶段更新
+		计算当前版本到最新版本的下载大小，检查磁盘空间
+		while(本地版本没有到最新版本)  (0-2)
+		{
+			找到下载版本跳转pair  (0-1, 1-2)
+			UpdateAutoCoroutine(verBegin, verLatest)
+		}
+	UpdateAutoCoroutine
+		下载对应的pck，md5比较
+		断线自动重连
+		下载成功后， 
+
+		UpdateFileFromPackCoroutine
+			DoUpdateFromPckCoroutine
+			写本地版本
+
+	DoUpdateFromPckCoroutine
+		找到inc文件，写到磁盘，读取文件列表
+		对文件列表中的每个文件
+			解压文件内容，比较inc文件中的md5
+			如果用pck，将压缩内容写入pck，否则直接解压到磁盘上(AssetBundles)
+
+更新过程中的几个问题
+	网络自动重连
+		如果在下载过程中网络不稳定，中断时，自动尝试重连，
+		如果尝试多次后仍不能连接，则停止自动重连，弹MessageBox
+	
+	执行较长时间操作时不能卡顿主线程
+		下载文件时(游戏UI保持转圈)
+		计算Md5时
+		文件拷贝时
+	
+	断点续传
+		利用http协议的range机制实现
+			CURLoption.CURLOPT_RANGE		
+			CURLoption.CURLOPT_RESUME_FROM
+		
+	
