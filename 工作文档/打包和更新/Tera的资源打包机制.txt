@@ -1,4 +1,14 @@
 Tera分美术工程和客户端工程，美术工程产出assetbundle供客户端使用
 
 美术工程目录结构
+	_TerrainAutoUpgrade				//被Outputs下的Terrain组件依赖
 	3rd
+	Characters
+	CharactersPrefabs				//被用在Hangpoint上
+	EditorMaps
+	Envirenment
+	Guide
+	Outputs
+	Plugins
+	Prefabs
+	Scenes
