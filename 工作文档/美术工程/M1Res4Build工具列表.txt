@@ -2,6 +2,10 @@ Asset
 		SVN
 				提交CG数据
 				提交Monster数据 
+		策划
+				胶囊体
+						全部
+						选中
 		UIPrefabCheck
 		生成纹理信息文件
 		资源单独打包
@@ -14,10 +18,7 @@ Asset
 		将翻译的csv文本导入至此文件夹
 		和Interfaces文件夹比较异同
 		将该文件夹下的图片进行替换
-		策划
-				胶囊体
-						全部
-						选中
+		
 						
 实用工具 
 
@@ -58,7 +59,6 @@ UI
 Tools
 		UGUI Batch工具
 		导出贴图压缩格式设置
-		批量设置贴图格式为ASTC
 		Sync Interfaces
 				同步到Interface_KR
 				同步到Interface_TW

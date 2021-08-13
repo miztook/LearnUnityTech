@@ -15,12 +15,7 @@ BuildScript.cs
 					11. 如果重新打包，生成Md5文件 BuildRecord.dat
 					12. 生成PathID文件 	注意白名单 PathIDWhiteList.txt
 					13. 如果重新打包，生成 Basic_bundle_name_file 文件 (添加animations, commonres等)，供更新使用
-					
-			导出换装资源:
-					ExportEquipInfos
-						1. 搜集.prefab文件 Characters/Outward	导出到 Outputs/Characters/Outward	
-						2. 对新创建的prefab，添加OutwardInfo，设置OutwardInfo的mesh和bones，和其他属性(来自material)
-						
+										
 			获取每个目录的打包信息
 						CollectBasicBuildInfo			
 							1）如果是Characters目录
