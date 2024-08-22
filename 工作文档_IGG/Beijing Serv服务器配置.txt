@@ -1,0 +1,76 @@
+北京服务器Info：
+
+----Centos8：-------
+IP地址：10.24.0.24
+使用putty，SecureCRT等软件连接
+root密码：gmXDW4q
+
+非root管理员：bj_igg
+密码：igg.admin123
+
+
+---win serv 2012 r2----
+win-tfs
+
+IP地址：10.24.0.25
+使用远程桌面mstsc连接
+用户名：igg_admin
+密码：igg.admin123
+
+
+---win serv 2012 r2----
+win-dns
+
+IP地址：10.24.0.26
+使用远程桌面mstsc连接
+用户名：administrator
+密码：igg.admin123
+
+--- teamcity/tfs 服务器 ---
+IP地址：10.24.0.27
+用户名：TFSServer
+密码：asdf1234!
+用户名：igg_admin
+密码：igg.admin123
+
+--- 打包机 ---
+IP地址：10.24.6.191
+用户名：auto_server
+密码：auto_server
+
+---Jenkins---
+http://10.24.0.27:65530/job/eoc_client/
+账号：admin
+密码：iggadmin
+
+--Firebase---
+https://console.firebase.google.com/project/empire-of-crime/overview
+账号: dahuang1313@gmail.com
+密码: qwertyuiop1313
+
+S3的主机名：s3.amazonaws.com
+需设定上传目录：ipretobucket/orig-eoc
+
+下载地址是：http://ipretobucket.s3-us-west-2.amazonaws.com
+
+key: AKIARJSCAIBHZG3KYVOI
+secret: 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
+路径： ipretobucket/orig-eoc
+
+key: AKIARJSCAIBHRNERUCWI
+secret: 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
+路径：iggstaticsbucket3/orig-mk
+
+
+s3更新url
+https://ipretobucket.s3-us-west-2.amazonaws.com/orig-eoc/eoc-qa/Android/version.txt
+
+--- 新服务器 ---
+IP地址：10.24.6.222
+用户名：igg
+密码：
+
+---VNC---
+vnc://10.24.6.76
+账号：IGG
+密码：1234
