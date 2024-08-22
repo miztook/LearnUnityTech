@@ -1,9 +1,0 @@
-修改 EntryPoint_Config.cs 中的 DebugSettingParams 的 DefaultValue() 方法的 SkipUpdate = false
-
-在 UnityProject/Assets/Resources下
-	BaseVersion.txt 改为 1.100.9.0 (基础版本号)
-	Locale.txt 改为 korea (表示使用ftp上的/meteorite/Tera/korea/Windows文件夹做为下载资源)
-	
-在 客户端Unity工程里，修改 PlayerSettings 的 Version为 1.100.9 
-
-开始编辑器，可以测试更新过程

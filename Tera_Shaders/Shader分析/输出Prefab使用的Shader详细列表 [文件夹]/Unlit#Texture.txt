@@ -1,7 +1,0 @@
-﻿Unlit/Texture
-		CreatCharacter_2/Job2/MainAnimator/BGAnimator/Char_stand/Login_Creat_BGAli_stand/Login_BG_ali_stand02
-		CreatCharacter_2/Job2/MainAnimator/BGAnimator/Char_stand/Login_Creat_BGAli_stand/Login_BG_ali_stand05
-		CreatCharacter_5/Job5/MainAnimator/BGAnimator/Char_stand/Login_Creat_BGAli_stand/Login_BG_ali_stand02
-		CreatCharacter_5/Job5/MainAnimator/BGAnimator/Char_stand/Login_Creat_BGAli_stand/Login_BG_ali_stand05
-		UIScene_Blacksmith/UISceneCamera/GameObject/BG1
-		UIScene_Blacksmith/UISceneCamera/GameObject/BG2

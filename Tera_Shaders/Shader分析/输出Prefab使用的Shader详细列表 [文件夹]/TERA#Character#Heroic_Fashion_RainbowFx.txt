@@ -1,7 +1,0 @@
-﻿TERA/Character/Heroic_Fashion_RainbowFx
-		alilancer_f_clothes_caihongyang
-		alipreist_f_clothes_caihongyang
-		casassassin_m_clothes_caihongyang
-		general_head_caihongyang
-		humwarrior_m_clothes_caihongyang
-		sprarcher_f_clothes_caihongyang

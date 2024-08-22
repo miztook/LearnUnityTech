@@ -1,2 +1,0 @@
-﻿TERA/Fx/Decl/Scroll 2 Layers Sine Add
-		xuejishi_skill01_a_c_xuezhilianjie_start/start/trail01

@@ -1,2 +1,0 @@
-﻿TERA/Fx/DistortAddFrozen
-		state_bingdong/state_bingdong

@@ -1,3 +1,0 @@
-﻿Legacy Shaders/Particles/Alpha Blended
-		Dungn03_QXGJ01/Build_Dn03_Dome01 (1)/Build_Dn03_BackGround01
-		Dungn04_Zuras01/Build_Dn04_Zuras01/Build_Dn04_glassstone01

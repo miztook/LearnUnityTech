@@ -1,5 +1,0 @@
-﻿TERA/Environment/MobileDiffuseBumpreflection
-		City02/Preload/Ct02_Build_terrain01/ground_elmxy_city02_01_uvc2
-		Ct02_Build_Center03/center03_build_elmxy_daolu_02
-		Ct02_Build_Center06/Build06_build_elmxy_daolu_02
-		Ct02_Build_Side01/Side01_build_elmxy_daolu_02

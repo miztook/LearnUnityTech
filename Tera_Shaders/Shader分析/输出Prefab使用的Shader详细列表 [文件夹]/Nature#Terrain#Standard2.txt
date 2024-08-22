@@ -1,3 +1,0 @@
-﻿Nature/Terrain/Standard2
-		dungn00_irene01/Preload/Terrain/Terrain
-		wd06_02_yqlssl_rock04/yqlssl_rock04_terrain01

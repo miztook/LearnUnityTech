@@ -1,3 +1,0 @@
-﻿TERA/Character/Heroic_Hair_Creat
-		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create/hair
-		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/sprarcher_f_create_CGchar/HighElf_F_hair00
