@@ -1,0 +1,51 @@
+读取AssetBundle后的bin会发生overflow exception		
+	原因: 二进制数据的异步加载和Asset的异步加载冲突		
+		在MapObj加载的回调中QueryRecords，导致有几率同时请求两次二进制数据的加载
+		BinaryProvider的异步加载会导致两次回调，且第二次读取的数据发生错误
+	解决方案：二进制的读取应该为同步读取，但考虑到安卓包内的文件只能用WebRequest异步加载，需要第一次运行时把安卓包内的文件拷贝到磁盘上用文件读取(也方便做热更新)
+		在BinaryProvider中解决
+		
+美女小游戏中报错
+Using alphaHitTestMinimumThreshold greater than 0 on Image whose sprite texture cannot be read. Texture 'T_jiuping_01' is not readable, 
+the texture memory can not be accessed from scripts.You can make the texture readable in the Texture Import Settings. Also make sure to disable sprite packing for this sprite.:
+UnityEngine.UI.Image:IsRaycastLocationValid(Vector2, Camera)
+	原因: IsRaycastLocationValid方法需要贴图为只读，且贴图格式在ios android下不能为压缩格式
+	解决方案： 在 Skyunion/DataService/输出所有需要可读的图片 命令下输出所有配置的贴图路径，然后在TexturePostProcessor的贴图设置中特殊处理
+	
+	
+AsssetBundle的打包问题
+	LZMA和LZ4的选择 (LZMA包体小但是加载慢且需要释放assetbundle，LZ4加载速度快不需要释放assetbundle)
+	现在的包体LZ4为900M+ LZMA为700M，但LZMA没有释放assetbundle会导致内存过大，按引用计数释放assetbundle过于复杂且会导致未知的引用丢失的问题
+	
+	Shader需要打成一个assetbundle，方便做在游戏开始时做warmup
+	其他Root资源可以分类打成assetbundle，减少assetbundle数量，如.mp3 .txt .xml .bytes
+	
+	被引用次数超过1次的，可以打成一个assetbundle，减少assetbundle数量
+	
+	包体大小问题通过分析资源，合理设置贴图格式来解决
+	
+	最终目标，LZ4压缩，包体大小合适，assetbundle数量较少，同时为每个Root资源建立本身和依赖资源的MD5记录，在本身和依赖资源变化时，反映到资源热更新上
+	
+	1. 先简化addressableNames 去掉CRC目录
+	2. 生成 resource -> 归属的assetbundle -> assetbundle的依赖 信息
+	
+	
+性能优化
+	性能工具		(保证资源无泄漏)
+		查看Appfacade 		列出所有MVC的消息相应关系，EventManager, Timer的统计， 待做: 增加所有的单例class的 Collection, GameObject统计，最终可以统计当时游戏中所有的内存对象和GameObject，查看资源管理是否正确
+		
+		衍生工具可做: 		按逻辑功能，快速查看每个逻辑功能对应的模块
+							UIView类的分析
+		
+Shader报错		
+2021/11/24 20:12:51: [warning] Material eff_image_131 doesn't have _Stencil property
+2021/11/24 20:12:51: [error] Material doesn't have a texture property '_MainTex':
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+UI Shader中需要设置 _Stencil(Mask需要) _MainTex(UI设置贴图需要)	需要在Shader中修改非_MainTex的命名，且保证原有引用的material里的贴图设置正确
+
+熟悉大世界地图资源的生成和客户端使用
+	Assets/Scripts/Editor/LodMapEditor
+							
+				
+	

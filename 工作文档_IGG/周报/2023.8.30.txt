@@ -1,0 +1,9 @@
+1. 贴图优化
+
+	assets/artres/land/decal/texture/				//地表贴花大小限制1024
+	splatalpha									//不可读
+	cubemap										//限制大小为256
+	PVE, BeautyRoom中							//比较小的物体贴图大小为512
+	
+2. 吃鸡场景报错: Number of renderers and sorting groups handled (4255) is greater than the limit (4095), Sorting Group is disabled
+	Renderer数量过多，包括inactive

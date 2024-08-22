@@ -1,0 +1,15 @@
+https://github.com/hormanlu/CatCoding/wiki/%E8%BF%9B%E9%98%B6%E6%B8%B2%E6%9F%93%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B%E5%9C%B0%E5%9D%80
+
+1. 平坦和线框着色
+
+2. 曲面细分
+
+3. 表面位移
+
+4. 光晕
+
+5. 景深
+
+6. FXAA
+
+7. 三向贴图

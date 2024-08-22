@@ -1,0 +1,14 @@
+游戏初始化过程 (协议)
+
+Proxy结构总览
+
+GlobalGame脚本里选项	
+		LogSproto, LogNotification, LogGameObject, LogMapManager
+
+
+内城/大世界的资源初始化	
+
+大世界的LOD加载规则，详见文档，加载优化
+
+打包机制修改，尝试拆分读取文件和 AssetBundle资源
+

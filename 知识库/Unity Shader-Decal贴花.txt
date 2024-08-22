@@ -1,0 +1,10 @@
+https://blog.csdn.net/puppet_master/article/details/84310361
+
+Self Decal						在同一个shader里叠加一张贴图 Unity Decal
+Additive贴片叠加				直接用alpha blend贴花
+Projector投影
+		需要额外一个pass，使用投影覆盖的物体，在Projector位置放一个摄像机，通过它的视矩阵和投影矩阵对uv进行转化
+		Projector摄像机的 viewMatrix乘以projectionMatrix，在乘以world matrix，计算ComputeScreenPos做为decal的uv坐标
+Mesh Decal
+		通过碰撞来近似获取decal的mesh
+Deferred Decal(Depth Normal Decal)

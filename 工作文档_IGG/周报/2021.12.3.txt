@@ -1,0 +1,26 @@
+熟悉大世界地图资源的生成和客户端使用
+	Assets/Scripts/Editor/LodMapEditor
+	
+报错2021/11/30 16:42:40: [warning] Material eff_xulie_003 doesn't have _Stencil property:
+UnityEngine.UI.StencilMaterial:Add(Material, Int32, StencilOp, CompareFunction, ColorWriteMask, Int32, Int32)
+Coffee.UIExtensions.UIParticle:GetModifiedMaterial(Material, Texture2D) (at Assets/BundleAssets/UI/ParticleEffectForUGUI-main/Scripts/UIParticle.cs:327)
+Coffee.UIExtensions.UIParticle:UpdateMaterial() (at Assets/BundleAssets/UI/ParticleEffectForUGUI-main/Scripts/UIParticle.cs:289)
+Coffee.UIExtensions.UIParticle:set_activeMeshIndices(List`1) (at Assets/BundleAssets/UI/ParticleEffectForUGUI-main/Scripts/UIParticle.cs:157)
+Coffee.UIExtensions.UIParticleUpdater:BakeMesh(UIParticle) (at Assets/BundleAssets/UI/ParticleEffectForUGUI-main/Scripts/UIParticleUpdater.cs:266)
+Coffee.UIExtensions.UIParticleUpdater:Refresh(UIParticle) (at Assets/BundleAssets/UI/ParticleEffectForUGUI-main/Scripts/UIParticleUpdater.cs:69)
+Coffee.UIExtensions.UIParticleUpdater:Refresh() (at Assets/BundleAssets/UI/ParticleEffectForUGUI-main/Scripts/UIParticleUpdater.cs:49)
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+解决方法：参考 https://blog.csdn.net/poem_of_sunshine/article/details/61197767?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-61197767.pc_agg_new_rank&utm_term=StencilMaterial.Add&spm=1000.2123.3001.4430
+		使用UGUI中的Mask的时候，如何正确裁减非默认材质的UI对象
+		修改 BundleAssets\UI\ParticleEffectForUGUI-main\Scripts\UIParticle.cs
+		
+增加Asset资源清理功能 
+	Asset清理规则：在场景切换时清理，每隔n分钟后清理		
+		System.GC.Collect();
+		Resources.UnloadUnusedAssets();
+		
+Android打包修改
+	启用il2cpp 增加64位
+	NormalMap格式: 	PC: DXT5, IOS: ASTC_RGB_5X5, Android: ETC2_RGB4
+	LightMap格式(HDR):	PC, IOS, Android: RGBAHalf

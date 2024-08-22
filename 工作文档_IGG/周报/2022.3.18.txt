@@ -1,0 +1,20 @@
+1. Build AAB 
+	报错 File 'root/AndroidManifest.xml' uses reserved file or directory name 'AndroidManifest.xml' 
+	原因：某个class.jar里包含了 AndroidManifest.xml
+	解决：用AndroidStudio打开 Unity Project，在Project标签里查看 External Libraries 查看每个aar里的 class.jar 里是否包含了 AndroidManifest.xml
+
+	去掉遗留的IGGSDK
+	用 com.google.android.appbundle 插件来制作aab
+	
+	aab只使用install time，加载路径的修改
+	
+	工具：aab到apks，计算apks的下载大小，安装apks
+	
+	
+2. 打包规则修改，按目录打包，场景打包 (暂时也可以打出aab包)
+	
+3. 打包警告 Editor only objects cannot be included in AssetBundles
+
+4. 输出打包的所有文件以及依赖关系
+
+5. 处理过大和宽高不为4的倍数的贴图，保证依赖关系不丢失

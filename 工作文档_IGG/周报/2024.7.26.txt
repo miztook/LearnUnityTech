@@ -1,0 +1,8 @@
+1. 输出所有prefab的sprite引用 (单图集和多图集)
+
+2. kvk导出
+	Terrain 			地表
+	river_outside		外圈水
+	river_inside		内圈水	
+	xuanya				外圈河岸
+	riverbank			内圈河岸

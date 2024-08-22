@@ -1,0 +1,13 @@
+1. IOS构建
+
+2. AssetBundle打包和加载方式
+
+3. URP接入
+
+4. 大世界树和路的接入
+
+5. Animation资源的优化，精简大小
+
+6. ChatSDK的重新接入
+	扩展 (头像框 json)
+	

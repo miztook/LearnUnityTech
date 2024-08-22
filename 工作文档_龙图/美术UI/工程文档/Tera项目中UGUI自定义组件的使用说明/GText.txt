@@ -1,0 +1,34 @@
+Tera富文本使用说明
+
+	Unity的Text本身有自己的富文本，但是没有插入图片和文字链接的功能。
+GText主要是在之前Text的基础上添加了这两个功能。
+
+	Unity原生富文本的格式为html标记形式 <color=blue>你好</color>,这
+种标记虽然可以实现丰富的功能，但是看起来很乱，而且作为表情文本显示到输入
+框的时候也会占用很多文本位置。所以我们自定义了自己的标签格式: 
+"[type]content[-]",type代表富文本类型，content代表参数。
+
+	type 类型:	目前只支持两种类型 	1）e -> emotion  表情。
+						2）l -> link  文字链接。
+
+			例如:	[e]XiaoHuang_1[-]
+				--在文本中显示名字为XiaoHuang_1的表情
+
+			例如:	[l]www.baidu.com[-]
+				--在文本中显示www.baidu.com为固定蓝色
+				  并且点击时会触发事件
+
+
+ps:此文档为临时使用，后期还需要整合到组件的文档中。
+
+-李志雄
+
+
+参数：
+
+Vector3 GraphicOffset
+	因为有时字体文件会导致偏移，所以也要偏移图片
+Vector3 GraphicScale
+	图片缩放
+Bool	IsShowOmit
+	字数超框时显示...

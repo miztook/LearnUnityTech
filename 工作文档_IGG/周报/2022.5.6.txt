@@ -1,0 +1,9 @@
+1. 增加NoBuilding Navmesh的调试显示
+
+2. ios库lib
+
+3. 更新sdk，编译通过xcode工程，编写xcode project处理器
+
+4. 增加firebase, facebook, iggsdk的初始化log，判断是否成功
+
+5. 工具: 增加查找 Missing Prefab的功能

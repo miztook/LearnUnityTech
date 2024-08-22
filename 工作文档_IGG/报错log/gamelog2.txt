@@ -1,0 +1,278 @@
+09/04/2022 10:14:09: [systeminfo] 
+locale: eoc-pps
+platform: Windows
+64bit: True
+deviceModel: X756UX (ASUSTeK COMPUTER INC.)
+deviceName: DESKTOP-G2RK1HJ
+deviceType: Desktop
+deviceUniqueIdentifier: 4718c877d2657bfca257c4d85e26626f452e644a
+operatingSystem: Windows 10  (10.0.0) 64bit
+processorCount: 4
+processorType: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+graphicsDeviceName: NVIDIA GeForce GTX 950M
+systemMemorySize: 16280
+graphicsMemorySize: 4065
+activeTier: Tier3
+
+[applicationInfo] 
+productName: Empire of Crime
+bundleIdentifier: com.ipreto.android.empireofcrime
+appVersion: 0.0.1
+
+09/04/2022 10:14:09: [warning] InitFirebaseCrashlytics...
+09/04/2022 10:14:09: [warning] IGPlatform::SetLanguage:ChineseSimplified
+09/04/2022 10:14:09: [warning] InitSDK...
+09/04/2022 10:14:09: [warning] SDK: IGPlatformWindows, PlatformType: PLATFORM_ANY, debugMode: False
+09/04/2022 10:14:09: [warning] InitSDK:: Succees
+09/04/2022 10:14:09: [warning] IGPlatformWindows C# RegisterCallback!
+09/04/2022 10:14:09: [warning] SendEvent:[App_Start], device=X756UX (ASUSTeK COMPUTER INC.)
+09/04/2022 10:14:09: [warning] SendEvent:[App_Start], deviceID=4718c877d2657bfca257c4d85e26626f452e644a
+09/04/2022 10:14:09: [warning] SendEvent:[App_Start], memory=16280
+09/04/2022 10:14:09: [warning] InitGameCoroutine UpdateRoutine Start...
+09/04/2022 10:14:09: [warning] InitGameCoroutine UpdateRoutine End...
+09/04/2022 10:14:09: [warning] [RunTimeAppDataPath]: D:/IGG/eoc_client_pps/Assets
+09/04/2022 10:14:09: [warning] [AssetBundlePath]: res_base/assetbundles/Windows/
+09/04/2022 10:14:09: [warning] ABAssetService Init!
+09/04/2022 10:14:09: [warning] [CAssetBundleManager] BaseAssetBundleURL: res_base/assetbundles/Windows/
+09/04/2022 10:14:09: [warning] [CAssetBundleManager] UpdateAssetBundleURL: D:/IGG/eoc_client_pps/UpdateRes/assetbundles/
+09/04/2022 10:14:10: [warning] [CAssetBundleManager] AssetPath2BundleMap Count: 5566
+09/04/2022 10:14:10: [warning] [CAssetBundleManager] AB Manifest Count: 24, UseUpdate: False
+09/04/2022 10:14:10: [warning] ABAssetService Init Success!
+09/04/2022 10:14:10: [warning] ShaderManager Initialize: Shader/ShaderList.prefab
+09/04/2022 10:14:11: [warning] ShaderManager WarmUp... Shader Count: 111
+09/04/2022 10:14:11: [warning] ShaderManager Initialize Complete! ShaderMap Count: 125
+09/04/2022 10:14:11: [warning] WwiseUnity: basePath: D:\IGG\eoc_client_pps\res_base\Audio\GeneratedSoundBanks\Windows\
+09/04/2022 10:14:11: [warning] WwiseUnity: updatePath: D:\IGG\eoc_client_pps\UpdateRes\Audio\GeneratedSoundBanks\Windows\
+09/04/2022 10:14:11: [warning] WwiseUnity: AddBasePath Failed! D:\IGG\eoc_client_pps\UpdateRes\Audio\GeneratedSoundBanks\Windows\, AK_PathNotFound
+09/04/2022 10:14:11: [warning] HotFixState PreloadAsync Start!
+09/04/2022 10:14:12: [warning] HotFixState OnPreloadFinish!
+09/04/2022 10:14:13: [warning] Screen W/H: 1098, 618, TargetFrameRate: 60
+09/04/2022 10:14:13: [warning] Screen.currentResolution: 1920, 1080
+09/04/2022 10:14:13: [warning] ReloadGame OnOpenLoading: AutoLogin
+09/04/2022 10:14:16: [warning] LoadingMediator::StartConnectServer...
+09/04/2022 10:14:16: [warning] [NetGameSession] Connect! User: ID957071:, Socket: 34.214.1.149:20000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: 0
+09/04/2022 10:14:16: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 20000
+09/04/2022 10:14:16: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1317
+09/04/2022 10:14:16: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: EAuth1
+09/04/2022 10:14:16: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: EAuth1, ErrorString: 0
+2022/9/4 10:14:17: [warning] [TCPSession] OnReceive, OnDisconnect! 0, Success
+09/04/2022 10:14:17: [warning] [NetSession] ParseAuthResult Rid: 6969894535463959552
+09/04/2022 10:14:17: [warning] [NetSession] RedirectGameServer 重定向连接服务器ID: 34.214.1.149:21000
+09/04/2022 10:14:17: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 21000
+09/04/2022 10:14:17: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1319
+09/04/2022 10:14:17: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: ERedirectionGameServer
+09/04/2022 10:14:17: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: ERedirectionGameServer, ErrorString: 0
+09/04/2022 10:14:18: [warning] 处理AuthEvent： EGameServerOK
+09/04/2022 10:14:18: [warning] Start ResetScene: 20.22987
+09/04/2022 10:14:21: [warning] 登陆角色, rid: 6969894535463959552, platform: 0, ip: 117.28.231.17
+09/04/2022 10:14:22: [warning] [EmailProxy] OnLoginToGame! 服务器邮件版本号：201011839662821376  客户端邮件版本号：200887461050585088
+09/04/2022 10:14:22: [warning] 我的城市id: 102102216
+09/04/2022 10:14:22: [warning] 更新联盟建筑
+09/04/2022 10:14:22: [warning] 更新联盟建筑
+09/04/2022 10:14:23: [warning] RoleLogin 登录成功!
+09/04/2022 10:14:23: [warning] SignAgreements Succees! 执行业务逻辑
+09/04/2022 10:14:23: [warning] 迷雾切换到主城 0.85
+09/04/2022 10:14:23: [warning] [NetChatSession] Connect! User: ID957071:, Socket: 34.214.1.149:12000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: chat-server
+09/04/2022 10:14:23: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 12000
+09/04/2022 10:14:23: [warning] 迷雾数据完成
+09/04/2022 10:14:23: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1323
+09/04/2022 10:14:23: [warning] [NetChatSession] OnNetEvent: ConnectComplete, AuthState: EChatAuth
+09/04/2022 10:14:23: [warning] 邮件 Email_GetEmails
+09/04/2022 10:14:24: [warning] 地表加载完毕! BundleAssets/land/MapData/houdini_map01_tile_data.bytes
+09/04/2022 10:14:24: [warning] [NetSession] EChatAuth 授权服务器结果: 200 ok 
+09/04/2022 10:14:24: [warning] 处理ChatAuthEvent： EGameServerOK
+09/04/2022 10:14:28: [warning] 迷雾主城创建完毕，开始拉镜头
+09/04/2022 10:14:28: [warning] 关闭Loading，显示内城!
+09/04/2022 10:15:40: [warning] 更新联盟建筑
+09/04/2022 10:16:06: [warning] 我的城市id: 102102216
+09/04/2022 10:16:35: [warning] 删除预警数据102826329
+09/04/2022 10:16:38: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:16:38: [warning] Invalid Layer Index '-1'
+09/04/2022 10:16:46: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:16:46: [warning] Invalid Layer Index '-1'
+09/04/2022 10:16:53: [warning] 删除预警数据102826325
+09/04/2022 10:17:28: [warning] 更新联盟建筑
+09/04/2022 10:18:12: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:18:12: [warning] Invalid Layer Index '-1'
+09/04/2022 10:18:19: [warning] 添加新预警数据102826347
+09/04/2022 10:18:22: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:18:22: [warning] Invalid Layer Index '-1'
+09/04/2022 10:18:37: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:18:37: [warning] Invalid Layer Index '-1'
+09/04/2022 10:18:40: [warning] Game object with animator is inactive
+09/04/2022 10:19:11: [warning] pve已经通过第一关，id：10408
+09/04/2022 10:20:01: [warning] Game object with animator is inactive
+09/04/2022 10:20:01: [warning] Game object with animator is inactive
+09/04/2022 10:20:01: [warning] Game object with animator is inactive
+09/04/2022 10:20:01: [warning] Game object with animator is inactive
+09/04/2022 10:20:03: [warning] Game object with animator is inactive
+09/04/2022 10:20:04: [warning] Game object with animator is inactive
+09/04/2022 10:20:04: [warning] Game object with animator is inactive
+09/04/2022 10:20:04: [warning] Game object with animator is inactive
+09/04/2022 10:20:05: [warning] Game object with animator is inactive
+09/04/2022 10:20:05: [warning] Game object with animator is inactive
+09/04/2022 10:20:05: [warning] Game object with animator is inactive
+09/04/2022 10:20:05: [warning] Game object with animator is inactive
+09/04/2022 10:20:07: [warning] Game object with animator is inactive
+09/04/2022 10:20:07: [warning] Game object with animator is inactive
+09/04/2022 10:20:07: [warning] Game object with animator is inactive
+09/04/2022 10:20:08: [warning] Game object with animator is inactive
+09/04/2022 10:20:08: [warning] Game object with animator is inactive
+09/04/2022 10:20:08: [warning] Game object with animator is inactive
+09/04/2022 10:20:09: [warning] Game object with animator is inactive
+09/04/2022 10:20:09: [warning] Game object with animator is inactive
+09/04/2022 10:20:10: [warning] Game object with animator is inactive
+09/04/2022 10:20:10: [warning] Game object with animator is inactive
+09/04/2022 10:20:10: [warning] Game object with animator is inactive
+09/04/2022 10:20:11: [warning] Game object with animator is inactive
+09/04/2022 10:20:13: [warning] Game object with animator is inactive
+09/04/2022 10:20:13: [warning] Game object with animator is inactive
+09/04/2022 10:20:13: [warning] Game object with animator is inactive
+09/04/2022 10:20:14: [warning] Game object with animator is inactive
+09/04/2022 10:20:14: [warning] Game object with animator is inactive
+09/04/2022 10:20:14: [warning] Game object with animator is inactive
+09/04/2022 10:20:15: [warning] Game object with animator is inactive
+09/04/2022 10:20:15: [warning] Game object with animator is inactive
+09/04/2022 10:20:16: [warning] Game object with animator is inactive
+09/04/2022 10:20:16: [warning] Game object with animator is inactive
+09/04/2022 10:20:17: [warning] Game object with animator is inactive
+09/04/2022 10:20:17: [warning] Game object with animator is inactive
+09/04/2022 10:20:17: [warning] Game object with animator is inactive
+09/04/2022 10:20:17: [warning] Game object with animator is inactive
+09/04/2022 10:20:18: [warning] Game object with animator is inactive
+09/04/2022 10:20:18: [warning] Game object with animator is inactive
+09/04/2022 10:20:18: [warning] Game object with animator is inactive
+09/04/2022 10:20:19: [warning] Game object with animator is inactive
+09/04/2022 10:20:19: [warning] Game object with animator is inactive
+09/04/2022 10:20:19: [warning] Game object with animator is inactive
+09/04/2022 10:20:20: [warning] Game object with animator is inactive
+09/04/2022 10:20:20: [warning] Game object with animator is inactive
+09/04/2022 10:20:20: [warning] Game object with animator is inactive
+09/04/2022 10:20:21: [warning] Game object with animator is inactive
+09/04/2022 10:20:32: [warning] 删除预警数据102827127
+09/04/2022 10:21:30: [warning] Game object with animator is inactive
+09/04/2022 10:22:16: [warning] Game object with animator is inactive
+09/04/2022 10:22:16: [warning] Game object with animator is inactive
+09/04/2022 10:22:16: [warning] Game object with animator is inactive
+09/04/2022 10:22:16: [warning] Game object with animator is inactive
+09/04/2022 10:22:22: [warning] 我的城市id: 102102216
+09/04/2022 10:22:28: [warning] 服务器发错数值：客户端兼容处理:102826337
+09/04/2022 10:22:46: [warning] 服务器发错数值：客户端兼容处理:102826337
+09/04/2022 10:23:11: [warning] 没有收到回包: 1128
+09/04/2022 10:23:11: [warning] SendProto 失败: 1128, True
+09/04/2022 10:23:14: [warning] 没有收到回包: 1128
+09/04/2022 10:23:14: [warning] SendProto 失败: 1128, True
+09/04/2022 10:23:40: [warning] 删除预警数据102840300
+09/04/2022 10:23:54: [warning] Game object with animator is inactive
+09/04/2022 10:23:54: [warning] Game object with animator is inactive
+09/04/2022 10:23:54: [warning] Game object with animator is inactive
+09/04/2022 10:23:54: [warning] Game object with animator is inactive
+09/04/2022 10:23:55: [warning] Game object with animator is inactive
+09/04/2022 10:23:55: [warning] Game object with animator is inactive
+09/04/2022 10:23:55: [warning] Game object with animator is inactive
+09/04/2022 10:23:55: [warning] Game object with animator is inactive
+09/04/2022 10:24:09: [warning] 未找到触发 triggerId = -1
+09/04/2022 10:24:47: [warning] 我的城市id: 102102216
+09/04/2022 10:24:56: [warning] 野蛮人，移动路径有问题，通知服务器检查 102826004
+09/04/2022 10:25:22: [warning] map已经存在当前id的部队了，服务器还通知创建102840316
+09/04/2022 10:25:49: [warning] 删除预警数据102840322
+09/04/2022 10:25:56: [warning] 野蛮人，移动路径有问题，通知服务器检查 102733063
+09/04/2022 10:25:56: [warning] 野蛮人，移动路径有问题，通知服务器检查 102772114
+09/04/2022 10:25:59: [warning] map已经存在当前id的部队了，服务器还通知创建102840326
+09/04/2022 10:26:44: [warning] Game object with animator is inactive
+09/04/2022 10:26:44: [warning] Game object with animator is inactive
+09/04/2022 10:26:44: [warning] Game object with animator is inactive
+09/04/2022 10:26:44: [warning] Game object with animator is inactive
+09/04/2022 10:26:45: [warning] Game object with animator is inactive
+09/04/2022 10:26:45: [warning] Game object with animator is inactive
+09/04/2022 10:26:46: [warning] Game object with animator is inactive
+09/04/2022 10:26:46: [warning] Game object with animator is inactive
+09/04/2022 10:26:47: [warning] Game object with animator is inactive
+09/04/2022 10:26:47: [warning] Game object with animator is inactive
+09/04/2022 10:26:47: [warning] Game object with animator is inactive
+09/04/2022 10:26:47: [warning] Game object with animator is inactive
+09/04/2022 10:27:13: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:27:13: [warning] Invalid Layer Index '-1'
+09/04/2022 10:27:40: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:27:40: [warning] Invalid Layer Index '-1'
+09/04/2022 10:27:47: [warning] 添加新预警数据102840340
+09/04/2022 10:27:56: [warning] Game object with animator is inactive
+09/04/2022 10:28:19: [warning] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+09/04/2022 10:28:28: [warning] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+09/04/2022 10:28:55: [warning] 我的城市id: 102102216
+09/04/2022 10:28:55: [warning] 我的城市id: 102102216
+09/04/2022 10:28:55: [warning] map已经存在当前id的部队了，服务器还通知创建101758885
+09/04/2022 10:30:18: [warning] 我的城市id: 102102216
+09/04/2022 10:30:26: [warning] 野蛮人，移动路径有问题，通知服务器检查 102826072
+09/04/2022 10:30:31: [warning] 我的城市id: 102102216
+09/04/2022 10:30:32: [warning] 野蛮人，移动路径有问题，通知服务器检查 102760603
+09/04/2022 10:31:11: [warning] 野蛮人，移动路径有问题，通知服务器检查 102817447
+09/04/2022 10:31:11: [warning] 野蛮人，移动路径有问题，通知服务器检查 102814905
+09/04/2022 10:31:16: [warning] 野蛮人，移动路径有问题，通知服务器检查 102792234
+09/04/2022 10:31:18: [warning] 我的城市id: 102102216
+09/04/2022 10:31:38: [warning] pve已经通过第一关，id：10408
+09/04/2022 10:31:56: [warning] 未找到触发 triggerId = -1
+09/04/2022 10:32:07: [warning] 更新联盟建筑
+09/04/2022 10:32:30: [warning] 未找到触发 triggerId = -1
+09/04/2022 10:32:55: [warning] 未找到触发 triggerId = -1
+09/04/2022 10:32:59: [warning] 我的城市id: 102102216
+09/04/2022 10:33:31: [warning] 野蛮人，移动路径有问题，通知服务器检查 102824598
+09/04/2022 10:33:35: [warning] 服务器发错数值：客户端兼容处理:102840374
+09/04/2022 10:33:49: [warning] 服务器发错数值：客户端兼容处理:102840374
+09/04/2022 10:34:02: [warning] [NetSession] 回包错误码: 1200023, Tag: 201, ErrorInfo: 
+09/04/2022 10:34:04: [warning] 更新联盟建筑
+09/04/2022 10:35:22: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:35:22: [warning] Invalid Layer Index '-1'
+09/04/2022 10:35:37: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:35:37: [warning] Invalid Layer Index '-1'
+09/04/2022 10:35:43: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:35:43: [warning] Invalid Layer Index '-1'
+09/04/2022 10:35:47: [exception] NullReferenceException: Object reference not set to an instance of an object:
+Skyunion.RewardGetWinMediator.FlyReward () (at Assets/Scripts/Hotfix/MVC/View_Mediator/RewardGetWin/RewardGetWinMediator.cs:256)
+Skyunion.RewardGetWinMediator.WinClose () (at Assets/Scripts/Hotfix/MVC/View_Mediator/RewardGetWin/RewardGetWinMediator.cs:90)
+Skyunion.ViewBinder.OnWinClose () (at Assets/Scripts/Client/UIManager/ViewBinder.cs:105)
+Skyunion.UIManager.OnCloseUI (Skyunion.UIInfo uiInfo, System.Boolean IsManual, System.Boolean IsForceClose, System.Boolean returnToLogin) (at Assets/Scripts/Client/UIManager/UIManager.cs:1906)
+Skyunion.UIManager.CloseAnimatorUI (Skyunion.UIInfo uiInfo, System.Boolean IsManual, System.Boolean IsForceClose, System.Boolean returnToLogin) (at Assets/Scripts/Client/UIManager/UIManager.cs:699)
+Skyunion.UIManager.CloseUI (Skyunion.UIInfo uiInfo, System.Boolean IsManual, System.Boolean IsForceClose, System.Boolean returnToLogin) (at Assets/Scripts/Client/UIManager/UIManager.cs:682)
+Skyunion.UIManager+<>c__DisplayClass106_0.<AddMask>b__1 () (at Assets/Scripts/Client/UIManager/UIManager.cs:1604)
+UnityEngine.Events.InvokableCall.Invoke () (at <bc7613b106634015aa64439b702416be>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <bc7613b106634015aa64439b702416be>:0)
+UnityEngine.UI.Button.Press () (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs:68)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs:110)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs:50)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs:261)
+UnityEngine.EventSystems.EventSystem:Update() (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs:377)
+
+09/04/2022 10:35:58: [warning] 删除预警数据102840328
+09/04/2022 10:36:19: [warning] 未找到触发 triggerId = -1
+09/04/2022 10:36:26: [warning] 我的城市id: 102102216
+09/04/2022 10:37:07: [warning] Game object with animator is inactive
+09/04/2022 10:37:07: [warning] Game object with animator is inactive
+09/04/2022 10:37:07: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:11: [warning] Game object with animator is inactive
+09/04/2022 10:37:39: [warning] Game object with animator is inactive
+09/04/2022 10:37:44: [warning] Game object with animator is inactive
+09/04/2022 10:37:52: [warning] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+09/04/2022 10:38:07: [warning] Animator.GotoState: State could not be found
+09/04/2022 10:38:07: [warning] Invalid Layer Index '-1'
+09/04/2022 10:38:54: [exception] NullReferenceException: Object reference not set to an instance of an object:
+Skyunion.ListView.SetInitData (System.Collections.Generic.Dictionary`2[TKey,TValue] prefabDic, Skyunion.ListView+FuncTab funcObj) (at Assets/Scripts/Client/Compoment/UIComponent/ListView.cs:343)
+Skyunion.UI_Win_HeadViewMediator.ChangeShowViewByState (Skyunion.UI_Win_HeadViewMediator+e_HeadViewState state, System.Boolean isClick) (at Assets/Scripts/Hotfix/MVC/View_Mediator/Setting/UI_Win_HeadViewMediator.cs:203)
+Skyunion.UI_Win_HeadViewMediator.OnSelectMenu1 (System.Boolean isOn) (at Assets/Scripts/Hotfix/MVC/View_Mediator/Setting/UI_Win_HeadViewMediator.cs:149)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <bc7613b106634015aa64439b702416be>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <bc7613b106634015aa64439b702416be>:0)
+UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Toggle.cs:280)
+UnityEngine.UI.Toggle.set_isOn (System.Boolean value) (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Toggle.cs:243)
+UnityEngine.UI.ToggleGroup.EnsureValidState () (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ToggleGroup.cs:99)
+UnityEngine.UI.ToggleGroup.Start () (at C:/Program Files/Unity/Hub/Editor/2019.4.17f1c1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/ToggleGroup.cs:40)
+
+09/04/2022 10:39:02: [warning] 删除预警数据102840340
+09/04/2022 10:39:11: [warning] 添加新预警数据102840412
+09/04/2022 10:39:13: [warning] 删除预警数据102840412

@@ -1,0 +1,5 @@
+1. city_trunk 
+	tight类型的sprite修改
+	
+2. city_trunk
+	代码优化

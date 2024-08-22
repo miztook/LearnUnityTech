@@ -1,0 +1,6 @@
+2019由于UGUI的改动，需要对RichText做处理
+	https://blog.csdn.net/s_GQY/article/details/106938608
+
+	https://github.com/coding2233/TextInlineSprite
+	
+	https://github.com/jechyang/EmojiText

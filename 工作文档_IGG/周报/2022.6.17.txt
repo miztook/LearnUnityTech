@@ -1,0 +1,23 @@
+1. Wwise接入
+	
+2. 大世界边缘的navmesh处理，building必须小于walkable (已完成，navmesh生成时的区域设置)
+	关卡口，可以增加圆柱体，立方体作为不可行走区域，限制关卡口的行走路径
+	
+3. Houdini场景工具整理 
+	山
+		
+	树
+	
+	河流
+		区分河流和河岸，所有mesh按大块切分，每块合并mesh，保存mesh，建立prefab
+	路	
+		区分不同的路mesh，所有mesh按大块切分，每块合并mesh，保存mesh，建立prefab
+	桥
+		区分桥面和桥体 (重新生成，做lod)
+		
+	检查生成mesh，优化，去掉可读属性 (尽量减少mesh大小), 是否设置静态合批
+	
+		
+4. 内存优化
+	Profiler 观察 GC的分配
+	GameObject 是否有未清理的情况

@@ -1,0 +1,28 @@
+招聘客户端开发人员
+熟悉客户端代码，制定新人快速入门文档
+
+Linq, Reflection 尽可能避免
+Dictionary使用 (TryGetValue)
+Log到文件功能添加 (设备log, 更新log，游戏内log)
+	定期收集Log文件排查问题
+
+日常Unity问题分析
+	场景内多个audio listener		(场景内组件结构定位)
+	美术资源的Alpha is Transparency设置		(Unity的资源导入时检查)
+	addressable访问资源的警告			
+
+客户端插件和结构的调整	(目标越简单越好)	
+	去除log4net puert
+
+待做:
+	XLua热更新机制，外部lua模块研究
+	现有打包机制分析，制定打包策略和热更新机制 (打包和热更新平台搭建)
+	现有工具功能文档化
+	Editor和Game结构划分 (UNITY_EDITOR宏 编辑器部分代码不带入最终包体)
+	行为树插件学习和应用
+	现有Shader使用分析，注意事项
+	
+	
+	
+	
+	

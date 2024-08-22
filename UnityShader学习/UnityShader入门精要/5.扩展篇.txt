@@ -1,0 +1,108 @@
+17. Unity的表面着色器探秘
+	
+	#pragma surface surfaceFunction lightModel [optional params]
+	
+	表面函数
+		void surf (Input IN, inout SurfaceOutput o)
+		void surf (Input IN, inout SurfaceOutputStandard o)
+		void surf (Input IN, inout SurfaceOutputStandardSpecular o)
+	
+	关照函数
+		内置了基于物理的光照模型函数 Standard, StandardSpecular (UnityPBSLighting.cginc) 和 非物理的光照模型函数 Lambert, BlinnPhong (Lighting.cginc)
+	
+	可选参数
+		自定义的修改函数:		顶点修改函数 (vertex: VertexFunction)  最后颜色修改函数 (finalcolor: ColorFunction)
+		阴影控制函数:			addshadow参数生成一个阴影投射的Pass， fullforwardshadows支持前向渲染路径所有光源类型的阴影，noshadow禁用阴影
+		透明度混合和透明度测试	:		alpha 和 alphatest 
+		光照: 		noambient不用任何环境光和光照探针  novertexlights不使用逐顶点光照	noforwardadd去掉前向渲染的额外pass，只支持一个主像素平行光	nolightmap, nofog等
+		控制代码: 		exclude_path:deferred, exclude_path:forward, exclude_path: prepass
+	
+	表面函数的结构体
+		Input: 	viewDir, screenPos, worldPos, worldRefl, worldNormal
+		struct SurfaceOutput				//非物理
+		{
+			fixed3	Albedo;				//纹理采样和颜色属性乘积
+			fixed3	Normal;
+			fixed3	Emission;				//自发光，颜色叠加
+			half		Specular;				//高光指数系数  pow(nh, s.Specular*128.0) * s.Gloss
+			fixed 	Gloss;					//高光强度系数
+			fixed 	Alpha;					//透明alpha值
+		};
+		
+		struct SurfaceOutputStandard			//物理，金属工作流
+		{
+			fixed3	Albedo;
+			fixed3	Normal;
+			fixed3	Emission;
+			half		Metallic;
+			half 		Smoothness;
+			half		Occlusion;
+			fixed 	Alpha;
+		};
+		
+		struct SurfaceOutputStandardSpecular			//物理，高光工作流，区别在于直接指定Specular颜色，而不需要用漫反射的Metallic属性决定
+		{
+			fixed3	Albedo;
+			fixed3	Specular;
+			fixed3	Normal;
+			fixed3	Emission;
+			half 		Smoothness;
+			half		Occlusion;
+			fixed 	Alpha;
+		};
+	
+		过程
+			顶点着色器: v2f_surf vert_surf(appdata_full v) 
+				1. 可选的顶点修改函数 [可选]
+				2. 根据Input的需要计算变量，存储到v2f_surf结构体中
+			片元着色器: fixed4 frag_surf(v2f_surf IN)
+				3. 使用v2f_surf中的结构填充Input结构体
+				4. 表面函数								//填充SurfaceOutput
+				5. 光照函数								//输出颜色值
+				6. 其他对颜色的修改，如逐顶点光照		//光照图vs逐顶点光照
+				7. 最后的颜色修改函数 [可选]
+	
+18. 基于物理的渲染
+		光 	吸收 + 反射(高光反射) + 折射(吸收 + 次表面散射)  菲涅尔描述了发射和折射比率
+		双向反射分布函数 BRDF  f(l*v)  l为入射方向，v为观察方向，直观的理解：当一束光线沿着入射方向l到达表面某点时，f(l*v)表示有多少部分能量被反射到了观察方向v上
+		漫反射项
+			半球内积分为1
+			lambert模型  diffuse颜色 和 n * l
+			物理模型  albedo，roughness， n * l (增加了粗糙度对漫反射的影响)
+			
+		高光发射项
+			Torrance-Sparrow微面元模型			m为法线 	h为l,v的一半(半角向量)
+			D(h)		法线分布函数				m=h中有多少比例把光线l反射到v中					//BlinnPhong, GGX, Beckman
+			G(l,v,h)		阴影-遮掩函数		m=h中有多少由于遮挡不被人眼看到			//Smith
+			F(l,h) 	菲涅尔反射函数			反射光线v占入射l的比率
+			
+		Unity中的PBS模型公式  	漫反射项 + 高光反射项 (D, G, F)
+		
+		UnityPBSLighting.cginc				定义表面着色器使用的相关结构体 LightingStandardSpecular，SurfaceOutputStandardSpecular结构体
+		UnityStandardCore.cginc			定义Standard Shader的顶点片元着色器相关 vertForwardBase, fragForwardBase
+		UnityStandardBRDF.cginc			实现了 BRDF1_Unity_PBS, BRDF2_Unity_PBS, BRDF3_Unity_PBS
+		UnityStandardInput.cginc			声明了Standard Shader使用的输入，如VertexInput，并定义了辅助函数TexCoords, Albedo, Occlusion, SpecularGloss
+		UnityStandardUtils.cginc			辅助函数
+		UnityStandardConfig.cginc		Standard Shader的配置
+		UnityStandardMeta.cginc			定义了LightMode为Meta的pass，用于提取光照图纹理和全局光照信息
+		UnityStandardShadow.cginc		定义了LightMode为ShadowCaster的pass
+		UnityGlobalIllumination.cginc	定义了全局光照相关函数，如UnityGlobalIllumination函数
+		
+		vertForwardBase
+		fragForwardBase
+			主要函数 	SpecularSetup, MetallicSetup, 填充FragmentCommonData，
+			调用UNITY_BRDF_PBS计算基于物理的渲染结果,
+			调用UNITY_BRDF_GI计算全局光照的渲染结果
+			自发光效果，雾效模拟
+		vertForwardAdd
+		fragForwardAdd
+		
+		金属材质: 几乎没有漫反射，有强烈的高光反射，高光反射有颜色
+		非金属材质： 大多数高光反射强度弱，但有菲涅尔现象，高光反射颜色单一，漫反射颜色多种多样
+		
+		复杂的光照场景: PBS + 全局光照 + 反射探针(SkyBox) + 光照探针 + HDR + 屏幕后处理
+			光照探针和反射探针原理一样，都是通过球谐函数取结果
+			SkyBox就是Unity默认的反射探针  
+			
+		
+		

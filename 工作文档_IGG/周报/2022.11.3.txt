@@ -1,0 +1,20 @@
+1. 热更新，增加Hotfix, Client中的自定义 delegate 转换器
+	SDK中的delegate
+	增加Vector2Int的ValueType转换器				//已完成
+	
+2. 去掉Hotfix中的
+	List.Find			//已完成
+	List.FindIndex,		//Predicate
+	List.FindAll,		//已完成
+	List.RemoveAll		//已完成
+	的匿名delegate
+	
+3. 待做
+	调试:
+		打印Hotfix的堆栈，Debug/Release模式
+	优化:
+		查找Hotfix中的Update函数，优化GC和执行效率
+		ClientInterface中的Update函数, 避免大量和Hotfix的交互
+		
+	Data:
+		哪些Data可以支持热更，哪些不支持, Hotfix里再写一个Data读取机制

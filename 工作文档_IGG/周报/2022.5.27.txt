@@ -1,0 +1,13 @@
+1. AssetBundle资源加载
+	AB初始化
+	AB依赖关系，AB异步加载请求
+	
+2. AB Asset加载
+	资源		实例化的prefab需要Destroy，其他的只需要去掉引用
+	场景		加载卸载
+	
+3. 资源分为	
+		assetbundles
+		data
+		config
+		audio

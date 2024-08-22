@@ -1,0 +1,16 @@
+1. GVG, 吃鸡地图
+	在scene转换成prefab后，对prefab的优化功能 (prefab编辑器)
+	
+	scene编辑器的功能:
+		统计MeshRenderer数量，如果过多就要合并mesh
+		生成tree的mesh， 划分不同的树使用的贴图材质，合并mesh，生成prefab
+		
+	prefab编辑器的功能:
+		引用的散图替换成图集					//目标: 整个prefab不依赖于散图
+		把场景合并后的prefab加载到节点里
+		
+	
+2. Android打包的优化
+	在unity2019下，把android的lib目录以.androidlib结尾
+	
+3. 检查打包所有贴图文件中的重名文件 (可能是一个文件放在了不同的地方)

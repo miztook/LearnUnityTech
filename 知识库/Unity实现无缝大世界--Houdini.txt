@@ -1,0 +1,14 @@
+https://zhuanlan.zhihu.com/p/425568953
+
+哪些资源需要使用Houdini
+	Terrain（地形起伏，Layer）
+	植被，岩石分布。
+	河流（除了产生河流资源，还需影响Terrain和植被）
+	道路，桥梁（除了产生道路桥梁资源，还需影响Terrain和植被）
+	村庄（主城一般需要地编详细设计，野外或者废弃的不让进入的城市也需使用houdini）
+	
+HDA串联节点网
+	高度Bgeo -> 侵蚀HDA -> Height Layer等Bgeo
+	高度Bgeo，河流曲线 -> 河流HDA -> Height RiverMask等Bgeo，河床流向图等Unity资源
+	高度Bgeo，道路曲线 -> 道路HDA -> Height RoadMask等Bgeo，道路模型
+	Layer, roadmask, rivermask -> 生态HDA -> 植被数据，路灯等各个生态数据

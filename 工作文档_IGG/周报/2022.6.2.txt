@@ -1,0 +1,30 @@
+1. 	现有打包系统整理简化
+	Android系统对于Asset Bundle的特殊读取, 文件的读取(zip)
+	
+2.  AssetBundle目录结构				(已调整完毕)
+	res_base
+		assetbundles
+		audio				//
+		configs
+		bin
+		
+3.  现有的Addressable打包机制精简			(已完成)
+	新的打包 BuildAssetBundle 
+		加载测试正常		(已完成)
+		在AssetBundle, 资源路径错误之后，Unity会抛出相应异常 (已测试)
+	新的打包 BuildApp	
+	
+4.  完成更新阶段后，准备进入游戏阶段增加进度提示 (已完成)
+
+5.  Wwise管理器的修改 (路径)  测试框架
+
+6. 	shader的变体svc收集
+		在ShaderPreprocess时建立 svc (针对 multi_compile)，去掉deffered无用shader
+		建立每个shader用到的宏组合的列表 (针对 shader_feature)
+		
+		
+		根据这个表把material中引用的废弃keyword删除 (自定义宏)
+		
+	.unity场景的打assetbundle
+
+7. 	提取现有AudioService接口，看现在游戏使用了哪些特性，和Wwise接口做统一  (由于涉及配置表不同，目前接口有一定差异)

@@ -1,0 +1,8 @@
+1. 关卡(桥)的navmesh生成，可行走，增加navarea = 5的区域，然后walkable导出
+
+2. 新的打包 BuildApp 机制完成
+
+3. 加载apk包中的ab资源时，读取streamingAssets目录下的 LoadFromFileAsync 特别慢
+	解决 streamingAssets下的资源打到apk中不能压缩，必须在 .gradle 中nocompress设置后缀非压缩
+	
+4. 大世界边缘的navmesh处理，building必须小于walkable

@@ -1,0 +1,8 @@
+深入理解xLua热更新原理
+https://www.cnblogs.com/gangtie/p/13665727.html
+
+xLua游戏中的热更新(基于Unity2018)
+https://blog.csdn.net/kouzhuanjing1849/article/details/90415938
+
+游戏热更新实战案例（基于xLua）
+https://blog.csdn.net/kouzhuanjing1849/article/details/90612479

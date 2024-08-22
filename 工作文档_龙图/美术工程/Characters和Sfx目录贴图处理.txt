@@ -1,0 +1,48 @@
+AtlasTextures					_d最大1024   _n _s _m最大512
+Boss							_d最大1024   _n _s _m最大512
+CreateCharacter					_d最大512   _n _s _m最大256
+Etc								最大256
+Fashion							_d 1024保留 	_n _s _m最大512
+ImageModel
+mine
+Monsters						_d最大512 	_n _s _m最大256
+NPCs							_d最大512 	_n _s _m最大256
+Others
+Outward
+Pets							_d最大512 	_n _s _m最大256
+Players							body,nor,adv,sup: _d最大1024 _n _s _m最大512 	hair,face: _d最大512 _n _s _m最大256
+Ride							_d最大1024	_n _s _m最大512
+Weapons							_d最大512 	_n _s _m最大256
+Wing
+
+
+
+Sfx/Textures							最大
+	T_daoguang_							256
+	T_dilie_							256
+	T_duogelizi_						256
+	T_fangsheguang_						256
+	T_fazhen_							256
+	T_guangquan_						256
+	T_guangyun_							256
+	T_huo_								256
+	T_jiansheguang_						128						//弓箭效果使用
+	T_lizi_								128						//小粒子图
+	T_normalmap_						256		
+	T_shandian_							256
+	T_shanguang_						256
+	T_tuan_								256
+	T_ui_														//ui不处理
+	T_wenli_							256
+	T_wnnisha_weapon					256	
+	T_wenzi_							256
+	T_wujian_							512						//有些和物件相关
+	T_wuti_bishou_						256
+	T_wuti_gongjian_					256
+	T_xianxingguang_					256
+	T_xuanwo_							256
+	T_xulie_							512						//序列图
+	T_yan_								128						//简单的烟图
+	T_yujing_							256
+	其余和场景相关的不处理，默认最大2048
+	

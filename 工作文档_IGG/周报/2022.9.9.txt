@@ -1,0 +1,16 @@
+1. 优化
+	去掉Debug.Log的副作用 GC
+	游戏逻辑计数
+		Event
+		Timer
+		ObjectPool
+		
+	待添加其他的管理器 部队 大世界等
+	
+2. 代码结构调整 (代码热更新)
+	去掉不必要的继承关系 
+		GlobalManager移除
+		
+		非HotFix模块的改用 MonoSingleton 实现Update
+		HotFix模块的用 TSingleton
+			直接在 Hotfix.Game 模块中调用 OnUpdate

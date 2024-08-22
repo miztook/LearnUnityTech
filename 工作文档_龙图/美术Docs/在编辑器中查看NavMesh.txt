@@ -1,0 +1,4 @@
+在编辑模式下查看navmesh的方法:
+	在Script目录下找到 NavMeshShow.cs 这个脚本，拖到到场景任意一个组件里
+	在NavMeshShow的脚本参数里 Scene Name 输入名称, 比如输入 World01 就对应 NavMesh\World01.navmesh 这个文件
+	Show NavMesh勾选和不勾选就可以显示/隐藏navmesh

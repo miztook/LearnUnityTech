@@ -1,0 +1,26 @@
+1. 更新地图省份信息生成工具，服务器增加精度 1200 X 1200
+
+2. 现有异步加载系统分析
+	IAsyncOperation 	判断完成IsDone (Fail 或 Succeed)
+	
+3. IGGSDK 
+	切换语言时 更换gameid
+	Ipv6域名支持
+	CDN资源上传/下载
+	IGGSDK				//GPC 也叫 USDK
+	PeapodSDK 			//AF, Firebase, Facebook
+		账号系统			//IGG通行证 gamecenter
+		协议管理
+		支付系统		//google apple
+		广告			//AF, Facebook, Firebase
+		翻译
+		推送			//客户端，红点提醒客服回复
+		静态资源存储
+		游戏评分
+		客户端事件采集
+		在线问题提交系统		//OperationSDK USDK
+		崩溃日志		//Firebase Crashlytics
+		客服系统
+		
+4. 大世界逻辑整理 (待做)
+	服务器 -> 客户端		(数据同步 加载队列 销毁队列(不同类型销毁方式不同) Update逻辑)

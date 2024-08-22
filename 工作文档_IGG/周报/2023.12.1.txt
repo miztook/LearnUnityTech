@@ -1,0 +1,10 @@
+1. city_new场景的编辑器
+	navmesh制作
+	meshRenderer优化设置
+	合并渲染
+	
+2. 内城树, 草的制作, mesh合并
+
+3. 内城树，草，decal 建立prefab分块 减少drawcall
+
+4. tree, grass, decal 先设置静态合批，最终需要生成分块的prefab合并sprite

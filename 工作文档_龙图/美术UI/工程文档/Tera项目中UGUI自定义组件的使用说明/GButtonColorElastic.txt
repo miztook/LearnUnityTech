@@ -1,0 +1,15 @@
+按钮
+
+Transition 为ColorTint时会产生颜色变化
+如果GraphicTarget为Null则对所有子节点产生变化
+
+    float ScaleButtonDown
+    float ScaleButtonUp
+    float ScaleButtonSelect
+    float Time
+这几项是缩放的系数
+
+TweenTarget是缩放的目标，null时采用GraphicTarget；
+GraphicTarget为Null时，使用自己；
+
+注意：不要缩小自己的响应区域，否则对体验有非常不好的影响

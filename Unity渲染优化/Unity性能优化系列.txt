@@ -1,0 +1,70 @@
+物理模块
+	在Unity自带的物理引擎中，物理模块的耗时主要来自FixedUpdate.PhysicsFixedUpdate和逻辑代码中的射线检测、碰撞检测等。
+	FixedUpdate.PhysicsFixedUpdate函数的耗时构成主要有两部分：一个是Physics.Processing，一个是Physics.Simulate
+
+	1. 项目是否确实需要物理模块
+	2. 控制物理调用次数				//上一帧卡顿，这一帧会存在多次物理更新FixUpdate
+	3. Contact数量是否合理
+	4. 减少Raycast使用				//可以考虑用JobSystem的 RaycastCommand
+	5. Auto Sync Transforms
+	6. 逻辑代码相关					//尽量将代码写入Update函数中
+	
+动画模块
+	1. 控制Active的Animator数量			//Animator更新消耗比较大
+	2. 排查 开启ApplyRootMotion 的Animator数量 		//动画不需要位移的不开
+	3. 开启Optimize Game Objects选项			//在处理动画时会移除Transform的层级信息
+	4. 控制Animator.Initialize触发频率			
+	5. AlwaysAnimate模式的Animator Controller数量过多		//CullUpdateTransforms, CullCompletely
+	6. Animators.FireAnimationEventsAndBehaviours 		//动画事件过多
+	7. 群体动画渲染使用GPU Skinning + GPU Instancing
+	
+	动画资源检测:
+		1. Compression != Optimal的动画资源
+		2. 精度过高的动画片段
+		3. 包含Scale曲线的动画片段
+		4. AnimationState数量过高的AnimatorController
+		
+粒子系统
+	ParticleSystem.Update(粒子系统更新), ParticleSystem.Draw(Draw Call耗时), ParticleSystem.ScheduleGeometryJobs
+	1. 粒子系统的数量
+	2. 关于ParticleSystem.Prewarm 关掉
+	3. Overdraw 关闭Collision等
+	
+加载与资源管理 
+	1. Loading.UpdatePreloading			加载资源越多越复杂，则其Load.UpdatePreloading的耗时也越大
+	2. Resources.UnloadUnusedAssets
+	3. GC.Collect
+	4. Instantiate
+	5. AssetBundle驻留优化
+	6. Shader.Parse	Shader.CreateGPUProgram		搜集变体，warmup	
+	
+渲染模块
+	1. DrawCall和Triangle
+	2. RenderForward.RenderLoopJob				//batch数量较高
+	3. Culling耗时较高				//小物件数量 关闭occlution culling
+	4. Render.Mesh				//静态物体
+	5. ParticleSystem.ScheduleGeometryJobs与ParticleSystem.Draw	
+	6. Shader.CreateGPUProgram					搜集变体，warmup
+	7. 多线程渲染，GPU Instancing，SRP Batcher
+	
+UI
+	1. Canvas.SendWillRenderCanvases			//UI元素自身变换带来的更新耗时
+		1)	降低频繁更新的UI元素的频率
+		2)	尽量让复杂的UI不要发生变动 (RichText Outline Shadow)
+		3）	关注Font.CacheFontForText
+	2. BuildBatch & EmitWorldScreenspaceCameraGeometry
+		UI网格合并时发生
+	3. SyncTransform
+		SetActive会导致树状结构的transform更新
+	4. EventSystem.Update
+		检测是否有无用的Raycast Target, 如Image, Text
+	5. UI DrawCall
+		Mask和RectMask2D的使用
+		
+		
+		
+		
+		
+		
+		
+	

@@ -1,0 +1,13 @@
+1. 对比QA 和 Release的客户端代码
+	Client, Skyunion 功能性的保持一致
+	Hotfix的分模块，看改动大小 
+	
+2. ASTC的安卓贴图，打包测试
+
+3. 热更新版的安卓测试
+
+4. 贴图资源缩减，主要对于 single sprite 大小的控制
+
+5. 修改工程中贴图转换规则，增加贴图mipmap设置检查
+
+6. 调试trunk下的热更新包，优化GC

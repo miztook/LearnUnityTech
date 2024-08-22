@@ -1,0 +1,23 @@
+1. 去掉Linq
+
+2. 打包资源增加hotfix目录包括hotfix.dll
+	在BuildResource时，增加hotfix.dll的构建，增加md5记录
+	
+3. 热更模式增加 load Hotfix.dll
+	解决报错
+	收集热更新的调试，优化，注意事项
+	
+	去掉Hotfix中不必要的delegate (需要写Converter)
+	
+	去掉System.Linq
+	去掉Hotfix中.Foreach方法 (引用匿名delegate)
+	
+	搜索.Sort方法中的比较方法 	//需要写 ILRT.Bind.cs 中的 RegisterComparisonDelegates
+	
+	避免List				//需要写 ILRT.Bind.cs 中的 RegisterPredicateDelegates，尽量避免
+		.Find
+		.FindIndex
+		.FindAll
+		.RemoveAll
+		
+	Enum.IsDefined 不能用

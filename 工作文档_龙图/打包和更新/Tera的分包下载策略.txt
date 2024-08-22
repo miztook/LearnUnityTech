@@ -1,0 +1,116 @@
+Tera的包体策略:
+	玩家下载的apk可以体验10级以内的所有游戏内容，首包保证所有游戏内容都存在
+	进入游戏后，玩家可以根据当前的等级下载对应的游戏包，比如玩家下载10-20级分包资源后可以体验所有10-20级内容
+	
+首包apk大小 1.8G
+所有分包大小 1.72G
+
+首包内StreamingAsset下资源
+	AssetBundles		1.64G			
+	Audio				147M			音频
+	package				103M			配置数据，lua代码
+	Video				40M				CG视频
+	
+首包中的美术资源AssetBundles (在所有资源中去掉10级以外的场景资源)	
+	7daysgift
+	cg
+	cganimator
+	characters
+	monsters
+	outward
+	wing
+	weapons
+	animations
+	commonres						//场景之间共享的fbx贴图等
+	fonts
+	fashion
+	commonatlas						//UI图集
+	interfaces						//UI prefab
+	others
+	scenes								//场景资源(天空球等)
+	sfx
+	shader
+	timeline
+	creatcharacter_1_cn					//创建角色
+	creatcharacter_2_cn
+	creatcharacter_3_cn
+	creatcharacter_4_cn
+	creatcharacter_5_cn
+	dn_gorilla_02						//选人场景
+	dn_gorilla_selectchar_animator
+	dn_gorilla_selectchar_animator2
+	dn_pvp01_guildbase					//公会基地
+	dungn01_rins01						//10级副本
+	world01								//第一个大地图
+	world01blocksnew					//地图分块
+
+分包中的美术资源AssetBundles
+
+	city01
+	city01blocksnew
+	city02
+	city02blocksnew
+	dn_pvp01_guildbaselv2
+	dn_pvp01_guildbasetest
+	dn_pvp02_arena01
+	dn_pvp02_arena02
+	dn_pvp03_skyarena
+	dn_pvp03_skyarenablocksnew
+	dn_pvp04_palace01
+	dn_pvp05_fearless
+	dn_env02_mageplatform
+	dn_env02_mageplatform_02
+	dn_evn01_dnest
+	dn_evn03_killerparty
+	dungn00_empirerelicprologue
+	dungn00_throne01
+	dungn02_cave01
+	dungn03_qxgj01
+	dungn04_zuras01
+	dungn05_elfarch
+	dungn06_empirerelic
+	dungn07_mansion01
+	world02
+	world02blocksnew
+	world03part1
+	world03part1blocksnew
+	world03part2
+	world03part2blocksnew
+	world04part1
+	world04part1blocksnew
+	world04part2
+	world04part2blocksnew
+	world05
+	world05blocksnew
+	world06part01
+	world06part01blocksnew
+	
+分包的目的就是划分出 10-20 20-30 级用到的资源，做成一个大的分包文件, 以10-20级资源为例
+	分包1中包含
+		AssetBundles/
+			"city01",
+			"city01blocksnew",
+			"dn_pvp02_arena02",
+			"dungn02_cave01",
+			"dn_pvp01_guildbaselv2"
+		Audio/
+			"Cut_Maincastle_1.bnk",
+			"Main_Castle_1.bnk",
+		Video/
+			"Dn01_Arena02.mp4",
+			"Mall_CG01.mp4",
+			"Mall_CG01_Loop.mp4",
+			"Mall_CG02.mp4",
+			"Mall_CG02_Loop.mp4",
+			"Boss*.mp4",
+			
+下载器的一些实现
+	使用curl openssl，支持ipv6和https
+	单线程下载，由于下载文件比较大，支持断点续传(大文件下载中断，重启app后继续下载)
+	版本号控制，下载到临时文件夹，完成后进行md5校验，然后拷贝到游戏目录
+	下载使用单线程而不是协程，避免对游戏造成卡顿
+	
+分包下载的几个问题
+	在现有的打包机制下，如何按游戏等级划分分包内容，同时保证首包资源不能太大
+	场景资源之间有公共引用资源，如何合适的提取公共引用资源，放在首包中且使首包不能过大
+	

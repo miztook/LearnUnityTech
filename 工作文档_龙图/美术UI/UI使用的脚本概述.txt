@@ -1,0 +1,50 @@
+Assets/Scripts/Artcode/SetSortingOrder.cs			
+			//遍历所有的子renderer组件，设置sortingOrder，在同一个sortingLayer下的order
+Assets/Scripts/FxDuration.cs
+			//一个变量值，表示持续时间，一个特效在播放多久之后停止
+Assets/Scripts/GUILinkHolder.cs
+			//维护一个item map，用一个id来访问指定的控件，而不是通过FindChild，编辑器GUILinkHolderInspector
+Assets/Scripts/InteractableUIHolder.cs
+			//在美术工程下，UI的gameobject挂一个 GUIPanel 控件，控件包括一些设置如order, IPX适配，全屏，禁止raycast等设置
+			//在PanelSetting里添加PanelInfo信息，保存每个子控件的设置信息
+			//预览时，添加Canvas, 添加GraphicRayCaster，对每个panelInfo设置层级(层级预览)
+			//在父一级的UISizeAdapter里完成ipx的适配，也需要用到InteracteableUIHolder中的panel_info信息
+			//总的来说，InteractableUIHolder控制UI界面的 控件消息响应，层级设置，适配选项设置等
+Assets/Scripts/UITemplate.cs
+			//保存一个列表，用id标识的一列控件， 一般是UITemplate的子gameobject控件
+			//作用是把多个子控件作为一个整体来使用
+Assets/Scripts/Joystick.cs
+			//实现摇杆的显示和拖动逻辑，接收拖动消息
+
+一般使用GRayCastRect来定义响应区域，标准控件可以使用GraphicRayCaster
+
+生成UI的操作
+			Assets/Prefabs是UI编辑的目录，需要生成到Assets/Outputs/Interfaces下才能最终被游戏使用
+			
+			UIEditorToolsMain.cs下 
+			1. 菜单 UI/UI生成测试用Prefab 		生成一个单独的prefab到 Assets/DevelopInterfaces/，可供客户端单独测试，不用打包成assetbundle
+			2. 菜单 UI/上传代码时Prefab同步           把Assets/DevelopInterfaces下的prefab拷贝到 Assets/Outputs/Interfaces/ 下
+			3. 菜单 UI辅助工具/UI生成Prefab			生成最终使用的UI prefab，从Assets/Prefabs到Assets/Outputs/Interfaces
+			
+			生成UI的过程	UIGeneratePrefab.generate 
+					generateUIKeyAndIDMap						在 Lua/GUI/ObjectCfg/ 下生成lua文件，匹配GUILinkHolder，供客户端使用
+																						收集Property和ListProperty
+					generateUICodeAndPrefab					tag包含_UI_的，生成代码， property生成field字段
+																						根据PanelSetting的设置，生成Instance方法里的属性设置
+																						生成OnClick, OnInitItem, OnSelectItem, OnToggle, OnScroll
+																						根据是否有backgroud设置Image
+																						CollectUIComs 收集子控件，设置Interactable组件的子控件列表和Dotween
+																						收集GUIPanel，转化为Interactable组件的PanelInfo列表
+																						处理GImageModel的aspect
+																						移除GCommonUI
+																						设置Layer为UI
+																						将改变的prefab保存到对应的目录
+					
+Assets/Prefabs下UI制作时，使用的脚本比Assets/Outputs/Interfaces下多3个，分别是
+			Assets/Scripts/UIExtension/Component/GCommonUI.cs							
+					方便使用通用的Prefabs/UITemplates下的UITemplate，主要用来辅助添加做好的通用组件的UITemplate到prefab上，在生成时清除
+			Assets/Scripts/UIExtension/Component/NewUI/GUIPanel.cs				
+					对UI下的每个子节点panel，设置orderOffset, IPX适配，全屏适配，阻挡raycast等，生成时保存在InteractableUIHolder中
+			Assets/Scripts/UIExtension/PanelSetting.cs			
+					对应整个UI根节点，设置closeType, destroyOnHide，是否有背景图，生成时根据背景图添加Image, closeType,destroyOnHide生成lua
+			

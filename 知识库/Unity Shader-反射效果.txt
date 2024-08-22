@@ -1,0 +1,8 @@
+https://blog.csdn.net/puppet_master/article/details/80808486
+
+relfect/refract函数
+
+CubeMap(Reflection Probe)			适合天空球
+Box Projected Cube Map			一定范围内的反射
+Planar Reflection					多一个mirror相机 MVRP (R是反射矩阵) 渲染得到RT 再加Oblique斜视锥体裁剪 避免水下物体反射
+Screen Space Reflection				需要屏幕空间的深度和法线

@@ -1,0 +1,21 @@
+现有资源统计
+							Fbx可读/不可读			Texture可读/不可读	
+Blocks							0/0						0/64
+Characters						1099/0					0/3379
+Envirentment						5828/0					18/3829
+Scenes							4/0						0/476
+	
+Sfx								733/0					0/1791
+
+Outputs
+	Characters					0/0						0/0
+	CommonAtlas					0/0						1/3054
+	Scenes						0/0						0/3
+	Sfx							0/0						0/0
+	场景BlocksNew				0/0						0/0
+	
+Fbx规则， 
+	Characters, Envirentment, Scenes 下均改为不可读， Sfx下为可读
+Texture规则
+	Characters, Envirentment, Scenes, Sfx, Outputs/CommonAtlas, Outputs/Scenes 均改为不可读	
+	

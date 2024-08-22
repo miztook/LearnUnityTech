@@ -1,0 +1,21 @@
+1. 游戏内边玩边下载测试
+
+2. 进游戏后加速优化
+	读取Data
+	大地图加载tiledata.bytes			//string字符串减少，加快读取速度
+	
+	Notification的NofifyObservers优化，	减少大量的GC分配
+
+3.  ElseForty插件导入
+	DeformedMesh改完Mesh后，Save成Prefab加入到场景
+	BurstCompile导致打包卡死，去掉
+	
+4. 	关键代码统计
+		WorldMapLogicMgr
+		Army管理
+		Object管理
+		行军线
+		World技能
+		
+4.  待优化
+		频繁使用的 transform.position.x transform.position.z 缓存transform

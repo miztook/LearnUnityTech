@@ -1,0 +1,14 @@
+1. 热更新阶段UI调整，状态显示
+
+2. 登录时增加OpenUDID，标识唯一设备
+
+3. 断线重连处理
+
+4. 性能工具，方便查看游戏状态，断线重连，内存泄漏等
+	增加 Proxy, GlobalMediator, Singleton的字段显示
+	增加 GameObject, Prefab, Component显示
+	
+5. 统一的ObjectPool机制
+
+	file -> instance(copy 同步)
+	assetbundle (依赖， 异步)-> prefab （异步） -> instance（同步）

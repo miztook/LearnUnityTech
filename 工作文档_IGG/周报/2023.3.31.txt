@@ -1,0 +1,7 @@
+1. 擦玻璃效果的shader优化，由于在UI层渲染，可以考虑用rendertexture代替 grabpass
+
+2. TroopManager下的缓存组件，查看有没有被XXXManager管理的，改变transform的组件，需要在回收时重置状态
+
+3. TroopManager下的FadeIn FadeOut问题，快速切换时避免上次Fade没有完成导致新的Fade错误的问题
+
+4. 几个组件里的Coroutine替换为Update

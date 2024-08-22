@@ -1,0 +1,10 @@
+1. Shader分析工具，增加中级的shader lod
+		IOS下湖泊的shader bug
+
+2. 地图加载的简化
+		不必要的异步加载
+		大地图WorldFight Bullet的释放，回收,统计
+		
+3. 热更新框架的搭建
+
+4. 检查PreloadRes中重复的资源	

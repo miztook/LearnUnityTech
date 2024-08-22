@@ -1,0 +1,19 @@
+1. 大世界树lod规则重新指定	
+	新的树生成规则已制定
+
+2. 大世界公路和桥的生成，合并mesh (已完成)
+
+3. 地表tilling调整 (已完成)
+
+4. 	打包的animation资源分析，是否可以优化
+	打包文件的单个文件大小分析
+
+5. Shader变体收集
+	所有进包的材质, 对应的shader + Material定义的keywords
+	系统自定义的shader keywords, 在 ShaderPreProcessor 打包预处理时打印
+	
+	移除Material中定义的无效keywords, 收集shader所有的keywords组合 (系统 + material定义)，构造shader Variants，预加载
+	
+6. 所有进包的Camera组件设置检查 (涉及宏定义，效率)
+
+7. Android 12 (targetversion: 31) 相关库调整，编译通过，IGGSDK初始化登录

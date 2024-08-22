@@ -1,0 +1,10 @@
+1. 热更新
+	消除GC
+		foreach
+		值类型如 DateTime CombineInstance 移到Client工程中
+		GetComponent 导致的GC
+
+2. 优化 
+	大世界的缓存TroopObjManager策略，避免短时间内有很多同步加载，加载更平滑
+	去掉旧的AudioService
+	Bloom 精确提取特效部分，用HDR = 1做硬提取，不做软提取

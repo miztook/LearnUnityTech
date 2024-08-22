@@ -1,0 +1,13 @@
+1. 热更新模块关系
+		模块					依赖
+		Third
+		Skyunion
+		Client					Third, Skyunion
+		Hotfix					Third, Skyunion, Client
+		Native					Skyunion, Hotfix
+		Game					Third, Skyunion, Native, Client, ILRTBind
+	
+2. 	非热更管理器
+
+	可热更管理器
+	

@@ -1,0 +1,24 @@
+1. shader优化
+	PBR类的，去掉GISpecular，Aniso
+	AnisoHair 评估消耗
+	
+	IGGGirl_AnisoHair.shader				
+		3个pass	只用在美女
+	IGGGirl_Eyes.shader
+		用在美女，英雄上，	优化(去掉废弃的计算IndirectSpecular)
+	IGGGril_FabricNeo.shader
+		SPEC_ANISO	消耗较大	只用在美女
+	IGGGril_PBRNeo.shader
+		用在美女上	消耗较大
+	IGGGril_PBRNeo_PlanarShadow.shader
+		只用在BellMotuo上	优化(去掉计算量较大的GISpecular)
+	IggSkin_SSS.shader
+		用在美女timeline上， 消耗较大 标准的GGX, Fresnel, Cubemap做GIndirect
+	PBR_HSV.shader
+		用在内城npc上， PBR_BRDF消耗适中 PBR_BRDF只计算直接Diffuse, Specular
+	IGG_PBRV1_Character.shader
+		用在英雄上，LITS多光照计算+SSS，消耗适中
+	IGG_Hair_New.shader
+		用在英雄上， 1个pass，消耗适中
+
+2. 根据性能测试报告，高中低档分级, 考虑CPU主频

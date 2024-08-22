@@ -1,0 +1,93 @@
+
+2.1 Unity框架部分
+	资产管理
+		美术资产导入项目时进行自动化检查配置
+		项目冗余资产检查工具
+	构建流水线
+		Unity可编程构建/打包框架
+		Jenkins+JS脚本实现一键打包，热更，发布流水线功能
+		脚本工具实现自动从svn更新，抓取Log，生成每次更新的ChangeLog
+	资源热更框架
+	UI框架
+		栈式管理UI界面							
+			//UI按Layer分类，每类按order排序 Layer中分固定1-40和浮动40-80两块
+			//实际order20 +0~+9是给特效的，+10及以上是给教学的
+		LRUCache实现页面粒度的内存管理
+		界面可见性控制(性能优化)
+		纯Shader实现的UGUI动画框架
+		编辑器友好(策划可以直接在编辑器中做好页面之间的跳转交互)
+		高性能的大量对象滑动列表实现
+			ViewportedLayouts 有限可视区域大量对象快速布局
+		一键九宫格裁剪工具
+	通用工具
+		SerializableEvent - 事件序列化框架
+		模板配置解析
+		简单的CSV读取库
+		EventBus - 事件系统
+		Tween动画框架
+
+	脚本支持
+		Lua面向对象封装
+		EmmyLua Api自动导出工具，使得VSCode中拥有Lua代码提示
+		SLua内存泄露分析工具
+		
+	GamePlay
+		教程任务系统
+		树形计算框架
+		2DTile地形编辑
+		3D人物蒙皮换装
+
+2.2 网络部分
+	状态同步框架
+		.NET TCP/KCP				//KCP牺牲流控保证数据包的实时传输
+		Thrift序列化				//RPC框架
+
+2.3 图形部分
+	水体相关
+		浅水渲染
+				水体着色	
+					反射(Reflection)			//平面反射mirror camera 计算oblique matrix把近景提到平面
+					折射(BaseCol + Refraction + SSS + Caustics + Foam)
+												//根据深度水面深浅显示不同的颜色
+												//菲涅尔系数控制反射和折射的混合
+				水体动画	
+					水体流动(顶点波形动画 Sin, FFT傅里叶变换，波动粒子，预渲染法线偏移，离线FFT贴图)
+					水体交互
+	GI相关
+		球谐光照的GPU烘培与重建实现			//表示一个点所受的各个方向上的光照，用三阶球谐函数 (低频为主)
+		Image Based Lighting			
+				//IBL其实就是环境反射，和反Cubemap做金属和水面效果是一样的，
+				不同的是用roughness决定lod层级达到粗糙表面的模糊反射
+				IrradianceMap, PerfilterEnvMap, IntegrateBRDFMap
+				Diffuse: 采样Cubemap，简化方程，黎曼和求解积分
+				Specular: 信号是高频，只用黎曼积分精度不够，用蒙特卡洛积分，再做importance sampling, LD * DFG
+	后处理相关
+		图像模糊技术
+		Bloom
+		SSAO				//模拟间接光照，用屏幕空间深度计算AO值			
+		DepthOfField		//得到模糊ScreenBlurRT，获取每个像素的深度值，变为相机空间，根据相机参数获取模糊效果
+	反射技术
+		SSPR			//平面反射 把相机的位置转换为相对于平面对称的空间，通过投影矩阵输出RT进行采样
+	阴影技术
+		CascadeShadowMapping
+		PCF阴影
+		ShadowBias
+		抗锯齿系列
+		Unity-SRP渲染管线系列
+		PBR-基于物理的光照着色
+		噪音函数
+		
+2.4 数学部分
+	从Unity投影矩阵中提取视锥信息
+	随机取样
+	旋转中的数学
+	Non-UniformScale与向量空间变换
+
+2.5 物理部分
+	关节Joint
+	投掷计算 
+	GPU布料模拟
+	
+2.6 大世界技术
+	GPU地形渲染				把地形做为一张2D高度图，利用mipmap实现层级
+	GPU Instance草地

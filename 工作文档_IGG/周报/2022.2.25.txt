@@ -1,0 +1,14 @@
+1. 安卓包大小验证 (首包不超过150m) 
+	场景打到assetbundle中
+	勾选deveoplment模式显示行号，开启script debugging	(已完成，目前勾选development模式打包有行号)
+	
+2. 美术资源批处理
+		处理美术贴图格式，非4的倍数的批量处理png文件，然后批量修改格式
+		
+3. Houdini场景水的导入方案
+
+4. Navmesh的显示验证及生成		(houdini和非houdini方案已经总结，已完成)
+
+5. 大地图场景受光照的影响整理		（已完成）
+
+6. 强更规则，版本号规则，curl下载模块的补充

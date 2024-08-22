@@ -1,0 +1,17 @@
+1. Rss物体的lod加载规则
+
+2. houdini场景的山脉lod生成，导入游戏
+	Tree生成？使用2D资源
+	大地表在摄像机拉高时避免重复	(根据lod设置地表的tiling参数)
+
+3. AssetBundle的读取，AssetDatabase的读取
+
+4. .unity场景打包到AssetBundle
+
+5. 增加Dump工具 列出游戏中
+	所有的UI View
+	所有的GlobalMediator
+	所有的Proxy
+	所有的管理器 (单例)
+	
+6. 能监听Shader编译事件，方便收集Collection 

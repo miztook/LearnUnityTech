@@ -1,0 +1,16 @@
+场景自动烘焙的导航网格信息保存在 NavMesh.asset 中
+
+首先用 NavMesh.CalculateTriangulation 获取所有的顶点和索引数据，这个是完整的构建过的NavMesh，包括了多边形信息（最大边数为6边型的凸多边形）
+，但是这个数据中所有的多边形是不共边的（多边形的边是重复数据），所以需要首先合并重复的边，可以利用 RacastNavigation提供的代码，
+基于 rcBuildPolyMesh 增加一个修改版本（比如叫：rcBuildPolyMeshBySeparatePolyTriangle），目的是合并已有的多边形的重复边，这一步结束后，就可以借用 RacastNavigation 剩余的构建流程：
+
+	创建 NavMesh并使用以上的 PolyMesh 初始化 (dtCreateNavMeshData, dtNavMesh::Init);
+	根据已有的 NavMesh 更新包围盒；		
+	根据现有的 NavMesh 将每一个 Tile 写入文件（这之前可以写入自定义的文件头信息，方便读取）;
+	服务器读取存储的数据，并用来初始化生成 NavMesh，就可以 findpath 了。（也可以将这个数据导入 RacastNavigation 的 Demo 中查看可视化情况）。
+	以上 1-4 是RacastNavigation示例中构建流程的一部分，重点是 rcBuildPolyMeshBySeparatePolyTriangle 这一步合并多边形即可。
+
+这么做的好处是，导出的 NavMesh，跟 Unity 里构建的，多边形信息是一模一样的。想要支持 DetailMesh，估计还不行。
+另外，服务器直接用可能还有点问题，如果 Unity 导出的数据很多细长的三角形，那么RacastNavigation的结果会和 Unity出现很大的差异，需要稍微修改下RacastNavigation的代码。
+
+https://www.cnblogs.com/yaukey/p/recastnavigation_unity_optimize_visible_result.html

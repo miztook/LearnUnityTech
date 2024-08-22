@@ -1,0 +1,28 @@
+1. 大地图场景
+	SceneObject
+		WorldCameraShake
+			WorldCamera					//世界摄像机
+		Directional Light				//方向光
+		land_root
+			world_root					//地图场景, MapManager管理
+		TroopLine_root					//部队连线，MarchLineMgr管理
+		Troops_root						//部队， TroopMgr管理
+		rss_root						//地图对象，WorldMgrMediator管理
+		lod3_root						//小地图管理 对应地图对象在lod3以上时显示，GlobalViewMediator管理
+		
+2. LOD的计算 
+	LevelDetailCamera			//挂在WorldCamera上，根据摄像机dxf计算lod
+	
+3. houdini场景，可以生成山，树的位置，数量自动生成，游戏通过物体的位置来决定属于哪个地块，进行加载卸载和显示管理
+	之前的做法，每个地块提前做好prefab, 再拼成大世界，现在是用60种地块拼成 40X40 个地块的大地图，效果受限制(地块有重复，河流需要块与块之间拼接)
+	
+4. 资源管理要解决什么问题，AB包相关
+	游戏中三种资源的读取，AssetDatabase, AssetBundle, File
+	
+	AssetBundle <-> asset <-> instance 的管理
+	
+5. 游戏Class总览，了解游戏内的Class的功能，以及关键的数据结构
+
+6. 热更新机制调研 
+	IHotFixService.cs 		HotfixMode.ILRT
+	

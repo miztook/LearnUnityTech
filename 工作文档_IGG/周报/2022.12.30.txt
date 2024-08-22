@@ -1,0 +1,18 @@
+1. SDK升级
+	AppsFlyer
+		6.4.0	->	6.8.2
+		
+	Facebook
+		13.2.0	->	14.1.0
+		
+	Firebase
+		FirebaseAnalytics
+		FirebaseCrashlytics
+		FirebaseApp
+		9.3.0	->	10.0.1
+		
+	ADSDK	包装AppsFlyer, Facebook, Firebase	
+	PeapodSDK			
+		0.5.0.142	->	0.7.0.154
+	
+		

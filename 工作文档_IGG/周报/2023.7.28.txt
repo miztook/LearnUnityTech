@@ -1,0 +1,10 @@
+1. android sdk 33的apk检查
+	Android13的权限动态申请 POST_NOTIFICATIONS
+
+2. GVG光照图在pc android打包下的正常显示
+	position在打包下浮点数会有精度误差，导致光照图信息无法正常设置
+	改为重名检查，按照renderer的名字 + parent名字来标识renderer的光照图信息
+
+3. bgchatu的压缩改为ASTC block 6X6
+
+	

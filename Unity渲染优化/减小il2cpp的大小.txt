@@ -1,0 +1,3 @@
+https://forum.unity.com/threads/suggestion-for-reducing-the-size-of-il2cpp-generated-executable.338986/
+
+减少dll里的不用的属性

@@ -1,0 +1,11 @@
+1. 项目结构
+	涉及其他玩家的逻辑，挪到客户端层 Troop, Alliance, WorldSkill，大世界逻辑
+	
+2. 客户端建立 StaticData 保存静态数据，Hotfix模块使用 StaticData
+
+3. 美术规范检查，打包的 UITextureStatic_3_0 拆分，避免assetbundle过大
+
+4.	待做：
+		Assets\Scripts\Hotfix\MVC\Troop 逻辑尽量挪到 Client\下，涉及大量计算和遍历
+	优化：
+		部队的Formation计算

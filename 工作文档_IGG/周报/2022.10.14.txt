@@ -1,0 +1,10 @@
+1. 美术规格检查 
+	Shader的依赖
+	消耗过大的Shader依赖
+		用到DepthTexture的
+		用到GrabPass的
+		后处理
+
+2. 热更新模块
+	结构调整完成，先用Native测试，待实现Hotfix.dll加载实现ILRuntime模式
+	

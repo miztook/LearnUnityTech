@@ -1,0 +1,35 @@
+1. Houdini场景水的导入方案
+
+2. 强更规则，版本号规则，curl下载模块的补充
+
+3. firebase和ppdsdk的接入，调试
+	1) Googleplay库的自动resolve设置，影响打包，需要关闭 PatchMainTemplateGradle, PatchPropertiesTemplateGradle等，避免打包结果不是自己的本意
+		build报错 More than one file was found with OS independent path 'lib/x86/libFirebaseCppAnalytics.so
+		https://github.com/firebase/quickstart-unity/issues/383
+	2) firebase初始化异常问题
+		运行报错:InvalidOperationException: Don't call Firebase functions before CheckDependencies has finished
+		https://github.com/firebase/quickstart-unity/issues/210
+	3) PPDsdk和firebase的冲突问题，在ppdsdk 0.3.1修复
+		运行报错: java.lang.RumtimeException: Unable to instantiate application "XXX": java.lang.ClassNotFoundException: Didn't find class "XXX"
+	
+4. 测试前bug集中处理 断线重连数据检查
+
+5. 游戏中bug待解决	Unity BUG解决——Invalid AABB inAABB		https://blog.csdn.net/Htlas/article/details/79077009
+
+6.  目前安卓设备的压力在GPU， PostLateUpdate.FinishFrameRendering出现了特别耗时的 Gfx.WaitForPresentOnGfxThread
+	游戏的Resolution
+	游戏内摄像机的CullingMask
+	处理 UIEvents.CanvasManagerRenderOverlays， IMGUIRenderOverlays (游戏中出现了OnGUI)
+	处理 Camera的Render压力
+
+后期待做:
+	1. 场景打到assetbundle中
+	2. 所有Proxy的数据在 OnRemove 时清理 (解决内城的断线重连各种问题)
+	3. 增加Dump MVC和Manager 的数据计数，保证前后一致，用作以后的比对
+	4. 增加一个拖慢加载速度的模拟，模拟手机上的情况
+	5. (优化) 处理美术贴图格式，非4的倍数的批量处理png文件，然后批量修改格式
+	6. (优化) 剔除一些不需要的资源，增加打包黑名单
+	7. (优化) 美术效果优化 GPU压力的部分, 确定优化规则
+	8. (优化) DontDestroyOnLoad的问题，判断是否有重复调用, 会导致加载越来越慢
+	9. 检查MonoSingleton，不能是场景中已经有的组件，否则有可能有两份资源
+	

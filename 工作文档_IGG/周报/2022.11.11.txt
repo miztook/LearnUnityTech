@@ -1,0 +1,16 @@
+1. 修改Hotfix.dll的生成方法，通过BuildPlayer生成，指定特定的宏
+	Hotfix要分平台 	PC, IOS, Android
+	
+	在Hotfix工程内将平台相关的宏改为代码判断 Application.platform
+	
+2. 通过自动分析热更DLL生成CLR绑定 
+	要等第一步的Hotfix.dll生成之后再分析, 避免不同的宏影响结果
+	
+3. 待做
+	Data考虑放到热更新中，不然会生成新的 List Binding，Comparison 等
+	考虑编写Hotfix层的 DataService，执行命令自动拷贝 Config.cs， 替换命名空间
+	测试pc和android下的热更包执行
+	优化
+		是否有foreach的gc，优化Update中的执行
+	
+	线上包，每5分钟记一次内存和GameObject输出，挂一晚上排查异常情况

@@ -1,0 +1,7 @@
+1. 河流的加入，mesh asset的生成，将asset标记为只读
+
+2. ObjectPool的引入，预加载完的 instance 实例池，将异步操作变为同步
+
+3. GlobalViewMediator中的 event listener清理 GlobalView中使用用SelfAddEventListener
+
+4. 断线重连时的闪退问题分析 chatsdk.dll

@@ -1,0 +1,22 @@
+远程控制Unity机器
+取代码资源
+构建App和资源
+从Ftp获取对应版本资源
+比较差异产生更新包
+上传到Ftp存储结果
+数据库存储打包版本记录
+
+--python
+filehelper.py							84						文件的拷贝，删除
+ftphelper.py							216						FTP的连接，登录，下载，上传文件
+svnhelper.py							126						svn操作
+tera_autobuild.sh						292
+tera_autobuild_art.py					113
+tera_autobuild_client.py				378
+tera_autobuild_main.py					309
+tera_autobuild_patch.py					265
+tera_config.py							74						全局参数配置
+tera_globals.py							8						全局函数
+tera_param.py							749						设置参数
+tera_post_log.py						25						上传log到http
+tera_utility.py							294						svn,ftp,ssh,http,zip

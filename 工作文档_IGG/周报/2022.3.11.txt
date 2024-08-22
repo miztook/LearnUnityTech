@@ -1,0 +1,15 @@
+1. 增加hoba, launcher库			(已完成)
+
+2. 增加xml读取，版本号读取		(已完成)
+
+3. houdini场景树，水的导入
+
+4. 大地图场景省份信息显示和生成
+
+5. android的分辨率设置			(已完成，效率问题解决)
+
+6. AnimationBase中关于 serialized sprite的处理 (考虑用Sprite.Create 按sprite名字做字典)
+
+7. Proxy的清理 (断线重连) (内城timeline出现严重错误)
+
+8. 长宽不是4的倍数的贴图处理

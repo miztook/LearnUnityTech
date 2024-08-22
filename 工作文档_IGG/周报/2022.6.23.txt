@@ -1,0 +1,28 @@
+1. 登录流程调整，先初始化sdk，在进行热更新，统一一个进度条
+	1) GlobalGame 初始化界面			10
+	2) HotFixBefore 初始化sdk，并判断是否需要热更		20
+	3) HotFix 热更新过程								更新完50 场景加载完60
+	4）Prepare 准备进入游戏								100
+
+2. 热更新，增量打AssetBundle
+	每个资源的md5和基础资源的md5相对比，有变化的增量打到Update目录下 (增量资源生成)
+	简化版本管理
+	更新部署，更新时提供校验功能 (整包部署，下载时下载包文件的其中一段)
+
+3. 断线重连符合SOP要求 (容错性)
+
+4. 新的场景
+	路			切割mesh 上下左右
+	湖泊		切割mesh 上下左右
+	树 
+				近景树  lod = 1, 2
+				远景树 	合并mesh
+	
+	检查mesh vertex attributes
+	
+5. 处理打AssetBundle后的问题 
+	Shader效果不对				AssetBundle处理shader_feature的变体问题，材质用到的变体必须添加到shadervariants文件中
+	Timeline播放不结束 			.signal的一个引用问题
+	
+6. 优化
+	新号从头开始，监测内存和效率问题 (待做)

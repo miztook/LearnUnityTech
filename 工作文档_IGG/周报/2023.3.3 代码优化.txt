@@ -1,0 +1,9 @@
+大地图优化 
+
+	WorldMgrMediator		近景物体刷新，领地线 (在收到协议后要逐帧刷新)
+	
+	GlobalViewLevelMediator		远景图标UI等刷新 (在收到协议后要逐帧刷新)
+	
+	WorldMapObjectProxy		在收到协议时更新 MapObejctinfoEntity 的管理
+		引用了WorldMgrMediator中的FadeOut, MoveCity等，可以把Fade功能独立管理，避免引用WorldMgrMediator
+	

@@ -1,0 +1,22 @@
+1. GVG, 吃鸡地图处理
+	关闭shadow选项
+	整合meshRenderer，减少meshRenderer的数量
+	关闭MeshCollider
+	关闭castShadows选项
+
+2. 场景的贴图大小处理
+	Hero
+	GVG
+	PVP
+	BR
+	BeautyRoom02
+	Jinku
+	Gril
+	PVE
+	
+3. Unity2020的编译
+	
+	坑: 注意脚本修改Android打包
+		AndroidManifestUpdater 修改gradle.properties
+	坑: Lib冲突
+		注意lib的import settings，不参与进包的只做compileOnly的库，不设置import的平台

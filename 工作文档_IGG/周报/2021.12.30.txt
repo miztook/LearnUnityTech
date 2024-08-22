@@ -1,0 +1,22 @@
+1. rss_root 
+	物品的闪屏问题
+	物品的不能及时刷新问题 
+	
+2. lod3_root
+	
+3. 安卓打包时，AssetBundle资源占500多M，apk大小800M，所有场景(.unity)的资源没有打包进AssetBundle，而是在EditorSetting里打包到apk中
+	场景资源应该打包到AssetBundle中
+
+4. AssetBundle打包规则和读取修改
+
+5. 主界面在播放Animator时，如果主界面gameobject为inactive，则Animator在下一次播放时也无法恢复初始状态
+	解决方案 主界面的隐藏和显示用 localScale = Vector3.zero/Vector3.one
+	
+6. 增加Dump工具 列出游戏中
+	所有的UI View
+	所有的GlobalMediator
+	所有的Proxy
+	所有的管理器 (单例)
+	
+7. 能监听Shader编译事件，方便收集Collection (待做)
+	

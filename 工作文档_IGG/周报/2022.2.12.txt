@@ -1,0 +1,17 @@
+1. 解决Unity频繁报错 Material doesn't have a texture property '_MainTex'
+	ArtRes\Effect 下shader必须有 _MainTex 这个变量，否则unity就会报错
+	
+2. houdini场景的mevmesh现有规则和生成
+
+3. 引起卡顿的几个点 
+	WorldCamera 开启了深度贴图 _CameraDepthTexture 影响Layer: Default, TransparentX, Ignore Raycast, Water, NoLight
+	特效shader对于 GrabTexture 的使用
+	粒子系统的粒子数分析
+	
+4. MonoBehaviourCallbackHooks
+
+5. AnimationArchery在Update中的加载问题
+
+6. UpdateLod 		ActiveSelf, SetActive减少调用
+
+7. AnimationBase在更新动画时导致的 Loading.ReadObject 消耗，Sprite在组件中序列化，会导致有多个实例

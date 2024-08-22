@@ -1,0 +1,24 @@
+https://www.jianshu.com/p/21fe50279abe
+
+查看端口占用
+netstat -ano|findstr "7555"
+
+cd /d C:\Program Files\MuMu\emulator\nemu\vmonitor\bin
+cd /d D:\Program Files (x86)\MuMu\emulator\nemu\vmonitor\bin
+adb_server kill-server
+adb_server connect 127.0.0.1:7555
+
+unity连上真机
+adb_server forward --remove-all
+adb_server forward tcp:55510 localabstract:Unity-com.ipreto.android.empireofcrime
+
+UnityProfiler输入IP 127.0.0.1
+
+打开firebase debugview
+adb_server shell setprop debug.firebase.analytics.app com.ipreto.android.empireofcrime
+
+#!/bin/sh
+
+adb connect localhost:22471
+adb kill-server
+adb start-serveradb shell setprop debug.firebase.analytics.app   com.ipreto.android.empireofcrime

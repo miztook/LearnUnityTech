@@ -1,0 +1,32 @@
+1. ListNotificationInterests 冗余的notification去除, Input
+
+2. PVS Studio 代码检查
+
+3. 擦玻璃场景 Shader 简化, Shader Warmup 关键字检查，简化
+
+4. ResetSceneCmd中，检查GlobalMediator的 Update 操作
+	
+	GameEventGlobalMediator
+		Update	检查断线重连，更新白天黑夜
+	CityCollectionMediator
+		Update   采集客户端判断到期
+	GlobalViewLevelMediator
+		LateUpdate		刷新ViewObject和Hud
+	CityGlobalMediator
+		Update 		每秒刷新大门状态，处理路灯逐渐亮起
+	PVPGlobalMediator
+		LateUpdate 
+			更新AutoMoveMgr
+			更新ArmyDir
+	TroopManualMediator
+		Update 	Troop特效相关
+	GlobalFilmMediator
+		Update	更新Film
+	WorldMgrMediator
+		LateUpdate 每帧更新10个MapObject
+	TroopHUDMediator
+		Update 	每1.5秒刷新战斗中的troop HUD
+	FuncGuideGlobalMediator
+		Update  游戏引导
+	NoviceGuideGlobalMediator
+		Update 	新手引导

@@ -1,0 +1,34 @@
+8.2 聚光灯
+	SPOT宏
+	_ShadowMapTexture
+	_ShadowOffset[4]			//软阴影，偏移算平均值
+
+	UNITY_DECLARE_SHADOWMAP			//声明shadowmap寄存器
+	UNITY_SAMPLE_SHADOW				//采样
+	UnitySampleShadowMap	函数
+		SHADOWS_NATIVE			阴影坐标除以w，转化到NDC坐标上操作
+		SHADER_API_MOBILE		使用tex2d 	加_ShadowOffsets软阴影
+		SHADER_API_D3D9			使用tex2Dproj	加_ShadowOffsets软阴影
+		其他平台	UnityGetReceiverPlaneDepthBias	UnitySampleShadowMap_PCF3X3
+		
+8.3 点光源
+	点光源阴影存储在一个cubemap中，存储的深度值是离光源最远且能照射到的那个位置的深度值 	
+	SHADOWS_CUBE宏
+	SampleCubeDistance
+	软阴影混合
+
+8.4 预烘培的阴影
+	UnitySampleBakedOcclusion		//从阴影模板或光照图或光照探针中取得occlusion信息，记录了4个光源的遮挡信息
+	UnityMixRealtimeAndBakedShadows		混合实时阴影和烘培阴影，按平常方法衰减实时阴影，取其和烘培阴影的最小值 
+
+8.5 阴影的淡化处理
+	UnityComputeShadowFadeDistance		根据距离淡化阴影
+
+8.6 计算深度阴影的偏移值
+	基于斜度比例的深度偏差值
+
+8.7 PCF阴影过滤的相关函数
+	抗锯齿		和颜色信息不同，不能对深度值直接取均值
+	百分比切近滤波，在阴影周围按是否在阴影中的0，1取均值，淡化阴影
+	
+

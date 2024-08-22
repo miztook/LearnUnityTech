@@ -1,0 +1,8 @@
+
+Unity版本：5.3.6f1
+UGUI版本：5.3.6 – final
+
+制作UI prefab需要在UI的场景下进行 Scenes/UI/MainUI.scene
+此场景的配置和前端工程一样
+
+--TODO lizhixiong

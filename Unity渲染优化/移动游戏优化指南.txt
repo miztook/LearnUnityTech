@@ -1,0 +1,109 @@
+https://learn.u3d.cn/tutorial/mobile-game-optimization#611643a4f044db0020dc2b0b
+
+2.性能分析
+	Gfx.WaitForCommands				等待主线程
+	Gfx.WaitForPresent				等待GPU渲染
+
+3.内存
+
+5.编程和代码架构	PlayerLoop
+
+	Awake
+	OnEnable		
+	Reset			//编辑器
+	Start			//只调用一次
+
+	//物理
+	FixesUpdate			
+	Internal animation update			//状态机 events
+	Internal Physics update
+	Internal animation update			//OnAnimatorIK	WriteTransform
+	OnTriggerXXX
+	OnCollisionXXX
+	yield WaitForFixedUpdate
+				
+	OnMouseXXX						输入events	
+		
+	//逻辑
+	Update
+	yield null, WaitForSeconds, WWW, StartCorouine
+	Internal animation update 		//状态机 events
+	LateUpdate
+	
+	//场景渲染
+	OnWillRenderObject
+	OnPreCull
+	OnBecameVisible
+	OnBecameInvisible
+	OnPreRender
+	OnRenderObject
+	OnPostRender
+	OnRenderImage
+	
+	//
+	OnDrawGizmos
+	
+	OnGUI				//每帧多次调用
+	
+	缓存游戏对象和组件
+	使用ScriptableObject		//序列化，不用MonoBehavior存储值和变量
+	
+6.项目配置
+
+	避免使用过多层级		//刷新Transform开销
+	Transform.SetPositionAndRotation 避免修改两次Transform
+	
+7.资源
+	纹理 mesh
+	导入设置
+	
+8.图形和GPU优化
+	动态批处理	静态批处理	GPU实例化
+	SRP批处理
+	禁用阴影
+	将光照烘培到光照贴图中
+	使用光源层			//光照影响layer
+	对移动对象使用光照探针				//球谐函数
+	LOD Group
+	使用遮挡剔除来移除隐藏的对象
+	避免使用移动端原生分辨率
+	限制摄像机的使用			//摄像机会产生开销
+	保持着色器简单
+	尽可能减少过度绘制和Alpha混合		//RenderDoc调试器可以检查过度绘制
+	限制后期处理效果
+	小心使用 Rendeerer.material
+	优化 SkinnedMeshRenderer
+	尽可能减少反射探针				//反射探针在批处理中开销巨大
+	
+9.用户界面
+	划分画布			动静分离
+	隐藏不可见的UI元素
+	限制GraphicRaycaster和禁用Raycast Target		//输入事件需要GraphicRaycaster组件, 禁用UI文本和图像上的Raycast Target
+	避免使用布局组				//如果确实需要使用，避免嵌套
+	避免使用大型列表和网格视图				//UI元素池
+	避免使用大量重叠元素
+	
+11.动画
+	移动端尽可能使用Animation
+	Animator考虑用DOTween代替
+	
+12.物理
+	在PlayerSettings中，尽可能选中 Prebake Collision Meshes
+	禁用Auto Sync Transforms 启用Reuse Collision Callbacks
+	简化碰撞体
+	使用物理方法 MovePosition AddForce 来移动Rigidbody对象 不要直接转换Transform，在FixUpdate而不是Update中移动物理体
+	修改固定时间间隔				//Maximum Allowed Timestep
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	

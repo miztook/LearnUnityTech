@@ -1,0 +1,8 @@
+1. 参考OC，划分热更模块，增加Adapter
+
+2. shader优化
+	Hair, Jiemao 在美女，英雄，pve, timeline中的使用，是否有误用，提高效率
+	
+	找出写深度贴图的shader，引用关系
+	
+3. 

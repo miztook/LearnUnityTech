@@ -1,0 +1,379 @@
+09/04/2022 14:22:48: [systeminfo] 
+locale: eoc-pps
+platform: Windows
+64bit: True
+deviceModel: X756UX (ASUSTeK COMPUTER INC.)
+deviceName: DESKTOP-G2RK1HJ
+deviceType: Desktop
+deviceUniqueIdentifier: 4718c877d2657bfca257c4d85e26626f452e644a
+operatingSystem: Windows 10  (10.0.0) 64bit
+processorCount: 4
+processorType: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+graphicsDeviceName: NVIDIA GeForce GTX 950M
+systemMemorySize: 16280
+graphicsMemorySize: 4065
+activeTier: Tier3
+
+[applicationInfo] 
+productName: Empire of Crime
+bundleIdentifier: com.ipreto.android.empireofcrime
+appVersion: 0.0.1
+
+09/04/2022 14:22:48: [warning] InitFirebaseCrashlytics...
+09/04/2022 14:22:48: [warning] IGPlatform::SetLanguage:ChineseSimplified
+09/04/2022 14:22:49: [warning] InitSDK...
+09/04/2022 14:22:49: [warning] SDK: IGPlatformWindows, PlatformType: PLATFORM_ANY, debugMode: False
+09/04/2022 14:22:49: [warning] InitSDK:: Succees
+09/04/2022 14:22:49: [warning] IGPlatformWindows C# RegisterCallback!
+09/04/2022 14:22:49: [warning] SendEvent:[App_Start], device=X756UX (ASUSTeK COMPUTER INC.)
+09/04/2022 14:22:49: [warning] SendEvent:[App_Start], deviceID=4718c877d2657bfca257c4d85e26626f452e644a
+09/04/2022 14:22:49: [warning] SendEvent:[App_Start], memory=16280
+09/04/2022 14:22:49: [warning] InitGameCoroutine UpdateRoutine Start...
+09/04/2022 14:22:49: [warning] InitGameCoroutine UpdateRoutine End...
+09/04/2022 14:22:49: [warning] [RunTimeAppDataPath]: D:/IGG/eoc_client_pps/Assets
+09/04/2022 14:22:49: [warning] [AssetBundlePath]: res_base/assetbundles/Windows/
+09/04/2022 14:22:49: [warning] ABAssetService Init!
+09/04/2022 14:22:49: [warning] [CAssetBundleManager] BaseAssetBundleURL: res_base/assetbundles/Windows/
+09/04/2022 14:22:49: [warning] [CAssetBundleManager] UpdateAssetBundleURL: D:/IGG/eoc_client_pps/UpdateRes/assetbundles/
+09/04/2022 14:22:49: [warning] [CAssetBundleManager] AssetPath2BundleMap Count: 5566
+09/04/2022 14:22:49: [warning] [CAssetBundleManager] AB Manifest Count: 24, UseUpdate: False
+09/04/2022 14:22:49: [warning] ABAssetService Init Success!
+09/04/2022 14:22:49: [warning] ShaderManager Initialize: Shader/ShaderList.prefab
+09/04/2022 14:22:50: [warning] ShaderManager WarmUp... Shader Count: 111
+09/04/2022 14:22:50: [warning] ShaderManager Initialize Complete! ShaderMap Count: 125
+09/04/2022 14:22:50: [warning] WwiseUnity: basePath: D:\IGG\eoc_client_pps\res_base\Audio\GeneratedSoundBanks\Windows\
+09/04/2022 14:22:50: [warning] WwiseUnity: updatePath: D:\IGG\eoc_client_pps\UpdateRes\Audio\GeneratedSoundBanks\Windows\
+09/04/2022 14:22:50: [warning] WwiseUnity: AddBasePath Failed! D:\IGG\eoc_client_pps\UpdateRes\Audio\GeneratedSoundBanks\Windows\, AK_PathNotFound
+09/04/2022 14:22:50: [warning] HotFixState PreloadAsync Start!
+09/04/2022 14:22:51: [warning] HotFixState OnPreloadFinish!
+09/04/2022 14:22:52: [warning] Screen W/H: 1204, 677, TargetFrameRate: 60
+09/04/2022 14:22:52: [warning] Screen.currentResolution: 1920, 1080
+09/04/2022 14:22:52: [warning] ReloadGame OnOpenLoading: AutoLogin
+09/04/2022 14:22:59: [warning] LoadingMediator::StartConnectServer...
+09/04/2022 14:22:59: [warning] [NetGameSession] Connect! User: ID957071:, Socket: 34.214.1.149:20000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: 0
+09/04/2022 14:22:59: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 20000
+09/04/2022 14:22:59: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1224
+09/04/2022 14:22:59: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: EAuth1
+09/04/2022 14:22:59: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: EAuth1, ErrorString: 0
+2022/9/4 14:23:00: [warning] [TCPSession] OnReceive, OnDisconnect! 0, Success
+09/04/2022 14:23:00: [warning] [NetSession] ParseAuthResult Rid: 6969894535463959552
+09/04/2022 14:23:00: [warning] [NetSession] RedirectGameServer 重定向连接服务器ID: 34.214.1.149:21000
+09/04/2022 14:23:00: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 21000
+09/04/2022 14:23:00: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1228
+09/04/2022 14:23:00: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: ERedirectionGameServer
+09/04/2022 14:23:00: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: ERedirectionGameServer, ErrorString: 0
+09/04/2022 14:23:01: [warning] 处理AuthEvent： EGameServerOK
+09/04/2022 14:23:01: [warning] Start ResetScene: 22.46941
+09/04/2022 14:23:04: [warning] 登陆角色, rid: 6969894535463959552, platform: 0, ip: 117.28.231.17
+09/04/2022 14:23:05: [warning] [EmailProxy] OnLoginToGame! 服务器邮件版本号：201083618439729152  客户端邮件版本号：201083618439729152
+09/04/2022 14:23:05: [warning] 我的城市id: 102102216
+09/04/2022 14:23:05: [warning] 更新联盟建筑
+09/04/2022 14:23:06: [warning] 更新联盟建筑
+09/04/2022 14:23:06: [warning] RoleLogin 登录成功!
+09/04/2022 14:23:06: [warning] SignAgreements Succees! 执行业务逻辑
+09/04/2022 14:23:06: [warning] 迷雾切换到主城 0.85
+09/04/2022 14:23:06: [warning] [NetChatSession] Connect! User: ID957071:, Socket: 34.214.1.149:12000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: chat-server
+09/04/2022 14:23:06: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 12000
+09/04/2022 14:23:06: [warning] 迷雾数据完成
+09/04/2022 14:23:06: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1234
+09/04/2022 14:23:06: [warning] [NetChatSession] OnNetEvent: ConnectComplete, AuthState: EChatAuth
+09/04/2022 14:23:07: [warning] 地表加载完毕! BundleAssets/land/MapData/houdini_map01_tile_data.bytes
+09/04/2022 14:23:07: [warning] [NetSession] EChatAuth 授权服务器结果: 200 ok 
+09/04/2022 14:23:07: [warning] 处理ChatAuthEvent： EGameServerOK
+09/04/2022 14:23:10: [warning] 迷雾主城创建完毕，开始拉镜头
+09/04/2022 14:23:10: [warning] 关闭Loading，显示内城!
+09/04/2022 14:23:28: [warning] Game object with animator is inactive
+09/04/2022 14:23:28: [warning] Game object with animator is inactive
+09/04/2022 14:23:28: [warning] Game object with animator is inactive
+09/04/2022 14:23:28: [warning] Game object with animator is inactive
+09/04/2022 14:23:29: [warning] Game object with animator is inactive
+09/04/2022 14:23:29: [warning] Game object with animator is inactive
+09/04/2022 14:23:29: [warning] Game object with animator is inactive
+09/04/2022 14:23:29: [warning] Game object with animator is inactive
+09/04/2022 14:24:40: [warning] 我的城市id: 102102216
+09/04/2022 14:24:42: [warning] 开始采集这个资源点了
+09/04/2022 14:24:56: [warning] 开始采集这个资源点了
+09/04/2022 14:24:59: [warning] 开始采集这个资源点了
+09/04/2022 14:25:01: [warning] 开始采集这个资源点了
+09/04/2022 14:25:08: [warning] 开始采集这个资源点了
+09/04/2022 14:25:10: [warning] 我的城市id: 102102216
+09/04/2022 14:25:11: [warning] 开始采集这个资源点了
+09/04/2022 14:25:25: [warning] 开始采集这个资源点了
+09/04/2022 14:25:28: [warning] 开始采集这个资源点了
+09/04/2022 14:25:29: [warning] 开始采集这个资源点了
+09/04/2022 14:25:35: [warning] 开始采集这个资源点了
+09/04/2022 14:25:38: [warning] 开始采集这个资源点了
+09/04/2022 14:25:40: [warning] 开始采集这个资源点了
+09/04/2022 14:25:42: [warning] 开始采集这个资源点了
+09/04/2022 14:25:43: [warning] 开始采集这个资源点了
+09/04/2022 14:25:44: [warning] 开始采集这个资源点了
+09/04/2022 14:25:45: [warning] 开始采集这个资源点了
+09/04/2022 14:25:47: [warning] 开始采集这个资源点了
+09/04/2022 14:25:50: [warning] 开始采集这个资源点了
+09/04/2022 14:25:53: [warning] 开始采集这个资源点了
+09/04/2022 14:25:55: [warning] 开始采集这个资源点了
+09/04/2022 14:25:56: [warning] 野蛮人，移动路径有问题，通知服务器检查 102825980
+09/04/2022 14:25:56: [warning] 开始采集这个资源点了
+09/04/2022 14:26:00: [warning] 开始采集这个资源点了
+09/04/2022 14:26:01: [warning] 开始采集这个资源点了
+09/04/2022 14:26:03: [warning] 开始采集这个资源点了
+09/04/2022 14:26:05: [warning] 开始采集这个资源点了
+09/04/2022 14:26:06: [warning] 开始采集这个资源点了
+09/04/2022 14:26:06: [warning] 开始采集这个资源点了
+09/04/2022 14:26:06: [warning] 开始采集这个资源点了
+09/04/2022 14:26:07: [warning] 开始采集这个资源点了
+09/04/2022 14:26:07: [warning] 开始采集这个资源点了
+09/04/2022 14:26:07: [warning] 开始采集这个资源点了
+09/04/2022 14:26:07: [warning] 开始采集这个资源点了
+09/04/2022 14:26:15: [warning] 开始采集这个资源点了
+09/04/2022 14:26:15: [warning] 开始采集这个资源点了
+09/04/2022 14:26:19: [warning] 开始采集这个资源点了
+09/04/2022 14:26:19: [warning] 开始采集这个资源点了
+09/04/2022 14:26:20: [warning] 开始采集这个资源点了
+09/04/2022 14:26:20: [warning] 开始采集这个资源点了
+09/04/2022 14:26:21: [warning] 开始采集这个资源点了
+09/04/2022 14:26:21: [warning] 野蛮人，移动路径有问题，通知服务器检查 102826038
+09/04/2022 14:26:21: [warning] 开始采集这个资源点了
+09/04/2022 14:27:29: [warning] 玩家斥候，移动路径有问题，通知服务器检查102910254
+09/04/2022 14:27:29: [warning] 玩家斥候，移动路径有问题，通知服务器检查102910254
+09/04/2022 14:27:29: [warning] map已经存在当前id的部队了，服务器还通知创建102910254
+09/04/2022 14:27:57: [warning] 我的城市id: 102102216
+09/04/2022 14:27:57: [warning] 开始采集这个资源点了
+09/04/2022 14:27:57: [warning] 开始采集这个资源点了
+09/04/2022 14:28:11: [warning] 开始采集这个资源点了
+09/04/2022 14:28:13: [warning] 开始采集这个资源点了
+09/04/2022 14:28:14: [warning] 开始采集这个资源点了
+09/04/2022 14:28:15: [warning] 开始采集这个资源点了
+09/04/2022 14:28:16: [warning] 开始采集这个资源点了
+09/04/2022 14:28:19: [warning] 开始采集这个资源点了
+09/04/2022 14:28:24: [warning] 我的城市id: 102102216
+09/04/2022 14:28:24: [warning] map已经存在当前id的部队了，服务器还通知创建102842011
+09/04/2022 14:28:25: [warning] 开始采集这个资源点了
+09/04/2022 14:28:26: [warning] 野蛮人，移动路径有问题，通知服务器检查 102909669
+09/04/2022 14:28:36: [warning] 开始采集这个资源点了
+09/04/2022 14:28:44: [warning] [NetSession] 回包错误码: 732028, Tag: 1351, ErrorInfo: 
+09/04/2022 14:28:57: [warning] 我的城市id: 102102216
+09/04/2022 14:28:57: [warning] 开始采集这个资源点了
+09/04/2022 14:29:00: [warning] 开始采集这个资源点了
+09/04/2022 14:29:02: [warning] 开始采集这个资源点了
+09/04/2022 14:29:09: [warning] 我的城市id: 102102216
+09/04/2022 14:29:09: [warning] 开始采集这个资源点了
+09/04/2022 14:29:10: [warning] 开始采集这个资源点了
+09/04/2022 14:29:12: [warning] 开始采集这个资源点了
+09/04/2022 14:29:14: [warning] 开始采集这个资源点了
+09/04/2022 14:29:16: [warning] 开始采集这个资源点了
+09/04/2022 14:29:17: [warning] 开始采集这个资源点了
+09/04/2022 14:29:17: [warning] 开始采集这个资源点了
+09/04/2022 14:29:19: [warning] 开始采集这个资源点了
+09/04/2022 14:29:23: [warning] 开始采集这个资源点了
+09/04/2022 14:29:41: [warning] 我的城市id: 102102216
+09/04/2022 14:29:41: [warning] 开始采集这个资源点了
+09/04/2022 14:29:44: [warning] 开始采集这个资源点了
+09/04/2022 14:29:47: [warning] 开始采集这个资源点了
+09/04/2022 14:29:48: [warning] 开始采集这个资源点了
+09/04/2022 14:29:49: [warning] 开始采集这个资源点了
+09/04/2022 14:29:50: [warning] 开始采集这个资源点了
+09/04/2022 14:29:51: [warning] 开始采集这个资源点了
+09/04/2022 14:29:53: [warning] 开始采集这个资源点了
+09/04/2022 14:29:59: [warning] 开始采集这个资源点了
+09/04/2022 14:30:02: [warning] 开始采集这个资源点了
+09/04/2022 14:30:05: [warning] Game object with animator is inactive
+09/04/2022 14:30:05: [warning] Game object with animator is inactive
+09/04/2022 14:30:05: [warning] Game object with animator is inactive
+09/04/2022 14:30:37: [warning] 开始采集这个资源点了
+09/04/2022 14:30:53: [warning] 开始采集这个资源点了
+09/04/2022 14:30:55: [warning] 开始采集这个资源点了
+09/04/2022 14:30:57: [warning] 开始采集这个资源点了
+09/04/2022 14:31:04: [warning] Game object with animator is inactive
+09/04/2022 14:31:04: [warning] Game object with animator is inactive
+09/04/2022 14:31:04: [warning] Game object with animator is inactive
+09/04/2022 14:31:04: [warning] Game object with animator is inactive
+09/04/2022 14:31:19: [warning] Game object with animator is inactive
+09/04/2022 14:31:19: [warning] Game object with animator is inactive
+09/04/2022 14:31:22: [warning] 开始采集这个资源点了
+09/04/2022 14:31:25: [warning] 开始采集这个资源点了
+09/04/2022 14:31:37: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:31:46: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:31:46: [warning] 开始采集这个资源点了
+09/04/2022 14:31:49: [warning] 玩家部队，移动路径有问题，通知服务器检查102903236
+09/04/2022 14:32:04: [warning] 开始采集这个资源点了
+09/04/2022 14:32:05: [warning] 开始采集这个资源点了
+09/04/2022 14:32:07: [warning] 开始采集这个资源点了
+09/04/2022 14:32:08: [warning] 开始采集这个资源点了
+09/04/2022 14:32:11: [warning] 开始采集这个资源点了
+09/04/2022 14:32:13: [warning] 开始采集这个资源点了
+09/04/2022 14:32:13: [warning] 开始采集这个资源点了
+09/04/2022 14:32:16: [warning] 野蛮人，移动路径有问题，通知服务器检查 102826004
+09/04/2022 14:32:17: [warning] 开始采集这个资源点了
+09/04/2022 14:32:18: [warning] 开始采集这个资源点了
+09/04/2022 14:33:23: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:33:36: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:33:36: [warning] 开始采集这个资源点了
+09/04/2022 14:33:40: [warning] 开始采集这个资源点了
+09/04/2022 14:33:43: [warning] 开始采集这个资源点了
+09/04/2022 14:33:47: [warning] 开始采集这个资源点了
+09/04/2022 14:33:51: [warning] 开始采集这个资源点了
+09/04/2022 14:33:54: [warning] 开始采集这个资源点了
+09/04/2022 14:33:57: [warning] 开始采集这个资源点了
+09/04/2022 14:34:07: [warning] 玩家部队，移动路径有问题，通知服务器检查102866406
+09/04/2022 14:34:28: [warning] 我的城市id: 102102216
+09/04/2022 14:34:28: [warning] 开始采集这个资源点了
+09/04/2022 14:34:29: [warning] 开始采集这个资源点了
+09/04/2022 14:34:42: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:34:42: [warning] 开始采集这个资源点了
+09/04/2022 14:34:51: [warning] 开始采集这个资源点了
+09/04/2022 14:34:53: [warning] 开始采集这个资源点了
+09/04/2022 14:34:55: [warning] 开始采集这个资源点了
+09/04/2022 14:34:57: [warning] 开始采集这个资源点了
+09/04/2022 14:35:01: [warning] 开始采集这个资源点了
+09/04/2022 14:35:02: [warning] 开始采集这个资源点了
+09/04/2022 14:35:03: [warning] 开始采集这个资源点了
+09/04/2022 14:35:04: [warning] 开始采集这个资源点了
+09/04/2022 14:35:05: [warning] 开始采集这个资源点了
+09/04/2022 14:35:06: [warning] 开始采集这个资源点了
+09/04/2022 14:35:07: [warning] 开始采集这个资源点了
+09/04/2022 14:35:07: [warning] 开始采集这个资源点了
+09/04/2022 14:35:10: [warning] 服务器发错数值：客户端兼容处理:102910368
+09/04/2022 14:35:11: [warning] 开始采集这个资源点了
+09/04/2022 14:35:12: [warning] 服务器发错数值：客户端兼容处理:102910368
+09/04/2022 14:35:13: [warning] 开始采集这个资源点了
+09/04/2022 14:35:14: [warning] 开始采集这个资源点了
+09/04/2022 14:35:14: [warning] 玩家部队，移动路径有问题，通知服务器检查102686481
+09/04/2022 14:35:16: [warning] 开始采集这个资源点了
+09/04/2022 14:35:17: [warning] 开始采集这个资源点了
+09/04/2022 14:35:19: [warning] 开始采集这个资源点了
+09/04/2022 14:35:23: [warning] 开始采集这个资源点了
+09/04/2022 14:35:24: [warning] 开始采集这个资源点了
+09/04/2022 14:35:25: [warning] 开始采集这个资源点了
+09/04/2022 14:35:26: [warning] 开始采集这个资源点了
+09/04/2022 14:35:27: [warning] 开始采集这个资源点了
+09/04/2022 14:35:31: [warning] 野蛮人，移动路径有问题，通知服务器检查 102839746
+09/04/2022 14:35:33: [warning] 开始采集这个资源点了
+09/04/2022 14:35:36: [warning] 开始采集这个资源点了
+09/04/2022 14:35:42: [warning] 开始采集这个资源点了
+09/04/2022 14:35:42: [warning] 开始采集这个资源点了
+09/04/2022 14:35:42: [warning] 开始采集这个资源点了
+09/04/2022 14:35:43: [warning] 开始采集这个资源点了
+09/04/2022 14:35:44: [warning] 开始采集这个资源点了
+09/04/2022 14:36:10: [warning] 开始采集这个资源点了
+09/04/2022 14:36:12: [warning] 开始采集这个资源点了
+09/04/2022 14:36:18: [warning] [NetSession] 回包错误码: 732028, Tag: 201, ErrorInfo: 
+09/04/2022 14:36:23: [warning] 开始采集这个资源点了
+09/04/2022 14:36:26: [warning] 开始采集这个资源点了
+09/04/2022 14:36:27: [warning] 开始采集这个资源点了
+09/04/2022 14:36:27: [warning] 开始采集这个资源点了
+09/04/2022 14:36:27: [warning] 开始采集这个资源点了
+09/04/2022 14:36:28: [warning] 开始采集这个资源点了
+09/04/2022 14:36:29: [warning] 开始采集这个资源点了
+09/04/2022 14:36:29: [warning] 开始采集这个资源点了
+09/04/2022 14:36:32: [warning] 开始采集这个资源点了
+09/04/2022 14:36:32: [warning] 开始采集这个资源点了
+09/04/2022 14:36:35: [warning] 开始采集这个资源点了
+09/04/2022 14:36:35: [warning] 我的城市id: 102102216
+09/04/2022 14:36:35: [warning] 开始采集这个资源点了
+09/04/2022 14:36:42: [warning] 开始采集这个资源点了
+09/04/2022 14:36:44: [warning] 开始采集这个资源点了
+09/04/2022 14:36:52: [warning] 我的城市id: 102102216
+09/04/2022 14:36:59: [warning] 开始采集这个资源点了
+09/04/2022 14:36:59: [warning] 开始采集这个资源点了
+09/04/2022 14:37:16: [warning] 开始采集这个资源点了
+09/04/2022 14:37:17: [warning] 开始采集这个资源点了
+09/04/2022 14:37:19: [warning] 开始采集这个资源点了
+09/04/2022 14:37:32: [warning] 开始采集这个资源点了
+09/04/2022 14:37:39: [warning] 服务器发错数值：客户端兼容处理:102910416
+09/04/2022 14:37:40: [warning] 服务器发错数值：客户端兼容处理:102910416
+09/04/2022 14:37:45: [warning] map已经存在当前id的部队了，服务器还通知创建102910294
+09/04/2022 14:38:09: [warning] map已经存在当前id的部队了，服务器还通知创建102910294
+09/04/2022 14:38:20: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:38:31: [warning] 服务器发错数值：客户端兼容处理:102910294
+09/04/2022 14:39:14: [warning] 开始采集这个资源点了
+09/04/2022 14:39:22: [warning] 开始采集这个资源点了
+09/04/2022 14:40:07: [warning] 我的城市id: 102102216
+09/04/2022 14:40:07: [warning] 开始采集这个资源点了
+09/04/2022 14:40:10: [warning] 开始采集这个资源点了
+09/04/2022 14:40:10: [warning] 开始采集这个资源点了
+09/04/2022 14:40:13: [error] DispatchEvent Exception: MapLogicObjectChange, System.NullReferenceException: Object reference not set to an instance of an object
+  at Skyunion.TroopHUDMediator.SetTroopSelectHUD (Skyunion.UI_Pop_TroopSelectHUDView view, Skyunion.ArmyData armyData) [0x00029] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\TroopHUDMediator.cs:1944 
+  at Skyunion.TroopHUDMediator.OnUpdateTroopHudState (System.Int64 id) [0x00088] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\TroopHUDMediator.cs:765 
+  at Skyunion.TroopHUDMediator.HandleNotification (PureMVC.Interfaces.INotification notification) [0x004a8] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\TroopHUDMediator.cs:168 
+  at PureMVC.Patterns.Observer.Observer.NotifyObserver (PureMVC.Interfaces.INotification Notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Observer\Observer.cs:59 
+  at PureMVC.Core.View.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00034] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Core\View.cs:132 
+  at PureMVC.Patterns.Facade.Facade.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:304 
+  at PureMVC.Patterns.Facade.Facade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:283 
+  at Skyunion.AppFacade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00026] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Base\AppFacade.cs:321 
+  at Skyunion.TroopUpdateData.UpdateAttackTargetId (System.Int64 troopId, System.Int64 targetId) [0x00069] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Troop\TroopMap\UpdateData\TroopUpdateData.cs:48 
+  at Skyunion.UpdateMapDataHandler.UpdateMapData (SprotoType.MapObjectInfo mapObjectInfo) [0x00081] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Troop\TroopMap\Handler\Handlers\UpdateMapDataHandler.cs:66 
+  at Skyunion.PVPGlobalMediator.OnMapLogicObjectChange (System.String key, SprotoType.MapObjectInfo value) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\PVPGlobalMediator.cs:475 
+  at Skyunion.EventManager.DispatchEvent[T1] (System.String key, T1 arg1) [0x00062] in D:\IGG\eoc_client_pps\Assets\Scripts\ClientBase\Utils\EventManager.cs:184 :
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Skyunion.LogService:Error(String, Object[]) (at Assets/Skyunion/RunTime/LogService/LogService.cs:85)
+Skyunion.EventManager:DispatchEvent(String, MapObjectInfo) (at Assets/Scripts/ClientBase/Utils/EventManager.cs:197)
+Skyunion.WorldMapObjectProxy:UpdateMapObjectInfo(MapObjectInfo) (at Assets/Scripts/Hotfix/MVC/Proxy/WorldMapObjectProxy.cs:276)
+Skyunion.WorldMapObjectProxy:UpdateMapObject(request) (at Assets/Scripts/Hotfix/MVC/Proxy/WorldMapObjectProxy.cs:175)
+Skyunion.MapObjCmd:Execute(INotification) (at Assets/Scripts/Hotfix/MVC/CMD/MapObjCmd.cs:32)
+PureMVC.Core.Controller:ExecuteCommand(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Core/Controller.cs:122)
+PureMVC.Patterns.Observer.Observer:NotifyObserver(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Patterns/Observer/Observer.cs:59)
+PureMVC.Core.View:NotifyObservers(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Core/View.cs:132)
+PureMVC.Patterns.Facade.Facade:NotifyObservers(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Patterns/Facade/Facade.cs:304)
+PureMVC.Patterns.Facade.Facade:SendNotification(String, Object, String) (at Assets/Scripts/Hotfix/Common/PureMVC/Patterns/Facade/Facade.cs:283)
+Skyunion.AppFacade:SendNotification(String, Object, String) (at Assets/Scripts/Hotfix/MVC/Base/AppFacade.cs:321)
+Skyunion.NetSession:OnDecodeCallback(RpcInfo, Int32) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:340)
+Skyunion.NetMsgPackage:DecodeProtocal(Byte[]&, Int32, Action`2, Action`3) (at Assets/Scripts/Hotfix/Net/Base/NetMsgPackage.cs:252)
+Skyunion.NetMsgPackage:Decode(MemoryStream, Byte[], Action`2, Action`3) (at Assets/Scripts/Hotfix/Net/Base/NetMsgPackage.cs:125)
+Skyunion.NetSession:OnReciveSproto(MemoryStream) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:253)
+Skyunion.NetSession:OnReceiveEvent(MemoryStream) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:386)
+Skyunion.Netconnect:OnReceive(MemoryStream) (at Assets/Skyunion/RunTime/NetService/TCPWrapper/Netconnect.cs:147)
+Skyunion.Netconnect:Update() (at Assets/Skyunion/RunTime/NetService/TCPWrapper/Netconnect.cs:185)
+Skyunion.NetSession:Update() (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:908)
+Skyunion.NetManager:OnUpdate(Single) (at Assets/Scripts/Hotfix/Net/NetManager.cs:116)
+Skyunion.GlobalGame:Update() (at Assets/Scripts/Client/GlobalGame/GlobalGame.cs:277)
+
+09/04/2022 14:40:13: [error] DispatchEvent Exception: MapLogicObjectChange, System.NullReferenceException: Object reference not set to an instance of an object
+  at Skyunion.TroopHUDMediator.SetTroopSelectHUD (Skyunion.UI_Pop_TroopSelectHUDView view, Skyunion.ArmyData armyData) [0x00029] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\TroopHUDMediator.cs:1944 
+  at Skyunion.TroopHUDMediator.OnUpdateTroopHudState (System.Int64 id) [0x00088] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\TroopHUDMediator.cs:765 
+  at Skyunion.TroopHUDMediator.HandleNotification (PureMVC.Interfaces.INotification notification) [0x004a8] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\TroopHUDMediator.cs:168 
+  at PureMVC.Patterns.Observer.Observer.NotifyObserver (PureMVC.Interfaces.INotification Notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Observer\Observer.cs:59 
+  at PureMVC.Core.View.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00034] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Core\View.cs:132 
+  at PureMVC.Patterns.Facade.Facade.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:304 
+  at PureMVC.Patterns.Facade.Facade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:283 
+  at Skyunion.AppFacade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00026] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Base\AppFacade.cs:321 
+  at Skyunion.TroopUpdateData.UpdateAttackTargetId (System.Int64 troopId, System.Int64 targetId) [0x00069] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Troop\TroopMap\UpdateData\TroopUpdateData.cs:48 
+  at Skyunion.UpdateMapDataHandler.UpdateMapData (SprotoType.MapObjectInfo mapObjectInfo) [0x00081] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Troop\TroopMap\Handler\Handlers\UpdateMapDataHandler.cs:66 
+  at Skyunion.PVPGlobalMediator.OnMapLogicObjectChange (System.String key, SprotoType.MapObjectInfo value) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\PVPGlobalMediator.cs:475 
+  at Skyunion.EventManager.DispatchEvent[T1] (System.String key, T1 arg1) [0x00062] in D:\IGG\eoc_client_pps\Assets\Scripts\ClientBase\Utils\EventManager.cs:184 :
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Skyunion.LogService:Error(String, Object[]) (at Assets/Skyunion/RunTime/LogService/LogService.cs:85)
+Skyunion.EventManager:DispatchEvent(String, MapObjectInfo) (at Assets/Scripts/ClientBase/Utils/EventManager.cs:197)
+Skyunion.WorldMapObjectProxy:UpdateMapObjectInfo(MapObjectInfo) (at Assets/Scripts/Hotfix/MVC/Proxy/WorldMapObjectProxy.cs:276)
+Skyunion.WorldMapObjectProxy:UpdateMapObject(request) (at Assets/Scripts/Hotfix/MVC/Proxy/WorldMapObjectProxy.cs:175)
+Skyunion.MapObjCmd:Execute(INotification) (at Assets/Scripts/Hotfix/MVC/CMD/MapObjCmd.cs:32)
+PureMVC.Core.Controller:ExecuteCommand(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Core/Controller.cs:122)
+PureMVC.Patterns.Observer.Observer:NotifyObserver(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Patterns/Observer/Observer.cs:59)
+PureMVC.Core.View:NotifyObservers(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Core/View.cs:132)
+PureMVC.Patterns.Facade.Facade:NotifyObservers(INotification) (at Assets/Scripts/Hotfix/Common/PureMVC/Patterns/Facade/Facade.cs:304)
+PureMVC.Patterns.Facade.Facade:SendNotification(String, Object, String) (at Assets/Scripts/Hotfix/Common/PureMVC/Patterns/Facade/Facade.cs:283)
+Skyunion.AppFacade:SendNotification(String, Object, String) (at Assets/Scripts/Hotfix/MVC/Base/AppFacade.cs:321)
+Skyunion.NetSession:OnDecodeCallback(RpcInfo, Int32) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:340)
+Skyunion.NetMsgPackage:DecodeProtocal(Byte[]&, Int32, Action`2, Action`3) (at Assets/Scripts/Hotfix/Net/Base/NetMsgPackage.cs:252)
+Skyunion.NetMsgPackage:Decode(MemoryStream, Byte[], Action`2, Action`3) (at Assets/Scripts/Hotfix/Net/Base/NetMsgPackage.cs:125)
+Skyunion.NetSession:OnReciveSproto(MemoryStream) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:253)
+Skyunion.NetSession:OnReceiveEvent(MemoryStream) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:386)
+Skyunion.Netconnect:OnReceive(MemoryStream) (at Assets/Skyunion/RunTime/NetService/TCPWrapper/Netconnect.cs:147)
+Skyunion.Netconnect:Update() (at Assets/Skyunion/RunTime/NetService/TCPWrapper/Netconnect.cs:185)
+Skyunion.NetSession:Update() (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:908)
+Skyunion.NetManager:OnUpdate(Single) (at Assets/Scripts/Hotfix/Net/NetManager.cs:116)
+Skyunion.GlobalGame:Update() (at Assets/Scripts/Client/GlobalGame/GlobalGame.cs:277)
+
+09/04/2022 14:40:14: [warning] 开始采集这个资源点了
+09/04/2022 14:40:39: [warning] 开始采集这个资源点了
+09/04/2022 14:40:40: [warning] 开始采集这个资源点了
+09/04/2022 14:40:41: [warning] 开始采集这个资源点了
+09/04/2022 14:40:43: [warning] 开始采集这个资源点了
+09/04/2022 14:40:46: [warning] 开始采集这个资源点了
+09/04/2022 14:41:10: [warning] 我的城市id: 102102216
+09/04/2022 14:41:11: [warning] 开始采集这个资源点了
+09/04/2022 14:41:31: [warning] 开始采集这个资源点了
+09/04/2022 14:41:33: [warning] 开始采集这个资源点了
+09/04/2022 14:41:35: [warning] 开始采集这个资源点了
+09/04/2022 14:42:07: [warning] 开始采集这个资源点了
+09/04/2022 14:42:20: [warning] 开始采集这个资源点了

@@ -1,0 +1,17 @@
+Tera项目的美术工程整理
+	UI
+	模型动画
+	场景
+	打包
+	关卡编辑器
+	特效
+	Timeline
+	检测
+	小工具
+	资源导入
+
+Aion Game Launcher
+	https://github.com/Sigmanor/Aion-Game-Launcher.git
+	
+WinForm Game Patcher
+	https://github.com/Agasper/GamePatcher

@@ -1,0 +1,6 @@
+1. PVE下的 hero, monster的动作状态机检查 (避免美术资源遗漏)
+
+2. 版本兼容性测试
+		data		表可以在最后增加列 (已实现) 
+			检查方法: 比对config.cs的字段field
+		protocol

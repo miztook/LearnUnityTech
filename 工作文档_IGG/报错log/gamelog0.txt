@@ -1,0 +1,348 @@
+09/03/2022 22:00:25: [systeminfo] 
+locale: eoc-pps
+platform: Windows
+64bit: True
+deviceModel: X756UX (ASUSTeK COMPUTER INC.)
+deviceName: DESKTOP-G2RK1HJ
+deviceType: Desktop
+deviceUniqueIdentifier: 4718c877d2657bfca257c4d85e26626f452e644a
+operatingSystem: Windows 10  (10.0.0) 64bit
+processorCount: 4
+processorType: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+graphicsDeviceName: NVIDIA GeForce GTX 950M
+systemMemorySize: 16280
+graphicsMemorySize: 4065
+activeTier: Tier3
+
+[applicationInfo] 
+productName: Empire of Crime
+bundleIdentifier: com.ipreto.android.empireofcrime
+appVersion: 0.0.1
+
+09/03/2022 22:00:25: [warning] InitFirebaseCrashlytics...
+09/03/2022 22:00:25: [warning] IGPlatform::SetLanguage:ChineseSimplified
+09/03/2022 22:00:25: [warning] InitSDK...
+09/03/2022 22:00:25: [warning] SDK: IGPlatformWindows, PlatformType: PLATFORM_ANY, debugMode: False
+09/03/2022 22:00:25: [warning] InitSDK:: Succees
+09/03/2022 22:00:25: [warning] IGPlatformWindows C# RegisterCallback!
+09/03/2022 22:00:25: [warning] SendEvent:[App_Start], device=X756UX (ASUSTeK COMPUTER INC.)
+09/03/2022 22:00:25: [warning] SendEvent:[App_Start], deviceID=4718c877d2657bfca257c4d85e26626f452e644a
+09/03/2022 22:00:25: [warning] SendEvent:[App_Start], memory=16280
+09/03/2022 22:00:25: [warning] InitGameCoroutine UpdateRoutine Start...
+09/03/2022 22:00:25: [warning] InitGameCoroutine UpdateRoutine End...
+09/03/2022 22:00:25: [warning] [RunTimeAppDataPath]: D:/IGG/eoc_client_pps/Assets
+09/03/2022 22:00:25: [warning] [AssetBundlePath]: res_base/assetbundles/Windows/
+09/03/2022 22:00:25: [warning] ABAssetService Init!
+09/03/2022 22:00:25: [warning] [CAssetBundleManager] BaseAssetBundleURL: res_base/assetbundles/Windows/
+09/03/2022 22:00:25: [warning] [CAssetBundleManager] UpdateAssetBundleURL: D:/IGG/eoc_client_pps/UpdateRes/assetbundles/
+09/03/2022 22:00:25: [warning] [CAssetBundleManager] AssetPath2BundleMap Count: 5566
+09/03/2022 22:00:25: [warning] [CAssetBundleManager] AB Manifest Count: 24, UseUpdate: False
+09/03/2022 22:00:25: [warning] ABAssetService Init Success!
+09/03/2022 22:00:26: [warning] ShaderManager Initialize: Shader/ShaderList.prefab
+09/03/2022 22:00:27: [warning] ShaderManager WarmUp... Shader Count: 111
+09/03/2022 22:00:27: [warning] ShaderManager Initialize Complete! ShaderMap Count: 125
+09/03/2022 22:00:27: [warning] WwiseUnity: basePath: D:\IGG\eoc_client_pps\res_base\Audio\GeneratedSoundBanks\Windows\
+09/03/2022 22:00:27: [warning] WwiseUnity: updatePath: D:\IGG\eoc_client_pps\UpdateRes\Audio\GeneratedSoundBanks\Windows\
+09/03/2022 22:00:27: [warning] WwiseUnity: SetBasePath Failed! D:\IGG\eoc_client_pps\res_base\Audio\GeneratedSoundBanks\Windows\, AK_PathNotFound
+09/03/2022 22:00:27: [warning] WwiseUnity: AddBasePath Failed! D:\IGG\eoc_client_pps\res_base\Audio\GeneratedSoundBanks\Windows\, AK_PathNotFound
+09/03/2022 22:00:27: [warning] WwiseUnity: AddBasePath Failed! D:\IGG\eoc_client_pps\UpdateRes\Audio\GeneratedSoundBanks\Windows\, AK_PathNotFound
+09/03/2022 22:00:27: [error] WwiseUnity: Failed load Init.bnk with result: AK_Fail:
+UnityEngine.Debug:LogError(Object)
+AkBankManager:LoadInitBank(Boolean) (at Assets/Scripts/ClientBase/Wwise/API/Runtime/Handwritten/Common/AkBankManager.cs:68)
+AkWwiseInitializationSettings:LoadInitBank() (at Assets/Scripts/ClientBase/Wwise/API/Runtime/Handwritten/Common/AkWwiseInitializationSettings.cs:393)
+AkWwiseInitializationSettings:InitializeSoundEngine() (at Assets/Scripts/ClientBase/Wwise/API/Runtime/Handwritten/Common/AkWwiseInitializationSettings.cs:387)
+AkSoundEngineController:Init(AkInitializer) (at Assets/Scripts/ClientBase/Wwise/MonoBehaviour/Runtime/AkSoundEngineController.cs:158)
+AkInitializer:OnEnable() (at Assets/Scripts/ClientBase/Wwise/MonoBehaviour/Runtime/AkInitializer.cs:65)
+UnityEngine.GameObject:AddComponent()
+Skyunion.WwiseSoundManager:Init() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:499)
+Skyunion.LoadResourcesState:InitAudioService() (at Assets/Scripts/Client/GlobalGame/GlobalFSM/GlobalState/LoadResourcesState.cs:58)
+Skyunion.LoadResourcesState:Update(Single) (at Assets/Scripts/Client/GlobalGame/GlobalFSM/GlobalState/LoadResourcesState.cs:89)
+Skyunion.GlobalFsmControllerBase`1:UpdateState(Single) (at Assets/Scripts/Client/GlobalGame/GlobalFSM/Interface/GlobalFsmControllerBase.cs:117)
+Skyunion.GlobalGame:Update() (at Assets/Scripts/Client/GlobalGame/GlobalGame.cs:269)
+
+09/03/2022 22:00:27: [error] file: D:\IGG\eoc_client_pps\res_base\Audio\GeneratedSoundBanks\Windows\SoundbanksInfo.xml File does not exist:
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Skyunion.UnityUtils:ReadFile(String) (at Assets/Skyunion/RunTime/Utils/UnityUtils.cs:826)
+Skyunion.UnityUtils:LoadFile(String) (at Assets/Skyunion/RunTime/Utils/UnityUtils.cs:805)
+Skyunion.WwiseSoundConfig:ReadSoundBankInfoXml() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:350)
+Skyunion.WwiseSoundConfig:ParseXml() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:312)
+Skyunion.WwiseSoundConfig:Load() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:307)
+Skyunion.WwiseSoundManager:Init() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:508)
+Skyunion.LoadResourcesState:InitAudioService() (at Assets/Scripts/Client/GlobalGame/GlobalFSM/GlobalState/LoadResourcesState.cs:58)
+Skyunion.LoadResourcesState:Update(Single) (at Assets/Scripts/Client/GlobalGame/GlobalFSM/GlobalState/LoadResourcesState.cs:89)
+Skyunion.GlobalFsmControllerBase`1:UpdateState(Single) (at Assets/Scripts/Client/GlobalGame/GlobalFSM/Interface/GlobalFsmControllerBase.cs:117)
+Skyunion.GlobalGame:Update() (at Assets/Scripts/Client/GlobalGame/GlobalGame.cs:269)
+
+09/03/2022 22:00:27: [error] WwiseBankXmlPath不存在!!!:
+UnityEngine.Debug:LogError(Object)
+Skyunion.WwiseSoundConfig:ParseXml() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:316)
+Skyunion.WwiseSoundConfig:Load() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:307)
+Skyunion.WwiseSoundManager:Init() (at Assets/Scripts/ClientBase/WwiseSoundManager/WwiseSoundManager.cs:508)
+Skyunion.LoadResourcesState:InitAudioService() (at Assets/Scripts/Client/GlobalGame/GlobalFSM/GlobalState/LoadResourcesState.cs:58)
+Skyunion.LoadResourcesState:Update(Single) (at Assets/Scripts/Client/GlobalGame/GlobalFSM/GlobalState/LoadResourcesState.cs:89)
+Skyunion.GlobalFsmControllerBase`1:UpdateState(Single) (at Assets/Scripts/Client/GlobalGame/GlobalFSM/Interface/GlobalFsmControllerBase.cs:117)
+Skyunion.GlobalGame:Update() (at Assets/Scripts/Client/GlobalGame/GlobalGame.cs:269)
+
+09/03/2022 22:00:27: [warning] HotFixState PreloadAsync Start!
+09/03/2022 22:00:27: [warning] WwiseUnity: Bank Common.bnk failed to load (AK_Fail)
+09/03/2022 22:00:28: [warning] HotFixState OnPreloadFinish!
+09/03/2022 22:00:28: [warning] Screen W/H: 804, 453, TargetFrameRate: 60
+09/03/2022 22:00:28: [warning] Screen.currentResolution: 1920, 1080
+09/03/2022 22:00:29: [warning] ReloadGame OnOpenLoading: AutoLogin
+09/03/2022 22:00:32: [warning] LoadingMediator::StartConnectServer...
+09/03/2022 22:00:32: [warning] [NetGameSession] Connect! User: ID957071:, Socket: 34.214.1.149:20000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: 0
+09/03/2022 22:00:32: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 20000
+09/03/2022 22:00:33: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1557
+09/03/2022 22:00:33: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: EAuth1
+09/03/2022 22:00:33: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: EAuth1, ErrorString: 0
+2022/9/3 22:00:34: [warning] [TCPSession] OnReceive, OnDisconnect! 0, Success
+09/03/2022 22:00:34: [warning] [NetGameSession] OnNetEvent: DisconnectedComplete, AuthState: EAuth3
+09/03/2022 22:00:34: [warning] [NetSession] ParseAuthResult Rid: 6969894535463959552
+09/03/2022 22:00:34: [warning] [NetSession] RedirectGameServer 重定向连接服务器ID: 34.214.1.149:21000
+09/03/2022 22:00:34: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 21000
+09/03/2022 22:00:34: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1559
+09/03/2022 22:00:34: [warning] [ServerNetEvent] EventId: DisconnectedComplete, AuthState: ERedirectionGameServer, ErrorString: 0
+09/03/2022 22:00:34: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: ERedirectionGameServer
+09/03/2022 22:00:34: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: ERedirectionGameServer, ErrorString: 0
+09/03/2022 22:00:34: [warning] 处理AuthEvent： EGameServerOK
+09/03/2022 22:00:34: [warning] Start ResetScene: 30.0338
+09/03/2022 22:00:38: [warning] 登陆角色, rid: 6969894535463959552, platform: 0, ip: 117.28.231.17
+09/03/2022 22:00:38: [warning] [NetSession] 回包错误码: 10002, Tag: 3, ErrorInfo: 
+09/03/2022 22:00:38: [warning] 迷雾数据完成
+09/03/2022 22:00:38: [warning] GameEventGlobalMediator::GoLogin...
+2022/9/3 22:00:38: [warning] [TCPSession] OnReceive, OnDisconnect! 0, OperationAborted
+09/03/2022 22:00:38: [warning] [NetGameSession] Close!
+09/03/2022 22:00:38: [warning] [NetChatSession] Close!
+09/03/2022 22:00:39: [warning] ReloadGame OnOpenLoading: AutoLogin
+09/03/2022 22:00:39: [warning] [NetGameSession] OnNetEvent: DisconnectedComplete, AuthState: EAuth1
+09/03/2022 22:00:39: [warning] [ServerNetEvent] EventId: DisconnectedComplete, AuthState: EAuth1, ErrorString: 0
+09/03/2022 22:00:43: [warning] LoadingMediator::StartConnectServer...
+09/03/2022 22:00:43: [warning] [NetGameSession] Connect! User: ID957071:, Socket: 34.214.1.149:20000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: 0
+09/03/2022 22:00:43: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 20000
+09/03/2022 22:00:44: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1567
+09/03/2022 22:00:44: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: EAuth1
+09/03/2022 22:00:44: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: EAuth1, ErrorString: 0
+2022/9/3 22:00:45: [warning] [TCPSession] OnReceive, OnDisconnect! 0, Success
+09/03/2022 22:00:45: [warning] [NetSession] ParseAuthResult Rid: 6969894535463959552
+09/03/2022 22:00:45: [warning] [NetSession] RedirectGameServer 重定向连接服务器ID: 34.214.1.149:21000
+09/03/2022 22:00:45: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 21000
+09/03/2022 22:00:45: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1568
+09/03/2022 22:00:45: [warning] [NetGameSession] OnNetEvent: ConnectComplete, AuthState: ERedirectionGameServer
+09/03/2022 22:00:45: [warning] [ServerNetEvent] EventId: ConnectComplete, AuthState: ERedirectionGameServer, ErrorString: 0
+09/03/2022 22:00:45: [warning] 处理AuthEvent： EGameServerOK
+09/03/2022 22:00:45: [warning] Start ResetScene: 41.14331
+09/03/2022 22:00:46: [warning] 登陆角色, rid: 6969894535463959552, platform: 0, ip: 117.28.231.17
+09/03/2022 22:00:46: [warning] [EmailProxy] OnLoginToGame! 服务器邮件版本号：200810375489261568  客户端邮件版本号：0
+09/03/2022 22:00:47: [warning] 我的城市id: 102102216
+09/03/2022 22:00:47: [warning] 更新联盟建筑
+09/03/2022 22:00:47: [warning] 更新联盟建筑
+09/03/2022 22:00:47: [warning] RoleLogin 登录成功!
+09/03/2022 22:00:47: [warning] SignAgreements Succees! 执行业务逻辑
+09/03/2022 22:00:47: [warning] 迷雾切换到主城 0.85
+09/03/2022 22:00:47: [warning] [NetChatSession] Connect! User: ID957071:, Socket: 34.214.1.149:12000, udid:4718c877d2657bfca257c4d85e26626f452e644a Node: chat-server
+09/03/2022 22:00:47: [warning] [TCPConnector] Connect: 34.214.1.149, 34.214.1.149, 12000
+09/03/2022 22:00:48: [warning] 迷雾数据完成
+09/03/2022 22:00:48: [error] System.NullReferenceException: Object reference not set to an instance of an object
+  at Skyunion.BuldingObjData.UpdateBldSprite (System.String modelSprite, System.String modelLight) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\Utils\CityObjData.cs:1592 
+  at Skyunion.CityBuildingProxy.UpdateBldSprite (System.Int64 buildingIndex, System.Int64 buildingtype, System.Int64 buildinglevel) [0x0001d] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Proxy\CityProxy\CityBuildingProxy.cs:2835 
+  at Skyunion.CityGlobalMediator.OnCityBuildingLevelUP (System.Int64 builidngindex) [0x00063] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\CityGlobalMediator.cs:1241 
+  at Skyunion.CityGlobalMediator.HandleNotification (PureMVC.Interfaces.INotification notification) [0x00cdf] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\GlobalMediator\CityGlobalMediator.cs:688 
+  at PureMVC.Patterns.Observer.Observer.NotifyObserver (PureMVC.Interfaces.INotification Notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Observer\Observer.cs:59 
+  at PureMVC.Core.View.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00034] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Core\View.cs:132 
+  at PureMVC.Patterns.Facade.Facade.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:304 
+  at PureMVC.Patterns.Facade.Facade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:283 
+  at Skyunion.AppFacade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00026] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Base\AppFacade.cs:321 
+  at Skyunion.CityBuildingProxy.UpdateCityBuildInfo (SprotoType.Build_BuildingInfo+request CityBuildInfos) [0x0024c] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Proxy\CityProxy\CityBuildingProxy.cs:877 
+  at Skyunion.PlayerCmd.Execute (PureMVC.Interfaces.INotification notification) [0x00113] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\CMD\PlayerCmd.cs:39 
+  at PureMVC.Core.Controller.ExecuteCommand (PureMVC.Interfaces.INotification notification) [0x00020] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Core\Controller.cs:122 
+  at PureMVC.Patterns.Observer.Observer.NotifyObserver (PureMVC.Interfaces.INotification Notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Observer\Observer.cs:59 
+  at PureMVC.Core.View.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00034] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Core\View.cs:132 
+  at PureMVC.Patterns.Facade.Facade.NotifyObservers (PureMVC.Interfaces.INotification notification) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:304 
+  at PureMVC.Patterns.Facade.Facade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00001] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Common\PureMVC\Patterns\Facade\Facade.cs:283 
+  at Skyunion.AppFacade.SendNotification (System.String notificationName, System.Object body, System.String type) [0x00026] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\MVC\Base\AppFacade.cs:321 
+  at Skyunion.NetSession.OnDecodeCallback (Sproto.SprotoRpc+RpcInfo recvInfo, System.Int32 tag) [0x00089] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Net\Session\NetSession.cs:340 
+  at Skyunion.NetMsgPackage.DecodeProtocal (System.Byte[]& buffer, System.Int32 game_session, System.Action`2[T1,T2] callback, System.Action`3[T1,T2,T3] errorCallback) [0x00178] in D:\IGG\eoc_client_pps\Assets\Scripts\Hotfix\Net\Base\NetMsgPackage.cs:252 :
+UnityEngine.Debug:LogError(Object)
+Skyunion.LogService:Error(String, Object[]) (at Assets/Skyunion/RunTime/LogService/LogService.cs:83)
+Skyunion.NetMsgPackage:DecodeProtocal(Byte[]&, Int32, Action`2, Action`3) (at Assets/Scripts/Hotfix/Net/Base/NetMsgPackage.cs:271)
+Skyunion.NetMsgPackage:Decode(MemoryStream, Byte[], Action`2, Action`3) (at Assets/Scripts/Hotfix/Net/Base/NetMsgPackage.cs:125)
+Skyunion.NetSession:OnReciveSproto(MemoryStream) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:253)
+Skyunion.NetSession:OnReceiveEvent(MemoryStream) (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:386)
+Skyunion.Netconnect:OnReceive(MemoryStream) (at Assets/Skyunion/RunTime/NetService/TCPWrapper/Netconnect.cs:147)
+Skyunion.Netconnect:Update() (at Assets/Skyunion/RunTime/NetService/TCPWrapper/Netconnect.cs:185)
+Skyunion.NetSession:Update() (at Assets/Scripts/Hotfix/Net/Session/NetSession.cs:908)
+Skyunion.NetManager:OnUpdate(Single) (at Assets/Scripts/Hotfix/Net/NetManager.cs:116)
+Skyunion.GlobalGame:Update() (at Assets/Scripts/Client/GlobalGame/GlobalGame.cs:277)
+
+09/03/2022 22:00:48: [warning] [NetConnect] OnConnnectComplete! 本机Socket: 100.64.0.146:1573
+09/03/2022 22:00:48: [warning] 邮件 Email_GetEmails
+09/03/2022 22:00:48: [warning] [NetChatSession] OnNetEvent: ConnectComplete, AuthState: EChatAuth
+09/03/2022 22:00:48: [exception] NullReferenceException: Object reference not set to an instance of an object:
+Skyunion.BuldingObjData.<ShowFreeEffect>b__90_0 (UnityEngine.GameObject effect) (at Assets/Scripts/Hotfix/Common/Utils/CityObjData.cs:1710)
+Skyunion.ABAssetService.InstantiateAsync_Callback (UnityEngine.GameObject asset, System.Action`1[T] completed, UnityEngine.Vector3 pos, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at Assets/Skyunion/RunTime/ABAssetService/ABAssetService.cs:309)
+Skyunion.ABAssetService+<>c__DisplayClass28_0.<InstantiateAsync>b__1 (Skyunion.AssetBase.AsyncOperationHandle`1[TObject] obj) (at Assets/Skyunion/RunTime/ABAssetService/ABAssetService.cs:293)
+Skyunion.AssetBase.DelegateList`1[T].Invoke (T res) (at Assets/Skyunion/RunTime/AssetBase/DelegateList.cs:66)
+UnityEngine.Debug:LogException(Exception)
+Skyunion.AssetBase.DelegateList`1:Invoke(AsyncOperationHandle`1) (at Assets/Skyunion/RunTime/AssetBase/DelegateList.cs:70)
+Skyunion.AssetBase.AsyncOperationBase`1:InvokeCompletionEvent() (at Assets/Skyunion/RunTime/AssetBase/AsyncOperationBase.cs:103)
+Skyunion.AssetBase.AsyncOperationBase`1:Complete(GameObject, Boolean, String, Boolean) (at Assets/Skyunion/RunTime/AssetBase/AsyncOperationBase.cs:148)
+Skyunion.AssetBase.AsyncOperationBase`1:Complete(GameObject, Boolean, String) (at Assets/Skyunion/RunTime/AssetBase/AsyncOperationBase.cs:125)
+Skyunion.AssetBase.ProviderOperation`1:ProviderCompleted(Object, Boolean, Exception) (at Assets/Skyunion/RunTime/AssetBase/ProviderOperation.cs:68)
+Skyunion.AssetBase.ProvideHandle:Complete(Object, Boolean, Exception) (at Assets/Skyunion/RunTime/AssetBase/IResourceProvider.cs:43)
+Skyunion.AssetBase.InternalOp:ActionComplete() (at Assets/Skyunion/RunTime/ABAssetService/ABAssetProvider.cs:185)
+Skyunion.AssetBase.ABAssetProvider:Update() (at Assets/Skyunion/RunTime/ABAssetService/ABAssetProvider.cs:233)
+Skyunion.ABAssetService:Update() (at Assets/Skyunion/RunTime/ABAssetService/ABAssetService.cs:424)
+
+09/03/2022 22:00:48: [warning] 地表加载完毕! BundleAssets/land/MapData/houdini_map01_tile_data.bytes
+09/03/2022 22:00:49: [warning] [NetSession] EChatAuth 授权服务器结果: 200 ok 
+09/03/2022 22:00:49: [warning] 处理ChatAuthEvent： EGameServerOK
+09/03/2022 22:00:54: [warning] 迷雾主城创建完毕，开始拉镜头
+09/03/2022 22:00:54: [warning] 关闭Loading，显示内城!
+09/03/2022 22:01:05: [warning] Game object with animator is inactive
+09/03/2022 22:01:05: [warning] Game object with animator is inactive
+09/03/2022 22:01:05: [warning] Game object with animator is inactive
+09/03/2022 22:01:06: [warning] Game object with animator is inactive
+09/03/2022 22:01:06: [warning] Game object with animator is inactive
+09/03/2022 22:01:06: [warning] Game object with animator is inactive
+09/03/2022 22:01:10: [warning] Game object with animator is inactive
+09/03/2022 22:01:10: [warning] Game object with animator is inactive
+09/03/2022 22:01:13: [warning] 我的城市id: 102102216
+09/03/2022 22:01:24: [warning] 更新联盟建筑
+09/03/2022 22:02:21: [warning] 删除预警数据102565444
+09/03/2022 22:02:31: [warning] 服务器发错数值：客户端兼容处理:102623420
+09/03/2022 22:02:31: [warning] 服务器发错数值：客户端兼容处理:102623420
+09/03/2022 22:02:48: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619399
+09/03/2022 22:03:54: [warning] 玩家部队，移动路径有问题，通知服务器检查102623444
+09/03/2022 22:03:54: [warning] 玩家部队，移动路径有问题，通知服务器检查102623444
+09/03/2022 22:03:54: [warning] 玩家部队，移动路径有问题，通知服务器检查102623444
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102620688
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565426
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565412
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602607
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619341
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102504857
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565420
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102505063
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565364
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565388
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565390
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565410
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602601
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557949
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557943
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557993
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102558021
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102504965
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565430
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565422
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619409
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619399
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565368
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602707
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102558019
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565386
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565432
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565434
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565424
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602619
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602627
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619375
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102601011
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565374
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102620688
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565426
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565412
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602607
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619341
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565380
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565420
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102505063
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102504857
+09/03/2022 22:03:54: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565364
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565388
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565390
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565410
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102602601
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557949
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557943
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102558021
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102504965
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565422
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619409
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619399
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557993
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565368
+09/03/2022 22:03:55: [warning] 野蛮人，移动路径有问题，通知服务器检查 102565430
+09/03/2022 22:04:15: [warning] 我的城市id: 102102216
+09/03/2022 22:04:24: [warning] 我的城市id: 102102216
+09/03/2022 22:04:46: [warning] 删除预警数据102623484
+09/03/2022 22:04:58: [warning] 服务器发错数值：客户端兼容处理:102623444
+09/03/2022 22:05:00: [warning] 服务器发错数值：客户端兼容处理:102623444
+09/03/2022 22:05:01: [warning] 删除预警数据102623481
+09/03/2022 22:05:39: [warning] 添加新预警数据102623494
+09/03/2022 22:06:10: [warning] 删除预警数据102623494
+09/03/2022 22:06:22: [warning] 服务器发错数值：客户端兼容处理:102623490
+09/03/2022 22:06:23: [warning] 服务器发错数值：客户端兼容处理:102623490
+09/03/2022 22:07:53: [warning] 没有收到回包: 402
+09/03/2022 22:07:53: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:53: [warning] 没有收到回包: 402
+09/03/2022 22:07:53: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:54: [warning] 没有收到回包: 402
+09/03/2022 22:07:54: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:54: [warning] 没有收到回包: 402
+09/03/2022 22:07:54: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:54: [warning] 没有收到回包: 402
+09/03/2022 22:07:54: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:54: [warning] 没有收到回包: 402
+09/03/2022 22:07:54: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:55: [warning] 没有收到回包: 402
+09/03/2022 22:07:55: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:55: [warning] 没有收到回包: 402
+09/03/2022 22:07:55: [warning] SendProto 失败: 402, True
+09/03/2022 22:07:56: [warning] [NetSession] 回包错误码: 300010, Tag: 402, ErrorInfo: 
+09/03/2022 22:09:16: [warning] 我的城市id: 102102216
+09/03/2022 22:09:21: [warning] 服务器发错数值：客户端兼容处理:102623476
+09/03/2022 22:09:21: [warning] 服务器发错数值：客户端兼容处理:102623476
+09/03/2022 22:09:57: [warning] 野蛮人，移动路径有问题，通知服务器检查 102619375
+09/03/2022 22:10:28: [warning] 开始采集这个资源点了
+09/03/2022 22:11:25: [warning] Game object with animator is inactive
+09/03/2022 22:11:42: [warning] 开始采集这个资源点了
+09/03/2022 22:11:50: [warning] 我的城市id: 102102216
+09/03/2022 22:11:51: [warning] 开始采集这个资源点了
+09/03/2022 22:12:31: [warning] 删除预警数据102623524
+09/03/2022 22:13:12: [warning] 添加新预警数据102623542
+09/03/2022 22:13:19: [warning] 未找到触发 triggerId = -1
+09/03/2022 22:13:41: [warning] pve已经通过第一关，id：10405
+09/03/2022 22:13:44: [warning] 删除预警数据102623542
+09/03/2022 22:14:04: [error] Invalid editor window E7.NotchSolution.Editor.NotchSimulator:
+UnityEditor.GenericMenu:CatchMenu(Object, String[], Int32)
+
+09/03/2022 22:14:40: [warning] 我的城市id: 102102216
+09/03/2022 22:15:54: [warning] 没有收到回包: 1128
+09/03/2022 22:15:54: [warning] SendProto 失败: 1128, True
+09/03/2022 22:15:54: [warning] 没有收到回包: 1128
+09/03/2022 22:15:54: [warning] SendProto 失败: 1128, True
+09/03/2022 22:17:26: [warning] Game object with animator is inactive
+09/03/2022 22:17:30: [warning] Game object with animator is inactive
+09/03/2022 22:17:30: [warning] Game object with animator is inactive
+09/03/2022 22:17:50: [warning] 我的城市id: 102102216
+09/03/2022 22:17:52: [warning] 野蛮人，移动路径有问题，通知服务器检查 102557949
+09/03/2022 22:19:16: [warning] Game object with animator is inactive
+09/03/2022 22:19:16: [warning] Game object with animator is inactive
+09/03/2022 22:19:17: [warning] Game object with animator is inactive
+09/03/2022 22:19:17: [warning] Game object with animator is inactive
+09/03/2022 22:19:19: [warning] Game object with animator is inactive
+09/03/2022 22:19:19: [warning] Game object with animator is inactive
+09/03/2022 22:20:54: [warning] Game object with animator is inactive
+09/03/2022 22:20:54: [warning] Game object with animator is inactive
+09/03/2022 22:20:54: [warning] Game object with animator is inactive
+09/03/2022 22:20:54: [warning] Game object with animator is inactive
+09/03/2022 22:20:57: [warning] Game object with animator is inactive
+09/03/2022 22:20:57: [warning] Game object with animator is inactive
+09/03/2022 22:20:57: [warning] Game object with animator is inactive
+09/03/2022 22:20:57: [warning] Game object with animator is inactive
+09/03/2022 22:20:58: [warning] Game object with animator is inactive
+09/03/2022 22:20:58: [warning] Game object with animator is inactive
+09/03/2022 22:20:58: [warning] Game object with animator is inactive
+09/03/2022 22:20:58: [warning] Game object with animator is inactive
+09/03/2022 22:23:16: [warning] 删除预警数据102623522

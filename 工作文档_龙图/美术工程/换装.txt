@@ -1,0 +1,65 @@
+	class OutwardInfo
+	{
+		Mesh Mesh;
+		string[] Bones;
+		Material Material;
+	}
+	
+	导出基础装:
+			ExportBasicEquipInfo
+				1. 搜集.prefab文件 Outputs/Characters/Players 导出到 Outputs/Characters/Outward/Basic
+				2. 每个prefab文件必须有 face body hair 三个child都有skinnedMeshRenderer组件
+				3. 对于每个skinnedMeshRenderer组件增加 OutwardInfo 组件
+				4. 添加OutwardInfo组件的 bones 路径和 Material(来自skinnedMeshRenderer的sharedMaterial)
+	
+	导出换装资源:
+			ExportEquipInfos
+				1. 搜集.prefab文件 Characters/Outward	导出到 Outputs/Characters/Outward	
+				2. 对于每个skinnedMeshRenderer，拷贝OutwardSfx组件到新的prefab (UnityEditorInternal.ComponentUtility)
+				3. 添加OutwardInfo组件的 bones 路径和 Material(来自skinnedMeshRenderer的sharedMaterial)
+				
+			客户端UpdateOutwardInfo
+				对于每个时装部位
+					SaveDefaultOutward			保存现有的时装配置 
+					SetSmrPropertyByOutwardInfo			对skinnedMeshRenderer设置时装信息
+						设置skinnedMeshRenderer的 mesh material 和 bones信息 (bone的trasform为TPose)
+					LoadOutwardGfx加载特效信息				//特效相对某个挂点有偏移
+					保存刺绣信息
+			
+	时装和装备资源的骨骼蒙皮不同，通常需要替换RootBone, 添加DyanmicBone
+	BonesInfo
+	{
+		string Bones;
+		Vector3 Position;
+		Vector3 Rotation;
+		Vector3 Scale;
+	}
+	
+	FashionOutward
+	{
+		string SkinnedMeshName;
+		string RootBonesPath;
+		Mesh Mesh;
+		BonesInfo[] BoneInfos;			//bone信息,不只是名字
+		Material Material;
+	}
+	
+	导出时装:
+			ExportSingleOutWard
+				1. 选择CharactersPrefabs/Fashion下一个时装prefab，目标是Outputs/Characters/Fashion目录
+				2. 建立新的game object (temGo)，粘贴OutwardSfx
+				3. 如果时装有body2的child，给temGo增加body2，保存成prefab
+				4. 每个skinnedMeshRenderer，添加FashionOutward组件
+				5. 添加FashionOutward组件的 rootBone路径，Mesh，bones信息
+				6. 添加FashionOutward组件的 Material信息(来自skinnedMeshRenderer的sharedMaterial)
+				
+			客户端UpdateFashionInfo
+				对于每个时装部位
+					SaveDefaultOutward		保存现有的时装配置 
+					SetSmrPropertyByFashionInfo		对skinnedMeshRenderer设置时装信息
+						设置skinnedMeshRenderer的 mesh material 和 bones信息 (bone设置transform)
+					如果是Body部位的 body2 部分		对skinnedMeshRenderer设置时装信息
+					LoadOutwardGfx加载特效信息				//特效相对某个挂点有偏移
+					UpdateBynamicBoneInfo		更新动态骨骼信息
+						
+				

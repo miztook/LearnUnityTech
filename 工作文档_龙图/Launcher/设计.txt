@@ -1,0 +1,47 @@
+1 win 散文件（Lua Data Config等）pck化，同iOS AOS
+2 patcher实现：实现exe 及 各种资源文件的更新检查&下载&验证
+3 patcher & game exe 窗体效果美化
+4 基于win平台的技术效果升级（待定）
+
+X:\UnityEditorGroup\Unity_Windows\Editor\Unity.exe
+ -quit -nographics 
+ -projectPath X:\_\M1Client_w\branches/longtu-trunk\UnityProject
+ -project-Tera 
+ -executeMethod BuildTools.BuildForWindows
+ -project-Tera
+ -buildTarget Win64
+ -batchmode 
+ X:\_\M1Client_w\branches/longtu-trunk\Package]
+ 
+
+Launcher的技术方案设计
+
+	要实现的目标
+		移动游戏在启动时，会进行游戏的资源版本号检查，以确定是否有资源需要热更新下载，如果需要就依次从CDN下载资源到设备上，然后再进入游戏。
+		在PC版游戏中，资源的热更新通常不在游戏内，而是在一个外部的Launcher中执行，要让Launcher完成游戏的资源下载和完整性检查。
+		Launcher要完成的功能包括:
+			1) 和游戏exe通信，读取exe的相关版本号信息
+			2) 实现健壮的下载功能，支持断点续传
+			3) 下载过程中的状态信息能及时反馈到Launcher的UI上
+			4) 提供资源完整性校验功能
+			5) Launcher要支持界面美化，可以显示宣传信息，易于维护
+
+	1.win包实现
+		通过自动打包机制或者bat批处理执行Unity命令，一键打包
+		保证散文件不会直接暴露在文件夹中
+		Windows平台下64位实现
+		需要对win包做一些分辨率设置，图形设置等额外的游戏功能
+	
+	2.界面UI
+		使用WinForm C#实现，支持自定义界面并易于维护
+		下载更新使用curl C#版本实现，和游戏客户端一致
+		支持协程，和游戏客户端实现相似
+		后台线程来完成更新过程，避免卡顿UI，用线程安全的方式刷新WinForm UI
+		和游戏exe使用文件夹通信，游戏exe在打包时将版本信息写到 StreamingAssets 目录下
+
+	3.更新流程
+		1) 设置目录，从cdn上获取资源版本号描述文件version.txt
+		2) 如果不需要更新，则Play按钮激活，启动游戏
+		3) 如果需要更新，则判断更新需要的version pair，依次下载并写到更新文件夹中
+		4) 更新完毕, Play按钮激活，启动游戏
+		5) 更新阶段发生任何错误，在UI界面提示，Play按钮不可激活

@@ -1,0 +1,36 @@
+
+
+描述
+	继承自GNewTable，只有竖排，不等高排列，Content和Item上带有UGUI的 VerticalLayoutGroup 来排列列表
+
+Feild
+	int ItemCount
+		条目数量
+Lua
+	void ScrollToStep(inr index)
+		滑到指定位置
+	void SetItemCount(int count)
+		设置Tab数量
+	void SetItemCount(int count)
+		设置Tab数量
+	void AddItem(int index)
+		在index处插入项目
+	void RemoveItem(int index)
+		在index处移除项目
+	void SelectItem(int main_index, int sub_index)
+		选中指定项,会触发ClickItemCallBack (包含OnSelectItem) 回调  并滑动到指定main index的位置
+
+	不需要调用Selection；
+
+Lua回调
+    void OnSelectItem(GameObject list, GameObject item, int index)
+	点中
+    void OnInitItem(GameObject list, GameObject item, int index)
+	初始化
+
+例子
+	TERAMobile\Assets\Prefabs\UIExamples\List_Quest
+
+
+
+

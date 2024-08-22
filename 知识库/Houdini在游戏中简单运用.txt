@@ -1,0 +1,14 @@
+https://zhuanlan.zhihu.com/p/265491647
+	1. 低模变高模
+	2. 减面制作LOD (polyreduce)
+	3. 球形法线
+	4. 法线映射
+	5. 图片转换Mesh
+https://zhuanlan.zhihu.com/p/265501865
+	法线外扩描边
+https://zhuanlan.zhihu.com/p/266298096
+	插片草从(插片加scatter撒点，point节点随机)
+https://zhuanlan.zhihu.com/p/286584250
+	顶点AO(calculation_occlusion节点)
+https://zhuanlan.zhihu.com/p/323976371
+	特效overdraw优化(trace节点根据图片形状生成mesh, 面数自己控制)

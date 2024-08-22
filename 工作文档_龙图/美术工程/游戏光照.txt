@@ -1,0 +1,62 @@
+摄像机
+	MainCamera
+		TopPateCamera
+	UICamera
+	UIMarkCamera
+
+GlobalLight
+	影响 Default Water 层，提供光照计算但没有阴影
+	
+PlayerLight
+	影响Terrain, Player, Npc, Clickable, Shadow, Hostplayer, CG, Unblockable 层 计算投影
+	Sun组件提供 Sun Color, Ambient Color
+	Sky脚本提供 Sky Sphere
+	
+Lighting设置
+	Scene
+		Skybox Material
+		Sun Source
+	
+		Environment Lighting
+			Source		Gradient颜色或Skybox 光照探针 shader中用球谐函数计算(间接光照的diffuse部分)
+		Environment Reflections
+			Source		一般设置为Skybox 反射探针 shader中用球谐函数计算(间接光照的specular部分)
+	
+		Realtime Lighting
+			实时GI 	一般不开
+		
+		Mixed Lighting
+			Baked Global Illumination	烘培GI(光照图)
+			Lighting Mode
+				Baked Indirect			//实时直接光照，间接光照使用光照图 (阴影使用实时)
+				Shadowmask				//实时直接光照，间接光照使用光照图 (阴影使用baked shadow蒙版，可以和动态阴影混合)
+				Subtractive				//直接间接光照都在光照图，动态物体光照和阴影使用场景的主平行光
+			
+		Lightmapping Settings
+				Lightmapper
+				Indirect Resolution				//间接光分辨率
+				Lightmap Resolution				//光照图分辨率
+				Lightmap Padding
+				Lightmap Size
+				Compress Lightmaps
+				Ambient Occlusion
+				Final Gather
+				Directional Mode				//有向还是无向光照图 (有向图GLES2不支持)
+				Indirect Intensity
+				Albedo Boost
+				Lightmap Parameters
+				
+	Realtime Lightmaps
+					
+	Baked Lightmaps
+		场景中加载的光照图
+	
+Light Explorer			//场景中的光照信息
+	Light Table
+		
+	Reflection Probes
+	
+	Light Probes
+	
+	Static Emissives
+	

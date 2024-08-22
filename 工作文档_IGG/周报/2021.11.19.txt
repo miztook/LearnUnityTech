@@ -1,0 +1,30 @@
+本周:
+	 资源释放 (场景切换时，定时)
+	 Shader打包规则修改 warmup				//第一次加载shader时会卡顿和闪屏
+	 Asset加载模块梳理，替换
+	 
+	 贴图详细报告			(ios: ATSC android: ETC2 不要求图片宽高相同或2的n次幂，只需要为4的倍数)
+	 Shader分析 	exr光照图的使用方法
+		
+读取AssetBundle后的bin会发生overflow exception		原因待查
+	
+m_cityMesh.CombineMeshes			生成的GameObject需要管理
+	待做: 通过反射机制列出所有模块的GameObject管理，保证每个模块的内存和资源没有泄漏
+	
+断线重连机制，增加log，调整规则，菜单快捷命令
+	GameEventGlobalMediator
+		ServerClose
+		ServerNetEvent
+		TryReConnecting
+		EndReConnecting
+		StartReConnecting
+	
+	游戏中断线重连 (每个模块的接口)
+		CmdConstant.NetWorkShutDown
+		CmdConstant.NetWorkReconnected
+
+	断线重连机制是排查各个模块内存和资源管理的一个好的方式
+
+待做:
+	houldini插件使用研究, 项目现状			
+	behavior desinger插件使用研究

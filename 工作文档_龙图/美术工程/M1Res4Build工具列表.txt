@@ -1,0 +1,83 @@
+Asset
+		SVN
+				提交CG数据
+				提交Monster数据 
+		策划
+				胶囊体
+						全部
+						选中
+		UIPrefabCheck
+		生成纹理信息文件
+		资源单独打包
+		动画相关
+				导出选择角色的基础装
+		Tools
+				CopyAssetPath												//移到 Assets/拷贝AssetPath到剪贴板
+				SFX使用的脚本导出										//和实用工具重复，去掉
+		将翻译的csv文本导入至此文件夹
+		和Interfaces文件夹比较异同
+		将该文件夹下的图片进行替换
+		
+						
+实用工具 
+
+Hoba Tools
+		EmojiMaker
+		RegionExporter
+		AssetBundles
+				Check Missing Scripts										//和实用工具重复，去掉
+				Check Prefab Elements
+				强制重新导出基础资源包
+				增量导出基础资源包
+		导出胶囊体
+		导出基础装
+		导出换装资源
+		Warn(仅限打包机)
+		Import BMFont
+		
+SceneEditor
+
+UI
+		UI辅助工具
+				UI修正所有UIPrefab的layer
+				UI替换所有界面的Image中的默认sprite
+				UI程序员便捷工具
+				UIPrefab规范检查
+				UI替换所有item中的品质图片为新的GImageGroup
+				UI生成Prefab
+				UI生成prefab中使用的atlas信息
+				UI删除Canvas组件和没用到CanvasRenderer组件
+		UI菜单
+		UI图片
+		UI生成测试用的Prefab
+		上传代码时Prefab同步
+		批量操作(请谨慎)
+				重新生成所有UI
+				操作UI字体...
+
+Tools
+		UGUI Batch工具
+		导出贴图压缩格式设置
+		Sync Interfaces
+				同步到Interface_KR
+				同步到Interface_TW
+		Organize Resources
+		美术资源检查
+			
+Build Tools
+		CollectCommonTextureInfo
+		CheckRes
+		创建ShaderVariants
+		检测内置shader引用
+
+Scene Tools
+		场景编辑器
+		Clear Process Bar
+		LoadBlocks(加载分块信息)
+		
+CGEditor
+
+Localiazation Tools
+		检查UIText层级命名
+		导出所有路径和文本
+		一键导出所有文本(路径匹配逗号分隔处理)

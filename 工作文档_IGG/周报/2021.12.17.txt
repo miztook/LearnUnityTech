@@ -1,0 +1,44 @@
+贴图格式处理
+	开启mipmap的贴图，一般为3D贴图，需要开启压缩，需要为2的n次幂 NonPowerOf2 设置为 Nearest
+	Sprite贴图不开启mipmap，长宽需要为4的倍数才能使用压缩格式 (需要使用外部工具批量修改)
+	
+现有TileEditor的BuildLod整理，大地图工具整理
+
+现有所有Tile的 
+	基础地块
+	河流
+	湖泊
+	峡谷
+	山脉
+	动态树
+	静态树	信息统计，数量，Mesh个数，贴图个数
+	
+工具:	
+	贴图统计
+	数据表的所有 int, string 输出
+	
+贴图转换	
+	NormalMap格式: 
+		PC: DXT5 (pc专有的dxt5法线压缩)
+		IOS: ASTC_RGB_5X5
+		Android: ETC2_RGB4
+		
+	LightMap格式(HDR): (HDR格式不压缩)
+		PC: RGBAHalf
+		IOS: RGBAHalf
+		Android: RGBAHalf
+		
+	Default格式: 
+		特除的几个目录 Icon, T_jiuping_ 不压缩
+		
+		一般都需要开启Mipmap，不开启的需要检查
+		
+		Unity把宽高设置为2的n次幂 
+		PC: DXT5(透明) 	DXT1(不透明)
+		IOS: ASTC_RGB_6x6 (unity会自动判断是否使用alpha)
+		Android: ETC2_RGBA8(透明) 	ETC2_RGB4(不透明)
+		
+	Sprite格式:
+		一般都不开启Mipmap，开启的需要检查
+		要使用压缩格式，宽高需要为4的倍数
+		Unity无法把宽高设为4的倍数，需要用外部工具

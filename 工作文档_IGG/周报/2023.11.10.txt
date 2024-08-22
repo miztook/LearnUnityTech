@@ -1,0 +1,15 @@
+1. GVG和吃鸡地图优化
+	树替换shader，合批，减少drawcall
+	
+2. ANR处理, 优化 touch 相关的 Raycast, 打包设置
+
+3. 游戏中的GC优化
+	吃鸡地图毒区刷新, GetPixel, SetPixel
+	Hotfix的Invoke导致持续GC
+	AllianceProxy刷新红点频繁创建Timer
+
+4. 去掉Dictionary中的Enum key值				//Enum不会分配GC
+
+5. Language.bin的检查
+	<color></color>的匹配
+	cn和其他语言的{}检查

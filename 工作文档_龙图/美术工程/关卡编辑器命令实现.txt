@@ -1,0 +1,133 @@
+菜单SceneEditor
+		加载			//FileLoadEditor
+			读取EditorMaps目录下的xml, 表示每个编辑的场景 branchTid表示是否有分支场景
+			当选取其中一个场景后，调用CopyTargetSceneAndOpenCopy
+				打开固定的场景EditorMaps.unity 删除所有gameobject
+				加载Assets/Outputs/Scenes下的场景文件prefab
+				加载编辑数据的Prefab (EditMaps同xml下的prefab目录)		启用LevelController
+				加载场景所有的分块prefab
+		
+		创建			//FileNameEditor
+			首先取一个场景名，然后从Assets/Output/Scenes下选一个地图资源
+			打开CGEditorScene.unity场景
+			加载Assets/Outputs/Scenes下的场景文件prefab
+			创建3个灯光prefab，创建摄像机
+			加载场景所有的分块prefab
+			创建编辑数据GameObject，添加LevelController组件
+			
+		添加对象		//CreateEditor
+			是给场景的LevelController添加对象
+				怪物生成器				//MonsterGenerator
+				Npc生成器				//NpcGenerator
+				障碍物生成器			//ObstacleGenerator
+				矿物生成器				//MineGenerator
+				添加贝塞尔				//BezierCurve
+				添加区域				//创建LevelRegionPrefab
+				添加目标点				//TargetPoint
+				添加传送区域			//创建LevelPortalRegionPrefab
+				添加出生点				//BirthPosition
+				添加复活点				//ResurrectionPosition
+				添加相位区域移动范围	//PhaseMoveGenerator
+
+		保存
+			配置文件
+				导出CSV配置文件
+					功能：导出场景的monster, npc, region
+					monster来自于entityGenerator的怪类型
+					npc来自于entityGenerator的npc类型
+					region来自于region中的找到匹配bezierCurveId的贝塞尔曲线
+
+				导出Lua配置文件
+					功能: 	把Scene.data的数据导出成每个场景id命名的lua
+							导出LinkToScene.lua			//导出每个场景包括的monster, npc, mine的id配置 他们属于哪个场景
+					实现: 	MapInfo.SaveToLua
+							对每个场景
+								InitLevelMonsterGeneratorToLua			//怪生成器
+								InitLevelNpcGeneratorToLua			//npc生成器
+								InitLevelRegionToLua				//1.传送区域 2.普通区域
+								InitLevelMineGeneratorToLua			//矿生成器
+								InitLevelEntityToLua				//entity生成器
+								InitLevelTargetPoint				//targetPoint
+					
+
+				导出Lua副本配置文件
+					功能： 	导出副本结算的位置到 MapDungeonEnd.lua		//读取EditMaps下的场景prefab的LevelTargetPointPrefab组件
+					实现: 	DungeonEndTool.SaveToLua	//在场景中把LevelTargetPointPrefab组件设置为一个目标点
+
+				导出Lua传送配置文件
+					功能： 导出地图连接配置文件 MapLinkInfo.lua //判断地图之间是否可直达，如果不可直达找到提供传送服务的npc 
+					实现:  LinkInfo.SaveToLua 		//通过场景之间的配置填充MapLinkInfo，计算连接关系
+
+				导出Lua冒险指南配置文件
+					功能： 导出活动配置文件 ActivityBasicInfo.lua			//弃用	
+					
+				导出怪物胶囊体半径
+					功能： 给Monster.data添加胶囊体半径字段，数值取怪物模型的CapsuleCollider.radius值
+
+				导出区域和碰撞文件(服务器)
+					功能: 导出每个地图的区域和阻挡的文件(服务器使用) .regionset 和 .obstacleset
+					
+					
+				另外, 客户端中生成的lua文件 
+					执行M1Client下的 生成GameRes下Data辅助的Lua表.bat 在 GameRes\Configs 下生成
+					AdventureGuideBasicInfo.lua			//冒险指南配置文件
+					WingLevelUpData.lua					//翅膀升级配置文件
+					
+			保存并且导出区域文件			保存prefab, Scene.data, RegionSet, ObstacleSet
+				保存场景xml
+				所有prefab生成对应data
+				导出区域和碰撞文件(服务器)
+				
+			
+			保存但是不导出区域文件			保存prefab, Scene.data
+				保存场景xml
+				所有prefab生成对应data
+				
+			所有prefab重新生成data			//LevelPb.Save
+				将每个编辑的prefab数据，导出到对应的SceneData下的<id>.data
+					InitMapInfo
+						Scene的一些通用信息来自于 LevelMap组件 (出生点，复活点)
+						Scene的ScenePositions来自于 LevelPositionPrefab组件
+						Scene的BezierCurves来自于 LevelBezierCurvePrefab组件 (完成Node连接，中心点计算)
+						Scene的Regions来自于 LevelRegionPrefab组件 (保留大多数在模板编辑器里的信息，主要设置区域范围)
+						Scene的TargetPoints来自于 LevelTargetPointPrefab组件
+						Scene的PortalRegions来自于 LevelPortalRegionPrefab组件 (传送到的worldId和位置朝向)
+						Scene的EntityGenerators来自于 
+								LevelMonsterGenerator提供Monster类型的信息 每个LevelMonsterPrefab是一个entity
+								LevelNpcGenerator提供Npc类型的信息 每个LevelNpcPrefab是一个entity
+								LevelObstacleGenerator提供Obstacle类型的信息 每个LevelObstaclePrefab是一个entity
+								LevelPhaseMovePrefab也是一种Obstacle，提供相位区域范围的特殊障碍物信息
+								LevelMineGenerator提供Mine类型的信息，每个LevelMinePrefab是一个entity
+		数据处理
+			提交
+			
+			
+			导出
+				导出区域和碰撞文件(服务器)					//生成服务器使用的文件
+				导出怪物胶囊体半径Monster.data				//设置Monster的碰撞半径为capsuleCollider的半径
+	
+LevelController概述	场景编辑器的核心组件
+		包括子节点
+			Monster							//创建 LevelMonsterPrefab 和 LevelMosnterGenerator
+			Npc								//创建 LevelNpcPrefab 和 LevelNpcGenerator
+			Obstacle						//创建 LevelObstaclePrefab 和 LevelObstacleGenerator
+			Mine							//创建 LevelMinePrefab 和 LevelMineGenerator
+			BezierCurve						//创建 LevelBezierCurvePrefab 和 LevelBezieerNodePrefab
+			Region							//设置 LevelRegionPrefab的region prefab位置
+			Position						//创建 LevelPositionPrefab 设置出生点和复活点
+			TargetPoint						//创建 LevelTargetPointPrefab
+			PortalRegion					//创建 LevelPortalRegionPrefab
+			PhaseMove						//创建 LevelPhaseMoveGenerator边长生成器，然后生成区域Region
+			Point
+			
+MapLinkInfo 结构
+		targetSceneId	//目标场景id
+		nonstop			//是否直达
+		portalInfo		//传送信息			对每个场景 如果 portalregion的AssociatedWorldId等于目标场景id，则认为可直达，找到这个区域的id和中心点
+		linkInfo		//找npc传送			如果不可直达，对每个场景 如果目标场景的npc服务中有protaiId等于本场景id，则认为目标场景的这个npc可以传送到本场景
+		regionInfo		//相位传送			对每个场景 如果目标场景的区域的PhaseDungeonID等于本场景id，则认为有相位传送关系(目标场景相位出来到本场景)
+		
+DungeonEndInfo 结构
+		sceneId			//场景id
+		position		//位置
+		rotation		//朝向

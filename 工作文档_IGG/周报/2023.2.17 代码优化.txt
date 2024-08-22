@@ -1,0 +1,12 @@
+热更目录调整
+目标：
+	1. 减少热更dll大小
+	2. 减少热更层和Client层交互
+	3. 减少热更层的data数量 (内存增加)
+	4. 控制热更新内容 
+	
+实现:
+	1. Proxy移到客户端 (数据)
+	2. Proxy不能直接操作Mediator (用Event)
+	3. Proxy之间减少交互
+	4. 数据多的Mediator提取Proxy

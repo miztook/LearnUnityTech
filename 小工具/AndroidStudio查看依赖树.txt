@@ -1,0 +1,10 @@
+查看程序包 (app换成工程名)
+	gradlew :app:dependencies --configuration compile
+	gradlew :app:dependencies
+	gradlew :app:dependencies > D:/tmp.txt
+
+查看打包错误
+	gradlew  assembleDebug  --stacktrace
+	
+	gradlew :launcher:dependencies > D:/tmp.txt
+	

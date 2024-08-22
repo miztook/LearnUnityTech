@@ -1,0 +1,14 @@
+圣地的制作规范:
+	1. 节点分为
+		Dimian						//地表，材质 shengdi1_dimian_mask
+		Ground						//中心底座, 材质 map_building_4
+		Road						//公路, 材质 map_building_2
+		Building					//建筑, 材质 map_building_1
+		Collision					//行走碰撞
+		Collision_da				//落堡碰撞，为边长为90的正方形
+	2. 贴图位置
+		shengdi_dimian				//地表贴图
+		shengdi_road				//公路
+		shengdi_texture				//建筑贴图
+	3. 大小
+		圣地大小为 90X90 的格子内，圣地1缩放为4

@@ -1,0 +1,7 @@
+ShaderVariants生成
+	搜集所有用到的shader和关键字，游戏启动时warmup避免编译
+	搜集material中使用的关键字，避免unity中自带的关键字被使用
+
+动画
+	Curve数据的scale去除
+	Animation数据的精度减少(6位小数变3位小数, 但可能引起动画错误)

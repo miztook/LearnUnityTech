@@ -1,0 +1,16 @@
+https://zhuanlan.zhihu.com/p/342418327?utm_id=0
+
+
+BRDF1	高质量
+
+	漫反射	DisneyDiffuse (粗糙度)
+	镜面反射 	D: GGXTerm (粗糙度) G: SmithJointGGXVisibilityTerm (粗糙度) F: FresnelTerm 最后计算表面公式
+	
+BRDF2	中质量
+
+	漫反射 	Lambert
+	镜面反射	D: 简化版的CoolTorrance 再加一次Lambert计算
+	
+BRDF3	低质量
+	漫反射 	Lambert
+	镜面反射	Blinn-Phong模型 和 smoothness采样相乘

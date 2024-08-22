@@ -1,0 +1,16 @@
+本周:
+	网络连接流程梳理
+	IGlobalManager 接口调整 NetManager注册
+	去掉BeforeInit, AfterInit等冗余接口
+	增加性能工具	Memory Dump
+	
+	安卓打包	解决AndroidX 和 android.support.v4 冲突的问题
+		// 在 Assets\Plugins\Android 下添加 gradleTemplate.properties
+			android.useAndroidX=true
+			android.enableJetifier=true
+				
+				il2cpp打包通过			//需要精简C#代码避免包体过大
+		
+	快速定位安装包的问题	Mumu模拟器 + monitor.exe
+	精简代码	去掉UniTask
+	 

@@ -1,0 +1,29 @@
+1. 在exe模式下加载所有资源，排查资源丢失脚本报警告的问题
+		解决PlayableDirector由于复制粘贴导致的Scenes Binding没有被清理的问题
+
+2. 检查所有类的timer成员，看是否被正确释放
+
+3. 打包后显示效果和unity中有差异
+		用FrameDebugger定位问题，宏不一致
+		shader_feature的宏需要加到 shader_variant 中才会进包
+		如果不在material中指定，通过代码EnableKeyword打开的宏无法被收集到，把宏改为 multi_compile
+		
+4. 代码热更新，调整结构
+	ClientDataUtils	用于处理 Proxy数据的客户端部分
+	ResourceId.cs
+	UIId.cs
+
+	UI相关的移到HotFix里，不在Client中处理
+	
+	Client中涉及调用Hotfix部分的，用Action, Func回调处理，在HotfixGlobalMediator中统一处理
+	
+	Client中用EventManager，不用AppFacade通知
+	//重命名 Client, 不可热更
+	RS.cs  ->  ClientRS.cs
+	CmdConstant.cs 	-> 	ClientCmdConstant.cs
+	
+	世界特效依赖于 PVE EffectComponent系统
+	
+5.  优化
+	MatrixRow.ResetUnit
+	AnimationBase		去掉Coroutine 改为Update

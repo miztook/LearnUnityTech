@@ -1,0 +1,13 @@
+1. 性能需要注意的点
+	SoftMask		
+		消耗 Canvas.willRenderCanvases += UpdateMaskTextures
+		需要创建一个maskRenderBuffer		每个父节点使用一个，可读的，消耗比较大
+	UIParticle
+		消耗 Canvas.willRenderCanvases += Refresh;
+		在willRenderCanvas时需要把一个Particle合并成一个UI的mesh，消耗巨大  
+		
+2.  优化
+		检查打包的所有prefab中，包含SoftMask和UIParticle的结构
+		1)	考虑替换SoftMask为普通Mask
+		2) 	UIParticle看使用的场景，若不是很明显则可以禁用
+		3)	去掉实现中的GC分配
