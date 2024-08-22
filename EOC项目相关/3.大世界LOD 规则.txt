@@ -1,0 +1,82 @@
+
+LOD等级管理，在WorldCamera的 LevelDetailCamera 组件上， 目前最大的配置dxf为39990，最大lod为4
+	LOD=0, MapViewLevel.City,					dxf < 1500
+	LOD=1, MapViewLevel.Tactical,				dxf < 3000			
+		   MapViewLevel.TacticsToStrategy_1		dxf < 4500
+		   MapViewLevel.TacticsToStrategy_2		dxf < 5400
+	LOD=2, MapViewLevel.Strategic,				dxf < 8000
+	LOD=3, MapViewLevel.Strategic,				dxf < 20000
+	LOD=4, MapViewLevel.Nationwide,				dxf < 42500
+	LOD=5, MapViewLevel.Nationwide,				dxf < 999999
+	
+摄像机LOD配置
+	内城dxf			city					//摄像机dxf小于它则在内城
+	内城边界dxf		enter_world				//摄像机dxf大于它则在外城
+	显示省份最小	city_bound
+	显示省份最大	dispatch
+	
+	内城摄像机 
+		默认: city_default
+		limit_min: limit_min
+		min: min
+		limit_max: city_bound
+	世界摄像机
+		默认: map_tactical
+		limit_min: world_limit_min
+		min: world_min
+		limit_max: limit_max
+	PVP
+		默认: pvp_init
+		limit_min: pvp_fight
+		min: pvp_fight
+		limit_max: pvp_init
+	巡逻
+		FTE_Scout
+	主界面显示					lod变化时，主界面模块的显隐
+		0			city_bound
+		1			dispatch
+		2			TacticsToStrategy1
+		3			TacticsToStrategy2
+		4			strategic_min
+		5			max
+		6			limit_max
+		
+目前的摄像机Lod配置
+	CameraLodParams, Count: 23
+		limit_min, dist: 14.47, fov: 5.3, dxf: 76.691
+		min, dist: 15.47, fov: 5.33, dxf: 82.4551
+		city_default, dist: 20, fov: 6.5, dxf: 130					//内城模式默认值
+		enter_world, dist: 24.318, fov: 10, dxf: 243.18
+		city, dist: 25, fov: 10, dxf: 250
+		city_bound, dist: 25, fov: 10, dxf: 250
+		
+		pvp_fight, dist: 70, fov: 10, dxf: 700
+		pvp_init, dist: 100, fov: 10, dxf: 1000						//pvp模式下默认值
+			
+
+		world_limit_min, dist: 24.693, fov: 11, dxf: 271.623
+		world_min, dist: 24.693, fov: 11, dxf: 271.623
+	
+		map_tactical, dist: 50.3, fov: 30, dxf: 1509				//大世界模式下默认值		
+
+		FTE_Scout, dist: 80, fov: 30, dxf: 2400
+		dispatch, dist: 99.9, fov: 30, dxf: 2997
+		
+		TacticsToStrategy1, dist: 150, fov: 30, dxf: 4500
+		TacticsToStrategy2, dist: 180, fov: 30, dxf: 5400
+		strategic_min, dist: 668, fov: 30, dxf: 20040
+		max, dist: 1333, fov: 30, dxf: 39990
+		limit_max, dist: 1333, fov: 30, dxf: 39990
+		
+		
+		
+LOD设置 
+	LevelDetailTililng			在 GameApp场景 SceneObject/WorldCameraShake/WorldCamera 组件下
+	
+	LevelDetailCamera
+	
+	LevelDetailScalerManager
+		设置树的scale		设置shader的_TreeScale值
+		设置雾的scale		设置shader的_FogScale值
+		设置CellNoTex的scale		修改transform的scale
+	

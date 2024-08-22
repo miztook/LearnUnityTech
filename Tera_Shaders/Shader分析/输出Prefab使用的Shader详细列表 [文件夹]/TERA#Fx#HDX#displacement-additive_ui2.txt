@@ -1,0 +1,34 @@
+﻿TERA/Fx/HDX/displacement-additive_ui2
+		ailinushilianzhe_skill05_cast/position/trail01
+		ailinushilianzhe_skill05_cast/position/trail02
+		bianyinangua_attack01_c_zadi/GameObject/GameObject/luoxuanxian_04 (2)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject/luoxuanxian_04 (2)
+		bianyinangua_skill01_juqi/bianyinangua_skill01_juqi/juqi
+		bianyinangua_skill01_zadi_1/GameObject/GameObject/luoxuanxian_04 (2)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject/luoxuanxian_04 (2)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject/luoxuanxian_04 (2)
+		dijing_attack01_c_daoguang/GameObject/GameObject/luoxuanxian_04 (2)
+		dijing_skill01_c_daoguang/GameObject/GameObject/luoxuanxian_04 (2)
+		feihongxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/juqi
+		feihongxueyuanmonv_attack02_c_shifa2/glow/juqi (1)
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/nangua add
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/xiaosan
+		mohuayifulin_skill03_c_yujing/yujing01/nangua add (1)
+		mohuayifulin_skill03_c_yujing/yujing02/nangua add (1)
+		mohuayifulin_skill03_c_yujing/yujing03/nangua add (1)
+		mohuayifulin_skill03_c_yujing/yujing04/nangua add (1)
+		mohuayifulin_skill03_c_yujing/yujing05/nangua add (1)
+		mohuayifulin_skill04_c_yujing/yujing/nangua add (1)
+		nangua/dimian (2)/nangua add
+		nangua/feng
+		nangua/xiaosan
+		qinglanxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/juqi
+		qinglanxueyuanmonv_attack02_c_shifa2/glow/juqi (2)
+		shijiuchoujue_attack02_c_quanfeng/GameObject/glo (1)
+		shijiuchoujue_attack02_c_quanfeng/GameObject/glo (2)
+		shijiuchoujue_skill01_c_suduxian/GameObject (1)/GameObject (2)/glo (1)
+		shijiuchoujue_skill01_c_suduxian/GameObject (1)/GameObject (2)/glo (2)
+		shijiuchoujue_skill01_c_suduxian/GameObject/GameObject (1)/glo (1)
+		shijiuchoujue_skill01_c_suduxian/GameObject/GameObject (1)/glo (2)
+		shijiuchoujue_skill04_c_baozha/dimian (2)/nangua add
+		shijiuchoujue_skill04_c_baozha/feng

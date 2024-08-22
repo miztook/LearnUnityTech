@@ -1,0 +1,286 @@
+﻿TERA/Fx/HDX/ParticleOffset3
+		alekunpozhenzhe_skill01/alekunpozhenzhe_skill01_L0/juqi/juqi_line_blend
+		alekunpozhenzhe_skill01/alekunpozhenzhe_skill01_L3/juqi/juqi_line_blend
+		alekunpozhenzhe_skill01_L0/alekunpozhenzhe_skill01_L0/juqi/juqi_line_blend
+		alekunpozhenzhe_skill01_L3/alekunpozhenzhe_skill01_L3/juqi/juqi_line_blend
+		alekunpozhenzhe_skill02_cast_L/juqi/juqi_line_blend
+		alekunpozhenzhe_skill02_cast_R/juqi/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_bing/alilancer_f_ultskill01_a_c_xuli_bing_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_bing/alilancer_f_ultskill01_a_c_xuli_bing_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_bing_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_bing_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_guang/alilancer_f_ultskill01_a_c_xuli_guang_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_guang/alilancer_f_ultskill01_a_c_xuli_guang_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_guang_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_guang_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_lei/alilancer_f_ultskill01_a_c_xuli_lei_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_lei/alilancer_f_ultskill01_a_c_xuli_lei_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_lei_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_lei_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_normal/alilancer_f_ultskill01_a_c_xuli_normal_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_normal/alilancer_f_ultskill01_a_c_xuli_normal_L3/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_normal_L1/dimian/juqi_line_blend
+		alilancer_f_ultskill01_a_c_xuli_normal_L3/dimian/juqi_line_blend
+		bafengte_born01_c_left_wing_trail/left_wing_trail/Trails (4)
+		bafengte_born01_c_left_wing_trail/left_wing_trail/Trails (5)
+		bafengte_born01_c_right_wing_trail/right_wing_trail/Trails (4)
+		bafengte_born01_c_right_wing_trail/right_wing_trail/Trails (5)
+		bafengte_skill01_c_huixuanzhan/daoguang_01/around/juqi_line_blend
+		bafengte_skill01_c_huixuanzhan/daoguang_01/around/juqi_line_blend (1)
+		bafengte_skill01_c_huixuanzhan/daoguang_01/around/juqi_line_blend (2)
+		bianyinangua_attack01_c_zadi/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/chongjibo ab (1)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/chongjibo ab (1)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/chongjibo ad (1)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/chongjibo ab (1)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/chongjibo ad (1)
+		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_an/casassassin_m_utlskill_huanying_an_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_an_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_an_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_an_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_huo/casassassin_m_utlskill_huanying_huo_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_huo/casassassin_m_utlskill_huanying_huo_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_huo/casassassin_m_utlskill_huanying_huo_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_huo_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_huo_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_huo_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_lei/casassassin_m_utlskill_huanying_lei_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_lei/casassassin_m_utlskill_huanying_lei_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_lei/casassassin_m_utlskill_huanying_lei_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_lei_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_lei_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_lei_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_normal/casassassin_m_utlskill_huanying_normal_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_normal/casassassin_m_utlskill_huanying_normal_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_normal/casassassin_m_utlskill_huanying_normal_L3/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_normal_L0/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_normal_L1/juqi/juqi/juqi_line_blend (3)
+		casassassin_m_utlskill_huanying_normal_L3/juqi/juqi/juqi_line_blend (3)
+		chihoutongling_attack02_zhimingfenchen/luoxuan (4)
+		chihoutongling_skill01_faqiubaozha/juqi/guiji/guiji01
+		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/show_archer_helix_luoxuanxian/juqi (1)/juqi_line_blend
+		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/show_archer_helix_luoxuanxian/juqi/juqi_line_blend
+		damonvyifulin_huoqiu_tongyong/huoqiu/luoxuanxian_bland
+		damonvyifulin_skill02_c_juqi/juqi/juqi_line_blend
+		feihongxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/Particle System
+		gelumoshilianzhe_skill05_cast/juqi/juqi_line_blend
+		haiguzhiwang_attack02_ci/juqi/juqi_line_blend
+		jinglingfurennv_skill01_cast/juqi/juqi_line_blend (1)
+		jinglingfurennv_skill03_fire_cast02/juqi/juqi_line_blend (1)
+		jinglingfurennv_skill03_ice_cast02/juqi/juqi_line_blend (1)
+		juzhuangshuyao_attack01_c/chongjibo ab
+		juzhuangshuyao_attack01_c/chongjibo ad
+		juzhuangshuyao_skill01_c/chongjibo ab (1)
+		juzhuangshuyao_skill01_c/chongjibo ad (1)
+		luokexunjiaojun_skill01_xuli/xuli/xiantiao (1)
+		mofata_blue_fly_jiguang/jiguang/juqi_line_blend
+		mofata_red_fly_jiguang/jiguang/juqi_line_blend
+		nanguamoou_skill01_c_baozha/baozha/waiquan2 (6)
+		nanguamoou_skill03_c_c_baozha/huozhu/waiquan2 (6)
+		qinglanxueyuanmonv_attack02_c_shifa1/juqi_ground/juqi_ground/Particle System
+		saibolusi_attack01_c_siyao/quan_side (2)
+		scene_liefeng_guangzhu/trail03
+		scene_liefeng_guangzhu/trail04
+		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail01
+		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail02
+		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail03
+		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/trail04
+		shijiuchoujue_skill01_c_yanchen/Particle System (5)
+		shijiuchoujue_skill01_c_yanchen/Particle System (6)
+		shijiuchoujue_skill03_c_shifa/juqi_line_blend
+		shijiuchoujue_skill03_c_shifa/Particle System (3)
+		shijiuchoujue_skill03_c_shifa/Particle System (7)
+		shijiuchoujue_skill03_c_shifa/Particle System (8)
+		shijiuchoujue_skill04_c_baozha/Particle System (2)
+		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_bing/sprarcher_f_skill01+_c_fashe_bing_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_bing_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_bing_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_bing_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_feng/sprarcher_f_skill01+_c_fashe_feng_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_feng/sprarcher_f_skill01+_c_fashe_feng_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_feng/sprarcher_f_skill01+_c_fashe_feng_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_feng_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_feng_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_feng_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_huo/sprarcher_f_skill01+_c_fashe_huo_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_huo/sprarcher_f_skill01+_c_fashe_huo_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_huo/sprarcher_f_skill01+_c_fashe_huo_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_huo_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_huo_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_huo_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_normal/sprarcher_f_skill01+_c_fashe_norma_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_normal/sprarcher_f_skill01+_c_fashe_norma_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_normal/sprarcher_f_skill01+_c_fashe_norma_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_normal_L0/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_normal_L1/juqi/juqi_line_blend (1)
+		sprarcher_f_skill01+_c_fashe_normal_L3/juqi/juqi_line_blend (1)
+		sprarcher_f_skill02+_c_fashe_bing/sprarcher_f_skill02+_c_fashe_bing_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_bing/sprarcher_f_skill02+_c_fashe_bing_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_bing_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_bing_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_feng/sprarcher_f_skill02+_c_fashe_feng_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_feng/sprarcher_f_skill02+_c_fashe_feng_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_feng_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_feng_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_huo/sprarcher_f_skill02+_c_fashe_huo_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_huo/sprarcher_f_skill02+_c_fashe_huo_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_huo_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_huo_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_huo_L3/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_normal/sprarcher_f_skill02+_c_fashe_normal_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_normal/sprarcher_f_skill02+_c_fashe_normal_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_normal_L0/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_normal_L1/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_fashe_normal_L3/juqi/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_bing/sprarcher_f_skill02+_c_huixuan_bing_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_bing/sprarcher_f_skill02+_c_huixuan_bing_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_bing/sprarcher_f_skill02+_c_huixuan_bing_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_bing_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_bing_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_bing_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_feng/sprarcher_f_skill02+_c_huixuan_feng_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_feng/sprarcher_f_skill02+_c_huixuan_feng_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_feng/sprarcher_f_skill02+_c_huixuan_feng_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_feng_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_feng_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_feng_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_huo/sprarcher_f_skill02+_c_huixuan_huo_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_huo/sprarcher_f_skill02+_c_huixuan_huo_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_huo/sprarcher_f_skill02+_c_huixuan_huo_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_huo_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_huo_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_huo_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_normal/sprarcher_f_skill02+_c_huixuan_normal_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_normal/sprarcher_f_skill02+_c_huixuan_normal_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_normal/sprarcher_f_skill02+_c_huixuan_normal_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_normal_L0/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_normal_L1/huixuan/juqi_line_blend
+		sprarcher_f_skill02+_c_huixuan_normal_L3/huixuan/juqi_line_blend
+		sprarcher_f_skill04+_c_xiantiao_bing/juqi (1)/juqi_line_blend
+		sprarcher_f_skill04+_c_xiantiao_feng/juqi (1)/juqi_line_blend
+		sprarcher_f_skill04+_c_xiantiao_huo/juqi (1)/juqi_line_blend
+		sprarcher_f_skill04+_c_xiantiao_normal/juqi (1)/juqi_line_blend
+		sprarcher_f_skill05+_c_qilang_bing/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill05+_c_qilang_feng/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill05+_c_qilang_huo/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill05+_c_qilang_normal/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill06+_c_jian_bing/sprarcher_f_skill06+_c_jian_bing_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_bing/sprarcher_f_skill06+_c_jian_bing_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_bing/sprarcher_f_skill06+_c_jian_bing_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_bing_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_bing_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_bing_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_huo/sprarcher_f_skill06+_c_jian_huo_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_huo/sprarcher_f_skill06+_c_jian_huo_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_huo/sprarcher_f_skill06+_c_jian_huo_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_huo_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_huo_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_huo_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_normal/sprarcher_f_skill06+_c_jian_normal_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_normal/sprarcher_f_skill06+_c_jian_normal_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_normal/sprarcher_f_skill06+_c_jian_normal_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_normal_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_normal_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jian_normal_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX1_feng/sprarcher_f_skill06+_c_jianX1_feng_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (2)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX1_feng/sprarcher_f_skill06+_c_jianX1_feng_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (2)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX1_feng/sprarcher_f_skill06+_c_jianX1_feng_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (2)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX1_feng_L0/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (2)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX1_feng_L1/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (2)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX1_feng_L3/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (2)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L0/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L0/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L0/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L1/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L1/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L1/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng/sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L0/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L0/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L0/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L1/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L1/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L1/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Spark 2 (4)/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_01/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_02/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_jianX3_feng_L3/sprarcher_f_skill06+_c_jianX3_feng_03/GameObject/sprarcher_f_attack04_shanshe/Particle System/Arrow (1)/juqi_line_add (5)
+		sprarcher_f_skill06+_c_qilang_bing/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill06+_c_qilang_feng/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill06+_c_qilang_huo/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_skill06+_c_qilang_normal/qilang_ground/qilang_ground/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_bing_L0/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_bing_L0/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_bing_L1/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_bing_L1/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_bing_L3/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_bing_L3/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_feng_L0/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_feng_L0/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_feng_L1/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_feng_L1/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_feng_L3/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_feng_L3/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_huo_L0/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_huo_L0/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_huo_L1/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_huo_L1/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_huo_L3/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_huo_L3/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_normal_L0/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_normal_L0/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_normal_L1/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_normal_L1/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_jian_normal_L3/ultskill01_Arrow/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_jian_normal_L3/ultskill01_Arrow/qilang/juqi_line_add (4)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_01_feng/fume/juqi_line_blend (4)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_02_feng/fume/juqi_line_blend (3)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_03_feng/fume/juqi_line_blend (2)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_04_feng/fume/juqi_line_blend (1)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_05_feng/fume/juqi_line_blend
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_01_feng/fume/juqi_line_blend (4)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_02_feng/fume/juqi_line_blend (3)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_03_feng/fume/juqi_line_blend (2)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_04_feng/fume/juqi_line_blend (1)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng/sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_05_feng/fume/juqi_line_blend
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_01_feng/fume/juqi_line_blend (4)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_02_feng/fume/juqi_line_blend (3)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_03_feng/fume/juqi_line_blend (2)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_04_feng/fume/juqi_line_blend (1)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L1/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_05_feng/fume/juqi_line_blend
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_01_feng/fume/juqi_line_blend (4)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_02_feng/fume/juqi_line_blend (3)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_03_feng/fume/juqi_line_blend (2)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_04_feng/fume/juqi_line_blend (1)
+		sprarcher_f_ultskill01+_c_sanshe_jian_feng_L3/sprarcher_f_ultskill01+_c_sanshe_feng/sprarcher_f_ultskill01+_c_hit_sanshe_jian_feng/sprarcher_f_ultskill01+_c_jian_05_feng/fume/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_bing/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_feng/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_huo/sprarcher_f_ultskill01+_c_xiantiao_huo_L0/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_huo/sprarcher_f_ultskill01+_c_xiantiao_huo_L1/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_huo/sprarcher_f_ultskill01+_c_xiantiao_huo_L3/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_huo_L0/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_huo_L1/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_huo_L3/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		sprarcher_f_ultskill01+_c_xiantiao_normal/ultskill01+_c_xiantiao_normal/juqi/juqi_line_blend
+		wendigesaman_skill01_c_zhaohuanfazhen/juqi (1)/juqi_line_blend
+		xueroukuilei_skill02_c_chongfeng/zhao/luoxuan02
+		yamijiduodun_attack01_c_wuqi/attack01/juqi_line_blend
+		yisilianshilianzhe_tianfu_chuansong_L0/youhun_add
+		yisilianshilianzhe_tianfu_chuansong_L0/youhun_alpha
+		yisilianshilianzhe_tianfu_chuansong_L3/youhun_add
+		yisilianshilianzhe_tianfu_chuansong_L3/youhun_alpha
+		yisilianshilianzhe_tianfu_fuhua/youhun_add (1)
+		yisilianshilianzhe_tianfu_fuhua/youhun_alpha (1)
+		zhizhengguan_skill01/zhizhengguan_skill01_L0/juqi/juqi_line_blend
+		zhizhengguan_skill01/zhizhengguan_skill01_L3/juqi/juqi_line_blend
+		zhizhengguan_skill01_L0/juqi/juqi_line_blend
+		zhizhengguan_skill01_L3/juqi/juqi_line_blend
+		zhizhengguan_skill02_cast_L/juqi/juqi_line_blend
+		zhizhengguan_skill02_cast_R/juqi/juqi_line_blend

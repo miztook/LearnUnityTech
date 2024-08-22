@@ -1,0 +1,61 @@
+https://ourpalm.github.io/ILRuntime/
+
+ILRuntime	2.0.2 
+
+从零开始
+	Unity主工程和更新Dll，两个AppDomain中交互
+
+寄存器模式
+	ILRuntimeJITFlags.JITOnDemand
+	ILRuntimeJITFlags.JITImmediately
+	ILRuntimeJITFlags.NoJIT
+
+	推荐 
+		直接在AppDomain构造函数处指定JITOnDemand模式
+
+ILRuntime中使用委托
+	如果要将委托实例传给ILRuntime外部使用，则需要在Unity主工程添加适配器或转换器
+	appDomain.DelegateManager.RegisterMethodDelegate
+	ILRuntime内部是使用Action,以及Func这两个系统自带委托类型来生成的委托实例, 如果不是Action或Func类型，额外需要一个转换器
+
+	推荐
+		尽量避免不必要的跨域委托调用
+		尽量使用Action以及Func这两个系统内置万用委托类型
+
+ILRuntime中跨域继承
+	如果想在热更dll项目中 继承一个Unity主工程类或者实现一个主工程接口，需要在Unity主工程实现一个继承适配器
+	appdomain.RegisterCrossBindingAdaptor
+
+ILRuntime中的反射
+	在ILRuntime中模拟 ILRuntimeType，ILRuntimeMethodInfo，ILRuntimeFieldInfo
+	appdomain.Instantiate			//主工程中创建热更Dll类型的实例
+
+CLR重定向
+	当IL解译器发现需要调用某个指定CLR方法时，将实际调用重定向到另外一个方法进行挟持
+	appdomain.RegisterCLRMethodRedirection
+
+CLR绑定
+	CLR绑定借助了ILRuntime的CLR重定向机制来实现，因为实质上也是将对CLR方法的反射调用重定向到我们自己定义的方法里面
+	ILRuntime.Runtime.CLRBinding.BindingCodeGenerator.GenerateBindingCode
+
+LitJson集成
+	LitJson.JsonMapper.RegisterILRuntimeCLRRedirection			//初始化
+	
+
+L2CPP打包注意事项
+	link.xml文件指定要保留的类型，不会被裁剪
+	泛型实例和泛型方法的问题	尽量避免在热更DLL中调用Unity主工程的泛型方法
+	
+ILRuntime的性能优化建议
+	CLR绑定
+		默认情况下，ILRuntime中调用Unity主工程的方法，ILRuntime会通过反射对目标方法进行调用，这个过程会因为装箱，拆箱等操作，产生大量的GC Alloc和额外开销
+		因此我们需要借助CLR绑定功能，将我们需要的函数调用进行静态绑定
+		菜单 Generate CLRBinding code 生成绑定代码
+	值类型
+		ValueTypeBinding
+		避免在ILRuntime外部定义值类型
+	缓存params可变参数的方法
+	
+ILRuntime的实现原理
+	ILRuntime借助Mono.Cecil库来读取DLL的PE信息，以及当中类型的所有信息，最终得到方法的IL汇编码，然后通过内置的IL解译执行虚拟机来执行DLL中的代码
+	

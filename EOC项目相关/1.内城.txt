@@ -1,0 +1,64 @@
+CityGlobalMediator类中
+	管理内城场景的根节点	CityBuildingContainer
+	摄像机		CityBuildingContainer/ground/Camera				//CityCamera脚本
+	
+CityBuildingContainer
+		Decorate			//装饰
+		RoadRoot				//路
+		RoadLampRoot		//路灯
+		PatroyDummy			//巡逻卫兵
+		groundCollider			//地面碰撞
+	
+入口
+	玩家登录之后，服务器推送
+		
+	FogSystemMediator
+		在登录结束后，获取角色的迷雾信息
+		InitFogSystem 	加载大世界的迷雾系统 	Weather/fogSystem
+
+	SwitchMainCityCmd
+		mapManager 设置 MapWidth  	7200/180
+		发通知	
+			DayNightInit
+			GuideInitData
+			DayNightTimeTick
+		ClientUtils.mapManager.ReadMapBriefDataFromFile2 加载 BundleAssets/land/MapData/map_4_data.bytes
+			ClientUtils.mapManager.ReadMapDataFromFile2 加载 BundleAssets/land/MapData/tile_data.bytes
+				打开主界面 MainInterface
+				发通知
+					LoginInitFinish
+	
+	CityGlobalMediator
+		响应LoginInitFinish，FirstInitCityBuild, CreateCityBuildingContainer
+			BundleAssets/Scene/City/city_function/CityBuildingContainer 	//加载内城场景
+				CreatePlayerCity
+					UpdatePlayerCity
+						CreateCityBuilding		加载每个entity
+							关联gameObject	
+							获取GridCollideMgr		每个entity一个GridCollideItem
+							发送 CityBuildingDone
+							更新路的Sprite
+					
+	在加载完内城资源后					
+	响应 CityBuildingDone， 初始化内城迷雾系统 CityUnlockMediator加载 Weather/cityFogSystem
+	
+	接收Map_ObjectInfo协议					//添加内城中的资源(City, Stone, Farmland, Wood, Gold, Gem, Rune)
+		MapObjCmd响应
+		WorldMapObjectProxy.UpdateMapObject				// 		BundleAssets/Scene/Map_building/
+		发通知 MapObjectChange, MapLogicObjectChange
+			
+	WorldMgrMediator响应 MapObjectChange 通知	
+		在WorldMgrMediator.LateUpdate中加载GameObject
+			WorldMgrMediator.Do_UpdateMapObject
+				WorldMapViewObjFactory.SysLoadWorldObj			//加载资源 设置 SceneObject/rss_root
+				
+	接收Map_ObjectInfoTemp协议
+		MapObjCmd响应
+		WorldMapObjectProxy.UpdateMapObjectTemp			//临时对象带位置，更新到MapObject的实际位置
+		WorldMapObjectProxy.UpdateMapObject
+		
+		
+							
+			
+				
+			

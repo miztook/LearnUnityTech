@@ -1,0 +1,17 @@
+AddCameraOrScreenEffect		设置摄像机屏幕效果
+	1. 摄像机振动		CameraShaker组件实现pos rot的随机振动效果
+	2. 自动拉近拉远
+	3. 运动模糊			PostProcessChain MotionBlur
+	4. 屏幕变色			开启CameraBlackMask组件 加载HideGeo prefab，设置shader变量
+	
+StopSkillScreenEffect		关闭摄像机屏幕效果
+
+EnableSpecialVisionEffect		DynamicEffectManager设置神视效果
+
+RemoveMainCameraEffect					
+	移除PostProcessChain, CameraShaker, CameraBlackMask
+	
+StartScreenFade
+	ScreenFadeEffectManager实现屏幕淡入淡出效果，Image组件，设置color颜色，用dotween实现
+ClearScreenFadeEffect
+	ScreenFadeEffectManager关闭dotween的image效果设置

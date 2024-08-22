@@ -1,0 +1,41 @@
+
+UI模块定义	Animator
+	CurAge		//时代和日期						"UI_Item_CurAge"
+	Events		//活动								"UI_Item_CurAge"
+	HotTask		//任务								"UI_Item_HotTask4Chapter"
+	Chat		//聊天和查找模块					"UI_Item_ChatSearchBuild"
+	Features	//功能菜单							"UI_Item_Features"
+	FlagWarn	//战斗报警屏蔽按钮
+	Queue		//队列信息							"UI_Item_Queue"
+	Position	//位置								"UI_Item_Position"
+	Map			//小地图							"UI_Item_Map"
+	LodMenu		//lod层级							"UI_Item_LodMenu"
+	PlayerPowerInfo		//角色头像和战力			"UI_Item_PlayerPowerInfo"				
+	PlayerResources		//资源栏					"UI_Item_PlayerResources"
+	SearchOrBuild		//查找、建造按钮			"pl_BuildAndSearch"
+	CityOrWorld			//回到城市/世界视图按钮
+	Server			//服务器选择按钮
+	Mail			//邮件按钮						"UI_Item_mail"
+	WipeGlass		//美女擦玻璃					"UI_Item_Events/UI_Item_WipeGlass"
+	TaskCenter		//任务中心
+
+
+界面的LOD显示，如果在lod范围内则显示  在OpenLodUi表配置
+	CurAge, 	city_bound	dispatch
+	Events, 	city_bound	dispatch
+	HotTask, 	city_bound	dispatch
+	Chat, 	city_bound	dispatch	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	Features, 	city_bound	dispatch
+	FlagWarn, 	city_bound	dispatch	TacticsToStrategy1	TacticsToStrategy2
+	Queue, 	city_bound	dispatch	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	Position, 	dispatch	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	Map, 	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	LodMenu, 	strategic_min	max	limit_max
+	PlayerPowerInfo, 	city_bound	dispatch	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	PlayerResources, 	city_bound	dispatch
+	SearchOrBuild, 	city_bound	dispatch	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	CityOrWorld, 	city_bound	dispatch	TacticsToStrategy1	TacticsToStrategy2	strategic_min	max	limit_max
+	Server, 
+	Mail, 	city_bound	dispatch
+	WipeGlass, 	city_bound	dispatch
+	TaskCenter, 	city_bound	dispatch

@@ -1,0 +1,187 @@
+Global Mediators:
+	ArmyTrainStatusGlobalMediator
+	BattleGlobalMediator
+	BattleMainlMediator
+	CallGameTool
+	CityGlobalMediator
+	CityIncidentMediator
+	CityUnlockMediator
+	ExpeditionMediator
+	FogSystemMediator
+	FuncGuideGlobalMediator
+	GameEventGlobalMediator
+	GameMediatorForLua
+	GameToolsGlobalMediator
+	GlobalAllianceHelpMediator
+	GlobalChangeSceneMediator
+	GlobalCityBuidlingMediator
+	GlobalCityMenuHudMediator
+	GlobalCommonMediator
+	GlobalEffectMediator
+	GlobalFilmMediator
+	GlobalGameTimeMediator
+	GlobalLimitTimePackageMediator
+	GlobalPveChapterMediator
+	GlobalResourceMediator
+	GlobalScoutsCampMediator
+	GlobalShopMediator
+	GlobalStoreMediator
+	GlobalTaskCenterMediator
+	GlobalTechnologyMediator
+	GlobalViewLevelMediator
+	GlobalWorldHudMediator
+	GuideGlobalMediator
+	HospitalStatusGlobalMediator
+	InputGlobalMediator
+	ItemCollectGlobalMediator
+	MailMediator
+	MapUIiconMyCityMediator
+	MonumentGloablMediator
+	MouseClickEffectMediator
+	NoviceGuideGlobalMediator
+	PveBattleMediator
+	PVPGlobalMediator
+	SendClientDeviceInfoMedia
+	ServerPushMediator
+	TaskScriptGlobalMediator
+	TroopGlobalMediator
+	TroopHUDMediator
+	TroopLineMediator
+	TroopManualMediator
+	VipGlobalMediator
+	WorldMgrMediator
+
+Proxies:
+	ActivityProxy						1
+	AllianceProxy						1
+	AllianceResarchProxy				1
+	BagProxy							1
+	BeautyProxy							1
+	BuffProxy							1
+	BuildingResourcesProxy				1
+	ChatProxy							1
+	CityBuffProxy						1
+	CityBuildingProxy					1
+	CityIncidentProxy					1
+	CityUnlockProxy						1
+	CurrencyProxy						1
+	DataProxy							1
+	EffectinfoProxy						1
+	EmailProxy							1
+	ExpeditionProxy						1
+	FuncGuideProxy						1
+	GameQueueProxy						1
+	GuideProxy							1
+	GuildBuildProxy						1
+	HeadProxy							1
+	HeroProxy							1
+	HeroTrainProxy						1
+	HospitalProxy						1
+	IGGSdkChatProxy						1
+	IntelligenceProxy					1
+	LocalTroopProxy						1
+	MafiaManualProxy					1
+	MinimapProxy						1
+	MonsterProxy						1
+	MoveCityProxy						1
+	NewActivityProxy					1
+	PlayerAttributeProxy				1
+	PlayerProxy							1
+	PveChapterProxy						1
+	PVEProxy							1
+	RallyTroopsProxy					1
+	RankListProxy						1
+	RechargeProxy						1
+	RedProxy							1
+	ResearchProxy						1
+	RewardGroupProxy					1
+	RssProxy							1
+	ScoutProxy							1
+	ScrollMessageProxy					1
+	SearchProxy							1
+	ShopProxy							1
+	SoldierProxy						1
+	StoreProxy							1
+	TaskProxy							1
+	TipRemindProxy						1
+	TrainProxy							1
+	TroopProxy							1
+	WarWarningProxy						1
+	WorkerProxy							1
+	WorldMapObjectProxy
+
+Singletons:
+	Client.PVE.BP3EffectManager
+	Client.PVE.BP3EffectPutRuleManager
+	Client.PVE.BuffManager
+	Client.PVE.BulletManager
+	Client.PVE.CharacterFactory
+	Client.PVE.MotionEffectDataFactory
+	Client.PVE.MotionEffectFactory
+	Client.PVE.MotionEffectManager
+	Client.PVE.MotionManager
+	Client.PVE.ObjectPoolManager
+	Client.PVE.PveBattleMgr
+	Client.PVE.PveGameCore
+	Client.PVE.PveSystemManager
+	Client.PVE.SkillDataManager
+	DeviceLogger
+	GlobalBehaviourManger
+	ModelsManager
+	SdkEventManager
+	Skyunion.AddressAssetService
+	Skyunion.AlertManager
+	Skyunion.AppFacade
+	Skyunion.ArmyInfoHelp
+	Skyunion.AssetDatabaseService
+	Skyunion.AudioService
+	Skyunion.AutoMoveMgr
+	Skyunion.BeautyCamera
+	Skyunion.CellDatas
+	Skyunion.CityCamera
+	Skyunion.CityHudCountDownManager
+	Skyunion.DataService
+	Skyunion.FightHelper
+	Skyunion.ForceIncreaseTipManager
+	Skyunion.FormationMgr
+	Skyunion.GameLogic
+	Skyunion.GameModeManager
+	Skyunion.GameUpdateMan
+	Skyunion.GlobalGame
+	Skyunion.GuideManager
+	Skyunion.HUDManager
+	Skyunion.InputManager
+	Skyunion.LevelDetailCamera
+	Skyunion.LevelDetailManager
+	Skyunion.LevelDetailScalerManager
+	Skyunion.LevelDetailTilling
+	Skyunion.LightManager
+	Skyunion.LogService
+	Skyunion.LuaManager
+	Skyunion.ManorLineMgr
+	Skyunion.MapManager
+	Skyunion.MarchLineMgr
+	Skyunion.MaterialPool
+	Skyunion.NetManager
+	Skyunion.Patcher
+	Skyunion.PluginManager
+	Skyunion.PreloadAssetManager
+	Skyunion.RedManager
+	Skyunion.RssAnimationManager
+	Skyunion.ServerTimeModule
+	Skyunion.SquareHelper
+	Skyunion.SummonerTroopMgr
+	Skyunion.SystemOpen
+	Skyunion.TimerManager
+	Skyunion.TipManager
+	Skyunion.TroopObjManager
+	Skyunion.TroopsDatas
+	Skyunion.UIManager
+	Skyunion.WeatherManager
+	Skyunion.WorldCamera
+	Skyunion.WorldEffectManager
+	Skyunion.WorldMapLogicMgr
+	Skyunion.WorldSkillFunction
+	Skyunion.WorldSkillManager
+	Skyunion.WorldSkillWarningManager
+	SubViewManager

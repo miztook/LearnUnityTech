@@ -1,0 +1,85 @@
+//继承关系
+PveCharacter
+	PveHero
+	PveNoInteractiveUnit
+	
+//包含关系
+PveCharacter	
+	ModelCharacter
+		ModelBody		管理Bone, Slot挂点(每个挂点建立一个gameObject)
+		MotionController
+		MotionEffectCollector					//
+			管理MotionEffectGroup
+				管理IMotionEffect
+				
+MotionEffectGroup
+	根据SEKey列表创建 MotionEffect
+	播放时，按时间点顺序播放 调用MotionEffect的 StartEffect, UpdateEffect, FinishEffect方法
+				
+IMotionEffect			//表示在一个group中，某个时间点发生的effect事件
+	包含 MotionEffectData 		//timeLine, SEKey, action类型
+	方法 StartEffect, UpdateEffect, FinishEffect
+					
+BP3EffectManager
+	配置 PVEEffectDefine
+	播放 创建特效资源的实例，缓存，播放时间管理
+	
+//关键!!! 播放Motion时，把动作和特效event事件相关联	
+ModelCharacter 管理一个Animator和AnimatorMachine组件
+	在OnEnable, OnDisable时
+		把ModelCharacter添加到MotionManager, 注册OnStartMotion, OnEndMotion事件
+		在StartMotion时，调用MotionEffectManager.CreateEffectGroup, 传递BaseSkill (重要!!! 可以通过BaseSkill配置改变特效的播放)
+		在EndMotion时，调用MotionEffectManager.FinishEffectGroup, 关闭特效
+		
+StateData
+	AnimationClip[] //动画文件
+	SEEventListArr					//Event事件列表 来自于AnimationClipData的tracks的keys
+	
+StateMechine组件	//用Playable 来完成SwitchState，设置Weight来做动作融合
+	AnimationClipPlayable通过AnimationClip创建
+
+AnimatorMachine			//关键!!! 用Playable来管理Animator
+		CAnimatorData			//CAnimatorData作为资源存在，用来生成AnimatorMachine
+		AnimationLayerMixerPlayable			//1个layer的MixerPlayable
+		AnimationMixerPlayable				//2个input 做动作融合
+		StateMechine[]		//playable状态机，只用到一个layer
+	方法
+		UpdateSerData 设置状态机，Animator参数等
+		GetState
+		Play
+		CrossFade
+	
+MotionController			//通过AnimatorMachine管理状态机，实现AnimationClip的融合过渡
+	AnimatorMachine
+	List<SEKey>	keyList		//在StartMotion时设置,在播放动作时触发Event事件 (特效)
+	方法 
+		LoadAndAddAnimationClip		//加载以actionName命名的State的所有clip
+		mStartMotion
+			调用AnimatorMachine的CrossFade 
+				调用StateMachine的GetState, SwitchState (上一个State停止，当前的State播放)
+				
+MotionEffectManager
+	MotionEffectGroup缓存，管理EffectGroup的Create, Finish, UpdateEffect
+	
+MotionEffectDataFactory			//从SEKey解析成各个类型使用的data
+MotionEffectFactory			//创建各个类型的MotionEffect
+				
+//特效MotionEffect实现
+	AcionOperate.PlayEffect						MEEffect			//EffectCollector.PlaySkillEffect 
+	AcionOperate.SendBullet						MESendBullet			/参见BulletManager
+	AcionOperate.HitEffect						MEHitEffect				//播放被击特效
+	AcionOperate.CamerShake						MECameraShake			//
+	AcionOperate.TriggerBuff					METriggerBuff			//触发buff, skill的impactId
+	AcionOperate.TriggerPetSkill				METriggerPetSkill		//废弃
+	AcionOperate.TimeLine						METimeLine				//废弃
+	AcionOperate.SectorDamage					MESectorDamage			//扇形伤害，通过Skill找到扇形目标范围，执行伤害和被击
+	AcionOperate.BossBullet						MESendBossBullet		//参见BulletManager
+	AcionOperate.BlackScreen					MEBlackScreen				//PveBattleMgr.BattleFunction.AddFrame 定帧
+	AcionOperate.PlaySound						MEPlaySound						//废弃
+	AcionOperate.FreezeFrame					MEFreezeFrameToggle				//PveBattleMgr.BattleFunction.AddFrame 定帧
+	AcionOperate.SkillGuide						MEGuide					//触发pve技能引导
+	
+BulletManager		弹道管理	
+
+BulletFactory
+	池 Asset, BulletBase, IBulletPerformance, IBulletDamage

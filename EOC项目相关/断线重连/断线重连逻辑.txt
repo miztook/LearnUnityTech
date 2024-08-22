@@ -1,0 +1,29 @@
+GameEventGlobalMediator的断线重连相关逻辑	
+	ServerClose
+	ServerNetEvent
+	TryReConnecting
+	EndReConnecting
+	StartReConnecting
+
+返回登录界面
+	GameEventGlobalMediator.GoLogin		//触发ReloadGameCMD, ResetSceneCMD
+		ReloadGame里
+			清空所有GlobalMediator, 添加必要的GlobalMediator，非GloalMediator应该随着UI的关闭而销毁，注意每个Mediator管理的游戏资源(GameObject)需要在OnRemove中清理
+			清理所有的Proxy
+		ResetScene里
+			重新添加Proxy			
+				在OnRemove中数值恢复成默认，Init中再次初始化
+			重新添加GlobalMediator
+				GlobalMediator在OnRemove中需要清理所有的资源，Init中再次初始化
+	
+游戏内断线重连
+	CmdConstant.NetWorkShutDown			//开始重连
+	CmdConstant.NetWorkReconnected			//重连成功
+	
+	
+网络协议发送	(CircularBuffer 异步)
+		NetSession:		SendProto -> SendPackage
+	
+网络协议接收	(异步)
+		NetSession:		OnReciveSproto -> OnDecodeCallback, OnDecodeErrorCallback 	通过Notification, Event方式广播
+			

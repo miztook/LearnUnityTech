@@ -1,0 +1,15 @@
+BattleUIHandler.Init
+
+GlobalAllianceHelpMediator.InitData
+
+NetGameSession.SetHeartSend
+
+PVEProxy.UpdateLocalHangUpTimeSec
+
+BuildingResourcesProxy.OnUpdateRss
+
+MainInterfaceMediator.AssetLoadFinish
+
+CityHudCountDownManager.StartCountDown
+
+MainInterfaceMediator.OnUpdatePlayerHeadRed

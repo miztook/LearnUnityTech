@@ -1,0 +1,86 @@
+https://hybridclr.doc.code-philosophy.com/docs/intro
+
+使用指南
+	HybridCLR代码结构和版本
+		com.code-philosophy.hybridclr			//工具
+		hybridclr			//解释器的核心代码
+		il2cpp_plus			//泛型处理
+	
+	几个目录
+		HybridCLRDataDir		{ProjectDir}/HybridCLRData
+		LocalUnityDataDir		{HybridCLRDataDir}/LocalIl2CppData-{Application.platform}
+		LocalIl2CppDir			{LocalUnityDataDir}/il2cpp
+		hotUpdateDllCompileOutputRootDir		HybridCLRData/HotUpdateDlls					//热更新dll编译输出根目录
+		strippedAOTDllOutputRootDir				HybridCLRData/AssembliesPostIl2CppStrip			//裁减后AOT dll输出根目录
+		GeneratedCppDir							{LocalIl2CppDir}/libil2cpp/hybridclr/generated
+	
+	Unity的默认目录
+		2019.4.40f1c1\Editor\Data
+			il2cpp
+				libil2cpp
+			MonoBleedingEdge
+			
+	安装HybridCLR
+		是否安装了HybridCLR		是否存在目录 {LocalIl2CppDir}/libil2cpp/hybridclr
+		InstallDefaultHybridCLR			//安装
+			PrepareLibil2cppWithHybridclrFromGitRepo		//从git下载两个工程，合并成一个新的libil2cpp目录
+				1. git clone 到 HybridCLRData/hybridclr_repo, URL: https://gitee.com/focus-creative-games/hybridclr
+				2. git clone 到 HybridCLRData/il2cpp_plus_repo, URL: https://gitee.com/focus-creative-games/il2cpp_plus
+				3. 把 HybridCLRData/hybridclr_repo/hybridclr 移动到 HybridCLRData/il2cpp_plus_repo/libil2cpp/hybridclr
+				4. 返回 HybridCLRData/il2cpp_plus_repo/libil2cpp
+				
+			RunInitLocalIl2CppData
+				1. 将 com.code-philosophy.hybridclr 安装包中的 iOSBuild 目录移动到 HybridCLRData/iOSBuild
+				2. 将 Editor 目录下的 MonoBleedingEdge 拷贝到 {LocalUnityDataDir}/MonoBleedingEdge
+				3. 将 Editor 目录下的 il2cpp 拷贝到 {LocalIl2CppDir}
+				4. 将上一步的 libil2cpp 复制到 {LocalIl2CppDir}/libil2cpp	 (替换)
+				5. 移除缓存 Library/Il2cppBuildCache
+				6. 将 com.code-philosophy.hybridclr 安装包中的 Unity.IL2CPP-Win.dll.bytes 复制到 {LocalIl2CppDir}/build 下
+		
+		完成了指定平台下的hybridCLR的安装
+		
+	补充元数据AOT dll
+		mscorlib
+		System
+		System.Core
+		
+	打包
+		如果是Win平台
+			HybridCLR/Build/Win64
+				PrebuildCommand.GenerateAll				//预生成
+					CompileDllCommand.CompileDll 			//编译dll到目录 HybridCLRData/HotUpdateDlls
+					
+					//菜单 HybridCLR/Generate/Il2CppDef
+						Il2CppDefGeneratorCommand.GenerateIl2CppDef				//生成il2cpp Def文件 输出目录: {LocalIl2CppDir}/libil2cpp/hybridclr/generated/
+						
+					//菜单 HybridCLR/Generate/LinkXml
+						LinkGeneratorCommand.GenerateLinkXml					//收集Hotupdate dll的依赖，生成link.xml避免被裁剪 输出目录: HybridCLRData/Generated/link.xml
+						
+					//菜单 HybridCLR/Generate/AOTDlls   (buildScriptOnly C# DLL)		
+						StripAOTDllCommand.GenerateStripedAOTDlls				//生成裁剪后的ato dll 除去HotUpdate 输出目录: {HybridCLRDataDir}/StrippedAOTDllsTempProj/{target}	
+
+					//菜单HybridCLR/Generate/MethodBridge	 (cpp文件)
+						MethodBridgeGeneratorCommand.GenerateMethodBridge			//生成 hotUpdate dll 的MethodBridge_{platform}.cpp 		桥接函数生成依赖于AOT dll   
+					
+					//菜单HybridCLR/Generate/ReversePInvokeWrapper (各个abi平台下的PInoke包装文件) 
+						ReversePInvokeWrapperGeneratorCommand.GenerateReversePInvokeWrapper			//生成 hotUpdate dll 的 ReversePInvokeMethodStub_{abi}.cpp
+					
+					//菜单 HybridCLR/Generate/AOTGenericReference
+						AOTReferenceGeneratorCommand.GenerateAOTGenericReference				//生成 hotUpdate dll 的自动引用的类型和方法				
+					
+				BuildPipeline.BuildPlayer				//构造App
+				
+				BuildAssetsCommand.BuildAndCopyABAOTHotUpdateDlls
+					BuildAssetBundleByTarget					//构造AssetBundles
+					CompileDllCommand.CompileDll 			//编译dll到目录 HybridCLRData/HotUpdateDlls
+					CopyABAOTHotUpdateDlls
+						CopyAssetBundlesToStreamingAssets			//拷贝assetbundle资源
+						CopyAOTAssembliesToStreamingAssets			//strippedAOTDllOutputRootDir 目录下的3个元数据AOT dll
+						CopyHotUpdateAssembliesToStreamingAssets		//hotUpdateDllCompileOutputRootDir 目录下的update dll
+			
+		其他平台
+			运行菜单 HybridCLR/Generate/All				(同上)
+			运行菜单 HybridCLR/BuildAssetsAndCopyToStreamingAssets 打包热更新资源及dll		(同上)
+			Build Settings里打包游戏
+	
+				

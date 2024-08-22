@@ -1,0 +1,44 @@
+SprotoHelper
+	Spawan		分配缓存
+	Unspawn		回收缓存
+	
+协议解析:
+	NetMsgPackage.Decode
+		解压缩memory流
+		解密memory流
+		DecodeProtocal	解析协议
+			DecodeGateMessage	解析字节流成多个MessageContentEx,  (MessageContentEx是一个大的临时对象，可以用缓存生成和回收)
+			对于每个MessageContentEx
+				DecodePart，先做unpack，然后调用注册协议的 GenRequest, GenResponse, 生成协议的request, response， 调用callback执行协议的逻辑处理
+	
+	
+参与缓存的类型	SprotoHelper.Cache
+	BufferStream						// 缓存MessageContentEx中的networkMessageEx，
+	MessageContentEx					// 缓存DecodeGetwayMessage后生成的 MessageContentEx 列表，在调用完协议的callback处理后，回收
+	
+	//时间对象
+	SprotoType.Map_ObjectInfo.request					//无需清理 	序列化产生
+	SprotoType.Map_ObjectDelete.request					//无需清理	序列化产生
+	SprotoType.MapObjectInfo					//从Map_ObjectInfo.request的序列化产生
+												// MapObjCmd中Execute处理，如果是Troop 由TroopMgr处理
+												// 如果不是Troop 由worldMapObjectProxy.UpdateMapObject处理
+	
+	//战斗技能
+	Battle_BattleDamageInfo.request
+	BattleDamageInfo							//Battle_BattleDamageInfo.request的序列化产生
+	BattleRemainSoldiers						
+	SkillDamageHeal								//BattleGlobalMediator.UpdateSkillDamageHeal 使用一次后回收
+	
+	MapObjectInfoEntity				//服务器下发的 MapObjectInfo 协议，客户端需要管理一个对应的 MapObjectInfoEntity
+									//WorldMapObjectProxy_Data.m_worldMapObjectDic 在添加时 Spawn
+									//WorldMapObjectProxy_Data.m_worldMapObjectDic 在Remove, Clear时 对应的Unspawn
+									
+缓存使用的条件
+	协议只有一个响应的地方，在使用完毕后Unspawn
+	
+
+需要注意的点
+	SendNotification, DispatchEvent时，必须等响应事件执行完毕后才能回收
+	
+	CmdConstant.MapObjectChange_ObjectInfoReq
+

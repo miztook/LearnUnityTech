@@ -1,0 +1,71 @@
+Faction				//势力
+	显示名称
+
+FactionRelationship			//势力关系
+	阵营之间关系列表
+
+Reputation			//声望
+	声望等级	关联npcid 	升级消耗货币	地图id
+
+SpecialId			//特殊ID
+	id对应值
+
+Cooldown			//冷却配置
+	冷却间隔	累计值
+
+CountGroup			//次数组
+	初始购买次数 	消耗货币	重置时间	最大次数
+	
+NavigationData			//寻路配置
+	寻路类型: 目标点，怪物，Npc，可采集单位，可破坏单位，区域
+
+Trans			//传送
+	地图id	传送到指定位置+朝向
+
+NpcShop			//Npc商店
+	物品+价格	刷新时间
+
+NpcSale			//Npc售卖
+	小页签列表
+		物品+价格 	限制 消耗等	
+	刷新时间
+	
+FightPropertyConfig			//属性文本配置
+	角色面板属性显示
+
+Email			//邮件配置
+
+Fun				//教学功能
+	控件名称	红点类型
+	解锁条件: 	
+		完成任务
+		到达等级
+		通过的副本ID
+		使用的道具ID
+		教学引导ID
+		领取任务ID
+		到达荣耀等级
+		到达某战力
+		巅峰等级(账号结果)
+		声望等级
+
+Rank			//排行榜配置
+	统计对象，排行数据，基础数据类型，统计周期
+	分类	排行榜
+
+PVP3v3			//角斗场3v3
+	段位级别	胜利增加次数	失败减少次数	奖励id
+
+TeamRoomConfig		//组队配置
+	规则: NPC，副本，赏金副本
+
+AIExteriorRandom		//副本镜像外观随机配置
+	职业配置，五官发型肤色发色称号头衔，强化等级
+
+Market		//交易所
+	市场类型 货币类型
+	大页签
+		小页签			售卖的道具
+
+MarketItem			//交易所物品
+	道具id	最大最小价格	持续时间

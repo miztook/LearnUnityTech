@@ -1,0 +1,61 @@
+Scene 			//场景
+		名称 长宽  出生点复活点
+		SceneBezierCurveRoot			//贝塞尔曲线
+		SceneRegionRoot				//区域	(索引贝塞尔曲线)
+		SceneTargetPointRoot		//目标点
+		ScenePortalRegionRoot		//传送区域
+		SceneEntityGeneratorRoot		//生成器 (刷怪)
+		ScenePositionRoot			//场景出生复活点
+
+Map			//地图
+		关联的场景id
+		主要是数据编辑器中的一些属性
+
+Instance			//地牢
+		副本类型		副本难度		BT树名称
+		奖励
+		AI匹配
+
+DungeonIntroductionPopup			//副本介绍弹窗
+		描述 	技能id
+
+TowerDungeon			//试炼
+		位置朝向		怪物刷新		杀怪数量
+
+WorldBossConfig			//狩猎配置
+		场景 区域 生成器	图标
+		推荐战力 	掉落奖励
+		预览个人奖励	
+
+Fortress			//要塞配置 (公会pvp)
+		开始时间	持续时间	资格确认时间
+
+Expedition			//远征
+		解锁等级 	推荐战力	副本id
+
+Dialogue		//对话
+		任务id		text内容
+
+Letter			//书札
+		书信内容	写信人
+
+Achievement			//成就
+		副本类型	事件类型		奖励
+
+Designation			//称号
+		图片 特效	多个属性
+
+ManualAnecdote		 	//万物志模板
+		阶段	小分类
+
+ManualEntrie			//万物志条目
+		事件类型	品质		附加属性
+
+ManualEntrieStarUp			//万物志条目升星
+		条目升星变化后的属性值列表
+
+Hawkeye				//神之视界
+		所属场景 区域 刷新数量 类型(单人多人热点)
+
+MonsterAttenuation				//副本怪物衰减
+		副本怪物 指定天数 属性降低

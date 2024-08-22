@@ -1,0 +1,60 @@
+初始化:
+		加载 PVEEffect.bin
+				MouseClickEffectMediator.InitData
+
+		加载 PVEHero.bin
+		加载 SlotConfig.bin
+		加载 PVEHeroRage.bin
+		加载 PVEHeroUI.bin
+		加载 Pve.bin
+		加载 PVEBattle.bin
+		加载 PveMonsterLevelConfig.bin
+				PVEProxy.InitPveBattleData 	进入pve
+
+		[LoadAsset] pve_levelPve_Map999.asset			//level asset 关卡配置
+				PVEProxy.InitPveBattleData 	进入pve
+
+		加载 PVEheroskill.bin				//PVE.SkillDataManager.Preload
+		加载 PVEHeroSkillGroup.bin			//PVE.SkillDataManager.Preload
+		加载 PVEBullet.bin					//PveBattleMgr.ParseLoadEffect
+				Client.PVE.SkillDataManager.Preload 加载完场景后
+
+		[LoadAsset] 加载anim动画配置
+				Client.PVE.SkillDataManager.PreloadAsset 加载完场景后
+
+		加载 HeroLevel.bin					//PveBattleStage.Init
+		加载 HeroStar.bin					//PveBattleStage.Init
+		加载 Item.bin					//PveBattleStage.Init
+				
+				Client.PVE.PveHeroMgr.InitUnit
+				Client.PVE.PveBattleStage.SpawnSelfUnits
+				Client.PVE.PveBattleStage.ArrangeUnits
+				Client.PVE.PveBattleStage.Handle
+				Client.PVE.PveBattleStage.Init
+				Client.PVE.PveBattleMgr.InitNextPart
+				Client.PVE.PveBattleMgr.InitBattle  开始战斗
+
+		加载 PVEStar.bin				//Client.PVE.PVEHero.Init
+		加载 PVElevel.bin				//Client.PVE.PVEHero.Init
+		加载 PVEheroSkillGroupVariable.bin 			//Client.PVE.PVEHero.Init
+		加载 PVEheroskillVariable.bin			//Client.PVE.PVEHero.Init
+		加载 HeroSkill.bin			//Client.PVE.PVEHero.Init
+				Client.PVE.PVEHero.Init  加载英雄
+
+		[LoadAsset] 加载baonv.asset 英雄配置
+				加载anim动画配置
+				CharacterFactory.CreateCharacter		加载角色
+
+		加载 PVEBuffStateMutex.bin			//Client.PVE.PVEHero.InitStateData
+		加载 PVEStateMutex.bin			//Client.PVE.PVEHero.InitStateData
+		加载 PRD.bin				//Client.PVE.PVEHero.InitStateData
+		加载 BehaviorTree.bin				//Client.PVE.PVEHero.OnEnterBattleStage
+
+		[LoadAsset] CommonBattleTree.asset		CharacterFactory.CreateCharacter		加载角色
+				加载 英雄配置
+
+		加载 PveComponent			//Client.PVE.PVEHero.InitStateData
+				CharacterFactory.CreateCharacter		加载角色
+
+		加载 TaskDialog.bin			//加载UI_Win_SlotView
+				开始播放剧情

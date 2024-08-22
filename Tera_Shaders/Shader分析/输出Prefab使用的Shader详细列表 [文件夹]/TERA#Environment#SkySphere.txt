@@ -1,0 +1,16 @@
+﻿TERA/Environment/SkySphere
+		Dn_env02_MagePlatform/Dn_env02_MagePlatform_sky
+		Dn_evn03_Killerparty/Sky (2)
+		Dn_pvp01_Guildbase/Build_Dn06_sky
+		Dn_pvp02_Arena02/Circulationsphere
+		DN_pvp03_Skyarena/Preload/Dn06_Sky01/Sky01
+		DN_pvp03_Skyarena/Preload/Dn06_Sky01/Sky02
+		Dn_pvp04_Palace01/Circulationsphere (1)
+		Dungn00_EmpireRelicPrologue/Preload/Circulationsphere
+		Dungn00_EmpireRelicPrologue_02/Circulationsphere/Sky01
+		Dungn00_EmpireRelicPrologue_02/Circulationsphere/Sky02
+		Dungn01_Rins01/Circulationsphere
+		Dungn03_QXGJ01/Circulationsphere
+		Dungn06_EmpireRelic/Circulationsphere
+		Dungn08_Sorceres01/Objects/Sky01/Sky01
+		Dungn08_Sorceres01/Objects/Sky01/Sky02

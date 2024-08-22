@@ -1,0 +1,28 @@
+ 地表
+	材质: I_TYPE_SceneMap_mask_10	Shader: IGG/PBR_T4M1		光照受 SceneObject/Directinal Light 影响 （MainLight函数）
+	
+山脉
+	材质: mountain_A1等		Shader: IGG/Standard_1		光照受 SceneObject/Directinal Light 影响 （MainLight函数）	
+	
+树
+	材质: map_tree_nomask	Shader: custom/landmap/tree-16-nomask		光照受 SceneObject/Directinal Light 影响 (程序设置全局 _SpriteColor 变量)
+	材质: map_tree_new		Shader: custom/landmap/tree-16-new		光照受 SceneObject/Directinal Light 影响 (程序设置全局 _SpriteColor 变量)
+	
+	
+Rss建筑
+	材质: map_building_1 	Shader: custom/map/map_building_with_mask-5		光照受 SceneObject/Directinal Light 影响 (程序设置全局 _SpriteColor 变量)
+	
+队伍
+	英雄
+		材质：sprite_unit_mine 		Shader: custom/map/cm_slg_soldiers		_OutColor颜色为配置的颜色值，不受外部Light影响
+	小兵
+		材质: sprite_unit_no_color		Shader: custom/map/cm_slg_soldiers		_OutColor颜色为配置的颜色值，不受外部Light影响
+		
+调试方法:
+	在Unity场景中，选中 GameApp/SceneObject/Directional Light 改变Color Intensity等，这时地表和山脉的光照会实时变化
+	在Unity场景中，选中 DontDestroyOnLoad/MonoSingleton/Skyunion.LightManager 在 Light Manager (Script) 点最右边小按钮，
+		在弹出菜单中选最后一个 更新当前方向光颜色， 则树，Rss建筑的光照也会变化 （快捷键F8）
+		
+最终光照随时间变化的配置
+	策划Config表中 LightingTimes LightingSettings
+	程序在 GameEventGlobalMediator 中实现随服务器时间的光照参数设置

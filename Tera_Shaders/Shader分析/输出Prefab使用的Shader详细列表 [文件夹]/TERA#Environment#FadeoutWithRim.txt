@@ -1,0 +1,8 @@
+﻿TERA/Environment/FadeoutWithRim
+		City02/Preload/Ct02_Build_terrain01/ground_elmxy_city02_013
+		CreatCharacter_4/Job4/MainAnimator/BGAnimator/BG_charStand_CG/Login_Creat_BGspa_stand_fx/login_spa_BGstand_fx03
+		CreatCharacter_4/Job4/MainAnimator/BGAnimator/BG_charStand_CG/Login_Creat_BGspa_stand_fx/login_spa_BGstand_fx04
+		Ct02_Build_Center03/center03_build_elmxy_dimian03
+		Ct02_Build_Center06/Build06_build_elmxy_dimian03
+		Ct02_Prop_Inside03/Inside03_build_elmxy_dimian03
+		Ct02_Prop_Inside04/Inside04_build_elmxy_dimian03

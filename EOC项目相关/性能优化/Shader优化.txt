@@ -1,0 +1,36 @@
+igggirl_anisohair.shader			多个pass 消耗较大
+	只在美女场景使用
+
+igggirl_anisohair_low.shader		单pass 消耗较小
+	用在擦玻璃，timeline中
+
+igg_hair_new.shader			两个pass 但没有pbr计算
+	用在timeline, 英雄中
+	
+	
+用到深度贴图的shader
+	Particle Add Intensity.shader
+	DOFPro.shader
+	Fg_Add.shader
+	IGGWater.shader
+	Water.shader
+	cf_fog_border.shader
+	cf_fog_lod.shader
+	cf_fog_mountain.shader
+	customfog+110_fog_lod1.shader
+	customfog+112_fog_mountain.shader
+	customfog+115_fog_border.shader
+	fogshader.shader
+	Fog_110_lod1.shader
+	
+用到GrabPass的shader
+	niuqu.shader
+	IGGWater.shader
+	Water.shader
+	UIGrabPassBlurShader.shader
+	HeatDissolve.shader
+	
+后处理shader
+	RadialBlurShader.shader
+	ColorAdjustEffect.shader
+	CameraBloomCopyURP.shader

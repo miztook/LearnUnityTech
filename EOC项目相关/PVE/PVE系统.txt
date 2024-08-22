@@ -1,0 +1,107 @@
+收到协议 Pve_PveChallenge 后
+	PveBattleMediator.EnterPVEMap
+		
+		//进入PVE地图, 读取level相关数据
+		PVEProxy.InitPveBattleData
+			加载 PVEHero.bin
+			加载 SlotConfig.bin
+			加载 PVEHeroRage.bin
+			加载 PVEHeroUI.bin
+			加载 Pve.bin				//关卡信息
+			加载 PVEBattle.bin
+			
+			InitLevelData
+				加载 PveMonsterLevelConfig.bin		//关卡的等级怪
+				加载 PVELevelData, 配置关卡的阶段part, Trigger (关卡会根据Trigger的配置创建Collider，发生碰撞后即销毁并进入下一个Stage)
+				加载 PVE场景
+				AfterLoadedScene
+					PveBattleMgr.InitPveSystems			//初始化各个PveSystem
+					关闭其他界面，显示PVE主界面
+					PvePreload执行预加载，加载完成
+						PveBattleMgr.InitData			//战斗准备
+							管理建筑的半透明，光源
+							初始化BahaviorManager 行为树
+							初始化PveDamageManager
+						
+						PveBattleMgr.InitBattle			//开始战斗
+							
+						
+						暂停游戏，根据level的TaskTrigger 播放Timeline或剧情 
+						AfterPlayPlot，恢复游戏
+				
+		//
+		InitLogic	初始化 PVEHudManager, PveBuffUICollector
+		
+关卡阶段类型
+	PveBattleStage		//BeginState	
+		Handle
+			获取当前的pve英雄
+			ArrangeUnits
+				ArrangeSelfUnits		//创建本阵营的hero Units
+					PveHeroManager.InitUnit			//每个英雄创建Unit
+				CreateMonster			//这波怪的每个Mosnter创建 Unit, 和英雄不同的是CreateRoleData中的m_monsterInfo不为空			
+					PveHeroManager.InitUnit			//每个英雄创建Unit
+		OnGroupStart
+			PveDynamicUnitManager.SpawnDynamicUnit	
+		
+	
+	MoveStage		//FreeMove
+	PveGuardStage		//Guard
+	PveSurviveStage		//Survive
+		
+单元
+	PVECharacter
+		PveHeroData			//技能， 数值
+		UnitLiveStage			//单位的生命周期阶段
+		ModelCharacter			//模型控制 动作 特效
+
+
+	PVEHero.Init
+		InitHeroDataS
+			InitUnitData
+			
+		InitHeroByPve
+		
+UnitData		
+	NumericComponent 	数值
+	List<UnitSkillData>		Skill列表
+		
+UnitSkillData
+			
+		
+ModelCharacter			//模型控制, 在PVECharacter下
+	ShapeData			//shape动画? 废弃!!!
+	MotionController			//StartMotion，管理Animator包含一个AnimatorMachine组件
+		AnimatorMachine			//动画融合
+	MotionEffectCollector
+	ModelRenderController		//废弃
+	HumanBody
+	
+	
+Motion 		//动作模块
+	MotionMachine
+	MotionEffect
+	
+BP3EffectManager 	//特效管理
+	
+
+PveBattleMgr_System		管理各个Pve模块
+	PveMonsterIntroduceSystem						//怪物介绍动画
+	PVEBattleFunction						//战斗相关
+	PveMapManager							//PVE 里 pve_program 节点的管理
+	PVEDamageManager				//伤害计算
+	PVECastSkillHeroManager			//施法人显示
+	JoystickInputMoveSystem				//遥杆指令
+	PveManualCasterSkillSystem				//英雄死亡或过关时取消技能
+	PveDynamicUnitManager				//动态NPC, 有内存泄漏隐患
+	PveSkillWarningManager			//SkillWarning管理
+	PveBattleTimer				//战斗计时
+	PvePreload
+		加载英雄
+		加载怪
+		UI,
+		油桶特效和油桶怪
+		
+	PveGuardSystem				//守卫界面?
+	PveMonsterWarningSystem					//怪物Warning
+	PveBattleStageUIControlSystem

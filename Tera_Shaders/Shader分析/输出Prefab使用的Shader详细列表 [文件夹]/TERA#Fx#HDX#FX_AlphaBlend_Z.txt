@@ -1,0 +1,13 @@
+﻿TERA/Fx/HDX/FX_AlphaBlend_Z
+		alipreist_f_clothes_baolishetuan_chaopiao/chaopiao
+		beizuzhoudechuniang_attack02_fly/GameObject/alpha 
+		beizuzhoudechuniang_attack02_hit/attack01 baozha/bao/suikuai
+		beizuzhoudechuniang_skill02_zhadan/GameObject (9)/zhadan03
+		casassassin_m_clothes_baolishetuan_chaopiao/chaopiao
+		etc_diaoluo_qiandai/zs_zhuangbei_s
+		etc_diaoluo_qiandai/zs_zhuangbei_s/zs_zhuangbei_s (1)
+		etc_diaoluo_qiandai2/qiandai
+		humwarrior_m_clothes_baolishetuan_chaopiao/chaopiao
+		laiangkeneixiaojie_attack02_fly/laiangkeneixiaojie_attack02_pingguo
+		laiangkeneixiaojie_skill02_pingguo/PINGGUO/pingguo
+		sprarcher_f_clothes_baolishetuan_chaopiao/chaopiao

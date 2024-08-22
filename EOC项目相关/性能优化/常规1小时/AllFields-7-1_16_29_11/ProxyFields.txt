@@ -1,0 +1,798 @@
+ActivityProxy
+	[String]	ProxyNAME		ActivityProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[Dictionary`2<Int32, ActivityDetialData>]	m_detailDic		(0)
+	[Dictionary`2<Int64, ActivityScheduleData>]	m_scheduleDic		(0)
+	[Boolean]	m_isReadSchedule		False
+	[Boolean]	m_isDelaying		False
+	[Boolean]	m_isDispose		False
+	[Boolean]	m_isExchangeRemind		True
+	[List`1<ActivityTimeInfo>]	m_exchangeActivityList		(0)
+	[List`1<Int64>]	m_itemChangeList		(0)
+AllianceProxy
+	[String]	ProxyNAME		AllianceProxy
+	[ConfigDefine]	m_config		Data.ConfigDefine
+	[List`1<AllianceLanguageSetDefine>]	m_lanSets		null
+	[List`1<AllianceMemberDefine>]	m_members		(5)
+	[List`1<AllianceMemberJurisdictionDefine>]	m_memberAccees		(22)
+	[Dictionary`2<Int32, AllianceMemberJurisdictionDefine>]	m_accessDic		(22)
+	[List`1<AllianceOfficiallyDefine>]	m_offices		null
+	[List`1<AllianceSignDefine>]	m_sings		(38)
+	[Dictionary`2<Int32, AllianceSignDefine>]	m_signDic		(38)
+	[List`1<AllianceSignDefine>]	m_siginFlagSimple		(8)
+	[List`1<AllianceSignDefine>]	m_siginFlagSimpleColor		(16)
+	[List`1<AllianceSignDefine>]	m_siginFlag		(9)
+	[List`1<AllianceSignDefine>]	m_siginFlagColor		(5)
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[GuildBuildProxy]	m_guildBuildProxy		Skyunion.GuildBuildProxy
+	[GuildInfoEntity]	m_guildInfo		Skyunion.GuildInfoEntity
+	[List`1<GuildApplyInfoEntity>]	m_guildApplyInfos		(0)
+	[Dictionary`2<Int64, GuildApplyInfoEntity>]	m_guildApplyDic		(0)
+	[Dictionary`2<Int64, GuildMemberInfoEntity>]	m_guildMemberDic		(1)
+	[Dictionary`2<Int64, Int64>]	m_guildMapObjIDTORID		(0)
+	[Dictionary`2<Int64, GuildOfficerInfoEntity>]	m_officersDic		(0)
+	[Dictionary`2<Int64, GuildOfficerInfoEntity>]	m_officersIDDic		(0)
+	[List`1<AllianceMemberLevel>]	m_guildMember		(4)
+	[GuildMemberInfoEntity]	m_guildMaster		null
+	[Dictionary`2<Int64, AllianceMemberLevel>]	m_guildMemberLvDic		(5)
+	[Boolean]	m_isInitGuildBuild		True
+	[Dictionary`2<Int64, GuildCurrencyInfoEntity>]	m_depotCurrencyDic		(0)
+	[List`1<GuildConsumeRecordInfo>]	m_depotHistory		(0)
+	[Dictionary`2<Int64, GuildRequestHelpInfoEntity>]	m_reqHelps		(1)
+	[List`1<GuildRequestHelpInfoEntity>]	m_reqList		(1)
+	[Int32]	m_otherPlayerHelpCount		0
+	[Dictionary`2<Int32, GuildHolyLandInfo>]	m_guildHolyLandInfos		(0)
+	[List`1<StrongHoldDataDefine>]	m_strongHoldDataDefines		(165)
+	[Dictionary`2<Int32, List`1>]	m_acceptableZones		(10)
+	[Dictionary`2<Int32, List`1>]	m_borderZones		(14)
+	[Dictionary`2<Int64, AllianceBuildArmyLevel>]	m_holyLandArmsDic		(0)
+	[Dictionary`2<Int64, List`1>]	m_holyLandArmsList		(0)
+	[Dictionary`2<Int64, Int32>]	m_myArmyInHolyLandBuild		(0)
+	[List`1<AllianceBuildTypeTag>]	m_territoryUIList		(0)
+	[Dictionary`2<Int32, AllianceBuildTypeTag>]	m_territoryUIDic		(0)
+	[Dictionary`2<Int64, GuildBuildInfoEntity>]	m_fortressesBuildsDic		(2)
+	[Dictionary`2<Int64, GuildBuildInfoEntity>]	m_fortressesTypeBuildsDic		(2)
+	[Dictionary`2<Int64, RoleTerritoryGainInfoEntity>]	m_roleTerritoryGainsDic		(4)
+	[GuildResourceCenterInfoEntity]	m_resCenter		Skyunion.GuildResourceCenterInfoEntity
+	[GuildFlagInfoEntity]	m_flags		Skyunion.GuildFlagInfoEntity
+	[GuildResourcePointInfoEntity]	m_resPoint		Skyunion.GuildResourcePointInfoEntity
+	[Int64]	lastTakeGainTime		1656660148
+	[Int32[]]	typeMap		(27)
+	[Int32[]]	resourceBuilTypeMap		(20)
+	[Dictionary`2<String, AllianceBuildArmyLevel>]	m_buildArmsDic		(0)
+	[Dictionary`2<Int64, List`1>]	m_buildArmsList		(0)
+	[Dictionary`2<Int64, Int64>]	m_objectLeader		(2)
+	[Dictionary`2<Int64, List`1>]	m_hasMyArmyInBuild		(0)
+	[Int64]	m_giftPoint		0
+	[Int64]	m_keyPoint		0
+	[Dictionary`2<Int64, GuildTreasureInfoEntity>]	m_treasures		(0)
+	[Dictionary`2<Int64, GuildGiftInfoEntity>]	m_gifts		(0)
+	[List`1<GuildGiftInfoEntity>]	m_giftCommons		(0)
+	[List`1<GuildGiftInfoEntity>]	m_giftUnCommons		(0)
+	[Int64]	m_treasureLevel		1
+	[Int32]	m_giftRedCommon		0
+	[Int32]	m_giftRedUnCommon		0
+	[Single]	m_minExpiredGiftTime		9.223372E+18
+	[Timer]	m_minExpiredTimer		null
+	[Single]	m_guildRssFullCount		0
+	[Timer]	m_resResPointTimer		null
+	[Dictionary`2<Int64, Int64>]	m_StoreItems		(0)
+	[Timer]	m_timeStudy		null
+AllianceResarchProxy
+	[String]	ProxyNAME		AllianceResarchProxy
+	[List`1<AllianceStudyDefine>]	m_researchs		null
+	[Dictionary`2<Int32, AllianceStudyDefine>]	m_mapResearchs		(0)
+	[Dictionary`2<Int32, StudyDataDefine>]	m_StudyDatas		(0)
+	[Dictionary`2<Int32, List`1>]	m_resTypes		(0)
+	[Dictionary`2<Int32, List`1>]	m_resStudyTypes		(0)
+	[Dictionary`2<Int32, Int32>]	m_resMaxLevel		(0)
+	[Dictionary`2<Int32, List`1>]	m_resSub		(0)
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[Dictionary`2<allianceAttrType, AllianceAttributeInfo>]	m_guildAttr		(0)
+	[Dictionary`2<Int64, GuildTechnologyInfoEntity>]	m_techs		(0)
+	[Int64]	m_markTechType		0
+	[Int64]	m_researchTechType		0
+	[Int64]	m_researchTime		0
+	[Int64]	m_donateNum		0
+BagProxy
+	[String]	ProxyNAME		BagProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[Dictionary`2<Int64, ItemInfoEntity>]	Items		(71)
+	[List`1<ItemInfoEntity>]	m_itemList		(71)
+	[Dictionary`2<Int64, Int32>]	m_keyMap		(71)
+	[List`1<Int64>]	ItemChangeList		(1)
+	[List`1<Int64>]	ItemIdChangeList		(1)
+	[Boolean]	m_isFirstGetItemInfo		False
+	[Dictionary`2<Int64, ItemInfo>]	m_materialItemInfos		(0)
+	[Dictionary`2<Int64, ItemInfo>]	m_equipItemInfos		(0)
+	[Dictionary`2<Int64, Int32>]	m_itemNumMap		(47)
+	[Dictionary`2<Int32, Dictionary`2>]	m_reddotRecord		(5)
+	[Dictionary`2<Int32, Int64>]	m_reddotTotalDic		(5)
+	[List`1<ItemDefine>]	expItem		(7)
+	[Int64]	m_tempIndex		0
+	[List`1<RewardItem>]	waitSpeedItems		(0)
+	[Int64]	speedQueueIndex		-1
+	[Int32]	m_speedThreshold		300
+	[List`1<QuickUseItemInfo>]	useItemList		(0)
+	[List`1<QuickUseItemInfo>]	ownItemMoreResList		(1)
+	[List`1<QuickUseItemInfo>]	ownItemLessResList		(0)
+	[List`1<RewardItem>]	waitUseItems		(0)
+	[List`1<Int32>]	m_forgeEquipIgnoreRedDotLst		(0)
+BeautyProxy
+	[String]	ProxyNAME		BeautyProxy
+	[String]	BeautyEnter		BeautyEnter
+	[Dictionary`2<Int64, Beauty>]	_mBeautyDic		(3)
+	[Dictionary`2<Int64, BeautyGift>]	_mfavorateGiftDic		(7)
+	[List`1<BeautyGift>]	_giftList		(7)
+	[Dictionary`2<Int64, List`1>]	_girlClothDic		(3)
+	[Dictionary`2<Int64, BeautyGameInfo>]	_mBeautyGameInfoDic		(3)
+	[Dictionary`2<Int64, WipeGlassInfo>]	_mGlassInfoDic		(2)
+	[List`1<BeautyGirlNpcData>]	m_girlNpcDataList		(3)
+	[Int32]	<CurrentBeautyIndex>k__BackingField		1
+	[Int32]	<_beautyDateNum>k__BackingField		0
+	[Int32]	_beautyCount		3
+	[Boolean]	DialogStage		False
+	[Boolean]	IsFirstInDay		False
+	[BeautyHudData]	_beautyHudData		Skyunion.BeautyProxy+BeautyHudData
+	[List`1<Int64>]	_costList		(0)
+BuffProxy
+	[String]	ProxyNAME		BuffProxy
+	[Dictionary`2<Int32, BuffData>]	_buffDatas		(16)
+	[BuffOperator]	_buffOperator		Skyunion.BuffOperator
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+BuildingResourcesProxy
+	[String]	ProxyNAME		BuildingResourcesProxy
+	[Dictionary`2<Int64, Single>]	FoodRss		(1)
+	[Dictionary`2<Int64, Single>]	WoodRss		(1)
+	[Dictionary`2<Int64, Single>]	StoneRss		(0)
+	[Dictionary`2<Int64, Single>]	GoldRss		(0)
+	[List`1<BuildingInfoEntity>]	FoodBuilding		(1)
+	[List`1<BuildingInfoEntity>]	WoodBuilding		(1)
+	[List`1<BuildingInfoEntity>]	StoneBuilding		(0)
+	[List`1<BuildingInfoEntity>]	GoldBuilding		(0)
+	[List`1<BuildingResourcesProduceDefine>]	m_buildingRssDefine		(120)
+	[GameQueueProxy]	m_QueueProxy		Skyunion.GameQueueProxy
+	[Timer]	m_timer		Skyunion.Timer
+	[Boolean]	IsCollecting		False
+CityBuffProxy
+	[String]	ProxyNAME		CityBuffProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[List`1<CityBuffDefine>]	m_cityBuffList		null
+	[List`1<CityBuffGroupDefine>]	m_cityBuffGroupList		(118)
+	[List`1<CityBuffSeriesDefine>]	m_cityBuffSeriesList		(7)
+	[Dictionary`2<Int32, CityBuffSeriesDefine>]	m_cityBuffSeriesDic		(6)
+	[Dictionary`2<Int32, List`1>]	m_cityBuffGroupDicBySeries		(7)
+	[Dictionary`2<Int32, CityBuffGroupData>]	m_cityBuffGroupDic		(118)
+	[Dictionary`2<Int32, List`1>]	m_cityBuffDic		(0)
+	[Boolean]	m_type1Buff		False
+	[Boolean]	m_type2Buff		False
+	[String]	m_warFrenzyDes		
+	[Timer]	timer_type1		null
+	[Int32]	beginerBuffId		30106
+	[Int64]	playEffectCityBuffId		0
+	[Dictionary`2<Int32, Item>]	m_energyItemDict		(2)
+	[Boolean]	isInit		True
+CityBuildingProxy
+	[String]	ProxyNAME		CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[WorkerProxy]	m_workerProxy		Skyunion.WorkerProxy
+	[CityGlobalMediator]	m_CityMediator		Skyunion.CityGlobalMediator
+	[CityUnlockProxy]	m_unlockProxy		Skyunion.CityUnlockProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Boolean]	m_ageChange		False
+	[Boolean]	m_lockMoveEvent		False
+	[Dictionary`2<Int64, GameObject>]	_mBuildObjDic		(221)
+	[Dictionary`2<Int64, CityObjData>]	OtherCityDic		(2)
+	[Dictionary`2<Int64, BuldingObjData>]	BuldingObjDataDic		(221)
+	[Dictionary`2<EnumCityBuildingType, Dictionary`2>]	BuildingListByType		(30)
+	[Dictionary`2<Int64, BuildingInfoEntity>]	m_cityBuildingInfoDic		(221)
+	[Dictionary`2<Int64, BuildingInfoEntity>]	m_maxBuildingInfoDic		(30)
+	[Dictionary`2<Int64, BuildingInfoEntity>]	m_minBuildingInfoDic		(30)
+	[Dictionary`2<Int64, Int32>]	m_maxCount		(115)
+	[Dictionary`2<Int64, Int32>]	m_maxCountCurrentLevel		(115)
+	[List`1<BuildingCountLimitDefine>]	m_buildingCountLimitList		(3450)
+	[Dictionary`2<EnumAgeType, CityAgeSizeDefine>]	m_CityAgeSizeDic		(5)
+	[Dictionary`2<Int64, Int32>]	m_levelAgeDic		(30)
+	[Dictionary`2<EnumCityBuildingType, BuildingTypeConfigDefine>]	m_buildingTypeConfigDic		(116)
+	[List`1<BuildingInfoEntity>]	m_cityBuildChangeList		(1)
+	[Boolean]	m_isFirstGetBuildInfo		False
+	[String]	m_followGameObject		
+	[Boolean]	m_resetData		False
+	[Int64]	rid		177555118944686080
+	[Int64]	m_nDoorDuiability		15000
+	[FireState]	m_eDoorFireState		NONE
+	[Int64]	m_nBuildBurnTotalNum		0
+	[Int64]	m_nDoorMaintenanceCDTime		0
+	[Int32[]]	m_mapGridState		(12800)
+	[Vector2Int]	citySize		(64, 50)
+	[Vector2Int]	cityMinPos		(-32, -25)
+	[Vector2Int]	cityMaxPos		(31, 24)
+	[Vector2Int]	cityOutMinPos		(-64, -50)
+	[Vector2Int]	cityOutMaxPos		(63, 49)
+	[Int32]	MaxTownCenterLevel		30
+	[Int64]	m_nCurCityPower		51790
+	[Int64]	m_nMaxCityPower		122770
+	[Int64]	m_nTownCenterMaxPower		45680
+	[Dictionary`2<Int32, Dictionary`2>]	m_CityPlots		(6)
+CityIncidentProxy
+	[String]	ProxyNAME		CityIncidentProxy
+	[Dictionary`2<EIncidentType, IncidentInfoEntity>]	m_IncidentMsgs		(1)
+	[List`1<Timer>]	m_WaitRefTimers		(1)
+	[Dictionary`2<Int32, Int32>]	m_GroupMaxIds		(1)
+	[CityBuildingProxy]	m_BuildProxy		Skyunion.CityBuildingProxy
+CityUnlockProxy
+	[String]	ProxyNAME		CityUnlockProxy
+	[Int32]	m_VisionUnlockToAreaId		26
+	[Int64]	m_WaitVisionUnlockToAreaId		26
+	[Int32]	m_LandUnlockToAreaId		25
+	[Int64]	m_WaitLandUnlockToAreaId		25
+	[Boolean]	m_WaitShowRegainkViewNpc		False
+	[Int32]	m_nMaxInfluencePower		4510
+	[Int32]	m_nCurInfluencePower		2110
+	[Boolean]	m_isUnlocking		False
+	[Dictionary`2<Int32, Int32>]	m_LandBuildingAreaDict		(38)
+	[Dictionary`2<Int32, List`1>]	m_dicGroupAreaList		(10)
+	[Dictionary`2<Int32, Int32>]	m_GridToLand		(4385)
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[Dictionary`2<Int32, Int32>]	m_LockTypes		(1)
+CurrencyProxy
+	[String]	ProxyNAME		CurrencyProxy
+	[Boolean]	firstUpdate		False
+	[Dictionary`2<String, GameObject>]	m_assets		(5)
+	[BagProxy]	m_bagProxy		null
+	[Dictionary`2<Int32, CurrencyDefine>]	m_currencyDefines		(21)
+	[List`1<instantPriceDefine>]	m_instantPriceDefines		(5)
+	[Int64]	<Food>k__BackingField		592007
+	[Int64]	<FloatFood>k__BackingField		592007
+	[Sequence]	m_foodFloatSequence		null
+	[Int64]	<Wood>k__BackingField		1568605
+	[Int64]	<FloatWood>k__BackingField		1568605
+	[Sequence]	m_woodFloatSequence		null
+	[Int64]	<Stone>k__BackingField		409850
+	[Int64]	<FloatStone>k__BackingField		409850
+	[Sequence]	m_stoneFloatSequence		null
+	[Int64]	<Gold>k__BackingField		273600
+	[Int64]	<FloatGold>k__BackingField		273600
+	[Sequence]	m_goldFloatSequence		null
+	[Int64]	<Gem>k__BackingField		467
+	[Int64]	<FloatGem>k__BackingField		467
+	[Sequence]	m_gemFloatSequence		null
+	[Int64]	<beautyExperience>k__BackingField		1000
+	[Int64]	<FloatBeautyExperience>k__BackingField		1000
+	[Int64]	<HangUpPoint>k__BackingField		6000
+	[Int64]	<FloatHangUpPoint>k__BackingField		6000
+	[Sequence]	m_hangUpPointFloatSequence		null
+	[Dictionary`2<EnumCurrencyType, Int64>]	m_CurrencyDict		(14)
+DataProxy
+	[String]	ProxyNAME		DataProxy
+EffectinfoProxy
+	[String]	ProxyNAME		EffectinfoProxy
+	[List`1<EffectInfoDefine>]	effectInfoDefineList		(0)
+EmailProxy
+	[String]	ProxyNAME		EmailProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[Int64]	m_lastSendTime		0
+	[List`1<Int64>]	m_redPointsIndex		(6)
+	[Dictionary`2<Int64, Boolean>]	PersonalIndexDic		(0)
+	[List`1<Int64>]	BattleReportIndexList		(0)
+	[Dictionary`2<Int64, Boolean>]	RequestedIndexDic		(0)
+	[Int32]	MailCurrentPage		1
+	[Boolean]	IsFirstOpenMail		False
+	[Int32]	MenuSwitchVal		0
+	[Int64]	DeleteEmailIndex		-1
+	[Int64]	DeleteEmailListIndex		-1
+	[Boolean]	m_clientEmailIsValid		True
+	[Int64]	m_clientEmailVersion		177571306009939968
+	[Boolean]	m_isUpdateEmail		False
+	[Boolean]	m_isAddEmail		True
+	[Boolean]	m_isEmailBubble		True
+	[Boolean]	m_isDelEMail		False
+	[List`1<Int64>]	m_emailChangeList		(1)
+	[Dictionary`2<Int64, String>]	m_loadingFightDetailDic		(0)
+	[Dictionary`2<Int64, BattleReportEx>]	m_fightDetailDic		(5)
+	[Boolean]	<EmailReceived>k__BackingField		True
+	[Dictionary`2<Int64, EmailInfoEntity>]	<GetEmails>k__BackingField		(6)
+	[String]	no_breaking_space		 
+	[Regex]	m_regex		\{[0-9a-zA-Z]+_[0-9]+\}
+	[Regex]	m_nameRegex		(?<=\{)[0-9a-zA-Z]+(?=_[0-9]+\})
+	[Regex]	m_numRegex		(?<=\{[0-9a-zA-Z]+_)[0-9]+(?=\})
+ExpeditionProxy
+	[String]	ProxyNAME		ExpeditionProxy
+	[Int32]	<LastSelectedLevelId>k__BackingField		0
+	[ExpeditionDefine]	<ExpeditionCfg>k__BackingField		null
+	[ExpeditionBattleDefine]	<ExpeditionBattleCfg>k__BackingField		null
+	[MonsterDefine]	<MonsterCfg>k__BackingField		null
+	[MonsterTroopsDefine]	<MonsterTroopsCfg>k__BackingField		null
+	[Int32]	<MaxExpeditionLevel>k__BackingField		0
+	[ExpeditionFightStatus]	<ExpeditionStatus>k__BackingField		None
+	[Int64]	<ExpeditionFightEndTime>k__BackingField		1656663725
+	[ExpeditionFightResult]	<FightResult>k__BackingField		Win
+	[Int32]	UIBgm		1012
+	[Vector2]	m_mapMinPos		(0.0, 21600.0)
+	[Vector2]	m_mapMaxPos		(7199.0, 28799.0)
+	[ExpeditionTroopData]	m_expeditionMonsterTroopData		Skyunion.ExpeditionTroopData
+	[ExpeditionTroopData]	m_expeditionPlayerTroopData		Skyunion.ExpeditionTroopData
+FuncGuideProxy
+	[String]	ProxyNAME		FuncGuideProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+GameQueueProxy
+	[String]	ProxyNAME		GameQueueProxy
+	[WorkerProxy]	_workProxy		Skyunion.WorkerProxy
+	[Dictionary`2<Int32, ClientQueueInfo>]	_dictQueues		(8)
+	[Int32]	InvalidateQueueId		-1
+	[List`1<QueueInfo>]	_listArmyQueue		(3)
+	[List`1<QueueInfo>]	_listBuildingQueue		(2)
+	[List`1<Int32>]	_listUpdate		(1)
+GuideProxy
+	[String]	ProxyNAME		GuideProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[TaskProxy]	m_taskProxy		Skyunion.TaskProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Boolean]	IsOpenGuide		True
+	[Boolean]	InGuide_Trigger		False
+	[Boolean]	m_IsGuideing		False
+	[Boolean]	IsTestMonsterAttackVillage		False
+	[Boolean]	m_isChangeCityPos		False
+	[PosInfo]	m_roleCityPos		null
+	[List`1<Vector2Int>]	m_needHideFogList		null
+	[Dictionary`2<Int32, List`1>]	m_stageDataDic		null
+	[Dictionary`2<Int32, Dictionary`2>]	m_pveDic		(1)
+	[Dictionary`2<Int32, Dictionary`2>]	m_buildDic		(1)
+	[Dictionary`2<Int32, Int32>]	m_systemOpenDic		(1)
+	[Dictionary`2<Int32, Int32>]	m_pveStartDic		(1)
+	[Int32]	_lastHeroID		0
+GuildBuildProxy
+	[String]	ProxyNAME		GuildBuildProxy
+	[Dictionary`2<Int64, GuildBuildData>]	m_guildBuildDatas		(0)
+HeadProxy
+	[String]	ProxyNAME		HeadProxy
+	[Dictionary`2<Int32, List`1>]	_allConfig		(2)
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[HeroProxy]	m_heroProxy		Skyunion.HeroProxy
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[Dictionary`2<Int32, Int32>]	_newHeadRed		(29)
+	[Dictionary`2<Int32, Int32>]	_newHeadBoxRed		(4)
+	[Dictionary`2<Int32, Int32>]	_itemCorrespondingID		(3)
+	[List`1<Int32>]	_idList		(4)
+HeroEquipProxy
+	[String]	ProxyNAME		HeroEquipProxy
+	[Dictionary`2<Int32, Int32>]	_equipGroupIds		(9)
+	[Dictionary`2<Int32, List`1>]	_equipTanlentIds		(0)
+	[Dictionary`2<Int32, Int32>]	_talentIdGradeMap		(0)
+	[Dictionary`2<Int32, Int32>]	_partGroups		(0)
+	[List`1<Int32>]	_groupIds		(9)
+	[Dictionary`2<Int32, Int32>]	_checkHeroType		(3)
+	[Dictionary`2<Int32, Int32>]	_equipHeroIds		(3)
+	[List`1<AttrInfoDefine>]	_attInfoConfigList		null
+HeroProxy
+	[String]	ProxyNAME		HeroProxy
+	[Dictionary`2<Int64, Hero>]	mHeroDic		(33)
+	[Boolean]	mFirstGetData		False
+	[SortType]	m_heroSortType		Rare
+	[List`1<Hero>]	m_ownHero		(5)
+	[List`1<Hero>]	m_summonHero		(0)
+	[List`1<Hero>]	m_noSummonHero		(23)
+	[Dictionary`2<Int32, List`1>]	_heroType		null
+HeroTrainProxy
+	[String]	ProxyNAME		HeroTrainProxy
+	[List`1<HeroTrainInfo>]	_heroTrainInfos		(18)
+	[CityBuildingProxy]	_cityBuildingProxy		Skyunion.CityBuildingProxy
+HospitalProxy
+	[String]	ProxyNAME		HospitalProxy
+	[GameQueueProxy]	m_queueProxy		Skyunion.GameQueueProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[Dictionary`2<Int64, Int64>]	SortTypeMap		(4)
+	[Boolean]	m_seriousInjuredIsChange		True
+	[Boolean]	m_isHasWound		False
+IntelligenceProxy
+	[String]	ProxyNAME		IntelligenceProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[RssProxy]	m_RssProxy		Skyunion.RssProxy
+	[Timer]	m_findSearchObjectTimer		null
+	[Boolean]	m_isLevelChanged		False
+	[Int64]	m_curLevel		5
+	[Int32]	m_maxLevel		20
+	[Int32]	m_maxStar		10
+	[Int64]	m_curStar		1
+	[Int64]	m_curExp		0
+	[Int64]	m_boxId		1
+	[Int64]	m_boxExp		0
+	[Int64]	m_storageNum		0
+	[Boolean]	m_isInited		True
+	[Boolean]	m_isFirst		False
+	[Boolean]	m_intelligencePanelShow		False
+	[Dictionary`2<Int64, IntelligenTaskInfo>]	m_alltasks		(6)
+	[Intelligen_Box]	boxInfo		null
+	[List`1<Int64>]	m_duringTask		(0)
+	[Int32]	m_firstEnterPlotID		-1
+	[Dictionary`2<Int32, Int32>]	m_gotoPlotDic		(1)
+	[Dictionary`2<Int32, Int32>]	m_receivePlotDic		(0)
+LocalTroopProxy
+	[String]	ProxyNAME		LocalTroopProxy
+	[Int64]	m_troopMainHeroID		2011
+	[Int64]	_troopMainHeroSkillId		-1
+	[Int64]	m_troopMainHeroStar		1
+	[Int64]	m_troopMainHeroLevel		1
+	[Int64]	m_troopMoveSpeed		8
+	[Int64]	_rid		177555118944686080
+	[Dictionary`2<Int64, Int32>]	m_objIndex2ToopId		(0)
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+MafiaManualProxy
+	[String]	ProxyNAME		MafiaManualProxy
+	[NewActivityProxy]	m_ActivityProxy		Skyunion.NewActivityProxy
+	[List`1<ActivityCalendarDefine>]	m_ActivityList		(29)
+MarkProxy
+	[String]	ProxyNAME		MarkProxy
+	[Int32]	m_selfMarkLimit		100
+	[Int32]	m_guildMarkLimit		10
+	[Dictionary`2<Int64, MapMarkItem>]	m_selfMarkList		(0)
+	[Dictionary`2<Int64, MapMarkItem>]	m_guildMarkList		(0)
+	[Dictionary`2<Int64, GameObject>]	m_markEffects		(0)
+	[Dictionary`2<Int64, Int32>]	m_loadingEffects		(0)
+	[Dictionary`2<Int64, List`1>]	m_configs		(2)
+MinimapProxy
+	[String]	ProxyNAME		MinimapProxy
+	[Dictionary`2<Int64, MemberPosInfo>]	MemberPos		(9)
+MonsterProxy
+	[String]	ProxyNAME		MonsterProxy
+	[RewardGroupProxy]	m_RewardGroupProxy		Skyunion.RewardGroupProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[List`1<ItemPackageShowDefine>]	lsItemPackageDefines		(40640)
+	[Dictionary`2<Int64, MonsterDataUIData>]	dicMonsterDataUIData		(5)
+	[Int32]	levelAttackMonster		0
+	[WorldMapObjectProxy]	m_worldProxy		Skyunion.WorldMapObjectProxy
+MoveCityProxy
+	[String]	ProxyNAME		MoveCityProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[Boolean]	m_bRandomMove		False
+NewActivityProxy
+	[String]	ProxyNAME		NewActivityProxy
+	[Dictionary`2<Int64, ActivityInfoEntity>]	activityInfoDict		(9)
+	[Dictionary`2<Int64, List`1>]	activityRankListConfigDict		(9)
+	[Dictionary`2<Int64, Int32>]	redPointCountDic		(9)
+	[Boolean]	m_HasNewActivity		True
+	[MafiaManualProxy]	m_MafiaManualProxy		Skyunion.MafiaManualProxy
+	[Dictionary`2<Int64, Dictionary`2>]	m_TaskInfoByDay		(1)
+	[Dictionary`2<Int64, List`1>]	m_TaskRewardGroup		(1)
+	[Dictionary`2<Int64, List`1>]	missionList_Exchange		(0)
+	[Dictionary`2<Int64, List`1>]	missionList_Mission		(9)
+NewChatProxy
+	[String]	ProxyNAME		NewChatProxy
+	[Dictionary`2<String, ChatChannelData>]	<ChannelInfo>k__BackingField		(3)
+	[Dictionary`2<Int64, String>]	<FixedChannelInfo>k__BackingField		(3)
+	[Dictionary`2<Int64, String>]	<PrivateChannelInfo>k__BackingField		(0)
+	[Dictionary`2<Int64, String>]	<PrivateTmpDelChannelInfo>k__BackingField		(0)
+	[Dictionary`2<Int64, SaveRoleInfo>]	<RoleInfos>k__BackingField		(1)
+	[List`1<String>]	_allFixedChannelData		(3)
+	[List`1<String>]	_allTmpChannelData		(0)
+	[Dictionary`2<Int32, Int32>]	_fixedChannelIds		(6)
+	[Dictionary`2<Int32, Int32>]	_privateChannelIds		(1)
+	[Dictionary`2<Int32, Int32>]	_groupChannelIds		(2)
+	[ChatRoleSettingData]	_chatRoleSettingData		Skyunion.ChatRoleSettingData
+	[SaveChatState]	ChatState		Skyunion.SaveChatState
+	[Int32]	TimeStampInterval		300
+	[Int32]	ChatWorldCountLimit		44
+	[String]	EmojiPre		/e
+	[String]	EmojiPattern		(?<=/e)\d{1,}
+	[Boolean]	_fixedChannelDataDirty		False
+	[Boolean]	_tmpChannelDataDirty		True
+	[PlayerProxy]	_playerProxy		Skyunion.PlayerProxy
+	[AllianceProxy]	_allianceProxy		Skyunion.AllianceProxy
+	[Int32]	_singleRequestMsgCount		10
+	[Dictionary`2<String, Int64>]	_channelSendTime		(2)
+	[Dictionary`2<String, Int32>]	_cdChanges		(0)
+	[Dictionary`2<String, Int32>]	_cdRemainTime		(2)
+	[Single]	TimeInterval		0.5
+	[Single]	_interVal		0.0333354
+	[Boolean]	_isNoCd		False
+	[CityBuildingProxy]	_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[Dictionary`2<Int32, Int32>]	_emojiIconShow		(1)
+	[Int32]	MaxShowUnReadCount		99
+	[String]	MaxUnReadDes		…
+	[Boolean]	_isBanTick		False
+	[Regex[]]	_richRegexLabel		(2)
+	[String[]]	_richLabel		(8)
+PlayerAttributeProxy
+	[Dictionary`2[]]	m_listCityAttributeSource		(160)
+	[AttributeValue[]]	m_cityAttributeTotal		(160)
+	[AttributeValue[][]]	m_cityAttributeSourceTotal		(10)
+	[Dictionary`2<Int64, AttributeValue[]>]	m_heroAttributes		(1)
+	[Dictionary`2<Int64, AttributeValue[][]>]	m_heroAttributeSourceTotal		(0)
+	[Dictionary`2<Int64, AttributeValue[]>]	m_troopAttributes		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	m_heroBuffs		(0)
+	[List`1<AttrInfoDefine>]	m_arrtibuteConfigs		(160)
+	[Int32]	m_attrTypeCount		160
+	[Int32]	m_sourceAttrCount		10
+	[String]	ProxyNAME		PlayerAttributeProxy
+PlayerProxy
+	[String]	ProxyNAME		PlayerProxy
+	[Boolean]	LoginInitIsFinish		True
+	[Boolean]	IsFogSystemInited		True
+	[Boolean]	LoadCityFinished		True
+	[Int64]	m_loginedRoleID		177555118944686080
+	[Dictionary`2<Int64, RoleInfoEntity>]	m_roleInfo		(1)
+	[Dictionary`2<Int64, response>]	m_roleStatistics		(1)
+	[Boolean]	m_isFirstGetRoleInfo		False
+	[CityBuildingProxy]	m_cityBuildProxy		Skyunion.CityBuildingProxy
+	[ResearchProxy]	m_researchProxy		null
+	[HeroProxy]	m_heroProxy		null
+	[SoldierProxy]	m_troopProxy		null
+	[ActivityProxy]	m_activityProxy		Skyunion.ActivityProxy
+	[ChatProxy]	m_chatProxy		null
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[ShopProxy]	m_ShopProxy		Skyunion.ShopProxy
+	[response]	m_roleLoginRes		SprotoType.Role_RoleLogin+response
+	[Int32]	m_maxVipLevel		-1
+	[RoleInfoEntity]	m_before		Skyunion.RoleInfoEntity
+	[Timer]	m_timeStudy		Skyunion.Timer
+	[Int32]	m_studyCount		5
+	[Int32]	GAMEID		1
+	[Int64]	freeaptime		1656648000
+	[Int64]	<Rid>k__BackingField		177555118944686080
+	[CivilizationDefine]	m_civilizationDefine		Data.CivilizationDefine
+	[ConfigDefine]	m_configDefine		Data.ConfigDefine
+	[Int64]	currentLevel		0
+	[Int64]	m_gameNode		1001
+	[Int64]	key		1106859
+	[Dictionary`2<Int64, ActivityTimeInfo>]	dicEmpty		(0)
+PveChapterProxy
+	[String]	ProxyNAME		PveChapterProxy
+	[PlayerProxy]	_playerProxy		Skyunion.PlayerProxy
+	[Int32]	_currentStrength		150
+PVEProxy
+	[String]	ProxyNAME		PVEProxy
+	[HeroProxy]	m_heroProxy		Skyunion.HeroProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[Int32[]]	m_heroIds		(3)
+	[Int32]	m_levelId		10
+	[BattleConfig]	battleConfig		null
+	[List`1<PVEHeroDefine>]	m_heroDataDefines		(46)
+	[List`1<SlotConfigDefine>]	m_slotConfits		(11)
+	[List`1<PVEHeroRageDefine>]	m_heroRageDatas		(55)
+	[List`1<PVEHeroUIDefine>]	m_heroUIData		(29)
+	[PveDefine]	CurrentPveConfig		Data.PveDefine
+	[Int32]	_currentPartId		0
+	[Int32]	_currentTriggerIndex		0
+	[PVELevelPartData]	CurrentPartData		null
+	[PveMonsterLevelConfigDefine]	_monsterLevelConfig		null
+	[Timer]	m_HangUpLocalTimer		Skyunion.Timer
+	[Int64]	m_HangUpTime		1286
+	[DateTime]	<LastReqHangUpInfoDT>k__BackingField		01/01/0001 00:00:00
+	[List`1<Single>]	m_HangUpTimeRatioList		(5)
+	[Dictionary`2<Int32, PVELevelDataConfig>]	m_allData		(0)
+	[PVELevelDataConfig]	CurrentLevelConfig		null
+RallyTroopsProxy
+	[String]	ProxyNAME		RallyTroopsProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[CityBuffProxy]	m_CityBuffProxy		Skyunion.CityBuffProxy
+	[ConfigDefine]	configDefine		Data.ConfigDefine
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[Dictionary`2<Int64, RallyDetailEntity>]	rallyDetailEntityDic		(0)
+	[Dictionary`2<Int64, RallyedDetailEntity>]	rallyedDetailEntityDic		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	rallyedreinforceDetailEntityDic		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	rallyedrallyDetailEntityDic		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	joinRallyDetailEntityDic		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	rallyReinforceDetailEntityDic		(0)
+	[Boolean]	m_hasReadRally		False
+	[Boolean]	m_showGuildCityHud		False
+	[Int32]	rallyedCount		0
+RankListProxy
+	[String]	ProxyNAME		RankListProxy
+	[Dictionary`2<Int64, LeaderboardDefine>]	rankListConfig		(36)
+	[Dictionary`2<Int64, List`1>]	rankListRewardConfigDic		(10)
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[RankListFirst]	rankListFirst		null
+	[RankListFirst]	allianceRankListFirst		null
+	[Dictionary`2<Int64, RankListAll>]	rankListDataCache		(0)
+	[Dictionary`2<Int64, RankListAll>]	allianceRankListDataCache		(0)
+	[Dictionary`2<Int64, RankListAll>]	allianceYesterdayHistoryDataCache		(0)
+	[Dictionary`2<Int64, RankListAll>]	allianceLastWeekHistoryDataCache		(0)
+	[Dictionary`2<Int64, Int32>]	allianceRewardCache		(0)
+	[Dictionary`2<Int64, RankInfo>]	selfCache		(0)
+	[Int32]	reRequestSec		300
+	[Dictionary`2<Int64, DateTime>]	lastRequestTimeCache		(0)
+	[Int32]	requesRankListCount		0
+	[Int64]	rankListTotalCount		0
+RechargeProxy
+	[String]	ProxyNAME		RechargeProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[Dictionary`2<Int32, Int32>]	m_gemMalls		(6)
+	[List`1<Int32>]	m_purchases099s		(7)
+	[List`1<Int32>]	m_purchases499s		(24)
+	[List`1<Int32>]	m_purchases999s		(14)
+	[List`1<Int32>]	m_purchases1999s		(16)
+	[List`1<Int32>]	m_purchases4999s		(16)
+	[List`1<Int32>]	m_purchases9999s		(28)
+RedProxy
+	[String]	ProxyNAME		RedProxy
+	[Int32]	CONVERSION_FACTOR		100
+	[Dictionary`2<Int32, RedDataInfo>]	m_RedDatas		(27)
+ResearchProxy
+	[String]	ProxyNAME		ResearchProxy
+	[List`1<StudyDefine>]	m_researchs		(1185)
+	[Dictionary`2<Int32, StudyDefine>]	m_mapResearchs		(1185)
+	[Dictionary`2<Int32, StudyDataDefine>]	m_StudyDatas		(8)
+	[Dictionary`2<Int32, List`1>]	m_studiesByType		(0)
+	[Dictionary`2<Int32, List`1>]	m_resTypes		(2)
+	[Dictionary`2<Int32, List`1>]	m_resStudyTypes		(199)
+	[Dictionary`2<Int32, Int32>]	m_resMaxLevel		(199)
+	[Dictionary`2<Int32, List`1>]	m_resSub		(197)
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[CityBuildingProxy]	m_buildProxy		Skyunion.CityBuildingProxy
+RewardGroupProxy
+	[String]	ProxyNAME		RewardGroupProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+RssProxy
+	[String]	ProxyNAME		RssProxy
+	[MonsterProxy]	m_MonsterProxy		Skyunion.MonsterProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[CityBuildingProxy]	m_buildingProxy		Skyunion.CityBuildingProxy
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[SearchProxy]	m_SearchProxy		Skyunion.SearchProxy
+	[Int32]	slectTroopId		0
+	[Boolean]	isCd		False
+	[ArmyData]	armySelectData		null
+	[Int32]	m_SearchResourceLevel		0
+	[Int32]	m_searchCameraMoveSpeed		600
+	[Int32]	OldLevel		0
+	[SearchType]	OldSearchType		None
+	[Timer]	m_findSearchObjectTimer		null
+	[Int32]	m_gatherSearchCd		15
+	[String]	tmpLastStr		null
+	[List`1<ResourcePosInfo>]	lsPos		(0)
+	[List`1<ResourcePosInfo>]	hasSearchPos		(0)
+	[Int32]	m_cd		0
+	[Timer]	m_timer		null
+ScoutProxy
+	[String]	ProxyNAME		ScoutProxy
+	[List`1<ScoutInfo>]	mlistSouts		(0)
+	[Dictionary`2<Int64, Int32>]	mDicSouts		(0)
+	[Boolean]	m_isFirstGetInfo		True
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+ScrollMessageProxy
+	[String]	ProxyNAME		ScrollMessageProxy
+	[Queue`1<ScrollMessage>]	m_scrollMessage		(0)
+SearchProxy
+	[String]	ProxyNAME		SearchProxy
+	[Int32]	searchCount		5
+	[Int32]	MaxBarbarianLevel		25
+	[Int32]	MaxCurrLevel		6
+	[Dictionary`2<Int32, SearchData>]	dicSearch		(5)
+	[SearchType]	searchType		Barbarian
+	[Int32]	currBarbarianLevel		3
+	[Int32]	currCurrLevel		1
+ShopProxy
+	[String]	ProxyNAME		ShopProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[Int32]	m_VipMaxLevel		17
+	[Dictionary`2<Int64, VipDefine>]	vipConfigDic		(18)
+	[Int64]	<VipLevel>k__BackingField		0
+	[Int64]	<VipPoint>k__BackingField		0
+	[List`1<ShopBullionDefine>]	m_GoldShopConfigList		(13)
+	[List`1<VipShopItem>]	m_VipShopConfigList		(18)
+	[List`1<BlackMarketShopItem>]	m_BlackMarketShopConfigList		(0)
+	[MysteryStoreEntity]	m_BlackMarketShopEntity		Skyunion.MysteryStoreEntity
+	[List`1<StoreInfoEntity>]	m_HangUpShopItemList		(0)
+	[Dictionary`2<Int64, PayInfoEntity>]	m_PayInfoDict		(11)
+	[Dictionary`2<Int64, List`1>]	m_PayTabDict		(3)
+	[Dictionary`2<Int64, CardInfoEntity>]	m_CardInfoDict		(0)
+SoldierProxy
+	[String]	ProxyNAME		SoldierProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[TroopProxy]	m_troopProxy		Skyunion.TroopProxy
+	[GameQueueProxy]	m_queueProxy		Skyunion.GameQueueProxy
+	[Dictionary`2<Int32, List`1>]	m_specialArmyDic		(0)
+	[Boolean]	m_isReadSpecial		True
+StoreProxy
+	[String]	ProxyNAME		StoreProxy
+	[Boolean]	<IsStoreBubbleShowed>k__BackingField		False
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[CurrencyProxy]	currencyProxy		Skyunion.CurrencyProxy
+	[GlobalEffectMediator]	globalEffectMediator		null
+	[ConfigDefine]	configDefine		Data.ConfigDefine
+	[Int64]	mysteryStoreLeaveTimes		0
+	[Dictionary`2<Int32, List`1>]	m_cacheShopData		null
+	[Dictionary`2<Int32, Boolean>]	m_showTypeDic		(4)
+	[List`1<Int32>]	mysteryStoreItemList		(0)
+TaskProxy
+	[String]	ProxyNAME		TaskProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[ResearchProxy]	m_researchProxy		Skyunion.ResearchProxy
+	[RewardGroupProxy]	m_rewardGroupProxy		Skyunion.RewardGroupProxy
+	[Dictionary`2<Int64, TaskData>]	m_taskDataDic		(30)
+	[RoleInfoEntity]	CurrentRoleInfo		Skyunion.RoleInfoEntity
+TrainProxy
+	[String]	ProxyNAME		TrainProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[SoldierProxy]	m_soldierProxy		Skyunion.SoldierProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Int32]	OpenTrainViewType		9
+TroopProxy
+	[String]	ProxyNAME		TroopProxy
+	[IData]	m_HeroSave		Skyunion.TroopSave
+	[List`1<AttrInfoDefine>]	m_attrInfoDefine		null
+	[Int32]	curHeroType		0
+	[HeroProxy]	m_HeroProxy		Skyunion.HeroProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[CityBuffProxy]	m_CityBuffProxy		Skyunion.CityBuffProxy
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[SoldierProxy]	m_soldierProxy		Skyunion.SoldierProxy
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[Dictionary`2<Int32, Boolean>]	mWarHeroDic		(0)
+	[Boolean]	SituStation		False
+	[MapViewLevel]	m_viewLevel		None
+	[Int32]	cfgWarFeverLevel		10
+	[ConfigDefine]	configDefine		Data.ConfigDefine
+	[Dictionary`2<Int64, ArmyInfoEntity>]	m_armyInfos		(0)
+	[Dictionary`2<Int64, TransportInfoEntity>]	m_transprotInfos		(0)
+	[List`1<Int32>]	m_buffIds		(40)
+	[List`1<FightBuff>]	m_buffList		(13)
+	[List`1<Int64>]	<ArmySelectTroopList>k__BackingField		null
+	[List`1<ArmyInfoEntity>]	armyList		(0)
+	[Vector2]	troopMoveSpacePos		(0.0, 0.0)
+	[String]	saveKey		SetShowAttackOtherTroopPlayerPrefs177555118944686080177555118944686080177555118944686080177555118944686080177555118944686080177555118944686080177555118944686080177555118944686080177555118944686080177555118944686080
+WarWarningProxy
+	[String]	ProxyNAME		WarWarningProxy
+	[Dictionary`2<Int64, EarlyWarningInfoEntity>]	m_dictWarningInfo		(0)
+WorkerProxy
+	[String]	ProxyNAME		WorkerProxy
+	[GameQueueProxy]	_gameQueueProxy		Skyunion.GameQueueProxy
+	[ClientQueueInfo]	m_mainQueueInfo		Skyunion.ClientQueueInfo
+	[ClientQueueInfo]	m_secendQueueInfo		Skyunion.ClientQueueInfo
+	[BuildQueueState]	m_mainQueueState		NOLEISURE
+	[BuildQueueState]	m_secendQueueState		LEISURE1
+WorldMapObjectProxy
+	[String]	ProxyNAME		WorldMapObjectProxy
+	[Dictionary`2<Int64, MapObjectInfoTemp>]	m_worldMapObjectTempDic		(0)
+	[Dictionary`2<PosInfo, Int64>]	m_worldMapObjectTempPosDic		(0)
+	[Dictionary`2<Int64, MapObjectInfoEntity>]	m_worldMapObjectDic		(106)
+	[Dictionary`2<Int64, MapObjectInfoEntity>]	m_worldMapObjectCityDic		(2)
+	[Dictionary`2<Int64, MapObjectInfoEntity>]	m_resourcePointDic		(0)
+	[Dictionary`2<Int64, MapObjectInfoEntity>]	m_monsterDic		(54)
+	[List`1<MapObjectInfoEntity>]	m_worldMapObjectList		(106)
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[RssProxy]	m_RssProxy		Skyunion.RssProxy
+	[Int64]	m_myCityID		151610190
+	[Boolean]	m_selfCityRecycle		False
+	[Vector2]	TerritoryPerUnit		(18.0, 18.0)
+	[Int32]	TerritoryCol		400
+	[List`1<ManorItem>]	m_territoryActiveList		(153)
+	[List`1<ManorItem>]	m_territoryDisableList		(0)
+	[List`1<ManorLod3Data>]	m_territoryLod3DisablePoints		(6)
+	[List`1<ManorItem>]	m_territoryLod3DisableItems		(6)
+	[List`1<ManorLod3Data>]	m_territoryLod3ActivePoints		(18)
+	[List`1<ManorItem>]	m_territoryLod3ActiveItems		(18)
+	[List`1<ManorItem>]	m_territoryPreBuildList		(24)
+	[List`1<ManorItem>]	m_territoryFakeList		(0)
+	[HashSet`1<Int32>]	m_territoryhash		(0)
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[Boolean]	m_isFakeChange		False
+	[Dictionary`2<Int64, ManorItem>]	m_guildTerritoryIndexDic		(177)
+	[Dictionary`2<Int64, Color>]	m_guildColor		(2)
+	[Int64[]]	m_territoryGuildArea		(160000)
+	[Dictionary`2<Int64, Color>]	m_flagColorCache		(2)
+	[Int32]	unit		400
+	[Rect]	m_kingdomRect		(x:1.00, y:1.00, width:7199.00, height:7199.00)

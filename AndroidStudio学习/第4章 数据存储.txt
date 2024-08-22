@@ -1,0 +1,185 @@
+了解安卓的数据存储，数据库，SD卡等概念，实现一个数据型购物车
+
+4.1 共享参数SharedPreferences
+	4.1.1 共享参数的基本用法
+		简单的配置文件，存储key,value
+	
+	4.1.2 实现记住密码功能
+	
+例子代码:
+		写入共享参数:
+		layout: 	storage/res/layout/activity_share_write.xml 	
+			//输入几个EditText文本，一个Spinner，点击按钮保存共享参数
+		code:  storage/java/com.example.storage/ShareWriteActivity.java
+			//SharedPreferences.Editor类， putXXX写一个key,value, commit方法保存
+		
+		读取共享参数:
+		layout: 	storage/res/layout/activity_share_read.xml 					
+		code:  storage/java/com.example.storage/ShareReadActivity.java
+			//页面打开直接读取共享参数
+			//获得 SharedPreferences shared = getSharedPreferences("share", MODE_PRIVATE);
+			//Map<String, Object> mapParam = (Map<String, Object>) shared.getAll(); 取得共享参数的所有值
+		
+		记住登录信息:
+		layout: 	storage/res/layout/activity_login_share.xml 					
+		code:  storage/java/com.example.storage/LoginShareActivity.java
+			//和上一章的登录代码相比，在OnCreate的时候从share.xml中获取共享参数，读取手机号和密码
+			//在登录成功后 loginSuccess，如果勾选了bRemember，则保存手机号和密码到共享参数
+		
+4.2 数据库SQLite
+	4.2.1 SQLite的基本用法
+		轻量级数据库，了解即可
+	
+	4.2.2 数据库帮助器SQLiteOpenHelper
+	
+	4.2.3 优化记住密码功能
+	
+例子代码:
+		创建与删除数据库:
+		layout: 	storage/res/layout/activity_database.xml 
+			//两个按钮分别创建和删除数据库
+		code:  storage/java/com.example.storage/DatabaseActivity.java
+			//openOrCreateDatabase 创建数据库，deleteDatabase 删除数据库
+		
+		写入数据库:
+		layout: 	storage/res/layout/activity_sqlite_write.xml 		
+			//类似之前写入共享参数
+		code:  storage/java/com.example.storage/SQLiteWriteActivity.java
+			//onStart时打开数据库， onStop时关闭数据库，onClick添加一条记录到数据库
+			storage/java/com.example.storage.database/UserDBHelper.java
+			//创建一个UserDBHelper完成用户数据库相关的操作，继承自SQLiteOpenHelper
+			
+		读取数据库:
+		layout: 	storage/res/layout/activity_sqlite_read.xml 					
+		code:  storage/java/com.example.storage/SQLiteReadActivity.java
+			//onStart开始时打开数据库，读取数据 query，onStop时关闭，点击时删除数据的所有数据
+	
+		记录登录密码:
+		layout: 	storage/res/layout/activity_login_sqlite.xml 		
+		code:  storage/java/com.example.storage/LoginSQLiteActivity.java
+			//在密码框焦点变化响应事件中，如果输入手机号且有焦点，则从数据库中查询记录，设置密码
+			//在登录成功 loginSuccess后，如果记住密码，则插入一条记录到数据库
+	
+4.3 SD卡文件操作
+	4.3.1 SD卡的基本操作
+		了解SD卡的路径
+		
+	4.3.2 公共存储空间和私有存储空间
+		了解存储空间的位置和目录结构
+	
+	4.3.3 文本文件读写
+	
+	4.3.4 图片文件读写
+	
+例子代码:
+		SD卡基本操作:
+		layout: 	storage/res/layout/activity_file_basic.xml 					
+		code:  storage/java/com.example.storage/FileBasicActivity.java
+		//获取系统SD卡相关的各个路径，了解即可
+		
+		文件存储路径:
+		layout: 	storage/res/layout/activity_file_path.xml 					
+		code:  storage/java/com.example.storage/FilePathActivity.java
+		//获取文件存储的目录，私有(本app专有)，共有(所有app共享)
+		
+		写入文本文件:
+		layout: 	storage/res/layout/activity_text_write.xml 					
+		code:  storage/java/com.example.storage/TextWriteActivity.java
+		//写文件的方法 FileOutputStream write, close
+		
+		读取文本文件:
+		layout: 	storage/res/layout/activity_text_read.xml 					
+		code:  storage/java/com.example.storage/TextReadActivity.java
+		//把私有存储目录下的txt文件列表，如果选中后读取文件内容显示
+		//读文件的方法 FileInputStream read, close
+		
+		写入图片文件:  了解即可
+		layout: 	storage/res/layout/activity_image_write.xml 					
+		code:  storage/java/com.example.storage/ImageWriteActivity.java
+		//把列表截图并保存到sd卡上，存储文件的方法 FileUtil.saveImage，把bitmap位图用JPG编码保存
+		
+		读取图片文件:  了解即可
+		layout: 	storage/res/layout/activity_image_read.xml 					
+		code:  storage/java/com.example.storage/ImageReadActivity.java
+		//把私有存储目录下的图片文件列表，如果选中后读取图片内容显示
+		//FileUtil.openImage读取bitmap，ImageView设置bitmap显示
+	
+4.4 应用Application基础
+	4..4.1 Application的生命周期
+	
+	4.4.2 利用Application操作全局变量
+	
+例子代码:
+		APP生命周期:
+		layout: 	storage/res/layout/activity_act_jump.xml 	
+				storage/res/layout/activity_act_next.xml 
+		code:  storage/java/com.example.storage/ActJumpActivity.java
+				storage/java/com.example.storage/ActNextActivity.java
+			//和上一章的Activity跳转相似
+		
+		写入全局内存:
+		layout: 	storage/res/layout/activity_app_write.xml 					
+		code:  storage/java/com.example.storage/AppWriteActivity.java
+			//在点击按钮后，把信息存储到 MainApplication.mInfoMap中，Application可以作为全局内存变量
+		
+		读取全局内存:
+		layout: 	storage/res/layout/activity_app_read.xml 					
+		code:  storage/java/com.example.storage/AppReadActivity.java	
+			//程序启动后，读取MainApplication.mInfoMap的信息
+	
+4.5 内容提供与处理  略，了解即可
+	4.5.1 内容提供器ContentProvider
+	
+	4.5.2 内容解析器ContentResolver
+	
+	4.5.3 内容观察其ContentObserver
+	
+例子代码:
+		内容提供器:
+		layout: 	storage/res/layout/activity_content_provider.xml 					
+		code:  storage/java/com.example.storage/ContentProviderActivity.java
+		
+		读写联系人:
+		layout: 	storage/res/layout/activity_content_resolver.xml 					
+		code:  storage/java/com.example.storage/ContentResolverActivity.java
+		
+		流量校准:
+		layout: 	storage/res/layout/activity_observer.xml 					
+		code:  storage/java/com.example.storage/ContentObserverActivity.java	
+	
+4.6 购物车
+	
+例子代码:
+		选项菜单:
+		layout: 	storage/res/layout/activity_menu_option.xml 					
+		code:  storage/java/com.example.storage/MenuOptionActivity.java
+		//创建一个选项菜单，onCreateOptionsMenu方法中， getMenuInflater().inflate(R.menu.menu_option, menu);
+		//从menu_option.xml中构建菜单布局，xml中定义3个item菜单项
+		//菜单的响应函数 onOptionsItemSelected 处理菜单点击事件
+		
+		上下文菜单:
+		layout: 	storage/res/layout/activity_menu_context.xml 					
+		code:  storage/java/com.example.storage/MenuContextActivity.java
+		//创建一个选项菜单，onCreateContextMenu方法中， getMenuInflater().inflate(R.menu.menu_option, menu);
+		//从menu_option.xml中构建菜单布局，xml中定义3个item菜单项
+		//菜单的响应函数 onContextItemSelected 处理菜单点击事件
+		//onResume, onPause中给一个控件注册上下文菜单
+		
+		购物车:  //学习购物车的界面设计布局
+		layout: 	storage/res/layout/activity_shopping_cart.xml
+			storage/res/layout/activity_shopping_channel.xml 
+			storage/res/layout/activity_shopping_detail.xml 
+			storage/res/layout/activity_shopping_title.xml 
+			
+				//购物车的布局，主页面 activity_shopping_cart.xml ，include标题栏 activity_shopping_title.xml
+				//activity_shopping_cart.xml的 ScrollView包含FrameLayout，再定义一个LinearLayout 表示购买的物品
+		
+		//activity_shopping_title.xml中定义标题，定义标题的购物车图片及上面用shape实现的购物车物品个数
+		//activity_shopping_detail.xml  物品的细节布局
+		//activity_shopping_channel.xml定义商品列表 showGoods从数据库读取商品信息，每个物品创建
+		//一个LinearLayout，添加TextView，ImageView，Buttton
+		
+		code:  storage/java/com.example.storage/ShoppingCartActivity.java	
+				storage/java/com.example.storage/ShoppingChannelActivity.java
+				storage/java/com.example.storage/ShoppingDetailActivity.java
+	

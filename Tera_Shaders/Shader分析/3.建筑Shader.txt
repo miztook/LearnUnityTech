@@ -1,0 +1,31 @@
+TERA/Environment/BuildingDecal
+TERA/Environment/Dstveiw_TransparentCutout
+TERA/Environment/FadeoutWithRim
+TERA/Environment/glasstest
+TERA/Environment/MobileDiffuse
+TERA/Environment/MobileDiffuseBump
+TERA/Environment/MobileDiffuseBumpEnvMap
+TERA/Environment/MobileDiffuseBumpEnvMapTwoSide
+TERA/Environment/MobileDiffuseBumpGlassy
+TERA/Environment/MobileDiffuseBumpreflection
+TERA/Environment/MobileDiffuseBumpTwoSide
+TERA/Environment/MobileDiffuseBumpWithEmission
+TERA/Environment/MobileDiffuseBumpWithEmissionTwoSide
+TERA/Environment/MobileDiffuseNoLightmapTowSide
+TERA/Environment/MobileDiffuseNoLightmapTowSideWithEmission
+TERA/Environment/MobileDiffuseTwoSide
+TERA/Environment/MobileDiffuseTwoSideVertexAnim
+TERA/Environment/MobileDiffuseTwoSideWithEmission
+TERA/Environment/MobileSimpleFx
+TERA/Environment/MobileTransparentObject
+TERA/Environment/MobileWaterBicolored
+TERA/Environment/SkySphere
+TERA/Environment/SkySphereWithStars
+
+TERA/Environment/MobileDiffuse
+	diffuse: 	直接 maintex采样 
+				间接 SH环境光和lightmap乘以nl光照角度(halfLambert)，按夜晚参数进行插值
+	specular: 	用blin_phong进行高光计算
+	
+	简化版本： 去掉specular计算
+	

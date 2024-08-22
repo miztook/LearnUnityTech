@@ -1,0 +1,31 @@
+DT-A002		配置检查
+	检查是否使用了
+		baseProjectTemplate.gradle
+		launcherTemplate.gradle
+	
+DT-A003 	设置GPCSDKMainActivity
+	选择使用
+		com.unity3d.player.UnityPlayerActivity
+		com.gpc.sdk.unity.GPCSDKMainActivity
+		
+DT-A004		硬件加速
+	android:hardwareAccelerated	开关
+
+DT-A005		FCM推送
+	ReplacePushIcon					//设置 notification 图标到 drawable 资源下
+	InsertGradlePushInfo
+			添加	com.google.firebase:firebase-messaging:23.0.0	com.google.firebase:firebase-iid:21.1.0							
+	CopyFirebaseJavaFile
+			拷贝	MyFirebaseMessagingService.java
+DT-A016
+
+DT-A006		Google账号登录
+	添加Activity	com.gpc.sdk.unity.GetGoogleAccountTokenProxyActivity
+	在res的string中添加 google_web_client_id
+	添加	'com.google.android.gms:play-services-auth:18.1.0'
+	拷贝	GetGoogleAccountTokenProxyActivity.java		GPCGooglePlayLoginUtils.java
+	
+DT-A007		Google支付
+	添加
+		com.android.billingclient:billing:5.0.0
+		com.google.android.play:core:1.10.0

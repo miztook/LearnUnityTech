@@ -1,0 +1,68 @@
+ShakeUIScreen			使用PanelRoot的CameraShader组件，PanelRoot发生振动
+
+DoSlider			滑动
+DoKillSlider		停止滑动
+
+ShowHUDText			HUDTextMan显示头顶字伤害字
+
+SetButtonInteractable  		对GButton,Toggle的interactable开关
+SetImageColor		设置Image组件的color
+SetTextColor		设置Text组件的color
+GetPanelUIObjectByID		通过GUILinkHolder中的id找到gameobject
+
+AddCooldownComponent		添加冷却并设置参数
+RemoveCooldownComponent
+
+SetCircleProgress			圆形的冷却, GCircleProgress,用 anchoredPosition和Rotate实现圆形旋转
+GetJoystickAxis		把摇杆转变为按3D摄像机的移动方向
+SetSprite			设置Image的overrideSprite
+SetSpriteFromResources		加载sprite设置为ovverideSprite
+CleanSprite			清空Image的sprite和overrideSprite
+SetItemIcon			从commonatlas加载sprite 设置为Image的overrideSprite
+SetHeadIconfromImageFile			加载Texture2D，如果GRawImage，设置texture; 如果Image，创建Sprite，设置overrideSprite
+MakeImageGray		加载Gray材质，设置Image的material
+ChangeGraphicAlpha		设置Graphic的color alpha
+GetMainCameraPosition		获得摄像机的screen pos 	Camera.WorldToScreenPoint
+
+PreLoadUIFX		提前加载UI特效
+
+
+使用的类
+	DoTweenComponent	封装了transform的dotween效果
+			DoMove
+			DoLocalMove
+			DoScale
+			DoAlpha			设置image, text, material的color的DoFade
+			DoLoopRotate
+			DoSlider		针对Slider组件的效果
+			DoKillSlider
+			
+	GMotionModel		UI的Motion控制
+			Scale		DOScale缩放
+			Linear		DoMove线性移动
+			Alpha		To实现alpha过渡
+			Curve		DOPath沿path移动
+			ParaCurve	DOPath沿curvepath移动
+			
+	GBMFontAndMotionTextModel		字体和文字Motion
+			List<GMotionModel> 		UIMotion模型的列表
+			
+	HUDText		//头顶字 伤害字
+			Text组件
+			GImageGroup组件 	背景图
+			Show 	把GBMFontAndMotionTextModel里的设置应用到 Text ImageGroup, 然后应用MotionList的Motion
+			
+	HUDTextMan
+			Dictionary<int, GBMFontAndMotionTextModel> 加载多个GBMFontAndMotionTextModel
+			ShowText 找到对应的GBMFontAndMotionTextModel, 获取一个HUDText, 调用HUDText.Show
+					TranslatePosToUIPos 3D位置到2D屏幕坐标  RectTransformUtility.WorldToScreenPoint
+					
+	CooldownComponent		冷却，操作Image, Text
+			在Update中，根据时间设置Image的fillAmount属性实现冷却
+			
+	UISfxBehaviour		UI特效
+			从缓存中加载特效prefab，初始化，调整layer(改变特效中renderer的layer)
+			StartPlay 	应用clip，在Duration后停止，调用callback
+			
+	UISFxAreaClip 	应用UI clip，设置shader中的rect变量
+		

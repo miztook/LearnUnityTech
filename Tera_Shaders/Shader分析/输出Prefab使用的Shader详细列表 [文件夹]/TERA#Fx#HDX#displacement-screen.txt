@@ -1,0 +1,40 @@
+﻿TERA/Fx/HDX/displacement-screen
+		alilancer_f_skill06_a_c_chongfeng_body_lei/alilancer_f_skill06_a_c_chongfeng_body_lei_L3/leidun/guangzhao (2)
+		alilancer_f_skill06_a_c_chongfeng_body_lei_L3/leidun/guangzhao (2)
+		alilancer_f_ultskill01_b_c_bodydun_bing/alilancer_f_ultskill01_b_c_bodydun_bing_L3/dun/dun03
+		alilancer_f_ultskill01_b_c_bodydun_bing_L3/dun/dun03
+		alilancer_f_ultskill01_b_c_bodydun_guang/alilancer_f_ultskill01_b_c_bodydun_guang_L3/dun/dun03
+		alilancer_f_ultskill01_b_c_bodydun_guang_L3/dun/dun03
+		alilancer_f_ultskill01_b_c_bodydun_normal/alilancer_f_ultskill01_b_c_bodydun_normal_L3/dun/dun03
+		alilancer_f_ultskill01_b_c_bodydun_normal_L3/dun/dun03
+		CreatCharacter_1/Job1/MainAnimator/CameraAnimator/Camera/show_humwarrior_screen_broken/broken
+		CreatCharacter_1/Job1/MainAnimator/Character/CharacterRoot/humwarrior_m_create_CG/show_humwarrior_qixuan_small/qixuan01 (1)
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/aixin/baokai/twist
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/alipriest_f_create_shanguang/twist
+		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/Particle System/niuqu
+		CreatCharacter_4/Job4/MainAnimator/ArrowAnimator/show_archer_bow/fashi_tuowei/jian/niuqu
+		CreatCharacter_4/Job4/MainAnimator/Character/CharacterRoot/sprarcher_f_create_CG/sprarcher_f_create_CGchar/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/show_archer_hand_fxhand01_cast01/sprarcher_f_skill01_c_xiantiao/niuqu01
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/Particle System/niuqu
+		etc_jingtou_xiangweitexiao/Noise
+		etc_jingtou_xiangweitexiao/Noise/Noise1
+		humwarrior_m_attack01_daoguang_feng/humwarrior_m_attack01_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack01_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack02_daoguang_feng/humwarrior_m_attack02_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack02_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack03_daoguang_feng/humwarrior_m_attack03_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack03_daoguang_feng_L3/slash01/Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack04_daoguang_feng/humwarrior_m_attack04_daoguang_feng_L3/slash01 /Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		humwarrior_m_attack04_daoguang_feng_L3/slash01 /Nanzhanshi_attack01_daoguang/Dao Guang (2)
+		kalasishilian_show_screen01/01/position/broken
+		kalasishilian_show_screen01/02/position/broken
+		kalasishilian_show_screen02/01/position/broken
+		kalasishilian_show_screen02/02/position/broken
+		kamayiqiuzhang_attack01_c_feidao_L3/bishou_0000 (2)
+		sailien_jishengzhongzi_guangquan/sailien_jishengzhongzi_guangquan_L3/quan/kuosan/alipriest_f_skill06_sghx/ring02_blend
+		sailien_jishengzhongzi_guangquan_L3/quan/kuosan/alipriest_f_skill06_sghx/ring02_blend
+		yisilianshilianzhe_attack_02_pugong/yisilianshilianzhe_attack_02_pugong_L3/attack01/niuqu01
+		yisilianshilianzhe_attack_02_pugong_L3/attack01/niuqu01
+		yisilianshilianzhe_emozhiyan/yisilianshilianzhe_emozhiyan_L3/yanjing/niuqu03
+		yisilianshilianzhe_emozhiyan_L3/yisilianshilianzhe_emozhiyan_L3/yanjing/niuqu03
+		yisilianshilianzhe_show_attack02/yisilianshilianzhe_attack_02_pugong_L3/attack01/niuqu01
+		yisilianshilianzhe_tianfu_chuansong_L3/xueshizhe_skill02_xuewu/guangquan01

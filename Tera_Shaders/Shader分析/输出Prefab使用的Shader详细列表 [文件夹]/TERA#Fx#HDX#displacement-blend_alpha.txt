@@ -1,0 +1,97 @@
+﻿TERA/Fx/HDX/displacement-blend_alpha
+		ailinushilianzhe_attack01_hand_L/trail01
+		ailinushilianzhe_attack01_hand_L/trail02
+		ailinushilianzhe_attack01_hand_L/trail03
+		ailinushilianzhe_attack01_hand_L/trail04
+		ailinushilianzhe_attack02_hand_R/trail01
+		ailinushilianzhe_attack02_hand_R/trail02
+		ailinushilianzhe_attack02_hand_R/trail03
+		ailinushilianzhe_attack02_hand_R/trail04
+		beizuzhoudechuniang_attack02_fly/GameObject/tuowei -alpha (2)
+		damonvyifulin_huoqiu_tongyong/huoqiu/huoqiu_add01
+		Dn06_nupao_attack02_c_jian/ziwuti (1)/shizipian01
+		Dungn07_Mansion01/Fx/scene_wd06p1_penquan/GameObject (4)/plane01
+		fx04 (6)/scene_wd06p1_penquan (1)/wd06p1_penquan (2)/plane01
+		fx04 (6)/scene_wd06p1_penquan/wd06p1_penquan (2)/plane01
+		hailate_attack01_c_zhuaji/zhong/1/daoguang01_add_bland (1)
+		hetijibianguai_skill01_c_dimian/hetijibianguai_skill01_c_dimian/dimian (8)
+		hetijibianguai_skill01_c_dimian/hetijibianguai_skill01_c_dimian/dimian (9)
+		hetijibianguai_skill01_c_pen/hetijibianguai_skill01_c_pen/GameObject (1)/dimian (14)
+		hetijibianguai_skill01_c_shifa/hetijibianguai_skill01_c_shifa/dimian (12)
+		hetijibianguai_skill01_c_shifa/hetijibianguai_skill01_c_shifa/Particle System (3)
+		hetijibianguai_skill02_c_jiguang/hetijibianguai_skill02_c_jiguang/GameObject (1)/jiguang (111)
+		hetijibianguai_skill02_c_jiguang/hetijibianguai_skill02_c_jiguang/GameObject/dimian (10)
+		hetijibianguai_skill03_a_c_shifa/hetijibianguai_skill03_a_c_shifa/GameObject/Particle System (3)
+		hetijibianguai_skill03_b_c_dimian/hetijibianguai_skill03_b_c_dimian/dimian (12)
+		hetijibianguai_skill03_b_c_dimian/hetijibianguai_skill03_b_c_dimian/dimian (13)
+		hetijibianguai_skill03_c_c_pen/dimian (10)
+		hetijibianguai_skill03_c_c_shouji/baoka (10)
+		hetijibianguai_skill03_c_c_shouji/dimian (14)
+		hetijibianguai_skill04_c_shifa/hetijibianguai_skill04_c_shifa/GameObject/dimian (10)
+		hetijibianguai_skill04_c_shouji/hetijibianguai_skill04_c_shouji/baoka (11)
+		hetijibianguai_skill04_c_shouji/hetijibianguai_skill04_c_shouji/baoka (9)
+		hetijibianguai_skill04_c_shouji/hetijibianguai_skill04_c_shouji/dimian (12)
+		hetijibianguai_skill04_c_shouji/hetijibianguai_skill04_c_shouji/dimian (13)
+		hetijibianguai_skill04_c_shouji/hetijibianguai_skill04_c_shouji/yan (3)
+		hetijibianguai_skill04_c_zidan/hetijibianguai_skill04_c_zidan/GameObject/dimian (12)
+		huzhizhudenupu_attack01_c_shifa/yan
+		huzhizhudenupu_skill01_c/huzhizhudenupu_skill01_c/yao (14)
+		huzhizhudenupu_skill02_c/huzhizhudenupu_skill02_c/guangzhu/guangzhu_hei
+		huzhizhudenupu_skill02_c/huzhizhudenupu_skill02_c/guangzhu/smoke (1)
+		huzhizhudenupu_skill02_c/huzhizhudenupu_skill02_c/guangzhu/smoke_01 (1)
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/yan_02 (2)
+		huzhizhudenupu_skill03_c/huzhizhudenupu_skill03_c/yao_05
+		huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/quan_01
+		huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/yao_05 (6)
+		huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/huzhizhudenupu_skill04_c/yao_05 (8)
+		juzhuangshuyao_skill02_c/GameObject (1)/daoguang007
+		juzhuangshuyao_skill02_c/GameObject (2)/daoguang007
+		juzhuangshuyao_skill02_c/GameObject/daoguang007
+		laiangkeneixiaojie_attack02_fly/tuowei -alpha (2)
+		laiangkeneixiaojie_skill02_pingguo/PINGGUO/pingguo/GameObject (1)/tuowei -alpha (2)
+		luokejisizhang_attack01_c_kaipao/luokejisizhang_attack01_c_kaipao/smoke
+		luokejisizhang_attack01_c_kaipao/luokejisizhang_attack01_c_kaipao/smoke_01
+		luokejisizhang_attack01_c_shouji/luokejisizhang_attack01_c_shouji/smoke_01
+		luokejisizhang_attack01_c_shouji/luokejisizhang_attack01_c_shouji/smoke_03
+		luokejisizhang_attack02_c_shouji/luokejisizhang_attack02_c_shouji/smoke
+		luokejisizhang_skill01_c_penfa/luokejisizhang_skill01_c_penfa/guangzhu/guangzhu_hei
+		luokejisizhang_skill01_c_penfa/luokejisizhang_skill01_c_penfa/guangzhu/smoke
+		luokejisizhang_skill01_c_penfa/luokejisizhang_skill01_c_penfa/guangzhu/smoke_01
+		luokejisizhang_skill01_c_shifa/luokejisizhang_skill01_c_shifa/luokejisizhang_skill01_c_shifa/qiu/smoke
+		luokejisizhang_skill01_c_shifa/luokejisizhang_skill01_c_shifa/luokejisizhang_skill01_c_shifa/qiu/smoke_01
+		luokejisizhang_skill02_c_fazhen/luokejisizhang_skill02_c_fazhen/fazhen/smoke
+		luokejisizhang_skill02_c_shifa/luokejisizhang_skill02_c_shifa/shifa/smoke
+		mohuayifulin/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/mohuayifulin_hair/mohuayifulin_hair/hair_alpha01
+		mohuayifulin/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/mohuayifulin_hair/mohuayifulin_hair/hair_alpha02
+		mohuayifulin_hair/mohuayifulin_hair/hair_alpha01
+		mohuayifulin_hair/mohuayifulin_hair/hair_alpha02
+		mohuayifulin_show_hair/mohuayifulin_hair/hair_alpha01
+		mohuayifulin_show_hair/mohuayifulin_hair/hair_alpha02
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/nangua alpha
+		mohuayifulin_skill03_c_yujing/yujing01/nangua alpha (2)
+		mohuayifulin_skill03_c_yujing/yujing02/nangua alpha (2)
+		mohuayifulin_skill03_c_yujing/yujing03/nangua alpha (2)
+		mohuayifulin_skill03_c_yujing/yujing04/nangua alpha (2)
+		mohuayifulin_skill03_c_yujing/yujing05/nangua alpha (2)
+		monvxueyuanjiaoyuan_attack02_c_kaipao/monvxueyuanjiaoyuan_attack02_c_kaipao/smoke (3)
+		monvxueyuanjiaoyuan_attack02_c_shouji/monvxueyuanjiaoyuan_attack02_c_shouji/smoke (3)
+		monvxueyuanjiaoyuan_skill01_c_penfa/monvxueyuanjiaoyuan_skill01_c_penfa/guangzhu/guangzhu_hei
+		monvxueyuanjiaoyuan_skill01_c_penfa/monvxueyuanjiaoyuan_skill01_c_penfa/guangzhu/smoke
+		monvxueyuanjiaoyuan_skill01_c_penfa/monvxueyuanjiaoyuan_skill01_c_penfa/guangzhu/smoke_01
+		monvxueyuanjiaoyuan_skill01_c_shifa/monvxueyuanjiaoyuan_skill01_c_shifa/monvxueyuanjiaoyuan_skill01_c_shifa/qiu/smoke
+		monvxueyuanjiaoyuan_skill01_c_shifa/monvxueyuanjiaoyuan_skill01_c_shifa/monvxueyuanjiaoyuan_skill01_c_shifa/qiu/smoke_01
+		nangua/dimian (2)/nangua alpha
+		nanguamoou_skill01_c_fly_huoqiu/huoqiu/huoqiu_add01
+		nanguamoou_skill01_c_shifa_01/huoqiu/huoqiu_add01
+		nanguamoou_skill01_c_shifa_02/weiyi/nanguamoou_skill01_huoqiu (1)
+		nanguamoou_skill03_b_c_body/gun/quan_01
+		nanguamoou_skill03_b_c_body/gun/yao_05 (6)
+		sence_Dungn00_zhuiluoyunshi_baozha/sence_Dungn00_zhuiluoyunshi_baozha/dimian/huo (1)/dimian alpha
+		sence_Dungn00_zhuiluoyunshi_baozha_02/sence_Dungn00_zhuiluoyunshi_baozha/dimian/huo (1)/dimian alpha
+		sence_Dungn00_zhuiluoyunshi_canliu/sence_Dungn00_zhuiluoyunshi_canliu/andi_alpha
+		shijiuchoujue_attack02_c_quanfeng/GameObject/luoxuanxian_04
+		shijiuchoujue_skill01_c_suduxian/GameObject (1)/GameObject (2)/luoxuanxian_04
+		shijiuchoujue_skill01_c_suduxian/GameObject/GameObject (1)/luoxuanxian_04
+		shijiuchoujue_skill04_c_baozha/dimian (2)/nangua alpha
+		sikala_skill03_c_jiguang/dilie/yan (3)
+		Wd02_Fx_jlzqpool/T_wenli_shui_001_018_alpha/T_wenli_shui_001_16_alpha

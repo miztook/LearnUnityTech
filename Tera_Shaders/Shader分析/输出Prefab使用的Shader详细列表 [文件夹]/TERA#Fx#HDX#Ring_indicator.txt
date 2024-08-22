@@ -1,0 +1,2 @@
+﻿TERA/Fx/HDX/Ring_indicator
+		etc_yujing_huan/huan_suofang

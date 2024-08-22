@@ -1,0 +1,62 @@
+游戏模块划分
+
+	Third
+	Skyunion
+	Client	
+		Hotfix, ILRTBind		//动态加载Hotfix.dll
+		Hotfix,	Native			//静态链接
+	Game				//入口
+	
+原理
+	热更新模式下，动态加载Hotfix.dll通过解释模式执行，程序不知道任何Hotfix的静态类型信息
+	菜单: 热更新/重新生成Hotfix.dll，在HotfixService/脚本ILRT模式, 即可用ILRuntime方式运行程序
+	
+HotfixService初始化
+	静态模式下，通过HotfixService_Native，调用Hotfix模块
+	热更模式下, HotfixSevice, 通过ILRumtime调用Hotfix模块
+	
+ILRuntime的注意事项
+	Hotfix.dll 中定义的类型ILRutime可以识别, 需要注意的是
+		
+	跨域继承	(ILRTBind.RegisterCrossBindingAdaptor)
+		开销比较大，尽量避免，需要使用的话在 ILRTBind/Generated/AutoAdapter 中定义CrossAdapter
+		
+	值类型		(ILRTBind.RegisterValueTypeBinder)
+		Hotfix中不能使用struct，效率低下
+		引用其他模块的值类型 在 ILRTBind/Generated/ValueType 中定义
+		
+	引用其他模块的类型 		(ILRTBind.RegisterCLRMethodRedirection)
+		Hotfix引用其他的模块类型，在运行时会通过反射来识别，为了加速Hotfix识别的类型绑定，自动生成引用类型的Binding
+		在 ILRTBind/Generated/AutoType 定义
+		菜单命令: 热更新/ILRuntime/通过自动分析热更DLL生成CLR绑定
+		
+	delegate的问题
+		Hotfix无法识别匿名委托，如Sort, Find中的委托类型， UnityEvent等
+		因此需要 尽量减少游戏内的delegate使用，确实用到的delegate，需要在
+		ILRTBind.RegisterDelegates 方法中加上所有的 delegate转换，这也是ILRuntime中比较麻烦的一步
+		
+代码注意事项
+	去掉Hotfix中不必要的delegate (需要写Converter)
+	
+	去掉System.Linq
+	去掉Hotfix中.Foreach方法 (引用匿名delegate)
+	
+	搜索.Sort方法中的比较方法 	//需要写 ILRT.Bind.cs 中的 RegisterComparisonDelegates
+	
+	避免List				//需要写 ILRT.Bind.cs 中的 RegisterPredicateDelegates，尽量避免
+		.Find
+		.FindIndex
+		.FindAll
+		.RemoveAll
+		
+	Enum.IsDefined 不能用
+	Enum.Parse 在热更dll中不能解析int，要编写一个先解析int，再解析string的方法
+	
+查找Hotfix引用的Delegate的方法
+	在ILRTBind/Generated/AutoType目录下，查找 System_Collections_Generic_List_1 开头的文件, 搜索Find, FindIndex, FindAll, RemoveAll等方法
+	尽量去掉在游戏中的使用，直到AutoType中不再包含这些方法
+	
+	对 UnityEngine_Events_UnityAction，UnityEngine_Events_UnityEvent_1 开头的文件，增加delegate转换
+	
+	搜索其他文件中的 Func< Action<，通常需要做delegate转换
+	

@@ -1,0 +1,6 @@
+尽量去掉Linq
+尽量去掉Relfection
+Dictionary的使用 (TryGetValue)
+
+Timer和asset异步加载回调中，访问变量尽量判空，否则当Timer到时间或asset加载完成时，上下文不在存在
+int.Parse尽量改成int.TryParse，避免某些情况下抛异常

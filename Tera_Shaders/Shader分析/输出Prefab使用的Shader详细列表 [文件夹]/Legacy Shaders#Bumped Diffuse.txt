@@ -1,0 +1,2 @@
+﻿Legacy Shaders/Bumped Diffuse
+		Wd01_Prop_glz01/xsc_zhuanqiang06

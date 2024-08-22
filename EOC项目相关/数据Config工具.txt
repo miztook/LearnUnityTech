@@ -1,0 +1,16 @@
+菜单
+	Tools/同步配置文件
+
+	1.	选择配置的目录	也就是 eoc_3rd目录	(也可以点击菜单 Skyunion/DataService/配置/设置配置的目录)
+	2.	eoc_3rd目录 git pull
+	3.  同步配置文件(bin和cs文件)
+		从 eoc_3rd目录 的 config/Config/Bin 拷贝到 客户端的 Assets/BundleAssets/Config/Bin
+		从 eoc_3rd目录 的 config/Config/Code/CShape 拷贝到 客户端的 Assets/Scripts/Client/Config		
+	4.	资源表ID生成 Assets/Scripts/Client/Config/ResourceID.cs		(也可以点击菜单 Skyunion/DataService/配置/资源表ID生成)		
+	5.  UI表ID生成 Assets/Scripts/Client/Config/UIID.cs		(也可以点击菜单 Skyunion/DataService/配置/UI表ID生成)
+	6. 	Auiio表ID生成 Assets/Scripts/Client/Config/AudioId.cs		(也可以点击菜单 Skyunion/DataService/配置/Audio表ID生成)
+	
+	执行完毕后
+	在客户端目录 
+		Assets/BundleAssets/Config/Bin
+		Assets/Scripts/Client/Config 下git commit看是否有修改，如果有就commit push		

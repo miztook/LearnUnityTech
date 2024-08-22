@@ -1,0 +1,46 @@
+在 Skyunion\RunTime\AssetService 下
+	IAssetService			//支持用AssetBundle形式加载和AssetDatabase加载 
+	
+Unity.ResouceManager		(com.unity.addressables)
+
+	AsyncOperations			异步操作
+		IAsyncOperation		
+			引用计数
+			GetDependencies 	获得相关的异步操作依赖
+			Execute			//执行	
+				
+		继承自AsyncOperationBase<TObject>
+			ChainOperation					//调用callback函数
+			GroupOperation					//多个依赖，一组操作
+			ProviderOperation				//多个依赖，调用 IProvider.Provide
+		
+	
+	ResourceLocations
+	
+	ResourceProviders
+	
+	
+	IResourceLocator 		定位资源的location在哪里 
+		管理多个Key			找到可能的location
+		
+	IResourceLocation		资源位置
+		获得hash
+		ProviderId
+		Dependencies		依赖资源列表
+		
+游戏中 InitializationOperation
+	打包模式
+		BinaryProvider
+		AssetBundleLcoalProvider
+		DulBundleAssetProvider
+		
+		BundleAssetResourceLocator			Locate进行路径转换
+		DynamicResourceLocator				加载图集的特殊路径
+	
+	非打包模式
+		AssetDatabaseProvider
+		SceneProvider					//当activateLoad=false时，progress=0.9时即为已经完成
+	
+		AssetDatabaseResourceLocator		Locate转换路径
+		
+	ABUtils.CalcAssetBundleDirHashName			//把文件路径转换为CRC路径

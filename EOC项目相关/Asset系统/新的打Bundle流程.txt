@@ -1,0 +1,52 @@
+ForceBuildBasicBundle
+	bRebuild = true
+	以windows为例，输出目录在 
+		res_base\assetbundles\Windows	
+		res_base\bin
+		res_base\configs
+		res_base\audio
+
+	bundle构造规则
+		shader
+		fonts
+		commonres
+		其余的按配置的目录打bundle
+	
+		
+	Build完毕后，在res_base\assetbundles\Windows下生成
+		PATHID.dat	除去shader, fonts, commonres的build记录信息，供游戏使用
+		PATHIDBACKUP_Base.dat	所有的build记录信息做备份
+		BuildMD5_Base.dat	记录除去属于shader, fonts资源的Root资源的md5
+		CopyFileMD5_Base.dat	bin,configs,audio下的文件md5 
+	
+ForceBuildBasicBundle
+	bRebuild = false
+	
+	基于基础包的打包资源信息，生成当前包相对于基础包的增量信息
+	
+	以windows为例，输出目录在
+		res_update\assetbundles\Windows\Update
+		res_update\bin
+		res_update\configs
+		res_update\audio
+	
+	bundle构造规则
+		shader
+		fonts
+		commonres
+		如果资源的md5和基础包记录不同，则bundle名为资源的crc名称
+		如果资源没有出现在基础包记录中，则为新资源，bundle名为资源的crc名称
+		如果资源的md5和基础包的记录相同，则bundle名为基础包中的bundle名
+		
+		把基于基础包的增量asset资源拷贝到 res_update\assetbundles\Windows\Update 中
+		
+	build完毕后增量资源生成
+		基于res_base下的基础包的
+			PATHIDBACKUP_Base.dat
+			BuildMD5_Base.dat
+			CopyFileMD5_Base.dat
+		在 res_update/assetbundles\Windows\Update 下为增量的AssetBundle资源
+		res_update\bin
+		res_update\configs
+		res_update\audio		下为增量的文件资源
+		

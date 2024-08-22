@@ -1,0 +1,13 @@
+入口
+	Tools/Sproto/同步协议 & 生成协议 & 生成实体[测试]
+
+SyscSproto1	
+	1. 根据 ServerProtocol 目录下的 Common.sproto 和 Protocol.sproto， 合并写到 客户端目录下的	/Protocol/Protocol.sproto
+		CompileProtobufSystemPath
+			然后执行 lua.exe sprotodump.lua -cs 根据Procotol.sproto生成协议的cs文件到 /Scripts/Client/Protocol/Sproto.cs
+	2. 编译CompileProto2DLL
+			第一步生成的 Sproto.cs 和 Assets\Scripts\Client\Net\Sproto\ 目录下的所有cs文件(协议解析) 作为源文件
+			编译DLL到位置 cache/proto_temp.dll 下
+	3. 生成SprotoEntity.cs GenSprotoProxyMarshalByRefObject.CreateEntitys
+			在 cache/proto_temp.dll中找出所有 SprotoType 的类 (协议类)
+			生成每个协议对应的Entity类，包含协议中的每个字段，增加一个UpdateEntity方法，根据协议更新Entity的值(Dictionary特殊处理)

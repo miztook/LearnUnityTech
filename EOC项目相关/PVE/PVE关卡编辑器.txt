@@ -1,0 +1,76 @@
+初始化
+	加载所有的PveDefine关卡数据
+	加载所有的PVEHeroDefine怪物数据
+
+加载关卡数据
+	读取PveDefine数据，找到对应Id的PveDefine
+	通过pveDefine.levelConfigId 读取 pveMonsterLevelConfigDefine (关卡配置)
+	通过pveMonsterLevelConfigDefine.levelConfig 加载配置文件 PVELevelData
+
+	InitLevelTriggerByData				//levelData.m_triggerData添加到场景中 Tigger 节点下	
+		//组件: PVELevelTriggerMonobehaviour
+	
+	InitPartCameraByData				//levelData.m_partData添加到场景中 PartInfo 节点下
+		//组件: PVELevelPartDataMonoBehaviour 	
+		//设置一个Player
+		//InitMonsterByData 	设置怪物Data			
+			组件 MonsterInfoBehaviour 对应 MonsterInfo
+		//InitNoInteractiveMonsterData  设置非交互怪
+			组件 NoInteractiveMonsterInfoMonoBehaviour 对应 NoInteractiveMonsterInfo
+		//InitDynamicData
+			组件 DynamicUnitConfigBehavior 对应 DynamicUnitConfig
+		//InitGuardData
+			组件 PveGuardConfigBehavior 对应 PveGuardConfig
+	
+	InitCameraPosition
+		//把 levelData.m_initCameraPosition 和 levelData.m_cameraAimPosition 设置到Pve_Program节点下
+	
+怪物数据
+	模型
+	区域ID		partId
+	波次	groupId
+	添加怪物数量
+	//从列表中选一种怪，配置 partId, groupId, 数量，monsterId 作为一个 MonsterInfoBehaviour
+
+无交互单位
+	模型
+	区域Id
+	波次
+	//从列表中选一种怪, 配置 partId, groupId，monsterId 作为一个 NoInteractiveMonsterInfoMonoBehaviour
+
+动态元素
+	区域Id
+	波次
+	资源Id
+	//加载资源Id，配置 partId, groupId 作为一个 DynamicUnitConfigBehavior
+
+守卫单位
+	模型
+	区域Id 
+	波次
+	//从列表中选一种怪, 配置 partId, groupId，guardId 作为一个 PveGuardConfigBehavior
+
+trigger			//(TriggerId 废弃???)
+	//创建Cube作为默认，transform为默认, Parent为 "Trigger"
+
+新增区域信息
+	区域Id
+	//创建BundleAssets/PVE/others/CM vcam1的一个实例，添加组件 PVELevelPartDataMonoBehaviour，Parent为 “PartInfo”
+	
+保存关卡数据
+	PVELevelData levelData的生成
+	1. 找到 PveMainCamera 和 Pve_Program/kaichangjingtou/zhushidian 节点，作为
+		levelData.m_initCameraPosition
+		levelData.m_cameraAimPosition
+		
+	2. 准备添加 LevelTrigger
+		搜集Trigger节点下的 PVELevelTriggerMonobehaviour 组件, 取得编辑的 m_triggerData
+	
+	3. 准备添加 PVELevelPartData
+		搜集PartInfo节点下的 PVELevelPartDataMonoBehaviour 组件，取得编辑的 m_partData
+			HandleData： 
+				m_partData.m_playerPosAndRotation:	Player的位置 (我方的战斗点
+				m_partData.m_monsterInfos: 每个MonsterInfoBehaviour组件，添加MonsterInfo nId<0的怪位置作为 m_playerBirthPos 出生点
+				m_partData.m_noInteractiveMonsters: 每个NoInteractiveMonsterInfoMonoBehaviour组件，获取位置 
+				m_partData.m_dynamicConfig: 每个DynamicUnitConfigBehavior 获取位置
+				m_partData.GuardConfig: (守护模式) PveGuardConfigBehavior组件 获取位置

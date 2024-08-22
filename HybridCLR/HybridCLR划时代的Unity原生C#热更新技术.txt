@@ -1,0 +1,65 @@
+https://blog.csdn.net/UWA4D/article/details/125809357
+
+HybridCLR是一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生C#热更方案。
+
+HybridCLR扩充了IL2CPP的代码，使它由纯AOT Runtime变成“AOT+Interpreter“混合Runtime，进而原生支持动态加载Assembly，
+使得基于IL2CPP Backend打包的游戏不仅能在Android平台，也能在iOS、Consoles等限制了JIT的平台上高效地以AOT+interpreter混合模式执行。
+
+1. 基础概念
+
+	IL2CPP
+		一些平台如iOS，禁止JIT并导致依赖JIT的官方CLR虚拟机无法运行，而是必须使用AOT技术将Mananged程序提前转化为目标平台的静态原生程序后再运行
+		IL2CPP方案包含一套AOT运行时以及一套DLL到C++代码及元数据的转换工具，使得原始的C#开发的代码最终能在iOS平台运行
+	
+	IL2CPP与热更新
+		IL2CPP是一个纯静态的AOT运行时，不支持运行时加载DLL
+	
+		目前主流的IlRuntime， 热更新方案的VM与IL2CPP是独立的，意味着它们的元数据系统是不相通的，在热更新里新增一个类型是无法被IL2CPP所识别的
+		这种虚拟机，在与IL2CPP这种复杂的CLR运行时交互时，会产生极大量的兼容性问题，另外还有严重的性能问题。
+	
+		方案:
+			直接对IL2CPP运行时进行扩充，添加Interpreter模块，彻底支持热更新
+	
+2. 原理
+	至少需要实现以下功能：
+		加载和解析DLL元数据
+		动态注册元数据，其中关键为Hook动态函数的执行流到解释器函数
+		实现一个高效正确的解释器
+		正确处理GC及多线程等运行时机制
+		
+3. 特性 
+		HybridCLR不支持的特性: 
+			不支持Delegate的BeginInvoke，EndInvoke
+			不支持MonoPInvokeCallbackAttribute
+			
+		AOT相关特性
+			HybridCLR也有一些额外的特性：
+				支持使用Interpreter Assembly替换AOT Assembly（限制：必须不存在其他AOT Assembly对它的直接引用
+				支持补充元数据机制，彻底支持AOT泛型
+				支持AOT Hotfix，可以修复AOT模块的Bug
+				
+		Unity相关特性
+			支持Unity的Assembly Def模块机制
+			支持代码中挂载热更新脚本			(最好不要热更新脚本MonoBehaviour)
+			支持资源上挂载热更新脚本，但要求打包工作流有少许调整
+			
+4. 与其他流行的C#热更新方案的区别
+	本质比较
+		HybridCLR是原生的C#热更新方案。通俗地说，IL2CPP相当于Mono的AOT模块，HybridCLR相当于Mono的Interpreter模块，两者合一成为完整Mono。
+		HybridCLR使得IL2CPP变成一个全功能的Runtime，原生（即通过System.Reflection.Assembly.Load）支持动态加载DLL，从而支持iOS平台的热更新。
+		
+	正因为hHybridCLR是原生Runtime级别实现，热更新部分的类型与主工程AOT部分类型是完全等价并且无缝统一的。可以随意调用、继承、反射或多线程，不需要生成代码或者写适配器。
+	
+	其他热更新方案则是独立VM，与IL2CPP的关系本质上相当于Mono中嵌入Lua的关系。因此类型系统不统一，
+	为了让热更新类型能够继承AOT部分类型，需要写适配器，并且解释器中的类型不能为主工程的类型系统所识别。特性不完整、开发麻烦、运行效率低下。
+	
+5. 实际使用体验或者特性比较
+	HybridCLR学习和使用成本几乎为零。HybridCLR让IL2CPP变成全功能的Runtime，学习和使用成本几乎为零，几乎零侵入性。而其他方案则有大量的坑和需要规避的规则，学习和使用成本较高，需要对原项目作大量改造。
+	HybridCLR可以使用所有C#的特性，而其他方案往往有大量的限制。
+	HybridCLR中可以直接支持使用和继承主工程中的类型，其他方案要写适配器或者生成代码。
+	HybridCLR中热更新部分元数据与AOT元数据无缝统一，像反射代码能够正常工作的，AOT部分也可以通过标准Reflection接口创建出热更新对象。其他方案做不到。
+	HybridCLR对多线程支持良好。像多线程、ThreadStatic、Async等等特性都是HybridCLR直接支持，其他方案除了Async特性外均难以支持。
+	HybridCLR中Unity工作流与原生几乎完全相同。HybridCLR中热更新MonoBehaviour可以直接挂载在热更新资源上，并且正确工作。其他方案不行。
+	HybridCLR兼容性极高。各种第三方库只要在IL2CPP下能工作，在HybridCLR下也能正常工作。其他方案往往要大量魔改源码。
+	HybridCLR内存效率极高。HybridCLR中热更新类型与主工程的AOT类型完全等价，占用一样多的空间。其他方案的同等类型则是假类型，不仅不能被Runtime识别，还多占了数倍空间。
+	HybridCLR执行效率高。HybridCLR中热更新部分与主工程AOT部分交互属于IL2CPP内部交互，效率极高。而其他方案则是独立虚拟机与IL2CPP之间的效率，不仅交互麻烦还效率低下。

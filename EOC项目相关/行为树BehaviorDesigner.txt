@@ -1,0 +1,65 @@
+
+https://www.jianshu.com/p/64b5fe01fb1c
+	中文版教程
+	
+	下面来了解一下行为树：有四种不同类型的 task(任务): 包括 action（行为），composite（复合），conditional（条件），decorator（修饰符）！
+	action（行为）可能很容易理解，因为他们在某种程度上改变游戏的状态和结果。 
+	conditional（条件）用来判断某些游戏属性是否合适！例如：在上图中的行为树中，有两个 conditional（条件）节点，两个 action（行为）节点前两个 conditional（条件）用来检查是否需有敌人，并确保是否有足够的子弹。
+		如果这些条件都是真的，纳闷这两个 task(任务)将被执行，并执行后续任务，如果有 conditional（条件）不满足，则不会执行后续操作，直接返回上层的 Sequence，并结束本次行为树的执行！
+		之后的是一个并行队列（parallel），下面的两个 action（行为）第一个负责计算设计伤害，第二个负责播放射击动画，他们是同事发生的！
+	composite（复合）：从上图中可以看出，Sequence 和 parallel 属于 composite（复合）节点。一个是顺序执行，一个是并列执行！
+	decorator（修饰符）：这个类型的节点只能有一个子节点。它的功能是修改子任务的行为。在上面的例子中，我们没有使用 decorator（修饰符），如果你需要类似于打断操作的话会用得到这个 decorator（修饰符）类型！
+		举个例子：一个收集资源的操作，它可能有一个中断节点，这个节点判断是否被攻击，如果被攻击则中断收集资源操作！decorator（修饰符）的另一个应用场合是重复执行子任务 X 次，或者执行子任务直到完成！ 
+	行为树还有一个重要话题，那就是返回状态！有时候一个 task（任务）需要多帧才能完成。例如，大多数动画不会在一帧开始并结束。此外有 conditional（条件）的任务需要一种方法来告诉他们的父任务条件是否正确，以便让父节点确定子节点的执行顺序。这两个问题都可以使用 status（状态）来解决。一个任务有三种不同状态：运行，成功或者失败。在第一个例子中，射击动画的 task 任务只有一个 status 状态，而确定敌人的条件是在 Within Sight任务中返回的，如果返回失败，也就是不在视野中则不会执行到后面的任务!
+
+	在什么情况下会需要用行为树（BehaviorTree）而不用有限状态机（FiniteStateMachines）例如 PlayMaker 这种插件？从更高级的逻辑层面来讲，行为树常常用于复杂的人工智能，而有限状态机（FSMs）则用于一般的可视化变成。
+	
+	任务
+		Composites（复合）节点
+			Sequence（序列）节点
+				这个节点是一个"和"的关系，也就是他下面的子节点的执行顺序是一个接着一个的！如果其中一个返回 false。那么后续的子节点不会被执行，这个序列节点返回 false。只有当所有子节点全部完成并返回 success 的时候，这个 Sequence（序列）节点才会返回 success;
+			Selector（选择）节点
+				这个节点是"或"的关系，也就是他下面的子节点的执行顺序是一个或另一个的！只有所有子节点返回 false 才会返回 false。只要有一个子节点返回 success，那么这个 Selector 节点就会返回 success，后续的节点不会被执行！
+			Parallel（并行）节点
+				这个节点类似于 Sequence（序列）节点。不同的是，Parallel（并行）节点会在同一时间执行所有子节点而不是一个一个的去执行！
+			Parallel Selector（并行选择）节点
+				类似于 Selector（选择）节点，ParallelSelector(并行选择)节点只要有一个子节点返回 success，那么他就会返回 success！不同于 Selector的一点就是 ParalleSelector（并行选择）节点会在同一时间执行下面的所有子节点，如果有一个节点返回 success，则会停止掉其他所有子节点并返回 success。只有当所有子节点全部 false 的时候才会返回 false！
+			Priority Selector（优先选择）节点
+				类似于 Selector（选择）节点，PrioritySelector(并行选择)节点只要有一个子节点返回 success，那么他就会返回 success！不同点在于，子节点的执行顺序不是从左到右的，而是通过优先级来确定的执行顺序！较高的优先级的子节点会被先执行！需要在 Task 类中覆盖函数，来设置不同的 Priority
+			Random Selector（随机选择）节点
+				这个节点的特点是：随机的执行子节点，只要有一个子节点返回成功，它就会返回成功，不再执行后续节点。如果所有子节点都返回 false 则它也返回 false！在这个节点的属性面板中有：seed（随机种子）的设置
+			Random Sequence（随机序列）节点
+				类似于 Sequence（序列）节点，只是他的执行顺序是随机的！只要遇到一个子节点返回 false，RandomSequence（随机序列）就返回错误，直到全部子节点都返回 success，它才会返回 success！在这个节点的属性面板中有：seed（随机种子）的设置
+			Selector Evaluator（重复判断选择）节点
+				这个节点每帧都会去重新评估子节点的执行状态并选择。它会执行子节点中优先级最低的子节点！每帧都会这么干！如果当前一个高优先级的节点在运行并且下一帧要执行的子节点优先级比较低，那么它会打断高优先级的节点，去执行优先级低的子节点！ Selector Evaluator（重复判断选择）节点会从低到高的去遍历执行所有子节点，直到遇到一个返回 success 的！如果所有子节点都返回 false，那么它就返回 false！否则只要有一个返回 success，它就会返回 success！这个节点模拟了条件打断功能，如果子节点没有条件节点的
+			Conditionals（条件判断）节点
+			Random Probability (随机概率)节点
+				通过设置 successProbability 属性来控制返回 success 的几率（默认 0.5，也就是 50%几率）！另外还有 seed 随机种子的设置
+			Compare Field Value（字段比较）节点
+				比较指定的值的字段值。 返回成功如果值是相同的。
+			Has Received Event（是否接收到事件）
+		
+		Decorators（修饰器）节点
+			这种节点的功能是用来包装另一个节点！（只能有一个子节点）。Decorators（修饰节点）将改变节点的行为！例如：修饰节点可以再运行时控制子节点直到返回某个特定状态（success 或者是 false）。后者是对子节点返回结果取反（即：success 返回 false，false，返回 success）；
+			
+			Conditional Evaluator (条件节点的评估) 装饰节点
+				对设置的条件节点进行评估，如果条件节点返回 success，那么运行子节点并返回子节点的运行结果！如果条件节点没有返回 success那么子节点不会被运行，并且立刻返回 failure！
+			Interrupt（打断）装饰节点
+				如果打断节点被触发，则打断下面的所有子节点任务的执行！
+			Inverter（取反）装饰节点
+				子节点的任务完成后返回值，在这个节点会被取反并传递到上一级中！
+			Repeater（重复/循环）装饰节点
+				有三个属性设置：执行次数，是否一直重复，运行直到返回错误！
+			Return Failure （返回失败）装饰节点	
+				只要子节点当前的状态不是 running，也就是子节点执行结果无论是 success 还是 failure，都返回 failure！如果子节点状态是 running的话则返回 running！
+			Return Success（返回正确）装饰节点
+				只要子节点当前的状态不是 running，也就是子节点执行结果无论是 success 还是 failure，都返回 success！如果子节点状态是 running的话则返回 running！
+			Task Guard（任务守卫）装饰节点
+				类似于多线程互斥操作中使用的 Lock 标记，为了避免公共数据被多次引用！
+			Until Failure（直到失败）装饰节点
+				直到子节点返回 failure，否则一直循环执行子节点
+			Until Success（直到成功）装饰节点
+				直到子节点返回 success，否则一直循环执行子节点！
+				
+https://opsive.com/support/documentation/behavior-designer/what-is-a-behavior-tree/
+	Opsive英文教程

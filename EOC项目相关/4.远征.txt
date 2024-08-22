@@ -1,0 +1,9 @@
+ExpeditionMediator
+	EnterCityExpeditionMap (PVP)
+		根据配置 读取ExpeditionBattleDefine中的远征地图名	
+		MapManager.ReadMapBriefDataFromFile2 加载 BundleAssets/land/MapData/{map_id}_data.bytes
+		
+	ExitExpeditionMap
+		
+		回到大地图
+		MapManager.ReadMapBriefDataFromFile2 加载 BundleAssets/land/MapData/map_4_data.bytes

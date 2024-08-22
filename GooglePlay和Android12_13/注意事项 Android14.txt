@@ -1,0 +1,54 @@
+谷歌要求上架app需要支持sdk version 31 (Android 12)
+2023.7 sdk version 33 (Android 13)
+2024.7 sdk version 34 (Android 14)
+
+按现在的unity版本 2019.4 需要注意的问题可以参考 https://developers.google.com/ar/develop/unity-arf/android-12-build
+
+1. 使用Build Tools 34.0.0
+
+	遇到报错 "Installed Build Tools revision 34.0.0 is corrupted"	可以参考
+	https://stackoverflow.com/questions/68387270/android-studio-error-installed-build-tools-revision-31-0-0-is-corrupted
+	
+	解决方法:
+		Android\Sdk\build-tools\34.0.0 下 d8.bat 改名 dx.bat
+		Android\Sdk\build-tools\34.0.0\lib 下 d8.jar 改名 dx.jar
+		
+2. 遇到编译错误 "AAPT2 aapt2-4.1.0-6503028-windows Daemon #0: Unexpected error during link, attempting to stop daemon."
+	使用sdk 34出现编译错误，需要升级gradle和JDK，但Unity版本限制不可行
+	参考 https://stackoverflow.com/questions/67233807/android-gradle-build-error-aapt2-aapt2-4-1-0-6503028-windows-daemon-0-unexpec
+	
+	解决方法:
+		修改 launcherTemplate.gradle 配置文件, compileSdkVersion 改为 33
+		
+3. 运行在 Android 14 设备上的时候，一启动就崩溃 
+	Caused by: java.lang.SecurityException: com.igg.sdk.test: One of RECEIVER_EXPORTED or RECEIVER_NOT_EXPORTED should be specified when a receiver isn't being registered exclusively for system broadcasts
+	
+	如果是系统库使用的receiver，需要升级相关的系统库
+	目前发现:
+		https://stackoverflow.com/questions/77873285/error-with-receiver-export-on-api-34-one-of-receiver-exported-or-receiver-not
+		
+		把 implementation 'com.google.android.play:core:1.10.3' 升级为
+			implementation 'com.google.android.play:asset-delivery:2.2.1'
+			implementation 'com.google.android.play:feature-delivery:2.1.0'
+			implementation 'com.google.android.play:review:2.0.1'
+			implementation 'com.google.android.play:app-update:2.1.0'
+	
+在Android14真机上遇到的问题
+	1. 启动后 遇到崩溃 Pending exception java.lang.SecurityException: Writable dex file '/data/user/0/com.mafiakingen.android/cache/app_resources_lib.jar' is not allowed.
+	
+		解决方法: https://github.com/firebase/firebase-unity-sdk/issues/865
+			升级 firebase-unity-sdk到v11.5.0
+
+	2. 启动后遇到崩溃 pending exception java.lang.NoSuchMethodError: No interface method getPackStates(Ljava/util/List;)Lcom/google/android/gms/tasks/Task; in class Lcom/google/android/play/core/assetpacks/AssetPackManager; or its super classes (declaration of 'com.google.android.play.core.assetpacks.AssetPackManager' appears in /data/app/com.*****/base.apk)
+	
+		解决方法: google play的库升级导致的，而Unity使用了旧版本play-core中的 Google Play Services' Task API 找不到
+		继续使用 implementation 'com.google.android.play:core:1.10.3' 不使用新的拆分后的google play库
+		
+	3. 选择性照片和视频访问授权
+	
+		解决方法： <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+		参考： https://blog.csdn.net/guolin_blog/article/details/137410229
+		 
+	4. google firebase的通知图标为白色圆形，图标必须为单色半透
+		解决方法： 设置targetSDKVersion = 19 Firebase的bug
+		参考： https://stackoverflow.com/questions/37325051/notification-icon-with-the-new-firebase-cloud-messaging-system

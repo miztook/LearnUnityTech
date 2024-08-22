@@ -1,0 +1,12 @@
+Patcher.cs 的构造函数中，修改 SkipUpdate = false
+
+游戏进入流程:
+	1) 	GlobalGame.Start 准备游戏的一些路径设置，log，初始化更新界面LauncherRoot
+	2)	HotFixBeforeState 所有SDK初始化，进行FirebaseCrashlytics初始化，PeopodSDK 和 平台SDK初始化
+	3) 	HotFixState	进行热更新, 更新完毕后初始化 AssetService, 加载GameApp场景
+	4) 	LoginViewState 初始化游戏其他模块，调用StartUp (在ReloadGame中加载完LoadingUI后，关闭更新界面LauncherRoot)
+	
+游戏热更新
+	具体更新log在 Logs/update.log 
+	第一步，从更新服务器下载version.txt，读取服务器资源版本
+	第二步，判断App版本和服务器版本的兼容关系，如果App版本 (三位) 和 服务器版本(前三位)比较，如果比较低则弹出版本过低窗口

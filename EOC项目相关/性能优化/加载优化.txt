@@ -1,0 +1,4 @@
+https://www.jianshu.com/p/57b339a79959
+
+UNITY 游戏运行越久加载越慢
+原因是某个GameObject 被调用多次DontDestroyOnLoad，表面上是调用多次没问题，实际上调用次数越多，加载速度越慢。

@@ -1,0 +1,36 @@
+影响最多的前几位:
+	1. ANR 
+		Native method - android.os.MessageQueue.nativePollOnce
+		Input dispatching timed out
+		
+	2. 崩溃 
+		[split_config.arm64_v8a.apk]
+		SIGSEGV
+	
+	3. 崩溃 
+		[split_config.armeabi_v7a.apk]
+		SIGSEGV
+	
+	4. ANR 
+		unavailable - com.unity3d.player.UnityPlayer.updateDisplayInternal
+		Input dispatching timed out
+		
+	5. ANR 
+		unavailable - com.unity3d.player.UnityPlayer.pauseUnity
+		Input dispatching timed out
+		
+解决
+	ANR:
+		1. Google AdMob 开启加载优化 		https://developers.google.com/admob/android/optimize-initialization?hl=zh-tw
+		2. google issueTracker中提到的ANR	https://issuetracker.google.com/issues/230950647?pli=1 (229帖子)
+			将WorkManager升级后大幅减少	
+				升级到 androidx.work:work-runtime-ktx to version 2.8.1 changelog里有ANR的bugfix		
+		3. firebase-messaging库需升级到 23.1.1 以上		https://firebase.google.com/support/release-notes/android#messaging_v23-1-1
+		4. 尽可能用Start而不是Awake			https://forum.unity.com/threads/anr-in-crashlytics-console-android-os-messagequeue-nativepollonce.1301154/
+		5. Input dispatching timed out原因的，检查touch相关消息的消耗 		http://blog.itpub.net/69912579/viewspace-2775989/
+		
+	崩溃:
+		1. 在AndroidManifest.xml中添加 <Application android:extractNativeLibs="true" ...			
+			https://stackoverflow.com/questions/62470798/crashes-split-config-armeabi-v7a-apk-and-split-config-arm64-v8a-apk
+			https://blog.csdn.net/qq1143051153/article/details/125422850
+		2. 在gradle.properties中添加 android.bundle.enableUncompressedNativeLibs=false				https://stackoverflow.com/questions/55966582/google-play-crash-logs-not-symbolicated-with-android-app-bundle	

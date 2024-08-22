@@ -1,0 +1,3 @@
+
+Unity3D研究院之更换着色器后删除材质残留宏和属性（一百二十五）
+	https://www.xuanyusong.com/archives/4796

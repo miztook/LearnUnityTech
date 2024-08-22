@@ -1,0 +1,34 @@
+1. 下载Unity版本 2022.3.37f1 版本，目标支持Android 14, Target API = 34
+	Gradle:
+		用Unity自带版本即可, Gradle版本为 7.2 即在目录 Hub\Editor\2022.3.33f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib 下的 gradle-wrapper-7.2.rar
+	Android Gradle插件:
+		也称AGP, 需要和Gradle版本对应，对应关系见 https://blog.csdn.net/Sn_Keys/article/details/126306117
+		Gradle 7.2 对应的AGP版本为 7.1.2 即在 baseProjectTemplate.gradle 中配置的 classpath 'com.android.tools.build:gradle:7.1.2'
+		
+2. 注意事项:
+	Unity 2022使用 Java 11 代替 Unity 2019 的 Java 8, 在gradle文件中
+		以 JavaVersion.VERSION_11 代替 JavaVersion.VERSION_1_8
+
+	由于 Android 14 增加了安全权限，即包含receiver和activity在启动时必须指定RECEIVER_EXPORTED 或 RECEIVER_NOT_EXPORTED，需要代码改动，否则会导致程序崩溃
+	因此涉及到大量的第三方库的升级，以支持Android 14，项目中使用的相关库的升级有:
+		firebase_unity_sdk 需要升级到 12.0.0 以上，参考 https://firebase.google.com/support/release-notes/unity
+			项目中使用的是 FirebaseAnalytics 和 FirebaseCrashlytics
+		
+		GooglePlayCore，现在分为新的 asset-delivery:2.1.0, play:review:2.0.1, feature-delivery:2.1.0 app-update:2.1.0
+			参考 https://developer.android.com/guide/playcore#playcore-migration
+			
+		UniWebView 需要升级到 5.6.3 版本以上, 参考 https://docs.uniwebview.com/release-note/
+					
+3. .gradle文件中的aapt选项必须添加 + unityStreamingAssets.tokenize(', ') 如
+	noCompress = ['.unity3d', '.ress', '.resource', '.ab', '.bin', '.csv', '.bnk', '.wem', '.xml'] + unityStreamingAssets.tokenize(', ')
+	
+	所以在gradleTemplate.properties文件中必须定义 unityStreamingAssets，否则会报无法识别符号的错误
+	在gradleTemplate.properties文件中添加
+		unityStreamingAssets=.unity3d**STREAMING_ASSETS**
+		
+4. 在安卓作为lib的文件夹，如在Assets/Plugins/Android目录下的lib目录，必须以.androidlib为结尾，才能被unity识别
+	否则整个目录不能识别 android的package引用, 会包程序包xxx无法找到的错误
+	
+5. Toggle控件的onValueChanged只在值变化时才调用，初始化后如果值不变化时就不会调用
+	因为unity 2022的UGUI代码修改导致 
+	修复: ToggleGroup.cs文件注释掉 protected override void OnEnable() 方法

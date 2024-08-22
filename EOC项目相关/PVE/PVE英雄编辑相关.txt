@@ -1,0 +1,37 @@
+1. PVE英雄资源同步流程
+	同步资源			//从 ArtRes/Character/Hero 下的美术资源，生成游戏内的可用资源到 BundleAssets/PVE/OuputRes/Model/Hero 下
+	
+		以 ArtRes/Character/Hero/alaixiya 为例:
+			Animations			//alaixiya@动作名
+			Materials
+			Model				//alaixiya@skin
+			Textures
+		
+		到 BundleAssets/PVE/OuputRes/Model/Hero/alaixiya
+			alaixiya.controller			//
+			alaixiya.asset				//脚本CAnimationData，定义State
+			alaixiya.prefab				//添加HumanBody组件，引用alaixiya@skin ( 如何生成? )
+			动作名.anim					//anim文件 ( 如何从fbx生成? )
+			动作名.asset				//脚本AnimationClipData ( 如何使用? )
+	
+		//HandleAnimation	为Animations目录下的anim文件创建animator controller
+			AnimatorController.CreateAnimatorControllerAtPath
+			在base layer创建stateMachine， 将每个Animations目录下的fbx动画生成.anim文件，并为每个.anim在stateMachine中添加State
+	
+		//MoveModel		拷贝模型fbx
+			Model目录下的每个fbx模型，拷贝到目标目录
+			为这个fbx生成prefab，添加HumanBody组件，UpdateComponent (Root下的Transform作为bone列表)
+			在游戏运行时, 挂点通过SlotConfig找到骨骼名称，生成Slot
+	
+	生成数据
+		对上一步生成的AnimatorController生成 CAnimatorData的asset，保存成.asset
+		CAnimatorData.ResetData把Animator序列化
+			Animator的每个参数序列化
+			Animator的 StateMachine序列化
+				每个State序列化
+				每个Transition序列化
+				
+	动作名Asset的生成
+		AnimationClipData			一部分来自于AnimationClip
+		List<SETrack>  关键帧信息，由SkillEditor编辑生成
+			

@@ -1,0 +1,24 @@
+NormalMap格式: 
+	PC: DXT5 (pc专有的dxt5法线压缩)
+	IOS: ASTC_RGB_5X5
+	Android: ETC2_RGB4
+	
+LightMap格式(HDR):
+	PC: RGBAHalf
+	IOS: RGBAHalf
+	Android: RGBAHalf
+	
+Default格式: 
+	特除的几个目录 Icon, T_jiuping_ 不压缩
+	
+	一般都需要开启Mipmap，不开启的需要检查
+	
+	Unity把宽高设置为2的n次幂 
+	PC: DXT5(透明) 	DXT1(不透明)
+	IOS: ASTC_RGB_6x6 (unity会自动判断是否使用alpha)
+	Android: ETC2_RGBA8(透明) 	ETC2_RGB4(不透明)
+	
+Sprite格式:
+	一般都不开启Mipmap，开启的需要检查
+	要使用压缩格式，宽高需要为4的倍数
+	Unity无法把宽高设为4的倍数，需要用外部工具

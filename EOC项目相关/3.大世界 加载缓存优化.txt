@@ -1,0 +1,51 @@
+参与缓存的物体
+	unityDummy								//组件	CellClone
+	unityRow								//组件	MatrixRow
+	unityFormation							//组件	Troops
+	
+Troop
+	来源	TroopProxy.GetTroopPrefabList + 几个战斗特效 ClientRS.effect_pvp_zidan, ClientRS.effect_map_tongyong_touzhiwu, ClientRS.effect_map_tongyong_touzhiwu_baozha
+			TroopProxy.GetTroopPrefabList
+				遍历 Arms表, Hero表, 并添加 Config表中的3个Scout和一个Tranport
+			
+			战斗特效
+				炮弹，子弹，爆炸物
+			
+Barbarian
+	来源	Troops目录下手动添加
+			
+Troop和Barbarian缓存的使用：
+	在MatrixRow的
+		UpdateUnitPosition			//使用所有的Troop Prefab来自于TroopProxy.GetPrefabList
+		UpdateUnitBarbarian			//使用所有BarbarianConfig中配置的路径
+	
+	包含多个LevelDetailBase组件
+	
+	
+BarbarianFormation	
+	来源	TroopProxy.GetMonsterFormationPrefabList			遍历MonsterDefine获取
+	必须包含Troops组件
+
+TroopUI
+	来源	手动添加
+		
+GlobalViewLevel				//近景obj 高层远景hud 		//组件 LevelDetailBase
+	来源	根据GlobalViewLevelMediator的 InitPopViewInfo 函数中配置的世界物体的obj和hud的更新
+	包含一个 LevelDetailBase 组件
+	
+WorldMapObj				//近景物体预制体			//组件 LevelDetailBase
+	来源	根据WorldMgrMediator的 GetResName 中获取的Rss类型资源
+	WorldMapViewObjFactory 中加载
+	包含一个 LevelDetailBase 组件
+
+
+大世界上的物体管理
+	LodPopViewData					//GlobalViewLevel
+		LodPopDataContent	dataContent
+		List<LodPopViewConfig> viewConfigs					配置PrefabName
+		List<LodPopViewContent> lstViewContent				加载prefab，来自 GlobalViewLevel 缓存	计算位置，偏移，scale
+		
+	LodPopDataContent
+		MapObjectInfoEntity mapEntity;				//由WorldMgrMediator管理，加载 WorldObj.SysLoadWorldObj 来自 GetWorldMapObj 缓存
+		ArmyData armyData;					//由TroopMgr管理, 管理野怪和玩家部队，来自 GetResource 缓存
+				

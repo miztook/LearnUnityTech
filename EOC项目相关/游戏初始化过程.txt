@@ -1,0 +1,53 @@
+发送: SprotoType.Role_RoleLogin
+收到 (Request): SprotoType.Role_RoleInfo			//角色
+	PlayerProxy.UpdateRoleInfo
+	
+收到 (Request): SprotoType.Hero_HeroInfo			//英雄
+	HeroProxy.UpdateHeroInfo
+	
+收到 (Request): SprotoType.Item_ItemInfo			//背包
+	BagProxy.UpdateItemInfo
+
+收到 (Request): SprotoType.Intelligen_IntelligenInfo		//情报信息
+	IntelligenceProxy 设置等级，经验，任务，开启任务
+
+收到 (Request): SprotoType.Map_ObjectInfoTemp		//临时世界对象 RssType
+	WorldMapObjectProxy.UpdateMapObjectTemp
+
+收到 (Request): SprotoType.Build_BuildingInfo
+	CityBuildingProxy.UpdateCityBuildInfo			//内城 EnumCityBuildingType
+
+收到 (Request): SprotoType.Map_ObjectInfo		objId: 100547277, objType: City
+	WorldMapObjectProxy.UpdateMapObject
+	
+收到 (Request): SprotoType.Incident_Info		//内城事件
+	CityIncidentProxy.UpdateIncidentInfos
+	
+收到 (Request): SprotoType.Activity_Info		//七日活动，掉落活动，兑换活动，任务活动
+	NewActivityProxy.OnActivityInfo
+
+收到 (Request): SprotoType.Task_TaskInfo
+收到 (Request): SprotoType.Task_TaskInfo                            
+	TaskInfoProxy.UpdateTaskInfoFromServer(taskInfo)
+	MainInterfaceMediator 主界面刷新任务信息
+	
+收到 (Request): SprotoType.Beauty_BeautyInfo		//美女系统信息
+	BeautyProxy.UpdateBeautyInfo
+	
+收到 (Request): SprotoType.Beauty_BeautyGlassInfo
+	BeautyProxy.UpdateBeauty_WipeGlass
+
+收到 (Request): SprotoType.Beauty_BeautyGameInfo
+收到 (Request): SprotoType.Beauty_BeautyBagInfo
+	BeautyProxy.UpdateGiftBagInfo
+	
+收到 (Request): SprotoType.Task_TaskInfo
+收到 (Request): SprotoType.Task_TaskInfo
+
+收到 (Response): SprotoType.Role_RoleLogin
+	FogSystemMediator			//初始化迷雾数据
+	SwitchMainCityCmd			//加载map_4_data.bytes, tile_data.bytes
+	CityGlobalMediator			//创建city
+	
+收到 (Request): SprotoType.Map_ObjectInfo		//添加内城中的资源
+	WorldMapObjectProxy.UpdateMapObject	

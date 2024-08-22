@@ -1,0 +1,4 @@
+﻿TERA/Character/Godeye
+		mine_gn_xiangzi_daxingbaoxiang Eye/Object003
+		mine_gn_xiangzi_daxingbaoxiang Eye/xsc_xiangzi04
+		xuezhishi_eye/xuezhishi

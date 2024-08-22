@@ -1,0 +1,85 @@
+																	高				中 				低
+CleanGlass.shader																					无grabpass
+niuqu.shader																						无grabpass
+
+IGGStandard.shader					
+IGGStandard_vertex.shader		//没有使用PBS1函数					
+IGGStandard3.shader
+IGGStandardMirror.shader											
+PBR_HSV.shader																						
+
+IGGWater.shader																						无grabpass
+
+IGG_Fur.shader														5次循环			3次循环			3次循环				
+IGG_PBR_T4M.shader
+IGG_PBR_T4M1.shader
+
+shader_slg_fog_of_war_vert 1.shader
+shader_slg_fog_of_war_vert yuan6.shader
+shader_slg_fog_of_war_vert yuan7.shader								采样次数5		采样次数1		采样次数1	
+shader_slg_fog_of_war_vert yuan7_dissolve.shader
+shader_slg_fog_of_war_vert yuan8.shader
+shader_slg_fog_of_war_vert yuan9.shader								采样次数5		采样次数1		采样次数1
+shader_slg_fog_of_war_vert.shader
+
+//
+effect_pvp_issac
+effect_map_boss_duxie_jineng
+effect_saimacheng
+effect_pvp_wangcheng
+
+//去掉大世界技能中的扭曲
+assets/artres/effect/shader/niuqu.shader
+	assets/bundleassets/effect/prefabs/eff_ui_yingxiongjinjie_daniuqu.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/aide/effect_aide_skill_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/alessia/effect_alessia_skin_1_beiji.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/alessia/effect_alessia_zhanshi_show.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/common/eff_common_cycle_shouji.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/dogg/boom_lil.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/dogg/effect_dogg_skill_1.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/genisi/effect_genisi_skill_1_root.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/genisi/effect_genisi_skill_2_root.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/hefunv/eff_hefunv_chuchang_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/hefunv/eff_hefunv_chuchang_random.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/issac/effect_pvp_issac.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/jiesi/effect_jiesi_chuchang.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/laoqiao/eff_laoqiao_fight_appearance.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/laoqiao/effect_laoqiao_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/laoqiao/effect_laoqiao_02.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/lenna/effect_lenna_skill_1_beiji.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/lenna/effect_lenna_skill_2_beiji.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/leopard/effect_baonv_pve_skill_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/leopard/effect_baonv_skill_01_chuikoushao.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/mina/effect_mina_chuchang_random_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/neite/effect_neite_skill_2_feijibaozha.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/neite/effect_neite_skin_1_beiji.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/pangqi/effect_pangqi_skill1.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/shanqi/eff_shanqi_chuchang_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/shanqi/eff_shanqi_chuchang_shuaidao_01.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/shanqi/eff_shanqi_pve_skill_02.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/sjymr/effect_boss_sjymr_skill_2_b.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/taisen/effect_chushang_taisen2.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/taisen/effect_taisen_skill_1_0.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/vamnong/effect_walong_chuchang.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/xiaochounv/effect_xiaochounv_skill_1_boom.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/zhansen/eff_zhansen_pve_skill_1_baozha.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/zhansen/eff_zhansen_pve_skill_1_renglei.prefab
+	assets/bundleassets/effect/prefabs/effect/pve/hero/zhansen/effect_zhanseni_pve_dengchang_01.prefab
+	assets/bundleassets/effect/prefabs/effect_map_boss_duxie_jineng.prefab
+	assets/bundleassets/effect/prefabs/effect_meinv_huanzhuang_01.prefab
+	assets/bundleassets/effect/prefabs/effect_pvp_wangcheng.prefab
+	assets/bundleassets/effect/prefabs/effect_saimacheng.prefab
+	assets/bundleassets/effect/prefabs/effect_ui_jianzhu_shengji.prefab
+	assets/bundleassets/effect/prefabs/effect_ui_jiejiuanna.prefab
+	assets/bundleassets/effect/prefabs/effect_ui_zhuangbei_qianghua.prefab
+	assets/bundleassets/effect/prefabs/niuqu_01.prefab
+	assets/bundleassets/hero/taisen/effect_chushang_taisen.prefab
+	assets/bundleassets/plottimelines/timeline_neicheng_zhaqbz.prefab
+	assets/bundleassets/plottimelines/timeline_neicheng_zhaqbz_loop.prefab
+	assets/bundleassets/pve/timeline/prefab/timeline_bossshow_laoqiao.prefab
+	assets/bundleassets/pve/timeline/prefab/timeline_bossshow_zhansen.prefab
+	Assets/BundleAssets/Scenes/Girl_Main.unity
+	Assets/BundleAssets/Scenes/Girl_WipeGlass.unity
+	assets/bundleassets/ui/uiprefabs/ui_prefabs_beauty/uibeauty/ui_win_savebeauty.prefab
+	assets/bundleassets/ui/uiprefabs/ui_prefabs_hero/hero/ui_win_herostarupsuccess.prefab
+	assets/shader/shaderlist.prefab

@@ -1,0 +1,40 @@
+ClientApp
+	BlackCamera
+	UIRoot
+		HUDLayer							1000
+			pl_world
+			pl_city
+			pl_citymenu
+			pl_fight
+			pl_plot
+		FullViewLayer						2000		
+		FullViewMenuLayer					3000
+		ChatLayer							4000
+		StoryLayer							5000
+		WindowLayer							6000
+		WindowMenuLayer						7000
+		WindowPopLayer						8000
+		GuideLayer							9000
+		TipLayer							10000
+			pl_dialog
+			pl_tip
+			pl_property
+			pl_warning
+			pl_notice
+		SystemOpenLayer						11000
+		LoadingLayer						12000
+		TurnAroundLayer						13000
+		BrowserLayer						14000
+	UITop
+	
+SceneObject
+	WorldCameraShake
+		WorldCamera					//世界场景摄像机
+	DirectionalLight
+	land_root
+		world_root
+	TroopLine_root				//行军线 Lod
+	Troops_root					//部队
+	rss_root					//世界场景物体(非图标)
+	lod3_root					//世界场景物体(图标) 带Canvas组件
+		

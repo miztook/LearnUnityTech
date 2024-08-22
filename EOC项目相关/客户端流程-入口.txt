@@ -1,0 +1,110 @@
+启动场景 Launcher 挂两个脚本
+	Global Client
+	
+	Global Client 继承自 GlobalGame
+		用一个FSM机制 维护和切换游戏状态
+		管理 EGlobalManager 调用 Update LateUpdate FixedUpdate
+		
+	游戏状态	
+		Launcher		//游戏启动					
+        SplashScreen	//闪屏
+        HotFixBefore	//热更前准备
+        HotFix		//热更
+        LoadResources	//加载资源
+        LoginView	//登陆界面
+        Login		//登陆
+        GameIntoBefore	//游戏前
+        GameInto	//游戏进入
+        Gameing		//游戏中
+        ReConnect	//网络重连
+        ReLogin		//重登陆
+        ApplicationPause	//游戏切入后台状态
+        GamePause	//游戏暂停
+		
+	游戏管理器
+		ADManager
+		LogManager
+		NetManager
+		AddressAssetManager
+		AudioManager
+		DataManagerBinary
+		UIManager
+		InputManager
+		UpdateManager
+		WorldEffectManager
+		GameLogicManager
+		SystemOpenManager
+		FormationManager
+		WorldSkillManager
+		WorldSkillWarningManager
+		
+初始化
+	Launcher状态到HotFixBefore状态
+	
+	HotFixBefore状态
+		添加
+			UpdateManager
+			AddressAssetManager
+			DataManagerBinary
+			AudioManager
+			InputManager
+		检查更新 加载 BundleAssets/Scenes/GameApp
+			WorldEffectManager
+			FormationManager
+			WorldSkillManager
+			WorldSkillWarningManager
+			
+	如果需要更新，转到HotFix状态		
+		HotFix状态调用 UpdateManager.ExecuteUpdate 在完成更新后加载 BundleAssets/Scenes/GameApp
+		
+	在HotFixBefore状态完成场景加载后，到LoginView状态
+		UIManager
+		GameLogicManager
+		SystemOpenManager
+			
+GameApp场景结构
+	ClientApp
+		BlackCamera
+		UIRoot
+		BenchmarkRunner
+		IGGSDK
+	SceneObject
+		WorldCameraShake
+			WorldCamera
+		Directional Light
+		land_root						//LevelDetailTilling
+			world_root
+		TroopLine_root					//TroopsLodUpdateMgr
+		Troops_root						//TroopsLodUpdateMgr
+		rss_root
+		lod3_root				//包含CanvasGroup组件
+	MonoSingleton
+		Skyunion.LevelDetailManager
+		Skyunion.MapManager
+		IGGChatSDK.SDKChatPlatform
+		Skyunion.HUDManager
+	IGGSDK						//IGGSDK
+	
+初始化后DontDestroy下
+	GlobalClient				//GlobalClient ManagerLogic
+	EffectRoot
+	ResourceManagerCallbacks			//MonoBehaviourCallbackHooks
+	EffectPool
+	WarnPool
+	LuaManager					//LuaManager
+	Dispatcher					//Dispatcher
+	
+Build的美术场景
+	BundleAssets/Scenes/
+		Launcher
+		GameApp
+		Girl_Main
+		CS_JieDao_01/Pve_Map01
+		Girl_WipeGlass
+		PVE_Map02_manor/PVE_Map02_manor_night
+		PVE_Map03/PVE_Map03
+		CD_JieDao_01/Pve_Map01_Daytime
+	ArtRes/Scene
+		CJ_jinku/G_jinku
+		CG_jinku/D_jinku
+	

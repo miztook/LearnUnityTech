@@ -1,0 +1,43 @@
+	Skyunion.ArmyTrainStatusGlobalMediator
+	Skyunion.BattleGlobalMediator
+	Skyunion.BattleMainlMediator
+	Skyunion.CallGameTool
+	Skyunion.CityGlobalMediator
+	Skyunion.CityIncidentMediator
+	Skyunion.CityUnlockMediator
+	Skyunion.ExpeditionMediator
+	Skyunion.FogSystemMediator
+	Skyunion.FuncGuideGlobalMediator				//引导功能，注意状态清理
+	Skyunion.GameEventGlobalMediator
+	Skyunion.GameToolsGlobalMediator
+	Skyunion.GlobalAllianceHelpMediator
+	Skyunion.GlobalChangeSceneMediator
+	Skyunion.GlobalCityBuidlingMediator
+	Skyunion.GlobalCityMenuHudMediator
+	Skyunion.GlobalEffectMediator
+	Skyunion.GlobalFilmMediator
+	Skyunion.GlobalGameTimeMediator
+	Skyunion.GlobalLimitTimePackageMediator
+	Skyunion.GlobalPveChapterMediator
+	Skyunion.GlobalResourceMediator
+	Skyunion.GlobalScoutsCampMediator
+	Skyunion.GlobalStoreMediator
+	Skyunion.GlobalTaskCenterMediator
+	Skyunion.GlobalTechnologyMediator
+	Skyunion.GlobalViewLevelMediator
+	Skyunion.GlobalWorldHudMediator
+	Skyunion.HospitalStatusGlobalMediator
+	Skyunion.InputGlobalMediator
+	Skyunion.ItemCollectGlobalMediator
+	Skyunion.MapUIiconMyCityMediator					//我的城市图标显示
+	Skyunion.MonumentGloablMediator
+	Skyunion.MouseClickEffectMediator
+	Skyunion.NoviceGuideGlobalMediator				//新手引导，注意状态管理
+	Skyunion.PveBattleMediator
+	Skyunion.PVPGlobalMediator
+	Skyunion.SendClientDeviceInfoMedia
+	Skyunion.ServerPushMediator
+	Skyunion.TaskScriptGlobalMediator
+	Skyunion.TroopGlobalMediator
+	Skyunion.TroopHUDMediator
+	Skyunion.WorldMgrMediator

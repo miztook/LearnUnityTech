@@ -1,0 +1,77 @@
+Launcher状态到HotFixBefore状态
+	
+HotFixBefore状态	
+	UpdateManager.Init
+	AddressAssetManager.Init
+	DataManagerBinary.Init
+	AudioManager.Init
+	InputManager.Init
+
+	检查更新 加载 BundleAssets/Scenes/GameApp
+
+	WorldEffectManager.Init
+	FormationManager.Init
+	WorldSkillManager.Init
+	WorldSkillWarningManager.Init
+	
+LoginView状态
+	UIManager.Init
+		InitUIRoot			
+			获取UIRoot，根Canvas，ClickEffect，MaskBlurCamera, EffectCamera
+			设置分辨率缩放
+			找到每个层级的gameObject
+			从UIViewInfoDefine模板中读取所有的UI配置信息
+		
+		InitAllUIInfo
+			从ClientResourceDefine中获取资源配置，建立UI所有的配置信息
+		
+		InitBlackList
+			添加要屏蔽的功能界面
+	
+	GameLogic.Init
+		维护一个Game的Initialize，Update，Shut
+		
+		Game.Initialize
+			AppFacade.StartUp
+			
+		Game.Update
+			Common.Update
+		
+		Game.Shut
+			GlobalBehaviourManager.Destroy			//置空instance
+			SquareHelper.Destroy					//置空instance
+			AppFacade.Destroy
+	
+	SystemOpen.Init
+		获取SystemOpenDefine模板, 系统是否打开根据等级和辅助条件判断
+		
+		UpdateSystemOpen 	//遍历模板配置的系统入口，如果开启则广播消息，发送通用广播消息
+		
+		
+第一个界面加载			ViewBinder:Create
+		AppFacade:StartUp
+			AppFacade:SendNotification(STARTUP)			//发送StartUp通知, 注意SubViewManager.Instance.NotifyObservers
+				Facade:SendNotification
+					Facade:NotifyObservers
+						View:NotifyObservers
+							Observer:NotifyObserver		
+								Controller:ExecuteCommand		//NotifyMethod
+									StartUpCommand:ExecuteCommand		//在CommandMap中找到Notification的command函数执行 (SimpleCommand继承自INotifier可以发送通知)
+										Notifier:SendNotification(ReloadGame)			//发送ReloadGame通知
+											AppFacade:SendNotification(ReloadGame)
+												Facade:SendNotification
+													Facade:NotifyObservers
+														View:NotifyObservers
+															Observer:NotifyObserver
+																Controller:ExecuteCommand		//NotifyMethod
+																	ReoladGameCMD:Execute	
+																		UIManager:ShowUI(uiId)			//所有的uiId在UIId.cs中
+																			UIManager:ShowUI(UIInfo)
+																				UIManager:LoadUIAsync		//取得uiInfo的viewClass 获得GameView 每个GameView有一个ViewBinder组件
+																					LoadingView:LoadUI
+																						ViewBinder:Create			//加载UIprefab到UIRoot下
+																		
+										
+						
+				
+	

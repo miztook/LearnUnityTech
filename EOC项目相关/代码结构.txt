@@ -1,0 +1,217 @@
+Assets/Scripts
+
+	Client
+		CityManager
+		Component				//客户端使用的组件
+			ArabLayout
+			BangLayout
+			Map
+			SpriteAnimations
+			UGUI
+			UIComponent				//UI组件
+			UIExtend
+			Unit
+		
+		Config						//bin数据的配置
+		FormationLodUpdateMgr		//部队排阵			
+		HUDManager					//头顶图片管理 
+			UICamera下管理layer: city, citymenu, world, fight, plot
+		LevelDataManager
+		LightingManager
+		LodManager
+		MapManager
+		MonsterManager
+		PVE
+		Rss
+		RssAnimationManager
+		TileCollideManager
+		Timeline
+		TroopLineMgr
+		Utils
+		WeatherMgr					//管理雨雪雷天气
+		FormationLodUpdateMgr				//部队行进特效
+
+	Hotfix					//逻辑部分
+		MVC
+			Base
+				AppFacade
+				GameCmd
+				GameMediator
+				GameProxy
+			CMD						//服务器命令，客户端命令，sdk命令，主要在AppFacade注册 RegisterCommand
+				CmdConstant.cs中，客户端命令
+				Sproto.cs中，服务器协议
+				
+			GlobalMediator			//全局逻辑
+				Debug
+					GameToolsGlobalMediator
+					TroopLineMediator
+				MapUITip
+					ModuleCoords
+				WorldEffectMediators			//管理地图特效
+					BaseWorldEffectMediator
+					HolylandEffectMediator			//圣地
+				BattleGlobalMediator
+				BattleMainMediator
+				CityGlobalMediator
+				CityGlobalMediator.Road
+				CityIncidentMediator
+				CityUnlockMediator
+				ExpeditionMediator
+				FogSystemMediator
+				GameEventGlobalMediator
+				GlobalAllianceHelpMediator
+				GlobalChangeSceneMediator
+				GlobalCityBuildingMediator
+				GlobalCityMenuHudMediator
+				GlobalEffectMediator
+				GlobalFilmMediator
+				GlobalGameTimeMediator
+				GlobalLimitTimePackageMediator
+				GlobalPveChapterMediator
+				GlobalResourceMediator
+				GlobalScoutsCampMediator
+				GlobalStoreMediator
+				GlobalTaskCenterMediator
+				GlobalTechnologyMediator
+				GlobalViewLevelMediator
+				GlobalWorldHudMediator
+				InputGlobalMediator
+				ItemCollectGlobalMediator
+				MapUIiconMyCityMediator
+				PveArmyData
+				PveBattleMediator
+				PVPGlobalMediator
+				SendClientDeviceInfoMediator
+				ServerPushMediator
+				TaskScriptGlobalMediator
+				TroopGlobalMediator
+				TroopHUDMediator
+				WorldMgrMediator
+				
+			LuaBehaviour			//LuaBehaviour, LuaManager
+			Proxy
+			Troop			//部队，相对独立的系统
+				TroopMap
+					AutoMove				//自动寻路
+					Behavior				//玩家排列 巡逻 传送 守卫 城战的behavior
+					Formation				//排列规则
+					Handler					//管理所有逻辑
+						WorldMapLogicMgr
+					Help
+					SummonerTroop			//派出部队，召回部队
+					TroopLine			//管理TroopLine
+						ITroopLine
+					UpdateData			//管理Troop的数据更新 Hp Buff Attack HeroLevel等
+						ITroopUpdateData
+						IMonsterUpdateData
+						IBuildingFightUpdateData
+					
+				TroopMainCreate			//创建Troop Scount Transport
+				TroopSave			//保存三个英雄和部队
+			
+			View_Mediator			//视图逻辑
+				Activity
+				Alliance
+				ArmyTrain
+				Bag
+				BuildCity
+				BuildingCityHud
+				BuildingDesc
+				Captain
+				Chat
+				Common				//通用界面逻辑 UISubView
+				Community
+				Equip
+				Expedition
+				ForceIncrease
+				FullView
+				FuncGuide
+				GameTool
+				Guide
+				Helper
+				HelpTips
+				Hero
+				Hospital
+				HudView
+				ItemView
+				Login
+				Mail
+				MainInterface
+				Monument
+				NPCDialog
+				PlayerInfo
+				PveChapter
+				QuickUseResources
+				Ranking
+				Research
+				RewardGetWin
+				Rss
+				ScrollMessage
+				Search
+				Setting
+				SpeedUp
+				Store
+				TalkTips
+				Tavern
+				Troop
+				UI_PVE
+				UIAccount
+				UIAgreement
+				UIAssitRes
+				UIBeauty
+				UIChapterScene
+				UICharge
+				UICityManager
+				UIEvaluateStar
+				UIEventPlot
+				UIFinger
+				UIGainEffect
+				UILevelUp
+				UIMaintain
+				UIMoveCity
+				UIQuest
+				UIRegainArea
+				UIRewardGet
+				UIScount
+				UISlot
+				UITheWall
+				UITower
+				UIWar
+				UIWebView
+				UIWorker
+				UIWorldHud
+				UIWorldObjectPlayer
+				UseItem
+				VIP
+				WarWarning
+
+Assets/Skyunion
+	
+	RunTime
+		ADService				//渠道打点事件
+		AssetService			//加载和释放asset	考虑替换Addressable?
+		AudioService
+		DataService				//读取bin的数据表
+		EffectManager			//effect时间和池管理
+		GlobalGame
+		HotFixService			//热更新服务	待研究
+		InputManager				//管理touch longpress事件的回调
+		Interface
+		LogService					//需要增加log文件功能
+		NetService					
+			Sproto
+			TCPClient
+			NetClient, NetService
+		PluginManager			//管理Module
+		UIManager
+			管理UIRoot
+			Layer管理
+			Stack的UI管理
+		UpdateManager			//热更新 重新设计
+		Utils
+		
+
+//Timer和Event机制
+Timer.Register
+EventManager.DispatchEvent

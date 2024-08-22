@@ -1,0 +1,834 @@
+﻿TERA/Fx/HDX/displacement-dissolve-additive
+		ailinushilianzhe_skill03_suanyu/position/rain01
+		ailisha_skill02_c_jianyu/ailisha_skill02_c_jianyu_L3/di
+		ailisha_skill02_c_jianyu_L3/ailisha_skill02_c_jianyu_L3/di
+		alekunshifazhe_hit_tongyong/shanguang/Particle System
+		alilancer_f_attack01_c_ci_bing/ci/quxian (1)
+		alilancer_f_attack01_c_ci_guang/ci/quxian (1)
+		alilancer_f_attack01_c_ci_lei/ci/quxian (1)
+		alilancer_f_attack01_c_ci_normal/ci/quxian (1)
+		alilancer_f_attack02_c_ci_bing/ci/quxian (1)
+		alilancer_f_attack02_c_ci_guang/ci/quxian (1)
+		alilancer_f_attack02_c_ci_lei/ci/quxian (1)
+		alilancer_f_attack02_c_ci_normal/ci/quxian (1)
+		alilancer_f_attack04_c_ci_bing/ci/quxian (1)
+		alilancer_f_attack04_c_ci_guang/ci/quxian (1)
+		alilancer_f_attack04_c_ci_lei/ci/quxian (1)
+		alilancer_f_attack04_c_ci_normal/ci/quxian (1)
+		alilancer_f_lv06_adv_L_weapon_shield_AlekunSP/alilancer_f_lv06_adv_B_weapon_shield/alilancer_f_lv06_adv_B_weapon_shield_AlekunSP/effect/glow_fangsheguang
+		alilancer_f_lv06_adv_L_weapon_shield_AlekunSP/alilancer_f_lv06_adv_L_weapon_shield/alilancer_f_lv06_adv_L_weapon_shield_AlekunSP/effect/glow_fangsheguang
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing/alilancer_f_skill01_c_buhuo_bing_L1/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_bing_L1/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang/alilancer_f_skill01_c_buhuo_guang_L1/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_guang_L1/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (4)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (4)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (5)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (5)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (4)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (4)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (5)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (5)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei/alilancer_f_skill01_c_buhuo_lei_L1/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (4)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (4)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (5)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian (5)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (4)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (4)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (5)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian (5)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_lei_L1/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (1)/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (1)/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (2)/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (2)/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (3)/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (3)/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal/alilancer_f_skill01_c_buhuo_normal_L1/all/suolian/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (1)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (1)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (2)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (2)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (3)/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian (3)/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian/dimian/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L0/all/suolian/dimian/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (1)/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (1)/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (2)/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (2)/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (3)/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian (3)/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian/dimian (1)/dilie1/dilie_add
+		alilancer_f_skill01_c_buhuo_normal_L1/all/suolian/dimian (1)/dilie1_1/dilie_add
+		alilancer_f_skill04_huanxing_chongjibo_lei/alilancer_f_skill04_huanxing_chongjibo_lei_L0/chongjibo/fume
+		alilancer_f_skill04_huanxing_chongjibo_lei/alilancer_f_skill04_huanxing_chongjibo_lei_L3/chongjibo/fume
+		alilancer_f_skill04_huanxing_chongjibo_lei_L0/chongjibo/fume
+		alilancer_f_skill04_huanxing_chongjibo_lei_L3/chongjibo/fume
+		alilancer_f_skill05_c_c_tuci_01_bing/alilancer_f_skill05_c_c_tuci_01_bing_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_bing/alilancer_f_skill05_c_c_tuci_01_bing_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_bing/alilancer_f_skill05_c_c_tuci_01_bing_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_bing_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_bing_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_bing_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_guang/alilancer_f_skill05_c_c_tuci_01_guang_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_guang/alilancer_f_skill05_c_c_tuci_01_guang_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_guang/alilancer_f_skill05_c_c_tuci_01_guang_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_guang_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_guang_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_guang_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_lei/alilancer_f_skill05_c_c_tuci_01_lei_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_lei/alilancer_f_skill05_c_c_tuci_01_lei_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_lei/alilancer_f_skill05_c_c_tuci_01_lei_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_lei_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_lei_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_lei_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_normal/alilancer_f_skill05_c_c_tuci_01_normal_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_normal/alilancer_f_skill05_c_c_tuci_01_normal_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_normal/alilancer_f_skill05_c_c_tuci_01_normal_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_normal_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_normal_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_01_normal_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_bing/alilancer_f_skill05_c_c_tuci_02_bing_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_bing/alilancer_f_skill05_c_c_tuci_02_bing_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_bing/alilancer_f_skill05_c_c_tuci_02_bing_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_bing_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_bing_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_bing_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_guang/alilancer_f_skill05_c_c_tuci_02_guang_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_guang/alilancer_f_skill05_c_c_tuci_02_guang_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_guang/alilancer_f_skill05_c_c_tuci_02_guang_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_guang_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_guang_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_guang_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_lei/alilancer_f_skill05_c_c_tuci_02_lei_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_lei/alilancer_f_skill05_c_c_tuci_02_lei_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_lei/alilancer_f_skill05_c_c_tuci_02_lei_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_lei_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_lei_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_lei_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_normal/alilancer_f_skill05_c_c_tuci_02_normal_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_normal/alilancer_f_skill05_c_c_tuci_02_normal_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_normal/alilancer_f_skill05_c_c_tuci_02_normal_L3/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_normal_L0/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_normal_L1/ci/quxian (1)
+		alilancer_f_skill05_c_c_tuci_02_normal_L3/ci/quxian (1)
+		alilancer_f_ultskill01_a_c_xuli_bing/alilancer_f_ultskill01_a_c_xuli_bing_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_bing/alilancer_f_ultskill01_a_c_xuli_bing_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_bing/alilancer_f_ultskill01_a_c_xuli_bing_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_bing_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_bing_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_bing_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_guang/alilancer_f_ultskill01_a_c_xuli_guang_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_guang/alilancer_f_ultskill01_a_c_xuli_guang_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_guang/alilancer_f_ultskill01_a_c_xuli_guang_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_guang_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_guang_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_guang_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_lei/alilancer_f_ultskill01_a_c_xuli_lei_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_lei/alilancer_f_ultskill01_a_c_xuli_lei_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_lei/alilancer_f_ultskill01_a_c_xuli_lei_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_lei_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_lei_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_lei_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_normal/alilancer_f_ultskill01_a_c_xuli_normal_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_normal/alilancer_f_ultskill01_a_c_xuli_normal_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_normal/alilancer_f_ultskill01_a_c_xuli_normal_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_normal_L0/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_normal_L1/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_a_c_xuli_normal_L3/dimian/guangzhu/cone01
+		alilancer_f_ultskill01_b_c_zadi_bing/alilancer_f_ultskill01_b_c_zadi_bing_L0/dilie/dilie_add (1)
+		alilancer_f_ultskill01_b_c_zadi_bing_L0/dilie/dilie_add (1)
+		alilancer_f_ultskill01_b_c_zadi_guang/alilancer_f_ultskill01_b_c_zadi_guang_L0/dilie/dilie_add (2)
+		alilancer_f_ultskill01_b_c_zadi_guang_L0/dilie/dilie_add (2)
+		alilancer_f_ultskill01_b_c_zadi_lei/alilancer_f_ultskill01_b_c_zadi_lei_L0/dilie/dilie_add (3)
+		alilancer_f_ultskill01_b_c_zadi_lei_L0/dilie/dilie_add (3)
+		alilancer_f_ultskill01_b_c_zadi_normal/alilancer_f_ultskill01_b_c_zadi_normal_L0/dilie/dilie_add
+		alilancer_f_ultskill01_b_c_zadi_normal_L0/dilie/dilie_add
+		alipreist_f_lv07_H_nor_R_weapon_02/nengliang_01
+		alipriest_attack01_guangqiu_an/atk01/Particle System02/fume
+		alipriest_attack01_guangqiu_guang/atk01/Particle System02/fume
+		alipriest_attack01_guangqiu_lei/atk01/Particle System02/fume
+		alipriest_attack01_guangqiu_normal/atk01/Particle System02/fume
+		alipriest_attack03_weapon_an/Particle System02/fume
+		alipriest_attack03_weapon_guang/Particle System02/fume
+		alipriest_attack03_weapon_lei/Particle System02/fume
+		alipriest_attack03_weapon_normal/Particle System02/fume
+		alipriest_attack04_guangqiu_an/atk01/Particle System02/fume
+		alipriest_attack04_guangqiu_an/atk01/qizhao (4)
+		alipriest_attack04_guangqiu_guang/atk01/Particle System02/fume
+		alipriest_attack04_guangqiu_guang/atk01/qizhao (3)
+		alipriest_attack04_guangqiu_lei/atk01/Particle System02/fume
+		alipriest_attack04_guangqiu_lei/atk01/qizhao (2)
+		alipriest_attack04_guangqiu_normal/atk01/Particle System02/fume
+		alipriest_attack04_guangqiu_normal/atk01/qizhao (1)
+		alipriest_f_skill02_caijuezhiyan_an/alipriest_f_skill02_caijuezhiyan_an_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_an/alipriest_f_skill02_caijuezhiyan_an_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_an/alipriest_f_skill02_caijuezhiyan_an_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_an_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_an_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_an_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_guang/alipriest_f_skill02_caijuezhiyan_guang_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_guang/alipriest_f_skill02_caijuezhiyan_guang_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_guang/alipriest_f_skill02_caijuezhiyan_guang_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_guang_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_guang_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_guang_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_lei/alipriest_f_skill02_caijuezhiyan_lei_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_lei/alipriest_f_skill02_caijuezhiyan_lei_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_lei/alipriest_f_skill02_caijuezhiyan_lei_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_lei_baozha/alipriest_f_skill02_caijuezhiyan_lei_baozha_L0/fume
+		alipriest_f_skill02_caijuezhiyan_lei_baozha/alipriest_f_skill02_caijuezhiyan_lei_baozha_L1/fume
+		alipriest_f_skill02_caijuezhiyan_lei_baozha/alipriest_f_skill02_caijuezhiyan_lei_baozha_L1/wenli
+		alipriest_f_skill02_caijuezhiyan_lei_baozha/alipriest_f_skill02_caijuezhiyan_lei_baozha_L3/fume
+		alipriest_f_skill02_caijuezhiyan_lei_baozha/alipriest_f_skill02_caijuezhiyan_lei_baozha_L3/wenli
+		alipriest_f_skill02_caijuezhiyan_lei_baozha_L0/fume
+		alipriest_f_skill02_caijuezhiyan_lei_baozha_L1/fume
+		alipriest_f_skill02_caijuezhiyan_lei_baozha_L1/wenli
+		alipriest_f_skill02_caijuezhiyan_lei_baozha_L3/fume
+		alipriest_f_skill02_caijuezhiyan_lei_baozha_L3/wenli
+		alipriest_f_skill02_caijuezhiyan_lei_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_lei_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_lei_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_normal/alipriest_f_skill02_caijuezhiyan_normal_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_normal/alipriest_f_skill02_caijuezhiyan_normal_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_normal/alipriest_f_skill02_caijuezhiyan_normal_L3/dimian01
+		alipriest_f_skill02_caijuezhiyan_normal_L0/dimian01
+		alipriest_f_skill02_caijuezhiyan_normal_L1/dimian01
+		alipriest_f_skill02_caijuezhiyan_normal_L3/dimian01
+		alipriest_f_skill04_heal_an/alipriest_f_skill04_heal_an_L0/glow_liudong
+		alipriest_f_skill04_heal_an_L0/glow_liudong
+		alipriest_f_skill04_heal_guang/alipriest_f_skill04_heal_guang_L0/glow_liudong
+		alipriest_f_skill04_heal_guang_L0/glow_liudong
+		alipriest_f_skill04_heal_lei/alipriest_f_skill04_heal_lei_L0/glow_liudong
+		alipriest_f_skill04_heal_lei_L0/glow_liudong
+		alipriest_f_skill04_heal_normal/alipriest_f_skill04_heal_normal_L0/glow_liudong
+		alipriest_f_skill04_heal_normal_L0/glow_liudong
+		alipriest_f_skill04_power_an/alipriest_f_skill04_power_an_L0/glow_liudong
+		alipriest_f_skill04_power_an/alipriest_f_skill04_power_an_L3/glow_liudong
+		alipriest_f_skill04_power_an_L0/glow_liudong
+		alipriest_f_skill04_power_an_L3/glow_liudong
+		alipriest_f_skill04_power_guang/alipriest_f_skill04_power_guang_L0/glow_liudong
+		alipriest_f_skill04_power_guang_L0/glow_liudong
+		alipriest_f_skill04_power_lei/alipriest_f_skill04_power_lei_L0/glow_liudong
+		alipriest_f_skill04_power_lei/alipriest_f_skill04_power_lei_L3/glow_liudong
+		alipriest_f_skill04_power_lei_L0/glow_liudong
+		alipriest_f_skill04_power_lei_L3/glow_liudong
+		alipriest_f_skill04_power_normal/alipriest_f_skill04_power_normal_L0/glow_liudong
+		alipriest_f_skill04_power_normal/alipriest_f_skill04_power_normal_L3/glow_liudong
+		alipriest_f_skill04_power_normal_L0/glow_liudong
+		alipriest_f_skill04_power_normal_L3/glow_liudong
+		alipriest_f_ultskill_shenshenglingyu_an/alipriest_f_ultskill_shenshenglingyu_an_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_an/alipriest_f_ultskill_shenshenglingyu_an_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_an/alipriest_f_ultskill_shenshenglingyu_an_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_an_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_an_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_an_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_guang/alipriest_f_ultskill_shenshenglingyu_guang_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_guang/alipriest_f_ultskill_shenshenglingyu_guang_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_guang/alipriest_f_ultskill_shenshenglingyu_guang_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_guang_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_guang_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_guang_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_lei/alipriest_f_ultskill_shenshenglingyu_lei_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_lei/alipriest_f_ultskill_shenshenglingyu_lei_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_lei/alipriest_f_ultskill_shenshenglingyu_lei_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_lei_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_lei_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_lei_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_normal/alipriest_f_ultskill_shenshenglingyu_normal_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_normal/alipriest_f_ultskill_shenshenglingyu_normal_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_normal/alipriest_f_ultskill_shenshenglingyu_normal_L3/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_normal_L0/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_normal_L1/alipriest_f_ultskill_cast/fume
+		alipriest_f_ultskill_shenshenglingyu_normal_L3/alipriest_f_ultskill_cast/fume
+		alipriest_shouji_pugong_an/bao (1)
+		alipriest_shouji_pugong_guang/bao (1)
+		alipriest_shouji_pugong_lei/bao (1)
+		alipriest_shouji_pugong_normal/bao (1)
+		bafengte_attack01_c_putonggongji/1/glow-add
+		baiquan/alipriest_f_ultskill_cast/fume
+		balakayouling_attack01_iceball/atk01/Particle System02/fume
+		balakayouling_attack01_iceball/atk01/Particle System02/fume_world
+		balakayouling_skill01_bingci/cloud01 (2)
+		bianyinangua_attack01_c_zadi/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_attack02_c_zadi/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_skill01_zadi_1/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_skill01_zadi_2/GameObject/GameObject (1)/glo add. (2)
+		bianyinangua_skill01_zadi_3/GameObject/GameObject (1)/glo add. (2)
+		canbaojiancizhizhu_skill02_c_pendu/pendu/local/bao (1)
+		casassassin_m_skill05_siwangjianci_an/casassassin_m_skill05_siwangjianci_an_L1/ground/dilie/ring01 (1)
+		casassassin_m_skill05_siwangjianci_an_L1/ground/dilie/ring01 (1)
+		casassassin_m_skill05_siwangjianci_huo/casassassin_m_skill05_siwangjianci_huo_L1/second/ground (1)/dilie/ring01
+		casassassin_m_skill05_siwangjianci_huo_L1/second/ground (1)/dilie/ring01
+		casassassin_m_skill05_siwangjianci_lei/casassassin_m_skill05_siwangjianci_lei_L0/ground/dilie/ring01 (2)
+		casassassin_m_skill05_siwangjianci_lei/casassassin_m_skill05_siwangjianci_lei_L1/ground/dilie/ring01 (2)
+		casassassin_m_skill05_siwangjianci_lei_L0/ground/dilie/ring01 (2)
+		casassassin_m_skill05_siwangjianci_lei_L1/ground/dilie/ring01 (2)
+		casassassin_m_skill05_siwangjianci_normal/casassassin_m_skill05_siwangjianci_normal_L1/ground/dilie/ring01 (3)
+		casassassin_m_skill05_siwangjianci_normal_L1/ground/dilie/ring01 (3)
+		chuancizhe_attack_ci_01/jiantou add
+		chuizihuokacuncunzhanglulukajin_attack01_slash/attack01_slash/slash01/chuizihuokacuncunzhanglulukajin_attack01/daoguang01_02
+		chuizihuokacuncunzhanglulukajin_attack02_ball/atk01/Particle System02/fume
+		chuizihuokacuncunzhanglulukajin_attack02_ball/atk01/Particle System02/fume_world
+		chuizihuokacuncunzhanglulukajin_skill01_chongfeng/zidan_1/zidan (1)/niuqu_add (1)
+		chuizihuokacuncunzhanglulukajin_skill02_pendu/pendu/local/bao (1)
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/aixin/GameObject (1)/L/lizi01/Particle System02/fume
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/aixin/GameObject (1)/L/lizi01/Particle System02/fume_02
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/aixin/GameObject (1)/L/lizi02/Particle System02/fume
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/aixin/GameObject (1)/L/lizi02/Particle System02/fume_02
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/alipriest_f_create_shanguang/fume (1)
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bip01 L Finger3/alipriest_f_create_hand_left/fume (1)
+		CreatCharacter_2/Job2/MainAnimator/Character/CharacterRoot/alipriest_f_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bip01 R Finger2/alipriest_f_create_hand_right/fume (1)
+		CreatCharacter_3/Job3/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject (1)/scene_casassassin_CG_liuxing/Particle System02/fume
+		CreatCharacter_3/Job3/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject/scene_casassassin_CG_liuxing/Particle System02/fume
+		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bone001/casassassin_m_create_weapon_01/casassassin_m_create_weapon_01 (2)/Particle System
+		CreatCharacter_3/Job3/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/casassassin_m_create_weapon_01 (1)/casassassin_m_create_weapon_01 (3)/Particle System
+		CreatCharacter_4/Job4/MainAnimator/CameraAnimator/dafazhen/power_lei (1)/fz005
+		CreatCharacter_4/Job4/MainAnimator/CameraAnimator/dafazhen/power_lei (1)/fz03
+		CreatCharacter_4/Job4/MainAnimator/CameraAnimator/dafazhen/power_lei (1)/smoke
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject (1)/scene_casassassin_CG_liuxing/Particle System02/fume
+		CreatCharacter_6/Job6/MainAnimator/BGAnimator/BG_fx_metro/create_casassassin_CG_scene_liuxing/GameObject/scene_casassassin_CG_liuxing/Particle System02/fume
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/Bip01 L Hand/Bone001/casassassin_m_create_weapon_01/casassassin_m_create_weapon_01 (2)/Particle System
+		CreatCharacter_6/Job6/MainAnimator/Character/CharacterRoot/casassassin_m_create_CG/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01 Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01 R Forearm/Bip01 R Hand/Bone002/casassassin_m_create_weapon_01 (1)/casassassin_m_create_weapon_01 (3)/Particle System
+		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/fz005
+		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/fz03
+		Ct02_fx_Sky01/scene_city02_c2_9_tiankongfazhen/back_build_elmxy_tiejianzhu_01/fazhen/somke
+		defaanshazhe_skill01_c_qishou/xuli/feng02
+		Dn_pvp02_Arena02/Wd01_Prop_jjc01/sence_chuansongmen_small (1)/fume
+		Dn_pvp02_Arena02/Wd01_Prop_jjc01/sence_chuansongmen_small/fume
+		Dn06_nupao_attack02_c_jian/ziwuti (1)/qizhao (3)
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua_dimian
+		dulenusi_skill04_shuizhu/shuizhu/dulenusi_shuizhu/shuihua02
+		Dungn00_Throne01/fx/scene_world01_shuiqiu/qiu/Sphere3-1
+		duoluozhihun_attack02_hit/bao (1)
+		Dwennisha_attack02_c _hengsao/daoguang (1)/qichang01
+		Dwennisha_attack02_c _hengsao/daoguang (1)/qichang01 (1)
+		Dwennisha_attack02_c _hengsao/daoguang/qichang01
+		Dwennisha_attack02_c _hengsao/daoguang/qichang01 (1)
+		Dwennisha_show_effect/show_liexi/liexi/liexi_heidong/liexi/fume_edge
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_blue/fangzhoushouhuzhe_skill02_c_dianciwoliu_blue_L1/shanguang (1)/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_blue/fangzhoushouhuzhe_skill02_c_dianciwoliu_blue_L3/shanguang (1)/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_blue_L1/fangzhoushouhuzhe_skill02_c_dianciwoliu_blue_L1/shanguang (1)/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_blue_L3/fangzhoushouhuzhe_skill02_c_dianciwoliu_blue_L3/shanguang (1)/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_red/fangzhoushouhuzhe_skill02_c_dianciwoliu_red_L1/shanguang/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_red/fangzhoushouhuzhe_skill02_c_dianciwoliu_red_L3/shanguang/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_red_L1/fangzhoushouhuzhe_skill02_c_dianciwoliu_red_L1/shanguang/Particle System (1)
+		fangzhoushouhuzhe_skill02_c_dianciwoliu_red_L3/fangzhoushouhuzhe_skill02_c_dianciwoliu_red_L3/shanguang/Particle System (1)
+		fangzhoushouhuzhe_skill04_zhaozi_blue/fangzhoushouhuzhe_skill04_zhaozi_blue_L0/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_blue/fangzhoushouhuzhe_skill04_zhaozi_blue_L1/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_blue/fangzhoushouhuzhe_skill04_zhaozi_blue_L3/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_blue_L0/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_blue_L1/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_blue_L3/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_red/fangzhoushouhuzhe_skill04_zhaozi_red_L1/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_red/fangzhoushouhuzhe_skill04_zhaozi_red_L3/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_red_L1/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_skill04_zhaozi_red_L3/alipriest_f_ultskill_cast/fume
+		fangzhoushouhuzhe_wuqi_daoguang_blue/fangzhoushouhuzhe_wuqi_daoguang_blue_L0/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_blue/fangzhoushouhuzhe_wuqi_daoguang_blue_L1/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_blue/fangzhoushouhuzhe_wuqi_daoguang_blue_L3/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_blue_L0/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_blue_L1/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_blue_L3/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_red/fangzhoushouhuzhe_wuqi_daoguang_red_L0/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_red/fangzhoushouhuzhe_wuqi_daoguang_red_L1/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_red/fangzhoushouhuzhe_wuqi_daoguang_red_L3/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_red_L0/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_red_L1/atk01/Particle System02/fume
+		fangzhoushouhuzhe_wuqi_daoguang_red_L3/atk01/Particle System02/fume
+		fangzhouxunchazhe_skill02_huoyanpenshe/penhuo/local/bao (1)
+		feihongxueyuanmonv_attack01_c/DG/Ground_dust/Spark 3 (2)
+		fengzhijisi_skill01_c_xuanfeng/xuanfeng (1)/splash02
+		fengzhijisi_skill01_c_xuanfeng/xuanfeng (1)/wind01
+		fx04 (5)/scene_world01_shuiqiu/qiu/Sphere3-1
+		gelumoshilianzhe_attack02_ci/chuanci/citou01/citou02 (2)
+		gelumoshilianzhe_skill01_cast/chuanci/citou01/citou02 (2)
+		gelumoshilianzhe_skill02_cast/pen/pendu/local/bao (1)
+		gelumoshilianzhe_skill02_duye/scale/dimian01
+		gelumoshilianzhe_skill03_fuchoufengqun/glow01
+		gudaiyijijushou_show_caidi/shanguang
+		gudaiyijijushou_skill01_ball/glow01
+		gudaiyijijushou_skill01_cast_ball/glow01
+		gudaiyijijushou_skill04_aoe/shanguang
+		gudaiyijijushou_skill04_ball/xishou
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L0/zadi01/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L0/zadi02/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L0/zadi03/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L1/zadi01/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L1/zadi02/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L1/zadi03/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L3/zadi01/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L3/zadi02/dilie/dilie01
+		gudaiyijijushou_skill05_zadi/gudaiyijijushou_skill05_zadi_L3/zadi03/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L0/zadi01/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L0/zadi02/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L0/zadi03/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L1/zadi01/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L1/zadi02/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L1/zadi03/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L3/zadi01/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L3/zadi02/dilie/dilie01
+		gudaiyijijushou_skill05_zadi_L3/zadi03/dilie/dilie01
+		gudaiyijijushou_skill06_cast/zadi01 (1)/dilie/dilie01
+		gudaiyijijushou_skill06_shandian/shandian01/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian02/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian03/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian04/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian05/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian06/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian07/ground/dimian01
+		gudaiyijijushou_skill06_shandian/shandian08/ground/dimian01
+		gudaiyijijushou_skill06_zadi/gudaiyijijushou_skill06_zadi_L0/dilie/dilie01
+		gudaiyijijushou_skill06_zadi/gudaiyijijushou_skill06_zadi_L1/dilie/dilie01
+		gudaiyijijushou_skill06_zadi/gudaiyijijushou_skill06_zadi_L3/dilie/dilie01
+		gudaiyijijushou_skill06_zadi_L0/dilie/dilie01
+		gudaiyijijushou_skill06_zadi_L1/dilie/dilie01
+		gudaiyijijushou_skill06_zadi_L3/dilie/dilie01
+		gulong_skill05_b_c_dimianzhuohen/dimian/dilie01 (1)/dilie
+		haiguzhiwang_skill01_nianye_dimian/dimian01
+		haiguzhiwang_skill02_nianye_dimian/dimian01
+		haiguzhiwang_skill03_c_trail/Trail/fume
+		haiguzhiwang_skill04_nianye_dimian/dimian01
+		hailaterenxing_attack02_c_ciji/ciji/jiantou add
+		heiquan/alipriest_f_ultskill_cast/fume
+		heiyawushi_xuanfeng/xuanfeng/splash
+		honglong_skill05_c_zhuangjidimian/honglong_skill05_c_zhuangjidimian_L3/dadiliebian/kuosan/guang/ring01
+		honglong_skill05_c_zhuangjidimian_L3/dadiliebian/kuosan/guang/ring01
+		humwarrior_m_skill03_c_jujian_guang/humwarrior_m_lv07_sup_R_weapon
+		humwarrior_m_skill06_c_chentushikuai_normal/chentushikuai/Particle System (1)/Particle System (2)
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_feng/humwarrior_m_ultskill01_c_yuanguzhanhun1_feng_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_feng/humwarrior_m_ultskill01_c_yuanguzhanhun1_feng_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_feng/humwarrior_m_ultskill01_c_yuanguzhanhun1_feng_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_feng_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_feng_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_feng_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_guang/humwarrior_m_ultskill01_c_yuanguzhanhun1_guang_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_guang/humwarrior_m_ultskill01_c_yuanguzhanhun1_guang_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_guang/humwarrior_m_ultskill01_c_yuanguzhanhun1_guang_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_guang_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_guang_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_guang_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_huo/humwarrior_m_ultskill01_c_yuanguzhanhun1_huo_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_huo/humwarrior_m_ultskill01_c_yuanguzhanhun1_huo_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_huo/humwarrior_m_ultskill01_c_yuanguzhanhun1_huo_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_huo_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_huo_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_huo_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal/humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L0/jiaodi
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal/humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal/humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L1/jiaodi
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal/humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal/humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L3/jiaodi
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal/humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L3/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L0/jiaodi
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L0/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L1/jiaodi
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L1/jiaodi/wenli
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L3/jiaodi
+		humwarrior_m_ultskill01_c_yuanguzhanhun1_normal_L3/jiaodi/wenli
+		huojiasiqinwang_skill02_c_zhendi_qilang02/huan/dilie/xftmesh T_yan_010_01_add
+		huweiduizhang_attack02_shixuechongji/chongji/baozha/guangshu (1)
+		jianjiaoshuling_attack02_jiao/ci/quxian (1)
+		jinglingfurennv_skill03_bigfireball/atk01/fume
+		jinglingfurennv_skill03_smallfireball/atk01/fume
+		jurenkumosi_born_chusheng/jurenkumosi_born_chusheng_L3/fume
+		jurenkumosi_born_chusheng_L3/fume
+		jurenkumosi_skill02_caidi/jurenkumosi_skill02_caidi_L0/zadi/dilie_add
+		jurenkumosi_skill02_caidi/jurenkumosi_skill02_caidi_L1/zadi/dilie_add
+		jurenkumosi_skill02_caidi/jurenkumosi_skill02_caidi_L3/zadi/dilie_add
+		jurenkumosi_skill02_caidi_L0/zadi/dilie_add
+		jurenkumosi_skill02_caidi_L1/zadi/dilie_add
+		jurenkumosi_skill02_caidi_L3/zadi/dilie_add
+		kalasishilian_skill02_zadi/kalasishilian_skill02_zadi_L0/skill02_zadi/dilie/dilie01
+		kalasishilian_skill02_zadi/kalasishilian_skill02_zadi_L3/skill02_zadi/dilie/dilie01
+		kalasishilian_skill02_zadi_L0/skill02_zadi/dilie/dilie01
+		kalasishilian_skill02_zadi_L3/skill02_zadi/dilie/dilie01
+		kamayiqiuzhang_attack01_c_feidao_L3/xuejishi_show_ball_L0/xuejishi_show_ball_L0/ball/atk01/Particle System02/fume (1)
+		kamayiqiuzhang_attack01_c_feidao_L3/xuejishi_show_ball_L3/xuejishi_show_ball_L3/ball/atk01/Particle System02/fume (1)
+		kamayiqiuzhang_skill02_c_xuanfeng/xuanfeng (2)/wind01
+		kannongmasha_skill04_c_zibao/xishou/xishou/fume02
+		kemolaxia_attack02_shitu/zadi/dilie_add
+		kemolaxia_attack02_weapon/Particle System02/fume
+		kemolaxia_skill01_luoshiyu/zadi/dilie_add
+		kemolaxia_skill01_weapon/Particle System02/fume
+		kuangnuleiji_skill01_ci/bland03
+		kuishizhiyan_attack01_c_baozibaozha/bland03
+		kuishizhiyan_attack01_c_baozizidan/fume
+		kulashouling_skill01_c_daoguang/zadi/shanguang
+		kulashouling_skill03_c_xishou/shoushangxishou/xishouxiantiao
+		kusa_skill02_pendu/skill02/pendu/local/bao (1)
+		Kuweishujing_skill02_zhendi/Kuweishujing_skill02_zhendi_L3/zadi/fume
+		Kuweishujing_skill02_zhendi_L3/Kuweishujing_skill02_zhendi_L3/zadi/fume
+		lunaailin_attack01_guangqiu/atk01/Particle System02/fume
+		lunaailin_attack01_guangqiu/atk01/Particle System02/fume_world
+		lunaailin_attack04_guangqiu/atk01/Particle System02/fume_world
+		lunaailin_attack04_guangqiu/atk01/qizhao
+		lunaailin_skill01_book_effect/fuwen/fume01
+		lunaailin_skill01_xingbao/bao/fume
+		lunaailin_skill01_xingbao/bao/GameObject/Particle System (11)
+		lunaailin_skill01_xingbao/bao/GameObject/Particle System (7)
+		lunaailin_skill01_xingbao/bao/GameObject/Particle System (8)
+		lunaailin_skill01_xingbao/xishou/fume02
+		lunaailin_skill02_zhiliao/lunaailin_zhiliao_cast/fume
+		luokezhiqiang_born_c_zadi/skill02_zadi/dilie/dilie01
+		luxinghuimiezhe_zibaodanwei_baozha/zadi/dilie_add
+		lvlong_skill05_c_zhuangjidimian/lvlong_skill05_c_zhuangjidimian_L3/dadiliebian/kuosan/guang/ring01
+		lvlong_skill05_c_zhuangjidimian_L3/dadiliebian/kuosan/guang/ring01
+		mine_chunjingyisilianzhilei/atk01/Particle System02/fume
+		mine_chunjingyisilianzhilei/atk01/Particle System02/fume (1)
+		mine_chunjingyisilianzhilei/atk01/Particle System02/fume (2)
+		mine_Dn02_Book_effect/Mine_Dn02_Book/Mine_Dn02_Book/Dn02_Book_base/Book_base/book_effect (1)/fuwen/fume01 (1)
+		mine_Dn02_Book_effect/Mine_Dn02_Book/Mine_Dn02_Book/Dn02_Book_base/Book_base/book_effect (1)/trail/fume01
+		mine_wanwuzhicaiji_die_c/fuwen/fume01 (1)
+		mohuayifulin_skill02_c_baozha/2/dimian (2)/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (1)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (2)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (3)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01 (4)/1/Spark 3 (1)
+		mohuayifulin_skill03_c_baozha/baozha01/1/Spark 3 (1)
+		mohuayifulin_skill04_c_baozha/baozha01/1/Spark 3 (1)
+		nangua/Spark 3 (1)
+		nanguamoou_skill01_c_baozha/baozha/Particle System
+		nigulasi_skill01_cast/qichang/dilie_add
+		nigulasi_skill01_star/atk01/Particle System02/fume
+		nigulasi_skill01_star/atk01/Particle System02/fume (1)
+		nigulasi_skill01_star/atk01/Particle System02/fume (2)
+		nigulasi_skill02_yisilianzhilei/nigulasi_skill02_yisilianzhilei_L1/atk01/Particle System02/fume
+		nigulasi_skill02_yisilianzhilei/nigulasi_skill02_yisilianzhilei_L1/atk01/Particle System02/fume (1)
+		nigulasi_skill02_yisilianzhilei/nigulasi_skill02_yisilianzhilei_L1/atk01/Particle System02/fume (2)
+		nigulasi_skill02_yisilianzhilei/nigulasi_skill02_yisilianzhilei_L3/atk01/Particle System02/fume
+		nigulasi_skill02_yisilianzhilei/nigulasi_skill02_yisilianzhilei_L3/atk01/Particle System02/fume (1)
+		nigulasi_skill02_yisilianzhilei/nigulasi_skill02_yisilianzhilei_L3/atk01/Particle System02/fume (2)
+		nigulasi_skill02_yisilianzhilei_L0/atk01/Particle System02/fume
+		nigulasi_skill02_yisilianzhilei_L0/atk01/Particle System02/fume (1)
+		nigulasi_skill02_yisilianzhilei_L0/atk01/Particle System02/fume (2)
+		nigulasi_skill02_yisilianzhilei_L3/atk01/Particle System02/fume
+		nigulasi_skill02_yisilianzhilei_L3/atk01/Particle System02/fume (1)
+		nigulasi_skill02_yisilianzhilei_L3/atk01/Particle System02/fume (2)
+		NPC_huoyanzidan/daguangyun/guangyun/huoqiu
+		passive_an_anyinglingyu/alipriest_f_skill02_caijuezhiyan_an/dimian01
+		Passive_bing_bingshuanglingyu/dimian/fume
+		passive_guang_shengguangchongji/fume
+		passive_guang_shengguanglingyu/alipriest_f_skill02_caijuezhiyan_an/dimian01
+		passive_lei_leidianqiu/atk01/Particle System02/fume
+		passive_lei_leidianqiu_baozha/fume
+		passive_lei_leidianqiu_baozha/wenli
+		qiangbingtongling_skill_chongfeng/position/glow_yuan
+		qiliandepucong_shishazhe_hand/fume (2)/fz03
+		qiliandepucong_show_zadi/zadi (1)/dilie
+		qiliandepucong_show_zadi/zadi/dilie
+		qiliandepucong_skill02_b_c_hand/fume/fz03
+		qiliandepucong_skill04_c_shifa/shifa_baokai/shifa01/inside/bao
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L0/baozha01 (1)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L0/baozha01 (2)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L0/baozha01 (3)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L0/baozha01 (4)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L0/baozha01 (5)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L0/baozha01/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L1/baozha01 (1)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L1/baozha01 (2)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L1/baozha01 (3)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L1/baozha01 (4)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L1/baozha01 (5)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L1/baozha01/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L3/baozha01 (1)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L3/baozha01 (2)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L3/baozha01 (3)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L3/baozha01 (4)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L3/baozha01 (5)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha/qiliandepucong_skill05_c_baozha_L3/baozha01/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L0/baozha01 (1)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L0/baozha01 (2)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L0/baozha01 (3)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L0/baozha01 (4)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L0/baozha01 (5)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L0/baozha01/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L1/baozha01 (1)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L1/baozha01 (2)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L1/baozha01 (3)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L1/baozha01 (4)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L1/baozha01 (5)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L1/baozha01/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L3/baozha01 (1)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L3/baozha01 (2)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L3/baozha01 (3)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L3/baozha01 (4)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L3/baozha01 (5)/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_baozha_L3/baozha01/shanguang2 (3)/bao (1)
+		qiliandepucong_skill05_c_shifa/shifa/dimian/dimian01
+		qinglanxueyuanmonv_attack01_c/DG/Ground_dust/Spark 3 (2)
+		sailien_skill01_c_jingji_01/dimian/baozha/smoke (1)
+		sailien_skill01_c_jingji_02/dimian (1)/baozha/smoke (1)
+		sailien_skill01_c_jingji_02/dimian (1)/di/dimianguang01 (1)
+		sailien_skill01_c_shifa/jiaodi/smoke 1 (1)/qixuan
+		sailien_skill03_c_c_maichongbo/di/fazhen/dimianguang01 (1)
+		sanlian_skill01_c_dimian/zadi/dilie
+		sanlian_skill01_c_dimian/zadi/shanguang
+		sanlian_skill02_c_c_zhuizongqiu_baozha/fume
+		sanlian_skill02_c_c_zhuizongqiu_baozha/wenli
+		sanlian_skill07_jiguang/xuli/penshe01
+		sanlian_skill08_b_c_fazhen/fazhen/guangquan
+		sanlian_skill13_b_c_dajiguang/sanlian_skill13_b_c_dajiguang_L0/jiguang_chixu/penshe01
+		sanlian_skill13_b_c_dajiguang/sanlian_skill13_b_c_dajiguang_L3/jiguang_chixu/penshe01
+		sanlian_skill13_b_c_dajiguang_L0/sanlian_skill13_b_c_dajiguang_L0/jiguang_chixu/penshe01
+		sanlian_skill13_b_c_dajiguang_L3/sanlian_skill13_b_c_dajiguang_L3/jiguang_chixu/penshe01
+		scene_liefeng_guangzhu/cylinder_glow01
+		scene_liefeng_guangzhu_xiangshang/guangzhu_xiangshang/cylinder_glow01
+		scene_mijing_jidifengbao/dimian/di/bland02
+		scene_mijing_jidifengbao_waihuan/huan/glow_huan_bland
+		scene_zudang_boss/scene_zudang_boss/line/line
+		scene_zudang_boss/scene_zudang_boss/line/line02
+		scene_zudang_boss/scene_zudang_boss/line/line02 (1)
+		scene_zudang_boss/scene_zudang_boss/LIUDONG
+		scene_zudang_boss_1/scene_zudang_boss 1/line (1)/line
+		scene_zudang_boss_1/scene_zudang_boss 1/line (1)/line02
+		scene_zudang_boss_1/scene_zudang_boss 1/line (1)/line02 (1)
+		scene_zudang_boss_1/scene_zudang_boss 1/LIUDONG
+		scene_zudang_boss_1_1/scene_zudang_boss 1 1/line/line
+		scene_zudang_boss_1_1/scene_zudang_boss 1 1/line/line02
+		scene_zudang_boss_1_1/scene_zudang_boss 1 1/line/line02 (1)
+		scene_zudang_boss_1_1/scene_zudang_boss 1 1/LIUDONG
+		scene_zudang_purple/line/line
+		scene_zudang_purple/line/line02
+		scene_zudang_purple/line/line02 (1)
+		scene_zudang_purple/liudong01
+		scene_zudang_temp_pink/line/line (1)
+		scene_zudang_temp_pink/line/line02
+		scene_zudang_temp_pink/line/line02 (1)
+		scene_zudang_temp_pink/liudong01
+		scene_zudang_yellow/zudang_yellow/line/line (1)
+		scene_zudang_yellow/zudang_yellow/line/line02
+		scene_zudang_yellow/zudang_yellow/line/line02 (1)
+		scene_zudang_yellow/zudang_yellow/Particle System
+		sence_Dungn00_zhuiluoyunshi_yunshi/atk01/Particle System02/fume
+		sence_Dungn00_zhuiluoyunshi_yunshi_02/atk01/Particle System02/fume
+		shaxingzheshouling_skill01_c_pendu/skill02/pendu/local/bao (1)
+		shijiuchoujue_skill04_c_baozha/Spark 3 (1)
+		shixueshaluzhe_show_end/zadi/zadi/zadi/dilie
+		sikala_skill01_c_baozha/chongjibo/fume
+		sprarcher_f_attack_dabaodian_bing/shanguang/Particle System
+		sprarcher_f_attack_dabaodian_feng/shanguang/Particle System
+		sprarcher_f_attack_dabaodian_huo/shanguang/Particle System
+		sprarcher_f_attack_dabaodian_normal/shanguang/Particle System
+		sprarcher_f_lv02_adv_L_weapon_02/liuguang (1)
+		sprarcher_f_skill05+_c_baozha_feng/skill05+_c_baozha_normal/Particle System
+		sprarcher_f_skill05+_c_baozha_huo/skill05+_c_baozha_normal/Particle System
+		sprarcher_f_skill05+_c_baozha_normal/skill05+_c_baozha_normal/Particle System
+		state_alipriest_f_skill04_heal_lei/liudong
+		state_alipriest_f_skill04_power_lei/FZ
+		state_alipriest_f_skill04_power_lei/liudong
+		state_alipriest_guangxi_hudun/hudun/fume
+		state_alipriest_leixi_hudun/leixi_hudun/fume
+		state_sprarcher_bingjia/dunpaizhuan (1)/rotation/dunpai/ice_fume01
+		state_sprarcher_bingjia/dunpaizhuan/dunpai/ice_fume01
+		state_sprarcher_bingjie/bingjie/hanqi/dimian
+		tankezhanche_attack01_c_paodan/toushi/GameObject/qizhao (3)
+		Teleporter_ct01/Teleporter_ct01_base/Teleporter_ct01_02/scene_chengneichuansong03_sphere/shpere_small02
+		Teleporter_ct02/Teleporter_ct02_base/Teleporter_ct02_02/scene_chengneichuansong02_spheresmall/shpere_small02
+		ui_baoshi_ronghe_lvjing01/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_baoshi_ronghe_lvjing01/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)/Particle System (3)
+		ui_baoshi_ronghe_lvjing02/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_baoshi_ronghe_lvjing02/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)/Particle System (3)
+		ui_chongwu_xuexi-weiyang/Particle System (1)
+		ui_GilliamBoss_lightning/GilliamBoss_lightning/fume
+		ui_gongnenngjiesuo_fly/GameObject/Particle System (1)
+		ui_gongnenngjiesuo_fly/GameObject/Particle System (2)
+		ui_shenfu_tunshi_lvjing_01/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_shenfu_tunshi_lvjing_01/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)/Particle System (3)
+		ui_shenfu_tunshi_lvjing_02/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_shenfu_tunshi_lvjing_02/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)/Particle System (3)
+		ui_shenfu_tunshi_lvjing_03/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_shenfu_tunshi_lvjing_03/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)/Particle System (3)
+		ui_tuzhironghe_lvjing/ui_zbjg_qianghuacailiao_L/GameObject (2)/Particle System (1)
+		ui_tuzhironghe_lvjing/ui_zbjg_qianghuacailiao_R/GameObject (3)/Particle System (1)
+		ui_tuzhironghe_lvjing/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_wupinhuode_fly/Particle System (1)
+		ui_zbjg_jicheng_lvjing/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_zbjg_jicheng_lvjing/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)/Particle System (3)
+		ui_zbjg_qianghua_lvjing/ui_zbjg_qianghuacailiao_L/GameObject (2)/Particle System (1)
+		ui_zbjg_qianghua_lvjing/ui_zbjg_qianghuacailiao_R/GameObject (3)/Particle System (1)
+		ui_zbjg_qianghua_lvjing/ui_zbjg_qianghuacailiao_Z/GameObject (1)/Particle System (1)
+		ui_zbjg_qianghua_lvjing_02/ui_zbjg_qianghuacailiao_L/GameObject/GameObject (2)/Particle System (1)
+		ui_zbjg_qianghua_lvjing_02/ui_zbjg_qianghuacailiao_R/GameObject/GameObject (3)/Particle System (1)
+		ui_zbjg_qianghua_lvjing_02/ui_zbjg_qianghuacailiao_Z/L/GameObject (1)/Particle System (1)
+		ui_zbjg_qianghua_lvjing_02/ui_zbjg_qianghuacailiao_Z/R/GameObject (1)/Particle System (1)
+		ui_zhuangbeishengxing_juqi/ui_zbjg_qianghuacailiao_L/GameObject (2)/Particle System (1)
+		ui_zhuangbeishengxing_juqi/ui_zbjg_qianghuacailiao_R/GameObject (3)/Particle System (1)
+		Wd01_Build_glz03/Build_Wd01_Ring01/scene_wd01_qiu01/qiu/Sphere301
+		Wd01_Build_glz07/Build_Wd01_Ring01/scene_wd01_qiu01/qiu/Sphere301
+		Wd01_Prop_jjc/sence_chuansongmen_small/fume
+		wennisha_skill02_a_c_heidong_in/wennisha_skill02_a_c_heidong_in_L1/dimian/dimian01
+		wennisha_skill02_a_c_heidong_in/wennisha_skill02_a_c_heidong_in_L3/dimian/dimian01
+		wennisha_skill02_a_c_heidong_in_L1/dimian/dimian01
+		wennisha_skill02_a_c_heidong_in_L3/dimian/dimian01
+		wennisha_skill02_b_c_heidong_out/wennisha_skill02_b_c_heidong_out_L0/dimian/dimian01
+		wennisha_skill02_b_c_heidong_out/wennisha_skill02_b_c_heidong_out_L3/dimian/dimian01
+		wennisha_skill02_b_c_heidong_out_L0/dimian/dimian01
+		wennisha_skill02_b_c_heidong_out_L3/dimian/dimian01
+		xiannvjiaomu_skill01_c_wuqi/Particle System02/fume
+		xiannvjiaomu_skill02_c_wuqi/Particle System02/fume
+		xiannvjiaomu_skill02_c_xuanfeng/fei (1)/xuanfeng01/splash02
+		xiannvjiaomu_skill02_c_xuanfeng/fei (1)/xuanfeng01/wind01
+		xiannvjiaomu_skill02_c_xuanfeng/fei/xuanfeng01/splash02
+		xiannvjiaomu_skill02_c_xuanfeng/fei/xuanfeng01/wind01
+		xikandazhujiao_skill01_juqi/ring01
+		xikandazhujiao_skill02_c_baozha/shifa/dimian/dimian01
+		xikandazhujiao_skill02_c_juqi/liudong
+		xikandazhujiao_skill02_c_wuqi/xulie1/liudong
+		xikandazhujiao_skill03_a_c_kuosan/shifa/dimian/dimian01
+		xikandazhujiao_skill03_a_c_kuosan/shifa/dimian/ring01 (1)
+		xikandazhujiao_skill03_a_c_xishou/ring01
+		xikandazhujiao_skill03_a_c_xishou/xikandazhujiao_skill02_c_juqi (1)/liudong
+		xuejishi_show_ball_L0/xuejishi_show_ball_L0/ball/atk01/Particle System02/fume (1)
+		xuejishi_show_ball_L3/xuejishi_show_ball_L3/ball/atk01/Particle System02/fume (1)
+		xuesebaojun_skill02_c_jifei/ground/guang/ring01
+		xuesebaojun_skill03_c_dizhen/dilie/guang/ring01
+		xuesebaojun_skill04_c_dizhenqilang/qilang/shifa/dimian/dimian01
+		xuewuzhe_skill01_qichang/dilie_add
+		yamijiduodun_skill01_c_juqi/juqi/liudong
+		yamijiduodun_skill01_c_nuhou/xijie/bland03
+		yanshixiyiwang_skill01_b_c_xili/xuli/sixian01 (1)
+		yihuagudaiyijijushou_skill01_ball/glow01
+		yihuagudaiyijijushou_skill01_cast_ball/glow01
+		yihuagudaiyijijushou_skill05_zadi_L0/zadi01/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L0/zadi02/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L0/zadi03/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L1/zadi01/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L1/zadi02/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L1/zadi03/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L3/zadi01/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L3/zadi02/dilie/dilie01
+		yihuagudaiyijijushou_skill05_zadi_L3/zadi03/dilie/dilie01
+		yihuagudaiyijijushou_skill06_cast/zadi01 (1)/dilie/dilie01
+		yihuagudaiyijijushou_skill06_shandian/shandian01/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian02/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian03/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian04/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian05/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian06/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian07/ground/dimian01
+		yihuagudaiyijijushou_skill06_shandian/shandian08/ground/dimian01
+		yihuagudaiyijijushou_skill06_zadi_L0/dilie/dilie01
+		yihuagudaiyijijushou_skill06_zadi_L1/dilie/dilie01
+		yihuagudaiyijijushou_skill06_zadi_L3/dilie/dilie01
+		yisilianshilianzhe_attack_01_pugong/skill01_zadi_r/dilie01
+		yisilianshilianzhe_skill02_c_xieezhongji/yisilianshilianzhe_skill02_c_xieezhongji_L3/skill02_c_zadi_01/zadi01/dilie/dilie01
+		yisilianshilianzhe_skill02_c_xieezhongji_L3/skill02_c_zadi_01/zadi01/dilie/dilie01
+		yisilianshilianzhe_skill03_b_c_xishou/yisilianshilianzhe_skill03_b_c_xishou_L3/xishou_line
+		yisilianshilianzhe_skill03_b_c_xishou_L3/yisilianshilianzhe_skill03_b_c_xishou_L3/xishou_line
+		zhulasishilianzhe_diancikongzh_shandianqiu_blue/leixi_hudun/fume
+		zhulasishilianzhe_diancikongzh_shandianqiu_red/leixi_hudun/fume
+		zhulasishilianzhe_diancikongzhi_boss_blue/leixi_hudun/fume
+		zhulasishilianzhe_diancikongzhi_boss_red/leixi_hudun/fume
+		zhulasishilianzhe_diancikongzhi_player_blue/leixi_hudun/fume
+		zhulasishilianzhe_diancikongzhi_player_red/leixi_hudun/fume
+		zhulasishilianzhe_show_body/leixi_hudun/fume
+		zhulasishilianzhe_show_hand_blue/leixi_hudun/fume
+		zhulasishilianzhe_show_hand_red/leixi_hudun/fume
+		zhulasishilianzhe_skill02_b_c_xuli/leixi_hudun/fume
+		zhulasishilianzhe_skill02_c_c_diancizhongji/zhulasishilianzhe_skill02_c_c_diancizhongji_L0/dilie/dilie_alpha
+		zhulasishilianzhe_skill02_c_c_diancizhongji/zhulasishilianzhe_skill02_c_c_diancizhongji_L3/dilie (1)/dilie_alpha
+		zhulasishilianzhe_skill02_c_c_diancizhongji_L0/dilie/dilie_alpha
+		zhulasishilianzhe_skill02_c_c_diancizhongji_L3/dilie (1)/dilie_alpha
+		zhulasishilianzhe_skill05_diancixuanwo/zhuti/dimian01

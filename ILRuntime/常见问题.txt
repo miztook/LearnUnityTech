@@ -1,0 +1,13 @@
+https://www.cnblogs.com/yixidehao/articles/15337006.html
+
+	需要注册方法中使用的delegate
+	1.在调用委托时报错KeyNotFoundException: Cannot find Delegate Adapter for:
+
+ILRunTime热更新使用细节汇总（持续更新）
+https://www.cnblogs.com/SpringSnow-Seven/p/15606886.html
+
+「ILRuntime」框架踩坑整理
+https://www.jianshu.com/p/5c16cf1bc9ac
+
+Unity接入ILRuntime时需要注意的问题(转载)
+https://blog.csdn.net/yzd1733638228/article/details/104669117

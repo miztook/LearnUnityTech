@@ -1,0 +1,220 @@
+安卓的控件核心就是View, 了解高级控件， 列表视图，翻页视图， Fragment的概念
+
+5.1 日期时间控件
+	5.1.1 日期选择器DatePicker
+	
+	5.1.2 时间选择器TimePicker
+	
+例子代码:
+		日期选择器:
+		layout: 	senior/res/layout/activity_date_picker.xml 					
+			//DatePicker控件，常用属性，datePickerMode为spinner，滑动栏
+			//getYear, getMonth, getDayOfMonth获得年月日
+		code:  senior/java/com.example.senior/DatePickerActivity.java
+			//点击按钮，创建一个DatePickerDialog， Calendar获得当前日期
+			//日期对话框确定的响应：onDataSet
+		
+		时间选择器:
+		layout: 	senior/res/layout/activity_timer_picker.xml 	
+			//TimePicker控件，timePickerMode 滑动栏
+		code:  senior/java/com.example.senior/TimePickerActivity.java
+			//点击按钮，创建一个TimePickerDialog， Calendar获得当前时间，几点几分
+			//时间对话框确定的响应：onTimeSet
+			
+5.2 列表类视图
+	5.2.1 基本适配器BaseAdapter
+		adapter的意思就是有多个数据项，每个数据项有自己的视图，事件响应等，adapter就是把指定的一项数据的多个控件显示
+		构造函数：指定适配器需要处理的数据的集合
+		getCount: 获取数据项的个数
+		getView: 获取每项都展示视图，并对每项都内部控件进行业务处理
+		
+	5.2.2 列表视图ListView
+		setAdapter: 设置列表项的数据适配器
+		setOnItemClickListener 设置列表项的点击事件监听器 OnItemClickListener
+		setOnItemLongClickListener 设置列表项的长按事件监听器 OnItemLongClickListener
+	
+	5.2.3 网格视图GridView
+		几个间距属性和拉伸模式
+
+例子代码:
+		基本适配器:
+		layout: 	senior/res/layout/activity_base_adapter.xml 		
+			//一个对话框模式的spinner
+		code:  senior/java/com.example.senior/BaseAdapterActivity.java
+			//spinner设置一个PlanetListAdapter，并监听选项事件
+			senior/java/com.example.senior/adapter/PlanetListAdapter.java
+			//适配器getView方法，如何填充View中的内容，ViewHolder获取item_list.xml中的控件
+			//然后通过convertView.setTag和View联系，然后设置viewHolder的 icon, name, desc
+			//对每一项的事件处理 onItemClick, onItemLongClick
+		
+		列表视图:
+		layout: 	senior/res/layout/activity_list_view.xml 		
+			//顶部设置一个spinner，下边一个ListView控件
+		code:  senior/java/com.example.senior/ListViewActivity.java	
+			//ListView设置为上个例子的 PlanetListAdapter，通过ListView的 setDivider等方法设置分割线
+		
+		购物车列表视图:
+		layout: 	senior/res/layout/activity_shopping_cart.xml 
+				senior/res/layout/activity_shopping_channel.xml 
+				senior/res/layout/activity_shopping_detail.xml 
+				senior/res/layout/activity_shopping_title.xml 
+				
+			//需要关注的是 activity_shopping_cart 中的 所有商品内容，上一节最后例子中，用一个LinearLayout (ll_cart)，然后在代码中读取物品数据库，创建控件
+			//本例子中所有商品内容用一个 ListView (lv_cart)，
+		code:  senior/java/com.example.senior/ShoppingCartActivity.java
+			//showCart方法中，给lv_cart设置一个  CartAdapter，这样就不用代码创建一个一个控件，而是放在相对独立的adpater文件中
+			//CartAdapter的getView中，ViewHolder获取item_cart.xml中的控件，再设置viewHolder的 各个属性，来源于从数据库中读取的CartInfo列表
+		
+		网格视图:
+		layout: 	senior/res/layout/activity_grid_view.xml 	
+			//GridView控件, numColumns列数, stretchMode列宽度
+		code:  senior/java/com.example.senior/GridViewActivity.java
+			//通过一个spinner来设置gridView的stretchMode模式，显示分割线
+			//设置gridView的adapter 适配器 PlanetGridAdapter 
+			//适配器getView方法，如何填充View中的内容，ViewHolder获取item_grid.xml中的控件
+	
+		手机商城网格视图:
+		layout: 	senior/res/layout/activity_shopping_channel.xml 
+			//定义一个gridView来展示商品
+		code:  senior/java/com.example.senior/ShoppingChannelActivity.java
+			//showGoods方法，给gv_channel设置一个GoodsAdapter, 用来读取从数据库中读取的ArrayList<GoodsInfo>
+			//适配器的getView方法，填充ViewHolder中的item_goods.xml中的名字，图标，价格，按钮，并添加按钮点击事件
+			//addToCart 添加一条记录CartInfo，存储到数据库
+	
+5.3 翻页类视图
+	5.3.1 翻页视图ViewPager
+		翻页适配器   BaseAdapter <-> PagerAdapter  OnItemClickListener <-> OnPageChangeListener
+		setAdapter: 设置页面项的适配器
+		setCurrentItem: 设置当前页码
+		addOnPageChangeListener: 设置翻页视图的页面切换监听器
+	
+	5.3.2 翻页标题栏PagerTitleStrip/PagerTabStrip
+	
+	5.3.3 简单的启动引导页
+
+例子代码:
+		简单翻页:
+		layout: 	senior/res/layout/activity_view_pager.xml 	
+			//设置一个android.support.v4.view.ViewPager控件
+		code:  senior/java/com.example.senior/ViewPagerActivity.java
+			//给viewPager设置一个ImagePagerAdapter，继承自PagerAdapter，给每个页面添加一个ImageView
+			//注意viewPager的页面滚动函数 onPageScrollStateChanged, onPageScrolled, onPageSelected
+		
+		文本标题:
+		layout: 	senior/res/layout/activity_title_strip.xml 	
+			//在ViewPager控件中添加一个android.support.v4.view.PagerTitleStrip
+		code:  senior/java/com.example.senior/PagerTitleStripActivity.java	
+			//ImagePagerAdapater的getPageTitle方法给 PagetTitleStrip 设置了标题
+		
+		选项卡标题:
+		layout: 	senior/res/layout/activity_tab_strip.xml 
+			//在ViewPager控件中添加一个android.support.v4.view.PagerTabStrip
+		code:  senior/java/com.example.senior/PagerTabStripActivity.java
+			//ImagePagerAdapater的getPageTitle方法给 PagerTabStrip 设置了标题
+		
+		简单的启动引导页:
+		layout: 	senior/res/layout/activity_launch.xml 	
+			//设置一个android.support.v4.view.ViewPager
+		code:  senior/java/com.example.senior/LaunchSimpleActivity.java
+			//设置适配器LaunchSimpleAdapter,填充item_launch.xml中的view中的控件
+			//mViewList中，分别为每给页面设置 ImageView, RadioGroup, Button，其中RadioGroup设置页面切换按钮
+		
+5.4 碎片Fragment  常用
+	5.4.1 静态注册
+		Fragment概念 专栏，有自己的布局文件，和Activity的关系
+		OnAttach, OnCreateView, OnActivityCreated, OnDestroyView, OnDetach
+	
+	5.4.2 动态注册/碎片适配器 FragmentStatePagerAdapter
+	
+	5.4.3 改进的启动引导页
+	
+例子代码:
+		静态注册:
+		layout: 	senior/res/layout/activity_fragment_static.xml 	
+			//设置一个fragment碎片控件，制定了来源com.example.senior.fragment.StaticFragment
+			senior/res/layout/fragment_static.xml
+			//fragment碎片使用的布局，定义了一个文字和图片
+		code:  senior/java/com.example.senior/FragmentStaticActivity.java
+			senior/java/com.example.senior.fragment.StaticFragment
+				//对应了fragment_static.xml，设置了fragment的点击事件
+				
+		动态注册:
+		layout: 	senior/res/layout/activity_fragment_dynamic.xml 
+			//设置一个android.support.v4.view.ViewPager控件，并没有设置fragment
+		code:  senior/java/com.example.senior/FragmentDynamicActivity.java	
+			//给viewPager设置MobilePagerAdapter，继承自FragmentStatePagerAdapter
+			//在getItem方法中，返回了DynamicFragment.newInstance方法，动态注册一个DynamicFragment
+			//和静态注册不同，动态注册的界面在DynamicFragment.newInstance才传递给onCreateView设置界面
+		
+		改进的引导启动页:
+		layout: 	senior/res/layout/activity_launch.xml 	
+			//同上节，设置一个android.support.v4.view.ViewPager
+		code:  senior/java/com.example.senior/LaunchImproveActivity.java
+			//设置适配器LaunchImproveAdapter，继承自FragmentStatePagerAdapter，getItem中动态创建LaunchFragment，
+			//在LaunchFragment中，动态注册并创建fragment的界面
+			//这样创建界面的代码就在fragment中，而不在adpater中
+	
+5.5 广播Broadcast基础  了解即可
+	5.5.1 发送/接收临时广播
+		Broardcast的概念，与Activity通过Intent传递消息的区别
+	
+	5.5.2 定时器AlarmManager
+	
+例子代码:
+		发送/接收临时广播:
+		layout: 	senior/res/layout/activity_broadcast_temp.xml 					
+		code:  senior/java/com.example.senior/BroadTempActivity.java
+		//临时广播，创建一个 BgChangeReceiver继承BroadcastReceiver，添加响应事件
+		//LocalBroadcastManager.getInstance(this).registerReceiver  注册
+		//LocalBroadcastManager.getInstance(this).unregisterReceiver 取消注册
+		//创建一个IntentFilter类型为 BroadcastFragment.EVENT
+		
+		接收系统广播:
+		layout: 	senior/res/layout/activity_broadcast_system.xml 					
+		code:  senior/java/com.example.senior/BroadSystemActivity.java	
+		//创建一个IntentFilter类型为 Intent.ACTION_TIME_TICK 只处理系统分钟变化的广播
+		
+		定时器:
+		layout: 	senior/res/layout/activity_alarm.xml 					
+		code:  senior/java/com.example.senior/AlarmActivity.java
+		//了解即可, AlarmManager.set(AlarmManager.RTC_WAKEUP, 携带延迟意图发送闹钟广播
+		
+5.6 万年历
+
+例子代码:
+		月份选择器:
+		layout: 	senior/res/layout/activity_month_picker.xml 					
+		code:  senior/java/com.example.senior/MonthPickerActivity.java
+				senior/java/com.example.senior/widget/MonthPicker.java
+				//定义一个MonthPicker类继承自DatePicker，自定义日期选择器
+		
+		万年历:
+		layout: 	senior/res/layout/activity_calendar.xml 	
+			//定义一个翻页ViewPager和PagerTabStrip,
+		code:  senior/java/com.example.senior/CalendarActivity.java	
+			senior/java/com.example.senior/adapter/CalendarPagerAdapter.java
+			senior/java/com.example.senior/fragment/CalendarFragment.java
+			//设置ViewPager的adpater为 CalendarPagerAdapter
+			//adapter中指定获取月份的CalendarFragment, 布局来自于 fragment_calendar
+			//在CalenderFragment中在设置一个CalenderGridAdapter的网格适配器
+			//CalendarGridAdapter继承自BaseAdapter，设置每一项的外观文字
+	
+5.7 日程表
+
+例子代码:
+		震动器:
+		layout: 	senior/res/layout/activity_vibrator.xml 					
+		code:  senior/java/com.example.senior/VibratorActivity.java
+			//了解手机震动的方法 Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+			//vibrator.vibrate(mDuration);
+			
+		日程表:
+		layout: 	senior/res/layout/activity_schedule.xml 		
+				senior/res/layout/activity_schedule_detail.xml 
+			//了解界面结构
+		code:  senior/java/com.example.senior/ScheduleActivity.java	
+			//日程翻页器设置一个 SchedulePagerAdapter 继承自 FragmentStatePagerAdapter
+			//SchedulePagerAdapter 使用 fragment_schedule.xml的界面布局,主要为列表控件lv_shedule
+			//lv_schedule列表控件设置 ScheduleListAdapter 继承自 BaseAdapter 通过ViewHolder设置每一项外观
+			
+			

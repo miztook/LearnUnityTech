@@ -1,0 +1,84 @@
+场景管理涉及:
+		SceneRegionManager
+		DynamicEffectManager
+		TerrainManager
+		ScenesBlocksManager
+		ScenesColliderManager
+
+
+SceneConfig 结构 每个场景一个，在初始化时用到
+		LightmapsConfig  光照图配置
+			LightmapsMode
+			RendererLightmapInfo[]  建筑模型的光照图
+				Renderer, Name, LightmapIndex, LightmapScaleOffset
+			TerrainLightmapInfo[]	地形的光照图
+				Terrain, Name, LightmapIndex, LightmapScaleOffset
+				
+		List<CPositionSetting>	
+			分块列表，每个分块在加载后依赖 SceneBlocks 组件实现每个物体的lightmap index的设置
+				
+		TexCount   光照图数量
+		_BoxColliders, _CapsuleColliders, _ColliderInfos 碰撞信息，在ColliderManager里分块加载
+		
+SceneBlocksManager //场景分块加载管理，设置光照图信息
+		Init
+			LoadAssetWithPlayerLight  //加载 lightmapAsset，包括场景里所有的光照图，设置到LightmapSettings
+									//设置 预加载的地形和建筑的光照图信息 index，scaleOffset
+			Preload 	根据角色位置，加载周围的分块，光照图信息在 SceneBlocks 组件中设置
+			
+			Tick		根据角色位置，加载周围的分块，卸载不需要的分块，光照图信息在 SceneBlocks 组件中设置
+			
+TerrainManager //多个地形块管理
+		Init
+			获取场景中所有地形的信息，保存为地形信息列表
+		Update
+			根据摄像机和地形块的距离远近，设置地形块的参数，实现地形的可见和精度调整
+			
+ScenesColliderManager	//加载一定范围内的collider碰撞 		
+		Init
+			分割 SceneConfig 里的 ColliderInfos, 按collider位置分布到 11 X 11 每格边长为50的格子里
+		Preload
+			获取当前位置所在的格子index， 如果发生改变，就按当前所在格子为中心，加载周边8个格子里的colliderInfo，设置到gameObject 的 collider中
+		Update
+			获取当前位置所在的格子index， 如果发生改变，就按当前所在格子为中心，加载周边8个格子里的colliderInfo，设置到gameObject 的 collider中
+			
+ScenesRegionManager		//判断当前玩家在哪一个区域，光照图区域和块区域
+		blockRegion 决定加载的 block 是否被过滤掉
+		lightmapRegion 决定当前的天气数据配置 
+			
+WeatherData		//配置
+		SunConfig			//设置太阳光颜色和强度，环境光颜色和强度
+		LightConfig			//Global Light 影响default, water层
+		SkyConfig			//天空球是一个固定的prefab，设置material, cubemap, 特效
+		LightConfig			//PlayerLight 影响实时光照
+		EnvironmentConfig		//天空，地平线，地面颜色
+		FogConfig				//雾参数
+		PostEffectConfig		//后处理参数 Fog, HSV, DOF, BrightnessAndContrast, Bloom, SpecialVision
+		BrightnessContrastGammaConfig		//后处理参数
+		ShadowMidtonesHighlightsConfig		//后处理参数
+			
+DynamicEffectManager		//处理环境效果
+		SetFinallyWeatherData	 设置最终的天气数据，并应用
+			SetFogInfo				//RenderSettings 的 Fog
+			SetEnvInfo				//RenderSettings 的 ambient相关
+			SetGlobalLightInfo			//设置 GlobalLight 的参数
+			SetPlayerLightInfo			//设置 Main.PlayerLight 的参数
+			SetSunInfo					//设置Sun组件，传参给Shader
+			SetGammaInfo					//PostProcessChain的 BrightnessContrastGamma
+			SetHightLightInfo				//PostProcessChain的 ShadowsMidtonesHighlights
+			SetPostEffectInfo_Fog			//PostProcessChain 的 Fog
+			SetPostEffectInfo_HSV			//PostProcessChain 的 HSV
+			SetPostEffectInfo_DOF			//PostProcessChain 的 DOF
+			SetPostEffectInfo_Brightness		//PostProcessChain 的 BrightnessContrast
+			SetPostEffectInfo_SpecialVision		//PostProcessChain 的 SpecialVision
+			SetPostEffectInfo_BloomHD			//PostProcessChain 的 BloomHD
+			SetShaderGlobalProperty				其他shader变量
+			
+		GetCurrentWeatherID 	当前区域的雨雪类型
+		GetCurrentEffectID		当前区域的白天黑夜类型
+		
+		效果覆盖规则: UI效果 > 死亡效果 > 鹰眼效果 > 雨雪效果 > 昼夜效果
+		Tick
+			根据角色位置和当前触发条件
+			CalculateEffectLerpData   获取UI, 死亡，鹰眼，天气效果， 设置天空球效果
+			SetFinallyWeatherData  设置最终天气数据

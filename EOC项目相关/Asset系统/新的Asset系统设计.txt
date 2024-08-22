@@ -1,0 +1,49 @@
+加载的核心问题
+	AsyncOperationHandle<TObject> 抽象一个异步加载的Handle
+	回调函数的顺序
+
+	同一帧内完成的异步操作 ABC，Callback顺序必须为 ABC
+
+继承关系
+	IResourceLocation			//标识资源路径
+	ResourceLocationBase : IResourceLocation
+
+	IAsyncOperation				//异步操作抽象
+	AsyncOperationBase<TObject> : IAsyncOperation
+		Start 时调用 Execute
+		
+	AsyncOperationHandle<TObject>	包装 AsyncOperationBase<TObject>	
+		
+	//加载Asset
+	IGenericProviderOperation
+	ProviderOperation<TObject> : AsyncOperationBase<TObject>, IGenericProviderOperation
+	CompletedOperation<TObject> : AsyncOperationBase<TObject>
+
+	ProvideHandle	包装 IGenericProviderOperation
+		Complete 完成一个异步操作
+		
+	//加载Scene
+	ISceneProvider
+	SceneProvider : ISceneProvider
+	SceneOp : AsyncOperationBase<SceneInstance>
+	
+异步加载
+	AsyncOperationHandle<TObject> LoadAssetAsync<TObject>(IResourceLocation location)
+		调用
+			ResourceManager的 ProvideResource<TObject>(location)
+				ProvideResource
+					如果正在加载location当中，返回对应的AsyncOperationHandle
+					否则
+						CreateOperation 创建这个location的 IAsyncOperation (IGenerationProviderOperation)
+						GetResourceProvider获取Provider (解决Dependency的问题)
+						(IGenericProviderOperation)op.Init
+						(IAsyncOperation)op.Start 	开始异步操作
+							调用 ProviderOperation.Execute 或 CompletedOperation.Execute 执行
+						
+						
+几个异步加载函数
+	LoadAssetAsync<T>
+	LoadAsset<T>
+	Instantiate					//需要清理prefab
+	InstantiateAsync			//需要清理prefab
+	LoadObjectWithoutInst		//管理prefab, 保存

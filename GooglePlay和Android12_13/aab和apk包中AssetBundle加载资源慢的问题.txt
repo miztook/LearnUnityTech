@@ -1,0 +1,6 @@
+https://blog.csdn.net/lsjsoft/article/details/120011268
+
+用zip打开aab,apk，看AssetBundles大小和压缩后大小是否一致
+如果有压缩，则读取会特别慢
+
+解决方法：在LauncherTemplate.gradle中设置 nocompress

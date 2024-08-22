@@ -1,0 +1,52 @@
+MonoSingleton
+	AssetDatabaseService 或 ABAssetService
+	
+	LevelDetailManager
+		管理所有包含LevelDetailBase组件的物体的lod，在lod变化时得到通知
+	MapManager
+	
+	RssAnimationManager
+	
+	TimerManager
+	
+	HUDManager
+
+GlobalClient
+
+PveEffectRoot
+	BP3EffectManager管理 PVE模块的特效管理器
+
+2DAudioHandler
+	AudioService里的2D GameObject，用于创建AudioHandler
+
+WwiseSoundManager
+
+WorldEffectPool
+	大世界的Effect Pool根节点
+
+WorldSkillWarningPool
+	WorldSkillWarningManager管理大世界的预警特效根节点
+
+TroopObjManager
+	部队涉及的资源instance缓存，注意的是缓冲池需要处理包含LevelDetailBase的组件的 OnSpawn, OnDespawn，在lod变化时得到通知
+
+Dispatcher
+	U3D.Threading的线程组件
+
+GlobalBehaviour
+	GlobalBehaviourManger管理器，管理全局的manager，用一个monobehavour管理所有的 Update FixUpdate LateUpdate等
+	
+PVPGlobalEffectRoot
+	被 PVPGlobalMediator 和 TroopManualMediator 使用，特效根节点
+
+MapSelectEffectRoot
+	MapSelectEffectHandler管理的地图选择特效的根节点
+
+PveBattle
+	PveBattleMediator中的一个全局Root对象，用于开启coroutine
+
+[DOTween]
+
+RoutineRunner
+	Job系统中，用来协程等待
+

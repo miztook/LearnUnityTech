@@ -1,0 +1,31 @@
+ABSystem
+	1. 打AssetBundle
+		在ProjectBuild._BuildAssetBundles方法下
+			
+		1) AnalysisAssetsDeps 		//分析资源的依赖关系
+			根资源
+			依赖资源(被一个根资源依赖)
+			依赖资源(被多个根资源依赖)
+			
+		2) Task_PrepGroupBundlePacking			//输出资源的assetbundle结构信息
+			bundle名 + 多个addressable名 + 多个asset名				//crc是ab的目录名计算的crc32
+			
+		3) RunOrganizeCopyData			//处理要拷贝的资源
+			从source目录拷贝到target目录
+			
+		4) RunContentsBuildAssetBundleTasks			//构建AssetBundle
+			构造前添加任务 OutputAssetBundleDependsFileTask				//设置资源的ResourceLocation
+				对于assetBundle资源:	key(根资源abKey, 非根资源空)	id(abKey)	provider(空,在加载时动态指定)	dependencies(BundleInfo.Dependencies)
+				对于copy资源: 	key(文件名)		id(文件名)		provider(BinaryProvider)	dependencies(空)	
+				保存资源依赖关系	Assets/Temp/runtime.bytes
+			ContentPipeline.BuildAssetBundles
+			
+		5) RunRuntimeDataAssetBundleFileBuildTasks		//把依赖关系runtimedata.bytes文件打成runtimedata.bytes.ab
+		
+		6) RunPackageHeaderFileBuildTasks			//写大包bin和header, header拷贝到assetbundle下
+		
+		7) Task_Clean			//搜索ab目录下的.ab文件，不在bundleBuildResults结果下的都删掉
+		
+		8) Task_OutputDebugInfo		//输出目录的PathCrc名称供调试用
+			
+	2. BuildApp

@@ -1,0 +1,156 @@
+
+SceneObject
+	WorldCameraShake
+		WorldCamera					//世界摄像机
+	Directional Light				//方向光
+	land_root
+		world_root					//地图, MapManager管理
+	TroopLine_root					//部队连线，MarchLineMgr管理
+	Troops_root						//部队， TroopMgr管理
+	rss_root						//地图对象，WorldMgrMediator管理
+	lod3_root						//小地图管理，GlobalViewMediator管理
+	
+	
+MapManager	
+	|-------------- x
+	|
+	|
+	|
+	|
+	|
+	y
+
+	数据:
+		//静态数据
+		Dictionary<int, TileSimple> m_dict_map_tile_brief						//简化数据 key: 列行 				
+		Dictionary<string, TileData> m_dict_map_tile_sample_data_adorning			//非固定位置摆放的物体(植被grove)			
+		Dictionary<string, TileData> m_dict_map_tile_sample_data_tile_plane			//固定位置摆放的prefab(地表) + 非固定位置排放的物体(非植被grove)
+
+		//动态数据
+		Dictionary<int, TileData> m_current_map_data_adorning			//获取当前9个tile的物体信息，转换到世界空间		Lod=0,1时
+		Dictionary<int, TileData> m_current_map_data_tile_plane			//获取当前9个tile的物体信息，转换到世界空间		Lod=0,1时
+		Dictionary<int, TileData> m_current_map_data_tile_detail		//获取当前9个tile的简化信息，应用Lod	Lod=2,3,4时
+		Dictionary<int, TileData> m_current_map_data_tile_brief			//获取当前9个tile的简化信息，应用Lod	Lod=5时
+
+		//分块管理
+		Dictionary<int, MapCellLarge> m_map_piece_large
+		Dictionary<int, MapCellSmall> m_map_piece
+		MapCellDynamic	m_dynamic_piece
+
+	1. MapManager.ReadMapBriefDataFromFile2 		//加载 BundleAssets/land/MapData/map_4_data.bytes				//tile简化数据		40 X 40个tile，每个tile 180正方形
+		//保存到m_dict_map_tile_brief		例如: BundleAssets/land/Tile_lod1/
+	
+	2. MapManager.ReadMapDataFromFile2 		//加载 BundleAssets/land/MapData/tile_data.bytes				//tile详细数据
+		//保存到m_dict_map_tile_sample_data_tile_plane			//地表，山脉，河流，静态树
+				地表: 	BundleAssets/land/Tile/I_TYPE_SceneMap_mask_6				//每个tile9块
+				河流：	BundleAssets/land/Mountain/Rive_CO_B
+				桥：	BundleAssets/land/Mountain/build_bridge_A
+				山脉： 	BundleAssets/land/Mountain/build_mountain_C
+				装饰： 	BundleAssets/land/Tile/AutoMake/Tile-ocean_A_adorning				//AutoMake
+				
+		//保存到m_dict_map_tile_sample_data_adorning					//植被装饰
+				例如： 	BundleAssets/land/Tile/Grove_co_tree_01_adorning
+			
+	加载完后
+		Update
+			UpdateViewCenter
+				UpdateTile				//当中心tile变化，或Lod变化时, 根据当前的lod获取当前tile信息
+				
+				UpdatePiece				//划分piece，gameobject加载到对应的节点上
+					DoUpdateLargePiece				//piece_plane_width	90
+						CreateNewLargePiece					
+							//在 m_current_map_data_tile_plane 中，把当前属于这个piece的物体加载到Piece上			//地表，河流，桥，山脉，装饰
+							//加载完后，对河流，树，地表material做处理
+					DoUpdatePiece					//piece_width	45		
+						CreateNewPiece				
+							//在 m_current_map_data_adorning 中，把当前属于这个piece的物体加载到Piece上		//植被
+					DoUpdateDynamicPiece			//tile_width	180
+						CreateMapCellDynamic		
+						UpdatePiece	
+							//在 m_current_map_data_tile_detail 或 m_current_map_data_tile_brief 中，把不在摄像机范围内的tile简化数据移除，加载在范围内的tile简化数据			//简化数据
+							
+	摄像机拉远拉近时的闪屏问题：由于在lod变换过程中，新的lod资源加载完和旧的lod资源删除之间有间隔导致的
+	
+	LOD策略总结:
+		每个tile(长宽180)的做成一个prefab (地表, 山脉，河流，植被), 分为Lod 1,2,3,4 等级
+		对于Lod1等级，工具会把 land/Tile_lod1/ 下的tile prefab 中的每个物体进行分拆，保存成单独的prefab， 游戏内在Lod = 0,1时，对单独的物体进行分组 (非植被 + 植被)，分别按宽度 90, 45的格子分格管理
+		对于Lod2,3,4等级，不会分拆每个物体，直接生成 land/Tile_lod2,3,4 下的tile prefab，游戏内在Lod = 2,3,4 时，对每个 tile prefab 按宽度 180 的格子分格管理
+		
+	改进方案：
+		在Lod切换过程中，避免地表的加载卸载 (避免lod切换导致闪屏)，地表可按照长宽180分块，一次全部加载，做显隐管理
+		在Lod1等级，对非地表的物体进行分类，进行分组管理 (和现有机制类似)
+		在Lod2,3,4等级，不分拆每个物体，对每个tile prefab 按宽度180分组管理 (和现有机制类似)
+		具体看下Lod2,3,4的简化规则，尽量在lod切换过程中，不做加载卸载操作，只做显隐和其他渲染上的简化
+		
+	Houdini的方案
+		Houdini导出prefab在游戏中使用，先按180一个tile mesh做地表，其他物体直接摆位置，由程序工具进行逻辑分组
+
+WorldMgrMediator
+	WorldMgrMediator响应 MapObjectChange 通知	
+		在WorldMgrMediator.LateUpdate中加载GameObject
+			WorldMgrMediator.Do_UpdateMapObject
+				WorldMapViewObjFactory.SysLoadWorldObj			//加载资源 设置 SceneObject/rss_root		
+
+		
+GlobalViewLevelMediator
+	LateUpdate			//对所有MapObject进行刷新 DoRefreshMapObjAndHud
+		
+WorldMapLogicMgr			//Troop管理
+	BattleUIHandler
+	BattleUIEffectHandler
+	BattleBuffHandler
+	MapBuildingFightHandler
+	TroopUpdateDataMgr
+	TroopLinesMgr
+	BehaviorMgr
+	MapTroopHandler
+	BattleSoundHandler
+	BgSoundHandler
+	BattleBroadcastsHandler
+	PlayTroopCheckHandler
+	UpdateMapDataHandler
+	GuardianHandler
+	MapSelectEffectHandler
+	MapSoundHandler
+	BattleRemainSoldiersHandler
+	MapTouchHandler
+			
+						
+Rss类型的处理
+	City, Stone, Farmland, Wood, Gold, Gem, Rune 城市类型，植被需要在城市范围内隐藏
+	Troop, Scouts, IntelligencePVE, IntelligenceExplore, Transport, ExploreCar, LocalTroop, Expedition 这几个类型都会使 TroopProxy 创建
+	
+LOD管理
+	LevelDetailBase				//设置m_lod_array自定义几级lod，当摄像机移动时判断lod是否变化，虚方法 UpdateLod
+		CellBase
+			Cell
+			CellNoTex
+			WorldModelCell
+		Guardian
+		MatrixFlag
+		Troops
+		LevelDetailCamera			//挂在WorldCamera上，根据摄像机dxf计算lod
+		LevelDetailCastle
+			LevelDetailDeposit
+		LevelDetailFog
+		LevelDetailMapGround
+		LevelDetailScale
+		LevelDetailScalerManager		//挂在WorldCamera上
+		LevelDetailTilling
+		LevelDetailVilliage
+		Rss
+		
+	LevelDetailManager		//在lod_distance = camera.fov * dist 发生变化后，更新handler，每个handler计算自己的lod等级
+	
+	GlobalViewMediator 大地图Lod对象和HUD管理
+		LodPopDataContent
+			MapObjectInfoEntity
+			ArmyData
+			
+	LOD和MapViewLevel的关系	
+		LOD=0, MapViewLevel.City,
+		LOD=1, MapViewLevel.Tactical,
+		LOD=2, MapViewLevel.Strategic,
+		LOD=3, MapViewLevel.Strategic,
+		LOD=4, MapViewLevel.Nationwide,
+	

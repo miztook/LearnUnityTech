@@ -1,0 +1,12 @@
+烘焙生成NavMeshData
+
+	UnityEngine.AI.NavMesh.AddNavMeshData
+	UnityEngine.AI.NavMesh.RemoveNavMeshData
+	
+	UnityEngine.AI.NavMesh.CalculatePath				//计算两点之间的寻路， 返回的NaveMeshPath包含寻路路径
+	
+动态阻挡
+	参与生成阻挡的物体去掉 Navigation Static 标记，添加 NavMeshObstacle 组件
+	
+	https://pythonjishu.com/mtqolfkopnkejdc/
+	https://blog.csdn.net/weixin_51565051/article/details/130445067

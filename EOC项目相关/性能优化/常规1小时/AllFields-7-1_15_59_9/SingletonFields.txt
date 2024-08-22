@@ -1,0 +1,801 @@
+AkLogger
+	[AkLogger]	ms_Instance		AkLogger
+	[ErrorLoggerInteropDelegate]	errorLoggerDelegate		AkLogger+ErrorLoggerInteropDelegate
+AkSoundEngineController
+	[AkSoundEngineController]	ms_Instance		AkSoundEngineController
+	[GameObject]	editorListenerGameObject		null
+	[Vector3]	editorListenerPosition		(0.0, 0.0, 0.0)
+	[Vector3]	editorListenerForward		(0.0, 0.0, 0.0)
+	[Vector3]	editorListenerUp		(0.0, 0.0, 0.0)
+	[AkInitializer]	TheAkInitializer		null
+AkWwiseFileWatcher
+	[AkWwiseFileWatcher]	instance		AkWwiseFileWatcher
+	[FileSystemWatcher]	XmlWatcher		null
+	[FileSystemWatcher]	WprojWatcher		null
+	[Boolean]	XmlExceptionOccurred		False
+	[Boolean]	ProjectExceptionOccurred		False
+	[Boolean]	xmlChanged		False
+	[Boolean]	wprojChanged		False
+	[Action]	XMLUpdated		null
+	[Action`1]	WwiseProjectUpdated		null
+	[Func`1]	PopulateXML		System.Func`1[System.Boolean]
+	[String]	generatedSoundbanksPath		null
+	[String]	wwiseProjectPath		null
+AkWwiseInitializationSettings
+	[List`1<String>]	PlatformSettingsNameList		(1)
+	[List`1<PlatformSettings>]	PlatformSettingsList		(1)
+	[List`1<String>]	InvalidReferencePlatforms		(0)
+	[AkCommonUserSettings]	UserSettings		AkCommonUserSettings
+	[AkCommonAdvancedSettings]	AdvancedSettings		AkCommonAdvancedSettings
+	[AkCommonCommSettings]	CommsSettings		AkCommonCommSettings
+	[String[]]	AllGlobalValues		(48)
+	[AkWwiseInitializationSettings]	m_Instance		AkWwiseInitializationSettings (AkWwiseInitializationSettings)
+	[AkBasePlatformSettings]	m_ActivePlatformSettings		null
+	[Dictionary`2<String, String>]	m_PlatformSettingsClassNames		(4)
+	[BindingFlags]	BindingFlags		Instance, Public, NonPublic
+	[Boolean]	ActiveSettingsHaveChanged		True
+	[String]	ActiveSettingsHash		null
+AlertManager
+	[Dictionary`2<String, GameObject>]	m_assets		(0)
+	[Dictionary`2<String, Alert>]	m_alerts		(1)
+	[Transform]	tipLayer		pl_dialog (UnityEngine.RectTransform)
+AppFacade
+	[String]	STARTUP		AppFacade.StartUp
+	[Dictionary`2<ViewBinder, IMediator>]	m_viewMap		(16)
+	[Dictionary`2<String, IMediator>]	m_MediatorMap		(3)
+	[Dictionary`2<String, Mediator>]	m_globalMap		(47)
+	[IController]	controller		PureMVC.Core.Controller
+	[IModel]	model		PureMVC.Core.Model
+	[IView]	view		PureMVC.Core.View
+ArmyInfoHelp
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[SoldierProxy]	m_soldierProxy		Skyunion.SoldierProxy
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[RssProxy]	m_RssProxy		Skyunion.RssProxy
+	[WorldMapObjectProxy]	m_worldProxy		Skyunion.WorldMapObjectProxy
+AssetDatabaseService
+	[Single]	m_gcTick		120
+	[Single]	m_gcTime		2285.291
+	[Boolean]	m_Inited		True
+	[Dictionary`2<String, Type>]	m_Path2QueryTypeDict		(1257)
+	[ResourceManager]	m_ResourceManager		Skyunion.AssetBase.ResourceManager
+	[AssetDatabaseResourceLocator]	m_AssetDatabaseLocator		Skyunion.AssetBase.AssetDatabaseResourceLocator
+	[AssetDatabaseProvider]	m_AssetDatabaseProvider		Skyunion.AssetBase.AssetDatabaseProvider
+	[SceneProvider]	m_SceneProvider		Skyunion.AssetBase.SceneProvider
+	[Dictionary`2<String, AsyncOperationHandle`1>]	m_sceneInstToHandle		(1)
+	[Dictionary`2<String, GameObject>]	m_keyToPrefabs		(0)
+	[HashSet`1<GameObject>]	m_prefabSet		(0)
+AutoMoveMgr
+	[Dictionary`2<Int64, IAutoMove>]	dicAutoMove		(57)
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+BP3EffectPutRuleManager
+BuffManager
+	[Dictionary`2<PveTriggerBuffData, List`1>]	m_buffList		(0)
+BulletManager
+	[BulletFactoryPool]	Pool		Client.PVE.BulletFactoryPool
+	[List`1<BulletBase>]	_usedBulletBase		(0)
+CellDatas
+	[CellDatas]	m_instance		Skyunion.CellDatas
+	[MatrixData[]]	m_square_data_array		(5)
+	[HeroOffsetData[]]	m_hero_data_array		(5)
+	[Dictionary`2<Int32, String>]	m_unit_prefab_dict		(71)
+CharacterFactory
+	[Transform]	PoolRoot		characterPool (UnityEngine.Transform)
+	[CharacterFactory]	mInstance		Client.PVE.CharacterFactory
+	[List`1<GameObject>]	pools		(0)
+	[GameObject]	boneTemplate		null
+CityCamera
+	[Single]	m_fMinSize		0.7
+	[Single]	m_fShowMinSize		0.8
+	[Single]	m_fMaxSize		2.2
+	[Single]	m_fShowMaxSize		2
+	[Single]	m_fDefautSize		1.2
+	[Single]	m_backSpeed		0.3
+	[SpriteRenderer]	m_bgSpriteRenderer		BG_NeiCheng_bj_01 (UnityEngine.SpriteRenderer)
+	[Vector3]	m_viewCenter		(98.4, 0.0, 99.7)
+	[Plane]	m_groundPlane		(normal:(0.0, 1.0, 0.0), distance:0.0)
+	[Vector3]	m_groundMinPos		(97.4, 0.0, 98.9)
+	[Vector3]	m_groundMaxPos		(102.2, 0.0, 104.5)
+	[Camera]	m_Camera		Camera (UnityEngine.Camera)
+	[Single]	m_cameraViewDist		87.74015
+	[Vector3]	m_touchBeganPos		(97.8, 0.0, 102.7)
+	[TweenerCore`3]	m_doMove		null
+	[TweenerCore`3]	m_doZoomed		null
+	[Vector3]	moveMinPos		(-19.6, -9.1, 0.0)
+	[Vector3]	moveMaxPos		(21.4, 13.7, 0.0)
+	[Single]	m_fTouchStartZoomSize		0
+	[AudioListener]	m_AudioListener		Camera (UnityEngine.AudioListener)
+CityHudCountDownManager
+	[Dictionary`2<Int64, CityHudTimerItem>]	m_keyMap		(0)
+	[List`1<CityHudTimerItem>]	m_itemList		(0)
+	[Dictionary`2<Int64, CityHudTimerItem>]	m_keyUiMap		(1)
+	[List`1<CityHudTimerItem>]	m_itemUiList		(1)
+	[Timer]	m_timer		Skyunion.Timer
+	[Boolean]	m_isShowTime		False
+DataService
+	[Dictionary`2<Type, Object>]	mTables		(145)
+	[List`1<Int32>]	m_TimeLimit		(2)
+	[Single]	mStartTime		4.266555
+DeviceLogger
+	[StringBuilder]	_StringBuilder		[15:19:32.7410649]	GlobaGame Start End...
+	[DeviceLogger]	_Instance		DeviceLogger
+	[Object]	writeLock		System.Object
+	[String]	strPath		F:\SVN\eoc_client_qa\DeviceLog.txt
+FightHelper
+	[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[ScoutProxy]	m_ScoutProxy		Skyunion.ScoutProxy
+	[AllianceProxy]	allianceProxy		Skyunion.AllianceProxy
+ForceIncreaseTipManager
+	[List`1<ForceIncreaseTipView>]	m_showTipList		(0)
+	[Queue`1<ForceIncreaseTipView>]	m_freeTipQueue		(6)
+FormationMgr
+	[FormationRule]	_formationRule		Skyunion.FormationRule
+GameLogic
+GameModeManager
+	[GameModeType]	<CurGameMode>k__BackingField		World
+	[GameModeType]	m_PreMode		City
+GameUpdateMan
+	[Boolean]	_IsUpdateSucceed		True
+	[UpdateView]	_UpdateView		UpdateView
+	[MessageView]	_MessageView		MessageView
+	[Boolean]	bWifiMsgBoxShow		False
+	[Single]	fExtraSpace		1
+	[String]	m_CurrentVersion		0.0.0.0.0
+	[String]	m_ServerVersion		0.0.0.0.0
+GlobalBehaviourManger
+	[BehaviourBinder]	m_behaviourBinder		GlobalBehaviour (Skyunion.BehaviourBinder)
+	[Dictionary`2<String, GameMediator>]	m_mediatorDic		(47)
+	[GameObject]	m_behaviorRoot		GlobalBehaviour (UnityEngine.GameObject)
+GlobalClient
+	[GlobalGameState]	m_GlobalState		Skyunion.GlobalGameState
+	[Dictionary`2<EGlobalManager, IGlobalManager>]	m_GlobalManager		(13)
+	[Dictionary`2<EGlobalManager, Action`1>]	m_UpdateAction		(7)
+	[Dictionary`2<EGlobalManager, Action`1>]	m_LateUpdateAction		(0)
+	[Dictionary`2<EGlobalManager, Action`1>]	m_FixedUpdateAction		(0)
+	[Boolean]	LogSproto		False
+	[Boolean]	LogNotification		False
+	[Boolean]	LogGameObject		False
+	[Boolean]	LogScene		False
+	[Boolean]	ShowDebug		False
+	[Boolean]	LogMapManager		False
+	[Boolean]	LogAudio		False
+	[Boolean]	UseWwiseEngineLog		False
+	[LogLevel]	_WriteLogLevel		Warning
+GuideManager
+	[Boolean]	IsGuideSoldierTrain		False
+	[Boolean]	IsGuideSoldierGet		False
+	[Boolean]	IsGuideBuildScoutCamp		False
+	[Boolean]	IsGuideFightBarbarian		False
+	[Boolean]	IsGuideFightSecondBarbarian		False
+	[Boolean]	IsExploreFogGuide		False
+HUDManager
+	[List`1<HUDUI>]	m_HUDInfos		(10)
+	[List`1<HUDUI>]	m_sortingOrders		(9)
+	[Transform[]]	m_layers		(5)
+	[Boolean]	isInitedCamera		True
+	[Camera]	uiCam		UICam (UnityEngine.Camera)
+	[RectTransform]	canvasRect		UIRoot (UnityEngine.RectTransform)
+	[Vector2]	tmpScreenPos		(1829.5, 673.9)
+	[Vector2]	tmpAnchoredPos		(659.5, 133.9)
+	[Single]	tmpCameraDxf		2.2
+	[Single]	lastCameraDxf		0
+	[Dictionary`2<Int64, HUDUI>]	m_hasHud		(0)
+	[CanvasGroup]	_hudCanvasGroup		HUDLayer (UnityEngine.CanvasGroup)
+InputManager
+	[Boolean]	IsBgActived		False
+	[Boolean]	IsLock3DTouch		False
+	[Boolean]	isTouching		False
+	[Boolean]	isMoving		False
+	[Int32]	lastTouchX		686
+	[Int32]	lastTouchY		636
+	[String]	m_touch3DGameobjectId		
+	[GameObject]	m_touch3DCollider		null
+	[HashSet`1<String>]	m_ignoreUITouchPanels		(0)
+	[Boolean]	isMouseScaling		False
+	[Boolean]	isTwoTouchZooming		False
+	[Single]	lastTowTouchDist		0
+	[Single]	firstTwoTouchDist		0
+	[Int32]	MIN_MOVE_START_DIST		10
+	[Int32[]]	Inputcountpre		(3)
+	[Boolean]	m_ignoreUITouched		False
+	[Boolean]	m_IsLongPressAble		True
+	[Single]	LongPressThreshold		0.35
+	[Single]	LongPressMinumumDuration		0.6
+	[Stopwatch]	m_LongPressSW		System.Diagnostics.Stopwatch
+	[Boolean]	IsLongPressCheck		False
+	[Action`2]	m_OnTouchScreenBeginAction		2
+	[Action`2]	m_OnTouchScreenMoveAction		1
+	[Action`2]	m_OnTouchScreenEndAction		1
+	[Action`2]	m_OnTouchBeginAction		6
+	[Action`2]	m_OnTouchMoveAction		4
+	[Action`2]	m_OnTouchEndAction		4
+	[Action`2]	m_OnTouchZoomBeginAction		1
+	[Action`3]	m_OnTouchZoomedAction		1
+	[Action`2]	m_OnTouchZoomEndAction		null
+	[Action`2]	m_OnTouchPveBeginAction		null
+	[Action`2]	m_OnTouchPveMoveAction		null
+	[Action`2]	m_OnTouchPveEndAction		null
+	[Action`3]	m_OnTouchTroopBeginAction		1
+	[Action`3]	m_OnTouchTroopMoveAction		1
+	[Action`7]	m_OnTouchTroopEndAction		1
+	[Action`4]	m_OnTouchBegan3DCheckAction		1
+	[Action`4]	m_OnTouchEnded3DCheckAction		1
+	[Action`4]	m_On3DCheckAction		1
+	[Action`4]	m_OnTouch3DReleaseOutside		1
+	[Action]	m_NoToushAction		null
+	[Action`2]	m_OnLongPressAction		1
+	[Camera]	m_curCamera		WorldCamera (UnityEngine.Camera)
+	[List`1<RaycastResult>]	_TmpRayastList		(0)
+	[Int32]	RaycatColliderLayer		8
+LevelDetailCamera
+	[AnimationCurve]	m_map_piece_width_curve		UnityEngine.AnimationCurve
+	[AnimationCurve]	m_map_piece_plane_width_curve		UnityEngine.AnimationCurve
+	[Single]	m_current_lod_distance		0
+	[GameObject]	m_dark_corner_obj		null
+	[GameObject]	m_blur_plane		null
+	[AnimationCurve]	m_camera_nearClipPlane_curve		UnityEngine.AnimationCurve
+	[AnimationCurve]	m_camera_farClipPlane_curve		UnityEngine.AnimationCurve
+	[Single]	m_curShadowdistance		0
+	[Action`2]	m_lodChange		1
+	[Single[]]	m_lod_array		(6)
+LevelDetailManager
+	[List`1<Action>]	_handlers		(1192)
+	[Single]	m_previous_lod_Distance		1509
+	[Single]	m_lod_Distance		1509
+	[Single]	m_fov		30
+LevelDetailScalerManager
+	[AnimationCurve]	m_tree_scale_curve		UnityEngine.AnimationCurve
+	[AnimationCurve]	m_unit_scale_curve		UnityEngine.AnimationCurve
+	[AnimationCurve]	m_unitModel_scale_curve		UnityEngine.AnimationCurve
+	[AnimationCurve]	m_fog_shade_curve		UnityEngine.AnimationCurve
+	[Int32]	squares_num_in_screen		0
+	[Int32]	squares_num_in_screen_threshold		20
+	[Single]	m_tree_scale		0.876125
+	[Single]	m_unit_scale		2.208411
+	[Single]	m_unitModel_scale		0.7500216
+	[Single[]]	m_lod_array		(6)
+LevelDetailTilling
+	[List`1<ScaleCfgInfo>]	TillingList		(4)
+	[Single]	_curTilling		4
+	[Single]	_curWaterTilling		3
+	[Single[]]	m_lod_array		(0)
+LightManager
+	[Light]	m_direction_light		Directional Light (UnityEngine.Light)
+	[Boolean]	m_is_updating_light		False
+	[Single]	m_update_timer		0
+	[Single]	m_update_time		2145
+	[Color]	m_org_ambient_color		RGBA(1.000, 1.000, 1.000, 1.000)
+	[Color]	m_org_direction_color		RGBA(1.000, 1.000, 1.000, 1.000)
+	[Single]	m_org_direction_intensity		1.1
+	[Color]	m_new_ambient_color		RGBA(1.000, 1.000, 1.000, 1.000)
+	[Color]	m_new_direction_color		RGBA(1.000, 1.000, 1.000, 1.000)
+	[Single]	m_new_direction_intensity		1
+	[Color]	m_camera_fill_base_color		RGBA(0.526, 0.631, 0.322, 0.000)
+	[Single]	m_fade_alpha		1
+	[Color]	m_sprite_color		RGBA(1.000, 1.000, 1.000, 1.000)
+	[Color]	m_light_ambient_color		RGBA(0.000, 0.000, 0.000, 1.000)
+	[Color]	m_light_direction_color		RGBA(0.000, 0.000, 0.000, 1.000)
+	[Single]	m_light_direction_intensity		1
+	[Color]	m_thunder_ambient_color		RGBA(0.000, 0.000, 0.000, 1.000)
+	[Color]	m_thunder_direction_color		RGBA(0.000, 0.000, 0.000, 1.000)
+	[Single]	m_thunder_direction_intensity		1
+	[List`1<Lighting>]	m_thunderList		(0)
+	[List`1<NightingObject>]	m_night_object_list		(93)
+	[Boolean]	<isNight>k__BackingField		False
+	[List`1<Int32>]	m_tmpList		(0)
+LogService
+	[LogLevel]	GameLogLevel		Warning
+ManagerLogic
+	[MonoBehaviour]	root		null
+	[List`1<IManager>]	ManagerList		(3)
+	[List`1<IManager>]	ManagerInitedList		(3)
+	[List`1<IUpdate>]	UpdateList		(2)
+	[List`1<IFixedUpdate>]	FixUpdateList		(0)
+	[List`1<ILateUpdate>]	LatUpdateList		(1)
+	[List`1<ISlowUpdate>]	SlowUpdateList		(1)
+	[Single[]]	SlowUpdateTimeStamp		(1)
+	[Single]	SLOW_DELTA_TIME		1
+	[ManagerLogic]	logic		GlobalClient (ManagerLogic)
+ManorLineMgr
+	[String]	m_line_prefab_path		BundleAssets/Scene/Map_building/territory/territory_line_obj
+	[List`1<GameObject>]	m_territory_line_list_tactical		(0)
+	[List`1<GameObject>]	m_territory_line_list_strategic		(4)
+	[HashSet`1<Vector2[]>]	m_loading		(0)
+	[HashSet`1<Vector2[]>]	m_loading_isStrategic		(0)
+MapManager
+	[Int32]	MAX_MAP_SIZE		7200
+	[Int32]	m_server_width		40
+	[Single]	m_tile_width		180
+	[Single]	m_large_width		900
+	[Single]	m_land_width		1800
+	[Vector2]	m_current_tile_center		(2092.5, 5737.5)
+	[Int32]	m_tile_piece_count_in_row		3
+	[Boolean]	m_load_data_done		True
+	[Boolean]	m_force_update_once		False
+	[Int32]	m_update_count		1
+	[Dictionary`2<Int32, TileSimple>]	m_dict_map_tile_brief		(1600)
+	[Dictionary`2<Int32, TileData>]	m_dict_map_tile_land		(0)
+	[Dictionary`2<Int32, TileData>]	m_dict_map_tile_far		(0)
+	[Dictionary`2<Int32, TileData>]	m_dict_map_tile_objects		(0)
+	[Dictionary`2<Int32, TileData>]	m_dict_map_tile_groves		(0)
+	[Dictionary`2<Int32, TileData>]	m_dict_map_large_land		(16)
+	[Dictionary`2<Int32, TileData>]	m_dict_map_large_far		(64)
+	[List`1<TileData>]	m_current_map_data_ground		(0)
+	[List`1<TileData>]	m_current_map_data_large_land		(12)
+	[List`1<TileData>]	m_current_map_data_far		(0)
+	[List`1<TileData>]	m_current_map_data_objects		(0)
+	[List`1<TileData>]	m_current_map_data_groves		(0)
+	[Dictionary`2<String, MapTownItem>]	m_city_dict		(35)
+	[Transform]	m_world_root		world_root (UnityEngine.Transform)
+	[Transform]	m_navmesh_root		NavMesh (UnityEngine.Transform)
+	[Transform]	m_land_root		Land (UnityEngine.Transform)
+	[Transform]	m_large_land_root		LargeLand (UnityEngine.Transform)
+	[Transform]	m_near_root		NearObj (UnityEngine.Transform)
+	[Transform]	m_near_grove		NearGrove (UnityEngine.Transform)
+	[Transform]	m_river_root		River (UnityEngine.Transform)
+	[Transform]	m_lake_root		Lake (UnityEngine.Transform)
+	[Transform]	m_bridge_root		Bridge (UnityEngine.Transform)
+	[Transform]	m_road_root		Road (UnityEngine.Transform)
+	[Transform]	m_far_root		FarObj (UnityEngine.Transform)
+	[Single]	m_piece_width		45
+	[String]	m_land_world_root_path		SceneObject/land_root/world_root
+	[MapCellLand]	m_cell_land		Land (Skyunion.MapCellLand)
+	[MapCellLargeLand]	m_cell_large_land		LargeLand (Skyunion.MapCellLargeLand)
+	[MapCellMountain]	m_cell_mountain		NearObj (Skyunion.MapCellMountain)
+	[MapCellGrove]	m_cell_grove		NearGrove (Skyunion.MapCellGrove)
+	[MapCellLargeFar]	m_cell_large_far		FarObj (Skyunion.MapCellLargeFar)
+	[MapCellRiver]	m_cell_river		River (Skyunion.MapCellRiver)
+	[MapCellLake]	m_cell_lake		Lake (Skyunion.MapCellLake)
+	[MapCellBridge]	m_cell_bridge		Bridge (Skyunion.MapCellBridge)
+	[MapCellRoad]	m_cell_road		Road (Skyunion.MapCellRoad)
+	[List`1<ProvinceName>]	provinceNameList		(0)
+MotionEffectDataFactory
+	[Dictionary`2<Int32, Queue`1>]	effDataDict		(0)
+	[Dictionary`2<Int32, Type>]	typeDict		(12)
+MotionEffectFactory
+	[Dictionary`2<Int32, Queue`1>]	effDict		(0)
+	[Dictionary`2<Int32, Type>]	typeDict		(11)
+NetManager
+	[NetSession[]]	m_Sessions		(2)
+	[List`1<MsgCacheStruct>]	_listCacheMsg		(0)
+Patcher
+	[Patcher]	_Instance		Skyunion.Patcher
+	[Boolean]	SkipUpdate		True
+	[String]	<strDocDir>k__BackingField		F:/SVN/eoc_client_qa/
+	[String]	<strLibDir>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/
+	[String]	<strTmpDir>k__BackingField		F:/SVN/eoc_client_qa/Tmp/
+	[String]	<strLibPatcherTmpDir>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/patcher/temp/
+	[String]	<strUpdateServerDir>k__BackingField		https://ipretobucket.s3.us-west-2.amazonaws.com/orig-eoc/eoc-trunk/Android/
+	[String]	strUpdateServerIpDir		https://ipretobucket.s3.us-west-2.amazonaws.com/orig-eoc/eoc-trunk/Android/
+	[String]	<strClientServerDir>k__BackingField		https://ipretobucket.s3.us-west-2.amazonaws.com/orig-eoc/eoc-trunk/clientserver/Android/
+	[String]	strClientServerIpDir		https://ipretobucket.s3.us-west-2.amazonaws.com/orig-eoc/eoc-trunk/clientserver/Android/
+	[String]	<strAndroidUrl>k__BackingField		null
+	[String]	<strIOSUrl>k__BackingField		null
+	[String]	<strServerConfigFile>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/patcher/ServerConfig.xml
+	[String]	<strGameOldVerFile>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/patcher/config/game_ver.sw
+	[String]	<strGameNewVerFile>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/patcher/temp/game_servernewver.sw
+	[String]	<strConfigPath>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/patcher/config/
+	[String]	<strDownloadPath>k__BackingField		F:/SVN/eoc_client_qa/UpdateRes/patcher/temp/
+	[String]	<strErrorLog>k__BackingField		F:/SVN/eoc_client_qa/Logs/update.log
+	[ELEMENT_VER]	<m_CurrentVersion>k__BackingField		0.0.0.0.0
+	[VersionMan]	<m_VersionMan>k__BackingField		Skyunion.VersionMan
+	[CUpdateInfo]	<UpdateInfo>k__BackingField		Skyunion.CUpdateInfo
+	[UpdateLog]	<_UpdateLog>k__BackingField		Skyunion.UpdateLog
+	[ELEMENT_VER]	m_baseVer		0.0.0.0.0
+	[Dictionary`2<String, String>]	m_dicDNSCache		(0)
+PlatformSDKMan
+	[PlatformSDKMan]	instance		PlatformSDKMan
+	[IG_LOGIN_NOTIFICATION_DELEGATE]	fnLogin		SDK.IG_LOGIN_NOTIFICATION_DELEGATE
+	[IG_LOGOUT_NOTIFICATION_DELEGATE]	fnLogout		SDK.IG_LOGOUT_NOTIFICATION_DELEGATE
+	[IG_BUY_NOTIFICATION_DELEGATE]	fnBuy		SDK.IG_BUY_NOTIFICATION_DELEGATE
+	[IG_APPRATING_NOTIFICATION_DELEGATE]	fnApprating		SDK.IG_APPRATING_NOTIFICATION_DELEGATE
+	[String]	uid		
+	[String]	nickName		
+	[Boolean]	bDebugMode		False
+PreloadAssetManager
+	[Dictionary`2<String, GameObject>]	dicPrefabs		(167)
+	[List`1<String>]	preloadAssetList		(167)
+	[List`1<String>]	troopAssetList		(45)
+	[List`1<String>]	barbarianAssetList		(20)
+	[List`1<String>]	barbarianFormationAssetList		(38)
+	[List`1<String>]	troopUIAssetList		(3)
+	[List`1<String>]	globalViewLevelAssetList		(42)
+	[List`1<String>]	worldMapObjAssetList		(20)
+PveBattleMgr
+	[LevelResult]	<Level_Result>k__BackingField		Success
+	[PveHeroMgr]	m_PveHeroMgr		Client.PVE.PveHeroMgr
+	[PveMapManager]	m_PveMapManager		null
+	[BattleStateType]	m_BattleState		BattleEnd
+	[UnitShadowIniter]	<UnitShadowMgr>k__BackingField		null
+	[Material]	<UnitShadowMaterial>k__BackingField		null
+	[PVESeekUnit]	seek		Client.PVE.PVESeekUnit
+	[Int32]	m_CurPartIndex		3
+	[Int32]	m_monsterLevel		1
+	[Boolean]	m_BattlePause		False
+	[PVEDamageManager]	PveDamageManager		null
+	[PVEBattleFunction]	m_pveBattleFunction		null
+	[BattleConfig]	battleConfig		Client.PVE.BattleConfig
+	[Boolean]	m_battleState		False
+	[PVECastSkillHeroManager]	castSkillHeroManager		null
+	[PVEMoveInputHandler]	m_moveHandler		null
+	[MonitorBuilding]	m_monitorBuilding		null
+	[PVEProxy]	m_pveProxy		Skyunion.PVEProxy
+	[Boolean]	m_LevelResult		True
+	[PveBattleMediator]	m_battleMediator		Skyunion.PveBattleMediator
+	[BaseLevelStage]	_currentLevelStage		null
+	[Boolean]	m_isPlot		False
+	[PVELevelTriggerLogic]	m_CurTagget		null
+PveSystemManager
+	[List`1<PveSystem>]	_pveSystems		(0)
+RedManager
+	[RedProxy]	m_RedProxy		Skyunion.RedProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+RssAnimationManager
+	[List`1<RssAniGroup>]	RssAniGroups		(0)
+SdkEventManager
+	[String]	uid		
+ServerTimeModule
+	[Int32]	SEC_PERMINUTE		60
+	[Int32]	SEC_PERHOUR		3600
+	[Int32]	SEC_PERDAY		86400
+	[Int64]	Lose_Time		372
+	[Int64]	Ping		23
+	[Int64]	LostMaintentTime		0
+	[DateTime]	dtStart		01/01/1970 08:00:00
+	[Int64]	m_serverZone		8
+	[Int64]	m_cacheStamp		1656662350
+	[DateTime]	m_cacheDateTime		07/01/2022 15:59:10
+	[Int64]	m_tmpServerTime		1656662350
+	[Decimal]	m_decimalTime		0
+SkillDataManager
+	[List`1<PVEheroskillDefine>]	m_pveHeroSkillConfigs		(214)
+	[List`1<PVEHeroSkillGroupDefine>]	m_pveHeroSkillGroupConfigs		(131)
+	[List`1<PVEheroSkillGroupVariableDefine>]	_pveHeroSkillGroupVariableDefines		(915)
+	[List`1<PVEheroskillVariableDefine>]	_pveHeroSkillVariableDefines		(1006)
+	[HeroProxy]	m_heroProxy		Skyunion.HeroProxy
+	[Dictionary`2<LogicKeyType, ObjectPool`1>]	logicKeyPool		null
+SquareHelper
+	[Int32]	hero_id_offset		0
+	[Dictionary`2<Int32, List`1>]	UnitId		(5)
+	[List`1<TroopsCell>]	lsUnitDatas		(0)
+	[List`1<TroopsHero>]	lsHeroDatas		(0)
+SubViewManager
+	[Dictionary`2<String, IList`1>]	observers_map		(19)
+SummonerTroopMgr
+	[ISummonerTroop]	m_SummonerTroop		Skyunion.SummonerTroop
+	[List`1<IGameModeTroop>]	m_gameModeTroopList		(1)
+SystemOpen
+	[Dictionary`2<Int32, SystemOpenDefine>]	m_systemOpenDefines		(94)
+	[Dictionary`2<Int32, SystemOpenDefine>]	m_curUnlocks		(0)
+	[Boolean]	m_isInitFunctionOpen		True
+	[Boolean]	m_isUnlockFuncShow		False
+	[List`1<Int32>]	m_showWindownUid		(5)
+	[List`1<Int64>]	m_serverSystemCanOpenIds		(89)
+	[List`1<OpenStatus>]	m_ServerOpenInfo		(94)
+	[Int32]	UnlockNpcID		150011
+	[Dictionary`2<Int32, IOpenCondition>]	_listDeals		(11)
+	[Dictionary`2<String, List`1>]	_dicSystemOpen		(0)
+	[List`1<Int32>]	_checkBuilding		(6)
+	[HashSet`1<Int32>]	<AlreadyAchieve>k__BackingField		(0)
+TimerManager
+	[List`1<Timer>]	_timers		(11)
+	[List`1<Timer>]	_timersToAdd		(0)
+TipManager
+	[Dictionary`2<String, GameObject>]	m_tipAssets		(1)
+	[Queue`1<Tip>]	m_topTips		(0)
+	[Boolean]	isDequeueTop		False
+	[Queue`1<Tip>]	m_midTips		(0)
+	[Boolean]	isDequeueMid		False
+	[Queue`1<Tip>]	m_cityTips		(0)
+	[Boolean]	isDequeueCity		False
+	[Queue`1<Tip>]	m_otherTips		(0)
+	[Boolean]	isDequeueOther		False
+	[Transform]	tipLayer		pl_tip (UnityEngine.RectTransform)
+	[Timer]	m_lastTipTimer		null
+	[Tip]	m_showingTip		null
+	[Tip]	m_replaceingTip		null
+	[Tip]	m_playMidTip		null
+	[Timer]	m_playMidTimer		null
+	[GameObject]	m_cacheCityTipGo		null
+	[Timer]	m_cacheTimer		null
+TroopObjManager
+	[GameObject]	_troopParent		TroopObjManager (UnityEngine.GameObject)
+	[OnePrefabPool]	_unityDummyPool		Skyunion.OnePrefabPool
+		[GameObject]	Prefab		unit_dummy (UnityEngine.GameObject)
+		[GameObject]	PrefabCollection		unit_dummy(Collection_20) (UnityEngine.GameObject)
+		[GameObject]	CollectionObj		TroopObjManager (UnityEngine.GameObject)
+		[Int32]	PrefabForInstantiateNum		20
+		[List`1<GameObject>]	PrefabDeActiveList		(20)
+		[String]	InstanceName		unit_dummy[pool]
+	[OnePrefabPool]	_unityRowPool		Skyunion.OnePrefabPool
+		[GameObject]	Prefab		row (UnityEngine.GameObject)
+		[GameObject]	PrefabCollection		row(Collection_20) (UnityEngine.GameObject)
+		[GameObject]	CollectionObj		TroopObjManager (UnityEngine.GameObject)
+		[Int32]	PrefabForInstantiateNum		20
+		[List`1<GameObject>]	PrefabDeActiveList		(8)
+		[String]	InstanceName		row[pool]
+	[OnePrefabPool]	_unityFormationPool		Skyunion.OnePrefabPool
+		[GameObject]	Prefab		Formation (UnityEngine.GameObject)
+		[GameObject]	PrefabCollection		Formation(Collection_20) (UnityEngine.GameObject)
+		[GameObject]	CollectionObj		TroopObjManager (UnityEngine.GameObject)
+		[Int32]	PrefabForInstantiateNum		20
+		[List`1<GameObject>]	PrefabDeActiveList		(2)
+		[String]	InstanceName		Formation[pool]
+	[Dictionary`2<String, OnePrefabPool>]	_dicBarbarianFormationPools		(38)
+	[Dictionary`2<String, OnePrefabPool>]	_dicResourcePools		(63)
+	[Dictionary`2<String, OnePrefabPool>]	_dicNameResourcePools		(104)
+	[Dictionary`2<String, OnePrefabPool>]	_dicUIPools		(3)
+	[Dictionary`2<String, OnePrefabPool>]	_dicNameUIPools		(3)
+	[Dictionary`2<String, OnePrefabPool>]	_dicGlobalViewLevelPools		(41)
+	[Dictionary`2<String, OnePrefabPool>]	_dicWorldMapObjPools		(20)
+TroopsDatas
+	[Dictionary`2<Int32, List`1>]	dicRowData		(4)
+	[Dictionary`2<Int32, List`1>]	dicRowWidthData		(4)
+	[Dictionary`2<Int32, List`1>]	dicForwardSpacingData		(4)
+	[Dictionary`2<Int32, List`1>]	dicBackward_spacingData		(4)
+	[Dictionary`2<Int32, List`1>]	dicNumberbySumData		(5)
+	[Dictionary`2<Int32, Matrix_Prefab>]	dicSquare_prefab		(71)
+	[Dictionary`2<Int32, List`1>]	dicSquareOffset		(4)
+UIManager
+	[Dictionary`2<Int32, UIInfo>]	dictUI		(294)
+	[List`1<Int32>]	timelineNotHideIdList		(1)
+	[Camera]	m_effectCamera		UIEffectCam (UnityEngine.Camera)
+	[HashSet`1<Int32>]	_blackList		(0)
+	[List`1<WaitCloseUIInfo>]	_WaitCloseUIInfoList		(0)
+	[HashSet`1<Int32>]	_sortingList		(0)
+	[List`1<Int32>]	concurrencyIdList		(6)
+	[Queue`1<OpenUIInfo>]	concurrencyUIQueue		(0)
+	[List`1<Int32>]	_withoutIds		(3)
+	[Single]	screenScale		1
+	[GameObject]	uiRoot		UIRoot (UnityEngine.GameObject)
+	[CanvasScaler]	uiRootScale		UIRoot (UnityEngine.UI.CanvasScaler)
+	[UIFullViewAdaptation]	uiRootFull		Container (UIFullViewAdaptation)
+	[GameObject]	uiTop		UITop (UnityEngine.GameObject)
+	[Transform]	uiTopMask		UITopMask (UnityEngine.RectTransform)
+	[GameObject]	clickEffect		ClickEffect (UnityEngine.GameObject)
+	[Canvas]	canvas		UIRoot (UnityEngine.Canvas)
+	[Transform]	trans		UIRoot (UnityEngine.RectTransform)
+	[Camera]	uicamera		UICam (UnityEngine.Camera)
+	[Camera]	maskBlurCamera		MaskBlurCamera (UnityEngine.Camera)
+	[UInt32]	maskBlurType		2
+	[Dictionary`2<Int32, Transform>]	layers		(15)
+	[List`1<UIInfo>]	uiStack		(0)
+	[Dictionary`2<Int32, UIInfo>]	uiCache		(2)
+	[Dictionary`2<Int32, List`1>]	layerStacks		(15)
+	[Dictionary`2<Int32, UIInfo>]	uiIdDic		(2)
+	[UIInfo]	lastClosedUI		null
+	[UIInfo]	currentLoadingUI		null
+	[List`1<UIInfo>]	infoList		(0)
+	[List`1<UIInfo>]	m_tempStackUIList		(1)
+	[OnShowUI]	m_onShowUIEvent		Skyunion.OnShowUI
+	[OnCloseUI]	m_onCloseUIEvent		Skyunion.OnCloseUI
+	[Action]	m_gameExit		1
+	[Boolean]	HasPopView		True
+	[Boolean]	m_isGuideStatus		False
+	[List`1<UIPopValue>]	m_uiPopStack		(0)
+UniWebViewLogger
+	[UniWebViewLogger]	instance		UniWebViewLogger
+	[Level]	level		Critical
+WorldCamera
+	[Camera]	m_Camera		WorldCamera (UnityEngine.Camera)
+	[LevelDetailCamera]	m_LevelDetailCamera		WorldCamera (Skyunion.LevelDetailCamera)
+	[LevelDetailScalerManager]	m_LevelDetailScalerManager		WorldCamera (Skyunion.LevelDetailScalerManager)
+	[LevelDetailTilling]	m_LevelDetailTilling		WorldCamera (Skyunion.LevelDetailTilling)
+	[Rect]	worldRect		(x:0.00, y:0.00, width:7200.00, height:7200.00)
+	[Boolean]	enableReboundXY		True
+	[Single]	reboundBaseOffX		0.004444445
+	[Single]	reboundBaseOffY		0.002962963
+	[Single]	reboundTime		150
+	[Single]	slowDragRate		0.5
+	[Single]	slowDragPowValue		2
+	[Single]	m_moveReboundSpeedX		0
+	[Single]	m_moveReboundSpeedY		0
+	[Boolean]	stopUITouchWhenAutoMoving		True
+	[Single]	INVALID_FLOAT_VALUE		-999
+	[Vector2]	INVALID_VECTOR2		(-999.0, -999.0)
+	[Vector3]	INVALID_VECTOR3		(-999.0, -999.0, -999.0)
+	[Boolean]	isTouching		False
+	[Boolean]	isDragging		False
+	[Int32]	touchStartX		0
+	[Int32]	touchStartY		0
+	[Vector3]	touchStartTerrainPos		(-999.0, -999.0, -999.0)
+	[Vector2]	viewCenter		(2086.4, 5722.1)
+	[Vector3]	dragDir		(1.0, 1.0, 1.0)
+	[List`1<Vector2>]	dragHistory		(0)
+	[Boolean]	canDragOut		False
+	[Boolean]	isZooming		False
+	[Double]	zoomCenterX		0
+	[Double]	zoomCenterY		0
+	[Vector3]	reboundInertial		(0.0, 0.0, 0.0)
+	[Vector3]	releaseSpeed		(0.0, 0.0, 0.0)
+	[Single]	ZOOM_REBOUND_SPEED		0
+	[Int32]	releaseTimeStamp		0
+	[Boolean]	canClick		True
+	[Boolean]	canDrag		True
+	[Boolean]	canZoom		True
+	[Boolean]	_isMovingToPos		False
+	[Int32]	viewTerrainStartTime		2369772
+	[Int32]	viewTerrainEndTime		2370972
+	[Vector2]	viewTerrainStartPos		(2065.2, 5653.4)
+	[Vector2]	viewTerrainEndPos		(2086.4, 5722.1)
+	[Boolean]	_isZoomingToDxf		False
+	[Int32]	zoomStartTime		2369444
+	[Int32]	zoomEndTime		2369744
+	[Double]	zoomStartDxf		1509
+	[Double]	zoomEndDxf		1509
+	[Vector2]	autoZoomScreenPos		(-999.0, -999.0)
+	[Int32]	moveFlag		0
+	[Int32]	moveStopTimeStamp		2371
+	[Int32]	lastUpdateTimeStamp		2379
+	[Single]	cameraView_dist		50.3
+	[Dictionary`2<String, cameraInfoItem>]	cameraInfoMap		(19)
+	[cameraInfoItem]	cameraInfo_limit_min		Skyunion.WorldCamera+cameraInfoItem
+	[cameraInfoItem]	cameraInfo_min		Skyunion.WorldCamera+cameraInfoItem
+	[cameraInfoItem]	cameraInfo_limit_max		Skyunion.WorldCamera+cameraInfoItem
+	[List`1<cameraInfoItem>]	cameraInfoList		(6)
+	[List`1<cameraInfoItem>]	city_cameraInfoList		(4)
+	[List`1<cameraInfoItem>]	pvp_cameraInfoList		(2)
+	[List`1<cameraInfoItem>]	world_cameraInfoList		(6)
+	[Single]	m_additionHeightForMinDxf		0
+	[Single]	m_addDxfforAdditionHeight_delta		0
+	[Plane]	WorldMgr_terrainPlane		(normal:(0.0, 1.0, 0.0), distance:0.0)
+	[Single[]]	ViewTerrainPos_curve		null
+	[Single[]]	SetCameraDxf_curve		null
+	[Action]	ViewTerrainPos_callback		1
+	[Action]	SetCameraDxf_callback		1
+	[Action`3]	ViewChange_callback		6
+	[Action`2]	MapClick_callback		1
+	[Vector2]	<gridSize>k__BackingField		(0.0, 0.0)
+	[Boolean]	<AllowTouchWhenMovingOrZooming>k__BackingField		False
+	[Int32]	m_zoomLevel		0
+	[Int32]	m_CullingMask		1048599
+	[Animator]	m_WorldCameraAnimator		null
+	[AudioListener]	m_AudioListener		WorldCamera (UnityEngine.AudioListener)
+	[Boolean]	<LockInput>k__BackingField		False
+	[Single]	_customMinDxf		82.4551
+	[Single]	_customMaxDxf		240000
+	[Rect]	_worldRect		(x:0.00, y:0.00, width:7200.00, height:7200.00)
+	[WorldCamera]	m_Instance		WorldCamera (Skyunion.WorldCamera)
+WorldEffectManager
+	[List`1<WorldEffectInfo>]	_usedEffect		(0)
+	[List`1<WorldEffectInfo>]	_canReleaseEffect		(0)
+	[Dictionary`2<Int32, Queue`1>]	_dicEffects		(0)
+	[GameObject]	_effectParent		WorldEffectPool (UnityEngine.GameObject)
+	[Single]	DESTORY_TIME		5
+	[Single]	UPDATE_DESTORY_TIME		10
+	[Single]	updateTime		2.860142
+WorldMapLogicMgr
+	[List`1<IBaseHandler>]	m_handlers		(18)
+	[IBattleUIHandler]	<BattleUIHandler>k__BackingField		Skyunion.BattleUIHandler
+		[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+		[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+		[Dictionary`2<Int64, Queue`1>]	dicBuffIcon		(0)
+		[Timer]	m_TimerUpdate		Skyunion.Timer
+		[Dictionary`2<Int64, Timer>]	m_TimerUpdateByAttackDic		(0)
+		[Dictionary`2<Int64, Timer>]	m_TimerUpdateBySkillkDic		(0)
+	[IBattleUIEffectHandler]	<BattleUIEffectHandler>k__BackingField		Skyunion.BattleUIEffectHandler
+		[Dictionary`2<Int64, GameObject>]	dicUIEffect		(0)
+	[IBattleBuffHandler]	<BattleBuffHandler>k__BackingField		Skyunion.BattleBuffHandler
+		[Dictionary`2<Int64, GameObject>]	m_objectBufGoDic		(0)
+		[Dictionary`2<Int64, Int32>]	m_objectBufIdDic		(0)
+	[IMapBuildingFightHandler]	<MapBuildingFightHandler>k__BackingField		Skyunion.MapBuildingFightHandler
+		[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+		[CityBuffProxy]	m_CityBuffProxy		Skyunion.CityBuffProxy
+		[Single]	smokingEffectTimeMax		86400
+		[Single]	smokingEffectTimeDelay		300
+		[Single]	burningEffectTimeDelay		1800
+		[Dictionary`2<Int64, GameObject>]	dicBurningGo		(0)
+		[Dictionary`2<Int64, GameObject>]	dicSmokingGo		(0)
+		[Dictionary`2<String, GameObject>]	dicBuffGo		(0)
+		[Dictionary`2<Int64, GameObject>]	dicSkillGo		(0)
+		[Dictionary`2<Int64, Dictionary`2>]	dicBuff		(1)
+		[Dictionary`2<String, Timer>]	m_Timer		(0)
+		[String]	LOD_NODE		lod
+		[String]	SMOKING_DEFINE		BuildingSmoking_
+		[String]	BURNING_DEFINE		BuildingBurning_
+		[String]	BUFF_DEFINE		BuildingBuff_
+	[IUpdateDataHandler]	<UpdateDataHandler>k__BackingField		Skyunion.TroopUpdateDataMgr
+		[Dictionary`2<UpdateDataType, ITroopUpdateData>]	dicTroopUpdateData		(1)
+		[Dictionary`2<UpdateDataType, IMonsterUpdateData>]	dicMonsterUpdateData		(1)
+		[Dictionary`2<UpdateDataType, IBuildingFightUpdateData>]	dicBuildingFightUpdateData		(1)
+	[ITroopLinesHandler]	<TroopLinesHandler>k__BackingField		Skyunion.TroopLinesMgr
+		[ITroopLine]	iTroopLine		Skyunion.TroopsLine
+			[String]	aoi_res_path		BundleAssets/Troop/troop_unit_function/troop_aoi_line_send_troop
+			[String]	aoi_line_mine_end		BundleAssets/Troop/troop_unit_function/troop_aoi_line_mine_end
+			[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+			[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+			[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+			[GlobalViewLevelMediator]	m_GlobalViewLevelMediator		Skyunion.GlobalViewLevelMediator
+			[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+			[Dictionary`2<Int64, TroopLineInfo>]	dicTroopLines		(0)
+			[Dictionary`2<Int64, MarchLine>]	dicTroopLinesAOI		(0)
+			[Dictionary`2<Int64, GameObject>]	dicTroopLinesAOIEnd		(0)
+	[IBehaviorHandler]	<BehaviorHandler>k__BackingField		Skyunion.BehaviorMgr
+		[Dictionary`2<BehaviorType, IBehavior>]	dicBehaviors		(8)
+		[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+		[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[IMapTroopHandler]	<MapTroopHandler>k__BackingField		Skyunion.MapTroopHandler
+		[ITroopMgr]	m_TroopMgr		Skyunion.TroopMgr
+			[Dictionary`2<Int64, Troops>]	dicFormation		(0)
+			[Dictionary`2<Int64, ArmyData>]	m_worldArmyData		(0)
+			[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+			[ExpeditionProxy]	m_expeditionProxy		Skyunion.ExpeditionProxy
+			[TroopProxy]	m_troopProxy		Skyunion.TroopProxy
+			[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+			[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+			[Timer]	m_Timer		Skyunion.Timer
+			[Dictionary`2<Int64, HashSet`1>]	m_dicBeAttackerSet		(4)
+			[Dictionary`2<Int64, Int64>]	m_dicAttacker		(12)
+			[Dictionary`2<Int64, Int64>]	m_dicBeAttacker		(4)
+			[String]	m_troops_root_path		SceneObject/Troops_root
+			[Transform]	m_troops_root		Troops_root (UnityEngine.Transform)
+			[String]	m_pve_troops_root_path		PveSceneObject/Troops_root
+			[Transform]	m_pve_troops_root		null
+	[IBattleSoundHandler]	<BattleSoundHandler>k__BackingField		Skyunion.BattleSoundHandler
+	[IBgSoundHandler]	<BgSoundHandler>k__BackingField		Skyunion.BgSoundHandler
+		[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+		[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+		[Dictionary`2<Int32, Boolean>]	behaviorIds		(0)
+		[BGMType]	curBGMType		Normal
+	[IBattleBroadcastsHandler]	<BattleBroadcastsHandler>k__BackingField		Skyunion.BattleBroadcastsHandler
+		[List`1<String>]	lsName		(0)
+		[List`1<String>]	lsStringArg		(0)
+		[List`1<Int32>]	guildFlag		(0)
+		[AllianceProxy]	m_AllianceProxy		Skyunion.AllianceProxy
+	[IPlayTroopCheckHandler]	<PlayTroopCheckHandler>k__BackingField		Skyunion.PlayTroopCheckHandler
+		[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+		[ScoutProxy]	m_ScoutProxy		Skyunion.ScoutProxy
+	[IUpdateMapDataHandler]	<UpdateMapDataHandler>k__BackingField		Skyunion.UpdateMapDataHandler
+		[Int64]	m_lastTouTroopId		0
+	[IGuardianHandler]	<GuardianHandler>k__BackingField		Skyunion.GuardianHandler
+		[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[IMapSelectEffectHandler]	<MapSelectEffectHandler>k__BackingField		Skyunion.MapSelectEffectHandler
+		[Dictionary`2<MapSelectEffectType, GameObject>]	dicMapEffect		(3)
+		[Dictionary`2<MapSelectEffectType, Boolean>]	dicMapEffectLod		(3)
+		[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+		[Timer]	m_Timers		null
+		[GameObject]	m_EffectParent		MapSelectEffectRoot (UnityEngine.GameObject)
+	[IMapSoundHandler]	<MapSoundHandler>k__BackingField		Skyunion.MapSoundHandler
+	[IBattleRemainSoldiersHandler]	<BattleRemainSoldiersHandler>k__BackingField		Skyunion.BattleRemainSoldiersHandler
+		[Dictionary`2<Int64, Dictionary`2>]	dicBattleRemainSoldiers		(4)
+	[IMapTouchHandler]	<MapTouchHandler>k__BackingField		Skyunion.MapTouchHandler
+		[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+		[MapObjectInfoEntity]	infoEntity		null
+		[RallyTroopsProxy]	m_RallyTroopsProxy		null
+		[Dictionary`2<Int64, HUDUI>]	dicHudui		(0)
+		[Int64]	lastObjectId		0
+		[Vector2]	pos		(0.0, 0.0)
+		[Vector2]	targetSpacePos		(0.0, 0.0)
+		[HUDUI]	huduiSpace		null
+		[UI_Tip_ComBuildStateView]	view		null
+WorldSkillManager
+	[Dictionary`2<Int32, WorldSkillAsset>]	_dicWorldSkillAsset		(0)
+	[List`1<WorldSkillData>]	_listSkill		(0)
+	[Stack`1<WorldSkillData>]	_cachedSkillDataList		(0)
+	[List`1<WorldSkillData>]	_removeList		(0)
+WorldSkillWarningManager
+	[ObjectPool`1]	_poolProjector		Client.PVE.ObjectPool`1[Skyunion.WorldSkillWarningObj]
+	[List`1<WorldSkillWarningObj>]	_curShowProjector		(0)
+	[Vector3]	_rotation		(90.0, 0.0, 180.0)
+	[GameObject]	_warningParent		WorldSkillWarningPool (UnityEngine.GameObject)
+WwiseSettings
+	[String]	Filename		WwiseSettings.xml
+	[Boolean]	CopySoundBanksAsPreBuildStep		False
+	[Boolean]	GenerateSoundBanksAsPreBuildStep		False
+	[String]	SoundbankPath		Audio\GeneratedSoundBanks
+	[String]	GeneratedSoundbanksPath		null
+	[Boolean]	CreatedPicker		True
+	[Boolean]	CreateWwiseGlobal		False
+	[Boolean]	CreateWwiseListener		False
+	[Boolean]	ShowMissingRigidBodyWarning		True
+	[Boolean]	ShowSpatialAudioWarningMsg		True
+	[String]	WwiseInstallationPathMac		null
+	[String]	WwiseInstallationPathWindows		C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.4.7707
+	[String]	WwiseProjectPath		../../WwiseProject/MKWwiseProject.wproj
+	[Boolean]	UseWaapi		True
+	[String]	WaapiPort		8080
+	[String]	WaapiIP		127.0.0.1

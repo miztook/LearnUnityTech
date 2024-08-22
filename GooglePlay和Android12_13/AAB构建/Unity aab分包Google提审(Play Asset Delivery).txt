@@ -1,0 +1,9 @@
+Play Asset Delivery
+https://blog.csdn.net/dinghqalex/article/details/120100127
+
+打包上架Google Play介绍 （不使用AssetPack）
+https://www.cnblogs.com/jeffxun/p/15142855.html
+https://www.cnblogs.com/wangle/p/15440176.html
+
+Unity aab分包Google提审
+https://blog.csdn.net/dinghqalex/article/details/120100127

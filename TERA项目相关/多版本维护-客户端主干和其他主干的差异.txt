@@ -1,0 +1,20 @@
+Asset 主干和其他分支的差异
+	Editor/BuildTools.cs 
+	LuaBinding/LuaInterfaces/Base/GameUtilWrap.cs				C#中相关的路径修改
+	LuaBinding/LuaInterfaces/Base/GameUtilWrap_Logic.cs
+	LuaBinding/LuaInterfaces/Base/GameUtilWrap_Res.cs
+	LuaBinding/LuaInterfaces/Base/PlatformSDKWrap.cs		
+	
+	Scripts/Account													sdk差异
+	Scripts/ClientServerCommon								data模板差异
+	Scripts/Common													data模板差异
+	Scripts/GameDataCheck
+	
+	Scripts/Main/AndroidBridge.cs
+	Scripts/Main/EntryPoint.cs									本地化相关		PanelLogo 预设logo修改
+	Scripts/Main/EntryPoint_Start.cs							初始化流程差异
+	Scripts/Main/EntryPoint_Utility.cs							本地化相关		GetUserLanguageCode
+	
+	Scripts/Utility/OSUtility.cs										本地化相关		GetSystemLanguageCode	
+	
+	Wwise/Deployment/API/Handwritten/Common/AkCommonPlatformSettings.cs				//音频语言

@@ -1,0 +1,8 @@
+低端安卓设备卡顿
+	PostLateUpdate.FinishFrameRendering				//Gfx.WaitForPresent GPU是瓶颈
+	
+	分辨率
+	渲染压力		Camera.Render
+	Light
+	后处理
+	

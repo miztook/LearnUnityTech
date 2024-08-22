@@ -1,0 +1,4 @@
+﻿TERA/Environment/MobileTransparentObject
+		Wd042_Prop_zzcx01/Wd042_Prop_zzcx01
+		Wd042_Prop_zzcx02/zzcx02_gs_zhizhuwang
+		Wd042_Prop_zzcx03/zzcx03_gs_zhizhuwang

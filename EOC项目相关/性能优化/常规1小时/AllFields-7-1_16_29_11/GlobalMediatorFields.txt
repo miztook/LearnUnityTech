@@ -1,0 +1,992 @@
+ArmyTrainStatusGlobalMediator
+	[String]	NameMediator		ArmyTrainStatusGlobalMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[SoldierProxy]	m_soldierProxy		Skyunion.SoldierProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Dictionary`2<Int64, HUDUI>]	m_huds		(3)
+	[Dictionary`2<Int64, GameObject>]	m_freeEffectDic		(3)
+	[Dictionary`2<Int64, Boolean>]	m_waitShowFreeEffectDic		(0)
+	[List`1<Int32>]	m_idList		(4)
+	[Dictionary`2<Int64, QueueInfo>]	m_cacheQueue		(3)
+	[String[]]	QUALITY_NUM		(8)
+	[Int64]	cacheCencelQid		-1
+	[Int64]	m_selectBuildIndex		0
+	[Boolean]	IsOpenUpdate		False
+BattleGlobalMediator
+	[String]	NameMediator		BattleGlobalMediator
+	[GlobalViewLevelMediator]	m_GlobalViewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[Dictionary`2<String, List`1>]	_dicSkillText		(1)
+	[ObjectPool`1]	_textPool		Client.PVE.ObjectPool`1[Skyunion.SkillText]
+	[Boolean]	IsOpenUpdate		False
+BattleMainlMediator
+	[String]	NameMediator		BattleMainlMediator
+	[Boolean]	IsOpenUpdate		False
+CallGameTool
+	[String]	NAME		CallGameTool
+	[Int32]	Space_Time		500
+	[Int32]	Total_Time		2000
+	[Int32]	_clickCount		0
+	[Int64]	_lastTime		1656664148369
+	[Int64]	_firstClickTime		0
+	[Rect]	clickRect		(x:1720.00, y:0.00, width:200.00, height:100.00)
+	[Single]	lastTime		3927.127
+	[Int32]	clickCount		0
+	[Boolean]	ShowLogWindow		False
+	[Single]	clickMaxInterval		0.5
+	[Boolean]	IsOpenUpdate		False
+CityGlobalMediator
+	[Int32]	RoadDefaultState		0
+	[Int32]	RoadDownState		1
+	[Int32]	RoadUpState		2
+	[Int32]	RoadLeftState		4
+	[Int32]	RoadRightState		8
+	[Int32]	RoadDownUpState		3
+	[Int32]	RoadDownLeftState		5
+	[Int32]	RoadDownRightState		9
+	[Int32]	RoadUpLeftState		6
+	[Int32]	RoadUpRightState		10
+	[Int32]	RoadLeftRightState		12
+	[Int32]	RoadDownUpLeftState		7
+	[Int32]	RoadDownUpRightState		11
+	[Int32]	RoadDownLeftRightState		13
+	[Int32]	RoadUpLeftRightState		14
+	[Int32]	RoadCenterState		15
+	[String]	RoadPrefix		Road2_
+	[List`1<AroundRoadPos>]	tempAroundPoss		(0)
+	[List`1<AroundRoadData>]	tempAroundDatas		(3)
+	[List`1<AroundRoadData>]	tempCurAroundDatas		(0)
+	[List`1<AroundRoadData>]	tempRemoveRoads		(0)
+	[List`1<Int64>]	m_CurRemoveIdxs		null
+	[Dictionary`2<Vector2, Int64>]	m_dicRoadPosIndex		(696)
+	[Dictionary`2<Int64, GameObject>]	m_dicRoadZebras		(40)
+	[Dictionary`2<Int32, List`1>]	m_dicHrizontalRoadPath		(4)
+	[Dictionary`2<Int32, List`1>]	m_dicPortraitlRoadPath		(5)
+	[Dictionary`2<Vector2, List`1>]	m_dicRoadPosLamps		(79)
+	[List`1<ERoadCreadDir>]	m_showZebraDirList		(0)
+	[List`1<CRoadPathData>]	m_carMovePathList		(8)
+	[List`1<CarSpawnPosData>]	m_carSpawnPosList		(13)
+	[List`1<Vector2>]	m_carDisappearPosList		(2)
+	[List`1<Vector2Int>]	m_SearchPathDirOffsetCache		(1)
+	[List`1<EmTurnDir>]	m_SearchPathTurnDirListCache		(1)
+	[List`1<Vector2Int>]	m_delRoadPosList		(0)
+	[List`1<Int32>]	m_addRoadIndexList		(0)
+	[List`1<CRoadPathData>]	m_tmpCreateLampRoadPathList		(0)
+	[List`1<LampGraduallyLightData>]	m_LampPosGraduallyLightList		(0)
+	[Int32]	m_nCurGraduallyLightIndex		0
+	[Int32]	m_nLightInterval		2
+	[Dictionary`2<Vector2, Boolean>]	m_dicGraduallyedPos		(24)
+	[Rect]	m_graduallyAreaRect		(x:-32.00, y:-13.00, width:16.00, height:14.00)
+	[List`1<ERoadCreadDir>]	m_AllowRodDirs		(0)
+	[List`1<BuildingInfoEntity>]	m_HorizontalRoadDatas		(0)
+	[List`1<BuildingInfoEntity>]	m_PortraitRoadDatas		(0)
+	[Dictionary`2<Int64, BuildingInfoEntity>]	m_SelRoadEntitys		(0)
+	[ERoadSelDir]	m_SelDir		None
+	[Int32]	m_RoadSelStartIdx		0
+	[Int32]	m_RoadSelEndIdx		0
+	[List`1<CombineInstance>]	m_RoadGroupSelInstanceList		(0)
+	[String]	NameMediator		CityGlobalMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[CityBuffProxy]	m_cityBuffProxy		Skyunion.CityBuffProxy
+	[ResearchProxy]	m_researchProxy		Skyunion.ResearchProxy
+	[GlobalViewLevelMediator]	m_globalViewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[WorldMgrMediator]	m_worldMgrMediator		null
+	[Transform]	m_cityBuildingContainer		CityBuildingContainer (UnityEngine.Transform)
+	[Transform]	m_decorate		Decorate (UnityEngine.Transform)
+	[Transform]	m_roadroot		RoadRoot (UnityEngine.Transform)
+	[Transform]	m_roadLampRoot		RoadLampRoot (UnityEngine.Transform)
+	[ICityFogMgr]	m_FogMgr		cityFogSystem(Clone) (Skyunion.CityFogMgr)
+	[TownBuildingContainer]	m_cityBuildCp		CityBuildingContainer (TownBuildingContainer)
+	[Camera]	m_curCamera		WorldCamera (UnityEngine.Camera)
+	[Boolean]	LockTouch		False
+	[Boolean]	m_hasTouchUI		False
+	[Boolean]	m_clickDown		False
+	[Boolean]	m_is2Fingers		False
+	[GridCollideMgr]	m_tileCollideManager		CityBuildingContainer (Skyunion.GridCollideMgr)
+	[TownSearch]	m_cityMapFinder		CityBuildingContainer (TownSearch)
+	[Boolean]	m_initedBuilders		False
+	[GridLines]	m_cityMesh		CityMesh (Skyunion.GridLines)
+	[Vector3]	m_startBuildPos		(-1.3, 0.0, 2.1)
+	[Vector2]	m_startTouchPos		(1981.0, 723.0)
+	[Vector2]	m_startMovePos		(0.0, 0.0)
+	[Vector2]	m_fixedMoveStep		(0.0, 0.0)
+	[Vector2]	m_moveLogicPos		(0.0, 0.0)
+	[Transform]	m_selectTransform		null
+	[TownBuilding]	m_selectBuildHelper		null
+	[MaskSprite]	m_selectBuildMakeSprite		null
+	[Int64]	m_selectBuildID		0
+	[EnumCityBuildingType]	m_selectType		None
+	[Boolean]	m_isToucheMoved		False
+	[Boolean]	m_pressed		False
+	[Boolean]	m_isMoving		False
+	[Boolean]	m_liftUp		False
+	[Boolean]	m_IsShowBuildMenu		False
+	[Boolean]	m_isGridUsed		False
+	[GameObject]	m_MoveBldBtmObj		MoveBuildBottom (UnityEngine.GameObject)
+	[MeshRenderer]	m_MoveBldBtmMR		MoveBuildBottom (UnityEngine.MeshRenderer)
+	[GameObject]	m_UnMoveBldBtmObj		UnMoveBuildBottom (UnityEngine.GameObject)
+	[GameObject]	m_RoadGroupBtmObj		RoadGroupSelect (UnityEngine.GameObject)
+	[MeshRenderer]	m_RoadGroupBtmMR		RoadGroupSelect (UnityEngine.MeshRenderer)
+	[BuildingInfoEntity]	tempBuildingInfoEntity		null
+	[BuildingTypeConfigDefine]	tempBuildType		null
+	[Int64]	m_PreMoveBuildIdx		7
+	[Single]	m_clickBounceTime		200
+	[Single]	m_clickBounceConst		180
+	[Single]	m_clickBounceA		0
+	[Timer]	m_clickTimer		null
+	[Boolean]	m_showDownAnim		True
+	[Boolean]	isAllCityBuildInited		False
+	[Int32[]]	m_GridState		(12800)
+	[Boolean]	m_isPvpTouchCity		False
+	[Single]	m_fSecondUpdateTimer		4090.029
+	[PatrolSoldier]	m_cityWallPatrolSoldierDummy		null
+	[TownCenterFloor]	m_buildGroundHelper		sprite (Skyunion.TownCenterFloor)
+	[Int32]	ATK_POINT_COUNT		12
+	[Int32]	PARTOL_SOLDIER_COUNT		7
+	[List`1<PeopleFSM>]	m_soldiers		(0)
+	[List`1<WorkerFMS>]	m_workers		(0)
+	[Dictionary`2<String, TrainSoldiersFMS>]	m_trains		(0)
+	[TrainProxy]	m_trainProxy		Skyunion.TrainProxy
+	[Boolean]	m_IsBuildRQModify		False
+	[List`1<Int64>]	m_burnBuildList		(0)
+	[Single]	HEIGHTWALL		1000
+	[Boolean]	m_ShowWall		False
+	[Boolean]	hudready		False
+	[Boolean]	buildingFirstReady		True
+	[Boolean]	m_roleNotifyMoveCity		False
+	[List`1<CCityUnLockAreaNpc>]	m_unLockAreaNpcList		(0)
+	[GameObject]	m_regainAreaNpc		null
+	[HUDUI]	m_regainAreaNpcHud		null
+	[String]	m_land_root_path		SceneObject/land_root
+	[Transform]	m_land_root		null
+	[GameObject]	m_arrowObj		building_move_arrow(Clone) (UnityEngine.GameObject)
+	[Transform]	m_Arrow1TF		arrow1 (UnityEngine.Transform)
+	[Transform]	m_Arrow2TF		arrow2 (UnityEngine.Transform)
+	[Transform]	m_Arrow3TF		arrow3 (UnityEngine.Transform)
+	[Transform]	m_Arrow4TF		arrow4 (UnityEngine.Transform)
+	[MaterialPropertyBlock]	m_CacheBlock		UnityEngine.MaterialPropertyBlock
+	[Single]	kBuildAnimHeight		150
+	[Boolean]	m_Debug		False
+	[Int32]	m_DebugTouchId		0
+	[Boolean]	m_bGMShowCityMesh		False
+	[Vector2[][]]	m_trainSoldierPos		(4)
+	[Vector2[][]]	m_trainSoldierDirPos		(4)
+	[CityUnlockProxy]	_unlockProxy		Skyunion.CityUnlockProxy
+	[Boolean]	home		False
+	[Timer]	timeFIREFIGHTING		null
+	[Timer]	timeRunCitizen		null
+	[Int32[][]]	arrDir		(8)
+	[Vector2]	_endTouchPos		(1258.0, 517.0)
+	[Int32]	m_CurInstanceNum		200
+	[CombineInstance[]]	m_Cacheinstances		(200)
+	[Boolean]	IsOpenUpdate		False
+CityIncidentMediator
+	[String]	NameMediator		CityIncidentMediator
+	[CityBuildingProxy]	m_BuildProxy		Skyunion.CityBuildingProxy
+	[CityIncidentProxy]	m_IncidentProxy		Skyunion.CityIncidentProxy
+	[Dictionary`2<Int64, HUDUI>]	m_BubbleHudDic		(0)
+	[Boolean]	m_WaitLoad		False
+	[Boolean]	IsOpenUpdate		False
+CityUnlockMediator
+	[String]	NameMediator		CityUnlockMediator
+	[CityFogMgr]	cityFogMgr		cityFogSystem(Clone) (Skyunion.CityFogMgr)
+	[CityFogMgr]	cityFogOuter		null
+	[CityUnlockProxy]	m_UnlockProxy		Skyunion.CityUnlockProxy
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[GlobalCityMenuHudMediator]	m_MenuhudMediator		Skyunion.GlobalCityMenuHudMediator
+	[GameObject]	rootUnlockEffect		null
+	[Queue`1<GameObject>]	listUnlockEffect		null
+	[Transform]	cityContainer		CityBuildingContainer (UnityEngine.Transform)
+	[Transform]	m_groundUnLock		build_ground_unluck(Clone) (UnityEngine.Transform)
+	[Boolean]	_bGMCmd		False
+	[CityUnlockMasterJob]	_cityUnlockMasterJob		null
+	[Int32]	_unlockBuldingIndex		-1
+	[GameObject]	m_CityFogSystem_Group		cityFogSystem(Clone) (UnityEngine.GameObject)
+	[EnumCityBuildingType]	m_eUnlockTargetBuildType		None
+	[Int32]	m_nPreUnLockAreaID		23
+	[CityAreaController]	m_AreaController		Skyunion.CityAreaController
+	[Int32]	m_TempUnlockBldIdx		10
+	[Boolean]	IsOpenUpdate		False
+ExpeditionMediator
+	[String]	NameMediator		ExpeditionMediator
+	[Boolean]	m_isFirstSetBeginPos		True
+	[Int64]	m_nHeroArmyID		0
+	[Int64]	m_nEnemyArmyID		0
+	[Int64]	m_nTroopInitFormationFinishNum		2
+	[Timer]	m_startFightTimer		null
+	[Timer]	m_fightFinishTimer		null
+	[Timer]	m_Expedition_Timer		null
+	[ExpeditionProxy]	m_expeditionProxy		Skyunion.ExpeditionProxy
+	[Dictionary`2<String, Action`1>]	m_onTouchObjectHandlers		(1)
+	[Dictionary`2<String, Action`1>]	m_onTouchObjectBeginHandlers		(1)
+	[Dictionary`2<String, Action`1>]	m_onTouchMoveHitObjectHandlers		(1)
+	[Boolean]	m_showCustomSelectEffect		True
+	[Int64]	m_selectObjectId		177566013133836288
+	[Int64]	m_previewSelectEnemyTroopIndex		0
+	[MapObjectSelectEffect]	m_troopSelectEffect		Skyunion.MapObjectSelectEffect
+	[MapObjectSelectEffect]	m_enemyTroopSelectEffect		Skyunion.MapObjectSelectEffect
+	[TroopLineInfo]	m_troopMovePreviewLine		null
+	[Vector2Int]	m_curMovePos		(0, 0)
+	[Timer]	m_selectTroopMoveTimer		null
+	[GameObject]	m_dragTroopGuideOnGroundObject		null
+	[Timer]	m_checkTroopMovedForGuideTimer		null
+	[Timer]	m_checkTroopMoveToPosForGuideTimer		null
+	[String]	m_dragTroopGuideOnGroundName		BundleAssets/Scene/Map_Building/map_building/build_guide_on_ground
+	[String]	m_touchBeginColliderName		
+	[Boolean]	IsOpenUpdate		False
+FogSystemMediator
+	[String]	NameMediator		FogSystemMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[DataProxy]	m_dataProxy		null
+	[ScoutProxy]	m_ScoutProxy		Skyunion.ScoutProxy
+	[TroopProxy]	m_troopProxy		Skyunion.TroopProxy
+	[Camera]	m_curCamera		null
+	[Boolean]	LockTouch		False
+	[Boolean]	m_hasTouchUI		False
+	[Boolean]	m_clickDown		False
+	[Boolean]	m_is2Fingers		False
+	[GridCollideMgr]	m_tileCollederManager		null
+	[Single]	CITY_GRID_SIZE		0.1
+	[Int32]	CITY_GRID_SIZE_RECIPROCAL		10
+	[Int32]	CITY_BUILDING_TYPE_OFFSET		100
+	[GridLines]	m_cityMesh		null
+	[Boolean]	m_isDispose		False
+	[ITroopMgr]	troopMgr		Skyunion.TroopMgr
+		[Dictionary`2<Int64, Troops>]	dicFormation		(0)
+		[Dictionary`2<Int64, ArmyData>]	m_worldArmyData		(0)
+		[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+		[ExpeditionProxy]	m_expeditionProxy		Skyunion.ExpeditionProxy
+		[TroopProxy]	m_troopProxy		Skyunion.TroopProxy
+		[WorldMapObjectProxy]	m_WorldMapObjectProxy		Skyunion.WorldMapObjectProxy
+		[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+		[Timer]	m_Timer		Skyunion.Timer
+		[Dictionary`2<Int64, HashSet`1>]	m_dicBeAttackerSet		(21)
+		[Dictionary`2<Int64, Int64>]	m_dicAttacker		(24)
+		[Dictionary`2<Int64, Int64>]	m_dicBeAttacker		(18)
+		[String]	m_troops_root_path		SceneObject/Troops_root
+		[Transform]	m_troops_root		Troops_root (UnityEngine.Transform)
+		[String]	m_pve_troops_root_path		PveSceneObject/Troops_root
+		[Transform]	m_pve_troops_root		null
+	[List`1<ArmyInfoEntity>]	myArmy		(0)
+	[List`1<Vector2Int>]	wantTempOpenFogLst		(0)
+	[Single]	updateTroopFogTimer		0
+	[Dictionary`2<Int64, TroopFogData>]	troopFogDataDict		(4)
+	[CityFogConfig]	CityFogConfig		cityFogSystem(Clone) (Skyunion.CityFogConfig)
+	[GameObject]	m_fogSystem		fogSystem (UnityEngine.GameObject)
+	[Transform]	m_fogBorder		fog_border (UnityEngine.Transform)
+	[Transform]	m_highLevelFog		highLevelFog (UnityEngine.Transform)
+	[Transform]	m_mountainLevelFog		mountainLevelFog (UnityEngine.Transform)
+	[Transform[]]	m_fogTile		(9)
+	[GameObject]	m_cloudManager		CloudManager (UnityEngine.GameObject)
+	[Int32]	m_groupSize		5
+	[Int32]	FADE_TYPE_CLICK		1
+	[Int32]	FADE_TYPE_EXPLORE		2
+	[Int32]	TIlE_BASE_SIZE		18
+	[Single]	m_kingdomOffsetX		0
+	[Single]	m_kingdomOffsetY		0
+	[Int16]	NotConnection		0
+	[Int16]	ConnectionOpen		1
+	[Int16]	ConnectionClose		2
+	[Int32]	ID_FORMATER		100000
+	[Vector2]	m_viewCenter		(0.0, 0.0)
+	[Boolean]	m_bBuildConnect		True
+	[Boolean]	IsOpenUpdate		False
+FuncGuideGlobalMediator
+	[String]	NameMediator		FuncGuideGlobalMediator
+	[FuncGuideProxy]	m_funcGuideProxy		Skyunion.FuncGuideProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[GuideExDefine]	m_targetDefine		Data.GuideExDefine
+	[Int32]	m_specialStatus		0
+	[Int32]	m_findStatus		0
+	[Int32]	m_findWay		0
+	[Boolean]	m_isDispose		False
+	[Boolean]	m_isOpen		True
+	[GameObject]	m_maskLayer		null
+	[Int32]	m_hudLayerId		0
+	[Boolean]	m_isGuideSpeedItemUse		True
+	[GuidePart]	_currentGuidePart		Skyunion.GuidePart
+	[Boolean]	IsOpenUpdate		False
+GameEventGlobalMediator
+	[String]	NameMediator		GameEventGlobalMediator
+	[Int32[]]	m_lighttingGuideTime		(8)
+	[Int32]	m_currentLighttingModeIndex		2
+	[Int32]	m_loopTime		3600
+	[Int32[]]	m_lightStepAccumTime		(8)
+	[Boolean]	m_isForceDayNight		False
+	[Boolean]	m_isInit		True
+	[List`1<Int32>]	_lightingTimes		(8)
+	[Color[]]	_lightingSettings		(8)
+	[Single]	<LightingIntensity>k__BackingField		1.1
+	[Boolean]	IsNewPlayerGuideControl		False
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[ChatProxy]	m_chatProxy		null
+	[Boolean]	m_hasShowNetError		False
+	[Alert]	m_NetError		null
+	[Int32]	m_reConnectingCount		0
+	[Int32]	m_serverCloseReason		-1
+	[Timer]	m_dayNightTimer		null
+	[Int64]	m_lastDayNightTime		16566641510235300
+	[Int64]	m_nSyncServerTime		1656665277
+	[Int32]	m_reconnectInterval		4
+	[Int32]	m_reconnectLimit		5
+	[Int32]	m_maxDisconnectSeconds		30
+	[Int64]	m_disconnecTime		0
+	[Boolean]	IsOpenUpdate		False
+GameToolsGlobalMediator
+	[String]	NameMediator		GameToolsGlobalMediator
+	[List`1<KeyCode>]	m_compareQuque		(12)
+	[Stack`1<KeyCode>]	m_currentQuque		(0)
+	[Vector3]	m_lastTouchPos		(1981.7, 723.4, 0.0)
+	[Boolean]	IsOpenUpdate		True
+GlobalAllianceHelpMediator
+	[String]	NameMediator		GlobalAllianceHelpMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[FuncGuideProxy]	m_funcGuideProxy		Skyunion.FuncGuideProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[GlobalViewLevelMediator]	m_globalViewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Dictionary`2<Int64, AllianceHelp>]	buildingQueue		(5)
+	[Dictionary`2<Int64, AllianceHelp>]	m_treatmentQueue		(1)
+	[List`1<Int64>]	m_TechnologyQueue		(0)
+	[AllianceHelp]	techQueue		Skyunion.AllianceHelp
+	[AllianceHelp]	allianceHelp		null
+	[String]	m_askForHelp		BundleAssets/UI/UITextureStatic_2_0/zhujiemian_n_2_0/zhujiemian_n_2_0[BTN_bangzhu]
+	[String]	m_helpOther		BundleAssets/UI/UITextureStatic_2_0/zhujiemian_n_2_0/zhujiemian_n_2_0[BTN_bangzhu]
+	[Int32]	m_allianceRecommendedLimit		4
+	[HUDUI]	m_GuildCityWarnTip		null
+	[GuildInfo]	m_lastGuildInfo		SprotoType.GuildInfo
+	[RallyTroopsProxy]	m_rallyTroopsProxy		Skyunion.RallyTroopsProxy
+	[Timer]	m_recommendTimer		Skyunion.Timer
+	[Timer]	m_redPointCheck		null
+	[Timer]	m_delayShowUI		null
+	[Boolean]	IsOpenUpdate		False
+GlobalChangeSceneMediator
+	[String]	NameMediator		GlobalChangeSceneMediator
+	[Int32]	m_uiId		-1
+	[Int32]	m_data		-1
+	[Boolean]	IsOpenUpdate		False
+GlobalCityBuidlingMediator
+	[String]	NameMediator		GlobalCityBuidlingMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[Dictionary`2<Int64, Timer>]	m_timer		(12)
+	[Dictionary`2<GameObject, HUDUI>]	m_buildBarHuds		(1)
+	[Boolean]	loading		False
+	[Boolean]	loading2		False
+	[HUDUI]	m_builderHutHud		Skyunion.HUDUI
+	[Boolean]	m_builderHutHudLoading		False
+	[Int64]	m_selectBuildID		0
+	[Boolean]	IsOpenUpdate		False
+GlobalCityMenuHudMediator
+	[String]	NameMediator		GlobalCityMenuHudMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[CityUnlockProxy]	m_unlockProxy		Skyunion.CityUnlockProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[HospitalProxy]	m_hospitalProxy		Skyunion.HospitalProxy
+	[StoreProxy]	m_storeProxy		Skyunion.StoreProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[CurrencyProxy]	m_currencyProxy		Skyunion.CurrencyProxy
+	[BeautyProxy]	m_beautyProxy		Skyunion.BeautyProxy
+	[GameObject]	m_curtBuilding		null
+	[HUDUI]	m_curHud		null
+	[Dictionary`2<Int64, GameObject>]	m_buildingDic		(221)
+	[Int64]	m_curIndex		0
+	[Boolean]	m_both		False
+	[BuildingInfoEntity]	m_curBuildingInfo		null
+	[BuildingTypeConfigDefine]	m_curBuildingTypeConfig		null
+	[List`1<String>]	m_preLoadRes		(1)
+	[Dictionary`2<String, GameObject>]	m_assetDic		(1)
+	[Boolean]	m_assetsReady		True
+	[String]	m_menuItem		
+	[GrayChildrens]	m_createBuildBtnGray		null
+	[UI_Model_CommandBtn_SubView]	m_createBuildBtn		null
+	[Dictionary`2<Int64, HUDUI>]	m_TopHudDic		(1)
+	[UnityAction]	m_TopBtnAction		UnityEngine.Events.UnityAction
+	[Int64]	m_PreClickBuildIdx		0
+	[Int32]	m_CurTopHudId		10
+	[Dictionary`2<Int32, List`1>]	m_WaitShowTopHudDict		(1)
+	[BuildingInfoEntity]	m_rotateBuildInfoEntity		null
+	[Int32]	m_BossAreaId		0
+	[HUDUI]	m_BossHud		null
+	[GameModeType]	m_CurGameMode		City
+	[Queue`1<Int64>]	m_WaitPlayTopHud		(0)
+	[Boolean]	m_IsTopHudPlaying		False
+	[Int64]	m_changeBuildingIdx		9
+	[Boolean]	m_IsRoadGroupSel		False
+	[Timer]	m_Timer		null
+	[List`1<Int32>]	m_TempInts		(0)
+	[Int32]	m_ProgressAniBldIdx		0
+	[HUDUI]	m_DoorHud		null
+	[HUDUI]	m_BeautyHud		null
+	[UI_Pop_IconOnBuildingView]	m_BeautyHudView		null
+	[HUDUI]	m_ProtectFreeRewardHud		Skyunion.HUDUI
+	[GameObject]	m_ProtectFreeNpc		null
+	[Vector2[]]	m_arrBtnsPos1		(8)
+	[Single[]]	m_arrBtnAngle1		(7)
+	[Vector2[]]	m_arrBtnsPos2		(6)
+	[Single[]]	m_arrBtnAngle2		(6)
+	[Single]	BeautyIconPosY		82.5
+	[Single]	BeautyOriPosY		74.6
+	[Dictionary`2<BeautyHudType, List`1>]	_beautyEffects		(0)
+	[Boolean]	IsOpenUpdate		False
+GlobalCommonMediator
+	[String]	NameMediator		GlobalCommonMediator
+	[Queue`1<Notice>]	m_NoticeQueue		(0)
+	[Boolean]	IsOpenUpdate		False
+GlobalEffectMediator
+	[Dictionary`2<String, GameObject>]	m_assets		(8)
+	[Int32]	IsPlayingPowerUpEffect		0
+	[Int32]	IsPlayingFoodEffect		0
+	[Int32]	IsPlayingWoodEffect		0
+	[Int32]	IsPlayingStoneEffect		0
+	[Int32]	IsPlayingGoldEffect		0
+	[Int32]	IsPlayingDenarEffect		0
+	[Int32]	IsPlayingConquerorMedalEffect		0
+	[Int32]	IsPlayingHangUpPointEffect		0
+	[ConfigDefine]	m_config		Data.ConfigDefine
+	[Dictionary`2<Int32, CurrencyDefine>]	m_currencyDefines		(21)
+	[Single]	QuickShowTime		0.1
+	[Queue`1<Int64>]	m_actionForceDequeue		(0)
+	[Boolean]	m_IsActionForceDequeue		False
+	[String]	iconActionForce		BundleAssets/UI/UITextureStatic_2_0/common_n/common_ic_item_n/common_ic_item_n[IC_item_045_01]
+	[String]	NameMediator		GlobalEffectMediator
+	[Boolean]	IsOpenUpdate		False
+GlobalFilmMediator
+	[String]	NameMediator		GMGlobalMediator
+	[GuideFilm1]	film1		null
+	[GuideFilm2]	film2		null
+	[GuideFilm3]	film3		null
+	[Boolean]	IsOpenUpdate		True
+GlobalGameTimeMediator
+	[String]	NameMediator		GlobalGameTimeMediator
+	[Timer]	m_timer		null
+	[DateTime]	m_lastDateTime		07/01/2022 07:22:28
+	[Int32]	m_systemDayTime		0
+	[Boolean]	IsOpenUpdate		False
+GlobalLimitTimePackageMediator
+	[String]	NameMediator		GlobalLimitTimePackageMediator
+	[List`1<LimitTimePackage>]	m_limitPackageList		(0)
+	[Boolean]	m_IsPackageShowing		False
+	[Boolean]	m_isInCity		True
+	[Boolean]	m_IsDuringAge		False
+	[Boolean]	m_IsInDialog		False
+	[Boolean]	IsOpenUpdate		False
+GlobalPveChapterMediator
+	[String]	NameMediator		GlobalPveChapterMediator
+	[PveChapterProxy]	_pveChapterProxy		PveChapterProxy
+	[PlayerProxy]	_playerProxy		Skyunion.PlayerProxy
+	[Single]	_lastServerUpdateStrengthTime		1.65666E+09
+	[Int32]	_currentStrength		150
+	[Int32]	_lastStrength		0
+	[Int32]	_maxStrength		150
+	[Single]	_LastUpdateTime		183.6981
+	[Single]	_UpdateTick		600
+	[Boolean]	IsOpenUpdate		False
+GlobalResourceMediator
+	[String]	NameMediator		GlobalResourceMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[BuildingResourcesProxy]	m_buildingRssProxy		Skyunion.BuildingResourcesProxy
+	[CurrencyProxy]	m_currencyProxy		Skyunion.CurrencyProxy
+	[PVEProxy]	m_PveProxy		Skyunion.PVEProxy
+	[HUDUI]	m_tavernTipHud		Skyunion.HUDUI
+	[HUDUI]	m_guideForceShowResCollectHud		null
+	[HUDUI]	m_pveStrengthHud		null
+	[Dictionary`2<Int64, HUDUI>]	m_foodHuds		(1)
+	[Dictionary`2<Int64, HUDUI>]	m_woodHuds		(1)
+	[Dictionary`2<Int64, HUDUI>]	m_stoneHuds		(0)
+	[Dictionary`2<Int64, HUDUI>]	m_goldHuds		(0)
+	[Int64]	m_selectBuildID		0
+	[GameQueueProxy]	m_QueueProxy		Skyunion.GameQueueProxy
+	[Boolean]	IsOpenUpdate		False
+GlobalScoutsCampMediator
+	[String]	NameMediator		GlobalScoutsCampMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[ScoutProxy]	m_scoutProxy		Skyunion.ScoutProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[Boolean]	m_isNeedRemind		False
+	[Int64]	m_buildingIndex		0
+	[HUDUI]	m_buildingHudUI		null
+	[Boolean]	IsOpenUpdate		False
+GlobalShopMediator
+	[String]	NameMediator		GlobalShopMediator
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[RedProxy]	m_RedProxy		Skyunion.RedProxy
+	[HUDUI]	m_HudObj		null
+	[Boolean]	IsOpenUpdate		False
+GlobalStoreMediator
+	[String]	NameMediator		GlobalStoreMediator
+	[HUDUI]	mysteryStoreBubbleHudUI		null
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[StoreProxy]	m_storeProxy		Skyunion.StoreProxy
+	[GameObject]	go_mysteryStoreBuilding		null
+	[BuildingInfoEntity]	buindingInfo		null
+	[Boolean]	IsOpenUpdate		False
+GlobalTaskCenterMediator
+	[String]	NameMediator		GlobalTaskCenterMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+	[Boolean]	m_isNeedRemind		True
+	[Int64]	m_buildingIndex		7
+	[HUDUI]	m_buildingHudUI		Skyunion.HUDUI
+	[Single]	m_circlrAnim_circleTime		1.5
+	[Single]	m_circlrAnim_finishShow		1.55
+	[Single]	m_circlrAnim_finishEnd		2.1
+	[Boolean]	m_forceHideCityTip		False
+	[Int32]	m_finishAnimTime		2
+	[Int64]	duringPVETaskIndex		-1
+	[Dictionary`2<Int64, Boolean>]	isPlayingExploreAnimDic		(0)
+	[Boolean]	IsOpenUpdate		False
+GlobalTechnologyMediator
+	[String]	NameMediator		GlobalTechnologyMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[ResearchProxy]	m_researchProxy		Skyunion.ResearchProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Dictionary`2<GameObject, HUDUI>]	m_technologyBarHuds		(1)
+	[Dictionary`2<Int64, Timer>]	m_timer		(1)
+	[HUDUI]	m_techHarvestHud		null
+	[Boolean]	m_bLoadTechEffect		False
+	[GameObject]	m_techEffect		null
+	[HUDUI]	m_techIdleHud		Skyunion.HUDUI
+	[Boolean]	m_TechIdleHutHudLoading		False
+	[Int64]	m_selectBuildID		0
+	[Boolean]	IsOpenUpdate		False
+GlobalViewLevelMediator
+	[String]	NameMediator		GlobalViewLevelMediator
+	[Single]	TacticsToStrategy_Dxf_1		6720
+	[Single]	TacticsToStrategy_Dxf_2		9240
+	[Single]	CityObjDxf		250
+	[Single]	CityBoundDxf		243.18
+	[Single]	minDxf		82.4551
+	[Single]	m_viewDxf		130
+	[MapViewLevel]	m_viewLevel		City
+	[Single]	m_showProvinceNameDxfMin		250
+	[Single]	m_showProvinceNameDxfMax		3628.98
+	[Boolean]	m_IsInShowProvince		True
+	[RssProxy]	m_RssProxy		Skyunion.RssProxy
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+	[GuideProxy]	m_guideProxy		Skyunion.GuideProxy
+	[FogSystemMediator]	m_fogMediator		Skyunion.FogSystemMediator
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[RssProxy]	m_rssProxy		Skyunion.RssProxy
+	[MonsterProxy]	m_MonsterProxy		Skyunion.MonsterProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[ScoutProxy]	m_scoutProxy		Skyunion.ScoutProxy
+	[Transform]	m_root		null
+	[String]	m_root_path		SceneObject/lod3_root
+	[Transform]	m_hudRoot		pl_world (UnityEngine.RectTransform)
+	[String]	m_hudPath		UIRoot/Container/HUDLayer/pl_world
+	[Boolean]	m_canDragChangeCamera		True
+	[Single]	m_dxfLimitOffset		1
+	[Boolean]	m_isUpdate		False
+	[Boolean]	m_isInCity		True
+	[Int32]	m_isUpdateIndex		0
+	[Int32]	m_isUpdateMaxCount		106
+	[Single]	m_inCityCamHeight		250
+	[LodMenuToggle]	m_curToggleType		Alliance
+	[HashSet`1<Int64>]	m_lodMapObjectLoading		(0)
+	[HashSet`1<Int64>]	m_hudObjectLoading		(0)
+	[HashSet`1<Int64>]	m_isViewCityID		(1)
+	[HashSet`1<Int64>]	m_isViewCityIDTactical		(1)
+	[List`1<LodPopViewData>]	m_AllView		(13)
+	[List`1<Int64>]	m_Lst_ID_Changed		(0)
+	[List`1<GameObject>]	m_mapProvinceNamesObj		null
+	[MapViewLevel[]]	CameraLevelToMapView		(6)
+	[ServerMapViewLevel[]]	CameraLevelToServer		(6)
+	[Boolean]	isShowTerritory		True
+	[Int32]	DoCountPerUpdate		5
+	[Int32]	endDIstance		15
+	[Single]	_startDIstance		5
+	[Single]	m_a		11.212
+	[Single]	m_b		26.3951
+	[List`1<Int32>]	m_lstRemoveIndex		(1)
+	[Dictionary`2<Int32, LodPopViewConfig[]>]	dicObjPopViewInfo		(36)
+	[Dictionary`2<Int32, LodPopViewConfig[]>]	dicHudPopViewInfo		(28)
+	[Boolean]	IsOpenUpdate		False
+GlobalWorldHudMediator
+	[String]	NameMediator		GlobalWorldHudMediator
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+	[Dictionary`2<Int64, HUDUI>]	m_guildNeutralHud		(0)
+	[Dictionary`2<Int64, UI_Text_GuildNeutralBuildingView>]	m_guildNeutralViews		(0)
+	[Dictionary`2<Int64, Timer>]	m_guildNeutralTimers		(0)
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[Boolean]	IsOpenUpdate		False
+HospitalStatusGlobalMediator
+	[String]	NameMediator		HospitalStatusGlobalMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[HospitalProxy]	m_hospitalProxy		Skyunion.HospitalProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[SoldierProxy]	m_soldierProxy		Skyunion.SoldierProxy
+	[GameQueueProxy]	m_gameQueueProxy		Skyunion.GameQueueProxy
+	[Dictionary`2<Int64, HUDUI>]	m_hospitalHuds		(1)
+	[List`1<ArmsDefine>]	m_treatmentSoldierList		(2)
+	[Int64]	m_treatmentNum		0
+	[QueueInfo]	m_treatmentQueue		Skyunion.ClientQueueInfo
+	[QueueInfo]	m_cacheQueue		SprotoType.QueueInfo
+	[Dictionary`2<Int64, GameObject>]	m_effectDic		(0)
+	[Dictionary`2<Int64, Boolean>]	m_waitShowEffectDic		(1)
+	[Boolean]	IsOpenUpdate		False
+InputGlobalMediator
+	[String]	NameMediator		InputGlobalMediator
+	[Boolean]	IsOpenUpdate		False
+ItemCollectGlobalMediator
+	[String]	NameMediator		ItemCollectGlobalMediator
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[BagProxy]	m_bagProxy		Skyunion.BagProxy
+	[Dictionary`2<Int64, HUDUI>]	m_huds		(0)
+	[Dictionary`2<Int64, Int32>]	m_itemIDS		(0)
+	[Timer]	m_refreshItemInfoTimer		null
+	[Int64]	m_selectBuildID		0
+	[List`1<Int32>]	m_idList		(2)
+	[Boolean]	IsOpenUpdate		False
+MapUIiconMyCityMediator
+	[String]	NameMediator		MapUIiconMyCityMediator
+	[MainInterfaceMediator]	mainInterfaceMediator		Skyunion.MainInterfaceMediator
+	[WorldMgrMediator]	m_WorldMgrMediator		Skyunion.WorldMgrMediator
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[TroopProxy]	m_troopProxy		Skyunion.TroopProxy
+	[ScoutProxy]	m_scoutProxy		Skyunion.ScoutProxy
+	[Dictionary`2<String, GameObject>]	m_assetDic		(1)
+	[CityObjData]	m_cityObjData		Skyunion.CityObjData
+	[GameObject]	m_obj		null
+	[UI_Tip_Screen_SubView]	m_subView		Skyunion.UI_Tip_Screen_SubView
+	[Int32]	cursorTopPosition		50
+	[Int32]	cursorBottomPosition		-50
+	[Vector3]	startUIPos		(0.6, -0.8, 27.6)
+	[Single]	screenW		2340
+	[Single]	screenH		1080
+	[Vector3]	cursorPos		(0.0, 0.0, 0.0)
+	[Single]	left_offset		0
+	[Single]	right_offset		0
+	[Single]	y_offset		0
+	[Vector2]	centerPos		(1170.0, 540.0)
+	[List`1<Vector2>]	_listVertex		(0)
+	[Boolean]	m_isFeatureBtnOn		False
+	[Int32]	TroopBarSize		1
+	[Boolean]	m_isTaskAniOn		False
+	[Boolean]	m_assetReady		True
+	[Single]	ViewPosx		2065.24
+	[Single]	ViewPosy		5653.36
+	[Single]	MiniDistance		120
+	[Boolean]	IsOpenUpdate		False
+MonumentGloablMediator
+	[String]	NameMediator		MonumentGloablMediator
+	[Boolean]	monumentCanReward		False
+	[HUDUI]	monumentHUDUI		null
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[Int64]	m_selectBuildID		0
+	[Boolean]	IsOpenUpdate		False
+MouseClickEffectMediator
+	[String]	NameMediator		MouseClickEffectMediator
+	[Canvas]	m_canvas		UIRoot (UnityEngine.Canvas)
+	[Int32]	m_clickEffectId		9341
+	[Int32]	m_moveEffectId		0
+	[GameObject]	m_clickEffectObj		ClickEffect (UnityEngine.GameObject)
+	[Boolean]	m_enable		True
+	[Boolean]	m_isMove		False
+	[Boolean]	IsOpenUpdate		False
+NoviceGuideGlobalMediator
+	[String]	NameMediator		NoviceGuideGlobalMediator
+	[String]	LocalMark		LocalMark
+	[PlayerProxy]	_playerProxy		Skyunion.PlayerProxy
+	[CityBuildingProxy]	m_cityBuildingProxy		Skyunion.CityBuildingProxy
+	[CityGlobalMediator]	m_cityGlobalMediator		Skyunion.CityGlobalMediator
+	[GuideDefine]	_guideDefine		Data.GuideDefine
+	[Int32]	_currentGuideIndex		-1
+	[Boolean]	_lastGuideIsEnd		True
+	[Boolean]	_waitResponse		False
+	[Boolean]	_guideStart		True
+	[Boolean]	_waritFindGuideNode		False
+	[Boolean]	m_firstGetRoleInfo		False
+	[Boolean]	m_isFirstGuide		False
+	[List`1<Int32>]	m_endIdList		(16)
+	[Single]	m_delayTime		0
+	[Boolean]	IsOpenUpdate		False
+PveBattleMediator
+	[String]	NameMediator		PveBattleMediator
+	[PVEHudManager]	m_pveHudManager		PVEHudManager
+	[PVEProxy]	m_pveProxy		Skyunion.PVEProxy
+	[SceneInst]	m_loadSceneHandle		Skyunion.SceneInst
+	[Boolean]	m_isInPVE		False
+	[Boolean]	m_isWaitUnloadScene		False
+	[Dictionary`2<Light, Boolean>]	m_lightStates		(0)
+	[CoroutineMono]	m_CoroutineMono		PveBattle (Skyunion.CoroutineMono)
+	[Boolean]	IsOpenUpdate		True
+PVPGlobalMediator
+	[String]	NameMediator		PVPGlobalMediator
+	[RssProxy]	m_RssProxy		Skyunion.RssProxy
+	[WorldMapObjectProxy]	m_worldProxy		Skyunion.WorldMapObjectProxy
+	[MonsterProxy]	m_MonsterProxy		Skyunion.MonsterProxy
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[CityGlobalMediator]	cityGlobal		Skyunion.CityGlobalMediator
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[ScoutProxy]	m_ScoutProxy		Skyunion.ScoutProxy
+	[Camera]	worldCamera		WorldCamera (UnityEngine.Camera)
+	[FogSystemMediator]	m_fogMediator		null
+	[GlobalViewLevelMediator]	m_viewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[CityBuildingProxy]	m_CityBuildingProxy		Skyunion.CityBuildingProxy
+	[WorldMgrMediator]	m_WorldMgrMediator		null
+	[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[Boolean]	isMoveTouch		False
+	[Int64]	curRoleObjectId		0
+	[Single]	m_multiArmyDoubleClickTime		500
+	[Int32]	m_cameraFollowStatus		0
+	[Single]	m_startWaitTime		0
+	[Timer]	m_waitFollowTimer		null
+	[Boolean]	m_isCameraFollow		False
+	[GameObject]	m_followTarget		null
+	[Int64]	m_targetObjectId		0
+	[Single]	m_cameraMoveSpeed		1
+	[Vector3]	m_cameraLastPos		(0.0, 0.0, 0.0)
+	[ConfigDefine]	m_ConfigDefine		Data.ConfigDefine
+	[Single]	m_OperatingHaloTime		0.1
+	[Timer]	m_SingleTip		null
+	[Boolean]	m_IsSingleTipShow		False
+	[Vector2]	m_LongTouchScreenPos		(0.0, 0.0)
+	[Vector3]	m_LongTouchWorldPos		(0.0, 0.0, 0.0)
+	[Int32]	m_doubleSelectMainArmyIndex		0
+	[Int32]	m_DoubleSelectLineMainArmyId		0
+	[List`1<Int32>]	m_doubleSelectViceArmyIndexList		null
+	[List`1<Int32>]	m_doubleSelectArmyIndexList		null
+	[Boolean]	m_doubleFlag		False
+	[Int32]	m_lastClickObjectId		0
+	[Int64]	m_lastClickObjectTime		0
+	[Int64]	selectRssID		0
+	[GameObject]	m_EnemySelectEffect		null
+	[GameObject]	m_TroopSelectEffect		null
+	[GameObject]	m_SelectEffectFlow		null
+	[ChangeSpriteColor]	m_ChangeColorHelper		null
+	[Dictionary`2<Int32, MapObjectSelectEffect>]	selectMyTroopEffectDic		(0)
+	[RaycastHit[]]	hits		(64)
+	[List`1<MapObjectInfoEntity>]	currentHitEntitys		(0)
+	[Int64]	lastSelectId		0
+	[Single]	lastClickTime		-1
+	[Single]	clickActionInterval		-1
+	[Timer]	playSelectEffectTimer		null
+	[TouchNotTroopSelect]	m_touchNotTroopSelect		null
+	[Int64]	m_selectObjectId		0
+	[Int64]	m_selectArmId		0
+	[Int64]	m_oldSelectArmId		0
+	[Int64]	curSelectRssItemId		0
+	[Boolean]	isSelectMyCity		False
+	[Boolean]	isSelectMyTroop		False
+	[Boolean]	isSelectMyRssItem		False
+	[Boolean]	isSelectTouchEnd		False
+	[Boolean]	isSelectEmpty		False
+	[Timer]	timerTouchCity		null
+	[Timer]	timerTouchCityTwo		null
+	[Timer]	timerTouchRssItem		null
+	[GameObject]	m_SelectCityEffect		null
+	[GameObject]	m_SelectAnimatorGo		null
+	[String]	m_touchMoveCollideParent		
+	[String]	m_touchMoveCollideName		
+	[Boolean]	isEmptyAnimFinish		False
+	[Vector2]	m_startMouse		(0.0, 0.0)
+	[Boolean]	m_bDragTroop		False
+	[Timer]	m_autoMoveTimer		null
+	[Boolean]	m_bDragMove		False
+	[Boolean]	m_TouchPressUI		False
+	[Single]	cityX		0
+	[Single]	cityY		0
+	[Boolean]	isCity		False
+	[Boolean]	isRss		False
+	[Boolean]	isBar		False
+	[Boolean]	isShowTips		False
+	[Dictionary`2<Int32, TroopLineInfo>]	m_viceMoveLineDic		(0)
+	[TroopLineInfo]	m_troopLine		null
+	[TroopLineInfo]	m_drawLine		null
+	[Vector2]	endV2		(0.0, 0.0)
+	[Timer]	m_drawLineMoveTimer		null
+	[Vector3]	troopPos		(0.0, 0.0, 0.0)
+	[Vector2]	m_movePos		(0.0, 0.0)
+	[Vector2]	m_dragToPos		(0.0, 0.0)
+	[Vector2]	oldPos		(2065.2, 5653.4)
+	[Boolean]	isSend		False
+	[Dictionary`2<Int32, TroopLineInfo>]	m_drawLineDic		(0)
+	[Dictionary`2<Int32, Vector2>]	m_drawLineTargetPosDic		(0)
+	[Timer]	m_drawLineTimer		null
+	[Single]	m_radius		0
+	[Boolean]	IsOpenUpdate		True
+SendClientDeviceInfoMedia
+	[String]	NameMediator		SendClientDeviceInfoMedia
+	[Boolean]	m_bCanReportData		True
+	[Single]	m_netReportTime		4203.222
+	[Single]	m_reportTick		30
+	[Boolean]	IsOpenUpdate		True
+ServerPushMediator
+	[String]	NameMediator		ServerPushMediator
+	[PlayerProxy]	m_playerProxy		null
+	[PlayerAttributeProxy]	m_playerAttributeProxy		Skyunion.PlayerAttributeProxy
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[AllianceResarchProxy]	m_allianceResProxy		null
+	[TroopProxy]	m_troopProxy		null
+	[Boolean]	IsOpenUpdate		False
+TaskScriptGlobalMediator
+	[String]	NameMediator		TaskScriptGlobalMediator
+	[GlobalViewLevelMediator]	m_viewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[CityBuildingProxy]	m_buildingProxy		Skyunion.CityBuildingProxy
+	[TaskProxy]	m_taskProxy		Skyunion.TaskProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[CityGlobalMediator]	mCityGlobalMediator		Skyunion.CityGlobalMediator
+	[Single]	m_cameraMoveLimit		0.1
+	[Single]	m_cameraMoveDis		0.1
+	[Single]	default_translationTime		0.5
+	[Single]	default_DxfTime		0.5
+	[Dictionary`2<Int32, Int32>]	_resouceTypeDict		(0)
+	[Boolean]	IsOpenUpdate		False
+TroopGlobalMediator
+	[String]	NameMediator		TroopGlobalMediator
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+	[WorldMapObjectProxy]	m_worldMapObjectProxy		Skyunion.WorldMapObjectProxy
+	[PlayerProxy]	m_playerProxy		Skyunion.PlayerProxy
+	[GlobalViewLevelMediator]	m_viewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[Int64]	m_targetRid		0
+	[GuildMemberInfoEntity]	m_targetGuildMemberInfoEntity		null
+	[MapObjectInfoEntity]	m_targetMapObjectInfoEntity		null
+	[Int32]	m_type		0
+	[ConfigDefine]	m_ConfigDefine		Data.ConfigDefine
+	[Boolean]	IsOpenUpdate		False
+TroopHUDMediator
+	[String]	NameMediator		TroopHUDMediator
+	[TroopProxy]	m_TroopProxy		Skyunion.TroopProxy
+	[ScoutProxy]	m_ScoutProxy		Skyunion.ScoutProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[HeroProxy]	m_HeroProxy		Skyunion.HeroProxy
+	[MonsterProxy]	m_MonsterProxy		Skyunion.MonsterProxy
+	[WorldMapObjectProxy]	m_worldProxy		Skyunion.WorldMapObjectProxy
+	[GuideProxy]	m_guideProxy		Skyunion.GuideProxy
+	[RallyTroopsProxy]	m_RallyTroopsProxy		Skyunion.RallyTroopsProxy
+	[AllianceProxy]	m_AllianceProxy		Skyunion.AllianceProxy
+	[ExpeditionProxy]	m_expeditionProxy		Skyunion.ExpeditionProxy
+	[FogSystemMediator]	m_fogMediator		Skyunion.FogSystemMediator
+	[Int64]	curTroopId		0
+	[ArmyData]	curArmyData		Skyunion.SelfTroopData
+	[MapObjectInfoEntity]	monsterData		Skyunion.MapObjectInfoEntity
+	[ConfigDefine]	configInfo		Data.ConfigDefine
+	[Dictionary`2<Int64, FightUiHudView>]	dicHudUIFight		(0)
+	[Dictionary`2<Int64, HUDUI>]	dicHudUI		(0)
+	[HUDUI]	_selectInfo		null
+	[Dictionary`2<HudType, Dictionary`2>]	m_SelectHudUIInfo		(1)
+	[HUDUI]	_selectBtns		Skyunion.HUDUI
+	[Dictionary`2<Int64, HUDUI>]	dicShootHud		(0)
+	[Dictionary`2<Int64, RuneCollectHudView>]	m_dictRuneHud		(0)
+	[Single]	lastCallbackTime		4181.029
+	[Single]	updateInterval		1.5
+	[Dictionary`2<Int64, StanceInfo>]	dicStanceInfo		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	dicTargetStanceInfo		(4)
+	[GlobalViewLevelMediator]	m_viewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[Dictionary`2<Int64, HUDUI>]	m_TroopResultDic		(0)
+	[Int32]	HudShowMaxDxf		3630
+	[Int32]	armyFightId		0
+	[Tween]	_tween		null
+	[HUDUI]	shootHud		null
+	[Int32]	index		1
+	[Int32]	lastIndex		1
+	[Int32]	indexBlood		0
+	[Int32]	lastBloodIndex		0
+	[Timer]	_timer		Skyunion.Timer
+	[Dictionary`2<Int64, Dictionary`2>]	dicSkillAtk		(0)
+	[Dictionary`2<Int64, Dictionary`2>]	dicAddBlood		(0)
+	[Int32]	skiilAtkNum		5
+	[Boolean]	IsOpenUpdate		False
+TroopManualMediator
+	[String]	NameMediator		TroopManualMediator
+	[Camera]	m_Camera		null
+	[WorldMapObjectProxy]	m_worldProxy		null
+	[TroopProxy]	m_troopProxy		null
+	[RallyTroopsProxy]	m_rallyTroopsProxy		null
+	[PlayerProxy]	m_playerProxy		null
+	[AllianceProxy]	m_allianceProxy		null
+	[RssProxy]	m_RssProxy		null
+	[GlobalViewLevelMediator]	m_ViewLevelMediator		null
+	[WorldMgrMediator]	m_WorldMgrMediator		Skyunion.WorldMgrMediator
+	[ConfigDefine]	m_ConfigDefine		Data.ConfigDefine
+	[GameObject]	longPressHaloAnimationObj		eff_pvp_xuanzhongjinduotiao(Clone) (UnityEngine.GameObject)
+	[GameObject]	longPressEffectObj		chooseEffectObj (UnityEngine.GameObject)
+	[GameObject]	targetEffectObj		operation_2003(Clone) (UnityEngine.GameObject)
+	[ChangeSpriteColor]	targetEffectColor		operation_2003(Clone) (ChangeSpriteColor)
+	[Transform]	effectRoot		PVPGlobalEffectRoot (UnityEngine.Transform)
+	[GameObject]	followTarget		BarbarianFormation_151637309 (UnityEngine.GameObject)
+	[Int64]	targetObjectId		0
+	[DrawWhiteLine]	drawline		Skyunion.TroopManualMediator+DrawWhiteLine
+	[Boolean]	fingerHasMove		False
+	[RelatedCameraAnimation]	troopRelatedCameraAnimation		Skyunion.TroopManualMediator+RelatedCameraAnimation
+	[Int32]	startTouchScreenX		1183
+	[Int32]	startTouchScreenY		546
+	[RaycastHit[]]	hits		(64)
+	[List`1<MapObjectInfoEntity>]	currentHitEntitys		(0)
+	[TroopManualType]	troopManualType		None
+	[Int64[]]	curChooseTroops		(5)
+	[Int64]	lastSelectId		0
+	[Single]	lastSelectTime		-1
+	[Single]	lastClickTooopTime		0
+	[Single]	MaxClickInterval		3.5
+	[Single]	MaxDoubleClickInterval		0.5
+	[List`1<Int32>]	tmpViceArmyIndexList		(0)
+	[LongPressData]	longPressData		Skyunion.TroopManualMediator+LongPressData
+	[Single]	LongPressMaxThreshold		0.35
+	[Dictionary`2<Int64, MapObjectSelectEffect>]	tmpSelectMyTroopEffectDic		(0)
+	[Boolean]	OnDragTargetShowTip		False
+	[Timer]	OnDragTargetShowTipTimer		null
+	[Timer]	OnDragTargetCancelTimer		null
+	[Boolean]	IsOpenUpdate		True
+VipGlobalMediator
+	[String]	NameMediator		VipGlobalMediator
+	[Boolean]	IsOpenUpdate		False
+WorldMgrMediator
+	[String]	NameMediator		WorldMgrMediator
+	[Boolean]	m_bDirty		False
+	[Transform]	m_root		rss_root (UnityEngine.RectTransform)
+	[String]	m_root_path		SceneObject/rss_root
+	[String]	m_troops_root_path		SceneObject/Troops_root
+	[Transform]	m_troops_root		Troops_root (UnityEngine.Transform)
+	[String]	m_Pve_troops_root_path		PveSceneObject/Troops_root
+	[Transform]	m_Pve_troops_root		null
+	[Single]	m_RemoveCityDistance		8
+	[GlobalViewLevelMediator]	m_mapViewLevel		Skyunion.GlobalViewLevelMediator
+	[FogSystemMediator]	m_fogMediator		Skyunion.FogSystemMediator
+	[WorldMapObjectProxy]	m_worldMapProxy		Skyunion.WorldMapObjectProxy
+	[PlayerProxy]	m_PlayerProxy		Skyunion.PlayerProxy
+	[RssProxy]	m_rssProxy		Skyunion.RssProxy
+	[MonsterProxy]	m_monsterProxy		Skyunion.MonsterProxy
+	[AllianceProxy]	m_allianceProxy		Skyunion.AllianceProxy
+	[TroopProxy]	m_troopProxy		Skyunion.TroopProxy
+	[Int32]	lastGridX		68
+	[Int32]	lastGridY		188
+	[List`1<Vector2Int>]	m_lastVisibleGrid		(2)
+	[Plane]	m_worldMapPlane		(normal:(0.0, 1.0, 0.0), distance:0.0)
+	[Vector3[]]	m_worldMapVisibleCorners		(4)
+	[WorldEditState]	m_mode		Normal
+	[Dictionary`2<Int32, GameObject>]	m_obscaleMapObj		(0)
+	[Vector3]	m_guildPreCreatePos		(0.0, 0.0, 0.0)
+	[Single]	collideRadius		0
+	[Dictionary`2<Int64, IBaseWorldEffectMediator>]	m_mapObjectEffectMediator		(0)
+	[GlobalViewLevelMediator]	m_viewLevelMediator		Skyunion.GlobalViewLevelMediator
+	[List`1<MapObjectInfoEntity>]	lstUpdateMapObject		(6)
+	[List`1<MapObjectInfoEntity>]	lstRemoveMapObject		(0)
+	[Single]	moveCityAnim		1
+	[Single]	moveCityDirtAnim		1
+	[List`1<ManorData>]	m_territoryInfos		(3)
+	[List`1<ManorItem>]	m_preFakeList		(0)
+	[String]	m_clickObjectName		build_ground(Clone)
+	[Vector2]	m_touchStartPos		(1981.0, 723.0)
+	[GameObject]	m_myTerritoryBg		null
+	[GameObject]	m_myTerritoryBg2		null
+	[Dictionary`2<Int64, GameObject>]	m_strongHoldTerritoryBg		(0)
+	[HashSet`1<Int64>]	m_loadingbuildBg		(0)
+	[Boolean]	m_isCollideMap		False
+	[Boolean]	m_ignoreOwn		False
+	[Boolean]	IsOpenUpdate		True

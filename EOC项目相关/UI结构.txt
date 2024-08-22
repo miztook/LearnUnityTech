@@ -1,0 +1,35 @@
+UIRoot				//主UI摄像机
+	Container
+		HUDLayer
+			pl_world
+		FullViewLayer
+		ChatLayer
+		StoryLayer
+		WindowLayer
+		WindowMenuLayer
+		WindowPopLayer
+		GuideLayer
+		TipLayer
+		SystemOpenLayer
+		LoadingLayer
+		TurnAroundLayer
+		BrowserLayer
+		DefaultBg
+	
+	EventSystem					//UI事件系统
+	UICam
+	InputBg
+	ClickEffect
+	UIEffectCam
+	MaskBlurCamera
+
+//UI显示气泡，关闭气泡 
+	HUDManager.Instance().OpenSingleUIInfo
+	HUDManager.Instance().CloseSingleUIInfo
+
+//创建Tip
+	Tip.CreateTip
+
+//非全屏UI界面打开时 背景虚化
+	添加一个CanvasRender 使用RawImage组件 GrabPassBlur材质
+	Shader: UI/UIGrabPassBlurShader

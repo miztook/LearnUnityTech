@@ -1,0 +1,8 @@
+﻿TERA/Character/Heroic_Face
+		alilancer_fface
+		alilancer_fface_dw
+		alipriest_fface
+		alipriest_fface_dw
+		casassassin_mface
+		humwarrior_mface
+		sprarcher_fface

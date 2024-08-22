@@ -1,0 +1,14 @@
+树的生成
+	BuildDynamicGrove	打开Tree_02的gameobject，创建adorning节点，节点下调用 CreateMesh, CreateGrove
+		CreateMesh	把所有的SpriteRender进行合并成Mesh (Sprite根据z值进行排序，根据pivot进行缩放)
+		CreateGrove		在adorning节点下添加 MeshFilter, MeshRenderer，设置材质, 保存adorning prefab
+		
+圣地的生成
+	和树不同的是，一个圣地可以用到多于一个的材质(图集)，地面和建筑又有渲染前后之分, 所以
+		随着圣地制作进度，按图集生成材质在 BundleAssets\land\Material 下, 
+		CreateMesh 	把所有的SpriteRender按材质分组，如果多于一个图集的，则要按同一个图集的合并mesh，最终生成多个 (Mesh, Material组)
+		BuildHolyland	在adorning节点下，添加多个 GameObject，每个GameObject添加 MeshFilter, MeshRenderer, 设置材质, 保存adorning prefab 
+		
+	ArtRes/land/ShenDi_new/ 	美术制作的用散图的prefab
+	ArtRes/land/ShengDi_new/shengdi_prefabs			打图集后，使用图集的prefab (注意打完图集后在tpsheet中设置pivot)
+		

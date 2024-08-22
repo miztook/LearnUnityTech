@@ -1,0 +1,61 @@
+	ActivityProxy
+	AllianceProxy
+	AllianceResarchProxy
+	BagProxy
+	BeautyProxy
+	BuffProxy
+	BuildingResourcesProxy
+	ChatProxy
+	CityBuffProxy
+	CityBuildingProxy
+	CityIncidentProxy
+	CityUnlockProxy
+	CurrencyProxy
+	DataProxy
+	EffectinfoProxy
+	EmailProxy
+	ExpeditionProxy
+	FuncGuideProxy
+	GameQueueProxy
+	GuideProxy
+	HeadProxy
+	HeroProxy
+	HeroTrainProxy
+	HospitalProxy
+	IGGSdkChatProxy
+	IntelligenceProxy
+	LocalTroopProxy
+	MinimapProxy
+	MonsterProxy
+	MoveCityProxy
+	NewActivityProxy
+	PlayerAttributeProxy
+	PlayerProxy
+	PveChapterProxy
+	PVEProxy
+	RallyTroopsProxy
+	RankListProxy
+	RechargeProxy
+	RedProxy
+	ResearchProxy
+	RewardGroupProxy
+	RssProxy
+	ScoutProxy
+	ScrollMessageProxy
+	SearchProxy
+	ShopProxy
+	SoldierProxy
+	StoreProxy
+	TaskProxy
+	TipRemindProxy
+	TrainProxy
+	TroopProxy
+	WarWarningProxy
+	WorkerProxy
+	WorldMapObjectProxy
+			Dictionary<long,MapObjectInfoTemp> 	m_worldMapObjectTempDic			//临时世界对象
+			Dictionary<PosInfo,long> 	m_worldMapObjectTempPosDic				//临时对象位置
+			Dictionary<long,MapObjectInfoEntity> 	m_worldMapObjectDic
+			Dictionary<long,MapObjectInfoEntity> 	m_worldMapObjectCityDic		//城市		对应Rss类型 City
+			Dictionary<long, MapObjectInfoEntity> 	m_resourcePointDic		//村庄山洞		对应Rss类型	Village, Cave
+			List<MapObjectInfoEntity> 	m_worldMapObjectList

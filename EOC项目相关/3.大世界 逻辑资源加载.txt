@@ -1,0 +1,231 @@
+	TroopLine_root					//部队连线，MarchLineMgr管理
+	Troops_root						//部队， TroopMgr管理
+	rss_root						//地图对象，WorldMgrMediator管理
+	lod3_root						//小地图管理，GlobalViewLevelMediator管理
+	
+		
+GlobalViewLevelMediator
+		
+	lod3_root
+		省份名		必须在 MapViewLevel = Nationwide 时显示
+		
+	数据结构
+		LodPopDataContent				数据内容	对应一个MapObject或ArmyData
+		
+		LodPopViewContent				视图内容	
+			GameObject
+			MapElementUI	
+			LodPopViewConfig			配置
+			List<LodPopViewData>		subElement
+		
+		LodPopViewConfig				最大最小lod等级，刷新视
+		
+		LodPopViewData
+			LodPopDataContent	dataContent
+			List<LodPopViewConfig>		viewConfigs
+			List<LodPopViewContent>		lstViewContent
+			
+	成员
+		List<LodPopViewData> 	m_AllView			//当前的远景缩略图显示
+		
+	InitPopViewInfo			初始化ObjPopView和HudPopView
+	
+		Obj缩略图配置														
+			Troop = 1, //军队										
+					资源：troops_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件: 如果有部队，如果在采集或驻守，在Strategic层以上显示，无部队，在<=TacticsToStrategy_2显示	
+					
+			Monster = 2,//怪物
+					资源：barbarian_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					
+			City = 3,//城市
+					资源：city_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件：如果是自己城市或同联盟城市，则显示，否则在<Strategic显示
+			
+			Stone = 4,//石料
+					资源：stone_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+			
+			Farmland = 5,//农田
+					资源：food_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+			
+			Wood = 6, //木材
+					资源：wood_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+			
+			Gold = 7, //金矿
+					资源：coin_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			Gem = 8, //宝石
+					资源：coin_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+			
+			Scouts = 9,//斥候
+					资源：troops_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件: 如果有部队，如果在采集或驻守，在Strategic层以上显示，无部队，在<=TacticsToStrategy_2显示
+					
+			Village = 10,//村庄
+					资源：village_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					
+			Cave = 11,//山洞
+					资源：cave_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					
+			GuildCenter = 12, //12 联盟中心要塞
+					资源：alliance_building_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+					
+			GuildFortress1 = 13, //联盟要塞1
+					资源：alliance_building_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+					
+			GuildFortress2 = 14,//联盟要塞2
+					资源：alliance_building_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+					
+			GuildFlag = 15, //15 联盟旗帜
+					资源：alliance_flag_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			GuildFood = 16,//16 联盟农田
+					资源：alliance_food_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+					
+			GuildWood = 17, //联盟伐木场
+					资源：alliance_wood_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+					
+			GuildStone = 18, //联盟石矿床
+					资源：alliance_stone_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+					
+			GuildGold = 19, //联盟金矿床
+					资源：alliance_coin_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启菜单显示
+			
+			GuildFoodResCenter = 20,//20 联盟谷仓  资源中心
+					资源：alliance_super_mine_food_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启联盟菜单显示
+					
+			GuildWoodResCenter = 21, //联盟木料场
+					资源：alliance_super_mine_wood_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启联盟菜单显示
+					
+			GuildGoldResCenter = 22, //联盟石材厂
+					资源：alliance_super_mine_stone_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启联盟菜单显示
+			
+			GuildGemResCenter = 23, //23联盟铸币场
+					资源：alliance_super_mine_coin_lod3
+					显示等级: TacticsToStrategy_1, TacticsToStrategy_2
+					过滤条件: 如果>=Strategic 需要开启联盟菜单显示
+			
+			Rune = 24,  //符文
+					资源：alliance_super_mine_stone_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+			
+			CheckPoint = 25, //关卡
+					资源：fortress_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			HolyLand = 26, // 圣地
+					资源：holy_land_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+			
+			Transport = 27, //运输车
+					资源：troops_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					过滤条件: 如果有部队，如果在采集或驻守，在Strategic层以上显示，无部队，在<=TacticsToStrategy_2显示
+					
+			BarbarianCitadel = 28, //野蛮人城寨
+					资源：barbarian_fort_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			Guardian = 29, //圣地守护者
+					资源：barbarian_guardian_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+
+			Checkpoint_1 = 35,//关卡1
+					资源：fortress_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			Checkpoint_2 = 36,//关卡2
+					资源：fortress_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			Checkpoint_3 = 37,//关卡3
+					资源：fortress_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			SummonAttackMonster = 42,//召唤类型单人挑战怪物
+					资源：barbarian_narmer_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			SummonConcentrateMonster = 43,//召唤类型集结挑战怪物
+					资源：barbarian_narmer_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+
+			IntelligencePVE = 45,//情报PVE
+					资源：intelligencePVE_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+					
+			IntelligenceExplore = 46,//情报探索
+					资源：intelligenceExplore_lod3
+					显示等级: TacticsToStrategy_1, Nationwide
+		
+		HUD配置
+	
+		
+	OnWorldViewChange				//在摄像机dxf变化时，执行操作
+		在ViewLevel变化时
+			在city到tactical之间，且不在城市，显示MapObject
+			离开或进入tactical等级时，	CheckTerritoryStrategicCanShow 显隐连线(连线区分tactical, strategic)
+			从tactical到strategic时，	m_RssProxy.SendMapMove 同步场景对象
+			从strategic到tactical时，	m_RssProxy.SendMapMove 同步场景对象
+		
+	LateUpdate
+		DoRefreshMapObjAndHud		 更新每个WorldObj的显示和hud
+			对于每一个WorldObject, 如果可见 
+				处理viewLevel <= TacticsToStrategy_1时的city
+				
+				RefreshMapObject
+					根据LodPopDataContent，在m_AllView里建立对应类型的id的 LodPopViewData
+					RefreshObjElementView
+						如果加载完毕
+							SetObjLodLevel
+							RefreshObjSubView
+						未加载
+							判断viewLevel, ShowCondition
+							getMapLod3PrefabName 获取Lod3PrefabName
+							加载, SetObjLodLevel, RefreshObjSubView  如果非部队，位置为mapEntity.gameobject.transform.position
+			
+				RefreshMapHudUI
+					根据LodPopDataContent，在m_AllView里建立对应类型的id的 LodPopViewData
+					RefreshHUDElementView
+						如果加载完毕
+							SetHudLodLevel
+						未加载
+							判断viewLevel, ShowCondition
+							加载config.prefabName
+				
+				
+				
+		
+		

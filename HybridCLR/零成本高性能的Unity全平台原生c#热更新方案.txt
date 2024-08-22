@@ -1,0 +1,35 @@
+https://zhuanlan.zhihu.com/p/485311523
+
+HybridCLR是一个特性完整、零成本、高性能、低内存的近乎完美的c#热更新方案。
+
+	AOT+interpreter混合模式执行
+
+特性
+	实现完整
+	零学习和使用成本
+	执行高效
+	内存高效
+	
+工作原理
+	HybridCLR从mono的Hybrid mode execution技术中得到启发，扩充了unity的il2cpp runtime，
+	将它由纯AOT运行时改造为"AOT + Interpreter"混合运行方式，从底层彻底支持了热更新dll。	
+	
+HybridCLR做了以下几点工作：
+	实现了一个高效的元数据(dll)解析库
+	改造了il2cpp的元数据管理模块，实现了元数据的动态注册
+	实现了一个IL指令集到自定义的寄存器指令集的compiler
+	实现了一个高效的寄存器解释器
+	额外提供大量的instinct函数，提升解释器性能
+	提供hotfix AOT的支持 （进行中）
+	
+与其他流行的c#热更新方案的区别
+	本质比较
+	HybridCLR是原生的c#热更新方案。原始il2cpp相当于只有aot的mono，而HybridCLR则给il2cpp新增了原生的interpreter模块，
+	使得il2cpp变成一个全功能的mono，原生（即通过System.Reflection.Assembly.Load）支持动态加载dll，从而支持ios等平台的热更新。其他热更新方案则是新增了一个独立于il2cpp的第三方vm。
+
+	正因为HybridCLR是原生runtime级别实现，热更新部分的类型与主工程AOT部分类型是完全等价并且无缝统一的。可以随意调用、继承、反射、多线程，不需要生成代码或者写适配器。
+
+	其他热更新方案则是独立vm，与il2cpp的关系本质上相当于mono嵌lua的关系。因此类型系统不统一，为了让热更新类型能够继承AOT部分类型，需要写适配器，并且解释器中的类型不能为主工程的类型系统所识别。	
+	
+实际使用体验或者特性比较
+		

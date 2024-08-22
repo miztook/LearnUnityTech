@@ -1,0 +1,66 @@
+打开 Unity编辑器的 Window->AI->Navigation
+
+Areas区域划分
+	0		Walkable			//可行走
+	1		NotWalkable			//不可行走
+	3		NotBuilding			//不可放建筑
+	4		NotWalk				//不可行走
+	5		Bridge				//桥面
+	
+我们的目的是要生成用来行走的 Walkable NavMesh (用来寻路) 和 Building NavMesh (用来判断放置建筑)
+	
+参与生成NavMesh的场景节点
+	Border
+		center				//设置NavMeshArea = 0
+		Inner
+		Outter				//设置NavMeshArea = 1
+	
+制作Walkable NavMesh:	
+	1. 点击 List NavMeshArea 	//开启相关的Collision节点
+	2. 点击 NavMeshMode		//准备导出Walkable
+		设置 Border/Inner 的NavMeshArea = 1
+		遍历场景中所有的Mesh， 如果Layer == Collision 并且 GameObject名字包含 "Collision"
+			如果NavMeshArea == 4 则开启
+			如果NavMeshArea == 3 则关闭
+		
+	3. 在Navigation Bake界面中，点击Bake，等待烘焙结束, 烘焙结果保存在 BundleAssets\land\Scenes\map_4\NavMesh.asset
+	   参数 
+			Agent Radius: 1
+			Agent Height: 2
+			Max Slope: 45
+			Step Height: 0.6
+			
+	4. 点击 ExportWalkableNavMesh， 输出NavMeshArea == 0的部分，保存成 BundleAssets\land\NavMesh\map_4_Walkable_NavMesh.obj
+	
+制作Building NavMesh:
+	1. 点击 List NavMeshArea 	//开启相关的Collision节点
+	2. 点击 NoBuildingMode		//准备导出Building
+		设置 Border/Inner 的NavMeshArea = 3
+		遍历场景中所有的Mesh， 如果Layer == Collision 并且 GameObject名字包含 "Collision"
+			如果NavMeshArea == 4 则关闭
+			如果NavMeshArea == 3 则开启
+			
+	3. 在Navigation Bake界面中，点击Bake，等待烘焙结束, 烘焙结果保存在 BundleAssets\land\Scenes\map_4\NavMesh.asset
+	   参数 
+			Agent Radius: 1
+			Agent Height: 2
+			Max Slope: 45
+			Step Height: 0.6
+			
+	4. 点击 ExportBuilding， 输出NavMeshArea == 0的部分，保存成 BundleAssets\land\NavMesh\map_4_Building_NavMesh.obj
+	5. 点击 ExportNoBuilding， 输出NavMeshArea != 0的部分，保存成 BundleAssets\land\NavMesh\map_4_NoBuilding_NavMesh.obj
+
+NoBuilding NavMesh:
+	只用在客户端中，用在迁城时显示不可迁城的区域
+	
+美术如何制作
+	River				//参考 BundleAssets/land/Mountain/Rive_CO_A (2比1稍微大些, 表示不可放建筑的区域比不可行走的区域稍大些)
+		1. 增加一个Layer == Collision的节点 设置NavMeshArea = NotWalk 		命名: Rive_CO_XX_Collision_nei
+		2. 增加一个Layer == Collision的节点 设置NavMeshArea = NotBuilding 	命名: Rive_CO_XX_Collision   
+	Mountain			//参考 BundleAssets/land/Mountain/build_mountain_A3 (2比1稍微大些, 表示不可放建筑的区域比不可行走的区域稍大些)
+		1. 增加一个Layer == Collision的节点 设置NavMeshArea = NotWalk 		命名: build_mountain_XX_Collision_walk 或者 build_mountain_XX_Collision
+		2. 增加一个Layer == Collision的节点 设置NavMeshArea = NotBuilding 	命名: build_mountain_XX_Collision_building 或者 build_mountain_XX_Collision_da
+		
+
+	
+			

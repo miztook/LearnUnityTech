@@ -1,0 +1,112 @@
+2021.12.9
+	LOD策略总结:
+        每个tile(长宽180)的做成一个prefab (地表, 山脉，河流，植被), 分为Lod 1,2,3,4 等级
+        对于Lod1等级，工具会把 land/Tile_lod1/ 下的tile prefab 中的每个物体进行分拆，保存成单独的prefab， 游戏内在Lod = 0,1时，对单独的物体进行分组 (非植被 + 植被)，分别按宽度 90, 45的格子分格管理
+        对于Lod2,3,4等级，不会分拆每个物体，直接生成 land/Tile_lod2,3,4 下的tile prefab，游戏内在Lod = 2,3,4 时，对每个 tile prefab 按宽度 180 的格子分格管理
+
+    改进方案：
+        在Lod切换过程中，避免地表的加载卸载 (避免lod切换导致闪屏)，地表可按照长宽180分块，一次全部加载，做显隐管理
+        在Lod1等级，对非地表的物体进行分类，进行分组管理 (和现有机制类似)
+        在Lod2,3,4等级，不分拆每个物体，对每个tile prefab 按宽度180分组管理 (和现有机制类似)
+        具体看下Lod2,3,4的简化规则，尽量在lod切换过程中，不做加载卸载操作，只做显隐和其他渲染上的简化
+
+    Houdini的方案
+        Houdini导出prefab在游戏中使用，先按180一个tile mesh做地表，其他物体直接摆位置，由程序工具进行逻辑分组
+		
+	为了达到摄像机平移和竖移时平滑的效果，理想情况是 地表只全部加载一次，只做显隐和简化显示的操作，先计算下现在地表的顶点和贴图量，看是否能满足需求，如果可以的话再修改现在的lod机制
+
+2021.12.16
+	现有的LOD规则:
+		基础地块:	1,2 Ground		3,4 Plane 简化
+		河流:		1 River			2,3,4 Sprite简化
+		湖泊:		1 Lake 			2,3,4 Sprite简化
+		峡谷:		1 Canyon 		2,3,4 无
+		山脉:		1 Mountain 保存物体 	2,3,4 简化mountain的mesh 
+		动态树:		1 Dynamic		2,3,4 Sprite简化
+		静态树:		1 Static 合并Sprite成Mesh	2 合并Sprite成Mesh(简化)
+		
+	生成 
+		在现有机制下，单独拆分地表，只加载不卸载或预加载, 地块按照Tile生成 prefab，分为Ground, Plane节点	(加载单位Tile)
+		
+		当Lod = 1时 	河流,湖泊,峡谷,山脉,动态树,静态树 作为单独prefab保存加载
+		当Lod = 2,3,4时		河流,湖泊,峡谷,山脉,动态树,静态树 作为Tile单位加载
+	
+	改进尝试
+		当Lod = 1时，	尝试按Tile为单位(180)加载卸载物体，简化管理 (现在Lod=1时是按90,45做加载卸载管理)
+
+	现有机制的不足
+		生成Lod块后，还需要额外把Tile块拼接成一个大地图的操作 (现有情况是59个Tile块拼成 40X40 个地图块)	
+		
+	用Houdini制作方法
+		直接制作大地图场景，按节点(地表，山脉，河流)等分类，每个节点下有1,2,3,4分别代表lod级别
+		新的Unity生成工具 直接拆分成以Tile为单位的块 作为加载和卸载的单位 (无需生成各个级别的lod，也无需拼接)
+		
+2021.12.23
+	TileBrief	land/Tile_lod1 				land/Tile_Land(包含近景远景)
+	近景		land/Tile/ land/Mountain/			保留
+	远景		land/Tile_lod2,3,4			land/Tile_Far 分节点2,3,4
+	
+	新的Lod生成工具 LodTool/BuildLodNew 取代 LodTool/BuildLod
+		生成目录 BundleAssets/land/Tile_Land 和 BundleAssets/land/Tile_Far
+		弃用 BundleAssets/land/Tile_Lod2, BundleAssets/land/Tile_Lod3, BundleAssets/land/Tile_Lod4
+	
+	地表Tile_Land，包含Ground(lod=1,2开启), Plane(lod=3,4开启)节点, 加载单位 Tile
+	远景Tile_Far, 包含River, Lake, Mountain_2, Mountain_3, Mountain_4，Dynamic, Static_2节点 (对应的lod下开启关闭)，加载单位 Tile
+	近景物体按Tile管理，在lod>1时隐藏，lod=0,1时显示，如果是植被，在有city的范围内隐藏，加载单位 Tile
+	对于已经加载的物体，是否可见通过unity的cull判断，程序只需要保证同时处于active的gameobject不要太多即可
+	对于超过一定时间摄像机不可见的近景物体和远景Tile_Far，按Tile为单位删除
+	地表Tile_Land加载后不再删除
+	
+2021.12.30
+	Houdini场景工具
+		打开	ArtRes/Houdini/Scence 下的场景 houdini_map01
+		最终的输出: 	场景使用的mesh按lod等级存储成prefab，地图tile信息(40X40), 每个Tile上的物体信息
+		
+		1. BuildLod				//把场景中用到的Mesh保存成prefab
+		2. Save Map Data		//分多少个地块，省份信息, 保存路径: BundleAssets\land\MapData\houdini_map01_data.bytes
+		3. Save Tile Data		//每个地块上的物体信息, 保存路径: BundleAssets\land\MapData\houdini_map01_tile_data.bytes
+		
+		目前完成地表信息的输出，地表使用 BundleAssets\land\Tile_Land\Tile_Land.prefab
+		Mountain的输出 	BuildLod先生成lod的prefab, 节点根据Mesh名字 对应 prefab
+		
+		运行游戏时 在GlobalClient脚本中勾选 Test Houdini Scene，进入游戏就可以看到新的Houdini地图
+		
+2022.1.7
+	Houdini场景工具
+		Camera 最远/最近	调整摄像机为游戏内最远最近的参数，方便调节地表效果
+		
+		实现山脉的导出
+		1. BuildLod命令 
+			在 Assets/ArtRes/land/Mountain_new 目录下把
+				"mountain_A1",
+                "mountain_A2",
+                "mountain_A3",
+                "mountain_B1",
+                "mountain_B2",
+                "mountain_C1",
+			导出到 Assets/BundleAssets/land/Mountain_new, 生成Lod1, Lod2, Lod3, Lod4节点，
+			应用 Assets/BundleAssets/land/Mesh/AutoMake/Mountain 的lod fbx asset
+		3. Save Tile Data
+			搜集场景中 _mountain 节点下的所有GameObject，使用位置信息，prefab使用 Assets/BundleAssets/land/Mountain_new 下的对应prefab
+			
+2022.1.14
+	Houdini场景工具
+		在 ArtRes/Land/TreeNew 下 用TreeEditor工具把SpriteRenderer转换为MeshRenderer
+		生成树的houdini场景节点，场景中树的替换
+		
+	实现了新的 900X900 的远景地表导入	使用 Assets/BundleAssets/land/Tile_Land/Tile_Large.prefab
+	
+2022.1.23
+	Houdini场景工具
+		编辑好Houdini的场景后，CreateMap创建场景，再依次点击 1.BuildLod 	2. BuildFar 	3.Save Map Data 	4.Save Tile Data
+		
+		1.BuildLod			生成山脉带Lod的prefab，保存到 Assets/BundleAssets/land/Mountain_new
+		2.BuildFar 			按900X900的地块单位合并远景树，保存到 Assets/BundleAssets/land/Tile_Far_new
+		3.Save Map Data		生成地图的所有地块信息，保存到 Assets/BundleAssets/land/MapData/场景_data.bytes
+							180X180 每块大小，一共40X40块，其中包含省份信息显示文件 BundleAssets/Map/Scenes/场景.tmx
+		4.Save Tile Data	生成每个地块的物体信息(山脉，近景树), 保存到 Assets/BundleAssets/land/MapData/场景_tile_data.bytes
+		
+		运行游戏时 在GlobalClient脚本中勾选 Test Houdini Scene，进入游戏就可以看到新的Houdini地图
+			
+
+			

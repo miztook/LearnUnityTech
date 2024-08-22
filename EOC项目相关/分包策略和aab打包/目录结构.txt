@@ -1,0 +1,53 @@
+Assets/BundleAssets/UI/UIPrefabs
+
+Assets/BundleAssets/Default
+
+Assets/BundleAssets/Effect/Prefabs				//合并成Effect
+
+Assets/BundleAssets/UI/UIEffect
+
+Assets/BundleAssets/Weather
+
+Assets/BundleAssets/Barbarian
+
+Assets/BundleAssets/Scene
+
+Assets/BundleAssets/land/NavMesh
+
+Assets/BundleAssets/land/MapData				//可以去掉
+
+Assets/BundleAssets/land
+
+Assets/BundleAssets/Beauty
+
+Assets/BundleAssets/BeautyRoom
+
+Assets/BundleAssets/PVE
+
+Assets/BundleAssets/Troop
+
+Assets/BundleAssets/Effect/Animations				//合并成Effect
+
+Assets/BundleAssets/Timeline						//废弃，去掉
+
+Assets/BundleAssets/Hero
+
+Assets/BundleAssets/HeroOther
+
+Assets/BundleAssets/Map/BuildingMesh				//可以去掉
+
+Assets/BundleAssets/PlotSpines
+
+Assets/BundleAssets/PlotImages
+
+Assets/BundleAssets/Map/Building/Buildingwild_use
+
+Assets/BundleAssets/Map/Building/Building_use/shared_building
+
+Assets/Shader
+
+Assets/BundleAssets/PlotTimeLines
+
+Assets/BundleAssets/CityFog							//移动位置
+
+Assets/BundleAssets/UI/UITextureStatic_3_0

@@ -1,0 +1,41 @@
+谷歌要求上架app需要支持sdk version 31 (Android 12)
+2023.7 sdk version 33 (Android 13)
+
+按现在的unity版本 2019.4 需要注意的问题可以参考 https://developers.google.com/ar/develop/unity-arf/android-12-build
+
+1. gradle版本需要 4.0.1	
+	unity自带gradle版本为3.4.0	报错 unrecognized Attribute name MODULE (也有解决方案说可以升级jdk到11, 但unity升级jdk比较麻烦)
+	可以参考 https://stackoverflow.com/questions/68344424/unrecognized-attribute-name-module-class-com-sun-tools-javac-util-sharednametab
+	
+	解决方法：
+		在 baseTemplate.gradle中 指定 classpath 'com.android.tools.build:gradle:4.0.1'
+		解压 gradle-6.1.1-all 然后在Unity的设置里指定使用 custom gradle
+
+2. 使用Build Tools 31.0.0
+
+	遇到报错 "Installed Build Tools revision 31.0.0 is corrupted"	可以参考
+	https://stackoverflow.com/questions/68387270/android-studio-error-installed-build-tools-revision-31-0-0-is-corrupted
+	
+	解决方法:
+		Android\Sdk\build-tools\31.0.0 下 d8.bat 改名 dx.bat
+		Android\Sdk\build-tools\31.0.0\lib 下 d8.jar 改名 dx.jar
+		
+3. 使用Build Tools 33.0.2
+
+	遇到报错 "Installed Build Tools revision 33.0.2 is corrupted"	可以参考
+	https://stackoverflow.com/questions/68387270/android-studio-error-installed-build-tools-revision-31-0-0-is-corrupted
+	
+	解决方法:
+		Android\Sdk\build-tools\33.0.2 下 d8.bat 改名 dx.bat
+		Android\Sdk\build-tools\33.0.2\lib 下 d8.jar 改名 dx.jar
+		
+4. AndroidManifest.xml的修改，基于Android 12的安全性考虑
+	参考: https://hi-dhl.blog.csdn.net/article/details/122034249
+ 
+	在 Android 12 中包含 <intent-filter> 的 activity，service 或 receiver 必须为这些应用组件显示声明 android:exported 属性
+		推荐 android:exported = false
+	指定 PendingIntent 的可变性 	推荐 PendingIntent.FLAG_IMMUTABLE
+	adb 备份限制		推荐 android:allowBackup = false
+	
+其他问题汇总:
+	https://www.songbingjia.com/nginx/show-287084.html

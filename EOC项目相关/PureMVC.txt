@@ -1,0 +1,59 @@
+Core
+	Controller
+		一个IView
+		注册command 是通过添加View的Observer实现的 Observer来执行command命令
+	Model
+		管理IProxy
+	View
+		管理Mediator 注册Mediator时 获取Notification的列表，每个Notification注册一个Observer
+		管理Observer 一个Notification对应多个Observer
+		
+Patterns
+	Command
+		SimpleCommand		单个命令
+		MacroCommand		执行一个注册到INotification的多个命令
+		
+	Facade
+		成员有 IController IModel IView
+		管理 Command, Proxy, Mediator, Observer
+		
+	Mediator (逻辑)
+		虚方法获取关注的Notification
+		
+	Observer
+		Notification		Name Body Type
+		Notifier			调用Facade.SendNotification
+		Observer			执行一个通知方法
+	
+	Proxy			只包含Data
+	
+Interfaces
+	ICommand		执行命令
+	
+	IController		注册command 通过notification执行command
+	
+	IFacade : INotifier
+		管理IProxy, ICommand, Mediator
+	
+	IMediator : INotifier
+		列出关注的Notification的列表，ViewComponent, 处理INotification
+		
+	IModel
+		管理IProxy
+	
+	INotification		//通知单位
+		Name, Body, Type
+	
+	INotifier
+		SendNotifications方法
+	
+	IObserver
+		接受Notification，执行Notify方法
+	
+	IProxy
+		只包含Data
+	
+	IView
+		管理IMediator
+		管理每个INotification的observer list
+

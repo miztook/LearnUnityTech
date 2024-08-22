@@ -1,0 +1,115 @@
+
+LocalMapEditor		//大世界地图文件生成工具
+	TileEditor			//针对prefab编辑 (ArtRes/land/Tile_lod0/)
+		OnSceneGUI
+			查看prefab的子节点: Lod0生成1-5
+			设置Shader变量:	_TreeScale
+		
+		BuildLod			把 ArtRes/land/Tile_lod0/ 下的prefab 分别生成 
+			BundleAssets/land 下
+				Mesh/AutoMake
+				Mesh/AutoMake/Mountain
+				Tile/AutoMake
+				Tile/AutoMake/Mountain
+			
+		LOD_1:			
+			基础地块	Groud
+			河流	River			//要求路径包含land/Mountain/	去掉Mesh的Collision节点
+			湖泊	Lake		//要求路径包含land/Mountain/	去掉Mesh的Collision节点
+			峡谷	Canyon		//要求路径包含land/Mountain/	去掉Mesh的Collision节点
+			山脉	Moutain, Mountain_Lod1, Mountain_Lod2, Mountain_Lod3, Mountain_Lod4, Mountain_Lod5 	
+			动态树		Dynamic		//位置设置成adorning
+			静态树		Static		//CreateGrove合并sprite的三角形	在Mesh/AutoMake下生成 _adorning_ 的asset， 在Tile/AutoMake下生成 _adorning_ 的prefab
+		
+		LOD_2:
+			基础地块	Groud			//material简化替换
+			河流	River			//增加 _plane_LOD2 的GameObject, sprite和material简化替换
+			湖泊	Lake			//增加 _plane_LOD2 的GameObject, sprite替换
+			山脉	Moutain, Mountain_Lod2, Mountain_Lod3, Mountain_Lod4, Mountain_Lod5 		//UnpackPrefabAndReplaceMeshLod 根据lod简化collision, edge，读取Mesh/AutoMake/Mountain下的_lod2.asset
+			动态树	Dynamic		//增加 _plane_LOD2 的GameObject, 添加LockAngle45组件, sprite替换(从adorning/center下的sprites替换)
+			静态树	Static 		//CreateGrove合并sprite的三角形	在Mesh/AutoMake下生成 _adorning_half_ 的asset， 在Tile/AutoMake下生成 _adorning_half_ 的prefab
+		
+		LOD_3:
+			基础地块 	Plane		//关闭阴影和Reflection Probe, material简化替换
+			河流	River			//增加 _plane_LOD2 的GameObject, sprite替换
+			湖泊	Lake			//增加 _plane_LOD2 的GameObject, sprite替换
+			山脉	Moutain, Mountain_Lod3, Mountain_Lod4, Mountain_Lod5 		//UnpackPrefabAndReplaceMeshLod 根据lod简化collision, edge，读取Mesh/AutoMake/Mountain下的_lod3.asset
+			动态树	Dynamic		//增加 _plane_LOD2 的GameObject, 添加LockAngle45组件, sprite替换(从adorning/center下的sprites替换)
+		
+		LOD_4:
+			基础地块 	Plane		//关闭阴影和Reflection Probe, material简化替换
+			河流	River			//增加 _plane_LOD2 的GameObject, sprite替换
+			湖泊	Lake			//增加 _plane_LOD2 的GameObject, sprite替换
+			山脉	Moutain, Mountain_Lod4, Mountain_Lod5 		//UnpackPrefabAndReplaceMeshLod 根据lod简化collision, edge，读取Mesh/AutoMake/Mountain下的_lod4.asset
+			动态树	Dynamic		//增加 _plane_LOD2 的GameObject, 添加LockAngle45组件, sprite替换(从adorning/center下的sprites替换)
+		
+						
+		基础地块:	1,2 Ground		3,4 Plane 简化
+		河流:		1 River			2,3,4 Sprite简化
+		湖泊:		1 Lake 			2,3,4 Sprite简化
+		峡谷:		1 Canyon 		2,3,4 无
+		山脉:		1 Mountain 保存物体 	2,3,4 简化mountain的mesh 
+		动态树:		1 Dynamic		2,3,4 Sprite简化
+		静态树:		1 Static 合并Sprite成Mesh	2 合并Sprite成Mesh(简化)
+		
+	TileMapEditor			//针对场景编辑 (BundleAssets/land/Scenes/)
+		OnEnabled		
+			找到TileMap的节点	名称是否包含pvp，添加TileMapHelper，如果是pvp，1行1列; 如果不是, 40行40列 (tile尺寸为180)
+					创建center对象 设置为navmesh区域0
+					创建Border对象
+						创建Inner	上下左右	设置navmesh区域为1	
+						创建Outter	上下左右	设置navmesh区域为1
+		OnSceneGUI	
+			选中 BundleAssets/land/Tile_lod1 下的prefab 
+				如果child个数为0
+					点CreateMap 创建 row * col 大小为tile_size的子game object
+				否则
+					点ClearMap 清除 prefab 下的所有分块game object
+					
+					点Camera				
+							从斜上方45度看Tile地图的中心点
+							
+					点Save Map Data			
+						BundleAssets/Map/Scenes/xxx.tmx		每个场景可以有一个tmx文件 表示一共有多少个省份，每个tile对应是哪个省份id
+						BundleAssets/land/MapData/xxx_data.bytes		每个tile有4个省份名字, 描述每个tile的信息(id, rot, river_flow, 省份名)
+					
+					点Save Tile Data
+							//对land/Tile_lod1下的所有prefab (Tile名称)	
+							//保存包含_TYPE_的节点scale和y轴旋转		大的分块一般为3X3个，每个60X60大小
+							
+					点Save PVE_Map_Data
+							//找到TileMap节点下的scene节点 做为pve场景节点，输出场景节点的名称 y旋转
+					
+					点Save Monster Data	
+							//查找所有挂有MonsterInfoBehavior组件获取monster info，列表保存成PVEMonsterInfos的asset
+					
+					点Import Monster Data			
+							//在Monster节点下，读取PVEMonsterInfos的配置文件，对每一个monsterInfo的创建game object，添加MonsterInfoBehavior组件，添加到对应的group_分组节点下
+					
+					点NavMeshMode
+							//设置Border的NavMeshArea为1，如果Mesh的layer为Collision，如果NavMeshArea为4则开启，为3则关闭 
+							
+					点NoBuildingMode
+							//设置Border的NavMeshArea为3，如果Mesh的layer为Collision，如果NavMeshArea为3则开启，为4则关闭 
+					
+					点ExportWalkable
+							//导出navmesh形状为 _Walkable_NavMesh.obj
+					点ExportNoBuilding
+							//导出navmesh形状为 _NoBuilding_NavMesh.obj
+					点ExportBuilding
+							//导出navmesh形状为 _Building_NavMesh.obj
+					
+			三种编辑模式	切换None, Paint, Rotation
+				鼠标点击，根据xz值计算出当前的tile
+				如果是Paint模式，重新生成Tile
+				如果是Rotation模式，把Tile旋转90度
+		
+	MeshEditor
+		修改山体Mesh		关闭LightProbe, ReflectionProbe, 关闭阴影和Reflection
+		导出山体mesh为		.asset
+	
+	GizmoHelperEditor
+		显示坐标顶点		为每棵树显示顶点坐标
+	
+	DynamicTreeEditor			//针对prefab编辑	(BundleAssets/land/Grove/)
+		land/Grove				//创建Adorning节点，设置Mesh Material

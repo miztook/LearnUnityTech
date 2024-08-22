@@ -1,0 +1,75 @@
+	Client.PVE.BP3EffectManager
+	Client.PVE.BP3EffectPutRuleManager
+	Client.PVE.BuffManager
+	Client.PVE.BulletManager
+	Client.PVE.CharacterFactory
+	Client.PVE.MotionEffectDataFactory
+	Client.PVE.MotionEffectFactory
+	Client.PVE.MotionEffectManager
+	Client.PVE.MotionManager
+	Client.PVE.ObjectPoolManager
+	Client.PVE.PveBattleMgr
+	Client.PVE.PveGameCore
+	Client.PVE.PveSystemManager
+	Client.PVE.SkillDataManager
+	DeviceLogger
+	GlobalBehaviourManger
+	ModelsManager
+	Skyunion.AddressAssetService
+	Skyunion.AlertManager
+	Skyunion.AppFacade
+	Skyunion.ArmyInfoHelp
+	Skyunion.AssetDatabaseService
+	Skyunion.AudioService
+	Skyunion.AutoMoveMgr
+	Skyunion.BeautyCamera
+	Skyunion.CellDatas
+	Skyunion.CityCamera
+	Skyunion.CityHudCountDownManager
+	Skyunion.DataService
+	Skyunion.FightHelper
+	Skyunion.ForceIncreaseTipManager
+	Skyunion.FormationMgr
+	Skyunion.GameLogic
+	Skyunion.GameModeManager
+	Skyunion.GlobalGame
+	Skyunion.GuideManager
+	Skyunion.HUDManager
+	Skyunion.InputManager
+	Skyunion.LevelDetailManager			
+		在lod_distance = camera.fov * dist 发生变化后，更新handler，每个handler计算自己的lod等级
+		在WorldCamera的zoom, 切换摄像机时触发
+		
+	Skyunion.LevelDetailScalerManager
+	Skyunion.LightManager
+	Skyunion.LogService
+	Skyunion.LuaManager
+	Skyunion.ManorLineMgr
+	Skyunion.MapManager
+	Skyunion.MarchLineMgr
+	Skyunion.NetManager
+	Skyunion.ObjectPoolMgr
+	Skyunion.PluginManager
+	Skyunion.ServerTimeModule
+	Skyunion.SquareHelper
+	Skyunion.SummonerTroopMgr
+	Skyunion.SystemOpen
+	Skyunion.TimerManager
+	Skyunion.TipManager
+	Skyunion.TroopsDatas
+	Skyunion.UIManager
+	Skyunion.UpdateManager
+	Skyunion.WeatherManager
+	Skyunion.WorldCamera
+		成员:	List<cameraInfoItem> cameraInfoList			管理多个摄像机参数配置
+		方法:	SetDefaultCamera				//内城，初始：city_default，极限: limit_min, min, city_bound
+				SetWorldCamera					//大世界，初始：map_tactical，极限: world_limit_min, world_min, limit_max
+				SetPvpCamera					//pvp, 初始：pvp_init，极限: pvp_fight, pvp_fight, pvp_init
+		其他：	ViewCenter变化时通知
+		
+	Skyunion.WorldEffectManager
+	Skyunion.WorldMapLogicMgr
+	Skyunion.WorldSkillFunction
+	Skyunion.WorldSkillManager
+	Skyunion.WorldSkillWarningManager
+	SubViewManager

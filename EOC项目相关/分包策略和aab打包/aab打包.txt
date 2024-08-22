@@ -1,0 +1,12 @@
+aab制作，1G以内的install time， 超出的部分fast follow
+
+	打包修改:
+		所有.unity场景打成一个bundle 作为fast follow，命名为all_scenes_unity
+		修改AssetPackConfig设置，aab制作的结果输出log
+		
+	参考:
+	
+		https://www.cnblogs.com/jeffxun/p/15142855.html
+		https://www.cnblogs.com/wangle/p/15440176.html
+		
+	1. 根据配置，创建AssetPackConfig, 设置每个打包的AssetPackName
