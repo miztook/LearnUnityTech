@@ -1,0 +1,2 @@
+set JENKINS_HOME = D:\Jenkins
+java -jar Jenkins.war
