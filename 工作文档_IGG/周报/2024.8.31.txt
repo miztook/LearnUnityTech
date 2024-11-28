@@ -1,7 +1,11 @@
 1. SRP的使用
 	URP的设置及材质shader改动
+	
 	SRP合批，需要做哪些修改
-	GpuInstance对骨骼动画的优化，是否生效
+		改动较大 GrabPass, 后处理, Projector都需重写
+	
+	GpuInstance对骨骼动画的优化，是否生效		
+		GpuInstance不支持 SkinnedRenderer 需要转为 MeshRenderer并把动画制作成贴图
 	
 2. HybridCLR代码热更新的步骤，注意事项
 
